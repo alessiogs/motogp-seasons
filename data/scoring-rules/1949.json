@@ -1,0 +1,12 @@
+{
+  "code": "1949",
+  "name": "1949: 10-8-7-6-5, Fastest-lap bonus, best three Round scores",
+  "source": "https://en.wikipedia.org/wiki/1949_Grand_Prix_motorcycle_racing_season#Scoring_system (points to the top five finishers: 10-8-7-6-5, plus one point for the finisher with the fastest lap; in the 350cc and 500cc championships only the best three results counted). Cross-checked by the final 500cc table: every Rider's counted points reproduce from the Results. To be re-checked by hand against motogp.com before this rule is published.",
+  "fastestLapPoints": 1,
+  "fastestLapRequiresFinish": true,
+  "countingWindows": [{ "fromRound": 1, "toRound": 6, "count": 3 }],
+  "points": {
+    "grand-prix-race": [10, 8, 7, 6, 5]
+  },
+  "notes": "500cc only. The Fastest-lap bonus goes to a finisher whatever their position: Graham pushed his bike over the line in 10th at the Isle of Man TT and kept the point."
+}

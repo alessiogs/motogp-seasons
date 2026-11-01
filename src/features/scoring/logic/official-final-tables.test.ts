@@ -51,6 +51,39 @@ describe.each(readdirSync(tablesDir).filter((f) => f.endsWith('.json')).map((f) 
   },
 );
 
+describe('1949 500cc', () => {
+  it('replays one Step per Round on the 10-8-7-6-5 table, with only the best three Round scores counting', () => {
+    const season = getSeason('500cc', 1949)!;
+    expect(computeReplay(season)).toHaveLength(6);
+    expect(season.rule.points['grand-prix-race']).toEqual([10, 8, 7, 6, 5]);
+    expect(season.rule.fastestLapPoints).toBe(1);
+    expect(season.rule.countingWindows).toEqual([{ fromRound: 1, toRound: 6, count: 3 }]);
+  });
+
+  it('gives Graham 31 Gross points but 30 Championship points, his Isle of Man point being a fastest lap from 10th place', () => {
+    const final = computeReplay(getSeason('500cc', 1949)!).at(-1)!.standings;
+    const graham = final.find((r) => r.riderId === 'leslie-graham')!;
+    expect([graham.grossPoints, graham.points, graham.roundScores[0]]).toEqual([31, 30, 1]);
+  });
+});
+
+describe('1989 500cc', () => {
+  it('replays one Step per championship Round on the 1988-91 points table', () => {
+    const season = getSeason('500cc', 1989)!;
+    expect(computeReplay(season)).toHaveLength(15);
+    expect(season.rule.points['grand-prix-race']).toEqual([20, 17, 15, 13, 11, 10, 9, 8, 7, 6, 5, 4, 3, 2, 1]);
+  });
+
+  it('scores the Belgian Grand Prix at Half points and notes that its Result is the aggregate of the parts', () => {
+    const season = getSeason('500cc', 1989)!;
+    const belgium = season.rounds.find((r) => r.number === 10)!;
+    expect(belgium.sessions[0].pointsMultiplier).toBe(0.5);
+    expect(belgium.notes).toMatch(/aggregate/i);
+    const lawson = computeReplay(season)[9].standings.find((r) => r.riderId === 'eddie-lawson')!;
+    expect(lawson.roundScores[9]).toBe(10);
+  });
+});
+
 describe('2024 MotoGP', () => {
   it('replays with 2 Steps per Round, Sprint then Grand Prix race', () => {
     const steps = computeReplay(getSeason('motogp', 2024)!);
