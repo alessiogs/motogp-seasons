@@ -10,6 +10,15 @@
 4. Merge the PR once `check` is green.
 5. To release, open a PR from `develop` into `main` and merge it. CI fails any PR into `main` whose head is not `develop`.
 
+## Code organization
+
+Code lives in `src/features/<feature>/`, one folder per feature, named in the vocabulary of `GLOSSARY.md` (`seasons`, `scoring`, `replay`, `data-build`). Code used by two or more features lives in `src/shared/`, with the same layout.
+
+- **Subfolders by kind**, created only when needed: `components/` (React components), `queries/` (build-time, server-only SQLite reads), `logic/` (pure functions, no I/O), `types/`, `scripts/` (Node entry points). Add a new kind only with a reason, and list it here. The site is a static export (ADR-0001), so Server Actions and route handlers are unavailable; build-time `queries/` take their place.
+- **One file per functionality**: each file exports one function or component named after the file, in kebab-case (`logic/compute-standings.ts` exports `computeStandings`). Helpers private to that file stay in it. Tests sit beside their file (`countback.test.ts`).
+- **Imports** point at the real file: no `index.ts` barrels. Features may import each other's files as long as no import cycle forms.
+- **`src/app/` is routing only**: `page.tsx` reads params, calls a feature query and renders a feature component; `generateStaticParams`, `layout.tsx` and `globals.css` stay there because Next.js requires them. Everything else belongs in a feature.
+
 ## Agent skills
 
 ### Issue tracker

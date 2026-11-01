@@ -1,8 +1,8 @@
 # MotoGP Seasons
 
-Relive every MotoGP season since 1949, round by round: pick a year and watch the championship standings evolve after each race.
+Relive every Grand Prix World Championship season since 1949, step by step: pick a season and watch the standings evolve after every points-paying session, up to the moment the World Champion is crowned.
 
-Starting with the premier class (500cc 1949–2001, MotoGP 2002–); Moto2/Moto3 and the older classes come later.
+Starting with the Premier category (500cc 1949–2001, MotoGP 2002–); the other classes come later. Domain vocabulary is in [GLOSSARY.md](GLOSSARY.md), decisions in [docs/adr/](docs/adr/).
 
 ## How it works
 
@@ -24,4 +24,6 @@ Recreate an empty database from the schema (wipes data): `npm run db:init -- --f
 
 ## Data notes
 
-Scoring systems changed many times since 1949. Each season points to a `scoring_rules` row; verify every historical points table and best-N rule against a reliable source before seeding it.
+- Per-season text files will become the source of truth, with SQLite generated from them at build time ([ADR-0002](docs/adr/0002-text-files-are-the-source-of-truth.md)); until that lands, `db/motogp.db` is still committed.
+- Results are loaded from Wikipedia and published under CC BY-SA; motogp.com is used only to check data by hand ([ADR-0007](docs/adr/0007-wikipedia-as-primary-data-source.md)).
+- Scoring systems changed many times since 1949. Verify every Scoring rule against a reliable source and record that source before publishing its seasons ([ADR-0003](docs/adr/0003-scoring-is-data.md)).

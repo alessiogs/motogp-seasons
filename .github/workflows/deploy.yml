@@ -1,8 +1,10 @@
 name: Deploy to GitHub Pages
 
+# Pages serves a single artifact, so every deploy builds both branches:
+# main at the site root, develop under /dev.
 on:
   push:
-    branches: [main]
+    branches: [main, develop]
   workflow_dispatch:
 
 permissions:
@@ -17,22 +19,48 @@ concurrency:
 jobs:
   build:
     runs-on: ubuntu-latest
+    strategy:
+      matrix:
+        include:
+          - branch: main
+            base_path: /motogp-seasons
+          - branch: develop
+            base_path: /motogp-seasons/dev
     steps:
       - uses: actions/checkout@v4
+        with:
+          ref: ${{ matrix.branch }}
       - uses: actions/setup-node@v4
         with:
           node-version: 22
-      - run: npm install
+      - run: if [ -f package-lock.json ]; then npm ci; else npm install; fi
       - run: npm test
       - run: npm run build
         env:
-          NEXT_PUBLIC_BASE_PATH: /motogp-seasons
-      - uses: actions/upload-pages-artifact@v3
+          NEXT_PUBLIC_BASE_PATH: ${{ matrix.base_path }}
+      - uses: actions/upload-artifact@v4
         with:
+          name: site-${{ matrix.branch }}
           path: out
 
-  deploy:
+  assemble:
     needs: build
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/download-artifact@v4
+        with:
+          name: site-main
+          path: site
+      - uses: actions/download-artifact@v4
+        with:
+          name: site-develop
+          path: site/dev
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: site
+
+  deploy:
+    needs: assemble
     runs-on: ubuntu-latest
     environment:
       name: github-pages
