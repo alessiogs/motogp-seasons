@@ -117,6 +117,37 @@ describe('computeReplay', () => {
     expect(table(s, 0)).toEqual([['a', 10], ['b', 9], ['c', 0]]);
   });
 
+  it('lets a points override beat both the points multiplier and the Fastest-lap bonus', () => {
+    const s = season([
+      round(1, [session('grand-prix-race', 2, [
+        { ...base, riderId: 'a', position: 1, outcome: 'FIN', fastestLap: true, pointsOverride: 3 },
+        { ...base, riderId: 'b', position: 2, outcome: 'FIN' },
+      ], { pointsMultiplier: 0.5 })]),
+    ], early);
+    // a: override 3 only (not 10 x 0.5 + 1); b: 8 x 0.5
+    expect(table(s, 0)).toEqual([['b', 4], ['a', 3]]);
+  });
+
+  it('applies the Half points multiplier before adding the Fastest-lap bonus', () => {
+    const s = season([
+      round(1, [session('grand-prix-race', 2, [
+        { ...base, riderId: 'a', position: 1, outcome: 'FIN', fastestLap: true },
+      ], { pointsMultiplier: 0.5 })]),
+    ], early);
+    // 10 x 0.5 + 1
+    expect(table(s, 0)).toEqual([['a', 6]]);
+  });
+
+  it('gives a Fastest-lap bonus to a classified finisher outside the points', () => {
+    const s = season([
+      round(1, [session('grand-prix-race', 2, [
+        ...finishers('a', 'b', 'c', 'd', 'e'),
+        { ...base, riderId: 'f', position: 10, outcome: 'FIN', fastestLap: true },
+      ])]),
+    ], early);
+    expect(table(s, 0).find(([id]) => id === 'f')).toEqual(['f', 1]);
+  });
+
   it('adds no Step and no points for a Non-championship round', () => {
     const s = season([
       round(1, [gp('a', 'b')]),

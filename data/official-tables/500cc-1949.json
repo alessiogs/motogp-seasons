@@ -1,0 +1,270 @@
+{
+  "source": "https://en.wikipedia.org/wiki/1949_Grand_Prix_motorcycle_racing_season",
+  "standings": [
+    {
+      "position": 1,
+      "rider": "leslie-graham",
+      "points": 30
+    },
+    {
+      "position": 2,
+      "rider": "nello-pagani",
+      "points": 29
+    },
+    {
+      "position": 3,
+      "rider": "arciso-artesiani",
+      "points": 25
+    },
+    {
+      "position": 4,
+      "rider": "bill-doran",
+      "points": 23
+    },
+    {
+      "position": 5,
+      "rider": "artie-bell",
+      "points": 20
+    },
+    {
+      "position": 6,
+      "rider": "harold-daniell",
+      "points": 17
+    },
+    {
+      "position": 7,
+      "rider": "johnny-lockett",
+      "points": 13
+    },
+    {
+      "position": 8,
+      "rider": "enrico-lorenzetti",
+      "points": 7
+    },
+    {
+      "position": 9,
+      "rider": "ernie-lyons",
+      "points": 7
+    },
+    {
+      "position": 10,
+      "rider": "gianni-leoni",
+      "points": 6
+    },
+    {
+      "position": 11,
+      "rider": "syd-jensen",
+      "points": 5
+    },
+    {
+      "position": 12,
+      "rider": "freddie-frith",
+      "points": 5
+    },
+    {
+      "position": 13,
+      "rider": "bruno-bertacchini",
+      "points": 5
+    },
+    {
+      "position": 14,
+      "rider": "jock-west",
+      "points": 5
+    },
+    {
+      "position": 15,
+      "rider": "ken-armstrong",
+      "points": 0
+    },
+    {
+      "position": 18,
+      "rider": "ken-bills",
+      "points": 0
+    },
+    {
+      "position": 19,
+      "rider": "harry-turner",
+      "points": 0
+    },
+    {
+      "position": 20,
+      "rider": "umberto-masetti",
+      "points": 0
+    },
+    {
+      "position": 21,
+      "rider": "reg-armstrong",
+      "points": 0
+    },
+    {
+      "position": 23,
+      "rider": "harry-hinton",
+      "points": 0
+    },
+    {
+      "position": 24,
+      "rider": "george-morrison",
+      "points": 0
+    },
+    {
+      "position": 25,
+      "rider": "roger-richoz",
+      "points": 0
+    },
+    {
+      "position": 28,
+      "rider": "oscar-clemencich",
+      "points": 0
+    },
+    {
+      "position": 29,
+      "rider": "sante-geminiani",
+      "points": 0
+    },
+    {
+      "position": 31,
+      "rider": "dante-bianchi",
+      "points": 0
+    },
+    {
+      "position": 34,
+      "rider": "arthur-wheeler",
+      "points": 0
+    },
+    {
+      "position": 35,
+      "rider": "phil-heath",
+      "points": 0
+    },
+    {
+      "position": 36,
+      "rider": "adelmo-mandolini",
+      "points": 0
+    },
+    {
+      "position": 38,
+      "rider": "oliver-scott",
+      "points": 0
+    },
+    {
+      "position": 39,
+      "rider": "bill-beevers",
+      "points": 0
+    },
+    {
+      "position": 40,
+      "rider": "antonio-dalle-fusine",
+      "points": 0
+    },
+    {
+      "position": 42,
+      "rider": "lodovico-facchinelli",
+      "points": 0
+    },
+    {
+      "position": 43,
+      "rider": "edward-nicholls",
+      "points": 0
+    },
+    {
+      "position": 44,
+      "rider": "guy-newman",
+      "points": 0
+    },
+    {
+      "position": 48,
+      "rider": "alfeo-maramotti",
+      "points": 0
+    },
+    {
+      "position": 53,
+      "rider": "roy-evans",
+      "points": 0
+    },
+    {
+      "position": 55,
+      "rider": "jack-bailey",
+      "points": 0
+    },
+    {
+      "position": 56,
+      "rider": "johnny-hodgkin",
+      "points": 0
+    },
+    {
+      "position": 57,
+      "rider": "dick-addie",
+      "points": 0
+    },
+    {
+      "position": 58,
+      "rider": "albert-moule",
+      "points": 0
+    },
+    {
+      "position": 59,
+      "rider": "george-paterson",
+      "points": 0
+    },
+    {
+      "position": 60,
+      "rider": "bob-matthews",
+      "points": 0
+    },
+    {
+      "position": 61,
+      "rider": "george-hayden",
+      "points": 0
+    },
+    {
+      "position": 62,
+      "rider": "john-purnell",
+      "points": 0
+    },
+    {
+      "position": 63,
+      "rider": "lesly-hill",
+      "points": 0
+    },
+    {
+      "position": 64,
+      "rider": "arthur-fenn",
+      "points": 0
+    },
+    {
+      "position": 65,
+      "rider": "harry-francis",
+      "points": 0
+    },
+    {
+      "position": 66,
+      "rider": "eric-hardy",
+      "points": 0
+    },
+    {
+      "position": 67,
+      "rider": "jack-brett",
+      "points": 0
+    },
+    {
+      "position": 68,
+      "rider": "lennart-fenning",
+      "points": 0
+    },
+    {
+      "position": 69,
+      "rider": "rob-weston",
+      "points": 0
+    },
+    {
+      "position": 70,
+      "rider": "joe-glazebrook",
+      "points": 0
+    },
+    {
+      "position": 71,
+      "rider": "joe-dent",
+      "points": 0
+    }
+  ]
+}

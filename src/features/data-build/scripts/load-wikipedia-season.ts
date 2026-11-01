@@ -5,7 +5,12 @@
 // Writes data/seasons/<class>-<year>.json, adds new Riders to data/riders.json and writes the
 // official final table seen on Wikipedia to data/official-tables/<class>-<year>.json (used by tests).
 // The output is a first draft: correct it by hand against motogp.com before it is published.
-// Currently reads MotoGP-class seasons with Sprint + Grand Prix race (2023 onwards).
+// MotoGP-class seasons are read with Sprint + Grand Prix race (2023 onwards). 500cc Seasons have one
+// Session per Round: the report articles' "500cc classification" tables when they carry one
+// (1989), otherwise the season article's final-standings matrix, which only lists riders who
+// scored in the Season (1949, whose report articles are too uneven). Half points, aggregate
+// classifications and the Scoring rule are not detected: set them by hand.
+//   npm run data:load-wikipedia -- 500cc 1989
 import { existsSync, mkdirSync, readFileSync, writeFileSync } from 'node:fs';
 import path from 'node:path';
 
@@ -22,8 +27,8 @@ interface ResultOut {
 async function main() {
   const [classCode, yearArg] = process.argv.slice(2);
   const year = Number(yearArg);
-  if (classCode !== 'motogp' || !Number.isInteger(year)) {
-    console.error('Usage: npm run data:load-wikipedia -- motogp <year>   (only MotoGP-class Seasons are supported so far)');
+  if ((classCode !== 'motogp' && classCode !== '500cc') || !Number.isInteger(year)) {
+    console.error('Usage: npm run data:load-wikipedia -- <motogp|500cc> <year>');
     process.exit(1);
   }
   const dataDir = path.join(process.cwd(), 'data');
@@ -49,34 +54,58 @@ async function main() {
     return id;
   }
 
-  const seasonTitle = `${year} MotoGP World Championship`;
+  const seasonTitle = classCode === 'motogp' ? `${year} MotoGP World Championship` : `${year} Grand Prix motorcycle racing season`;
   const seasonText = await fetchWikitext(seasonTitle);
   const reportTitles = extractReportTitles(seasonText);
   if (reportTitles.length === 0) throw new Error(`No Grand Prix report links found on ${seasonTitle}`);
 
   const rounds = [];
-  for (const [i, title] of reportTitles.entries()) {
-    console.error(`Round ${i + 1}: ${title}`);
-    const text = await fetchWikitext(title);
-    rounds.push(parseRound(i + 1, title, year, text, riderId));
+  let scoringRule = '2023-plus';
+  let notes = `Loaded from Wikipedia (${seasonTitle}); needs a hand check against motogp.com.`;
+  if (classCode === 'motogp') {
+    for (const [i, title] of reportTitles.entries()) {
+      console.error(`Round ${i + 1}: ${title}`);
+      const text = await fetchWikitext(title);
+      rounds.push(parseRound(i + 1, title, year, text, riderId));
+    }
+  } else {
+    scoringRule = 'TODO-set-by-hand';
+    const calendar = parseCalendar(seasonText, year);
+    const matrix = parseStandingsMatrix(seasonText, reportTitles.length, riderId);
+    for (const [i, title] of reportTitles.entries()) {
+      console.error(`Round ${i + 1}: ${title}`);
+      const text = await fetchWikitext(title);
+      const source = seasonUrl(title);
+      const classification = firstPerRider(parseClassicClassification(text, source, riderId));
+      // The fuller of the two wins; the matrix is the only one that flags the fastest lap.
+      const fromMatrix = matrix.resultsForRound(i, seasonUrl(seasonTitle));
+      const results = classification.length >= fromMatrix.length ? classification : fromMatrix;
+      rounds.push({
+        number: i + 1,
+        name: calendar[i]?.name ?? title,
+        circuit: calendar[i]?.circuit ?? null,
+        country: calendar[i]?.country ?? null,
+        date: calendar[i]?.date ?? null,
+        nonChampionship: false,
+        notes: null,
+        sessions: [{ type: 'grand-prix-race', order: 1, date: calendar[i]?.date ?? null, pointsMultiplier: 1, notes: null, results }],
+      });
+    }
+    notes = `Loaded from Wikipedia (${seasonTitle}); needs a hand check against motogp.com. Set the Scoring rule, Half points and aggregate classifications by hand.`;
   }
 
-  const seasonFile = {
-    class: classCode,
-    year,
-    scoringRule: '2023-plus',
-    notes: `Loaded from Wikipedia (${seasonTitle}); needs a hand check against motogp.com.`,
-    rounds,
-  };
+  const seasonFile = { class: classCode, year, scoringRule, notes, rounds };
 
-  const official = parseOfficialTable(seasonText, riderId);
+  const official = classCode === 'motogp'
+    ? parseOfficialTable(seasonText, riderId)
+    : parseClassicOfficialTable(seasonText, riderId);
 
   mkdirSync(path.join(dataDir, 'seasons'), { recursive: true });
   mkdirSync(path.join(dataDir, 'official-tables'), { recursive: true });
   writeFileSync(path.join(dataDir, 'seasons', `${classCode}-${year}.json`), JSON.stringify(seasonFile, null, 2) + '\n');
   writeFileSync(
     path.join(dataDir, 'official-tables', `${classCode}-${year}.json`),
-    JSON.stringify({ source: `https://en.wikipedia.org/wiki/${encodeURIComponent(seasonTitle.replaceAll(' ', '_'))}`, standings: official }, null, 2) + '\n',
+    JSON.stringify({ source: seasonUrl(seasonTitle), standings: official }, null, 2) + '\n',
   );
   writeFileSync(ridersPath, JSON.stringify(riders, null, 2) + '\n');
   console.error(`Wrote ${rounds.length} rounds and ${riders.length} riders. Review the diff and correct by hand.`);
@@ -235,6 +264,178 @@ function parseOfficialTable(seasonText: string, riderId: (articleTitle: string, 
     });
   }
   return standings;
+}
+
+// ---------------------------------------------------------------------------- 500cc seasons
+
+function seasonUrl(title: string): string {
+  return `https://en.wikipedia.org/wiki/${encodeURIComponent(title.replaceAll(' ', '_'))}`;
+}
+
+type RiderIdFn = (articleTitle: string, displayName: string) => string;
+
+/** Date, Grand Prix name, circuit and country of every Round from the season article's calendar table. */
+function parseCalendar(seasonText: string, year: number) {
+  const table = extractTables(seasonText).find((t) => /calendar/i.test(t.path.join(' ')) && /Circuit/.test(t.text));
+  if (!table) return [];
+  const rounds: { name: string; circuit: string | null; country: string | null; date: string | null }[] = [];
+  for (const row of table.text.split(/^\|-.*$/m)) {
+    const lines = row.split('\n').filter((l) => /^[!|]/.test(l));
+    const first = lines[0] && cellText(lines[0]);
+    if (!first || !/^\d+$/.test(first)) continue;
+    const [, date, grandPrix, circuit] = lines.map(cellText);
+    rounds[Number(first) - 1] = {
+      name: stripMarkup(grandPrix.replace(/\{\{flagicon[^}]*\}\}/gi, '')),
+      circuit: stripMarkup(circuit) || null,
+      country: grandPrix.match(/flagicon\|([^|}]+)/i)?.[1] ?? null,
+      date: toIsoDate(date, year),
+    };
+  }
+  return rounds;
+}
+
+/** A report article's "500cc classification" table, read by its header names. Empty if it has none. */
+function parseClassicClassification(text: string, source: string, riderId: RiderIdFn): ResultOut[] {
+  const table = extractTables(text).find(
+    (t) => t.path.some((p) => /^500(&nbsp;|\s)*cc/i.test(p) && /classification/i.test(p)) && /Rider/.test(t.text),
+  );
+  if (!table) return [];
+  const allRows = table.text.split(/^\|-.*$/m);
+  const headerIdx = allRows.findIndex((r) => /^!.*Rider/im.test(r));
+  const rows = allRows.slice(headerIdx === -1 ? 0 : headerIdx);
+  const headers = rows[0].split('\n').filter((l) => l.startsWith('!')).map(cellText);
+  const col = (re: RegExp) => headers.findIndex((h) => re.test(h));
+  const [posCol, riderCol, teamCol, makeCol, numCol] = [/^pos/i, /^rider/i, /^team/i, /^(manufacturer|machine|bike)/i, /^(no|num)/i].map(col);
+  if (posCol === -1 || riderCol === -1) return [];
+  const results: ResultOut[] = [];
+  for (const row of rows.slice(1)) {
+    const cells = row.split('\n').filter((l) => /^[!|]/.test(l) && !/^\|[}+]/.test(l)).map(cellText);
+    const who = cells[riderCol] && /flagicon/i.test(cells[riderCol]) ? parseRiderCell(cells[riderCol]) : null;
+    if (!who) continue;
+    const pos = cells[posCol];
+    const classified = /^\d+$/.test(pos);
+    results.push({
+      rider: riderId(who.title, who.name),
+      position: classified ? Number(pos) : null,
+      outcome: classified ? 'FIN' : toOutcome(pos),
+      fastestLap: false,
+      pointsOverride: null,
+      team: teamCol === -1 ? null : stripMarkup(cells[teamCol] ?? '') || null,
+      manufacturer: makeCol === -1 ? null : stripMarkup(cells[makeCol] ?? '') || null,
+      bikeNumber: numCol !== -1 && /^\d+$/.test(cells[numCol] ?? '') ? Number(cells[numCol]) : null,
+      nationality: cells[riderCol].match(/flagicon\|([A-Za-z ]+)/i)?.[1] ?? null,
+      source,
+    });
+  }
+  return results;
+}
+
+/** Rider named in a table cell, linked or not (minor riders have no article): the article title (or name) and display name. */
+function parseRiderCell(cell: string): { title: string; name: string } | null {
+  const link = cell.match(/\[\[([^\]|]+)(?:\|([^\]]+))?\]\]/);
+  if (link) return { title: link[1], name: (link[2] ?? link[1]).replace(/\s*\(.*\)$/, '').trim() };
+  const bare = cell.replace(/^[^|[{]*=[^|[{]*\|(?!\|)/, ''); // leading cell attributes: style="..." nowrap|
+  const name = stripMarkup(bare.replace(/\{\{\s*flagicon[^}]*\}\}/gi, '')).replace(/\(.*\)/, '').trim();
+  return name ? { title: name, name } : null;
+}
+
+/**
+ * One entry per Rider: the first one wins. Sources list a Rider twice when a table runs on into other
+ * classes, or when they have a Result and a later "Did not start" line in the same Session.
+ */
+function firstPerRider<T extends { rider?: string; riderId?: string }>(entries: T[]): T[] {
+  const seen = new Set<string>();
+  return entries.filter((e) => {
+    const id = (e.rider ?? e.riderId)!;
+    if (seen.has(id)) return false;
+    seen.add(id);
+    return true;
+  });
+}
+
+/** Cells of every row of a table, with "||" inline separators expanded. */
+function tableRows(tableText: string): string[][] {
+  return tableText
+    .split(/^\|-.*$/m)
+    .map((row) =>
+      row
+        .split('\n')
+        .filter((l) => /^[!|]/.test(l) && !/^\|[}+]/.test(l))
+        .flatMap((l) => l.replace(/^[!|]/, '').split('||'))
+        .map((c) => c.trim()),
+    )
+    .filter((cells) => cells.length > 0);
+}
+
+function standingsTable(seasonText: string) {
+  const table = extractTables(seasonText).find(
+    (t) => /500\s*cc/i.test(t.path.join(' ')) && /standings/i.test(t.path.join(' ')) && /Pts/.test(t.text),
+  );
+  // An unclosed wrapper table (1989) runs on into the next classes: stop at the next heading.
+  return table && { ...table, text: table.text.split(/^=+[^=\n].*$/m)[0] };
+}
+
+/** The 500cc final-standings matrix of the season article: one cell per Round (position, "Ret", blank; italics = fastest lap). */
+function parseStandingsMatrix(seasonText: string, roundCount: number, riderId: RiderIdFn) {
+  const entries: { riderId: string; nationality: string | null; machine: string | null; cells: string[] }[] = [];
+  const table = standingsTable(seasonText);
+  for (const row of table ? tableRows(table.text) : []) {
+    const riderIdx = row.findIndex((c) => /flagicon/i.test(c) && !/<br/i.test(c)); // not a column header
+    const who = riderIdx === -1 ? null : parseRiderCell(row[riderIdx]);
+    if (!who) continue;
+    const rest = row.slice(riderIdx + 1);
+    entries.push({
+      riderId: riderId(who.title, who.name),
+      nationality: row[riderIdx].match(/flagicon\|([A-Za-z ]+)/i)?.[1] ?? null,
+      machine: stripMarkup(rest[0] ?? '') || null,
+      // Machine (and Team) cells come first, then one cell per Round, then the points.
+      cells: rest.slice(rest.length - 1 - roundCount, rest.length - 1),
+    });
+  }
+  return {
+    resultsForRound(index: number, source: string): ResultOut[] {
+      const out: ResultOut[] = [];
+      for (const e of firstPerRider(entries)) {
+        const raw = e.cells[index] ?? '';
+        const value = stripMarkup(cellText(`|${raw}`)).replace(/'/g, '').trim();
+        if (!value) continue;
+        const classified = /^\d+$/.test(value);
+        out.push({
+          rider: e.riderId,
+          position: classified ? Number(value) : null,
+          outcome: classified ? 'FIN' : toOutcome(value),
+          fastestLap: /''/.test(raw),
+          pointsOverride: null,
+          team: null,
+          manufacturer: e.machine,
+          bikeNumber: null,
+          nationality: e.nationality,
+          source,
+        });
+      }
+      return out.sort((a, b) => (a.position ?? 999) - (b.position ?? 999));
+    },
+  };
+}
+
+/** The 500cc final riders' standings table of the season article (positions and points). */
+function parseClassicOfficialTable(seasonText: string, riderId: RiderIdFn) {
+  const table = standingsTable(seasonText);
+  if (!table) throw new Error("500cc riders' standings table not found");
+  const standings: { position: number; rider: string; points: number }[] = [];
+  for (const row of tableRows(table.text)) {
+    const riderCell = row.find((c) => /flagicon/i.test(c) && !/<br/i.test(c));
+    const who = riderCell ? parseRiderCell(riderCell) : null;
+    const position = row[0] && cellText(`|${row[0]}`);
+    const points = stripMarkup(cellText(`|${row[row.length - 1]}`)).replace(/'/g, '').match(/^\d+(?:\.\d+)?/)?.[0];
+    if (!who || !position || !/^\d+$/.test(position) || points == null) continue;
+    standings.push({
+      position: Number(position),
+      rider: riderId(who.title, who.name),
+      points: Number(points),
+    });
+  }
+  return firstPerRider(standings);
 }
 
 // ---------------------------------------------------------------------------- small helpers
