@@ -1,10 +1,4 @@
-export interface Flag {
-  /** The code as stored on the Result. */
-  code: string;
-  name: string;
-  /** Null for a country with no emoji flag (most that no longer exist): show the code as a badge. */
-  emoji: string | null;
-}
+import type { Flag } from '../types/flag';
 
 /** country name, ISO 3166-1 alpha-2 (null = no emoji flag exists) */
 type Entry = readonly [name: string, iso2: string | null];

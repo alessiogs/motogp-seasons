@@ -1,16 +1,6 @@
 import type { Outcome } from '@/features/seasons/types/outcome';
+import type { ClassificationRow } from '../types/classification-row';
 import type { Session } from '@/features/seasons/types/session';
-
-export interface ClassificationRow {
-  riderId: string;
-  /** "1", "2", ... for a finishing position; an en dash when there is none. */
-  positionLabel: string;
-  /** Null for a normal finish; otherwise how the Result ended, in words. */
-  outcomeLabel: string | null;
-  team: string | null;
-  manufacturer: string | null;
-  bikeNumber: number | null;
-}
 
 const OUTCOME_LABELS: Record<Outcome, string | null> = {
   FIN: null,
@@ -38,9 +28,4 @@ export function classificationOf(session: Session): ClassificationRow[] {
       manufacturer: result.manufacturer,
       bikeNumber: result.bikeNumber,
     }));
-}
-
-/** The top three finishers of a Classification. */
-export function podiumOf(rows: ClassificationRow[]): ClassificationRow[] {
-  return rows.filter((r) => r.outcomeLabel === null).slice(0, 3);
 }

@@ -1,7 +1,8 @@
 import Link from 'next/link';
 import { computeReplay } from '@/features/scoring/logic/compute-replay';
 import type { Season } from '@/features/seasons/types/season';
-import { classificationOf, type ClassificationRow } from '../logic/classification';
+import { classificationOf } from '../logic/classification-of';
+import type { ClassificationRow } from '../types/classification-row';
 import SeasonReplay from './season-replay';
 
 export default function SeasonView({ season }: { season: Season }) {

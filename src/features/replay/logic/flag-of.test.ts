@@ -1,5 +1,5 @@
 import { describe, expect, it } from 'vitest';
-import { flagOf } from './flag';
+import { flagOf } from './flag-of';
 
 describe('flagOf', () => {
   it('gives an emoji flag for a current country, whichever code spelling the source used', () => {

@@ -3,7 +3,7 @@
 import { useState } from 'react';
 import type { ReplayStep } from '@/features/scoring/types/replay-step';
 import { sessionLabel } from '../logic/session-label';
-import type { ClassificationRow } from '../logic/classification';
+import type { ClassificationRow } from '../types/classification-row';
 import FlagBadge from './flag-badge';
 import StepDetails from './step-details';
 import TitleRacePanel from './title-race-panel';
