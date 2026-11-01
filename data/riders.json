@@ -1,0 +1,3236 @@
+[
+  {
+    "id": "jorge-martin",
+    "name": "Jorge Martín",
+    "sourceIds": {
+      "wikipedia": "Jorge Martín"
+    }
+  },
+  {
+    "id": "brad-binder",
+    "name": "Brad Binder",
+    "sourceIds": {
+      "wikipedia": "Brad Binder"
+    }
+  },
+  {
+    "id": "aleix-espargaro",
+    "name": "Aleix Espargaró",
+    "sourceIds": {
+      "wikipedia": "Aleix Espargaró"
+    }
+  },
+  {
+    "id": "francesco-bagnaia",
+    "name": "Francesco Bagnaia",
+    "sourceIds": {
+      "wikipedia": "Francesco Bagnaia"
+    }
+  },
+  {
+    "id": "marc-marquez",
+    "name": "Marc Márquez",
+    "sourceIds": {
+      "wikipedia": "Marc Márquez"
+    }
+  },
+  {
+    "id": "enea-bastianini",
+    "name": "Enea Bastianini",
+    "sourceIds": {
+      "wikipedia": "Enea Bastianini"
+    }
+  },
+  {
+    "id": "alex-marquez",
+    "name": "Álex Márquez",
+    "sourceIds": {
+      "wikipedia": "Álex Márquez"
+    }
+  },
+  {
+    "id": "pedro-acosta",
+    "name": "Pedro Acosta",
+    "sourceIds": {
+      "wikipedia": "Pedro Acosta"
+    }
+  },
+  {
+    "id": "maverick-vinales",
+    "name": "Maverick Viñales",
+    "sourceIds": {
+      "wikipedia": "Maverick Viñales"
+    }
+  },
+  {
+    "id": "jack-miller",
+    "name": "Jack Miller",
+    "sourceIds": {
+      "wikipedia": "Jack Miller (motorcyclist)"
+    }
+  },
+  {
+    "id": "marco-bezzecchi",
+    "name": "Marco Bezzecchi",
+    "sourceIds": {
+      "wikipedia": "Marco Bezzecchi"
+    }
+  },
+  {
+    "id": "fabio-quartararo",
+    "name": "Fabio Quartararo",
+    "sourceIds": {
+      "wikipedia": "Fabio Quartararo"
+    }
+  },
+  {
+    "id": "raul-fernandez",
+    "name": "Raúl Fernández",
+    "sourceIds": {
+      "wikipedia": "Raúl Fernández (motorcyclist)"
+    }
+  },
+  {
+    "id": "joan-mir",
+    "name": "Joan Mir",
+    "sourceIds": {
+      "wikipedia": "Joan Mir"
+    }
+  },
+  {
+    "id": "johann-zarco",
+    "name": "Johann Zarco",
+    "sourceIds": {
+      "wikipedia": "Johann Zarco"
+    }
+  },
+  {
+    "id": "alex-rins",
+    "name": "Álex Rins",
+    "sourceIds": {
+      "wikipedia": "Álex Rins"
+    }
+  },
+  {
+    "id": "augusto-fernandez",
+    "name": "Augusto Fernández",
+    "sourceIds": {
+      "wikipedia": "Augusto Fernández (motorcyclist)"
+    }
+  },
+  {
+    "id": "takaaki-nakagami",
+    "name": "Takaaki Nakagami",
+    "sourceIds": {
+      "wikipedia": "Takaaki Nakagami"
+    }
+  },
+  {
+    "id": "franco-morbidelli",
+    "name": "Franco Morbidelli",
+    "sourceIds": {
+      "wikipedia": "Franco Morbidelli"
+    }
+  },
+  {
+    "id": "luca-marini",
+    "name": "Luca Marini",
+    "sourceIds": {
+      "wikipedia": "Luca Marini"
+    }
+  },
+  {
+    "id": "fabio-di-giannantonio",
+    "name": "Fabio Di Giannantonio",
+    "sourceIds": {
+      "wikipedia": "Fabio Di Giannantonio"
+    }
+  },
+  {
+    "id": "miguel-oliveira",
+    "name": "Miguel Oliveira",
+    "sourceIds": {
+      "wikipedia": "Miguel Oliveira"
+    }
+  },
+  {
+    "id": "dani-pedrosa",
+    "name": "Dani Pedrosa",
+    "sourceIds": {
+      "wikipedia": "Dani Pedrosa"
+    }
+  },
+  {
+    "id": "lorenzo-savadori",
+    "name": "Lorenzo Savadori",
+    "sourceIds": {
+      "wikipedia": "Lorenzo Savadori"
+    }
+  },
+  {
+    "id": "stefan-bradl",
+    "name": "Stefan Bradl",
+    "sourceIds": {
+      "wikipedia": "Stefan Bradl"
+    }
+  },
+  {
+    "id": "pol-espargaro",
+    "name": "Pol Espargaró",
+    "sourceIds": {
+      "wikipedia": "Pol Espargaró"
+    }
+  },
+  {
+    "id": "remy-gardner",
+    "name": "Remy Gardner",
+    "sourceIds": {
+      "wikipedia": "Remy Gardner"
+    }
+  },
+  {
+    "id": "andrea-iannone",
+    "name": "Andrea Iannone",
+    "sourceIds": {
+      "wikipedia": "Andrea Iannone"
+    }
+  },
+  {
+    "id": "michele-pirro",
+    "name": "Michele Pirro",
+    "sourceIds": {
+      "wikipedia": "Michele Pirro"
+    }
+  },
+  {
+    "id": "barry-sheene",
+    "name": "Barry Sheene",
+    "sourceIds": {
+      "wikipedia": "Barry Sheene"
+    }
+  },
+  {
+    "id": "johnny-cecotto",
+    "name": "Johnny Cecotto",
+    "sourceIds": {
+      "wikipedia": "Johnny Cecotto"
+    }
+  },
+  {
+    "id": "marco-lucchinelli",
+    "name": "Marco Lucchinelli",
+    "sourceIds": {
+      "wikipedia": "Marco Lucchinelli"
+    }
+  },
+  {
+    "id": "giacomo-agostini",
+    "name": "Giacomo Agostini",
+    "sourceIds": {
+      "wikipedia": "Giacomo Agostini"
+    }
+  },
+  {
+    "id": "victor-palomo",
+    "name": "Victor Palomo",
+    "sourceIds": {
+      "wikipedia": "Victor Palomo"
+    }
+  },
+  {
+    "id": "stuart-avant",
+    "name": "Stuart Avant",
+    "sourceIds": {
+      "wikipedia": "Stuart Avant"
+    }
+  },
+  {
+    "id": "dieter-braun",
+    "name": "Dieter Braun",
+    "sourceIds": {
+      "wikipedia": "Dieter Braun"
+    }
+  },
+  {
+    "id": "karl-auer",
+    "name": "Karl Auer",
+    "sourceIds": {
+      "wikipedia": "Karl Auer (motorcyclist)"
+    }
+  },
+  {
+    "id": "boet-van-dulmen",
+    "name": "Boet van Dulmen",
+    "sourceIds": {
+      "wikipedia": "Boet van Dulmen"
+    }
+  },
+  {
+    "id": "olivier-chevallier",
+    "name": "Olivier Chevallier",
+    "sourceIds": {
+      "wikipedia": "Olivier Chevallier"
+    }
+  },
+  {
+    "id": "steve-parrish",
+    "name": "Steve Parrish",
+    "sourceIds": {
+      "wikipedia": "Steve Parrish"
+    }
+  },
+  {
+    "id": "chas-mortimer",
+    "name": "Chas Mortimer",
+    "sourceIds": {
+      "wikipedia": "Chas Mortimer"
+    }
+  },
+  {
+    "id": "gilles-husson",
+    "name": "Gilles Husson",
+    "sourceIds": {
+      "wikipedia": "Gilles Husson"
+    }
+  },
+  {
+    "id": "alex-george",
+    "name": "Alex George",
+    "sourceIds": {
+      "wikipedia": "Alex George (motorcyclist)"
+    }
+  },
+  {
+    "id": "edmar-ferreira",
+    "name": "Edmar Ferreira",
+    "sourceIds": {
+      "wikipedia": "Edmar Ferreira"
+    }
+  },
+  {
+    "id": "rene-guili",
+    "name": "René Guili",
+    "sourceIds": {
+      "wikipedia": "René Guili"
+    }
+  },
+  {
+    "id": "johnny-bengtsson",
+    "name": "Johnny Bengtsson",
+    "sourceIds": {
+      "wikipedia": "Johnny Bengtsson"
+    }
+  },
+  {
+    "id": "helmut-kassner",
+    "name": "Helmut Kassner",
+    "sourceIds": {
+      "wikipedia": "Helmut Kassner"
+    }
+  },
+  {
+    "id": "jules-nies",
+    "name": "Jules Nies",
+    "sourceIds": {
+      "wikipedia": "Jules Nies"
+    }
+  },
+  {
+    "id": "jack-findlay",
+    "name": "Jack Findlay",
+    "sourceIds": {
+      "wikipedia": "Jack Findlay"
+    }
+  },
+  {
+    "id": "phil-read",
+    "name": "Phil Read",
+    "sourceIds": {
+      "wikipedia": "Phil Read"
+    }
+  },
+  {
+    "id": "thierry-tchernine",
+    "name": "Thierry Tchernine",
+    "sourceIds": {
+      "wikipedia": "Thierry Tchernine"
+    }
+  },
+  {
+    "id": "christian-estrosi",
+    "name": "Christian Estrosi",
+    "sourceIds": {
+      "wikipedia": "Christian Estrosi"
+    }
+  },
+  {
+    "id": "jean-paul-boinet",
+    "name": "Jean-Paul Boinet",
+    "sourceIds": {
+      "wikipedia": "Jean-Paul Boinet"
+    }
+  },
+  {
+    "id": "marcel-ankone",
+    "name": "Marcel Ankoné",
+    "sourceIds": {
+      "wikipedia": "Marcel Ankoné"
+    }
+  },
+  {
+    "id": "pentti-korhonen",
+    "name": "Pentti Korhonen",
+    "sourceIds": {
+      "wikipedia": "Pentti Korhonen"
+    }
+  },
+  {
+    "id": "risto-makinen",
+    "name": "Risto Makinen",
+    "sourceIds": {
+      "wikipedia": "Risto Makinen"
+    }
+  },
+  {
+    "id": "roberto-gallina",
+    "name": "Roberto Gallina",
+    "sourceIds": {
+      "wikipedia": "Roberto Gallina"
+    }
+  },
+  {
+    "id": "adu-celso-santos",
+    "name": "Adu Celso-Santos",
+    "sourceIds": {
+      "wikipedia": "Adu Celso"
+    }
+  },
+  {
+    "id": "philippe-coulon",
+    "name": "Philippe Coulon",
+    "sourceIds": {
+      "wikipedia": "Philippe Coulon"
+    }
+  },
+  {
+    "id": "nico-cereghini",
+    "name": "Nico Cereghini",
+    "sourceIds": {
+      "wikipedia": "Nico Cereghini"
+    }
+  },
+  {
+    "id": "john-williams",
+    "name": "John Williams",
+    "sourceIds": {
+      "wikipedia": "John Williams (motorcyclist)"
+    }
+  },
+  {
+    "id": "eddie-roberts",
+    "name": "Eddie Roberts",
+    "sourceIds": {
+      "wikipedia": "Eddie Roberts (motorcyclist)"
+    }
+  },
+  {
+    "id": "pat-hennen",
+    "name": "Pat Hennen",
+    "sourceIds": {
+      "wikipedia": "Pat Hennen"
+    }
+  },
+  {
+    "id": "max-wiener",
+    "name": "Max Wiener",
+    "sourceIds": {
+      "wikipedia": "Max Wiener"
+    }
+  },
+  {
+    "id": "michel-rougerie",
+    "name": "Michel Rougerie",
+    "sourceIds": {
+      "wikipedia": "Michel Rougerie"
+    }
+  },
+  {
+    "id": "tom-herron",
+    "name": "Tom Herron",
+    "sourceIds": {
+      "wikipedia": "Tom Herron"
+    }
+  },
+  {
+    "id": "hans-stadelmann",
+    "name": "Hans Stadelmann",
+    "sourceIds": {
+      "wikipedia": "Hans Stadelmann"
+    }
+  },
+  {
+    "id": "b-rge-nielsen",
+    "name": "Børge Nielsen",
+    "sourceIds": {
+      "wikipedia": "Børge Nielsen (motorcyclist)"
+    }
+  },
+  {
+    "id": "michael-schmid",
+    "name": "Michael Schmid",
+    "sourceIds": {
+      "wikipedia": "Michael Schmid (motorcyclist)"
+    }
+  },
+  {
+    "id": "peter-balaz",
+    "name": "Peter Baláž",
+    "sourceIds": {
+      "wikipedia": "Peter Baláž (motorcyclist)"
+    }
+  },
+  {
+    "id": "siegfried-mayr",
+    "name": "Siegfried Mayr",
+    "sourceIds": {
+      "wikipedia": "Siegfried Mayr"
+    }
+  },
+  {
+    "id": "philippe-chaltin",
+    "name": "Philippe Chaltin",
+    "sourceIds": {
+      "wikipedia": "Philippe Chaltin"
+    }
+  },
+  {
+    "id": "patrick-pons",
+    "name": "Patrick Pons",
+    "sourceIds": {
+      "wikipedia": "Patrick Pons"
+    }
+  },
+  {
+    "id": "gerard-choukroun",
+    "name": "Gerard Choukroun",
+    "sourceIds": {
+      "wikipedia": "Gerard Choukroun"
+    }
+  },
+  {
+    "id": "john-dodds",
+    "name": "John Dodds",
+    "sourceIds": {
+      "wikipedia": "John Dodds (motorcyclist)"
+    }
+  },
+  {
+    "id": "wil-hartog",
+    "name": "Wil Hartog",
+    "sourceIds": {
+      "wikipedia": "Wil Hartog"
+    }
+  },
+  {
+    "id": "armando-toracca",
+    "name": "Armando Toracca",
+    "sourceIds": {
+      "wikipedia": "Armando Toracca"
+    }
+  },
+  {
+    "id": "teuvo-lansivuori",
+    "name": "Teuvo Länsivuori",
+    "sourceIds": {
+      "wikipedia": "Teuvo Länsivuori"
+    }
+  },
+  {
+    "id": "takazumi-katayama",
+    "name": "Takazumi Katayama",
+    "sourceIds": {
+      "wikipedia": "Takazumi Katayama"
+    }
+  },
+  {
+    "id": "bruno-kneubuhler",
+    "name": "Bruno Kneubühler",
+    "sourceIds": {
+      "wikipedia": "Bruno Kneubühler"
+    }
+  },
+  {
+    "id": "virginio-ferrari",
+    "name": "Virginio Ferrari",
+    "sourceIds": {
+      "wikipedia": "Virginio Ferrari"
+    }
+  },
+  {
+    "id": "mario-necchi",
+    "name": "Mario Necchi",
+    "sourceIds": {
+      "wikipedia": "Mario Necchi"
+    }
+  },
+  {
+    "id": "john-newbold",
+    "name": "John Newbold",
+    "sourceIds": {
+      "wikipedia": "John Newbold"
+    }
+  },
+  {
+    "id": "germano-paganini",
+    "name": "Germano Paganini",
+    "sourceIds": {
+      "wikipedia": "Germano Paganini"
+    }
+  },
+  {
+    "id": "vanes-francini",
+    "name": "Vanes Francini",
+    "sourceIds": {
+      "wikipedia": "Vanes Francini"
+    }
+  },
+  {
+    "id": "giorgio-avveduti",
+    "name": "Giorgio Avveduti",
+    "sourceIds": {
+      "wikipedia": "Giorgio Avveduti"
+    }
+  },
+  {
+    "id": "mario-fiorentino",
+    "name": "Mario Fiorentino",
+    "sourceIds": {
+      "wikipedia": "Mario Fiorentino"
+    }
+  },
+  {
+    "id": "vittorio-gornati",
+    "name": "Vittorio Gornati",
+    "sourceIds": {
+      "wikipedia": "Vittorio Gornati"
+    }
+  },
+  {
+    "id": "carlo-piazza",
+    "name": "Carlo Piazza",
+    "sourceIds": {
+      "wikipedia": "Carlo Piazza"
+    }
+  },
+  {
+    "id": "victor-soussan",
+    "name": "Victor Soussan",
+    "sourceIds": {
+      "wikipedia": "Victor Soussan"
+    }
+  },
+  {
+    "id": "eduardo-elias",
+    "name": "Eduardo Elias",
+    "sourceIds": {
+      "wikipedia": "Eduardo Elias"
+    }
+  },
+  {
+    "id": "ian-richards",
+    "name": "Ian Richards",
+    "sourceIds": {
+      "wikipedia": "Ian Richards (motorcyclist)"
+    }
+  },
+  {
+    "id": "billy-guthrie",
+    "name": "Billy Guthrie",
+    "sourceIds": {
+      "wikipedia": "Billy Guthrie"
+    }
+  },
+  {
+    "id": "roger-nicholls",
+    "name": "Roger Nicholls",
+    "sourceIds": {
+      "wikipedia": "Roger Nicholls (motorcyclist)"
+    }
+  },
+  {
+    "id": "jon-ekerold",
+    "name": "Jon Ekerold",
+    "sourceIds": {
+      "wikipedia": "Jon Ekerold"
+    }
+  },
+  {
+    "id": "gordon-pantall",
+    "name": "Gordon Pantall",
+    "sourceIds": {
+      "wikipedia": "Gordon Pantall"
+    }
+  },
+  {
+    "id": "john-weeden",
+    "name": "John Weeden",
+    "sourceIds": {
+      "wikipedia": "John Weeden"
+    }
+  },
+  {
+    "id": "bill-smith",
+    "name": "Bill Smith",
+    "sourceIds": {
+      "wikipedia": "Bill Smith (motorcyclist)"
+    }
+  },
+  {
+    "id": "paul-cott",
+    "name": "Paul Cott",
+    "sourceIds": {
+      "wikipedia": "Paul Cott (motorcyclist)"
+    }
+  },
+  {
+    "id": "alan-jackson",
+    "name": "Alan Jackson",
+    "sourceIds": {
+      "wikipedia": "Alan Jackson (motorcyclist)"
+    }
+  },
+  {
+    "id": "denis-casement",
+    "name": "Denis Casement",
+    "sourceIds": {
+      "wikipedia": "Denis Casement"
+    }
+  },
+  {
+    "id": "gerry-mateer",
+    "name": "Gerry Mateer",
+    "sourceIds": {
+      "wikipedia": "Gerry Mateer"
+    }
+  },
+  {
+    "id": "donal-cormican",
+    "name": "Donal Cormican",
+    "sourceIds": {
+      "wikipedia": "Donal Cormican"
+    }
+  },
+  {
+    "id": "james-scott",
+    "name": "James Scott",
+    "sourceIds": {
+      "wikipedia": "James Scott (motorcyclist)"
+    }
+  },
+  {
+    "id": "bill-simpson",
+    "name": "Bill Simpson",
+    "sourceIds": {
+      "wikipedia": "Bill Simpson (motorcyclist)"
+    }
+  },
+  {
+    "id": "joey-dunlop",
+    "name": "Joey Dunlop",
+    "sourceIds": {
+      "wikipedia": "Joey Dunlop"
+    }
+  },
+  {
+    "id": "roger-nott",
+    "name": "Roger Nott",
+    "sourceIds": {
+      "wikipedia": "Roger Nott (motorcyclist)"
+    }
+  },
+  {
+    "id": "ernie-coates",
+    "name": "Ernie Coates",
+    "sourceIds": {
+      "wikipedia": "Ernie Coates"
+    }
+  },
+  {
+    "id": "mal-kirwan",
+    "name": "Mal Kirwan",
+    "sourceIds": {
+      "wikipedia": "Mal Kirwan"
+    }
+  },
+  {
+    "id": "dave-danks",
+    "name": "Dave Danks",
+    "sourceIds": {
+      "wikipedia": "Dave Danks"
+    }
+  },
+  {
+    "id": "bernie-toleman",
+    "name": "Bernie Toleman",
+    "sourceIds": {
+      "wikipedia": "Bernie Toleman"
+    }
+  },
+  {
+    "id": "stuart-jones",
+    "name": "Stuart Jones",
+    "sourceIds": {
+      "wikipedia": "Stuart Jones (motorcyclist)"
+    }
+  },
+  {
+    "id": "malcolm-lucas",
+    "name": "Malcolm Lucas",
+    "sourceIds": {
+      "wikipedia": "Malcolm Lucas (motorcyclist)"
+    }
+  },
+  {
+    "id": "bill-ingham",
+    "name": "Bill Ingham",
+    "sourceIds": {
+      "wikipedia": "Bill Ingham (motorcyclist)"
+    }
+  },
+  {
+    "id": "roy-jeffreys",
+    "name": "Roy Jeffreys",
+    "sourceIds": {
+      "wikipedia": "Roy Jeffreys"
+    }
+  },
+  {
+    "id": "richard-pipes",
+    "name": "Richard Pipes",
+    "sourceIds": {
+      "wikipedia": "Richard Pipes"
+    }
+  },
+  {
+    "id": "trevor-steele",
+    "name": "Trevor Steele",
+    "sourceIds": {
+      "wikipedia": "Trevor Steele (motorcyclist)"
+    }
+  },
+  {
+    "id": "bill-bowman",
+    "name": "Bill Bowman",
+    "sourceIds": {
+      "wikipedia": "Bill Bowman (motorcyclist)"
+    }
+  },
+  {
+    "id": "gerhard-vogt",
+    "name": "Gerhard Vogt",
+    "sourceIds": {
+      "wikipedia": "Gerhard Vogt (motorcyclist)"
+    }
+  },
+  {
+    "id": "john-lavender",
+    "name": "John Lavender",
+    "sourceIds": {
+      "wikipedia": "John Lavender (motorcyclist)"
+    }
+  },
+  {
+    "id": "walter-dawson",
+    "name": "Walter Dawson",
+    "sourceIds": {
+      "wikipedia": "Walter Dawson (motorcyclist)"
+    }
+  },
+  {
+    "id": "tom-robinson",
+    "name": "Tom Robinson",
+    "sourceIds": {
+      "wikipedia": "Tom Robinson (motorcyclist)"
+    }
+  },
+  {
+    "id": "chris-neve",
+    "name": "Chris Neve",
+    "sourceIds": {
+      "wikipedia": "Chris Neve (motorcyclist)"
+    }
+  },
+  {
+    "id": "chris-hart",
+    "name": "Chris Hart",
+    "sourceIds": {
+      "wikipedia": "Chris Hart (motorcyclist)"
+    }
+  },
+  {
+    "id": "steve-tonkin",
+    "name": "Steve Tonkin",
+    "sourceIds": {
+      "wikipedia": "Steve Tonkin"
+    }
+  },
+  {
+    "id": "mick-chatterton",
+    "name": "Mick Chatterton",
+    "sourceIds": {
+      "wikipedia": "Mick Chatterton"
+    }
+  },
+  {
+    "id": "bert-kleimaier",
+    "name": "Bert Kleimaier",
+    "sourceIds": {
+      "wikipedia": "Bert Kleimaier"
+    }
+  },
+  {
+    "id": "malcolm-moffat",
+    "name": "Malcolm Moffat",
+    "sourceIds": {
+      "wikipedia": "Malcolm Moffat"
+    }
+  },
+  {
+    "id": "keith-martin",
+    "name": "Keith Martin",
+    "sourceIds": {
+      "wikipedia": "Keith Martin (motorcyclist)"
+    }
+  },
+  {
+    "id": "brian-warburton",
+    "name": "Brian Warburton",
+    "sourceIds": {
+      "wikipedia": "Brian Warburton"
+    }
+  },
+  {
+    "id": "david-hughes",
+    "name": "David Hughes",
+    "sourceIds": {
+      "wikipedia": "David Hughes (motorcyclist)"
+    }
+  },
+  {
+    "id": "mick-grant",
+    "name": "Mick Grant",
+    "sourceIds": {
+      "wikipedia": "Mick Grant"
+    }
+  },
+  {
+    "id": "derek-mortimer",
+    "name": "Derek Mortimer",
+    "sourceIds": {
+      "wikipedia": "Derek Mortimer"
+    }
+  },
+  {
+    "id": "alan-lawton",
+    "name": "Alan Lawton",
+    "sourceIds": {
+      "wikipedia": "Alan Lawton"
+    }
+  },
+  {
+    "id": "martyn-sharpe",
+    "name": "Martyn Sharpe",
+    "sourceIds": {
+      "wikipedia": "Martyn Sharpe"
+    }
+  },
+  {
+    "id": "mick-poxon",
+    "name": "Mick Poxon",
+    "sourceIds": {
+      "wikipedia": "Mick Poxon"
+    }
+  },
+  {
+    "id": "stan-woods",
+    "name": "Stan Woods",
+    "sourceIds": {
+      "wikipedia": "Stan Woods"
+    }
+  },
+  {
+    "id": "tom-loughridge",
+    "name": "Tom Loughridge",
+    "sourceIds": {
+      "wikipedia": "Tom Loughridge"
+    }
+  },
+  {
+    "id": "roger-bowler",
+    "name": "Roger Bowler",
+    "sourceIds": {
+      "wikipedia": "Roger Bowler"
+    }
+  },
+  {
+    "id": "geoff-barry",
+    "name": "Geoff Barry",
+    "sourceIds": {
+      "wikipedia": "Geoff Barry (motorcyclist)"
+    }
+  },
+  {
+    "id": "graham-waring",
+    "name": "Graham Waring",
+    "sourceIds": {
+      "wikipedia": "Graham Waring"
+    }
+  },
+  {
+    "id": "sam-mcclements",
+    "name": "Sam McClements",
+    "sourceIds": {
+      "wikipedia": "Sam McClements"
+    }
+  },
+  {
+    "id": "henry-mcewan",
+    "name": "Henry McEwan",
+    "sourceIds": {
+      "wikipedia": "Henry McEwan"
+    }
+  },
+  {
+    "id": "tony-rutter",
+    "name": "Tony Rutter",
+    "sourceIds": {
+      "wikipedia": "Tony Rutter"
+    }
+  },
+  {
+    "id": "bill-fulton",
+    "name": "Bill Fulton",
+    "sourceIds": {
+      "wikipedia": "Bill Fulton (motorcyclist)"
+    }
+  },
+  {
+    "id": "brendan-ryan",
+    "name": "Brendan Ryan",
+    "sourceIds": {
+      "wikipedia": "Brendan Ryan (motorcyclist)"
+    }
+  },
+  {
+    "id": "les-kenny",
+    "name": "Les Kenny",
+    "sourceIds": {
+      "wikipedia": "Les Kenny"
+    }
+  },
+  {
+    "id": "noel-clegg",
+    "name": "Noel Clegg",
+    "sourceIds": {
+      "wikipedia": "Noel Clegg"
+    }
+  },
+  {
+    "id": "hans-otto-butenuth",
+    "name": "Hans-Otto Butenuth",
+    "sourceIds": {
+      "wikipedia": "Hans-Otto Butenuth"
+    }
+  },
+  {
+    "id": "limer-mccabe",
+    "name": "Limer McCabe",
+    "sourceIds": {
+      "wikipedia": "Limer McCabe"
+    }
+  },
+  {
+    "id": "charlie-williams",
+    "name": "Charlie Williams",
+    "sourceIds": {
+      "wikipedia": "Charlie Williams (motorcyclist)"
+    }
+  },
+  {
+    "id": "derek-chatterton",
+    "name": "Derek Chatterton",
+    "sourceIds": {
+      "wikipedia": "Derek Chatterton"
+    }
+  },
+  {
+    "id": "david-nixon",
+    "name": "David Nixon",
+    "sourceIds": {
+      "wikipedia": "David Nixon (motorcyclist)"
+    }
+  },
+  {
+    "id": "neil-tuxworth",
+    "name": "Neil Tuxworth",
+    "sourceIds": {
+      "wikipedia": "Neil Tuxworth"
+    }
+  },
+  {
+    "id": "brian-peters",
+    "name": "Brian Peters",
+    "sourceIds": {
+      "wikipedia": "Brian Peters (motorcyclist)"
+    }
+  },
+  {
+    "id": "bill-henderson",
+    "name": "Bill Henderson",
+    "sourceIds": {
+      "wikipedia": "Bill Henderson (motorcyclist)"
+    }
+  },
+  {
+    "id": "bernard-murray",
+    "name": "Bernard Murray",
+    "sourceIds": {
+      "wikipedia": "Bernard Murray"
+    }
+  },
+  {
+    "id": "kevin-cowley",
+    "name": "Kevin Cowley",
+    "sourceIds": {
+      "wikipedia": "Kevin Cowley"
+    }
+  },
+  {
+    "id": "percy-tait",
+    "name": "Percy Tait",
+    "sourceIds": {
+      "wikipedia": "Percy Tait"
+    }
+  },
+  {
+    "id": "bernard-fau",
+    "name": "Bernard Fau",
+    "sourceIds": {
+      "wikipedia": "Bernard Fau"
+    }
+  },
+  {
+    "id": "rob-bron",
+    "name": "Rob Bron",
+    "sourceIds": {
+      "wikipedia": "Rob Bron"
+    }
+  },
+  {
+    "id": "dave-potter",
+    "name": "Dave Potter",
+    "sourceIds": {
+      "wikipedia": "Dave Potter (motorcyclist)"
+    }
+  },
+  {
+    "id": "piet-van-der-wal",
+    "name": "Piet van der Wal",
+    "sourceIds": {
+      "wikipedia": "Piet van der Wal"
+    }
+  },
+  {
+    "id": "hans-braumandl",
+    "name": "Hans Braumandl",
+    "sourceIds": {
+      "wikipedia": "Hans Braumandl"
+    }
+  },
+  {
+    "id": "horst-lahfeld",
+    "name": "Horst Lahfeld",
+    "sourceIds": {
+      "wikipedia": "Horst Lahfeld"
+    }
+  },
+  {
+    "id": "dick-alblas",
+    "name": "Dick Alblas",
+    "sourceIds": {
+      "wikipedia": "Dick Alblas"
+    }
+  },
+  {
+    "id": "kees-van-der-kruijs",
+    "name": "Kees van der Kruijs",
+    "sourceIds": {
+      "wikipedia": "Kees van der Kruijs"
+    }
+  },
+  {
+    "id": "kork-ballington",
+    "name": "Kork Ballington",
+    "sourceIds": {
+      "wikipedia": "Kork Ballington"
+    }
+  },
+  {
+    "id": "gianfranco-bonera",
+    "name": "Gianfranco Bonera",
+    "sourceIds": {
+      "wikipedia": "Gianfranco Bonera"
+    }
+  },
+  {
+    "id": "jean-philippe-orban",
+    "name": "Jean-Philippe Orban",
+    "sourceIds": {
+      "wikipedia": "Jean-Philippe Orban"
+    }
+  },
+  {
+    "id": "jean-pierre-orban",
+    "name": "Jean-Pierre Orban",
+    "sourceIds": {
+      "wikipedia": "Jean-Pierre Orban"
+    }
+  },
+  {
+    "id": "kees-van-der-kruys",
+    "name": "Kees van der Kruys",
+    "sourceIds": {
+      "wikipedia": "Kees van der Kruys"
+    }
+  },
+  {
+    "id": "etienne-geeraerd",
+    "name": "Etienne Geeraerd",
+    "sourceIds": {
+      "wikipedia": "Etienne Geeraerd"
+    }
+  },
+  {
+    "id": "alain-nies",
+    "name": "Alain Nies",
+    "sourceIds": {
+      "wikipedia": "Alain Nies"
+    }
+  },
+  {
+    "id": "jean-francois-balde",
+    "name": "Jean-François Baldé",
+    "sourceIds": {
+      "wikipedia": "Jean-François Baldé"
+    }
+  },
+  {
+    "id": "kaj-jensen",
+    "name": "Kaj Jensen",
+    "sourceIds": {
+      "wikipedia": "Kaj Jensen (motorcyclist)"
+    }
+  },
+  {
+    "id": "bo-granath",
+    "name": "Bo Granath",
+    "sourceIds": {
+      "wikipedia": "Bo Granath"
+    }
+  },
+  {
+    "id": "goran-alden",
+    "name": "Goran Alden",
+    "sourceIds": {
+      "wikipedia": "Goran Alden"
+    }
+  },
+  {
+    "id": "kjell-solberg",
+    "name": "Kjell Solberg",
+    "sourceIds": {
+      "wikipedia": "Kjell Solberg"
+    }
+  },
+  {
+    "id": "peter-sjostrom",
+    "name": "Peter Sjöström",
+    "sourceIds": {
+      "wikipedia": "Peter Sjöström"
+    }
+  },
+  {
+    "id": "sven-andersson",
+    "name": "Sven Andersson",
+    "sourceIds": {
+      "wikipedia": "Sven Andersson (motorcyclist)"
+    }
+  },
+  {
+    "id": "eero-hyvarinen",
+    "name": "Eero Hyvärinen",
+    "sourceIds": {
+      "wikipedia": "Eero Hyvärinen (motorcyclist)"
+    }
+  },
+  {
+    "id": "pekka-nurmi",
+    "name": "Pekka Nurmi",
+    "sourceIds": {
+      "wikipedia": "Pekka Nurmi"
+    }
+  },
+  {
+    "id": "kimmo-kopra",
+    "name": "Kimmo Kopra",
+    "sourceIds": {
+      "wikipedia": "Kimmo Kopra"
+    }
+  },
+  {
+    "id": "wilf-herron",
+    "name": "Wilf Herron",
+    "sourceIds": {
+      "wikipedia": "Wilf Herron"
+    }
+  },
+  {
+    "id": "ari-heikkila",
+    "name": "Ari Heikkila",
+    "sourceIds": {
+      "wikipedia": "Ari Heikkila"
+    }
+  },
+  {
+    "id": "charlie-dobson",
+    "name": "Charlie Dobson",
+    "sourceIds": {
+      "wikipedia": "Charlie Dobson (motorcyclist)"
+    }
+  },
+  {
+    "id": "bernd-tugenthal",
+    "name": "Bernd Tügenthal",
+    "sourceIds": {
+      "wikipedia": "Bernd Tügenthal"
+    }
+  },
+  {
+    "id": "charles-dobson",
+    "name": "Charles Dobson",
+    "sourceIds": {
+      "wikipedia": "Charles Dobson (motorcyclist)"
+    }
+  },
+  {
+    "id": "janos-drapal",
+    "name": "János Drapál",
+    "sourceIds": {
+      "wikipedia": "János Drapál"
+    }
+  },
+  {
+    "id": "giorgio-gatti",
+    "name": "Giorgio Gatti",
+    "sourceIds": {
+      "wikipedia": "Giorgio Gatti"
+    }
+  },
+  {
+    "id": "walter-kaletsch",
+    "name": "Walter Kaletsch",
+    "sourceIds": {
+      "wikipedia": "Walter Kaletsch"
+    }
+  },
+  {
+    "id": "lars-johansson",
+    "name": "Lars Johansson",
+    "sourceIds": {
+      "wikipedia": "Lars Johansson (motorcyclist)"
+    }
+  },
+  {
+    "id": "piers-forester",
+    "name": "Piers Forester",
+    "sourceIds": {
+      "wikipedia": "Piers Forester"
+    }
+  },
+  {
+    "id": "francois-hollebecq",
+    "name": "Francois Hollebecq",
+    "sourceIds": {
+      "wikipedia": "Francois Hollebecq"
+    }
+  },
+  {
+    "id": "roland-freymond",
+    "name": "Roland Freymond",
+    "sourceIds": {
+      "wikipedia": "Roland Freymond"
+    }
+  },
+  {
+    "id": "bohumil-stasa",
+    "name": "Bohumil Staša",
+    "sourceIds": {
+      "wikipedia": "Bohumil Staša"
+    }
+  },
+  {
+    "id": "bob-coulter",
+    "name": "Bob Coulter",
+    "sourceIds": {
+      "wikipedia": "Bob Coulter (motorcyclist)"
+    }
+  },
+  {
+    "id": "alan-north",
+    "name": "Alan North",
+    "sourceIds": {
+      "wikipedia": "Alan North (motorcyclist)"
+    }
+  },
+  {
+    "id": "christian-bourgeois",
+    "name": "Christian Bourgeois",
+    "sourceIds": {
+      "wikipedia": "Christian Bourgeois"
+    }
+  },
+  {
+    "id": "egid-schwemmer",
+    "name": "Egid Schwemmer",
+    "sourceIds": {
+      "wikipedia": "Egid Schwemmer"
+    }
+  },
+  {
+    "id": "john-cowie",
+    "name": "John Cowie",
+    "sourceIds": {
+      "wikipedia": "John Cowie (motorcyclist)"
+    }
+  },
+  {
+    "id": "franz-rau",
+    "name": "Franz Rau",
+    "sourceIds": {
+      "wikipedia": "Franz Rau"
+    }
+  },
+  {
+    "id": "walter-hoffmann",
+    "name": "Walter Hoffmann",
+    "sourceIds": {
+      "wikipedia": "Walter Hoffmann"
+    }
+  },
+  {
+    "id": "alan-rogers",
+    "name": "Alan Rogers",
+    "sourceIds": {
+      "wikipedia": "Alan Rogers (motorcyclist)"
+    }
+  },
+  {
+    "id": "jan-van-disseldorp",
+    "name": "Jan van Disseldorp",
+    "sourceIds": {
+      "wikipedia": "Jan van Disseldorp"
+    }
+  },
+  {
+    "id": "jurgen-zeddel",
+    "name": "Jürgen Zeddel",
+    "sourceIds": {
+      "wikipedia": "Jürgen Zeddel"
+    }
+  },
+  {
+    "id": "adolf-schneider",
+    "name": "Adolf Schneider",
+    "sourceIds": {
+      "wikipedia": "Adolf Schneider"
+    }
+  },
+  {
+    "id": "michel-renson",
+    "name": "Michel Renson",
+    "sourceIds": {
+      "wikipedia": "Michel Renson"
+    }
+  },
+  {
+    "id": "franz-heller",
+    "name": "Franz Heller",
+    "sourceIds": {
+      "wikipedia": "Franz Heller"
+    }
+  },
+  {
+    "id": "johannes-klement",
+    "name": "Johannes Klement",
+    "sourceIds": {
+      "wikipedia": "Johannes Klement"
+    }
+  },
+  {
+    "id": "ulrich-eickmeyer",
+    "name": "Ulrich Eickmeyer",
+    "sourceIds": {
+      "wikipedia": "Ulrich Eickmeyer"
+    }
+  },
+  {
+    "id": "hans-gunter-schone",
+    "name": "Hans-Gunter Schöne",
+    "sourceIds": {
+      "wikipedia": "Hans-Gunter Schöne"
+    }
+  },
+  {
+    "id": "louis-with",
+    "name": "Louis With",
+    "sourceIds": {
+      "wikipedia": "Louis With"
+    }
+  },
+  {
+    "id": "peter-schrotges",
+    "name": "Peter Schrötges",
+    "sourceIds": {
+      "wikipedia": "Peter Schrötges"
+    }
+  },
+  {
+    "id": "horst-lotz",
+    "name": "Horst Lotz",
+    "sourceIds": {
+      "wikipedia": "Horst Lotz"
+    }
+  },
+  {
+    "id": "arndt-hahrle",
+    "name": "Arndt Hährle",
+    "sourceIds": {
+      "wikipedia": "Arndt Hährle"
+    }
+  },
+  {
+    "id": "norbert-schuller",
+    "name": "Norbert Schüller",
+    "sourceIds": {
+      "wikipedia": "Norbert Schüller"
+    }
+  },
+  {
+    "id": "ron-robinson",
+    "name": "Ron Robinson",
+    "sourceIds": {
+      "wikipedia": "Ron Robinson (motorcyclist)"
+    }
+  },
+  {
+    "id": "volker-begert",
+    "name": "Volker Begert",
+    "sourceIds": {
+      "wikipedia": "Volker Begert"
+    }
+  },
+  {
+    "id": "erich-brandstetter",
+    "name": "Erich Brandstetter",
+    "sourceIds": {
+      "wikipedia": "Erich Brandstetter"
+    }
+  },
+  {
+    "id": "bernd-tungethal",
+    "name": "Bernd Tüngethal",
+    "sourceIds": {
+      "wikipedia": "Bernd Tüngethal"
+    }
+  },
+  {
+    "id": "horst-pleyer",
+    "name": "Horst Pleyer",
+    "sourceIds": {
+      "wikipedia": "Horst Pleyer"
+    }
+  },
+  {
+    "id": "eddie-lawson",
+    "name": "Eddie Lawson",
+    "sourceIds": {
+      "wikipedia": "Eddie Lawson"
+    }
+  },
+  {
+    "id": "wayne-rainey",
+    "name": "Wayne Rainey",
+    "sourceIds": {
+      "wikipedia": "Wayne Rainey"
+    }
+  },
+  {
+    "id": "christian-sarron",
+    "name": "Christian Sarron",
+    "sourceIds": {
+      "wikipedia": "Christian Sarron"
+    }
+  },
+  {
+    "id": "kevin-schwantz",
+    "name": "Kevin Schwantz",
+    "sourceIds": {
+      "wikipedia": "Kevin Schwantz"
+    }
+  },
+  {
+    "id": "kevin-magee",
+    "name": "Kevin Magee",
+    "sourceIds": {
+      "wikipedia": "Kevin Magee (motorcyclist)"
+    }
+  },
+  {
+    "id": "pierfrancesco-chili",
+    "name": "Pierfrancesco Chili",
+    "sourceIds": {
+      "wikipedia": "Pierfrancesco Chili"
+    }
+  },
+  {
+    "id": "niall-mackenzie",
+    "name": "Niall Mackenzie",
+    "sourceIds": {
+      "wikipedia": "Niall Mackenzie"
+    }
+  },
+  {
+    "id": "ron-haslam",
+    "name": "Ron Haslam",
+    "sourceIds": {
+      "wikipedia": "Ron Haslam"
+    }
+  },
+  {
+    "id": "mick-doohan",
+    "name": "Mick Doohan",
+    "sourceIds": {
+      "wikipedia": "Mick Doohan"
+    }
+  },
+  {
+    "id": "wayne-gardner",
+    "name": "Wayne Gardner",
+    "sourceIds": {
+      "wikipedia": "Wayne Gardner"
+    }
+  },
+  {
+    "id": "rob-mcelnea",
+    "name": "Rob McElnea",
+    "sourceIds": {
+      "wikipedia": "Rob McElnea"
+    }
+  },
+  {
+    "id": "simon-buckmaster",
+    "name": "Simon Buckmaster",
+    "sourceIds": {
+      "wikipedia": "Simon Buckmaster"
+    }
+  },
+  {
+    "id": "alessandro-valesi",
+    "name": "Alessandro Valesi",
+    "sourceIds": {
+      "wikipedia": "Alessandro Valesi"
+    }
+  },
+  {
+    "id": "tadahiko-taira",
+    "name": "Tadahiko Taira",
+    "sourceIds": {
+      "wikipedia": "Tadahiko Taira"
+    }
+  },
+  {
+    "id": "dominique-sarron",
+    "name": "Dominique Sarron",
+    "sourceIds": {
+      "wikipedia": "Dominique Sarron"
+    }
+  },
+  {
+    "id": "freddie-spencer",
+    "name": "Freddie Spencer",
+    "sourceIds": {
+      "wikipedia": "Freddie Spencer"
+    }
+  },
+  {
+    "id": "marco-gentile",
+    "name": "Marco Gentile",
+    "sourceIds": {
+      "wikipedia": "Marco Gentile (motorcyclist)"
+    }
+  },
+  {
+    "id": "randy-mamola",
+    "name": "Randy Mamola",
+    "sourceIds": {
+      "wikipedia": "Randy Mamola"
+    }
+  },
+  {
+    "id": "adrien-morillas",
+    "name": "Adrien Morillas",
+    "sourceIds": {
+      "wikipedia": "Adrien Morillas"
+    }
+  },
+  {
+    "id": "michael-rudroff",
+    "name": "Michael Rudroff",
+    "sourceIds": {
+      "wikipedia": "Michael Rudroff"
+    }
+  },
+  {
+    "id": "norihiko-fujiwara",
+    "name": "Norihiko Fujiwara",
+    "sourceIds": {
+      "wikipedia": "Norihiko Fujiwara"
+    }
+  },
+  {
+    "id": "bubba-shobert",
+    "name": "Bubba Shobert",
+    "sourceIds": {
+      "wikipedia": "Bubba Shobert"
+    }
+  },
+  {
+    "id": "josef-doppler",
+    "name": "Josef Doppler",
+    "sourceIds": {
+      "wikipedia": "Josef Doppler"
+    }
+  },
+  {
+    "id": "alois-meyer",
+    "name": "Alois Meyer",
+    "sourceIds": {
+      "wikipedia": "Alois Mayer"
+    }
+  },
+  {
+    "id": "romolo-balbi",
+    "name": "Romolo Balbi",
+    "sourceIds": {
+      "wikipedia": "Romolo Balbi"
+    }
+  },
+  {
+    "id": "fernando-gonzalez-de-nicolas",
+    "name": "Fernando González de Nicolás",
+    "sourceIds": {
+      "wikipedia": "Fernando González de Nicolás"
+    }
+  },
+  {
+    "id": "luca-cadalora",
+    "name": "Luca Cadalora",
+    "sourceIds": {
+      "wikipedia": "Luca Cadalora"
+    }
+  },
+  {
+    "id": "massimo-broccoli",
+    "name": "Massimo Broccoli",
+    "sourceIds": {
+      "wikipedia": "Massimo Broccoli"
+    }
+  },
+  {
+    "id": "niggi-schmassman",
+    "name": "Niggi Schmassmann",
+    "sourceIds": {
+      "wikipedia": "Niggi Schmassman"
+    }
+  },
+  {
+    "id": "michael-dowson",
+    "name": "Michael Dowson",
+    "sourceIds": {
+      "wikipedia": "Michael Dowson"
+    }
+  },
+  {
+    "id": "andreas-leuthe",
+    "name": "Andreas Leuthe",
+    "sourceIds": {
+      "wikipedia": "Andreas Leuthe"
+    }
+  },
+  {
+    "id": "shinichi-itoh",
+    "name": "Shinichi Itoh",
+    "sourceIds": {
+      "wikipedia": "Shinichi Ito"
+    }
+  },
+  {
+    "id": "fabio-biliotti",
+    "name": "Fabio Biliotti",
+    "sourceIds": {
+      "wikipedia": "Fabio Biliotti"
+    }
+  },
+  {
+    "id": "john-kocinski",
+    "name": "John Kocinski",
+    "sourceIds": {
+      "wikipedia": "John Kocinski"
+    }
+  },
+  {
+    "id": "ernst-gschwender",
+    "name": "Ernst Gschwender",
+    "sourceIds": {
+      "wikipedia": "Ernst Gschwender"
+    }
+  },
+  {
+    "id": "roger-burnett",
+    "name": "Roger Burnett",
+    "sourceIds": {
+      "wikipedia": "Roger Burnett"
+    }
+  },
+  {
+    "id": "thierry-crine",
+    "name": "Thierry Crine",
+    "sourceIds": {
+      "wikipedia": "Thierry Crine"
+    }
+  },
+  {
+    "id": "juan-lopez-mella",
+    "name": "Juan López Mella",
+    "sourceIds": {
+      "wikipedia": "Juan Manuel Lopez Mella"
+    }
+  },
+  {
+    "id": "alberto-rota",
+    "name": "Alberto Rota",
+    "sourceIds": {
+      "wikipedia": "Alberto Rota"
+    }
+  },
+  {
+    "id": "shunji-yatsushiro",
+    "name": "Shunji Yatsushiro",
+    "sourceIds": {
+      "wikipedia": "Shunji Yatsushiro"
+    }
+  },
+  {
+    "id": "cees-doorakkers",
+    "name": "Cees Doorakkers",
+    "sourceIds": {
+      "wikipedia": "Cees Doorakkers"
+    }
+  },
+  {
+    "id": "eddie-laycock",
+    "name": "Eddie Laycock",
+    "sourceIds": {
+      "wikipedia": "Eddie Laycock"
+    }
+  },
+  {
+    "id": "kunio-machii",
+    "name": "Kunio Machii",
+    "sourceIds": {
+      "wikipedia": "Kunio Machii"
+    }
+  },
+  {
+    "id": "peter-linden",
+    "name": "Peter Linden",
+    "sourceIds": {
+      "wikipedia": "Peter Linden"
+    }
+  },
+  {
+    "id": "hansjoerg-butz",
+    "name": "Hansjoerg Butz",
+    "sourceIds": {
+      "wikipedia": "Hansjoerg Butz"
+    }
+  },
+  {
+    "id": "marco-papa",
+    "name": "Marco Papa",
+    "sourceIds": {
+      "wikipedia": "Marco Papa"
+    }
+  },
+  {
+    "id": "shinji-katayama",
+    "name": "Shinji Katayama",
+    "sourceIds": {
+      "wikipedia": "Shinji Katayama"
+    }
+  },
+  {
+    "id": "vincenzo-cascino",
+    "name": "Vincenzo Cascino",
+    "sourceIds": {
+      "wikipedia": "Vincenzo Cascino"
+    }
+  },
+  {
+    "id": "claude-albert",
+    "name": "Claude Albert",
+    "sourceIds": {
+      "wikipedia": "Claude Albert"
+    }
+  },
+  {
+    "id": "rachel-nicotte",
+    "name": "Rachel Nicotte",
+    "sourceIds": {
+      "wikipedia": "Rachel Nicotte"
+    }
+  },
+  {
+    "id": "georg-jung",
+    "name": "Georg Jung",
+    "sourceIds": {
+      "wikipedia": "Georg Jung"
+    }
+  },
+  {
+    "id": "robert-holden",
+    "name": "Robert Holden",
+    "sourceIds": {
+      "wikipedia": "Robert Holden (motorcyclist)"
+    }
+  },
+  {
+    "id": "timo-paavilainen",
+    "name": "Timo Paavilainen",
+    "sourceIds": {
+      "wikipedia": "Timo Paavilainen"
+    }
+  },
+  {
+    "id": "vittorio-scatola",
+    "name": "Vittorio Scatola",
+    "sourceIds": {
+      "wikipedia": "Vittorio Scatola"
+    }
+  },
+  {
+    "id": "stefan-klabacher",
+    "name": "Stefan Klabacher",
+    "sourceIds": {
+      "wikipedia": "Stefan Klabacher"
+    }
+  },
+  {
+    "id": "michele-valdo",
+    "name": "Michele Valdo",
+    "sourceIds": {
+      "wikipedia": "Michele Valdo"
+    }
+  },
+  {
+    "id": "katsunori-shinozaki",
+    "name": "Katsunori Shinozaki",
+    "sourceIds": {
+      "wikipedia": "Katsunori Shinozaki"
+    }
+  },
+  {
+    "id": "steve-williams",
+    "name": "Steve Williams",
+    "sourceIds": {
+      "wikipedia": "Steve Williams"
+    }
+  },
+  {
+    "id": "peter-schleef",
+    "name": "Peter Schleef",
+    "sourceIds": {
+      "wikipedia": "Peter Schleef"
+    }
+  },
+  {
+    "id": "karl-dauer",
+    "name": "Karl Dauer",
+    "sourceIds": {
+      "wikipedia": "Karl Dauer"
+    }
+  },
+  {
+    "id": "hans-klingebiel",
+    "name": "Hans Klingebiel",
+    "sourceIds": {
+      "wikipedia": "Hans Klingebiel"
+    }
+  },
+  {
+    "id": "jean-paul-lecointe",
+    "name": "Jean-Paul Lecointe",
+    "sourceIds": {
+      "wikipedia": "Jean-Paul Lecointe"
+    }
+  },
+  {
+    "id": "keiji-kinoshita",
+    "name": "Keiji Kinoshita",
+    "sourceIds": {
+      "wikipedia": "Keiji Kinoshita"
+    }
+  },
+  {
+    "id": "ian-pratt",
+    "name": "Ian Pratt",
+    "sourceIds": {
+      "wikipedia": "Ian Pratt"
+    }
+  },
+  {
+    "id": "rudolf-zeller",
+    "name": "Rudolf Zeller",
+    "sourceIds": {
+      "wikipedia": "Rudolf Zeller"
+    }
+  },
+  {
+    "id": "kenmei-matsumoto",
+    "name": "Kenmei Matsumoto",
+    "sourceIds": {
+      "wikipedia": "Kenmei Matsumoto"
+    }
+  },
+  {
+    "id": "fabian-pilloud",
+    "name": "Fabian Pilloud",
+    "sourceIds": {
+      "wikipedia": "Fabian Pilloud"
+    }
+  },
+  {
+    "id": "martin-trosch",
+    "name": "Martin Trosch",
+    "sourceIds": {
+      "wikipedia": "Martin Trosch"
+    }
+  },
+  {
+    "id": "mark-phillips",
+    "name": "Mark Phillips",
+    "sourceIds": {
+      "wikipedia": "Mark Phillips"
+    }
+  },
+  {
+    "id": "pascal-seguela",
+    "name": "Pascal Seguela",
+    "sourceIds": {
+      "wikipedia": "Pascal Seguela"
+    }
+  },
+  {
+    "id": "pavol-dekanek",
+    "name": "Pavol Dekánek",
+    "sourceIds": {
+      "wikipedia": "Pavol Dekánek"
+    }
+  },
+  {
+    "id": "bernard-gitton",
+    "name": "Bernard Gitton",
+    "sourceIds": {
+      "wikipedia": "Bernard Gitton"
+    }
+  },
+  {
+    "id": "peter-graves",
+    "name": "Peter Graves",
+    "sourceIds": {
+      "wikipedia": "Peter Graves (motorcyclist)"
+    }
+  },
+  {
+    "id": "felix-beck",
+    "name": "Felix Beck",
+    "sourceIds": {
+      "wikipedia": "Felix Beck"
+    }
+  },
+  {
+    "id": "helmut-schutz",
+    "name": "Helmut Schutz",
+    "sourceIds": {
+      "wikipedia": "Helmut Schutz"
+    }
+  },
+  {
+    "id": "anton-berghammer",
+    "name": "Anton Berghammer",
+    "sourceIds": {
+      "wikipedia": "Anton Berghammer"
+    }
+  },
+  {
+    "id": "dario-marchetti",
+    "name": "Dario Marchetti",
+    "sourceIds": {
+      "wikipedia": "Dario Marchetti"
+    }
+  },
+  {
+    "id": "harry-heutmekers",
+    "name": "Harry Heutmekers",
+    "sourceIds": {
+      "wikipedia": "Harry Heutmekers"
+    }
+  },
+  {
+    "id": "michael-kaplan",
+    "name": "Michael Kaplan",
+    "sourceIds": {
+      "wikipedia": "Michael Kaplan"
+    }
+  },
+  {
+    "id": "alan-carter",
+    "name": "Alan Carter",
+    "sourceIds": {
+      "wikipedia": "Alan Carter (motorcyclist)"
+    }
+  },
+  {
+    "id": "fred-merkel",
+    "name": "Fred Merkel",
+    "sourceIds": {
+      "wikipedia": "Fred Merkel"
+    }
+  },
+  {
+    "id": "doug-polen",
+    "name": "Doug Polen",
+    "sourceIds": {
+      "wikipedia": "Doug Polen"
+    }
+  },
+  {
+    "id": "hikaru-miyagi",
+    "name": "Hikaru Miyagi",
+    "sourceIds": {
+      "wikipedia": "Hikaru Miyagi"
+    }
+  },
+  {
+    "id": "norio-iobe",
+    "name": "Norio Iobe",
+    "sourceIds": {
+      "wikipedia": "Norio Iobe"
+    }
+  },
+  {
+    "id": "osamu-hiwatashi",
+    "name": "Osamu Hiwatashi",
+    "sourceIds": {
+      "wikipedia": "Osamu Hiwatashi"
+    }
+  },
+  {
+    "id": "greg-drew",
+    "name": "Greg Drew",
+    "sourceIds": {
+      "wikipedia": "Greg Drew"
+    }
+  },
+  {
+    "id": "james-judd",
+    "name": "James Judd",
+    "sourceIds": {
+      "wikipedia": "James Judd"
+    }
+  },
+  {
+    "id": "malcolm-campbell",
+    "name": "Malcolm Campbell",
+    "sourceIds": {
+      "wikipedia": "Malcolm Campbell"
+    }
+  },
+  {
+    "id": "eugene-brown",
+    "name": "Eugene Brown",
+    "sourceIds": {
+      "wikipedia": "Eugene Brown"
+    }
+  },
+  {
+    "id": "larry-moreno-vacondio",
+    "name": "Larry Moreno Vacondio",
+    "sourceIds": {
+      "wikipedia": "Larry Moreno Vacondio"
+    }
+  },
+  {
+    "id": "raymond-roche",
+    "name": "Raymond Roche",
+    "sourceIds": {
+      "wikipedia": "Raymond Roche"
+    }
+  },
+  {
+    "id": "roland-busch",
+    "name": "Roland Busch",
+    "sourceIds": {
+      "wikipedia": "Roland Busch"
+    }
+  },
+  {
+    "id": "karl-truchsess",
+    "name": "Karl Truchsess",
+    "sourceIds": {
+      "wikipedia": "Karl Truchsess"
+    }
+  },
+  {
+    "id": "stephane-mertens",
+    "name": "Stephane Mertens",
+    "sourceIds": {
+      "wikipedia": "Stephane Mertens"
+    }
+  },
+  {
+    "id": "bernard-andrault",
+    "name": "Bernard Andrault",
+    "sourceIds": {
+      "wikipedia": "Bernard Andrault"
+    }
+  },
+  {
+    "id": "patrick-leruste",
+    "name": "Patrick Leruste",
+    "sourceIds": {
+      "wikipedia": "Patrick Leruste"
+    }
+  },
+  {
+    "id": "patrick-salles",
+    "name": "Patrick Salles",
+    "sourceIds": {
+      "wikipedia": "Patrick Salles"
+    }
+  },
+  {
+    "id": "david-crampton",
+    "name": "David Crampton",
+    "sourceIds": {
+      "wikipedia": "David Crampton"
+    }
+  },
+  {
+    "id": "john-mossey",
+    "name": "John Mossey",
+    "sourceIds": {
+      "wikipedia": "John Mossey"
+    }
+  },
+  {
+    "id": "torbjorn-bastiansen",
+    "name": "Torbjorn Bastiansen",
+    "sourceIds": {
+      "wikipedia": "Torbjorn Bastiansen"
+    }
+  },
+  {
+    "id": "katunori-shinozaki",
+    "name": "Katunori Shinozaki",
+    "sourceIds": {
+      "wikipedia": "Katunori Shinozaki"
+    }
+  },
+  {
+    "id": "yoshimasa-matsumoto",
+    "name": "Yoshimasa Matsumoto",
+    "sourceIds": {
+      "wikipedia": "Yoshimasa Matsumoto"
+    }
+  },
+  {
+    "id": "craig-harwood",
+    "name": "Craig Harwood",
+    "sourceIds": {
+      "wikipedia": "Craig Harwood"
+    }
+  },
+  {
+    "id": "david-busby",
+    "name": "David Busby",
+    "sourceIds": {
+      "wikipedia": "David Busby"
+    }
+  },
+  {
+    "id": "michael-wild",
+    "name": "Michael Wild",
+    "sourceIds": {
+      "wikipedia": "Michael Wild (motorcyclist)"
+    }
+  },
+  {
+    "id": "petr-schleef",
+    "name": "Petr Schleef",
+    "sourceIds": {
+      "wikipedia": "Petr Schleef"
+    }
+  },
+  {
+    "id": "georg-robert-jung",
+    "name": "Georg Robert Jung",
+    "sourceIds": {
+      "wikipedia": "Georg Robert Jung"
+    }
+  },
+  {
+    "id": "martin-troesch",
+    "name": "Martin Troesch",
+    "sourceIds": {
+      "wikipedia": "Martin Troesch"
+    }
+  },
+  {
+    "id": "walther-maier",
+    "name": "Walther Maier",
+    "sourceIds": {
+      "wikipedia": "Walther Maier"
+    }
+  },
+  {
+    "id": "thomas-berghammer",
+    "name": "Thomas Berghammer",
+    "sourceIds": {
+      "wikipedia": "Thomas Berghammer"
+    }
+  },
+  {
+    "id": "michael-kaplam",
+    "name": "Michael Kaplam",
+    "sourceIds": {
+      "wikipedia": "Michael Kaplam"
+    }
+  },
+  {
+    "id": "donato-battistoni",
+    "name": "Donato Battistoni",
+    "sourceIds": {
+      "wikipedia": "Donato Battistoni"
+    }
+  },
+  {
+    "id": "tony-carey",
+    "name": "Tony Carey",
+    "sourceIds": {
+      "wikipedia": "Tony Carey (motorcyclist)"
+    }
+  },
+  {
+    "id": "fernando-gonzales",
+    "name": "Fernando Gonzales",
+    "sourceIds": {
+      "wikipedia": "Fernando Gonzales (motorcyclist)"
+    }
+  },
+  {
+    "id": "patrick-chavanne",
+    "name": "Patrick Chavanne",
+    "sourceIds": {
+      "wikipedia": "Patrick Chavanne"
+    }
+  },
+  {
+    "id": "patrick-lerustre",
+    "name": "Patrick Lerustre",
+    "sourceIds": {
+      "wikipedia": "Patrick Lerustre"
+    }
+  },
+  {
+    "id": "andy-mcgladdery",
+    "name": "Andy McGladdery",
+    "sourceIds": {
+      "wikipedia": "Andy McGladdery"
+    }
+  },
+  {
+    "id": "aki-dahli",
+    "name": "Aki Dahli",
+    "sourceIds": {
+      "wikipedia": "Aki Dahli"
+    }
+  },
+  {
+    "id": "marian-troliga",
+    "name": "Marián Troliga",
+    "sourceIds": {
+      "wikipedia": "Marián Troliga"
+    }
+  },
+  {
+    "id": "norbert-heiles",
+    "name": "Norbert Heiles",
+    "sourceIds": {
+      "wikipedia": "Norbert Heiles"
+    }
+  },
+  {
+    "id": "leslie-graham",
+    "name": "Leslie Graham",
+    "sourceIds": {
+      "wikipedia": "Leslie Graham"
+    }
+  },
+  {
+    "id": "nello-pagani",
+    "name": "Nello Pagani",
+    "sourceIds": {
+      "wikipedia": "Nello Pagani"
+    }
+  },
+  {
+    "id": "arciso-artesiani",
+    "name": "Arciso Artesiani",
+    "sourceIds": {
+      "wikipedia": "Arciso Artesiani"
+    }
+  },
+  {
+    "id": "bill-doran",
+    "name": "Bill Doran",
+    "sourceIds": {
+      "wikipedia": "Bill Doran (motorcyclist)"
+    }
+  },
+  {
+    "id": "artie-bell",
+    "name": "Artie Bell",
+    "sourceIds": {
+      "wikipedia": "Artie Bell"
+    }
+  },
+  {
+    "id": "harold-daniell",
+    "name": "Harold Daniell",
+    "sourceIds": {
+      "wikipedia": "Harold Daniell"
+    }
+  },
+  {
+    "id": "johnny-lockett",
+    "name": "Johnny Lockett",
+    "sourceIds": {
+      "wikipedia": "Johnny Lockett"
+    }
+  },
+  {
+    "id": "enrico-lorenzetti",
+    "name": "Enrico Lorenzetti",
+    "sourceIds": {
+      "wikipedia": "Enrico Lorenzetti"
+    }
+  },
+  {
+    "id": "ernie-lyons",
+    "name": "Ernie Lyons",
+    "sourceIds": {
+      "wikipedia": "Ernie Lyons"
+    }
+  },
+  {
+    "id": "gianni-leoni",
+    "name": "Gianni Leoni",
+    "sourceIds": {
+      "wikipedia": "Gianni Leoni"
+    }
+  },
+  {
+    "id": "syd-jensen",
+    "name": "Syd Jensen",
+    "sourceIds": {
+      "wikipedia": "Syd Jensen"
+    }
+  },
+  {
+    "id": "freddie-frith",
+    "name": "Freddie Frith",
+    "sourceIds": {
+      "wikipedia": "Freddie Frith"
+    }
+  },
+  {
+    "id": "bruno-bertacchini",
+    "name": "Bruno Bertacchini",
+    "sourceIds": {
+      "wikipedia": "Bruno Bertacchini"
+    }
+  },
+  {
+    "id": "jock-west",
+    "name": "Jock West",
+    "sourceIds": {
+      "wikipedia": "Jock West"
+    }
+  },
+  {
+    "id": "ken-armstrong",
+    "name": "Ken Armstrong",
+    "sourceIds": {
+      "wikipedia": "Ken Armstrong (motorcycle rider)"
+    }
+  },
+  {
+    "id": "cromie-mccandless",
+    "name": "Cromie McCandless",
+    "sourceIds": {
+      "wikipedia": "Cromie McCandless"
+    }
+  },
+  {
+    "id": "fred-stevens",
+    "name": "Fred Stevens",
+    "sourceIds": {
+      "wikipedia": "Fred Stevens"
+    }
+  },
+  {
+    "id": "ken-bills",
+    "name": "Ken Bills",
+    "sourceIds": {
+      "wikipedia": "Ken Bills"
+    }
+  },
+  {
+    "id": "harry-turner",
+    "name": "Harry Turner",
+    "sourceIds": {
+      "wikipedia": "Harry Turner (motorcyclist)"
+    }
+  },
+  {
+    "id": "umberto-masetti",
+    "name": "Umberto Masetti",
+    "sourceIds": {
+      "wikipedia": "Umberto Masetti"
+    }
+  },
+  {
+    "id": "reg-armstrong",
+    "name": "Reg Armstrong",
+    "sourceIds": {
+      "wikipedia": "Reg Armstrong"
+    }
+  },
+  {
+    "id": "felice-benasedo",
+    "name": "Felice Benasedo",
+    "sourceIds": {
+      "wikipedia": "Felice Benasedo"
+    }
+  },
+  {
+    "id": "harry-hinton",
+    "name": "Harry Hinton",
+    "sourceIds": {
+      "wikipedia": "Harry Hinton (motorcyclist)"
+    }
+  },
+  {
+    "id": "george-morrison",
+    "name": "George Morrison",
+    "sourceIds": {
+      "wikipedia": "George Morrison (motorcyclist)"
+    }
+  },
+  {
+    "id": "roger-richoz",
+    "name": "Roger Richoz",
+    "sourceIds": {
+      "wikipedia": "Roger Richoz"
+    }
+  },
+  {
+    "id": "ricardo-sabbadini",
+    "name": "Ricardo Sabbadini",
+    "sourceIds": {
+      "wikipedia": "Ricardo Sabbadini"
+    }
+  },
+  {
+    "id": "oscar-clemencich",
+    "name": "Oscar Clemencich",
+    "sourceIds": {
+      "wikipedia": "Oscar Clemencich"
+    }
+  },
+  {
+    "id": "sante-geminiani",
+    "name": "Sante Geminiani",
+    "sourceIds": {
+      "wikipedia": "Sante Geminiani"
+    }
+  },
+  {
+    "id": "hans-kaufmann",
+    "name": "Hans Kaufmann",
+    "sourceIds": {
+      "wikipedia": "Hans Kaufmann (motorcyclist)"
+    }
+  },
+  {
+    "id": "dante-bianchi",
+    "name": "Dante Bianchi",
+    "sourceIds": {
+      "wikipedia": "Dante Bianchi"
+    }
+  },
+  {
+    "id": "georges-cordey",
+    "name": "Georges Cordey",
+    "sourceIds": {
+      "wikipedia": "Georges Cordey"
+    }
+  },
+  {
+    "id": "ernie-callahan",
+    "name": "Ernie Callahan",
+    "sourceIds": {
+      "wikipedia": "Ernie Callahan"
+    }
+  },
+  {
+    "id": "arthur-wheeler",
+    "name": "Arthur Wheeler",
+    "sourceIds": {
+      "wikipedia": "Arthur Wheeler (motorcyclist)"
+    }
+  },
+  {
+    "id": "phil-heath",
+    "name": "Phil Heath",
+    "sourceIds": {
+      "wikipedia": "Phil Heath (motorcyclist)"
+    }
+  },
+  {
+    "id": "adelmo-mandolini",
+    "name": "Adelmo Mandolini",
+    "sourceIds": {
+      "wikipedia": "Adelmo Mandolini"
+    }
+  },
+  {
+    "id": "benoit-musy",
+    "name": "Benoit Musy",
+    "sourceIds": {
+      "wikipedia": "Benoit Musy"
+    }
+  },
+  {
+    "id": "drikus-veer",
+    "name": "Drikus Veer",
+    "sourceIds": {
+      "wikipedia": "Drikus Veer"
+    }
+  },
+  {
+    "id": "oliver-scott",
+    "name": "Oliver Scott",
+    "sourceIds": {
+      "wikipedia": "Oliver Scott (motorcyclist)"
+    }
+  },
+  {
+    "id": "bill-beevers",
+    "name": "Bill Beevers",
+    "sourceIds": {
+      "wikipedia": "Bill Beevers"
+    }
+  },
+  {
+    "id": "antonio-dalle-fusine",
+    "name": "Antonio Dalle Fusine",
+    "sourceIds": {
+      "wikipedia": "Antonio Dalle Fusine"
+    }
+  },
+  {
+    "id": "bill-petch",
+    "name": "Bill Petch",
+    "sourceIds": {
+      "wikipedia": "Bill Petch"
+    }
+  },
+  {
+    "id": "lodovico-facchinelli",
+    "name": "Lodovico Facchinelli",
+    "sourceIds": {
+      "wikipedia": "Lodovico Facchinelli"
+    }
+  },
+  {
+    "id": "edward-nicholls",
+    "name": "Edward Nicholls",
+    "sourceIds": {
+      "wikipedia": "Edward Nicholls (motorcyclist)"
+    }
+  },
+  {
+    "id": "guy-newman",
+    "name": "Guy Newman",
+    "sourceIds": {
+      "wikipedia": "Guy Newman (motorcyclist)"
+    }
+  },
+  {
+    "id": "nandor-puhony",
+    "name": "Nandor Puhony",
+    "sourceIds": {
+      "wikipedia": "Nandor Puhony"
+    }
+  },
+  {
+    "id": "orlando-valdinoci",
+    "name": "Orlando Valdinoci",
+    "sourceIds": {
+      "wikipedia": "Orlando Valdinoci"
+    }
+  },
+  {
+    "id": "albert-vertriest",
+    "name": "Albert Vertriest",
+    "sourceIds": {
+      "wikipedia": "Albert Vertriest"
+    }
+  },
+  {
+    "id": "alfeo-maramotti",
+    "name": "Alfeo Maramotti",
+    "sourceIds": {
+      "wikipedia": "Alfeo Maramotti"
+    }
+  },
+  {
+    "id": "eric-mcpherson",
+    "name": "Eric McPherson",
+    "sourceIds": {
+      "wikipedia": "Eric McPherson"
+    }
+  },
+  {
+    "id": "jacques-schot",
+    "name": "Jacques Schot",
+    "sourceIds": {
+      "wikipedia": "Jacques Schot"
+    }
+  },
+  {
+    "id": "laszlo-szabo",
+    "name": "László Szabó",
+    "sourceIds": {
+      "wikipedia": "László Szabó (motorcyclist)"
+    }
+  },
+  {
+    "id": "jules-tacheny",
+    "name": "Jules Tacheny",
+    "sourceIds": {
+      "wikipedia": "Jules Tacheny"
+    }
+  },
+  {
+    "id": "roy-evans",
+    "name": "Roy Evans",
+    "sourceIds": {
+      "wikipedia": "Roy Evans (motorcyclist)"
+    }
+  },
+  {
+    "id": "gerard-hoek",
+    "name": "Gerard Hoek",
+    "sourceIds": {
+      "wikipedia": "Gerard Hoek"
+    }
+  },
+  {
+    "id": "jack-bailey",
+    "name": "Jack Bailey",
+    "sourceIds": {
+      "wikipedia": "Jack Bailey (motorcyclist)"
+    }
+  },
+  {
+    "id": "johnny-hodgkin",
+    "name": "Johnny Hodgkin",
+    "sourceIds": {
+      "wikipedia": "Johnny Hodgkin"
+    }
+  },
+  {
+    "id": "dick-addie",
+    "name": "Dick Addie",
+    "sourceIds": {
+      "wikipedia": "Dick Addie"
+    }
+  },
+  {
+    "id": "albert-moule",
+    "name": "Albert Moule",
+    "sourceIds": {
+      "wikipedia": "Albert Moule"
+    }
+  },
+  {
+    "id": "george-paterson",
+    "name": "George Paterson",
+    "sourceIds": {
+      "wikipedia": "George Paterson (motorcyclist)"
+    }
+  },
+  {
+    "id": "bob-matthews",
+    "name": "Bob Matthews",
+    "sourceIds": {
+      "wikipedia": "Bob Matthews"
+    }
+  },
+  {
+    "id": "george-hayden",
+    "name": "George Hayden",
+    "sourceIds": {
+      "wikipedia": "George Hayden (motorcyclist)"
+    }
+  },
+  {
+    "id": "john-purnell",
+    "name": "John Purnell",
+    "sourceIds": {
+      "wikipedia": "John Purnell (motorcyclist)"
+    }
+  },
+  {
+    "id": "lesly-hill",
+    "name": "Lesly Hill",
+    "sourceIds": {
+      "wikipedia": "Lesly Hill"
+    }
+  },
+  {
+    "id": "arthur-fenn",
+    "name": "Arthur Fenn",
+    "sourceIds": {
+      "wikipedia": "Arthur Fenn"
+    }
+  },
+  {
+    "id": "harry-francis",
+    "name": "Harry Francis",
+    "sourceIds": {
+      "wikipedia": "Harry Francis (motorcyclist)"
+    }
+  },
+  {
+    "id": "eric-hardy",
+    "name": "Eric Hardy",
+    "sourceIds": {
+      "wikipedia": "Eric Hardy"
+    }
+  },
+  {
+    "id": "jack-brett",
+    "name": "Jack Brett",
+    "sourceIds": {
+      "wikipedia": "Jack Brett"
+    }
+  },
+  {
+    "id": "lennart-fenning",
+    "name": "Lennart Fenning",
+    "sourceIds": {
+      "wikipedia": "Lennart Fenning"
+    }
+  },
+  {
+    "id": "rob-weston",
+    "name": "Rob Weston",
+    "sourceIds": {
+      "wikipedia": "Rob Weston"
+    }
+  },
+  {
+    "id": "joe-glazebrook",
+    "name": "Joe Glazebrook",
+    "sourceIds": {
+      "wikipedia": "Joe Glazebrook"
+    }
+  },
+  {
+    "id": "joe-dent",
+    "name": "Joe Dent",
+    "sourceIds": {
+      "wikipedia": "Joe Dent"
+    }
+  },
+  {
+    "id": "bob-foster",
+    "name": "Bob Foster",
+    "sourceIds": {
+      "wikipedia": "Bob Foster (motorcyclist)"
+    }
+  },
+  {
+    "id": "carlo-bandirola",
+    "name": "Carlo Bandirola",
+    "sourceIds": {
+      "wikipedia": "Carlo Bandirola"
+    }
+  },
+  {
+    "id": "eric-briggs",
+    "name": "Eric Briggs",
+    "sourceIds": {
+      "wikipedia": "Eric Briggs (motorcyclist)"
+    }
+  },
+  {
+    "id": "les-dear",
+    "name": "Les Dear",
+    "sourceIds": {
+      "wikipedia": "Les Dear"
+    }
+  },
+  {
+    "id": "ted-frend",
+    "name": "Ted Frend",
+    "sourceIds": {
+      "wikipedia": "Ted Frend"
+    }
+  },
+  {
+    "id": "fergus-anderson",
+    "name": "Fergus Anderson",
+    "sourceIds": {
+      "wikipedia": "Fergus Anderson"
+    }
+  },
+  {
+    "id": "wilf-billington",
+    "name": "Wilf Billington",
+    "sourceIds": {
+      "wikipedia": "Wilf Billington"
+    }
+  },
+  {
+    "id": "norman-croft",
+    "name": "Norman Croft",
+    "sourceIds": {
+      "wikipedia": "Norman Croft"
+    }
+  },
+  {
+    "id": "frank-fry",
+    "name": "Frank Fry",
+    "sourceIds": {
+      "wikipedia": "Frank Fry"
+    }
+  },
+  {
+    "id": "eric-oliver",
+    "name": "Eric Oliver",
+    "sourceIds": {
+      "wikipedia": "Eric Oliver (racer)"
+    }
+  },
+  {
+    "id": "ernie-thomas",
+    "name": "Ernie Thomas",
+    "sourceIds": {
+      "wikipedia": "Ernie Thomas"
+    }
+  },
+  {
+    "id": "david-whitworth",
+    "name": "David Whitworth",
+    "sourceIds": {
+      "wikipedia": "David Whitworth"
+    }
+  },
+  {
+    "id": "dario-ambrosini",
+    "name": "Dario Ambrosini",
+    "sourceIds": {
+      "wikipedia": "Dario Ambrosini"
+    }
+  },
+  {
+    "id": "syl-anderton",
+    "name": "Syl Anderton",
+    "sourceIds": {
+      "wikipedia": "Syl Anderton"
+    }
+  },
+  {
+    "id": "syd-barnett",
+    "name": "Syd Barnett",
+    "sourceIds": {
+      "wikipedia": "Syd Barnett"
+    }
+  },
+  {
+    "id": "jean-behra",
+    "name": "Jean Behra",
+    "sourceIds": {
+      "wikipedia": "Jean Behra"
+    }
+  },
+  {
+    "id": "aldo-bernardoni",
+    "name": "Aldo Bernardoni",
+    "sourceIds": {
+      "wikipedia": "Aldo Bernardoni"
+    }
+  },
+  {
+    "id": "ernie-braine",
+    "name": "Ernie Braine",
+    "sourceIds": {
+      "wikipedia": "Ernie Braine"
+    }
+  },
+  {
+    "id": "charlie-brett",
+    "name": "Charlie Brett",
+    "sourceIds": {
+      "wikipedia": "Charlie Brett (motorcyclist)"
+    }
+  },
+  {
+    "id": "aldo-brini",
+    "name": "Aldo Brini",
+    "sourceIds": {
+      "wikipedia": "Aldo Brini"
+    }
+  },
+  {
+    "id": "gerard-carter",
+    "name": "Gerard Carter",
+    "sourceIds": {
+      "wikipedia": "Gerard Carter"
+    }
+  },
+  {
+    "id": "javier-de-ortueta",
+    "name": "Javier de Ortueta",
+    "sourceIds": {
+      "wikipedia": "Javier de Ortueta"
+    }
+  },
+  {
+    "id": "roland-dumond",
+    "name": "Roland Dumond",
+    "sourceIds": {
+      "wikipedia": "Roland Dumond"
+    }
+  },
+  {
+    "id": "juhan-franta",
+    "name": "Juhan Franta",
+    "sourceIds": {
+      "wikipedia": "František Juhan"
+    }
+  },
+  {
+    "id": "auguste-goffin",
+    "name": "Auguste Goffin",
+    "sourceIds": {
+      "wikipedia": "Auguste Goffin"
+    }
+  },
+  {
+    "id": "arthur-good",
+    "name": "Arthur Good",
+    "sourceIds": {
+      "wikipedia": "Arthur Good (motorcyclist)"
+    }
+  },
+  {
+    "id": "hans-haldemann",
+    "name": "Hans Haldemann",
+    "sourceIds": {
+      "wikipedia": "Hans Haldemann"
+    }
+  },
+  {
+    "id": "piet-knijnenburg",
+    "name": "Piet Knijnenburg",
+    "sourceIds": {
+      "wikipedia": "Piet Knijnenburg"
+    }
+  },
+  {
+    "id": "roger-laurent",
+    "name": "Roger Laurent",
+    "sourceIds": {
+      "wikipedia": "Roger Laurent"
+    }
+  },
+  {
+    "id": "sid-lawton",
+    "name": "Sid Lawton",
+    "sourceIds": {
+      "wikipedia": "Sid Lawton"
+    }
+  },
+  {
+    "id": "reg-lee",
+    "name": "Reg Lee",
+    "sourceIds": {
+      "wikipedia": "Reg Lee"
+    }
+  },
+  {
+    "id": "leon-martin",
+    "name": "Leon Martin",
+    "sourceIds": {
+      "wikipedia": "Leon Martin (motorcyclist)"
+    }
+  },
+  {
+    "id": "reginald-macdonald",
+    "name": "Reginald MacDonald",
+    "sourceIds": {
+      "wikipedia": "Reginald MacDonald (motorcyclist)"
+    }
+  },
+  {
+    "id": "tommy-mcewans",
+    "name": "Tommy McEwans",
+    "sourceIds": {
+      "wikipedia": "Tommy McEwans"
+    }
+  },
+  {
+    "id": "armando-miele",
+    "name": "Armando Miele",
+    "sourceIds": {
+      "wikipedia": "Armando Miele"
+    }
+  },
+  {
+    "id": "stan-miller",
+    "name": "Stan Miller",
+    "sourceIds": {
+      "wikipedia": "Stan Miller"
+    }
+  },
+  {
+    "id": "bert-myers",
+    "name": "Bert Myers",
+    "sourceIds": {
+      "wikipedia": "Bert Myers (motorcyclist)"
+    }
+  },
+  {
+    "id": "billy-graham",
+    "name": "Billy Graham",
+    "sourceIds": {
+      "wikipedia": "Billy Graham (motorcyclist)"
+    }
+  },
+  {
+    "id": "ashley-len-parry",
+    "name": "Ashley Len Parry",
+    "sourceIds": {
+      "wikipedia": "Ashley Len Parry"
+    }
+  },
+  {
+    "id": "hub-pellikaan",
+    "name": "Hub Pellikaan",
+    "sourceIds": {
+      "wikipedia": "Hub Pellikaan"
+    }
+  },
+  {
+    "id": "henry-pinnington",
+    "name": "Henry Pinnington",
+    "sourceIds": {
+      "wikipedia": "Henry Pinnington"
+    }
+  },
+  {
+    "id": "charlie-salt",
+    "name": "Charlie Salt",
+    "sourceIds": {
+      "wikipedia": "Charlie Salt (motorcyclist)"
+    }
+  },
+  {
+    "id": "emilio-soprani",
+    "name": "Emilio Soprani",
+    "sourceIds": {
+      "wikipedia": "Emilio Soprani"
+    }
+  },
+  {
+    "id": "jan-veer",
+    "name": "Jan Veer",
+    "sourceIds": {
+      "wikipedia": "Jan Veer"
+    }
+  },
+  {
+    "id": "roy-walker",
+    "name": "Roy Walker",
+    "sourceIds": {
+      "wikipedia": "Roy Walker (motorcyclist)"
+    }
+  },
+  {
+    "id": "tom-wycherley",
+    "name": "Tom Wycherley",
+    "sourceIds": {
+      "wikipedia": "Tom Wycherley"
+    }
+  },
+  {
+    "id": "guido-leoni",
+    "name": "Guido Leoni",
+    "sourceIds": {
+      "wikipedia": "Guido Leoni (motorcyclist)"
+    }
+  },
+  {
+    "id": "rex-mccandless",
+    "name": "Rex McCandless",
+    "sourceIds": {
+      "wikipedia": "Rex McCandless"
+    }
+  }
+]
