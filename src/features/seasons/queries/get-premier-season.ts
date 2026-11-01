@@ -1,49 +1,12 @@
-// Build-time data access. Only imported by server components, so it runs in Node
-// during `next build` and never ships to the browser.
-import 'server-only';
-import Database from 'better-sqlite3';
-import path from 'node:path';
-import type { Result, ScoringRule, Session, Status } from './standings';
-
-const DB_PATH = path.join(process.cwd(), 'db', 'motogp.db');
-
-let _db: Database.Database | null = null;
-function db() {
-  _db ??= new Database(DB_PATH, { readonly: true, fileMustExist: true });
-  return _db;
-}
-
-export interface SeasonSummary {
-  year: number;
-  className: string;
-}
-
-export interface SeasonData {
-  year: number;
-  className: string;
-  rule: ScoringRule;
-  rounds: { number: number; name: string; date: string | null; country: string | null }[];
-  riders: Record<number, { name: string; nationality: string | null }>;
-  results: Result[];
-}
-
-/** Premier-class seasons (500cc + MotoGP), oldest first. */
-export function listPremierSeasons(): SeasonSummary[] {
-  return db()
-    .prepare(
-      `SELECT s.year, c.name AS className
-         FROM seasons s
-         JOIN classes c              ON c.id = s.class_id
-         JOIN class_group_members gm ON gm.class_id = c.id
-         JOIN class_groups g         ON g.id = gm.group_id
-        WHERE g.code = 'premier'
-        ORDER BY s.year`,
-    )
-    .all() as SeasonSummary[];
-}
+import { getDatabase } from '@/shared/queries/get-database';
+import type { Result } from '@/features/scoring/types/result';
+import type { ScoringRule } from '@/features/scoring/types/scoring-rule';
+import type { Session } from '@/features/scoring/types/session';
+import type { Status } from '@/features/scoring/types/status';
+import type { SeasonData } from '../types/season-data';
 
 export function getPremierSeason(year: number): SeasonData | null {
-  const season = db()
+  const season = getDatabase()
     .prepare(
       `SELECT s.id, s.year, c.name AS className, s.scoring_rule_id AS ruleId
          FROM seasons s
@@ -55,7 +18,7 @@ export function getPremierSeason(year: number): SeasonData | null {
     .get(year) as { id: number; year: number; className: string; ruleId: number } | undefined;
   if (!season) return null;
 
-  const rounds = db()
+  const rounds = getDatabase()
     .prepare(
       `SELECT r.round_number AS number, r.name, r.date, ci.country
          FROM rounds r LEFT JOIN circuits ci ON ci.id = r.circuit_id
@@ -63,7 +26,7 @@ export function getPremierSeason(year: number): SeasonData | null {
     )
     .all(season.id) as SeasonData['rounds'];
 
-  const rows = db()
+  const rows = getDatabase()
     .prepare(
       `SELECT ro.round_number AS round, re.session, re.rider_id AS riderId, re.position,
               re.status, re.fastest_lap AS fastestLap, re.points_override AS pointsOverride,
@@ -95,7 +58,7 @@ export function getPremierSeason(year: number): SeasonData | null {
 }
 
 function getRule(ruleId: number): ScoringRule {
-  const rule = db()
+  const rule = getDatabase()
     .prepare(
       `SELECT best_n AS bestN, fastest_lap_points AS flp, fastest_lap_requires_finish AS flf
          FROM scoring_rules WHERE id = ?`,
@@ -103,7 +66,7 @@ function getRule(ruleId: number): ScoringRule {
     .get(ruleId) as { bestN: number | null; flp: number; flf: number };
 
   const points: ScoringRule['points'] = { race: [], sprint: [] };
-  const rows = db()
+  const rows = getDatabase()
     .prepare(`SELECT session, position, points FROM scoring_points WHERE rule_id = ? ORDER BY position`)
     .all(ruleId) as { session: Session; position: number; points: number }[];
   for (const p of rows) points[p.session][p.position - 1] = p.points;

@@ -1,5 +1,7 @@
 import { describe, it, expect } from 'vitest';
-import { computeStandings, computeSeason, pointsFor, type Result, type ScoringRule } from './standings';
+import { computeStandings } from './compute-standings';
+import type { Result } from '../types/result';
+import type { ScoringRule } from '../types/scoring-rule';
 
 const modern: ScoringRule = {
   points: {
@@ -21,27 +23,6 @@ const bestTwo: ScoringRule = {
 
 const fin = (round: number, riderId: number, position: number, session: 'race' | 'sprint' = 'race'): Result =>
   ({ round, session, riderId, position, status: 'FIN' });
-
-describe('pointsFor', () => {
-  it('scores race and sprint positions', () => {
-    expect(pointsFor(fin(1, 1, 1), modern)).toBe(25);
-    expect(pointsFor(fin(1, 1, 1, 'sprint'), modern)).toBe(12);
-    expect(pointsFor(fin(1, 1, 16), modern)).toBe(0);
-  });
-
-  it('gives nothing for DNF', () => {
-    expect(pointsFor({ round: 1, session: 'race', riderId: 1, position: null, status: 'DNF' }, modern)).toBe(0);
-  });
-
-  it('adds fastest lap bonus only when finished', () => {
-    expect(pointsFor({ ...fin(1, 1, 2), fastestLap: true }, bestTwo)).toBe(9);
-    expect(pointsFor({ round: 1, session: 'race', riderId: 1, position: null, status: 'DNF', fastestLap: true }, bestTwo)).toBe(0);
-  });
-
-  it('respects overrides (half points)', () => {
-    expect(pointsFor({ ...fin(1, 1, 1), pointsOverride: 12.5 }, modern)).toBe(12.5);
-  });
-});
 
 describe('computeStandings', () => {
   it('sums race + sprint', () => {
@@ -71,13 +52,5 @@ describe('computeStandings', () => {
     const results = [fin(1, 1, 1), fin(2, 1, 5), fin(3, 1, 2)]; // 10, 5, 8
     expect(computeStandings(results, bestTwo, 2)[0]).toMatchObject({ points: 15, droppedRounds: [] });
     expect(computeStandings(results, bestTwo, 3)[0]).toMatchObject({ points: 18, grossPoints: 23, droppedRounds: [2] });
-  });
-});
-
-describe('computeSeason', () => {
-  it('returns one standings table per round', () => {
-    const season = computeSeason([fin(1, 1, 1), fin(2, 2, 1), fin(3, 1, 1)], modern);
-    expect(season).toHaveLength(3);
-    expect(season[2][0]).toMatchObject({ riderId: 1, points: 50 });
   });
 });

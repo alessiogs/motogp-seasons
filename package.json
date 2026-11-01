@@ -8,7 +8,7 @@
     "build": "next build",
     "test": "vitest run",
     "typecheck": "tsc --noEmit",
-    "db:init": "node scripts/init-db.mjs"
+    "db:init": "node src/features/data-build/scripts/init-db.mjs"
   },
   "dependencies": {
     "better-sqlite3": "^11.7.0",
