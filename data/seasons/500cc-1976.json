@@ -113,7 +113,7 @@
               "team": null,
               "manufacturer": "Suzuki",
               "bikeNumber": 13,
-              "nationality": "BRD",
+              "nationality": "FRG",
               "source": "https://en.wikipedia.org/wiki/1976_French_motorcycle_Grand_Prix"
             },
             {
@@ -245,7 +245,7 @@
               "team": null,
               "manufacturer": "Suzuki",
               "bikeNumber": 41,
-              "nationality": "DEU",
+              "nationality": "FRG",
               "source": "https://en.wikipedia.org/wiki/1976_French_motorcycle_Grand_Prix"
             },
             {
@@ -613,7 +613,7 @@
               "team": null,
               "manufacturer": "Suzuki",
               "bikeNumber": 39,
-              "nationality": "BRD",
+              "nationality": "FRG",
               "source": "https://en.wikipedia.org/wiki/1976_Austrian_motorcycle_Grand_Prix"
             },
             {
@@ -661,7 +661,7 @@
               "team": null,
               "manufacturer": "Suzuki",
               "bikeNumber": 14,
-              "nationality": "BRD",
+              "nationality": "FRG",
               "source": "https://en.wikipedia.org/wiki/1976_Austrian_motorcycle_Grand_Prix"
             },
             {
@@ -685,7 +685,7 @@
               "team": null,
               "manufacturer": "Yamaha",
               "bikeNumber": 26,
-              "nationality": "DNK",
+              "nationality": "DEN",
               "source": "https://en.wikipedia.org/wiki/1976_Austrian_motorcycle_Grand_Prix"
             },
             {
@@ -1041,7 +1041,7 @@
               "team": null,
               "manufacturer": "Suzuki",
               "bikeNumber": 30,
-              "nationality": "BRD",
+              "nationality": "FRG",
               "source": "https://en.wikipedia.org/wiki/1976_Nations_motorcycle_Grand_Prix"
             },
             {
@@ -1053,7 +1053,7 @@
               "team": null,
               "manufacturer": "Yamaha",
               "bikeNumber": 41,
-              "nationality": "DNK",
+              "nationality": "DEN",
               "source": "https://en.wikipedia.org/wiki/1976_Nations_motorcycle_Grand_Prix"
             },
             {
@@ -1397,7 +1397,7 @@
               "team": "Padgett's Motorcycles",
               "manufacturer": "Yamaha",
               "bikeNumber": 26,
-              "nationality": "ZAF",
+              "nationality": "RSA",
               "source": "https://en.wikipedia.org/wiki/1976_Isle_of_Man_TT"
             },
             {
@@ -1697,7 +1697,7 @@
               "team": null,
               "manufacturer": "Yamaha",
               "bikeNumber": null,
-              "nationality": "BRD",
+              "nationality": "FRG",
               "source": "https://en.wikipedia.org/wiki/1976_Isle_of_Man_TT"
             },
             {
@@ -1805,7 +1805,7 @@
               "team": null,
               "manufacturer": "Suzuki",
               "bikeNumber": null,
-              "nationality": "BRD",
+              "nationality": "FRG",
               "source": "https://en.wikipedia.org/wiki/1976_Isle_of_Man_TT"
             },
             {
@@ -2105,7 +2105,7 @@
               "team": null,
               "manufacturer": "Yamaha",
               "bikeNumber": null,
-              "nationality": "BRD",
+              "nationality": "FRG",
               "source": "https://en.wikipedia.org/wiki/1976_Isle_of_Man_TT"
             },
             {
@@ -2353,7 +2353,7 @@
               "team": null,
               "manufacturer": "Suzuki",
               "bikeNumber": 19,
-              "nationality": "DEU",
+              "nationality": "FRG",
               "source": "https://en.wikipedia.org/wiki/1976_Dutch_TT"
             },
             {
@@ -2413,7 +2413,7 @@
               "team": null,
               "manufacturer": "König",
               "bikeNumber": null,
-              "nationality": "BRD",
+              "nationality": "FRG",
               "source": "https://en.wikipedia.org/wiki/1976_Dutch_TT"
             },
             {
@@ -2485,7 +2485,7 @@
               "team": null,
               "manufacturer": "Yamaha",
               "bikeNumber": null,
-              "nationality": "BRD",
+              "nationality": "FRG",
               "source": "https://en.wikipedia.org/wiki/1976_Dutch_TT"
             },
             {
@@ -2709,7 +2709,7 @@
               "team": null,
               "manufacturer": "Suzuki",
               "bikeNumber": 14,
-              "nationality": "BRD",
+              "nationality": "FRG",
               "source": "https://en.wikipedia.org/wiki/1976_Belgian_motorcycle_Grand_Prix"
             },
             {
@@ -2757,7 +2757,7 @@
               "team": null,
               "manufacturer": "Suzuki",
               "bikeNumber": 44,
-              "nationality": "BRD",
+              "nationality": "FRG",
               "source": "https://en.wikipedia.org/wiki/1976_Belgian_motorcycle_Grand_Prix"
             },
             {
@@ -3197,7 +3197,7 @@
               "team": null,
               "manufacturer": "Yamaha",
               "bikeNumber": 47,
-              "nationality": "DNK",
+              "nationality": "DEN",
               "source": "https://en.wikipedia.org/wiki/1976_Swedish_motorcycle_Grand_Prix"
             },
             {
@@ -3245,7 +3245,7 @@
               "team": null,
               "manufacturer": "Suzuki",
               "bikeNumber": 14,
-              "nationality": "BRD",
+              "nationality": "FRG",
               "source": "https://en.wikipedia.org/wiki/1976_Swedish_motorcycle_Grand_Prix"
             },
             {
@@ -3481,7 +3481,7 @@
               "team": null,
               "manufacturer": "Suzuki",
               "bikeNumber": 10,
-              "nationality": "BRD",
+              "nationality": "FRG",
               "source": "https://en.wikipedia.org/wiki/1976_Finnish_motorcycle_Grand_Prix"
             },
             {
@@ -3565,7 +3565,7 @@
               "team": null,
               "manufacturer": "Yamaha",
               "bikeNumber": 31,
-              "nationality": "DNK",
+              "nationality": "DEN",
               "source": "https://en.wikipedia.org/wiki/1976_Finnish_motorcycle_Grand_Prix"
             },
             {
@@ -3873,7 +3873,7 @@
               "team": null,
               "manufacturer": "Yamaha",
               "bikeNumber": 4,
-              "nationality": "DDR",
+              "nationality": "GDR",
               "source": "https://en.wikipedia.org/wiki/1976_Czechoslovak_motorcycle_Grand_Prix"
             },
             {
@@ -3981,7 +3981,7 @@
               "team": null,
               "manufacturer": "Yamaha",
               "bikeNumber": 47,
-              "nationality": "BRD",
+              "nationality": "FRG",
               "source": "https://en.wikipedia.org/wiki/1976_Czechoslovak_motorcycle_Grand_Prix"
             },
             {
@@ -4017,7 +4017,7 @@
               "team": null,
               "manufacturer": "Suzuki",
               "bikeNumber": 10,
-              "nationality": "BRD",
+              "nationality": "FRG",
               "source": "https://en.wikipedia.org/wiki/1976_Czechoslovak_motorcycle_Grand_Prix"
             },
             {
@@ -4077,7 +4077,7 @@
               "team": null,
               "manufacturer": "Yamaha",
               "bikeNumber": 31,
-              "nationality": "DNK",
+              "nationality": "DEN",
               "source": "https://en.wikipedia.org/wiki/1976_Czechoslovak_motorcycle_Grand_Prix"
             },
             {
@@ -4125,7 +4125,7 @@
               "team": null,
               "manufacturer": "Suzuki",
               "bikeNumber": 44,
-              "nationality": "BRD",
+              "nationality": "FRG",
               "source": "https://en.wikipedia.org/wiki/1976_Czechoslovak_motorcycle_Grand_Prix"
             },
             {
@@ -4349,7 +4349,7 @@
               "team": null,
               "manufacturer": "Suzuki",
               "bikeNumber": 70,
-              "nationality": "ZAF",
+              "nationality": "RSA",
               "source": "https://en.wikipedia.org/wiki/1976_German_motorcycle_Grand_Prix"
             },
             {
@@ -4385,7 +4385,7 @@
               "team": null,
               "manufacturer": "Nava",
               "bikeNumber": 59,
-              "nationality": "BRD",
+              "nationality": "FRG",
               "source": "https://en.wikipedia.org/wiki/1976_German_motorcycle_Grand_Prix"
             },
             {
@@ -4397,7 +4397,7 @@
               "team": null,
               "manufacturer": "Yamaha",
               "bikeNumber": 69,
-              "nationality": "CSK",
+              "nationality": "TCH",
               "source": "https://en.wikipedia.org/wiki/1976_German_motorcycle_Grand_Prix"
             },
             {
@@ -4445,7 +4445,7 @@
               "team": null,
               "manufacturer": "Yamaha",
               "bikeNumber": 53,
-              "nationality": "BRD",
+              "nationality": "FRG",
               "source": "https://en.wikipedia.org/wiki/1976_German_motorcycle_Grand_Prix"
             },
             {
@@ -4457,7 +4457,7 @@
               "team": null,
               "manufacturer": "Suzuki",
               "bikeNumber": 52,
-              "nationality": "BRD",
+              "nationality": "FRG",
               "source": "https://en.wikipedia.org/wiki/1976_German_motorcycle_Grand_Prix"
             },
             {
@@ -4517,7 +4517,7 @@
               "team": null,
               "manufacturer": "Yamaha",
               "bikeNumber": null,
-              "nationality": "BRD",
+              "nationality": "FRG",
               "source": "https://en.wikipedia.org/wiki/1976_German_motorcycle_Grand_Prix"
             },
             {
@@ -4541,7 +4541,7 @@
               "team": null,
               "manufacturer": "Yamaha",
               "bikeNumber": null,
-              "nationality": "BRD",
+              "nationality": "FRG",
               "source": "https://en.wikipedia.org/wiki/1976_German_motorcycle_Grand_Prix"
             },
             {
@@ -4553,7 +4553,7 @@
               "team": null,
               "manufacturer": "Yamaha",
               "bikeNumber": null,
-              "nationality": "BRD",
+              "nationality": "FRG",
               "source": "https://en.wikipedia.org/wiki/1976_German_motorcycle_Grand_Prix"
             },
             {
@@ -4589,7 +4589,7 @@
               "team": null,
               "manufacturer": "Suzuki",
               "bikeNumber": 14,
-              "nationality": "BRD",
+              "nationality": "FRG",
               "source": "https://en.wikipedia.org/wiki/1976_German_motorcycle_Grand_Prix"
             },
             {
@@ -4637,7 +4637,7 @@
               "team": null,
               "manufacturer": "Yamaha",
               "bikeNumber": null,
-              "nationality": "DNK",
+              "nationality": "DEN",
               "source": "https://en.wikipedia.org/wiki/1976_German_motorcycle_Grand_Prix"
             },
             {
@@ -4685,7 +4685,7 @@
               "team": null,
               "manufacturer": "Yamaha",
               "bikeNumber": null,
-              "nationality": "BRD",
+              "nationality": "FRG",
               "source": "https://en.wikipedia.org/wiki/1976_German_motorcycle_Grand_Prix"
             },
             {
@@ -4697,7 +4697,7 @@
               "team": null,
               "manufacturer": "Suzuki",
               "bikeNumber": null,
-              "nationality": "BRD",
+              "nationality": "FRG",
               "source": "https://en.wikipedia.org/wiki/1976_German_motorcycle_Grand_Prix"
             },
             {
@@ -4733,7 +4733,7 @@
               "team": null,
               "manufacturer": "König",
               "bikeNumber": null,
-              "nationality": "BRD",
+              "nationality": "FRG",
               "source": "https://en.wikipedia.org/wiki/1976_German_motorcycle_Grand_Prix"
             },
             {
@@ -4745,7 +4745,7 @@
               "team": null,
               "manufacturer": "Yamaha",
               "bikeNumber": null,
-              "nationality": "BRD",
+              "nationality": "FRG",
               "source": "https://en.wikipedia.org/wiki/1976_German_motorcycle_Grand_Prix"
             },
             {
@@ -4769,7 +4769,7 @@
               "team": null,
               "manufacturer": "Yamaha",
               "bikeNumber": null,
-              "nationality": "BRD",
+              "nationality": "FRG",
               "source": "https://en.wikipedia.org/wiki/1976_German_motorcycle_Grand_Prix"
             },
             {
@@ -4781,7 +4781,7 @@
               "team": null,
               "manufacturer": "Suzuki",
               "bikeNumber": null,
-              "nationality": "BRD",
+              "nationality": "FRG",
               "source": "https://en.wikipedia.org/wiki/1976_German_motorcycle_Grand_Prix"
             },
             {
@@ -4793,7 +4793,7 @@
               "team": null,
               "manufacturer": "Yamaha",
               "bikeNumber": null,
-              "nationality": "BRD",
+              "nationality": "FRG",
               "source": "https://en.wikipedia.org/wiki/1976_German_motorcycle_Grand_Prix"
             },
             {
@@ -4805,7 +4805,7 @@
               "team": null,
               "manufacturer": "König",
               "bikeNumber": null,
-              "nationality": "BRD",
+              "nationality": "FRG",
               "source": "https://en.wikipedia.org/wiki/1976_German_motorcycle_Grand_Prix"
             },
             {
@@ -4829,7 +4829,7 @@
               "team": null,
               "manufacturer": "König",
               "bikeNumber": null,
-              "nationality": "BRD",
+              "nationality": "FRG",
               "source": "https://en.wikipedia.org/wiki/1976_German_motorcycle_Grand_Prix"
             },
             {
@@ -4841,7 +4841,7 @@
               "team": null,
               "manufacturer": "Suzuki",
               "bikeNumber": 44,
-              "nationality": "BRD",
+              "nationality": "FRG",
               "source": "https://en.wikipedia.org/wiki/1976_German_motorcycle_Grand_Prix"
             },
             {
@@ -4853,7 +4853,7 @@
               "team": null,
               "manufacturer": "König",
               "bikeNumber": null,
-              "nationality": "BRD",
+              "nationality": "FRG",
               "source": "https://en.wikipedia.org/wiki/1976_German_motorcycle_Grand_Prix"
             },
             {
@@ -4865,7 +4865,7 @@
               "team": null,
               "manufacturer": "Yamaha",
               "bikeNumber": null,
-              "nationality": "BRD",
+              "nationality": "FRG",
               "source": "https://en.wikipedia.org/wiki/1976_German_motorcycle_Grand_Prix"
             },
             {
@@ -4901,7 +4901,7 @@
               "team": null,
               "manufacturer": "Yamaha",
               "bikeNumber": null,
-              "nationality": "DDR",
+              "nationality": "GDR",
               "source": "https://en.wikipedia.org/wiki/1976_German_motorcycle_Grand_Prix"
             },
             {
@@ -4925,7 +4925,7 @@
               "team": null,
               "manufacturer": "Yamaha",
               "bikeNumber": null,
-              "nationality": "BRD",
+              "nationality": "FRG",
               "source": "https://en.wikipedia.org/wiki/1976_German_motorcycle_Grand_Prix"
             },
             {
