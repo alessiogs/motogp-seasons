@@ -51,10 +51,45 @@ a:hover { text-decoration: underline; }
 .controls button:disabled { opacity: 0.3; cursor: default; }
 .round-label { margin: 0 0 16px; font-weight: 600; }
 
-.standings { width: 100%; border-collapse: collapse; font-variant-numeric: tabular-nums; }
-.standings th, .standings td { padding: 8px 6px; border-bottom: 1px solid var(--line); text-align: left; }
-.standings th { font-size: 0.8rem; color: var(--muted); font-weight: 600; }
+.standings { position: relative; width: 100%; font-variant-numeric: tabular-nums; font-size: 0.95rem; }
+.standings-row {
+  position: absolute; top: 0; left: 0; right: 0; height: 44px;
+  display: grid; grid-template-columns: 2rem 2.4rem minmax(0, 1fr) 4.2rem 3rem 2.4rem; align-items: center;
+  column-gap: 4px; padding: 0 4px; border-bottom: 1px solid var(--line);
+  transition: transform 0.5s ease;
+}
+.standings-row > span { overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+.standings-head { font-size: 0.8rem; color: var(--muted); font-weight: 600; }
 .standings .num { text-align: right; }
-.standings tbody tr:first-child td { font-weight: 700; }
+.standings-row.leader { font-weight: 700; }
 .up { color: var(--up); font-size: 0.8rem; }
 .down { color: var(--down); font-size: 0.8rem; }
+@media (prefers-reduced-motion: reduce) { .standings-row { transition: none; } }
+@media (max-width: 380px) {
+  .standings-row { grid-template-columns: 1.6rem 2.2rem minmax(0, 1fr) 3.6rem 2.6rem 2rem; font-size: 0.85rem; }
+}
+
+.flag { display: inline-block; }
+.flag-code {
+  font-size: 0.65rem; font-weight: 700; padding: 0 4px; border: 1px solid var(--line);
+  border-radius: 4px; color: var(--muted); vertical-align: middle;
+}
+
+.step-details { margin-top: 24px; }
+.step-details h2 { font-size: 1rem; margin: 0 0 8px; }
+.podium, .class-list { list-style: none; margin: 0; padding: 0; }
+.podium li, .class-list li {
+  display: grid; grid-template-columns: 2rem minmax(0, 1fr) auto; gap: 8px; align-items: baseline;
+  padding: 8px 4px; border-bottom: 1px solid var(--line);
+}
+.podium-pos { font-weight: 700; color: var(--accent); }
+.podium-team { font-size: 0.85rem; }
+.classification { margin-top: 12px; border: 1px solid var(--line); border-radius: 8px; }
+.classification summary { padding: 10px 12px; cursor: pointer; font-weight: 600; }
+.classification[open] summary { border-bottom: 1px solid var(--line); }
+.classification .class-list { padding: 0 8px; }
+.class-list li { font-size: 0.9rem; }
+.class-rider { min-width: 0; overflow-wrap: anywhere; }
+.class-outcome { font-size: 0.8rem; color: var(--down); text-align: right; }
+
+.site-footer { margin-top: 48px; padding-top: 16px; border-top: 1px solid var(--line); font-size: 0.85rem; color: var(--muted); }

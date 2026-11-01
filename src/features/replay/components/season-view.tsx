@@ -1,6 +1,7 @@
 import Link from 'next/link';
 import { computeReplay } from '@/features/scoring/logic/compute-replay';
 import type { Season } from '@/features/seasons/types/season';
+import { classificationOf, type ClassificationRow } from '../logic/classification';
 import SeasonReplay from './season-replay';
 
 export default function SeasonView({ season }: { season: Season }) {
@@ -9,8 +10,10 @@ export default function SeasonView({ season }: { season: Season }) {
 
   // A Rider's Nationality is per Season entry: take the one on their first Result.
   const riders: Record<string, { name: string; nationality: string | null }> = {};
+  const classifications: Record<string, ClassificationRow[]> = {};
   for (const round of season.rounds) {
     for (const session of round.sessions) {
+      classifications[`${round.number}/${session.type}`] = classificationOf(session);
       for (const result of session.results) {
         riders[result.riderId] ??= { name: season.riders[result.riderId]?.name ?? result.riderId, nationality: null };
         riders[result.riderId].nationality ??= result.nationality;
@@ -26,7 +29,7 @@ export default function SeasonView({ season }: { season: Season }) {
       <h1>
         {season.year} <span className="muted">{season.className}</span>
       </h1>
-      <SeasonReplay rounds={rounds} riders={riders} steps={steps} />
+      <SeasonReplay rounds={rounds} riders={riders} steps={steps} classifications={classifications} />
     </>
   );
 }
