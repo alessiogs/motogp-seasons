@@ -7,7 +7,7 @@ Starting with the Premier category (500cc 1949–2001, MotoGP 2002–); the othe
 ## How it works
 
 - **`db/motogp.db`** (SQLite) is the source of truth. It holds raw results only; standings are never stored. Schema: `db/schema.sql`.
-- **`src/lib/standings.ts`** computes standings from raw results and the season's scoring rule: race and sprint points, best-N dropped scores, fastest-lap bonuses, per-result overrides for half points or penalties, and countback tie-breaks.
+- **`src/features/scoring/logic/compute-standings.ts`** computes standings from raw results and the season's scoring rule: race and sprint points, best-N dropped scores, fastest-lap bonuses, per-result overrides for half points or penalties, and countback tie-breaks.
 - **Next.js static export** reads the database at build time and pre-renders one page per season with the standings after every round. The site is plain HTML/JS, no server.
 - **GitHub Pages** deploys automatically on every push to `main` (`.github/workflows/deploy.yml`).
 

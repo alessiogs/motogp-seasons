@@ -1,8 +1,8 @@
 'use client';
 
 import { useState } from 'react';
-import type { StandingRow } from '@/lib/standings';
-import type { SeasonData } from '@/lib/db';
+import type { StandingRow } from '@/features/scoring/types/standing-row';
+import type { SeasonData } from '@/features/seasons/types/season-data';
 
 interface Props {
   rounds: SeasonData['rounds'];
