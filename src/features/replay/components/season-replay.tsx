@@ -9,9 +9,11 @@ interface Props {
   riders: Record<string, { name: string; nationality: string | null }>;
   /** One Step per Session, in order. */
   steps: ReplayStep[];
+  /** The Season's Scoring rule has Counting windows: show Gross points and Dropped scores. */
+  hasCountingWindows?: boolean;
 }
 
-export default function SeasonReplay({ rounds, riders, steps }: Props) {
+export default function SeasonReplay({ rounds, riders, steps, hasCountingWindows = false }: Props) {
   const last = steps.length - 1;
   const [idx, setIdx] = useState(last);
 
@@ -56,6 +58,8 @@ export default function SeasonReplay({ rounds, riders, steps }: Props) {
             <th></th>
             <th>Rider</th>
             <th className="num">Pts</th>
+            {hasCountingWindows && <th className="num">Gross</th>}
+            {hasCountingWindows && <th>Dropped</th>}
             <th className="num">Gap</th>
             <th className="num">Wins</th>
           </tr>
@@ -75,14 +79,17 @@ export default function SeasonReplay({ rounds, riders, steps }: Props) {
                   {rider?.name ?? row.riderId}
                   {rider?.nationality && <span className="muted"> {rider.nationality}</span>}
                 </td>
-                <td className="num">
-                  {row.points}
-                  {row.droppedRounds.length > 0 && (
-                    <span className="muted" title={`Dropped rounds: ${row.droppedRounds.join(', ')}`}>
-                      {' '}({row.grossPoints})
-                    </span>
-                  )}
-                </td>
+                <td className="num">{row.points}</td>
+                {hasCountingWindows && <td className="num muted">{row.grossPoints}</td>}
+                {hasCountingWindows && (
+                  <td className="dropped">
+                    {row.droppedRounds.map((n) => (
+                      <span key={n} className="dropped-score" title={`Round ${n} score dropped (${row.roundScores[n - 1]} points)`}>
+                        R{n} <s>{row.roundScores[n - 1]}</s>
+                      </span>
+                    ))}
+                  </td>
+                )}
                 <td className="num muted">{row.rank === 1 ? '' : `-${leader - row.points}`}</td>
                 <td className="num">{row.wins || ''}</td>
               </tr>

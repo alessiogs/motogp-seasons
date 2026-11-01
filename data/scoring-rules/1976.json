@@ -1,0 +1,15 @@
+{
+  "code": "1976",
+  "name": "1976 500cc: 15-12-10-8-6-5-4-3-2-1, best 3 of Rounds 1-5 plus best 3 of Rounds 6-10",
+  "source": "https://en.wikipedia.org/wiki/1976_Grand_Prix_motorcycle_racing_season#Scoring_system (citing Motocourse: 50 Years of Moto Grand Prix): points to the top ten finishers, 15-12-10-8-6-5-4-3-2-1; in the 250, 350 and 500cc championships the three best results from the first five rounds plus the three best from the remaining rounds counted. Cross-checked by replaying the 1976 500cc Results to the Wikipedia final table. To be re-checked by hand against motogp.com before this rule is published.",
+  "fastestLapPoints": 0,
+  "fastestLapRequiresFinish": true,
+  "countingWindows": [
+    { "fromRound": 1, "toRound": 5, "count": 3 },
+    { "fromRound": 6, "toRound": 10, "count": 3 }
+  ],
+  "points": {
+    "grand-prix-race": [15, 12, 10, 8, 6, 5, 4, 3, 2, 1]
+  },
+  "notes": "The points table is the one used 1969-1987; the Counting windows are those of the 1976 500cc championship (10 Rounds), so this rule is verified for 1976 only. Other Seasons using the same table need their own windows."
+}
