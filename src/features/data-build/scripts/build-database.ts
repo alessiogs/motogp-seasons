@@ -4,8 +4,8 @@ import Database from 'better-sqlite3';
 import { mkdirSync, readFileSync, readdirSync, rmSync } from 'node:fs';
 import path from 'node:path';
 import { fileURLToPath } from 'node:url';
+import type { RiderFile } from '../types/rider-file';
 
-interface RiderFile { id: string; name: string; sourceIds: Record<string, string> }
 interface RuleFile {
   code: string; name: string; source: string; notes?: string | null;
   fastestLapPoints: number; fastestLapRequiresFinish: boolean;
