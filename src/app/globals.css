@@ -1,0 +1,60 @@
+:root {
+  --bg: #fafafa;
+  --fg: #16181d;
+  --muted: #6b7280;
+  --line: #e5e7eb;
+  --accent: #d6001c;
+  --up: #15803d;
+  --down: #b91c1c;
+  color-scheme: light dark;
+}
+@media (prefers-color-scheme: dark) {
+  :root {
+    --bg: #111317;
+    --fg: #e8eaee;
+    --muted: #9aa1ad;
+    --line: #2a2e36;
+    --accent: #ff3b4f;
+    --up: #4ade80;
+    --down: #f87171;
+  }
+}
+
+* { box-sizing: border-box; }
+body {
+  margin: 0;
+  background: var(--bg);
+  color: var(--fg);
+  font: 16px/1.5 system-ui, -apple-system, 'Segoe UI', sans-serif;
+}
+a { color: var(--accent); text-decoration: none; }
+a:hover { text-decoration: underline; }
+
+.container { max-width: 760px; margin: 0 auto; padding: 24px 16px 64px; }
+.muted { color: var(--muted); font-weight: normal; }
+.notice { padding: 12px 16px; border: 1px dashed var(--line); border-radius: 8px; }
+
+.decade h2 { font-size: 1rem; color: var(--muted); margin: 24px 0 8px; }
+.year-grid { display: flex; flex-wrap: wrap; gap: 8px; }
+.year-chip {
+  padding: 6px 12px; border: 1px solid var(--line); border-radius: 999px;
+  color: var(--fg); font-variant-numeric: tabular-nums;
+}
+.year-chip:hover { border-color: var(--accent); color: var(--accent); text-decoration: none; }
+
+.controls { display: flex; align-items: center; gap: 12px; margin: 16px 0 4px; }
+.controls input[type='range'] { flex: 1; accent-color: var(--accent); }
+.controls button {
+  width: 36px; height: 36px; border-radius: 50%; border: 1px solid var(--line);
+  background: transparent; color: var(--fg); font-size: 20px; cursor: pointer;
+}
+.controls button:disabled { opacity: 0.3; cursor: default; }
+.round-label { margin: 0 0 16px; font-weight: 600; }
+
+.standings { width: 100%; border-collapse: collapse; font-variant-numeric: tabular-nums; }
+.standings th, .standings td { padding: 8px 6px; border-bottom: 1px solid var(--line); text-align: left; }
+.standings th { font-size: 0.8rem; color: var(--muted); font-weight: 600; }
+.standings .num { text-align: right; }
+.standings tbody tr:first-child td { font-weight: 700; }
+.up { color: var(--up); font-size: 0.8rem; }
+.down { color: var(--down); font-size: 0.8rem; }
