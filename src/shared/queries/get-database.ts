@@ -4,10 +4,17 @@ import 'server-only';
 import Database from 'better-sqlite3';
 import path from 'node:path';
 
-const DB_PATH = path.join(process.cwd(), 'db', 'motogp.db');
-
 let _db: Database.Database | null = null;
+let _dbPath: string | null = null;
+
+/** The generated database (`npm run data:build`); MOTOGP_DB_PATH overrides the location, for tests. */
 export function getDatabase() {
-  _db ??= new Database(DB_PATH, { readonly: true, fileMustExist: true });
+  const dbPath = process.env.MOTOGP_DB_PATH ?? path.join(process.cwd(), 'db', 'motogp.db');
+  if (_db && _dbPath !== dbPath) {
+    _db.close();
+    _db = null;
+  }
+  _dbPath = dbPath;
+  _db ??= new Database(dbPath, { readonly: true, fileMustExist: true });
   return _db;
 }

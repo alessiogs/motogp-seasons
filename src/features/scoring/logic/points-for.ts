@@ -1,16 +1,18 @@
-import type { Result } from '../types/result';
+import type { Result } from '@/features/seasons/types/result';
+import type { Session } from '@/features/seasons/types/session';
 import type { ScoringRule } from '../types/scoring-rule';
 
-/** Points a single result is worth under the rule. */
-export function pointsFor(r: Result, rule: ScoringRule): number {
-  if (r.pointsOverride != null) return r.pointsOverride;
+/** Points one Result is worth: position points x the Session's multiplier, plus the Fastest-lap bonus. */
+export function pointsFor(result: Result, session: Session, rule: ScoringRule): number {
+  if (result.pointsOverride != null) return result.pointsOverride;
 
-  const classified = r.status === 'FIN' && r.position != null;
-  let pts = 0;
-  if (classified) pts = rule.points[r.session][r.position! - 1] ?? 0;
-
-  if (r.fastestLap && rule.fastestLapPoints > 0 && (classified || !rule.fastestLapRequiresFinish)) {
-    pts += rule.fastestLapPoints;
+  const classified = result.outcome === 'FIN' && result.position != null;
+  let points = 0;
+  if (classified) {
+    points = (rule.points[session.type]?.[result.position! - 1] ?? 0) * session.pointsMultiplier;
   }
-  return pts;
+  if (result.fastestLap && rule.fastestLapPoints > 0 && (classified || !rule.fastestLapRequiresFinish)) {
+    points += rule.fastestLapPoints;
+  }
+  return points;
 }
