@@ -29,7 +29,13 @@ export default function SeasonView({ season }: { season: Season }) {
       <h1>
         {season.year} <span className="muted">{season.className}</span>
       </h1>
-      <SeasonReplay rounds={rounds} riders={riders} steps={steps} classifications={classifications} />
+      <SeasonReplay
+        rounds={rounds}
+        riders={riders}
+        steps={steps}
+        classifications={classifications}
+        hasCountingWindows={season.rule.countingWindows.length > 0}
+      />
     </>
   );
 }

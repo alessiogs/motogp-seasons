@@ -93,3 +93,11 @@ a:hover { text-decoration: underline; }
 .class-outcome { font-size: 0.8rem; color: var(--down); text-align: right; }
 
 .site-footer { margin-top: 48px; padding-top: 16px; border-top: 1px solid var(--line); font-size: 0.85rem; color: var(--muted); }
+
+/* Seasons with Counting windows: a Gross points column, and Dropped scores under the Rider's name. */
+.standings.windowed .standings-row { grid-template-columns: 2rem 2.4rem minmax(0, 1fr) 3rem 3rem 3rem 2.4rem; }
+@media (max-width: 380px) {
+  .standings.windowed .standings-row { grid-template-columns: 1.4rem 1.8rem minmax(0, 1fr) 2.4rem 2.4rem 2.4rem 1.8rem; }
+}
+.dropped { display: block; font-size: 0.7rem; color: var(--muted); line-height: 1.1; }
+.dropped s { opacity: 0.8; }

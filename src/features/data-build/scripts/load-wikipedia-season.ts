@@ -5,13 +5,23 @@
 // Writes data/seasons/<class>-<year>.json, adds new Riders to data/riders.json and writes the
 // official final table seen on Wikipedia to data/official-tables/<class>-<year>.json (used by tests).
 // The output is a first draft: correct it by hand against motogp.com before it is published.
-// Currently reads MotoGP-class seasons with Sprint + Grand Prix race (2023 onwards).
+// Reads two kinds of Season:
+//   motogp  - Sprint + Grand Prix race (2023 onwards), from the Grand Prix report articles
+//   500cc   - one Grand Prix race per Round, from the 500cc classification of each report article;
+//             calendar rounds without a 500cc race (e.g. Yugoslavia and Spain 1976) are left out
+//             and the remaining Rounds renumbered, as the championship itself counted them.
+// The Scoring rule reference and Counting windows are NOT guessed: set them by hand in the output.
 import { existsSync, mkdirSync, readFileSync, writeFileSync } from 'node:fs';
 import path from 'node:path';
 
 const API = 'https://en.wikipedia.org/w/api.php';
 const USER_AGENT = 'motogp-seasons-loader/0.1 (https://github.com/alessiogs/motogp-seasons)';
 const MONTHS = ['January', 'February', 'March', 'April', 'May', 'June', 'July', 'August', 'September', 'October', 'November', 'December'];
+
+const CLASSES: Record<string, { seasonTitle: (year: number) => string; scoringRule: string; standingsHeading: string }> = {
+  motogp: { seasonTitle: (y) => `${y} MotoGP World Championship`, scoringRule: '2023-plus', standingsHeading: "Riders' standings" },
+  '500cc': { seasonTitle: (y) => `${y} Grand Prix motorcycle racing season`, scoringRule: '1976', standingsHeading: '500cc final standings' },
+};
 
 interface RiderFile { id: string; name: string; sourceIds: Record<string, string> }
 interface ResultOut {
@@ -22,8 +32,9 @@ interface ResultOut {
 async function main() {
   const [classCode, yearArg] = process.argv.slice(2);
   const year = Number(yearArg);
-  if (classCode !== 'motogp' || !Number.isInteger(year)) {
-    console.error('Usage: npm run data:load-wikipedia -- motogp <year>   (only MotoGP-class Seasons are supported so far)');
+  const config = CLASSES[classCode];
+  if (!config || !Number.isInteger(year)) {
+    console.error(`Usage: npm run data:load-wikipedia -- <${Object.keys(CLASSES).join('|')}> <year>`);
     process.exit(1);
   }
   const dataDir = path.join(process.cwd(), 'data');
@@ -49,27 +60,29 @@ async function main() {
     return id;
   }
 
-  const seasonTitle = `${year} MotoGP World Championship`;
+  const seasonTitle = config.seasonTitle(year);
   const seasonText = await fetchWikitext(seasonTitle);
   const reportTitles = extractReportTitles(seasonText);
   if (reportTitles.length === 0) throw new Error(`No Grand Prix report links found on ${seasonTitle}`);
 
   const rounds = [];
-  for (const [i, title] of reportTitles.entries()) {
-    console.error(`Round ${i + 1}: ${title}`);
+  for (const title of reportTitles) {
+    console.error(`Report: ${title}`);
     const text = await fetchWikitext(title);
-    rounds.push(parseRound(i + 1, title, year, text, riderId));
+    const round = parseRound(rounds.length + 1, title, year, text, riderId, classCode);
+    if (round) rounds.push(round);
+    else console.error(`  no ${classCode} classification, skipped`);
   }
 
   const seasonFile = {
     class: classCode,
     year,
-    scoringRule: '2023-plus',
+    scoringRule: config.scoringRule,
     notes: `Loaded from Wikipedia (${seasonTitle}); needs a hand check against motogp.com.`,
     rounds,
   };
 
-  const official = parseOfficialTable(seasonText, riderId);
+  const official = parseOfficialTable(seasonText, riderId, config.standingsHeading);
 
   mkdirSync(path.join(dataDir, 'seasons'), { recursive: true });
   mkdirSync(path.join(dataDir, 'official-tables'), { recursive: true });
@@ -143,11 +156,23 @@ function parseRound(
   year: number,
   text: string,
   riderId: (articleTitle: string, displayName: string) => string,
+  classCode: string,
 ) {
   const infobox = (key: string) => text.match(new RegExp(`^\\|[ \\t]*${key}[ \\t]*=[ \\t]*(.*)$`, 'mi'))?.[1].trim() || null;
   const date = toIsoDate(infobox('Date'), year);
   const source = `https://en.wikipedia.org/wiki/${encodeURIComponent(title.replaceAll(' ', '_'))}`;
   const tables = extractTables(text).filter((t) => /Pos/.test(t.text.split('\n').slice(0, 12).join('\n')));
+
+  if (classCode === '500cc') {
+    const table = tables.find((t) => t.path.some((p) => /500(&nbsp;|\s)*cc\)?\s+classification/i.test(p)));
+    if (!table) return null;
+    return buildRound(number, title, infobox, date, [
+      {
+        type: 'grand-prix-race', order: 1, date, pointsMultiplier: 1, notes: null,
+        results: parseClassification(table.text, source, riderId),
+      },
+    ]);
+  }
 
   const sprintTable = tables.find((t) => t.path.some((p) => /sprint/i.test(p)) && !t.path.some((p) => /moto[23]/i.test(p)));
   const raceTable = tables.find((t) => t.path[0] === 'Race' && t.path[t.path.length - 1] === 'MotoGP')
@@ -167,6 +192,16 @@ function parseRound(
     results: parseClassification(raceTable.text, source, riderId),
   });
 
+  return buildRound(number, title, infobox, date, sessions);
+}
+
+function buildRound(
+  number: number,
+  title: string,
+  infobox: (key: string) => string | null,
+  date: string | null,
+  sessions: object[],
+) {
   const officialName = infobox('Official_Name');
   const location = infobox('Location') ?? '';
   return {
@@ -199,9 +234,11 @@ function parseClassification(
     if (!link) continue;
     const articleTitle = link[1];
     const name = (link[2] ?? link[1]).replace(/\s*\(.*\)$/, '').trim();
+    const id = riderId(articleTitle, name);
+    if (results.some((r) => r.rider === id)) continue; // some articles list a rider twice
     const classified = /^\d+$/.test(pos);
     results.push({
-      rider: riderId(articleTitle, name),
+      rider: id,
       position: classified ? Number(pos) : null,
       outcome: classified ? 'FIN' : toOutcome(pos),
       fastestLap: fastestLapTitle === articleTitle,
@@ -216,9 +253,13 @@ function parseClassification(
   return results;
 }
 
-function parseOfficialTable(seasonText: string, riderId: (articleTitle: string, displayName: string) => string) {
-  const table = extractTables(seasonText).find((t) => t.path.includes("Riders' standings") && /Pts/.test(t.text) && /Rider/.test(t.text));
-  if (!table) throw new Error("Riders' standings table not found");
+function parseOfficialTable(
+  seasonText: string,
+  riderId: (articleTitle: string, displayName: string) => string,
+  heading: string,
+) {
+  const table = extractTables(seasonText).find((t) => t.path.includes(heading) && /Pts|Points/.test(t.text) && /Rider/.test(t.text));
+  if (!table) throw new Error(`${heading} table not found`);
   const standings: { position: number; rider: string; points: number }[] = [];
   for (const row of table.text.split(/^\|-.*$/m)) {
     const lines = row.split('\n');

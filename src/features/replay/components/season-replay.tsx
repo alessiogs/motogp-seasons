@@ -16,9 +16,11 @@ interface Props {
   steps: ReplayStep[];
   /** Full Classification of each Step's Session, keyed `${roundNumber}/${sessionType}`. */
   classifications: Record<string, ClassificationRow[]>;
+  /** The Season's Scoring rule has Counting windows: show Gross points and Dropped scores. */
+  hasCountingWindows?: boolean;
 }
 
-export default function SeasonReplay({ rounds, riders, steps, classifications }: Props) {
+export default function SeasonReplay({ rounds, riders, steps, classifications, hasCountingWindows = false }: Props) {
   const last = steps.length - 1;
   const [idx, setIdx] = useState(last);
 
@@ -57,12 +59,13 @@ export default function SeasonReplay({ rounds, riders, steps, classifications }:
         {round?.date && <span className="muted"> · {round.date}</span>}
       </p>
 
-      <div className="standings" role="table" aria-label="Standings" style={{ height: (table.length + 1) * ROW_HEIGHT }}>
+      <div className={`standings${hasCountingWindows ? ' windowed' : ''}`} role="table" aria-label="Standings" style={{ height: (table.length + 1) * ROW_HEIGHT }}>
         <div className="standings-row standings-head" role="row">
           <span>Pos</span>
           <span></span>
           <span>Rider</span>
           <span className="num">Pts</span>
+          {hasCountingWindows && <span className="num">Gross</span>}
           <span className="num">Gap</span>
           <span className="num">Wins</span>
         </div>
@@ -86,15 +89,19 @@ export default function SeasonReplay({ rounds, riders, steps, classifications }:
                 </span>
                 <span className="rider-cell">
                   <FlagBadge code={rider?.nationality ?? null} /> {rider?.name ?? row.riderId}
-                </span>
-                <span className="num">
-                  {row.points}
-                  {row.droppedRounds.length > 0 && (
-                    <span className="muted" title={`Dropped rounds: ${row.droppedRounds.join(', ')}`}>
-                      {' '}({row.grossPoints})
+                  {hasCountingWindows && row.droppedRounds.length > 0 && (
+                    <span className="dropped" title="Dropped scores">
+                      dropped:{' '}
+                      {row.droppedRounds.map((n) => (
+                        <span key={n}>
+                          R{n} <s>{row.roundScores[n - 1]}</s>{' '}
+                        </span>
+                      ))}
                     </span>
                   )}
                 </span>
+                <span className="num">{row.points}</span>
+                {hasCountingWindows && <span className="num muted">{row.grossPoints}</span>}
                 <span className="num muted">{row.rank === 1 ? '' : `-${leader - row.points}`}</span>
                 <span className="num">{row.wins || ''}</span>
               </div>
