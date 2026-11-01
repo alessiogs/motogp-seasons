@@ -119,3 +119,10 @@ a:hover { text-decoration: underline; }
 .title-race li + li { margin-top: 4px; }
 .champion-banner { font-weight: 700; color: var(--champion); }
 .champion-banner .champion-badge { margin: 0 6px 0 0; }
+
+.calendar ol { list-style: none; margin: 0; padding: 0; }
+.calendar li { display: flex; flex-direction: column; gap: 2px; padding: 8px 0; border-bottom: 1px solid var(--line); overflow-wrap: anywhere; }
+.calendar li.non-championship { opacity: 0.75; font-style: italic; }
+.calendar-badge { margin-left: 8px; padding: 1px 6px; border: 1px solid var(--line); border-radius: 999px; font-size: 0.75rem; font-style: normal; white-space: nowrap; }
+.calendar-note { font-size: 0.875rem; }
+.round-note { margin: -8px 0 16px; font-size: 0.875rem; overflow-wrap: anywhere; }

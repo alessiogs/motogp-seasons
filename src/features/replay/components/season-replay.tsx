@@ -3,6 +3,7 @@
 import { useState } from 'react';
 import type { ReplayStep } from '@/features/scoring/types/replay-step';
 import { sessionLabel } from '../logic/session-label';
+import type { CalendarEntry } from '../types/calendar-entry';
 import type { ClassificationRow } from '../types/classification-row';
 import FlagBadge from './flag-badge';
 import StepDetails from './step-details';
@@ -11,7 +12,7 @@ import TitleRacePanel from './title-race-panel';
 const ROW_HEIGHT = 44;
 
 interface Props {
-  rounds: { number: number; name: string; date: string | null }[];
+  calendar: CalendarEntry[];
   riders: Record<string, { name: string; nationality: string | null }>;
   /** One Step per Session, in order. */
   steps: ReplayStep[];
@@ -24,7 +25,7 @@ interface Props {
 }
 
 export default function SeasonReplay({
-  rounds,
+  calendar,
   riders,
   steps,
   classifications,
@@ -41,10 +42,10 @@ export default function SeasonReplay({
   const prevRank = new Map((steps[idx - 1]?.standings ?? []).map((r) => [r.riderId, r.rank]));
   const leader = table[0]?.points ?? 0;
   const classification = classifications[`${step.roundNumber}/${step.sessionType}`];
-  const round = rounds.find((r) => r.number === step.roundNumber);
+  const round = calendar.find((r) => r.roundNumber === step.roundNumber);
   const champion = step.worldChampion;
   const crowning = champion != null && steps[idx - 1]?.worldChampion == null;
-  const roundName = (n: number) => rounds.find((r) => r.number === n)?.name ?? `Round ${n}`;
+  const roundName = (n: number) => calendar.find((r) => r.roundNumber === n)?.name ?? `Round ${n}`;
   const riderName = (id: string) => riders[id]?.name ?? id;
 
   return (
@@ -72,6 +73,7 @@ export default function SeasonReplay({
         {step.sessionsInRound > 1 && <> · {sessionLabel(step.sessionType)}</>}
         {round?.date && <span className="muted"> · {round.date}</span>}
       </p>
+      {round?.notes && <p className="round-note muted">{round.notes}</p>}
 
       <TitleRacePanel
         step={step}
