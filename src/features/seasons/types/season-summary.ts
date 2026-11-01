@@ -1,4 +1,5 @@
 export interface SeasonSummary {
-  year: number;
+  classCode: string;
   className: string;
+  year: number;
 }

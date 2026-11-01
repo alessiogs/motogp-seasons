@@ -1,31 +1,32 @@
 'use client';
 
 import { useState } from 'react';
-import type { StandingRow } from '@/features/scoring/types/standing-row';
-import type { SeasonData } from '@/features/seasons/types/season-data';
+import type { ReplayStep } from '@/features/scoring/types/replay-step';
+import { sessionLabel } from '../logic/session-label';
 
 interface Props {
-  rounds: SeasonData['rounds'];
-  riders: SeasonData['riders'];
-  /** standings[i] = table after round i + 1 */
-  standings: StandingRow[][];
+  rounds: { number: number; name: string; date: string | null }[];
+  riders: Record<string, { name: string; nationality: string | null }>;
+  /** One Step per Session, in order. */
+  steps: ReplayStep[];
 }
 
-export default function SeasonReplay({ rounds, riders, standings }: Props) {
-  const last = standings.length - 1;
+export default function SeasonReplay({ rounds, riders, steps }: Props) {
+  const last = steps.length - 1;
   const [idx, setIdx] = useState(last);
 
-  if (standings.length === 0) return <p className="notice">No results for this season yet.</p>;
+  if (steps.length === 0) return <p className="notice">No results for this season yet.</p>;
 
-  const table = standings[idx];
-  const prevRank = new Map((standings[idx - 1] ?? []).map((r) => [r.riderId, r.rank]));
+  const step = steps[idx];
+  const table = step.standings;
+  const prevRank = new Map((steps[idx - 1]?.standings ?? []).map((r) => [r.riderId, r.rank]));
   const leader = table[0]?.points ?? 0;
-  const round = rounds[idx];
+  const round = rounds.find((r) => r.number === step.roundNumber);
 
   return (
     <>
       <div className="controls">
-        <button onClick={() => setIdx((i) => Math.max(0, i - 1))} disabled={idx === 0} aria-label="Previous round">
+        <button onClick={() => setIdx((i) => Math.max(0, i - 1))} disabled={idx === 0} aria-label="Previous step">
           ‹
         </button>
         <input
@@ -34,16 +35,17 @@ export default function SeasonReplay({ rounds, riders, standings }: Props) {
           max={last}
           value={idx}
           onChange={(e) => setIdx(Number(e.target.value))}
-          aria-label="Round"
+          aria-label="Step"
         />
-        <button onClick={() => setIdx((i) => Math.min(last, i + 1))} disabled={idx === last} aria-label="Next round">
+        <button onClick={() => setIdx((i) => Math.min(last, i + 1))} disabled={idx === last} aria-label="Next step">
           ›
         </button>
       </div>
 
       <p className="round-label">
-        After round {idx + 1} of {standings.length}
+        Step {idx + 1} of {steps.length} · Round {step.roundNumber}
         {round && <> · {round.name}</>}
+        {step.sessionsInRound > 1 && <> · {sessionLabel(step.sessionType)}</>}
         {round?.date && <span className="muted"> · {round.date}</span>}
       </p>
 
@@ -70,7 +72,7 @@ export default function SeasonReplay({ rounds, riders, standings }: Props) {
                   {delta > 0 ? `▲${delta}` : delta < 0 ? `▼${-delta}` : ''}
                 </td>
                 <td>
-                  {rider?.name ?? `#${row.riderId}`}
+                  {rider?.name ?? row.riderId}
                   {rider?.nationality && <span className="muted"> {rider.nationality}</span>}
                 </td>
                 <td className="num">

@@ -1,0 +1,5 @@
+[
+  { "id": "rider-one", "name": "Rider One", "sourceIds": { "wikipedia": "Rider One (motorcyclist)" } },
+  { "id": "rider-two", "name": "Rider Two", "sourceIds": {} },
+  { "id": "unused-rider", "name": "Unused Rider", "sourceIds": {} }
+]

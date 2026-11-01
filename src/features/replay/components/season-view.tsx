@@ -1,20 +1,24 @@
 import Link from 'next/link';
-import { computeSeason } from '@/features/scoring/logic/compute-season';
-import type { SeasonData } from '@/features/seasons/types/season-data';
+import { computeReplay } from '@/features/scoring/logic/compute-replay';
+import type { Season } from '@/features/seasons/types/season';
 import SeasonReplay from './season-replay';
 
-export default function SeasonView({ season }: { season: SeasonData | null }) {
-  if (!season) {
-    return (
-      <>
-        <Link href="/">← All seasons</Link>
-        <p className="notice">No data for this season yet.</p>
-      </>
-    );
+export default function SeasonView({ season }: { season: Season }) {
+  // Everything is computed here, at build time. The client only gets plain JSON.
+  const steps = computeReplay(season);
+
+  // A Rider's Nationality is per Season entry: take the one on their first Result.
+  const riders: Record<string, { name: string; nationality: string | null }> = {};
+  for (const round of season.rounds) {
+    for (const session of round.sessions) {
+      for (const result of session.results) {
+        riders[result.riderId] ??= { name: season.riders[result.riderId]?.name ?? result.riderId, nationality: null };
+        riders[result.riderId].nationality ??= result.nationality;
+      }
+    }
   }
 
-  // Everything is computed here, at build time. The client only gets plain JSON.
-  const standings = computeSeason(season.results, season.rule);
+  const rounds = season.rounds.map(({ number, name, date }) => ({ number, name, date }));
 
   return (
     <>
@@ -22,7 +26,7 @@ export default function SeasonView({ season }: { season: SeasonData | null }) {
       <h1>
         {season.year} <span className="muted">{season.className}</span>
       </h1>
-      <SeasonReplay rounds={season.rounds} riders={season.riders} standings={standings} />
+      <SeasonReplay rounds={rounds} riders={riders} steps={steps} />
     </>
   );
 }

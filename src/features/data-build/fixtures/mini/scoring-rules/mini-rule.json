@@ -1,0 +1,13 @@
+{
+  "code": "mini-rule",
+  "name": "Mini rule",
+  "source": "made up for tests",
+  "fastestLapPoints": 1,
+  "fastestLapRequiresFinish": true,
+  "countingWindows": [{ "fromRound": 1, "toRound": 2, "count": 1 }],
+  "points": {
+    "grand-prix-race": [10, 8, 6],
+    "sprint": [5, 3]
+  },
+  "notes": "Fixture"
+}

@@ -1,13 +1,14 @@
 export interface StandingRow {
+  /** No shared ranks: ties are always broken. */
   rank: number;
-  riderId: number;
-  /** Championship points (after dropped scores) */
+  riderId: string;
+  /** Championship points (after Dropped scores) */
   points: number;
-  /** All points scored, before drops */
+  /** All points scored, before Dropped scores */
   grossPoints: number;
-  /** Points from each round so far, index 0 = round 1 */
+  /** Round score per Round, index 0 = Round 1 (0 for Rounds not scored) */
   roundScores: number[];
-  /** Rounds whose score was dropped (1-based round numbers) */
+  /** Round numbers whose score was dropped */
   droppedRounds: number[];
   wins: number;
   podiums: number;
