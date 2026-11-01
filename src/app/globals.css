@@ -101,3 +101,21 @@ a:hover { text-decoration: underline; }
 }
 .dropped { display: block; font-size: 0.7rem; color: var(--muted); line-height: 1.1; }
 .dropped s { opacity: 0.8; }
+
+/* Title race: World Champion colour from the crowning Step on, Title chance and Title condition labels. */
+:root { --champion: #a16207; --champion-bg: #fef3c7; }
+@media (prefers-color-scheme: dark) { :root { --champion: #fcd34d; --champion-bg: #3b2f0b; } }
+.standings-row.champion { background: var(--champion-bg); color: var(--champion); font-weight: 700; }
+.champion-badge {
+  display: inline-block; margin-left: 6px; padding: 0 6px; border-radius: 4px;
+  background: var(--champion); color: var(--bg); font-size: 0.7rem; font-weight: 700; vertical-align: middle;
+}
+.title-race {
+  margin: 0 0 16px; padding: 10px 12px; border: 1px solid var(--champion); border-radius: 8px;
+  background: var(--champion-bg); font-size: 0.9rem; overflow-wrap: anywhere;
+}
+.title-race h2 { margin: 0 0 4px; font-size: 0.95rem; color: var(--champion); }
+.title-race ul { margin: 0; padding: 0; list-style: none; }
+.title-race li + li { margin-top: 4px; }
+.champion-banner { font-weight: 700; color: var(--champion); }
+.champion-banner .champion-badge { margin: 0 6px 0 0; }

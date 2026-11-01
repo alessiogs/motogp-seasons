@@ -1,6 +1,7 @@
 import type { Season } from '@/features/seasons/types/season';
 import type { ReplayStep } from '../types/replay-step';
 import { computeStandings, type PlayedSession } from './compute-standings';
+import { computeTitleRace, type TitleRace } from './compute-title-race';
 
 /** Season in, ordered Replay Steps out: one per points-paying Session, Non-championship rounds skipped. */
 export function computeReplay(season: Season): ReplayStep[] {
@@ -15,7 +16,7 @@ export function computeReplay(season: Season): ReplayStep[] {
     );
 
   const played: PlayedSession[] = [];
-  const steps: ReplayStep[] = [];
+  const steps: Omit<ReplayStep, keyof TitleRace>[] = [];
   for (const sessions of sessionsByRound) {
     for (const p of sessions) {
       played.push(p);
@@ -27,5 +28,6 @@ export function computeReplay(season: Season): ReplayStep[] {
       });
     }
   }
-  return steps;
+  const titleRace = computeTitleRace(sessionsByRound, steps.map((s) => s.standings), season.rule);
+  return steps.map((step, i) => ({ ...step, ...titleRace[i] }));
 }
