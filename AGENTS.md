@@ -1,5 +1,13 @@
 # AGENTS.md
 
+## Git workflow
+
+`develop` is the integration branch; `main` is the release branch and every push to it deploys to GitHub Pages. Both are protected: changes land only through PRs that pass the `check` job in `.github/workflows/ci.yml`.
+
+1. Branch from an up-to-date `develop`, named `<type>/<short-kebab-name>` with type `feat`, `fix`, `chore`, or `docs` (e.g. `feat/season-timeline`).
+2. Commit on that branch, push it, and open a PR into `develop`. Squash-merge it once `check` is green.
+3. To release, open a PR from `develop` into `main` and merge it with a **merge commit**, so `develop` and `main` keep a shared history. CI fails any PR into `main` whose head is not `develop`.
+
 ## Agent skills
 
 ### Issue tracker
