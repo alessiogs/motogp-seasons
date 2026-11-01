@@ -32,6 +32,9 @@ function byPoints(rows: { rider: string; points: number }[]) {
   return groups.map(([points, riders]) => [points, riders.sort()]);
 }
 
+// Seasons whose official table states a full order, ties included: the replayed order must match it rank by rank.
+const FULL_ORDER = ['motogp-2024'];
+
 describe.each(readdirSync(tablesDir).filter((f) => f.endsWith('.json')).map((f) => f.replace('.json', '')))(
   'final Step of %s',
   (name) => {
@@ -42,11 +45,15 @@ describe.each(readdirSync(tablesDir).filter((f) => f.endsWith('.json')).map((f) 
       const season = getSeason(classCode, Number(year))!;
       const steps = computeReplay(season);
       const scored = steps[steps.length - 1].standings.filter((r) => r.points > 0);
-      // Riders level on points are compared as a group: the official tables record their order
-      // only where a source stated it, and older tables list them in no stated order.
-      expect(byPoints(scored.map((r) => ({ rider: r.riderId, points: r.points })))).toEqual(
-        byPoints(official.standings.filter((r) => r.points > 0)),
-      );
+      const replayed = scored.map((r) => ({ rider: r.riderId, points: r.points }));
+      const table = official.standings.filter((r) => r.points > 0);
+      if (FULL_ORDER.includes(name)) {
+        expect(replayed).toEqual(table.map(({ rider, points }) => ({ rider, points })));
+      } else {
+        // Riders level on points are compared as a group: older tables state no order among them
+        // (they list tied riders arbitrarily), so only the points order can be checked.
+        expect(byPoints(replayed)).toEqual(byPoints(table));
+      }
     });
   },
 );

@@ -2,14 +2,10 @@ import type { Result } from '@/features/seasons/types/result';
 import type { ScoringRule } from '../types/scoring-rule';
 import type { StandingRow } from '../types/standing-row';
 import type { OutcomeClause, RivalMargin, SessionResult, TitleCondition } from '../types/title-condition';
-import { computeStandings, type PlayedSession } from './compute-standings';
+import type { PlayedSession } from '../types/played-session';
+import type { TitleRace } from '../types/title-race';
+import { computeStandings } from './compute-standings';
 import { pointsFor } from './points-for';
-
-export interface TitleRace {
-  worldChampion: string | null;
-  titleChances: string[];
-  titleConditions: TitleCondition[];
-}
 
 /**
  * The title fight at each Step, given every Session of the Season (grouped by Round, in order)

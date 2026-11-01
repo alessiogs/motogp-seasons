@@ -1,5 +1,5 @@
-import type { ClassificationRow } from '../logic/classification';
-import { podiumOf } from '../logic/classification';
+import { podiumOf } from '../logic/podium-of';
+import type { ClassificationRow } from '../types/classification-row';
 import FlagBadge from './flag-badge';
 
 interface Props {

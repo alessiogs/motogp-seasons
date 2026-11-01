@@ -1,4 +1,4 @@
-import { flagOf } from '../logic/flag';
+import { flagOf } from '../logic/flag-of';
 
 /** A Nationality flag: emoji where one exists, otherwise a small code badge (countries that no longer exist). */
 export default function FlagBadge({ code }: { code: string | null }) {

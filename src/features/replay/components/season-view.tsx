@@ -1,7 +1,10 @@
 import Link from 'next/link';
 import { computeReplay } from '@/features/scoring/logic/compute-replay';
 import type { Season } from '@/features/seasons/types/season';
-import { classificationOf, type ClassificationRow } from '../logic/classification';
+import { calendarEntriesOf } from '../logic/calendar-entries-of';
+import { classificationOf } from '../logic/classification-of';
+import type { ClassificationRow } from '../types/classification-row';
+import SeasonCalendar from './season-calendar';
 import SeasonReplay from './season-replay';
 
 export default function SeasonView({ season }: { season: Season }) {
@@ -21,7 +24,7 @@ export default function SeasonView({ season }: { season: Season }) {
     }
   }
 
-  const rounds = season.rounds.map(({ number, name, date }) => ({ number, name, date }));
+  const calendar = calendarEntriesOf(season.rounds, steps);
 
   return (
     <>
@@ -30,13 +33,14 @@ export default function SeasonView({ season }: { season: Season }) {
         {season.year} <span className="muted">{season.className}</span>
       </h1>
       <SeasonReplay
-        rounds={rounds}
+        calendar={calendar}
         riders={riders}
         steps={steps}
         classifications={classifications}
         hasCountingWindows={season.rule.countingWindows.length > 0}
         fastestLapBonus={season.rule.fastestLapPoints > 0}
       />
+      <SeasonCalendar calendar={calendar} />
     </>
   );
 }

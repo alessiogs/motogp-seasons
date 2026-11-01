@@ -4,10 +4,12 @@ import Database from 'better-sqlite3';
 import { mkdirSync, readFileSync, readdirSync, rmSync } from 'node:fs';
 import path from 'node:path';
 import { fileURLToPath } from 'node:url';
+import type { RiderFile } from '../types/rider-file';
 
-interface RiderFile { id: string; name: string; sourceIds: Record<string, string> }
 interface RuleFile {
   code: string; name: string; source: string; notes?: string | null;
+  /** Years the rule is verified for; a Season of any other year is refused. Absent = any year. */
+  validFor?: number[];
   fastestLapPoints: number; fastestLapRequiresFinish: boolean;
   countingWindows: { fromRound: number; toRound: number; count: number }[];
   points: Record<string, number[]>;
@@ -68,8 +70,8 @@ function loadRiders(db: Database.Database, dataDir: string): Map<string, number>
   return ids;
 }
 
-function loadRules(db: Database.Database, dataDir: string): Map<string, { id: number; types: Set<string> }> {
-  const rules = new Map<string, { id: number; types: Set<string> }>();
+function loadRules(db: Database.Database, dataDir: string): Map<string, { id: number; types: Set<string>; validFor: number[] | null }> {
+  const rules = new Map<string, { id: number; types: Set<string>; validFor: number[] | null }>();
   const insert = db.prepare(
     `INSERT INTO scoring_rules (code, name, fastest_lap_points, fastest_lap_requires_finish, source, notes)
      VALUES (?, ?, ?, ?, ?, ?)`,
@@ -86,7 +88,7 @@ function loadRules(db: Database.Database, dataDir: string): Map<string, { id: nu
       table.forEach((points, i) => insertPoints.run(id, type, i + 1, points));
     }
     for (const w of rule.countingWindows) insertWindow.run(id, w.fromRound, w.toRound, w.count);
-    rules.set(rule.code, { id, types: new Set(Object.keys(rule.points)) });
+    rules.set(rule.code, { id, types: new Set(Object.keys(rule.points)), validFor: rule.validFor ?? null });
   }
   return rules;
 }
@@ -95,7 +97,7 @@ function loadSeasons(
   db: Database.Database,
   dataDir: string,
   riderIds: Map<string, number>,
-  rules: Map<string, { id: number; types: Set<string> }>,
+  rules: Map<string, { id: number; types: Set<string>; validFor: number[] | null }>,
 ): void {
   const classId = db.prepare('SELECT id FROM classes WHERE code = ?');
   const insertSeason = db.prepare('INSERT INTO seasons (year, class_id, scoring_rule_id, notes) VALUES (?, ?, ?, ?)');
@@ -117,6 +119,9 @@ function loadSeasons(
     if (!cls) throw new Error(`${file}: unknown class "${season.class}"`);
     const rule = rules.get(season.scoringRule);
     if (!rule) throw new Error(`${file}: unknown scoring rule "${season.scoringRule}"`);
+    if (rule.validFor && !rule.validFor.includes(season.year)) {
+      throw new Error(`${file}: scoring rule "${season.scoringRule}" is only verified for ${rule.validFor.join(', ')}, not ${season.year}`);
+    }
 
     const seasonId = Number(insertSeason.run(season.year, cls.id, rule.id, season.notes ?? null).lastInsertRowid);
     for (const round of season.rounds) {

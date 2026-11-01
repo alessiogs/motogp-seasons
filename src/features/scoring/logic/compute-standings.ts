@@ -1,16 +1,10 @@
-import type { Round } from '@/features/seasons/types/round';
-import type { Session } from '@/features/seasons/types/session';
+import type { PlayedSession } from '../types/played-session';
 import type { ScoringRule } from '../types/scoring-rule';
 import type { StandingRow } from '../types/standing-row';
 import { GRAND_PRIX_RACE } from '../types/session-type';
 import { applyCountingWindows } from './apply-counting-windows';
 import { countback } from './countback';
 import { pointsFor } from './points-for';
-
-export interface PlayedSession {
-  round: Round;
-  session: Session;
-}
 
 /**
  * Standings after the given Sessions (in the order they were run), built from final official Results.

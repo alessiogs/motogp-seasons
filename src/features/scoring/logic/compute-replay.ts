@@ -1,7 +1,9 @@
 import type { Season } from '@/features/seasons/types/season';
 import type { ReplayStep } from '../types/replay-step';
-import { computeStandings, type PlayedSession } from './compute-standings';
-import { computeTitleRace, type TitleRace } from './compute-title-race';
+import type { PlayedSession } from '../types/played-session';
+import type { TitleRace } from '../types/title-race';
+import { computeStandings } from './compute-standings';
+import { computeTitleRace } from './compute-title-race';
 
 /** Season in, ordered Replay Steps out: one per points-paying Session, Non-championship rounds skipped. */
 export function computeReplay(season: Season): ReplayStep[] {
