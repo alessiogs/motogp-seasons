@@ -35,6 +35,7 @@ export default function SeasonView({ season }: { season: Season }) {
         steps={steps}
         classifications={classifications}
         hasCountingWindows={season.rule.countingWindows.length > 0}
+        fastestLapBonus={season.rule.fastestLapPoints > 0}
       />
     </>
   );

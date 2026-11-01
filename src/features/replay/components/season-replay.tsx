@@ -6,6 +6,7 @@ import { sessionLabel } from '../logic/session-label';
 import type { ClassificationRow } from '../logic/classification';
 import FlagBadge from './flag-badge';
 import StepDetails from './step-details';
+import TitleRacePanel from './title-race-panel';
 
 const ROW_HEIGHT = 44;
 
@@ -18,9 +19,18 @@ interface Props {
   classifications: Record<string, ClassificationRow[]>;
   /** The Season's Scoring rule has Counting windows: show Gross points and Dropped scores. */
   hasCountingWindows?: boolean;
+  /** The Season's Scoring rule pays a Fastest-lap bonus: Title conditions mention the fastest lap. */
+  fastestLapBonus?: boolean;
 }
 
-export default function SeasonReplay({ rounds, riders, steps, classifications, hasCountingWindows = false }: Props) {
+export default function SeasonReplay({
+  rounds,
+  riders,
+  steps,
+  classifications,
+  hasCountingWindows = false,
+  fastestLapBonus = false,
+}: Props) {
   const last = steps.length - 1;
   const [idx, setIdx] = useState(last);
 
@@ -32,6 +42,10 @@ export default function SeasonReplay({ rounds, riders, steps, classifications, h
   const leader = table[0]?.points ?? 0;
   const classification = classifications[`${step.roundNumber}/${step.sessionType}`];
   const round = rounds.find((r) => r.number === step.roundNumber);
+  const champion = step.worldChampion;
+  const crowning = champion != null && steps[idx - 1]?.worldChampion == null;
+  const roundName = (n: number) => rounds.find((r) => r.number === n)?.name ?? `Round ${n}`;
+  const riderName = (id: string) => riders[id]?.name ?? id;
 
   return (
     <>
@@ -59,6 +73,15 @@ export default function SeasonReplay({ rounds, riders, steps, classifications, h
         {round?.date && <span className="muted"> · {round.date}</span>}
       </p>
 
+      <TitleRacePanel
+        step={step}
+        next={steps[idx + 1]}
+        crowning={crowning}
+        roundName={roundName}
+        riderName={riderName}
+        fastestLapBonus={fastestLapBonus}
+      />
+
       <div className={`standings${hasCountingWindows ? ' windowed' : ''}`} role="table" aria-label="Standings" style={{ height: (table.length + 1) * ROW_HEIGHT }}>
         <div className="standings-row standings-head" role="row">
           <span>Pos</span>
@@ -79,7 +102,7 @@ export default function SeasonReplay({ rounds, riders, steps, classifications, h
             return (
               <div
                 key={row.riderId}
-                className={`standings-row${row.rank === 1 ? ' leader' : ''}`}
+                className={`standings-row${row.rank === 1 ? ' leader' : ''}${row.riderId === champion ? ' champion' : ''}`}
                 role="row"
                 style={{ transform: `translateY(${row.rank * ROW_HEIGHT}px)` }}
               >
@@ -89,6 +112,7 @@ export default function SeasonReplay({ rounds, riders, steps, classifications, h
                 </span>
                 <span className="rider-cell">
                   <FlagBadge code={rider?.nationality ?? null} /> {rider?.name ?? row.riderId}
+                  {crowning && row.riderId === champion && <span className="champion-badge">World Champion</span>}
                   {hasCountingWindows && row.droppedRounds.length > 0 && (
                     <span className="dropped" title="Dropped scores">
                       dropped:{' '}
