@@ -9,6 +9,22 @@ import { computeReplay } from './compute-replay';
 // Real Seasons: the World Champion must be crowned at the Step where the title was historically decided.
 // Every Season in data/seasons must have an entry here.
 const crowned: Record<string, { rider: string; round: number; session: string; source: string }> = {
+  // "The race victory for Graham, with Pagani only in third place, wrapped up the first world
+  // championship for Graham." Round 5 of 6, with only the best three Round scores counting.
+  '500cc-1949': {
+    rider: 'leslie-graham',
+    round: 5,
+    session: 'grand-prix-race',
+    source: 'https://en.wikipedia.org/wiki/1949_Ulster_Grand_Prix',
+  },
+  // Going into the Brazilian finale "Wayne Rainey has to win and Eddie Lawson has to finish outside
+  // the top 11 in order for Lawson to lose the championship"; Lawson was 2nd.
+  '500cc-1989': {
+    rider: 'eddie-lawson',
+    round: 15,
+    session: 'grand-prix-race',
+    source: 'https://en.wikipedia.org/wiki/1989_Brazilian_motorcycle_Grand_Prix',
+  },
   // "Sheene rebounded to win the Swedish Grand Prix, clinching the World Championship with three rounds
   // remaining." Round 7 of the 500cc Season (the Swedish TT).
   '500cc-1976': {
