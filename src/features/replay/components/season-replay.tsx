@@ -5,6 +5,7 @@ import { stepLabel } from '../logic/step-label';
 import type { ReplayView } from '../types/replay-view';
 import FlagBadge from './flag-badge';
 import NumberBox from './number-box';
+import RiderName from './rider-name';
 import StepDetails from './step-details';
 import TitleRacePanel from './title-race-panel';
 
@@ -105,7 +106,7 @@ export default function SeasonReplay({ view }: { view: ReplayView }) {
                   {seasonNumber != null && (
                     <NumberBox number={seasonNumber} box={row.box} title={`Season number ${seasonNumber}`} />
                   )}
-                  <FlagBadge code={rider?.nationality ?? null} /> {rider?.name ?? row.riderId}
+                  <FlagBadge code={rider?.nationality ?? null} /> <RiderName rider={rider} fallback={row.riderId} />
                   {step.kind === 'session' && step.crowning && row.riderId === champion && <span className="champion-badge">World Champion</span>}
                   {row.riderId === step.defendingChampion && <span className="defending-badge">Defending Champion</span>}
                   {hasCountingWindows && row.droppedRounds.length > 0 && (

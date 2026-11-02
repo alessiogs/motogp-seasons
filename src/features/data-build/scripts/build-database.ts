@@ -64,11 +64,11 @@ export function buildDatabase(dataDir: string, dbPath: string): void {
 
 function loadRiders(db: Database.Database, dataDir: string): Map<string, number> {
   const ids = new Map<string, number>();
-  const insert = db.prepare('INSERT INTO riders (slug, name) VALUES (?, ?)');
+  const insert = db.prepare('INSERT INTO riders (slug, name, abbreviation) VALUES (?, ?, ?)');
   const insertSource = db.prepare('INSERT INTO rider_source_ids (rider_id, source, source_id) VALUES (?, ?, ?)');
   const riders = JSON.parse(readFileSync(path.join(dataDir, 'riders.json'), 'utf8')) as RiderFile[];
   for (const rider of riders) {
-    const id = Number(insert.run(rider.id, rider.name).lastInsertRowid);
+    const id = Number(insert.run(rider.id, rider.name, rider.abbreviation ?? null).lastInsertRowid);
     ids.set(rider.id, id);
     for (const [source, sourceId] of Object.entries(rider.sourceIds)) insertSource.run(id, source, sourceId);
   }

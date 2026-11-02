@@ -86,8 +86,9 @@ CREATE TABLE sessions (
 -- A Rider is one real person; slug is the stable ID used by the data files.
 CREATE TABLE riders (
   id    INTEGER PRIMARY KEY,
-  slug  TEXT NOT NULL UNIQUE,
-  name  TEXT NOT NULL
+  slug          TEXT NOT NULL UNIQUE,
+  name          TEXT NOT NULL,
+  abbreviation  TEXT CHECK (abbreviation IS NULL OR length(abbreviation) = 3)  -- overrides the short name's surname letters
 );
 
 -- Each source's own ID for a Rider, used for matching.
