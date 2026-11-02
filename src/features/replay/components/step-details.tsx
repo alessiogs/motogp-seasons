@@ -2,6 +2,7 @@ import type { ClassificationRow } from '../types/classification-row';
 import type { PodiumStep } from '../types/podium-step';
 import type { RiderInfo } from '../types/rider-info';
 import FlagBadge from './flag-badge';
+import NumBox from './num-box';
 
 interface Props {
   podium: PodiumStep[];
@@ -28,6 +29,9 @@ export default function StepDetails({ podium, belowPodium, riders }: Props) {
             <div className="podium-block slant">
               {rider && (
                 <div className="podium-rider">
+                  {rider.seasonNumber != null && (
+                    <NumBox number={rider.seasonNumber} title={`Season number ${rider.seasonNumber}`} />
+                  )}
                   <span className="podium-name">
                     <FlagBadge code={riders[rider.riderId]?.nationality ?? null} /> {name(rider.riderId)}
                   </span>
@@ -48,6 +52,7 @@ export default function StepDetails({ podium, belowPodium, riders }: Props) {
               <li key={row.riderId}>
                 <span className="class-pos">{row.positionLabel}</span>
                 <span className="class-rider">
+                  {row.bikeNumber != null && <ResultNumber row={row} seasonNumber={riders[row.riderId]?.seasonNumber ?? null} />}
                   <FlagBadge code={riders[row.riderId]?.nationality ?? null} /> {name(row.riderId)}
                   {row.team && <span className="muted"> {row.team}</span>}
                 </span>
@@ -58,5 +63,20 @@ export default function StepDetails({ podium, belowPodium, riders }: Props) {
         </details>
       )}
     </section>
+  );
+}
+
+/** The Bike number of one Result, with a marker when it isn't the Rider's Season number. */
+function ResultNumber({ row, seasonNumber }: { row: ClassificationRow; seasonNumber: number | null }) {
+  const number = row.bikeNumber!;
+  if (!row.numberException) return <NumBox number={number} title={`Bike number ${number}`} />;
+  const note = `Bike number ${number}, not their Season number ${seasonNumber}`;
+  return (
+    <>
+      <NumBox number={number} title={note} />
+      <span className="num-exception" title={note}>
+        *<span className="visually-hidden"> {note}</span>
+      </span>
+    </>
   );
 }
