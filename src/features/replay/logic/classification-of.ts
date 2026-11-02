@@ -16,7 +16,7 @@ const OUTCOME_ORDER: Outcome[] = ['FIN', 'NC', 'DNF', 'DNS', 'DSQ'];
  * The full Classification of a Session: finishers by position, then the other Outcomes.
  * A Result whose Bike number differs from its Rider's Season number (seasonNumbers, from seasonNumbersOf) is an exception.
  */
-export function classificationOf(session: Session, seasonNumbers: Map<string, number> = new Map()): ClassificationRow[] {
+export function classificationOf(session: Session, seasonNumbers: Map<string, number>): ClassificationRow[] {
   return session.results
     .map((result, index) => ({ result, index }))
     .sort((a, b) => {

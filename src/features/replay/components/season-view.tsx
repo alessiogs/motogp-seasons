@@ -1,5 +1,5 @@
 import Link from 'next/link';
-import type { DefendingChampion } from '@/features/seasons/types/defending-champion';
+import { defendingChampionOf } from '@/features/seasons/logic/defending-champion-of';
 import type { Season } from '@/features/seasons/types/season';
 import { replayViewOf } from '../logic/replay-view-of';
 import SeasonCalendar from './season-calendar';
@@ -7,12 +7,13 @@ import SeasonReplay from './season-replay';
 
 interface Props {
   season: Season;
-  defendingChampion: DefendingChampion | null;
+  /** The previous Season in the same Category, whose World Champion is this Season's Defending Champion. */
+  previousSeason: Season | null;
 }
 
-export default function SeasonView({ season, defendingChampion }: Props) {
+export default function SeasonView({ season, previousSeason }: Props) {
   // Everything is computed here, at build time. The client only gets plain JSON.
-  const view = replayViewOf(season, defendingChampion);
+  const view = replayViewOf(season, defendingChampionOf(previousSeason));
 
   return (
     <>

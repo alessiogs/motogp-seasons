@@ -1,6 +1,6 @@
-import type { BoxColours } from './box-colours';
+import type { DisplayedNumber } from './displayed-number';
 
-export interface ClassificationRow {
+export interface ClassificationRow extends DisplayedNumber {
   riderId: string;
   /** "1", "2", ... for a finishing position; an en dash when there is none. */
   positionLabel: string;
@@ -8,10 +8,4 @@ export interface ClassificationRow {
   outcomeLabel: string | null;
   team: string | null;
   manufacturer: string | null;
-  /** The Bike number carried in this very Result; null when the source doesn't record it. */
-  bikeNumber: number | null;
-  /** The Bike number differs from the Rider's Season number; always false in a Season without Season numbers. */
-  numberException: boolean;
-  /** The number box, in this very Result's Team colour. */
-  box: BoxColours;
 }

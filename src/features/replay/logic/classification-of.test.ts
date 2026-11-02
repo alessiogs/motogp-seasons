@@ -23,6 +23,7 @@ describe('classificationOf', () => {
         result('nc', null, 'NC'),
         result('dnf-b', null, 'DNF'),
       ]),
+      new Map(),
     );
     expect(rows.map((r) => [r.riderId, r.positionLabel, r.outcomeLabel])).toEqual([
       ['first', '1', null],

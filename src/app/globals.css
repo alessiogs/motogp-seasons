@@ -9,7 +9,7 @@
  * Classes later tickets reuse:
  *   .display   bold italic Titillium for headings, positions and points
  *   .slant     clip a box into a parallelogram (set --slant to change the cut)
- *   .num-box   parallelogram number box; set --box-bg / --box-fg inline (Team colour, contrast text)
+ *   .number-box parallelogram number box; set --box-bg / --box-fg inline (Team colour, contrast text)
  */
 :root {
   --bg: #0b0c10;
@@ -57,7 +57,7 @@ h1 .muted { font-weight: 700; }
 h2 { font-size: 1.15rem; text-transform: uppercase; }
 
 .slant { clip-path: polygon(var(--slant) 0, 100% 0, calc(100% - var(--slant)) 100%, 0 100%); }
-.num-box {
+.number-box {
   --box-bg: var(--neutral-box);
   --box-fg: #fff;
   --slant: 0.32em;
@@ -67,8 +67,8 @@ h2 { font-size: 1.15rem; text-transform: uppercase; }
   font-style: italic; font-weight: 900; line-height: 1; font-variant-numeric: tabular-nums;
   clip-path: polygon(var(--slant) 0, 100% 0, calc(100% - var(--slant)) 100%, 0 100%);
 }
-.rider-cell .num-box, .class-rider .num-box { margin-right: 0.4em; font-size: 0.85em; vertical-align: 0.05em; }
-.podium-rider .num-box { align-self: flex-start; }
+.rider-cell .number-box, .class-rider .number-box { margin-right: 0.4em; font-size: 0.85em; vertical-align: 0.05em; }
+.podium-rider .number-box { align-self: flex-start; }
 /* A Bike number that isn't the Rider's Season number. */
 .num-exception { margin: 0 0.4em 0 -0.25em; color: var(--accent-strong); font-weight: 900; cursor: help; }
 .visually-hidden {

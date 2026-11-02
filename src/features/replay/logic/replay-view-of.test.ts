@@ -1,14 +1,19 @@
 import { beforeAll, describe, expect, it } from 'vitest';
-import { mkdtempSync } from 'node:fs';
+import { mkdtempSync, readFileSync } from 'node:fs';
 import { tmpdir } from 'node:os';
 import path from 'node:path';
 import { buildDatabase } from '@/features/data-build/scripts/build-database';
+import type { ManufacturerFile } from '@/features/data-build/types/manufacturer-file';
 import { getSeason } from '@/features/seasons/queries/get-season';
+import { listSeasons } from '@/features/seasons/queries/list-seasons';
 import type { Result } from '@/features/seasons/types/result';
 import type { Round } from '@/features/seasons/types/round';
 import type { Season } from '@/features/seasons/types/season';
 import type { Session } from '@/features/seasons/types/session';
 import type { ScoringRule } from '@/features/scoring/types/scoring-rule';
+import type { DisplayedNumber } from '../types/displayed-number';
+import type { ReplayView } from '../types/replay-view';
+import type { SessionStep } from '../types/session-step';
 import { replayViewOf } from './replay-view-of';
 
 // Made-up Seasons built from small helpers; every expected value is worked out by hand in its test.
@@ -51,6 +56,16 @@ const season = (rounds: Round[], extra: Partial<Season> = {}): Season => ({
   classCode: 'test', className: 'Test', year: 2000, rule, rounds, riders: {}, ...extra,
 });
 
+/** Every Step after the Participants step. */
+const sessionStepsOf = (view: ReplayView): SessionStep[] =>
+  view.steps.flatMap((s) => (s.kind === 'session' ? [s] : []));
+
+/** A Session step's Classification as shown: the Podium Riders 1st to 3rd, then the rows below the Podium. */
+const shownRowsOf = (step: SessionStep): Array<{ riderId: string } & DisplayedNumber> => [
+  ...[...step.podium].sort((a, b) => a.place - b.place).flatMap((p) => (p.rider ? [p.rider] : [])),
+  ...step.belowPodium,
+];
+
 describe('replayViewOf', () => {
   it('opens on the Participants step: every Participant on 0 points, by name, with no Session and no Podium', () => {
     // 'late' only races in a Non-championship round: still a Participant.
@@ -60,8 +75,8 @@ describe('replayViewOf', () => {
         round(2, [gp('late')], { nonChampionship: true }),
       ],
       { riders: { a: { name: 'Zed' }, b: { name: 'Alpha' }, c: { name: 'Mid' }, late: { name: 'Bravo' } } },
-    ));
-    const [participants, first] = view.steps;
+    ), null);
+    const [participants] = view.steps;
     expect(view.steps.map((s) => s.kind)).toEqual(['participants', 'session']);
     expect(participants.standings.map((r) => [r.rank, r.riderId, r.points, r.rankChange, r.gap])).toEqual([
       [1, 'b', 0, 0, null],
@@ -69,9 +84,8 @@ describe('replayViewOf', () => {
       [3, 'c', 0, 0, null],
       [4, 'a', 0, 0, null],
     ]);
-    expect([participants.round, participants.classification, participants.podium, participants.crowning, participants.worldChampion])
-      .toEqual([null, [], [], false, null]);
-    expect(first.round?.name).toEqual('Round 1');
+    expect(Object.keys(participants).sort()).toEqual(['defendingChampion', 'kind', 'standings']);
+    expect(sessionStepsOf(view)[0].round.name).toEqual('Round 1');
   });
 
   it('lists the Defending Champion first and labels them on every Step until a World Champion is crowned', () => {
@@ -107,7 +121,7 @@ describe('replayViewOf', () => {
         round(2, [gp(fin('b', 1, { nationality: 'GBR' }), fin('a', 2, { nationality: 'SMR' }))]),
       ],
       { riders: { a: { name: 'Rider A' }, b: { name: 'Rider B' } } },
-    ));
+    ), null);
     expect(view.riders).toEqual({
       a: { name: 'Rider A', nationality: 'ITA', seasonNumber: null },
       b: { name: 'Rider B', nationality: 'GBR', seasonNumber: null },
@@ -115,7 +129,7 @@ describe('replayViewOf', () => {
   });
 
   it('falls back to the Rider id when the Season has no name for them', () => {
-    const view = replayViewOf(season([round(1, [gp('a')])]));
+    const view = replayViewOf(season([round(1, [gp('a')])]), null);
     expect(view.riders.a).toEqual({ name: 'a', nationality: null, seasonNumber: null });
   });
 
@@ -127,17 +141,14 @@ describe('replayViewOf', () => {
           out('dns', 'DNS'), fin('second', 2), out('nc', 'NC'), fin('first', 1), out('dnf', 'DNF'),
         ]),
       ]),
-    ]));
-    expect(view.steps.map((s) => s.classification.map((r) => [r.riderId, r.positionLabel, r.outcomeLabel]))).toEqual([
-      [],
-      [['b', '1', null], ['a', '2', null]],
-      [
-        ['first', '1', null],
-        ['second', '2', null],
-        ['nc', '–', 'Not classified'],
-        ['dnf', '–', 'Did not finish'],
-        ['dns', '–', 'Did not start'],
-      ],
+    ]), null);
+    const [sprintStep, raceStep] = sessionStepsOf(view);
+    expect(shownRowsOf(sprintStep).map((r) => r.riderId)).toEqual(['b', 'a']);
+    expect(shownRowsOf(raceStep).map((r) => r.riderId)).toEqual(['first', 'second', 'nc', 'dnf', 'dns']);
+    expect(raceStep.belowPodium.map((r) => [r.riderId, r.positionLabel, r.outcomeLabel])).toEqual([
+      ['nc', '–', 'Not classified'],
+      ['dnf', '–', 'Did not finish'],
+      ['dns', '–', 'Did not start'],
     ]);
   });
 
@@ -149,13 +160,12 @@ describe('replayViewOf', () => {
           fin('d', 4), fin('c', 3, { team: 'Team C', manufacturer: 'Honda' }), fin('a', 1), fin('b', 2),
         ]),
       ]),
-    ]));
-    expect(view.steps.map((s) => s.podium.map((p) => [p.place, p.rider?.riderId ?? null]))).toEqual([
-      [],
+    ]), null);
+    expect(sessionStepsOf(view).map((s) => s.podium.map((p) => [p.place, p.rider?.riderId ?? null]))).toEqual([
       [[2, 's2'], [1, 's1'], [3, 's3']],
       [[2, 'b'], [1, 'a'], [3, 'c']],
     ]);
-    expect(view.steps[2].podium[2].rider).toEqual({
+    expect(sessionStepsOf(view)[1].podium[2].rider).toEqual({
       riderId: 'c', team: 'Team C', manufacturer: 'Honda', bikeNumber: null, numberException: false,
       box: { background: '#5a606c', foreground: '#ffffff' },
     });
@@ -167,8 +177,8 @@ describe('replayViewOf', () => {
       round(1, [gp(fin('a', 1, { bikeNumber: 46 }), fin('b', 2, { bikeNumber: 4 }))]),
       round(2, [gp(fin('a', 1, { bikeNumber: 46 }), fin('b', 2, { bikeNumber: 4 }))]),
       round(3, [gp(fin('b', 1, { bikeNumber: 4 }), fin('a', 2, { bikeNumber: 58, teamColour: '#ffcc00' }))]),
-    ]));
-    expect(view.steps[3].podium.map((p) => p.rider && [p.rider.riderId, p.rider.bikeNumber, p.rider.numberException, p.rider.box.background]))
+    ]), null);
+    expect(sessionStepsOf(view)[2].podium.map((p) => p.rider && [p.rider.riderId, p.rider.bikeNumber, p.rider.numberException, p.rider.box.background]))
       .toEqual([['a', 58, true, '#ffcc00'], ['b', 4, false, '#5a606c'], null]);
   });
 
@@ -177,8 +187,8 @@ describe('replayViewOf', () => {
     const view = replayViewOf(season([
       round(1, [gp(fin('a', 1, { bikeNumber: 7 }), fin('b', 2, { bikeNumber: 3 }))]),
       round(2, [gp(fin('a', 1, { bikeNumber: 11 }), fin('b', 2))]),
-    ]));
-    expect(view.steps[2].podium.map((p) => p.rider && [p.rider.riderId, p.rider.bikeNumber, p.rider.numberException]))
+    ]), null);
+    expect(sessionStepsOf(view)[1].podium.map((p) => p.rider && [p.rider.riderId, p.rider.bikeNumber, p.rider.numberException]))
       .toEqual([['b', null, false], ['a', 11, false], null]);
   });
 
@@ -186,9 +196,8 @@ describe('replayViewOf', () => {
     const view = replayViewOf(season([
       round(1, [session('grand-prix-race', 1, [out('c', 'DNF'), fin('b', 1), out('a', 'NC'), fin('e', 2), out('d', 'DNS')])]),
       round(2, [session('grand-prix-race', 1, [out('c', 'DNF'), fin('b', 1)])]),
-    ]));
-    expect(view.steps.map((s) => s.podium.map((p) => [p.place, p.rider?.riderId ?? null]))).toEqual([
-      [],
+    ]), null);
+    expect(sessionStepsOf(view).map((s) => s.podium.map((p) => [p.place, p.rider?.riderId ?? null]))).toEqual([
       [[2, 'e'], [1, 'b'], [3, null]],
       [[2, null], [1, 'b'], [3, null]],
     ]);
@@ -198,9 +207,8 @@ describe('replayViewOf', () => {
     const view = replayViewOf(season([
       round(1, [gp('a', 'b', 'c', 'd', 'e')]),
       round(2, [session('grand-prix-race', 1, [out('c', 'DNF'), fin('b', 1), out('a', 'NC'), fin('e', 2)])]),
-    ]));
-    expect(view.steps.map((s) => s.belowPodium.map((r) => [r.riderId, r.positionLabel]))).toEqual([
-      [],
+    ]), null);
+    expect(sessionStepsOf(view).map((s) => s.belowPodium.map((r) => [r.riderId, r.positionLabel]))).toEqual([
       [['d', '4'], ['e', '5']],
       [['a', '–'], ['c', '–']],
     ]);
@@ -212,13 +220,13 @@ describe('replayViewOf', () => {
       round(1, [gp(fin('a', 1, { bikeNumber: 46 }), fin('b', 2, { bikeNumber: 4 }), fin('c', 3, { bikeNumber: 7 }))]),
       round(2, [gp(fin('b', 1, { bikeNumber: 4 }), fin('a', 2, { bikeNumber: 46 }))]),
       round(3, [gp(fin('a', 1, { bikeNumber: 58 }))]),
-    ]));
+    ]), null);
     expect(Object.entries(view.riders).map(([id, r]) => [id, r.seasonNumber])).toEqual([['a', 46], ['b', 4], ['c', 7]]);
   });
 
   it('shows no Season numbers when any Result lacks a Bike number, or any Rider has no majority number', () => {
     const numbersOf = (rounds: Round[]) =>
-      Object.values(replayViewOf(season(rounds)).riders).map((r) => r.seasonNumber);
+      Object.values(replayViewOf(season(rounds), null).riders).map((r) => r.seasonNumber);
     // b's second Result has no number: nobody gets one, a included.
     expect(numbersOf([
       round(1, [gp(fin('a', 1, { bikeNumber: 1 }), fin('b', 2, { bikeNumber: 2 }))]),
@@ -236,8 +244,8 @@ describe('replayViewOf', () => {
       round(1, [gp(fin('a', 1, { bikeNumber: 46 }), fin('b', 2, { bikeNumber: 4 }))]),
       round(2, [gp(fin('a', 1, { bikeNumber: 46 }), fin('b', 2, { bikeNumber: 4 }))]),
       round(3, [gp(fin('b', 1, { bikeNumber: 4 }), out('a', 'DNF', { bikeNumber: 58 }))]),
-    ]));
-    expect(view.steps[3].classification.map((r) => [r.riderId, r.bikeNumber, r.numberException])).toEqual([
+    ]), null);
+    expect(shownRowsOf(sessionStepsOf(view)[2]).map((r) => [r.riderId, r.bikeNumber, r.numberException])).toEqual([
       ['b', 4, false],
       ['a', 58, true],
     ]);
@@ -248,8 +256,8 @@ describe('replayViewOf', () => {
     const view = replayViewOf(season([
       round(1, [gp(fin('a', 1, { bikeNumber: 7 }), fin('b', 2, { bikeNumber: 3 }))]),
       round(2, [gp(fin('a', 1, { bikeNumber: 11 }), fin('b', 2))]),
-    ]));
-    expect(view.steps[2].classification.map((r) => [r.riderId, r.bikeNumber, r.numberException])).toEqual([
+    ]), null);
+    expect(shownRowsOf(sessionStepsOf(view)[1]).map((r) => [r.riderId, r.bikeNumber, r.numberException])).toEqual([
       ['a', 11, false],
       ['b', null, false],
     ]);
@@ -260,8 +268,8 @@ describe('replayViewOf', () => {
     const view = replayViewOf(season([
       round(1, [gp(fin('a', 1, { teamColour: '#cc0000' }), fin('b', 2))]),
       round(2, [gp(fin('a', 1, { teamColour: '#ffcc00' }), fin('b', 2, { teamColour: null }), fin('c', 3, { teamColour: '#cc0000' }))]),
-    ]));
-    expect(view.steps[2].classification.map((r) => [r.riderId, r.box])).toEqual([
+    ]), null);
+    expect(shownRowsOf(sessionStepsOf(view)[1]).map((r) => [r.riderId, r.box])).toEqual([
       ['a', { background: '#ffcc00', foreground: '#000000' }],
       ['b', { background: '#5a606c', foreground: '#ffffff' }],
       ['c', { background: '#cc0000', foreground: '#ffffff' }],
@@ -277,7 +285,7 @@ describe('replayViewOf', () => {
         session('sprint', 1, [fin('a', 1, { teamColour: '#ffcc00' })]),
         session('grand-prix-race', 2, [fin('b', 1, { teamColour: '#0033aa' }), fin('a', 2, { teamColour: '#ffcc00' })]),
       ]),
-    ]));
+    ]), null);
     const boxes = (i: number) =>
       Object.fromEntries(view.steps[i].standings.map((r) => [r.riderId, r.box.background]));
     expect([0, 1, 2, 3].map(boxes)).toEqual([
@@ -306,9 +314,8 @@ describe('replayViewOf', () => {
 
   it('marks the crowning only on the Step where the World Champion is crowned', () => {
     // After Round 2 a has 50, b 20, one Round (25) left: b can't catch a, so a is crowned at Round 2's Step.
-    const view = replayViewOf(season([round(1, [gp('a', 'b')]), round(2, [gp('a')]), round(3, [gp('b', 'a')])]));
-    expect(view.steps.map((s) => [s.worldChampion, s.crowning])).toEqual([
-      [null, false],
+    const view = replayViewOf(season([round(1, [gp('a', 'b')]), round(2, [gp('a')]), round(3, [gp('b', 'a')])]), null);
+    expect(sessionStepsOf(view).map((s) => [s.worldChampion, s.crowning])).toEqual([
       [null, false],
       ['a', true],
       ['a', false],
@@ -317,7 +324,7 @@ describe('replayViewOf', () => {
 
   it('shows how each Rider moved since the previous Step and how far behind the leader they are', () => {
     // Round 1: a 25, b 20, c 16 (no movement from the Participants step). Round 2: a 45, c 41, b 36, d 13 (new).
-    const view = replayViewOf(season([round(1, [gp('a', 'b', 'c')]), round(2, [gp('c', 'a', 'b', 'd')])]));
+    const view = replayViewOf(season([round(1, [gp('a', 'b', 'c')]), round(2, [gp('c', 'a', 'b', 'd')])]), null);
     const rows = (i: number) => view.steps[i + 1].standings.map((r) => [r.riderId, r.rankChange, r.gap]);
     expect(rows(0)).toEqual([['a', 0, null], ['b', 0, 5], ['c', 0, 9]]);
     expect(rows(1)).toEqual([['a', 0, null], ['c', 1, 4], ['b', -1, 9], ['d', 0, 32]]);
@@ -328,13 +335,13 @@ describe('replayViewOf', () => {
       round(1, [sprint('a'), gp('a')], { name: 'Qatar', date: '2000-03-10' }),
       round(2, [gp('a')], { name: 'Imola', nonChampionship: true }),
       round(3, [gp('a')], { name: 'Assen', notes: 'Half points' }),
-    ]));
+    ]), null);
     expect(view.calendar.map((e) => [e.name, e.nonChampionship, e.steps])).toEqual([
       ['Qatar', false, 2],
       ['Imola', true, 0],
       ['Assen', false, 1],
     ]);
-    expect(view.steps.slice(1).map((s) => [s.round?.name, s.round?.date, s.round?.notes])).toEqual([
+    expect(sessionStepsOf(view).map((s) => [s.round.name, s.round.date, s.round.notes])).toEqual([
       ['Qatar', '2000-03-10', null],
       ['Qatar', '2000-03-10', null],
       ['Assen', null, 'Half points'],
@@ -342,11 +349,11 @@ describe('replayViewOf', () => {
   });
 
   it('tells the page the Season, and whether its Scoring rule has Counting windows or a Fastest-lap bonus', () => {
-    const plain = replayViewOf(season([round(1, [gp('a')])], { year: 1999, className: '500cc' }));
+    const plain = replayViewOf(season([round(1, [gp('a')])], { year: 1999, className: '500cc' }), null);
     expect([plain.year, plain.className, plain.hasCountingWindows, plain.fastestLapBonus]).toEqual([1999, '500cc', false, false]);
     const early = replayViewOf(season([round(1, [gp('a')])], {
       rule: { ...rule, countingWindows: [{ fromRound: 1, toRound: 1, count: 1 }], fastestLapPoints: 1 },
-    }));
+    }), null);
     expect([early.hasCountingWindows, early.fastestLapBonus]).toEqual([true, true]);
   });
 });
@@ -363,7 +370,7 @@ describe('replayViewOf on real Seasons', () => {
     ['500cc', 1976],
     ['500cc', 1989],
   ])('shows no Season numbers in %s %i, where numbers are missing or changed between Rounds', (classCode, year) => {
-    const view = replayViewOf(getSeason(classCode, year)!);
+    const view = replayViewOf(getSeason(classCode, year)!, null);
     expect(Object.values(view.riders).filter((r) => r.seasonNumber !== null)).toEqual([]);
   });
 
@@ -378,6 +385,17 @@ describe('replayViewOf on real Seasons', () => {
     expect(uncoloured.map((r) => [r.team, r.manufacturer])).toEqual([]);
   });
 
+  it('has a colour in data/manufacturers.json for every Manufacturer named in the loaded Seasons, spelt the same', () => {
+    const file = JSON.parse(readFileSync(path.join(process.cwd(), 'data/manufacturers.json'), 'utf8')) as ManufacturerFile;
+    const coloured = new Set(file.manufacturers.map((m) => m.name));
+    const named = new Set(
+      listSeasons().flatMap(({ classCode, year }) =>
+        getSeason(classCode, year)!.rounds.flatMap((r) => r.sessions.flatMap((s) => s.results.map((x) => x.manufacturer))),
+      ),
+    );
+    expect([...named].filter((m) => m != null && !coloured.has(m))).toEqual([]);
+  });
+
   it("gives the four 2024 Ducati Teams four colours of their own, not their Manufacturer's", () => {
     const season = getSeason('motogp', 2024)!;
     const results = season.rounds.flatMap((r) => r.sessions.flatMap((s) => s.results));
@@ -386,7 +404,7 @@ describe('replayViewOf on real Seasons', () => {
   });
 
   it('gives every 2024 MotoGP Participant a Season number', () => {
-    const { riders } = replayViewOf(getSeason('motogp', 2024)!);
+    const { riders } = replayViewOf(getSeason('motogp', 2024)!, null);
     expect(Object.values(riders).filter((r) => r.seasonNumber === null)).toEqual([]);
     expect([riders['francesco-bagnaia'].seasonNumber, riders['marc-marquez'].seasonNumber]).toEqual([1, 93]);
   });
