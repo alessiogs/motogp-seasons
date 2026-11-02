@@ -281,3 +281,13 @@ h2 { font-size: 1.15rem; text-transform: uppercase; }
 }
 .calendar-note { font-size: 0.875rem; }
 .round-note { margin: -8px 0 16px; font-size: 0.875rem; overflow-wrap: anywhere; }
+
+/* How it works: one short section per derived rule, each headed by a slanted red mark. */
+.how-it-works { overflow-wrap: anywhere; }
+.how-it-works section { margin-top: 28px; }
+.how-it-works h2 { margin: 0 0 6px; }
+.how-it-works h2::before {
+  content: ''; display: inline-block; width: 18px; height: 0.7em; margin-right: 8px;
+  background: var(--accent); transform: skewX(-20deg);
+}
+.how-it-works p { margin: 0 0 10px; }
