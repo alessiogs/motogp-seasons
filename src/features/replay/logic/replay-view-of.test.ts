@@ -136,12 +136,45 @@ describe('replayViewOf', () => {
     ]);
   });
 
-  it('puts the first three Classified Riders on the Podium, fewer when fewer were Classified', () => {
+  it("stands each Step's first three Classified Riders on the Podium, 2nd left, 1st centre, 3rd right", () => {
     const view = replayViewOf(season([
-      round(1, [gp('a', 'b', 'c', 'd')]),
-      round(2, [session('grand-prix-race', 1, [out('c', 'DNF'), fin('b', 1), out('a', 'NC'), out('d', 'DNS')])]),
+      round(1, [
+        sprint('s1', 's2', 's3'),
+        session('grand-prix-race', 2, [
+          fin('d', 4), fin('c', 3, { team: 'Team C', manufacturer: 'Honda' }), fin('a', 1), fin('b', 2),
+        ]),
+      ]),
     ]));
-    expect(view.steps.map((s) => s.podium.map((r) => r.riderId))).toEqual([[], ['a', 'b', 'c'], ['b']]);
+    expect(view.steps.map((s) => s.podium.map((p) => [p.place, p.rider?.riderId ?? null]))).toEqual([
+      [],
+      [[2, 's2'], [1, 's1'], [3, 's3']],
+      [[2, 'b'], [1, 'a'], [3, 'c']],
+    ]);
+    expect(view.steps[2].podium[2].rider).toEqual({ riderId: 'c', team: 'Team C', manufacturer: 'Honda' });
+  });
+
+  it('leaves Podium places empty when fewer than three Riders were Classified', () => {
+    const view = replayViewOf(season([
+      round(1, [session('grand-prix-race', 1, [out('c', 'DNF'), fin('b', 1), out('a', 'NC'), fin('e', 2), out('d', 'DNS')])]),
+      round(2, [session('grand-prix-race', 1, [out('c', 'DNF'), fin('b', 1)])]),
+    ]));
+    expect(view.steps.map((s) => s.podium.map((p) => [p.place, p.rider?.riderId ?? null]))).toEqual([
+      [],
+      [[2, 'e'], [1, 'b'], [3, null]],
+      [[2, null], [1, 'b'], [3, null]],
+    ]);
+  });
+
+  it('lists the rest of the Classification below the Podium: 4th on, then the Riders not Classified', () => {
+    const view = replayViewOf(season([
+      round(1, [gp('a', 'b', 'c', 'd', 'e')]),
+      round(2, [session('grand-prix-race', 1, [out('c', 'DNF'), fin('b', 1), out('a', 'NC'), fin('e', 2)])]),
+    ]));
+    expect(view.steps.map((s) => s.belowPodium.map((r) => [r.riderId, r.positionLabel]))).toEqual([
+      [],
+      [['d', '4'], ['e', '5']],
+      [['a', '–'], ['c', '–']],
+    ]);
   });
 
   it('marks the crowning only on the Step where the World Champion is crowned', () => {

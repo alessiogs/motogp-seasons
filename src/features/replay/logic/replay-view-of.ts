@@ -6,6 +6,7 @@ import type { ReplayViewStep } from '../types/replay-view-step';
 import type { RiderInfo } from '../types/rider-info';
 import { calendarEntriesOf } from './calendar-entries-of';
 import { classificationOf } from './classification-of';
+import { belowPodiumOf } from './below-podium-of';
 import { podiumOf } from './podium-of';
 
 /**
@@ -41,6 +42,7 @@ export function replayViewOf(season: Season, defendingChampion: DefendingChampio
       defendingChampion: step.worldChampion == null ? defending : null,
       classification,
       podium: podiumOf(classification),
+      belowPodium: belowPodiumOf(classification),
     };
   });
 
@@ -88,6 +90,7 @@ function participantsStep(riders: Record<string, RiderInfo>, defending: string |
     defendingChampion: defending,
     classification: [],
     podium: [],
+    belowPodium: [],
   };
 }
 

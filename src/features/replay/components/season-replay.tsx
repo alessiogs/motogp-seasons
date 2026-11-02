@@ -120,7 +120,7 @@ export default function SeasonReplay({ view }: { view: ReplayView }) {
           })}
       </div>
 
-      {step.kind === 'session' && <StepDetails classification={step.classification} podium={step.podium} riders={riders} />}
+      {step.kind === 'session' && <StepDetails podium={step.podium} belowPodium={step.belowPodium} riders={riders} />}
     </>
   );
 }
