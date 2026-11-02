@@ -4,6 +4,7 @@ import type { ReplayView } from '../types/replay-view';
 import type { RiderInfo } from '../types/rider-info';
 import { calendarEntriesOf } from './calendar-entries-of';
 import { classificationOf } from './classification-of';
+import { belowPodiumOf } from './below-podium-of';
 import { podiumOf } from './podium-of';
 
 /** The Replay view of a Season: everything the Season page renders, computed at build time. */
@@ -32,6 +33,7 @@ export function replayViewOf(season: Season): ReplayView {
       crowning: step.worldChampion != null && replay[i - 1]?.worldChampion == null,
       classification,
       podium: podiumOf(classification),
+      belowPodium: belowPodiumOf(classification),
     };
   });
 
