@@ -120,7 +120,7 @@ async function main() {
 
   const teamsPath = path.join(dataDir, 'teams', `${classCode}-${year}.json`);
   const teamData: TeamFile = existsSync(teamsPath) ? JSON.parse(readFileSync(teamsPath, 'utf8')) : { teams: [] };
-  for (const round of rounds) {
+  for (const round of rounds as { sessions: { results: { team: string | null }[] }[] }[]) {
     for (const session of round.sessions) {
       for (const result of session.results) result.team = canonicalTeamName(result.team, teamData);
     }
