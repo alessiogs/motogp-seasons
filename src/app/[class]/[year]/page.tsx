@@ -1,5 +1,5 @@
 import { notFound } from 'next/navigation';
-import { getDefendingChampion } from '@/features/seasons/queries/get-defending-champion';
+import { getPreviousSeason } from '@/features/seasons/queries/get-previous-season';
 import { getSeason } from '@/features/seasons/queries/get-season';
 import { listSeasons } from '@/features/seasons/queries/list-seasons';
 import SeasonView from '@/features/replay/components/season-view';
@@ -14,5 +14,5 @@ export default async function SeasonPage({ params }: { params: Promise<{ class: 
   const { class: classCode, year } = await params;
   const season = getSeason(classCode, Number(year));
   if (!season) notFound();
-  return <SeasonView season={season} defendingChampion={getDefendingChampion(classCode, season.year)} />;
+  return <SeasonView season={season} previousSeason={getPreviousSeason(classCode, season.year)} />;
 }
