@@ -6,7 +6,7 @@ Starting with the Premier category (500cc 1949–2001, MotoGP 2002–); the othe
 
 ## How it works
 
-- **`data/`** (JSON, committed) is the source of truth: `seasons/<class>-<year>.json`, `scoring-rules/*.json`, `riders.json`. `npm run data:build` generates `db/motogp.db` (SQLite, git-ignored) from it; schema in `src/features/data-build/schema.sql`. Standings are never stored.
+- **`data/`** (JSON, committed) is the source of truth: `seasons/<class>-<year>.json`, `scoring-rules/*.json`, `riders.json`, and hand-authored `teams/<class>-<year>.json` (each Team's name and the source's spelling variants; the build rejects a Result whose Team is not listed). `npm run data:build` generates `db/motogp.db` (SQLite, git-ignored) from it; schema in `src/features/data-build/schema.sql`. Standings are never stored.
 - **`src/features/scoring/logic/compute-replay.ts`** turns a Season into Replay Steps, one per Session: position points, Sprint and Grand Prix race, Counting windows, fastest-lap bonus, points multipliers and overrides, Countback and Latest-best tie-breaks.
 - **Next.js static export** reads the database at build time and pre-renders one page per season (`/[class]/[year]`) with the standings after every session. The site is plain HTML/JS, no server.
 - **GitHub Pages** deploys automatically on every push to `main` (`.github/workflows/deploy.yml`).
