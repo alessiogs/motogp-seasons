@@ -1,15 +1,15 @@
-import { podiumOf } from '../logic/podium-of';
 import type { ClassificationRow } from '../types/classification-row';
+import type { RiderInfo } from '../types/rider-info';
 import FlagBadge from './flag-badge';
 
 interface Props {
   classification: ClassificationRow[];
-  riders: Record<string, { name: string; nationality: string | null }>;
+  podium: ClassificationRow[];
+  riders: Record<string, RiderInfo>;
 }
 
 /** The Session behind the current Step: its Podium, and its full Classification in an accordion. */
-export default function StepDetails({ classification, riders }: Props) {
-  const podium = podiumOf(classification);
+export default function StepDetails({ classification, podium, riders }: Props) {
   const name = (id: string) => riders[id]?.name ?? id;
 
   return (
