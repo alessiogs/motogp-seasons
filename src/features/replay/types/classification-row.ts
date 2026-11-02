@@ -1,3 +1,5 @@
+import type { BoxColours } from './box-colours';
+
 export interface ClassificationRow {
   riderId: string;
   /** "1", "2", ... for a finishing position; an en dash when there is none. */
@@ -10,4 +12,6 @@ export interface ClassificationRow {
   bikeNumber: number | null;
   /** The Bike number differs from the Rider's Season number; always false in a Season without Season numbers. */
   numberException: boolean;
+  /** The number box, in this very Result's Team colour. */
+  box: BoxColours;
 }

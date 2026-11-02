@@ -103,7 +103,14 @@ CREATE TABLE teams (
   id         INTEGER PRIMARY KEY,
   season_id  INTEGER NOT NULL REFERENCES seasons(id),
   name       TEXT NOT NULL,
+  colour     TEXT,                         -- Team colour, '#rrggbb'; NULL = the Manufacturer's colour stands in
   UNIQUE (season_id, name)
+);
+
+-- Manufacturer colours (data/manufacturers.json): the Team colour of a Result whose Team has none.
+CREATE TABLE manufacturers (
+  name    TEXT PRIMARY KEY,                -- as written on Results
+  colour  TEXT NOT NULL                    -- '#rrggbb'
 );
 
 -- One row per Rider per Session.

@@ -1,3 +1,4 @@
+import type { BoxColours } from './box-colours';
 import type { StandingRow } from '@/features/scoring/types/standing-row';
 
 /** One Standings row as the Season page shows it. */
@@ -6,4 +7,6 @@ export interface StandingsViewRow extends StandingRow {
   rankChange: number;
   /** Championship points behind the leader; null for the leader. */
   gap: number | null;
+  /** The number box, in the Team colour of the Rider's latest Result up to this Step (their first, on the Participants step). */
+  box: BoxColours;
 }

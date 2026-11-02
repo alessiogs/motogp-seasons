@@ -1,6 +1,7 @@
 import type { Outcome } from '@/features/seasons/types/outcome';
 import type { ClassificationRow } from '../types/classification-row';
 import type { Session } from '@/features/seasons/types/session';
+import { boxColoursOf } from './box-colours-of';
 
 const OUTCOME_LABELS: Record<Outcome, string | null> = {
   FIN: null,
@@ -31,5 +32,6 @@ export function classificationOf(session: Session, seasonNumbers: Map<string, nu
       manufacturer: result.manufacturer,
       bikeNumber: result.bikeNumber,
       numberException: seasonNumbers.has(result.riderId) && result.bikeNumber !== seasonNumbers.get(result.riderId),
+      box: boxColoursOf(result.teamColour),
     }));
 }

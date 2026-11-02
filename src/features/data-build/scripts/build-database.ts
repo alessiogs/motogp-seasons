@@ -1,10 +1,12 @@
 // Generates the SQLite database from the JSON files in a data directory (ADR-0002):
 //   <dataDir>/riders.json, <dataDir>/scoring-rules/*.json, <dataDir>/seasons/*.json,
-//   <dataDir>/teams/*.json (one per Season, same file name as the Season's)
+//   <dataDir>/teams/*.json (one per Season, same file name as the Season's),
+//   <dataDir>/manufacturers.json (Manufacturer colours; optional)
 import Database from 'better-sqlite3';
 import { existsSync, mkdirSync, readFileSync, readdirSync, rmSync } from 'node:fs';
 import path from 'node:path';
 import { fileURLToPath } from 'node:url';
+import type { ManufacturerFile } from '../types/manufacturer-file';
 import type { RiderFile } from '../types/rider-file';
 import type { TeamFile } from '../types/team-file';
 
@@ -52,6 +54,7 @@ export function buildDatabase(dataDir: string, dbPath: string): void {
     db.transaction(() => {
       const riderIds = loadRiders(db, dataDir);
       const ruleIds = loadRules(db, dataDir);
+      loadManufacturers(db, dataDir);
       loadSeasons(db, dataDir, riderIds, ruleIds);
     })();
   } finally {
@@ -70,6 +73,22 @@ function loadRiders(db: Database.Database, dataDir: string): Map<string, number>
     for (const [source, sourceId] of Object.entries(rider.sourceIds)) insertSource.run(id, source, sourceId);
   }
   return ids;
+}
+
+function loadManufacturers(db: Database.Database, dataDir: string): void {
+  const file = path.join(dataDir, 'manufacturers.json');
+  if (!existsSync(file)) return;
+  const insert = db.prepare('INSERT INTO manufacturers (name, colour) VALUES (?, ?)');
+  const { manufacturers } = JSON.parse(readFileSync(file, 'utf8')) as ManufacturerFile;
+  for (const m of manufacturers) {
+    checkColour(m.colour, `manufacturers.json: Manufacturer "${m.name}"`);
+    insert.run(m.name, m.colour);
+  }
+}
+
+/** Colours are '#rrggbb', so the number boxes can compute a contrasting text colour from them. */
+function checkColour(colour: string, owner: string): void {
+  if (!/^#[0-9a-f]{6}$/i.test(colour)) throw new Error(`${owner} has colour "${colour}"; write it as #rrggbb`);
 }
 
 function loadRules(db: Database.Database, dataDir: string): Map<string, { id: number; types: Set<string>; validFor: number[] | null }> {
@@ -166,12 +185,13 @@ function loadTeams(
   const teamPath = path.join(dataDir, 'teams', file);
   if (!existsSync(teamPath)) throw new Error(`${file}: no Team data (expected teams/${file})`);
   const { teams } = JSON.parse(readFileSync(teamPath, 'utf8')) as TeamFile;
-  const insert = db.prepare('INSERT INTO teams (season_id, name) VALUES (?, ?)');
+  const insert = db.prepare('INSERT INTO teams (season_id, name, colour) VALUES (?, ?, ?)');
   const ids = new Map<string, number>();
   const nameOfVariant = new Map<string, string>();
   for (const team of teams) {
     if (ids.has(team.name)) throw new Error(`teams/${file}: Team "${team.name}" is listed twice`);
-    ids.set(team.name, Number(insert.run(seasonId, team.name).lastInsertRowid));
+    if (team.colour != null) checkColour(team.colour, `teams/${file}: Team "${team.name}"`);
+    ids.set(team.name, Number(insert.run(seasonId, team.name, team.colour ?? null).lastInsertRowid));
     for (const variant of team.variants ?? []) nameOfVariant.set(variant, team.name);
   }
   return (name, where) => {

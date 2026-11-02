@@ -11,6 +11,8 @@ export interface Result {
   pointsOverride?: number | null;
   team: string | null;
   manufacturer: string | null;
+  /** The Team colour ('#rrggbb'): the Team's own, else the Manufacturer's; null when neither is known. */
+  teamColour?: string | null;
   bikeNumber: number | null;
   /** The flag the Rider raced under this Season. */
   nationality: string | null;
