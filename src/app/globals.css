@@ -160,15 +160,40 @@ h2 { font-size: 1.15rem; text-transform: uppercase; }
 .step-details { margin-top: 28px; }
 .step-details h2 { margin: 0 0 8px; }
 .podium, .class-list { list-style: none; margin: 0; padding: 0; }
-.podium li, .class-list li {
+.class-list li {
   display: grid; grid-template-columns: 2rem minmax(0, 1fr) auto; gap: 8px; align-items: baseline;
   padding: 8px 6px; border-bottom: 1px solid var(--line);
 }
-.podium { background: var(--surface); }
-.podium-pos, .class-pos { font-style: italic; font-weight: 900; }
-.podium-pos { color: var(--accent-strong); font-size: 1.15em; }
-.podium-rider { min-width: 0; overflow-wrap: anywhere; font-weight: 600; }
-.podium-team { font-size: 0.85rem; }
+.class-pos { font-style: italic; font-weight: 900; }
+
+/* Three-step Podium: 2nd left, 1st centre and highest, 3rd right; slanted steps with the names on them. */
+.podium {
+  display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 6px; align-items: end;
+  padding-top: 8px; border-bottom: 2px solid var(--accent);
+}
+.podium-step { min-width: 0; }
+.podium-block {
+  --slant: 12px;
+  display: flex; flex-direction: column; justify-content: space-between; gap: 6px;
+  padding: 10px 16px 6px; background: var(--surface-2);
+}
+.podium-step-1 .podium-block { min-height: 150px; background: var(--accent); }
+.podium-step-2 .podium-block { min-height: 118px; }
+.podium-step-3 .podium-block { min-height: 96px; }
+.podium-step.empty .podium-block { background: var(--surface); justify-content: flex-end; }
+.podium-rider { display: flex; flex-direction: column; gap: 2px; min-width: 0; }
+.podium-name { font-weight: 700; line-height: 1.2; overflow-wrap: anywhere; }
+.podium-team { font-size: 0.8rem; line-height: 1.2; color: var(--muted); overflow-wrap: anywhere; }
+.podium-step-1 .podium-team { color: rgba(255, 255, 255, 0.8); }
+.podium-place { font-size: 2.4rem; font-weight: 900; line-height: 1; text-align: right; opacity: 0.9; }
+.podium-step.empty .podium-place { color: var(--muted); opacity: 0.5; }
+@media (max-width: 480px) {
+  .podium { gap: 3px; }
+  .podium-block { --slant: 7px; padding: 8px 9px 4px; }
+  .podium-name { font-size: 0.82rem; }
+  .podium-team { font-size: 0.7rem; }
+  .podium-place { font-size: 1.8rem; }
+}
 .classification { margin-top: 12px; background: var(--surface); border-top: 2px solid var(--line); }
 .classification summary {
   padding: 10px 12px; cursor: pointer; font-weight: 700; font-style: italic; text-transform: uppercase;
