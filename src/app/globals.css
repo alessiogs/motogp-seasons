@@ -198,7 +198,7 @@ h2 { font-size: 1.15rem; text-transform: uppercase; }
 }
 
 /* Step details: Podium and Classification of the current Step's Session */
-.step-details { margin-top: 28px; }
+.step-details { margin: 8px 0 24px; }
 .step-details h2 { margin: 0 0 8px; }
 .podium, .class-list { list-style: none; margin: 0; padding: 0; }
 .class-list li {

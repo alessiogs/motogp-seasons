@@ -70,6 +70,9 @@ export default function SeasonReplay({ view }: { view: ReplayView }) {
         </>
       )}
 
+      {/* The Session's Podium and collapsible Classification sit above the Standings they produce. */}
+      {step.kind === 'session' && <StepDetails podium={step.podium} belowPodium={step.belowPodium} riders={riders} />}
+
       <div className={`standings${hasCountingWindows ? ' windowed' : ''}`} role="table" aria-label="Standings" style={{ height: (table.length + 1) * ROW_HEIGHT }}>
         <div className="standings-row standings-head" role="row">
           <span>Pos</span>
@@ -125,7 +128,6 @@ export default function SeasonReplay({ view }: { view: ReplayView }) {
           })}
       </div>
 
-      {step.kind === 'session' && <StepDetails podium={step.podium} belowPodium={step.belowPodium} riders={riders} />}
     </>
   );
 }
