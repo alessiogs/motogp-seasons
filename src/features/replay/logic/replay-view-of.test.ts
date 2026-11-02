@@ -367,6 +367,24 @@ describe('replayViewOf on real Seasons', () => {
     expect(Object.values(view.riders).filter((r) => r.seasonNumber !== null)).toEqual([]);
   });
 
+  it.each([
+    ['500cc', 1949],
+    ['500cc', 1976],
+    ['500cc', 1989],
+    ['motogp', 2024],
+  ])('has a Team colour for every Result of %s %i that names a Team or Manufacturer', (classCode, year) => {
+    const results = getSeason(classCode, year)!.rounds.flatMap((r) => r.sessions.flatMap((s) => s.results));
+    const uncoloured = results.filter((r) => (r.team != null || r.manufacturer != null) && r.teamColour == null);
+    expect(uncoloured.map((r) => [r.team, r.manufacturer])).toEqual([]);
+  });
+
+  it("gives the four 2024 Ducati Teams four colours of their own, not their Manufacturer's", () => {
+    const season = getSeason('motogp', 2024)!;
+    const results = season.rounds.flatMap((r) => r.sessions.flatMap((s) => s.results));
+    const ducatis = new Set(results.filter((r) => r.manufacturer === 'Ducati').map((r) => r.teamColour));
+    expect(ducatis.size).toEqual(4);
+  });
+
   it('gives every 2024 MotoGP Participant a Season number', () => {
     const { riders } = replayViewOf(getSeason('motogp', 2024)!);
     expect(Object.values(riders).filter((r) => r.seasonNumber === null)).toEqual([]);

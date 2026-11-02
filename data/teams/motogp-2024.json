@@ -1,18 +1,18 @@
 {
   "teams": [
-    { "name": "Prima Pramac Racing" },
-    { "name": "Red Bull KTM Factory Racing" },
-    { "name": "Aprilia Racing" },
-    { "name": "Ducati Lenovo Team" },
-    { "name": "Gresini Racing MotoGP" },
-    { "name": "Red Bull GASGAS Tech3", "variants": ["Red Bull GasGas Tech3"] },
-    { "name": "Pertamina Enduro VR46 Racing Team", "variants": ["Pertamina Enduro VR46 MotoGP Team"] },
-    { "name": "Monster Energy Yamaha MotoGP Team", "variants": ["Monster Energy Yamaha MotoGP"] },
-    { "name": "Trackhouse Racing" },
-    { "name": "Repsol Honda Team" },
-    { "name": "Castrol Honda LCR", "variants": ["CASTROL Honda LCR"] },
-    { "name": "Idemitsu Honda LCR", "variants": ["IDEMITSU Honda LCR"] },
-    { "name": "HRC Test Team" },
-    { "name": "Yamaha Factory Racing Team" }
+    { "name": "Prima Pramac Racing", "colour": "#6a2c91" },
+    { "name": "Red Bull KTM Factory Racing", "colour": "#ff6600" },
+    { "name": "Aprilia Racing", "colour": "#3d2b56" },
+    { "name": "Ducati Lenovo Team", "colour": "#cc0000" },
+    { "name": "Gresini Racing MotoGP", "colour": "#7ec8e3" },
+    { "name": "Red Bull GASGAS Tech3", "colour": "#c8102e", "variants": ["Red Bull GasGas Tech3"] },
+    { "name": "Pertamina Enduro VR46 Racing Team", "colour": "#f5e400", "variants": ["Pertamina Enduro VR46 MotoGP Team"] },
+    { "name": "Monster Energy Yamaha MotoGP Team", "colour": "#1b2a8a", "variants": ["Monster Energy Yamaha MotoGP"] },
+    { "name": "Trackhouse Racing", "colour": "#0b2d6b" },
+    { "name": "Repsol Honda Team", "colour": "#ff6a13" },
+    { "name": "Castrol Honda LCR", "colour": "#00843d", "variants": ["CASTROL Honda LCR"] },
+    { "name": "Idemitsu Honda LCR", "colour": "#d6001c", "variants": ["IDEMITSU Honda LCR"] },
+    { "name": "HRC Test Team", "colour": "#e40521" },
+    { "name": "Yamaha Factory Racing Team", "colour": "#1b2a8a" }
   ]
 }
