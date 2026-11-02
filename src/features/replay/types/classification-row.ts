@@ -1,4 +1,6 @@
-export interface ClassificationRow {
+import type { DisplayedNumber } from './displayed-number';
+
+export interface ClassificationRow extends DisplayedNumber {
   riderId: string;
   /** "1", "2", ... for a finishing position; an en dash when there is none. */
   positionLabel: string;
@@ -6,5 +8,4 @@ export interface ClassificationRow {
   outcomeLabel: string | null;
   team: string | null;
   manufacturer: string | null;
-  bikeNumber: number | null;
 }

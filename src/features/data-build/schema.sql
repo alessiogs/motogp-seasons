@@ -98,6 +98,21 @@ CREATE TABLE rider_source_ids (
   PRIMARY KEY (rider_id, source)
 );
 
+-- A Team is one identity within a Season, under its one display name (data/teams/<class>-<year>.json).
+CREATE TABLE teams (
+  id         INTEGER PRIMARY KEY,
+  season_id  INTEGER NOT NULL REFERENCES seasons(id),
+  name       TEXT NOT NULL,
+  colour     TEXT,                         -- Team colour, '#rrggbb'; NULL = the Manufacturer's colour stands in
+  UNIQUE (season_id, name)
+);
+
+-- Manufacturer colours (data/manufacturers.json): the Team colour of a Result whose Team has none.
+CREATE TABLE manufacturers (
+  name    TEXT PRIMARY KEY,                -- as written on Results
+  colour  TEXT NOT NULL                    -- '#rrggbb'
+);
+
 -- One row per Rider per Session.
 CREATE TABLE results (
   id               INTEGER PRIMARY KEY,
@@ -107,7 +122,7 @@ CREATE TABLE results (
   outcome          TEXT NOT NULL CHECK (outcome IN ('FIN', 'DNF', 'DNS', 'DSQ', 'NC')),
   fastest_lap      INTEGER NOT NULL DEFAULT 0,
   points_override  REAL,                   -- ONLY for anomalies affecting one Result
-  team             TEXT,
+  team_id          INTEGER REFERENCES teams(id),  -- NULL when the source names no Team
   manufacturer     TEXT,
   bike_number      INTEGER,
   nationality      TEXT,                   -- the flag the Rider raced under this Season

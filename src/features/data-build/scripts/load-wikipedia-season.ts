@@ -4,6 +4,9 @@
 //
 // Writes data/seasons/<class>-<year>.json, adds new Riders to data/riders.json and writes the
 // official final table seen on Wikipedia to data/official-tables/<class>-<year>.json (used by tests).
+// Team names are written as the Team names in the hand-authored data/teams/<class>-<year>.json,
+// mapping each spelling variant listed there; Teams it does not list are written as spelled and
+// make the data build fail until they are added to it.
 // The output is a first draft: correct it by hand against motogp.com before it is published.
 // Reads two kinds of Season:
 //   motogp  - Sprint + Grand Prix race (2023 onwards), from the Grand Prix report articles
@@ -19,6 +22,7 @@
 // Half points, aggregate classifications and the Scoring rule are not detected: set them by hand.
 import { existsSync, mkdirSync, readFileSync, writeFileSync } from 'node:fs';
 import path from 'node:path';
+import { canonicalTeamName } from '../logic/canonical-team-name';
 import { extractReportTitles } from '../logic/extract-report-titles';
 import { firstPerRider } from '../logic/first-per-rider';
 import { parseCalendar } from '../logic/parse-calendar';
@@ -30,6 +34,7 @@ import { parseStandingsMatrix } from '../logic/parse-standings-matrix';
 import { seasonUrl } from '../logic/season-url';
 import { slugify } from '../logic/slugify';
 import type { RiderFile } from '../types/rider-file';
+import type { TeamFile } from '../types/team-file';
 
 const API = 'https://en.wikipedia.org/w/api.php';
 const USER_AGENT = 'motogp-seasons-loader/0.1 (https://github.com/alessiogs/motogp-seasons)';
@@ -110,6 +115,14 @@ async function main() {
       const round = parseRound(rounds.length + 1, title, year, text, riderId, classCode);
       if (round) rounds.push(round);
       else console.error(`  no ${classCode} classification, skipped`);
+    }
+  }
+
+  const teamsPath = path.join(dataDir, 'teams', `${classCode}-${year}.json`);
+  const teamData: TeamFile = existsSync(teamsPath) ? JSON.parse(readFileSync(teamsPath, 'utf8')) : { teams: [] };
+  for (const round of rounds as { sessions: { results: { team: string | null }[] }[] }[]) {
+    for (const session of round.sessions) {
+      for (const result of session.results) result.team = canonicalTeamName(result.team, teamData);
     }
   }
 

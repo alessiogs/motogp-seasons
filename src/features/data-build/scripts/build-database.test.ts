@@ -1,5 +1,5 @@
 import { describe, expect, it } from 'vitest';
-import { cpSync, mkdtempSync, readFileSync, writeFileSync } from 'node:fs';
+import { cpSync, mkdtempSync, readFileSync, rmSync, writeFileSync } from 'node:fs';
 import { tmpdir } from 'node:os';
 import path from 'node:path';
 import { buildDatabase } from './build-database';
@@ -22,7 +22,48 @@ describe('buildDatabase', () => {
   });
 
   it('accepts a Season whose year is in the list', () => {
-    const dir = fixtureWithRuleValidFor([1999]);
+    const dir = fixtureWithRuleValidFor([1999, 2000]);
     expect(() => buildDatabase(dir, path.join(dir, 'out.db'))).not.toThrow();
   });
+
+  it('refuses a Result whose Team is not listed for its Season', () => {
+    const dir = fixtureWithFirstResultTeam('Team C');
+    expect(() => buildDatabase(dir, path.join(dir, 'out.db'))).toThrow(/500cc-1999\.json: .*Team "Team C" is not listed/);
+  });
+
+  it('refuses a Result that names a Team by a spelling variant, pointing at its Team name', () => {
+    const dir = fixtureWithFirstResultTeam('TEAM A');
+    expect(() => buildDatabase(dir, path.join(dir, 'out.db'))).toThrow(/Team "TEAM A" is a spelling of "Team A"/);
+  });
+
+  it('refuses a Season with no Team data', () => {
+    const dir = copyOfFixture();
+    rmSync(path.join(dir, 'teams', '500cc-1999.json'));
+    expect(() => buildDatabase(dir, path.join(dir, 'out.db'))).toThrow(/500cc-1999\.json: no Team data/);
+  });
+
+  it('refuses a Team colour or Manufacturer colour that is not #rrggbb', () => {
+    const team = copyOfFixture();
+    writeFileSync(path.join(team, 'teams', '500cc-1999.json'), JSON.stringify({ teams: [{ name: 'Team A', colour: 'red' }, { name: 'Team B' }] }));
+    expect(() => buildDatabase(team, path.join(team, 'out.db'))).toThrow(/teams\/500cc-1999\.json: Team "Team A" has colour "red"/);
+
+    const maker = copyOfFixture();
+    writeFileSync(path.join(maker, 'manufacturers.json'), JSON.stringify({ manufacturers: [{ name: 'Maker A', colour: '#abc' }] }));
+    expect(() => buildDatabase(maker, path.join(maker, 'out.db'))).toThrow(/manufacturers\.json: Manufacturer "Maker A" has colour "#abc"/);
+  });
 });
+
+function copyOfFixture() {
+  const dir = mkdtempSync(path.join(tmpdir(), 'motogp-fixture-'));
+  cpSync(fixtureDir, dir, { recursive: true });
+  return dir;
+}
+
+function fixtureWithFirstResultTeam(team: string) {
+  const dir = copyOfFixture();
+  const seasonPath = path.join(dir, 'seasons', '500cc-1999.json');
+  const season = JSON.parse(readFileSync(seasonPath, 'utf8'));
+  season.rounds[0].sessions[0].results[0].team = team;
+  writeFileSync(seasonPath, JSON.stringify(season));
+  return dir;
+}

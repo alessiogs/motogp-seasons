@@ -1,50 +1,27 @@
 'use client';
 
 import { useState } from 'react';
-import type { ReplayStep } from '@/features/scoring/types/replay-step';
-import { sessionLabel } from '../logic/session-label';
-import type { CalendarEntry } from '../types/calendar-entry';
-import type { ClassificationRow } from '../types/classification-row';
+import { stepLabel } from '../logic/step-label';
+import type { ReplayView } from '../types/replay-view';
 import FlagBadge from './flag-badge';
+import NumberBox from './number-box';
 import StepDetails from './step-details';
 import TitleRacePanel from './title-race-panel';
 
 const ROW_HEIGHT = 44;
 
-interface Props {
-  calendar: CalendarEntry[];
-  riders: Record<string, { name: string; nationality: string | null }>;
-  /** One Step per Session, in order. */
-  steps: ReplayStep[];
-  /** Full Classification of each Step's Session, keyed `${roundNumber}/${sessionType}`. */
-  classifications: Record<string, ClassificationRow[]>;
-  /** The Season's Scoring rule has Counting windows: show Gross points and Dropped scores. */
-  hasCountingWindows?: boolean;
-  /** The Season's Scoring rule pays a Fastest-lap bonus: Title conditions mention the fastest lap. */
-  fastestLapBonus?: boolean;
-}
-
-export default function SeasonReplay({
-  calendar,
-  riders,
-  steps,
-  classifications,
-  hasCountingWindows = false,
-  fastestLapBonus = false,
-}: Props) {
+export default function SeasonReplay({ view }: { view: ReplayView }) {
+  const { steps, riders, calendar, hasCountingWindows, fastestLapBonus, participantsNote } = view;
   const last = steps.length - 1;
-  const [idx, setIdx] = useState(last);
+  // The Replay opens on the Participants step: the Season is relived from the start.
+  const [idx, setIdx] = useState(0);
 
-  if (steps.length === 0) return <p className="notice">No results for this season yet.</p>;
+  if (steps.length <= 1) return <p className="notice">No results for this season yet.</p>;
 
   const step = steps[idx];
   const table = step.standings;
-  const prevRank = new Map((steps[idx - 1]?.standings ?? []).map((r) => [r.riderId, r.rank]));
-  const leader = table[0]?.points ?? 0;
-  const classification = classifications[`${step.roundNumber}/${step.sessionType}`];
-  const round = calendar.find((r) => r.roundNumber === step.roundNumber);
-  const champion = step.worldChampion;
-  const crowning = champion != null && steps[idx - 1]?.worldChampion == null;
+  const champion = step.kind === 'session' ? step.worldChampion : null;
+  const next = steps[idx + 1];
   const roundName = (n: number) => calendar.find((r) => r.roundNumber === n)?.name ?? `Round ${n}`;
   const riderName = (id: string) => riders[id]?.name ?? id;
 
@@ -61,28 +38,37 @@ export default function SeasonReplay({
           value={idx}
           onChange={(e) => setIdx(Number(e.target.value))}
           aria-label="Step"
+          aria-valuetext={stepLabel(step)}
         />
         <button onClick={() => setIdx((i) => Math.min(last, i + 1))} disabled={idx === last} aria-label="Next step">
           ›
         </button>
       </div>
 
-      <p className="round-label">
-        Step {idx + 1} of {steps.length} · Round {step.roundNumber}
-        {round && <> · {round.name}</>}
-        {step.sessionsInRound > 1 && <> · {sessionLabel(step.sessionType)}</>}
-        {round?.date && <span className="muted"> · {round.date}</span>}
-      </p>
-      {round?.notes && <p className="round-note muted">{round.notes}</p>}
-
-      <TitleRacePanel
-        step={step}
-        next={steps[idx + 1]}
-        crowning={crowning}
-        roundName={roundName}
-        riderName={riderName}
-        fastestLapBonus={fastestLapBonus}
-      />
+      {step.kind === 'participants' ? (
+        <>
+          <p className="round-label">
+            Step {idx + 1} of {steps.length} · {stepLabel(step)}
+          </p>
+          {participantsNote && <p className="round-note muted">{participantsNote}</p>}
+        </>
+      ) : (
+        <>
+          <p className="round-label">
+            Step {idx + 1} of {steps.length} · {stepLabel(step)}
+            {step.round.date && <span className="muted"> · {step.round.date}</span>}
+          </p>
+          {step.round.notes && <p className="round-note muted">{step.round.notes}</p>}
+          <TitleRacePanel
+            step={step}
+            next={next?.kind === 'session' ? next : undefined}
+            crowning={step.crowning}
+            roundName={roundName}
+            riderName={riderName}
+            fastestLapBonus={fastestLapBonus}
+          />
+        </>
+      )}
 
       <div className={`standings${hasCountingWindows ? ' windowed' : ''}`} role="table" aria-label="Standings" style={{ height: (table.length + 1) * ROW_HEIGHT }}>
         <div className="standings-row standings-head" role="row">
@@ -98,13 +84,13 @@ export default function SeasonReplay({
         {[...table]
           .sort((a, b) => (a.riderId < b.riderId ? -1 : 1))
           .map((row) => {
-            const before = prevRank.get(row.riderId);
-            const delta = before == null || idx === 0 ? 0 : before - row.rank;
+            const delta = row.rankChange;
             const rider = riders[row.riderId];
+            const seasonNumber = rider?.seasonNumber ?? null;
             return (
               <div
                 key={row.riderId}
-                className={`standings-row${row.rank === 1 ? ' leader' : ''}${row.riderId === champion ? ' champion' : ''}`}
+                className={`standings-row${row.rank === 1 && row.points > 0 ? ' leader' : ''}${row.riderId === champion ? ' champion' : ''}`}
                 role="row"
                 style={{ transform: `translateY(${row.rank * ROW_HEIGHT}px)` }}
               >
@@ -113,8 +99,12 @@ export default function SeasonReplay({
                   {delta > 0 ? `▲${delta}` : delta < 0 ? `▼${-delta}` : ''}
                 </span>
                 <span className="rider-cell">
+                  {seasonNumber != null && (
+                    <NumberBox number={seasonNumber} box={row.box} title={`Season number ${seasonNumber}`} />
+                  )}
                   <FlagBadge code={rider?.nationality ?? null} /> {rider?.name ?? row.riderId}
-                  {crowning && row.riderId === champion && <span className="champion-badge">World Champion</span>}
+                  {step.kind === 'session' && step.crowning && row.riderId === champion && <span className="champion-badge">World Champion</span>}
+                  {row.riderId === step.defendingChampion && <span className="defending-badge">Defending Champion</span>}
                   {hasCountingWindows && row.droppedRounds.length > 0 && (
                     <span className="dropped" title="Dropped scores">
                       dropped:{' '}
@@ -128,14 +118,14 @@ export default function SeasonReplay({
                 </span>
                 <span className="num">{row.points}</span>
                 {hasCountingWindows && <span className="num muted">{row.grossPoints}</span>}
-                <span className="num muted">{row.rank === 1 ? '' : `-${leader - row.points}`}</span>
+                <span className="num muted">{row.gap == null ? '' : `-${row.gap}`}</span>
                 <span className="num">{row.wins || ''}</span>
               </div>
             );
           })}
       </div>
 
-      {classification && <StepDetails classification={classification} riders={riders} />}
+      {step.kind === 'session' && <StepDetails podium={step.podium} belowPodium={step.belowPodium} riders={riders} />}
     </>
   );
 }

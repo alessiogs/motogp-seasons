@@ -1,128 +1,326 @@
+/*
+ * Dark, racing-broadcast look (spec #19). Dark only: there is no light theme.
+ * Inspired by, not copying, MotoGP's brand.
+ *
+ * Tokens later tickets reuse:
+ *   colours  --bg --surface --surface-2 --fg --muted --line --accent --accent-strong
+ *            --champion --champion-bg --up --down --neutral-box
+ *   shape    --slant (parallelogram cut), --font-display (bold italic numbers and headings)
+ * Classes later tickets reuse:
+ *   .display   bold italic Titillium for headings, positions and points
+ *   .slant     clip a box into a parallelogram (set --slant to change the cut)
+ *   .number-box parallelogram number box; set --box-bg / --box-fg inline (Team colour, contrast text)
+ */
 :root {
-  --bg: #fafafa;
-  --fg: #16181d;
-  --muted: #6b7280;
-  --line: #e5e7eb;
-  --accent: #d6001c;
-  --up: #15803d;
-  --down: #b91c1c;
-  color-scheme: light dark;
-}
-@media (prefers-color-scheme: dark) {
-  :root {
-    --bg: #111317;
-    --fg: #e8eaee;
-    --muted: #9aa1ad;
-    --line: #2a2e36;
-    --accent: #ff3b4f;
-    --up: #4ade80;
-    --down: #f87171;
-  }
+  --bg: #0b0c10;
+  --surface: #15171d;
+  --surface-2: #1e2129;
+  --fg: #f2f3f5;
+  --muted: #8d94a1;
+  --line: #2a2e38;
+  --accent: #e5002b;
+  --accent-strong: #ff2a4d;
+  --champion: #f5c242;
+  --champion-bg: rgba(245, 194, 66, 0.12);
+  --up: #3ddc84;
+  --down: #ff5c66;
+  --neutral-box: #5a606c;
+  --slant: 10px;
+  --font-body: var(--font-titillium), 'Titillium Web', system-ui, -apple-system, 'Segoe UI', sans-serif;
+  color-scheme: dark;
 }
 
 * { box-sizing: border-box; }
+html { background: var(--bg); }
 body {
   margin: 0;
   background: var(--bg);
   color: var(--fg);
-  font: 16px/1.5 system-ui, -apple-system, 'Segoe UI', sans-serif;
+  font: 16px/1.5 var(--font-body);
+  -webkit-font-smoothing: antialiased;
 }
-a { color: var(--accent); text-decoration: none; }
+a { color: var(--accent-strong); text-decoration: none; }
 a:hover { text-decoration: underline; }
+a:focus-visible, button:focus-visible, summary:focus-visible, input:focus-visible {
+  outline: 2px solid var(--accent-strong); outline-offset: 2px;
+}
 
-.container { max-width: 760px; margin: 0 auto; padding: 24px 16px 64px; }
+/* Headings, positions and points: bold italic. */
+h1, h2, h3, .display {
+  font-family: var(--font-body);
+  font-style: italic;
+  font-weight: 700;
+  letter-spacing: 0.01em;
+}
+h1 { font-size: 2.25rem; font-weight: 900; line-height: 1.05; text-transform: uppercase; margin: 12px 0 8px; }
+h1 .muted { font-weight: 700; }
+h2 { font-size: 1.15rem; text-transform: uppercase; }
+
+.slant { clip-path: polygon(var(--slant) 0, 100% 0, calc(100% - var(--slant)) 100%, 0 100%); }
+.number-box {
+  --box-bg: var(--neutral-box);
+  --box-fg: #fff;
+  --slant: 0.32em;
+  display: inline-flex; align-items: center; justify-content: center;
+  min-width: 2.2em; height: 1.45em; padding: 0 0.5em;
+  background: var(--box-bg); color: var(--box-fg);
+  font-style: italic; font-weight: 900; line-height: 1; font-variant-numeric: tabular-nums;
+  clip-path: polygon(var(--slant) 0, 100% 0, calc(100% - var(--slant)) 100%, 0 100%);
+}
+.rider-cell .number-box, .class-rider .number-box { margin-right: 0.4em; font-size: 0.85em; vertical-align: 0.05em; }
+.podium-rider .number-box { align-self: flex-start; }
+/* A Bike number that isn't the Rider's Season number. */
+.num-exception { margin: 0 0.4em 0 -0.25em; color: var(--accent-strong); font-weight: 900; cursor: help; }
+.visually-hidden {
+  position: absolute; width: 1px; height: 1px; padding: 0; margin: -1px; overflow: hidden;
+  clip: rect(0, 0, 0, 0); white-space: nowrap; border: 0;
+}
+
+/* Site header: a slim bar with a slanted red mark. */
+.site-header { background: var(--surface); position: relative; }
+.site-header-inner {
+  max-width: 760px; margin: 0 auto; padding: 0 16px; height: 56px;
+  display: flex; align-items: center; justify-content: space-between; gap: 16px;
+}
+.brand {
+  display: inline-flex; align-items: center; gap: 10px; height: 100%; color: var(--fg);
+  font-style: italic; font-weight: 900; text-transform: uppercase; letter-spacing: 0.02em; line-height: 1;
+}
+.brand:hover { text-decoration: none; }
+/* The red plate bleeds off the left edge of narrow screens, like a broadcast lower-third. */
+.brand-plate {
+  display: inline-flex; align-items: center; gap: 8px; height: 100%;
+  margin-left: -16px; padding: 0 18px 0 16px; background: var(--accent); color: #fff;
+  clip-path: polygon(0 0, 100% 0, calc(100% - 14px) 100%, 0 100%);
+  font-size: 1.35rem;
+}
+.brand-mark {
+  width: 22px; height: 12px; transform: skewX(-20deg);
+  background: linear-gradient(90deg, #fff 0 40%, transparent 40% 58%, #fff 58% 100%);
+}
+.brand-sub { font-size: 1.1rem; font-weight: 700; color: var(--fg); letter-spacing: 0.08em; }
+.brand:hover .brand-sub { color: var(--accent-strong); }
+.site-nav { display: flex; align-items: stretch; height: 100%; }
+.site-nav-link {
+  display: flex; align-items: center; padding: 0 12px; position: relative;
+  color: var(--muted); font-style: italic; font-weight: 700; text-transform: uppercase;
+  font-size: 0.8rem; letter-spacing: 0.06em; white-space: nowrap;
+}
+.site-nav-link:hover { color: var(--fg); text-decoration: none; }
+.site-nav-link[aria-current='page'] { color: var(--fg); }
+.site-nav-link[aria-current='page']::after {
+  content: ''; position: absolute; left: 10px; right: 10px; bottom: 0; height: 3px;
+  background: var(--accent); transform: skewX(-20deg);
+}
+/* Thin red racing stripe under the bar. */
+.site-header-stripe { height: 2px; background: var(--accent); }
+@media (min-width: 792px) {
+  .brand-plate { margin-left: 0; clip-path: polygon(14px 0, 100% 0, calc(100% - 14px) 100%, 0 100%); padding-left: 22px; }
+}
+@media (max-width: 480px) {
+  .site-header-inner { height: 48px; gap: 8px; }
+  .brand-plate { font-size: 1.1rem; padding-right: 16px; }
+  .brand-sub { display: none; }
+  .site-nav-link { padding: 0 8px; font-size: 0.72rem; }
+}
+
+.container { max-width: 760px; margin: 0 auto; padding: 16px 16px 64px; }
 .muted { color: var(--muted); font-weight: normal; }
-.notice { padding: 12px 16px; border: 1px dashed var(--line); border-radius: 8px; }
+.notice { padding: 12px 16px; background: var(--surface); border-left: 3px solid var(--accent); }
 
-.decade h2 { font-size: 1rem; color: var(--muted); margin: 24px 0 8px; }
-.year-grid { display: flex; flex-wrap: wrap; gap: 8px; }
+/* Season list */
+.decade h2 { font-size: 1rem; color: var(--muted); margin: 28px 0 10px; }
+.decade h2::before {
+  content: ''; display: inline-block; width: 18px; height: 0.7em; margin-right: 8px;
+  background: var(--accent); transform: skewX(-20deg);
+}
+.year-grid { display: flex; flex-wrap: wrap; gap: 6px; }
 .year-chip {
-  padding: 6px 12px; border: 1px solid var(--line); border-radius: 999px;
-  color: var(--fg); font-variant-numeric: tabular-nums;
+  --slant: 8px;
+  padding: 6px 16px; background: var(--surface-2); color: var(--fg);
+  font-style: italic; font-weight: 700; font-variant-numeric: tabular-nums;
+  clip-path: polygon(var(--slant) 0, 100% 0, calc(100% - var(--slant)) 100%, 0 100%);
+  transition: background 0.15s ease;
 }
-.year-chip:hover { border-color: var(--accent); color: var(--accent); text-decoration: none; }
+.year-chip:hover, .year-chip:focus-visible { background: var(--accent); color: #fff; text-decoration: none; }
 
-.controls { display: flex; align-items: center; gap: 12px; margin: 16px 0 4px; }
-.controls input[type='range'] { flex: 1; accent-color: var(--accent); }
+/* Step controls */
+.controls { display: flex; align-items: center; gap: 12px; margin: 16px 0 8px; }
+.controls input[type='range'] { flex: 1; min-width: 0; accent-color: var(--accent); }
 .controls button {
-  width: 36px; height: 36px; border-radius: 50%; border: 1px solid var(--line);
-  background: transparent; color: var(--fg); font-size: 20px; cursor: pointer;
+  --slant: 8px;
+  width: 44px; height: 36px; border: 0; background: var(--accent); color: #fff;
+  font: 900 italic 22px/1 var(--font-body); cursor: pointer;
+  clip-path: polygon(var(--slant) 0, 100% 0, calc(100% - var(--slant)) 100%, 0 100%);
 }
-.controls button:disabled { opacity: 0.3; cursor: default; }
-.round-label { margin: 0 0 16px; font-weight: 600; }
+.controls button:hover:not(:disabled) { background: var(--accent-strong); }
+.controls button:disabled { background: var(--surface-2); color: var(--muted); cursor: default; }
+.round-label { margin: 0 0 16px; font-weight: 700; font-style: italic; text-transform: uppercase; letter-spacing: 0.02em; overflow-wrap: anywhere; }
+.round-label .muted { text-transform: none; font-style: normal; }
 
-.standings { position: relative; width: 100%; font-variant-numeric: tabular-nums; font-size: 0.95rem; }
+/* Standings */
+.standings { position: relative; width: 100%; font-variant-numeric: tabular-nums; font-size: 0.95rem; background: var(--surface); }
 .standings-row {
   position: absolute; top: 0; left: 0; right: 0; height: 44px;
   display: grid; grid-template-columns: 2rem 2.4rem minmax(0, 1fr) 4.2rem 3rem 2.4rem; align-items: center;
-  column-gap: 4px; padding: 0 4px; border-bottom: 1px solid var(--line);
+  column-gap: 4px; padding: 0 6px; border-bottom: 1px solid var(--line);
   transition: transform 0.5s ease;
 }
 .standings-row > span { overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
-.standings-head { font-size: 0.8rem; color: var(--muted); font-weight: 600; }
+.standings-head {
+  background: var(--surface-2); font-size: 0.75rem; color: var(--muted); font-weight: 700;
+  text-transform: uppercase; letter-spacing: 0.04em; border-bottom: 2px solid var(--accent);
+}
 .standings .num { text-align: right; }
-.standings-row.leader { font-weight: 700; }
-.up { color: var(--up); font-size: 0.8rem; }
-.down { color: var(--down); font-size: 0.8rem; }
-@media (prefers-reduced-motion: reduce) { .standings-row { transition: none; } }
+/* Position (1st column) and Points (4th column) in bold italic. */
+.standings-row:not(.standings-head) > span:first-child,
+.standings-row:not(.standings-head) > span:nth-child(4) {
+  font-style: italic; font-weight: 900; font-size: 1.1em;
+}
+.standings-row:not(.standings-head) > span:first-child { padding-left: 2px; }
+.standings-row.leader { font-weight: 700; box-shadow: inset 3px 0 0 var(--accent); }
+.standings-row.leader > span:first-child { color: var(--accent-strong); }
+.up { color: var(--up); font-size: 0.75rem; font-weight: 700; }
+.down { color: var(--down); font-size: 0.75rem; font-weight: 700; }
+@media (prefers-reduced-motion: reduce) {
+  .standings-row { transition: none; }
+  .year-chip { transition: none; }
+}
 @media (max-width: 380px) {
-  .standings-row { grid-template-columns: 1.6rem 2.2rem minmax(0, 1fr) 3.6rem 2.6rem 2rem; font-size: 0.85rem; }
+  .standings-row { grid-template-columns: 1.6rem 2.2rem minmax(0, 1fr) 3.6rem 2.6rem 2rem; font-size: 0.85rem; padding: 0 4px; }
+  h1 { font-size: 1.9rem; }
 }
 
 .flag { display: inline-block; }
 .flag-code {
   font-size: 0.65rem; font-weight: 700; padding: 0 4px; border: 1px solid var(--line);
-  border-radius: 4px; color: var(--muted); vertical-align: middle;
+  border-radius: 2px; color: var(--muted); vertical-align: middle;
 }
 
-.step-details { margin-top: 24px; }
-.step-details h2 { font-size: 1rem; margin: 0 0 8px; }
+/* Step details: Podium and Classification of the current Step's Session */
+.step-details { margin-top: 28px; }
+.step-details h2 { margin: 0 0 8px; }
 .podium, .class-list { list-style: none; margin: 0; padding: 0; }
-.podium li, .class-list li {
+.class-list li {
   display: grid; grid-template-columns: 2rem minmax(0, 1fr) auto; gap: 8px; align-items: baseline;
-  padding: 8px 4px; border-bottom: 1px solid var(--line);
+  padding: 8px 6px; border-bottom: 1px solid var(--line);
 }
-.podium-pos { font-weight: 700; color: var(--accent); }
-.podium-team { font-size: 0.85rem; }
-.classification { margin-top: 12px; border: 1px solid var(--line); border-radius: 8px; }
-.classification summary { padding: 10px 12px; cursor: pointer; font-weight: 600; }
+.class-pos { font-style: italic; font-weight: 900; }
+
+/* Three-step Podium: 2nd left, 1st centre and highest, 3rd right; slanted steps with the names on them. */
+.podium {
+  display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 6px; align-items: end;
+  padding-top: 8px; border-bottom: 2px solid var(--accent);
+}
+.podium-step { min-width: 0; }
+.podium-block {
+  --slant: 12px;
+  display: flex; flex-direction: column; justify-content: space-between; gap: 6px;
+  padding: 10px 16px 6px; background: var(--surface-2);
+}
+.podium-step-1 .podium-block { min-height: 150px; background: var(--accent); }
+.podium-step-2 .podium-block { min-height: 118px; }
+.podium-step-3 .podium-block { min-height: 96px; }
+.podium-step.empty .podium-block { background: var(--surface); justify-content: flex-end; }
+.podium-rider { display: flex; flex-direction: column; gap: 2px; min-width: 0; }
+.podium-name { font-weight: 700; line-height: 1.2; overflow-wrap: anywhere; }
+.podium-team { font-size: 0.8rem; line-height: 1.2; color: var(--muted); overflow-wrap: anywhere; }
+.podium-step-1 .podium-team { color: rgba(255, 255, 255, 0.8); }
+.podium-place { font-size: 2.4rem; font-weight: 900; line-height: 1; text-align: right; opacity: 0.9; }
+.podium-step.empty .podium-place { color: var(--muted); opacity: 0.5; }
+@media (max-width: 480px) {
+  .podium { gap: 3px; }
+  .podium-block { --slant: 7px; padding: 8px 9px 4px; }
+  .podium-name { font-size: 0.82rem; }
+  .podium-team { font-size: 0.7rem; }
+  .podium-place { font-size: 1.8rem; }
+}
+.classification { margin-top: 12px; background: var(--surface); border-top: 2px solid var(--line); }
+.classification summary {
+  padding: 10px 12px; cursor: pointer; font-weight: 700; font-style: italic; text-transform: uppercase;
+  letter-spacing: 0.02em;
+}
+.classification summary::marker { color: var(--accent); }
 .classification[open] summary { border-bottom: 1px solid var(--line); }
 .classification .class-list { padding: 0 8px; }
 .class-list li { font-size: 0.9rem; }
+.class-list li:last-child { border-bottom: 0; }
 .class-rider { min-width: 0; overflow-wrap: anywhere; }
-.class-outcome { font-size: 0.8rem; color: var(--down); text-align: right; }
+.class-outcome { font-size: 0.8rem; color: var(--down); text-align: right; font-weight: 600; }
 
-.site-footer { margin-top: 48px; padding-top: 16px; border-top: 1px solid var(--line); font-size: 0.85rem; color: var(--muted); }
+.site-footer {
+  margin-top: 56px; padding-top: 16px; border-top: 1px solid var(--line);
+  font-size: 0.85rem; color: var(--muted);
+}
 
 /* Seasons with Counting windows: a Gross points column, and Dropped scores under the Rider's name. */
 .standings.windowed .standings-row { grid-template-columns: 2rem 2.4rem minmax(0, 1fr) 3rem 3rem 3rem 2.4rem; }
 @media (max-width: 380px) {
   .standings.windowed .standings-row { grid-template-columns: 1.4rem 1.8rem minmax(0, 1fr) 2.4rem 2.4rem 2.4rem 1.8rem; }
 }
-.dropped { display: block; font-size: 0.7rem; color: var(--muted); line-height: 1.1; }
+.dropped { display: block; font-size: 0.7rem; color: var(--muted); line-height: 1.1; font-weight: normal; }
 .dropped s { opacity: 0.8; }
 
-/* Title race: World Champion colour from the crowning Step on, Title chance and Title condition labels. */
-:root { --champion: #a16207; --champion-bg: #fef3c7; }
-@media (prefers-color-scheme: dark) { :root { --champion: #fcd34d; --champion-bg: #3b2f0b; } }
-.standings-row.champion { background: var(--champion-bg); color: var(--champion); font-weight: 700; }
+/* Title race: World Champion from the crowning Step on, Title chance and Title condition. */
+.standings-row.champion {
+  background: var(--champion-bg); color: var(--champion); font-weight: 700;
+  box-shadow: inset 3px 0 0 var(--champion);
+}
+.standings-row.champion > span:first-child { color: var(--champion); }
 .champion-badge {
-  display: inline-block; margin-left: 6px; padding: 0 6px; border-radius: 4px;
-  background: var(--champion); color: var(--bg); font-size: 0.7rem; font-weight: 700; vertical-align: middle;
+  --slant: 5px;
+  display: inline-block; margin-left: 6px; padding: 0 8px;
+  background: var(--champion); color: #14110a;
+  font-size: 0.7rem; font-weight: 900; font-style: italic; text-transform: uppercase; letter-spacing: 0.03em;
+  vertical-align: middle;
+  clip-path: polygon(var(--slant) 0, 100% 0, calc(100% - var(--slant)) 100%, 0 100%);
+}
+.defending-badge {
+  --slant: 5px;
+  display: inline-block; margin-left: 6px; padding: 0 8px;
+  border: 1px solid var(--champion); color: var(--champion);
+  font-size: 0.7rem; font-weight: 900; font-style: italic; text-transform: uppercase; letter-spacing: 0.03em;
+  vertical-align: middle;
+  transform: skewX(-12deg);
 }
 .title-race {
-  margin: 0 0 16px; padding: 10px 12px; border: 1px solid var(--champion); border-radius: 8px;
-  background: var(--champion-bg); font-size: 0.9rem; overflow-wrap: anywhere;
+  margin: 0 0 16px; padding: 10px 14px; background: var(--champion-bg);
+  border-left: 3px solid var(--champion); font-size: 0.9rem; overflow-wrap: anywhere;
 }
 .title-race h2 { margin: 0 0 4px; font-size: 0.95rem; color: var(--champion); }
 .title-race ul { margin: 0; padding: 0; list-style: none; }
 .title-race li + li { margin-top: 4px; }
-.champion-banner { font-weight: 700; color: var(--champion); }
-.champion-banner .champion-badge { margin: 0 6px 0 0; }
+.champion-banner { font-weight: 900; font-style: italic; font-size: 1.15rem; color: var(--champion); }
+.champion-banner .champion-badge { margin: 0 8px 0 0; }
 
-.calendar ol { list-style: none; margin: 0; padding: 0; }
-.calendar li { display: flex; flex-direction: column; gap: 2px; padding: 8px 0; border-bottom: 1px solid var(--line); overflow-wrap: anywhere; }
+/* Calendar */
+.calendar { margin-top: 32px; }
+.calendar ol { list-style: none; margin: 0; padding: 0; background: var(--surface); }
+.calendar li {
+  display: flex; flex-direction: column; gap: 2px; padding: 8px 12px 8px 28px; position: relative;
+  border-bottom: 1px solid var(--line); overflow-wrap: anywhere;
+}
+.calendar li::before {
+  content: ''; position: absolute; left: 12px; top: 14px; width: 6px; height: 12px;
+  background: var(--accent); transform: skewX(-20deg);
+}
+.calendar li:last-child { border-bottom: 0; }
+.calendar-title { font-weight: 600; }
 .calendar li.non-championship { opacity: 0.75; font-style: italic; }
-.calendar-badge { margin-left: 8px; padding: 1px 6px; border: 1px solid var(--line); border-radius: 999px; font-size: 0.75rem; font-style: normal; white-space: nowrap; }
+.calendar li.non-championship::before { background: var(--muted); }
+.calendar-badge {
+  margin-left: 8px; padding: 1px 6px; border: 1px solid var(--line); border-radius: 2px;
+  font-size: 0.75rem; font-style: normal; font-weight: 600; color: var(--muted); white-space: nowrap;
+}
 .calendar-note { font-size: 0.875rem; }
 .round-note { margin: -8px 0 16px; font-size: 0.875rem; overflow-wrap: anywhere; }
+
+/* How it works: one short section per derived rule, each headed by a slanted red mark. */
+.how-it-works { overflow-wrap: anywhere; }
+.how-it-works section { margin-top: 28px; }
+.how-it-works h2 { margin: 0 0 6px; }
+.how-it-works h2::before {
+  content: ''; display: inline-block; width: 18px; height: 0.7em; margin-right: 8px;
+  background: var(--accent); transform: skewX(-20deg);
+}
+.how-it-works p { margin: 0 0 10px; }
