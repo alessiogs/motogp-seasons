@@ -1,6 +1,7 @@
 import type { Metadata, Viewport } from 'next';
 import { Titillium_Web } from 'next/font/google';
 import Link from 'next/link';
+import SiteHeader from '@/shared/components/site-header';
 import './globals.css';
 
 // Self-hosted by Next at build time, so it works in the static export under any basePath.
@@ -26,16 +27,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
   return (
     <html lang="en" className={titillium.variable}>
       <body>
-        <header className="site-header">
-          <div className="site-header-inner">
-            <Link href="/" className="brand">
-              <span className="brand-mark" aria-hidden="true" />
-              <span className="brand-name">
-                MotoGP <span className="brand-accent">Seasons</span>
-              </span>
-            </Link>
-          </div>
-        </header>
+        <SiteHeader />
         <div className="container">
           <main>{children}</main>
           <footer className="site-footer">

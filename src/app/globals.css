@@ -77,19 +77,52 @@ h2 { font-size: 1.15rem; text-transform: uppercase; }
 }
 
 /* Site header: a slim bar with a slanted red mark. */
-.site-header { background: var(--surface); border-bottom: 2px solid var(--accent); }
-.site-header-inner { max-width: 760px; margin: 0 auto; padding: 10px 16px; }
+.site-header { background: var(--surface); position: relative; }
+.site-header-inner {
+  max-width: 760px; margin: 0 auto; padding: 0 16px; height: 56px;
+  display: flex; align-items: center; justify-content: space-between; gap: 16px;
+}
 .brand {
-  display: inline-flex; align-items: center; gap: 10px; color: var(--fg);
-  font-style: italic; font-weight: 900; text-transform: uppercase; letter-spacing: 0.02em;
+  display: inline-flex; align-items: center; gap: 10px; height: 100%; color: var(--fg);
+  font-style: italic; font-weight: 900; text-transform: uppercase; letter-spacing: 0.02em; line-height: 1;
 }
 .brand:hover { text-decoration: none; }
-.brand-mark {
-  width: 28px; height: 16px;
-  background: linear-gradient(90deg, var(--accent) 0 45%, transparent 45% 60%, var(--accent) 60% 100%);
-  transform: skewX(-20deg);
+/* The red plate bleeds off the left edge of narrow screens, like a broadcast lower-third. */
+.brand-plate {
+  display: inline-flex; align-items: center; gap: 8px; height: 100%;
+  margin-left: -16px; padding: 0 18px 0 16px; background: var(--accent); color: #fff;
+  clip-path: polygon(0 0, 100% 0, calc(100% - 14px) 100%, 0 100%);
+  font-size: 1.35rem;
 }
-.brand-accent { color: var(--accent-strong); }
+.brand-mark {
+  width: 22px; height: 12px; transform: skewX(-20deg);
+  background: linear-gradient(90deg, #fff 0 40%, transparent 40% 58%, #fff 58% 100%);
+}
+.brand-sub { font-size: 1.1rem; font-weight: 700; color: var(--fg); letter-spacing: 0.08em; }
+.brand:hover .brand-sub { color: var(--accent-strong); }
+.site-nav { display: flex; align-items: stretch; height: 100%; }
+.site-nav-link {
+  display: flex; align-items: center; padding: 0 12px; position: relative;
+  color: var(--muted); font-style: italic; font-weight: 700; text-transform: uppercase;
+  font-size: 0.8rem; letter-spacing: 0.06em; white-space: nowrap;
+}
+.site-nav-link:hover { color: var(--fg); text-decoration: none; }
+.site-nav-link[aria-current='page'] { color: var(--fg); }
+.site-nav-link[aria-current='page']::after {
+  content: ''; position: absolute; left: 10px; right: 10px; bottom: 0; height: 3px;
+  background: var(--accent); transform: skewX(-20deg);
+}
+/* Thin red racing stripe under the bar. */
+.site-header-stripe { height: 2px; background: var(--accent); }
+@media (min-width: 792px) {
+  .brand-plate { margin-left: 0; clip-path: polygon(14px 0, 100% 0, calc(100% - 14px) 100%, 0 100%); padding-left: 22px; }
+}
+@media (max-width: 480px) {
+  .site-header-inner { height: 48px; gap: 8px; }
+  .brand-plate { font-size: 1.1rem; padding-right: 16px; }
+  .brand-sub { display: none; }
+  .site-nav-link { padding: 0 8px; font-size: 0.72rem; }
+}
 
 .container { max-width: 760px; margin: 0 auto; padding: 16px 16px 64px; }
 .muted { color: var(--muted); font-weight: normal; }
