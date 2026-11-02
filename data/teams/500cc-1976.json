@@ -1,0 +1,30 @@
+{
+  "teams": [
+    { "name": "Texaco Heron Team Suzuki" },
+    { "name": "Team Venemotos" },
+    { "name": "Gallina Corse" },
+    { "name": "Life Racing Team" },
+    { "name": "Team API Marlboro" },
+    { "name": "Swaep Motor Racing" },
+    { "name": "Colemans" },
+    { "name": "Racing Team NO" },
+    { "name": "Laponder Racing" },
+    { "name": "Dave More" },
+    { "name": "Takazumi Katayama Sarome Team" },
+    { "name": "Hermetite Racing International" },
+    { "name": "Goias Swaep Motor" },
+    { "name": "Stigefetts Motor" },
+    { "name": "Jack Findlay Racing" },
+    { "name": "Team Life International" },
+    { "name": "Ecurie Jean Murit" },
+    { "name": "Nimag Suzuki" },
+    { "name": "Racing Team Albatros" },
+    { "name": "Team Sonauto Gauloises" },
+    { "name": "Mitsui Racing Team" },
+    { "name": "Riemersma Racing" },
+    { "name": "Danfay" },
+    { "name": "Padgett's Motorcycles" },
+    { "name": "MSC Rottenberg" },
+    { "name": "AMF Harley-Davidson" }
+  ]
+}

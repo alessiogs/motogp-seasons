@@ -1,10 +1,12 @@
 // Generates the SQLite database from the JSON files in a data directory (ADR-0002):
-//   <dataDir>/riders.json, <dataDir>/scoring-rules/*.json, <dataDir>/seasons/*.json
+//   <dataDir>/riders.json, <dataDir>/scoring-rules/*.json, <dataDir>/seasons/*.json,
+//   <dataDir>/teams/*.json (one per Season, same file name as the Season's)
 import Database from 'better-sqlite3';
-import { mkdirSync, readFileSync, readdirSync, rmSync } from 'node:fs';
+import { existsSync, mkdirSync, readFileSync, readdirSync, rmSync } from 'node:fs';
 import path from 'node:path';
 import { fileURLToPath } from 'node:url';
 import type { RiderFile } from '../types/rider-file';
+import type { TeamFile } from '../types/team-file';
 
 interface RuleFile {
   code: string; name: string; source: string; notes?: string | null;
@@ -110,7 +112,7 @@ function loadSeasons(
   );
   const insertResult = db.prepare(
     `INSERT INTO results (session_id, rider_id, position, outcome, fastest_lap, points_override,
-                          team, manufacturer, bike_number, nationality, source)
+                          team_id, manufacturer, bike_number, nationality, source)
      VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)`,
   );
 
@@ -124,6 +126,7 @@ function loadSeasons(
     }
 
     const seasonId = Number(insertSeason.run(season.year, cls.id, rule.id, season.notes ?? null).lastInsertRowid);
+    const teamId = loadTeams(db, dataDir, file, seasonId);
     for (const round of season.rounds) {
       const roundId = Number(
         insertRound.run(seasonId, round.number, round.name, round.circuit, round.country, round.date, round.nonChampionship ? 1 : 0, round.notes ?? null)
@@ -142,10 +145,40 @@ function loadSeasons(
           if (riderId == null) throw new Error(`${file}: unknown rider "${r.rider}"`);
           insertResult.run(
             sessionId, riderId, r.position, r.outcome, r.fastestLap ? 1 : 0, r.pointsOverride,
-            r.team, r.manufacturer, r.bikeNumber, r.nationality, r.source,
+            r.team == null ? null : teamId(r.team, `round ${round.number}, ${r.rider}`), r.manufacturer, r.bikeNumber, r.nationality, r.source,
           );
         }
       }
     }
   }
+}
+
+/**
+ * Inserts the Season's Teams from teams/<file> and returns a lookup from a Result's Team name to
+ * its Team id, which throws unless the name is a listed Team's display name.
+ */
+function loadTeams(
+  db: Database.Database,
+  dataDir: string,
+  file: string,
+  seasonId: number,
+): (name: string, where: string) => number {
+  const teamPath = path.join(dataDir, 'teams', file);
+  if (!existsSync(teamPath)) throw new Error(`${file}: no Team data (expected teams/${file})`);
+  const { teams } = JSON.parse(readFileSync(teamPath, 'utf8')) as TeamFile;
+  const insert = db.prepare('INSERT INTO teams (season_id, name) VALUES (?, ?)');
+  const ids = new Map<string, number>();
+  const nameOfVariant = new Map<string, string>();
+  for (const team of teams) {
+    if (ids.has(team.name)) throw new Error(`teams/${file}: Team "${team.name}" is listed twice`);
+    ids.set(team.name, Number(insert.run(seasonId, team.name).lastInsertRowid));
+    for (const variant of team.variants ?? []) nameOfVariant.set(variant, team.name);
+  }
+  return (name, where) => {
+    const id = ids.get(name);
+    if (id != null) return id;
+    const canonical = nameOfVariant.get(name);
+    if (canonical != null) throw new Error(`${file}: ${where}: Team "${name}" is a spelling of "${canonical}"; write the Team name`);
+    throw new Error(`${file}: ${where}: Team "${name}" is not listed in teams/${file}`);
+  };
 }
