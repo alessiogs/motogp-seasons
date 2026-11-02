@@ -99,7 +99,14 @@ export default function SeasonReplay({ view }: { view: ReplayView }) {
                   {delta > 0 ? `▲${delta}` : delta < 0 ? `▼${-delta}` : ''}
                 </span>
                 <span className="rider-cell">
-                  {seasonNumber != null && <NumBox number={seasonNumber} title={`Season number ${seasonNumber}`} />}
+                  {seasonNumber != null && (
+                    <NumBox
+                      number={seasonNumber}
+                      background={row.box.background}
+                      foreground={row.box.foreground}
+                      title={`Season number ${seasonNumber}`}
+                    />
+                  )}
                   <FlagBadge code={rider?.nationality ?? null} /> {rider?.name ?? row.riderId}
                   {step.crowning && row.riderId === champion && <span className="champion-badge">World Champion</span>}
                   {row.riderId === step.defendingChampion && <span className="defending-badge">Defending Champion</span>}
