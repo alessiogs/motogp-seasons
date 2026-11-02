@@ -39,7 +39,8 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
         <div className="container">
           <main>{children}</main>
           <footer className="site-footer">
-            Data from Wikipedia, CC BY-SA 4.0 · <Link href="/attribution/">Attribution</Link>
+            Data from Wikipedia, CC BY-SA 4.0 · <Link href="/attribution/">Attribution</Link> ·{' '}
+            <Link href="/how-it-works/">How it works</Link>
           </footer>
         </div>
       </body>
