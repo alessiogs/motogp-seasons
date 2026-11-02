@@ -48,6 +48,18 @@ The flag a Rider raced under in a given Season, which may be a country that no l
 **Result**:
 One Rider's outcome in one Session.
 
+**Team**:
+The outfit a Rider entered a Result with, as one identity within a Season however a source spells its name. Early Results often have none.
+_Avoid_: Squad, entrant
+
+**Manufacturer**:
+The maker of the motorcycle in a Result, such as Norton, Honda or Ducati.
+_Avoid_: Constructor, brand, make
+
+**Team colour**:
+The colour that stands for a Team in a Season, approximating its livery; when unknown, the Manufacturer's colour stands in.
+_Avoid_: Livery
+
 **Bike number**:
 The number a Rider carried in one Result. It can change between Rounds, and early sources often don't record it.
 _Avoid_: Race number, plate
