@@ -8,6 +8,7 @@ import { calendarEntriesOf } from './calendar-entries-of';
 import { classificationOf } from './classification-of';
 import { belowPodiumOf } from './below-podium-of';
 import { podiumOf } from './podium-of';
+import { seasonNumbersOf } from './season-numbers-of';
 
 /**
  * The Replay view of a Season: everything the Season page renders, computed at build time.
@@ -16,14 +17,15 @@ import { podiumOf } from './podium-of';
 export function replayViewOf(season: Season, defendingChampion: DefendingChampion | null = null): ReplayView {
   const replay = computeReplay(season);
   const calendar = calendarEntriesOf(season.rounds, replay);
-  const riders = ridersOf(season);
+  const seasonNumbers = seasonNumbersOf(season);
+  const riders = ridersOf(season, seasonNumbers);
   const defending = defendingChampion && riders[defendingChampion.riderId] ? defendingChampion.riderId : null;
 
   const sessionSteps = replay.map((step, i): ReplayViewStep => {
     const session = season.rounds
       .find((r) => r.number === step.roundNumber)
       ?.sessions.find((s) => s.type === step.sessionType);
-    const classification = session ? classificationOf(session) : [];
+    const classification = session ? classificationOf(session, seasonNumbers) : [];
     const prevRank = new Map((replay[i - 1]?.standings ?? []).map((r) => [r.riderId, r.rank]));
     const leader = step.standings[0]?.points ?? 0;
     return {
@@ -41,7 +43,7 @@ export function replayViewOf(season: Season, defendingChampion: DefendingChampio
       crowning: step.worldChampion != null && replay[i - 1]?.worldChampion == null,
       defendingChampion: step.worldChampion == null ? defending : null,
       classification,
-      podium: podiumOf(classification),
+      podium: podiumOf(classification, riders),
       belowPodium: belowPodiumOf(classification),
     };
   });
@@ -59,11 +61,16 @@ export function replayViewOf(season: Season, defendingChampion: DefendingChampio
   };
 }
 
-/** The first Step, before any Session: every Participant on 0 points, the Defending Champion first, then by name. */
+/**
+ * The first Step, before any Session: every Participant on 0 points, the Defending Champion first,
+ * then by Season number, then by name.
+ */
 function participantsStep(riders: Record<string, RiderInfo>, defending: string | null): ReplayViewStep {
-  // Season numbers (ticket #25) slot in between the Defending Champion and the name.
   const order = Object.keys(riders).sort(
-    (a, b) => Number(b === defending) - Number(a === defending) || riders[a].name.localeCompare(riders[b].name),
+    (a, b) =>
+      Number(b === defending) - Number(a === defending) ||
+      (riders[a].seasonNumber ?? 0) - (riders[b].seasonNumber ?? 0) ||
+      riders[a].name.localeCompare(riders[b].name),
   );
   return {
     kind: 'participants',
@@ -95,12 +102,16 @@ function participantsStep(riders: Record<string, RiderInfo>, defending: string |
 }
 
 /** A Rider's Nationality is per Season entry: take the one on their first Result that has one. */
-function ridersOf(season: Season): Record<string, RiderInfo> {
+function ridersOf(season: Season, seasonNumbers: Map<string, number>): Record<string, RiderInfo> {
   const riders: Record<string, RiderInfo> = {};
   for (const round of season.rounds) {
     for (const session of round.sessions) {
       for (const result of session.results) {
-        riders[result.riderId] ??= { name: season.riders[result.riderId]?.name ?? result.riderId, nationality: null };
+        riders[result.riderId] ??= {
+          name: season.riders[result.riderId]?.name ?? result.riderId,
+          nationality: null,
+          seasonNumber: seasonNumbers.get(result.riderId) ?? null,
+        };
         riders[result.riderId].nationality ??= result.nationality;
       }
     }

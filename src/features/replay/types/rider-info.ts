@@ -1,5 +1,7 @@
-/** How a Rider is shown in this Season: their name and the Nationality they raced under. */
+/** How a Rider is shown in this Season: their name, the Nationality they raced under and their Season number. */
 export interface RiderInfo {
   name: string;
   nationality: string | null;
+  /** Null when the Season has no Season numbers (ADR-0008). */
+  seasonNumber: number | null;
 }

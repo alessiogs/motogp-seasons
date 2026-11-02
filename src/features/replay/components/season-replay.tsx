@@ -4,6 +4,7 @@ import { useState } from 'react';
 import { sessionLabel } from '../logic/session-label';
 import type { ReplayView } from '../types/replay-view';
 import FlagBadge from './flag-badge';
+import NumBox from './num-box';
 import StepDetails from './step-details';
 import TitleRacePanel from './title-race-panel';
 
@@ -85,6 +86,7 @@ export default function SeasonReplay({ view }: { view: ReplayView }) {
           .map((row) => {
             const delta = row.rankChange;
             const rider = riders[row.riderId];
+            const seasonNumber = rider?.seasonNumber ?? null;
             return (
               <div
                 key={row.riderId}
@@ -97,6 +99,7 @@ export default function SeasonReplay({ view }: { view: ReplayView }) {
                   {delta > 0 ? `▲${delta}` : delta < 0 ? `▼${-delta}` : ''}
                 </span>
                 <span className="rider-cell">
+                  {seasonNumber != null && <NumBox number={seasonNumber} title={`Season number ${seasonNumber}`} />}
                   <FlagBadge code={rider?.nationality ?? null} /> {rider?.name ?? row.riderId}
                   {step.crowning && row.riderId === champion && <span className="champion-badge">World Champion</span>}
                   {row.riderId === step.defendingChampion && <span className="defending-badge">Defending Champion</span>}

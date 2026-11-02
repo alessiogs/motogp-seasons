@@ -6,5 +6,8 @@ export interface ClassificationRow {
   outcomeLabel: string | null;
   team: string | null;
   manufacturer: string | null;
+  /** The Bike number carried in this very Result; null when the source doesn't record it. */
   bikeNumber: number | null;
+  /** The Bike number differs from the Rider's Season number; always false in a Season without Season numbers. */
+  numberException: boolean;
 }
