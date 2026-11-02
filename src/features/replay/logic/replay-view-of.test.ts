@@ -123,14 +123,19 @@ describe('replayViewOf', () => {
       { riders: { a: { name: 'Rider A' }, b: { name: 'Rider B' } } },
     ), null);
     expect(view.riders).toEqual({
-      a: { name: 'Rider A', nationality: 'ITA', seasonNumber: null },
-      b: { name: 'Rider B', nationality: 'GBR', seasonNumber: null },
+      a: { name: 'Rider A', shortName: 'R A', nationality: 'ITA', seasonNumber: null },
+      b: { name: 'Rider B', shortName: 'R B', nationality: 'GBR', seasonNumber: null },
     });
+  });
+
+  it('builds the short name from the recorded abbreviation when there is one', () => {
+    const view = replayViewOf(season([round(1, [gp('a')])], { riders: { a: { name: 'Georg Robert Jung', abbreviation: 'JUN' } } }), null);
+    expect(view.riders.a.shortName).toBe('G JUN');
   });
 
   it('falls back to the Rider id when the Season has no name for them', () => {
     const view = replayViewOf(season([round(1, [gp('a')])]), null);
-    expect(view.riders.a).toEqual({ name: 'a', nationality: null, seasonNumber: null });
+    expect(view.riders.a).toEqual({ name: 'a', shortName: 'A', nationality: null, seasonNumber: null });
   });
 
   it("gives each Step its own Session's Classification: finishers by position, then the other Outcomes, labelled", () => {

@@ -7,6 +7,7 @@ export interface Season {
   year: number;
   rule: ScoringRule;
   rounds: Round[];
-  riders: Record<string, { name: string }>;
+  /** `abbreviation` overrides the short name's surname letters (see the Rider data). */
+  riders: Record<string, { name: string; abbreviation?: string }>;
   notes?: string | null;
 }

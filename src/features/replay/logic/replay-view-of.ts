@@ -12,6 +12,7 @@ import { belowPodiumOf } from './below-podium-of';
 import { boxColoursOf } from './box-colours-of';
 import { podiumOf } from './podium-of';
 import { seasonNumbersOf } from './season-numbers-of';
+import { shortNameOf } from './short-name-of';
 import { sessionsInOrder } from './sessions-in-order';
 
 /**
@@ -142,8 +143,11 @@ function ridersOf(
   const riders: Record<string, RiderInfo> = {};
   for (const { session } of sessions) {
     for (const result of session.results) {
+      const known = season.riders[result.riderId];
+      const name = known?.name ?? result.riderId;
       riders[result.riderId] ??= {
-        name: season.riders[result.riderId]?.name ?? result.riderId,
+        name,
+        shortName: shortNameOf(name, known?.abbreviation ?? null),
         nationality: null,
         seasonNumber: seasonNumbers.get(result.riderId) ?? null,
       };

@@ -37,7 +37,7 @@ export function getSeason(classCode: string, year: number): Season | null {
 
   const resultRows = db
     .prepare(
-      `SELECT re.session_id AS sessionId, ri.slug AS riderId, ri.name AS riderName, re.position, re.outcome,
+      `SELECT re.session_id AS sessionId, ri.slug AS riderId, ri.name AS riderName, ri.abbreviation AS riderAbbreviation, re.position, re.outcome,
               re.fastest_lap AS fastestLap, re.points_override AS pointsOverride, te.name AS team, re.manufacturer,
               COALESCE(te.colour, ma.colour) AS teamColour,
               re.bike_number AS bikeNumber, re.nationality, re.source
@@ -49,12 +49,12 @@ export function getSeason(classCode: string, year: number): Season | null {
          LEFT JOIN manufacturers ma ON ma.name = re.manufacturer
         WHERE ro.season_id = ? ORDER BY re.id`,
     )
-    .all(season.id) as Array<Omit<Result, 'fastestLap'> & { sessionId: number; riderName: string; fastestLap: number }>;
+    .all(season.id) as Array<Omit<Result, 'fastestLap'> & { sessionId: number; riderName: string; riderAbbreviation: string | null; fastestLap: number }>;
 
   const riders: Season['riders'] = {};
   const resultsBySession = new Map<number, Result[]>();
-  for (const { sessionId, riderName, fastestLap, ...result } of resultRows) {
-    riders[result.riderId] = { name: riderName };
+  for (const { sessionId, riderName, riderAbbreviation, fastestLap, ...result } of resultRows) {
+    riders[result.riderId] = riderAbbreviation ? { name: riderName, abbreviation: riderAbbreviation } : { name: riderName };
     const list = resultsBySession.get(sessionId) ?? [];
     list.push({ ...result, fastestLap: fastestLap === 1 });
     resultsBySession.set(sessionId, list);

@@ -4,6 +4,7 @@ import type { PodiumPlace } from '../types/podium-place';
 import type { RiderInfo } from '../types/rider-info';
 import FlagBadge from './flag-badge';
 import NumberBox from './number-box';
+import RiderName from './rider-name';
 
 interface Props {
   podium: PodiumPlace[];
@@ -32,7 +33,8 @@ export default function StepDetails({ podium, belowPodium, riders }: Props) {
                 <div className="podium-rider">
                   <ResultNumber result={rider} seasonNumber={riders[rider.riderId]?.seasonNumber ?? null} />
                   <span className="podium-name">
-                    <FlagBadge code={riders[rider.riderId]?.nationality ?? null} /> {name(rider.riderId)}
+                    <FlagBadge code={riders[rider.riderId]?.nationality ?? null} />{' '}
+                    <RiderName rider={riders[rider.riderId]} fallback={rider.riderId} />
                   </span>
                   <span className="podium-team">{rider.manufacturer ?? rider.team}</span>
                 </div>
