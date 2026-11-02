@@ -48,6 +48,22 @@ The flag a Rider raced under in a given Season, which may be a country that no l
 **Result**:
 One Rider's outcome in one Session.
 
+**Bike number**:
+The number a Rider carried in one Result. It can change between Rounds, and early sources often don't record it.
+_Avoid_: Race number, plate
+
+**Season number**:
+The Bike number a Rider carried in more than half of their Results in a Season. A Season has Season numbers only when every Result has a Bike number and every Rider has one; a Result carrying a different number is an exception to it.
+_Avoid_: Permanent number, fixed number
+
+**Participant**:
+A Rider with at least one Result in a Season. Real entry lists, wildcards and substitutions are not modelled.
+_Avoid_: Entrant, entry list, grid
+
+**Defending Champion**:
+The World Champion of the previous Season in the same Category, so the 2001 500cc champion defends in 2002 MotoGP. A Season can have none, as in 1949. They hold the label until a World Champion is crowned in this Season.
+_Avoid_: Reigning champion, title holder
+
 **Classified**:
 A Result with a finishing position; only Classified Results earn position points.
 
@@ -119,4 +135,8 @@ _Avoid_: Clinched, title winner
 Stepping through a Season to watch the Standings evolve.
 
 **Step**:
-One position in the Replay: the Standings right after one Session. Since 2023 a Round has two Steps, the Sprint and then the Grand Prix race.
+One position in the Replay: the Participants step, then the Standings right after each Session. Since 2023 a Round has two Steps, the Sprint and then the Grand Prix race.
+
+**Participants step**:
+The first Step of a Replay, before any Session: every Participant on 0 points, with no Podium.
+_Avoid_: Step 0, entry list
