@@ -9,6 +9,8 @@ import { listSeasons } from './list-seasons';
 
 const fixtureDir = path.join(process.cwd(), 'src/features/data-build/fixtures/mini');
 
+// Team colours: Team A has its own (#cc0000), over Maker A's; Team B has none, so Maker B's (#ffcc00) stands in;
+// a Result with neither Team nor Manufacturer has no colour.
 const fixtureSeason: Season = {
   classCode: '500cc',
   className: '500cc',
@@ -42,8 +44,8 @@ const fixtureSeason: Season = {
           pointsMultiplier: 1,
           notes: null,
           results: [
-            { riderId: 'rider-one', position: 1, outcome: 'FIN', fastestLap: false, pointsOverride: null, team: 'Team A', manufacturer: 'Maker A', bikeNumber: 1, nationality: 'ITA', source: 'fixture' },
-            { riderId: 'rider-two', position: null, outcome: 'DNF', fastestLap: false, pointsOverride: null, team: null, manufacturer: null, bikeNumber: null, nationality: null, source: 'fixture' },
+            { riderId: 'rider-one', position: 1, outcome: 'FIN', fastestLap: false, pointsOverride: null, team: 'Team A', manufacturer: 'Maker A', teamColour: '#cc0000', bikeNumber: 1, nationality: 'ITA', source: 'fixture' },
+            { riderId: 'rider-two', position: null, outcome: 'DNF', fastestLap: false, pointsOverride: null, team: null, manufacturer: null, teamColour: null, bikeNumber: null, nationality: null, source: 'fixture' },
           ],
         },
         {
@@ -53,8 +55,8 @@ const fixtureSeason: Season = {
           pointsMultiplier: 0.5,
           notes: 'Stopped early',
           results: [
-            { riderId: 'rider-two', position: 1, outcome: 'FIN', fastestLap: true, pointsOverride: null, team: 'Team B', manufacturer: 'Maker B', bikeNumber: 2, nationality: 'ESP', source: 'fixture' },
-            { riderId: 'rider-one', position: 2, outcome: 'FIN', fastestLap: false, pointsOverride: 4.5, team: 'Team A', manufacturer: 'Maker A', bikeNumber: 1, nationality: 'ITA', source: 'fixture' },
+            { riderId: 'rider-two', position: 1, outcome: 'FIN', fastestLap: true, pointsOverride: null, team: 'Team B', manufacturer: 'Maker B', teamColour: '#ffcc00', bikeNumber: 2, nationality: 'ESP', source: 'fixture' },
+            { riderId: 'rider-one', position: 2, outcome: 'FIN', fastestLap: false, pointsOverride: 4.5, team: 'Team A', manufacturer: 'Maker A', teamColour: '#cc0000', bikeNumber: 1, nationality: 'ITA', source: 'fixture' },
           ],
         },
       ],

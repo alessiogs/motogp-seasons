@@ -7,6 +7,7 @@ import type { RiderInfo } from '../types/rider-info';
 import { calendarEntriesOf } from './calendar-entries-of';
 import { classificationOf } from './classification-of';
 import { belowPodiumOf } from './below-podium-of';
+import { boxColoursOf } from './box-colours-of';
 import { podiumOf } from './podium-of';
 import { seasonNumbersOf } from './season-numbers-of';
 
@@ -20,6 +21,7 @@ export function replayViewOf(season: Season, defendingChampion: DefendingChampio
   const seasonNumbers = seasonNumbersOf(season);
   const riders = ridersOf(season, seasonNumbers);
   const defending = defendingChampion && riders[defendingChampion.riderId] ? defendingChampion.riderId : null;
+  const latestColours = latestTeamColours(season);
 
   const sessionSteps = replay.map((step, i): ReplayViewStep => {
     const session = season.rounds
@@ -28,6 +30,7 @@ export function replayViewOf(season: Season, defendingChampion: DefendingChampio
     const classification = session ? classificationOf(session, seasonNumbers) : [];
     const prevRank = new Map((replay[i - 1]?.standings ?? []).map((r) => [r.riderId, r.rank]));
     const leader = step.standings[0]?.points ?? 0;
+    const colours = latestColours(step.roundNumber, step.sessionType);
     return {
       ...step,
       kind: 'session',
@@ -38,12 +41,13 @@ export function replayViewOf(season: Season, defendingChampion: DefendingChampio
           ...row,
           rankChange: before == null ? 0 : before - row.rank,
           gap: row.rank === 1 ? null : leader - row.points,
+          box: boxColoursOf(colours.get(row.riderId)),
         };
       }),
       crowning: step.worldChampion != null && replay[i - 1]?.worldChampion == null,
       defendingChampion: step.worldChampion == null ? defending : null,
       classification,
-      podium: podiumOf(classification, riders),
+      podium: podiumOf(classification),
       belowPodium: belowPodiumOf(classification),
     };
   });
@@ -56,7 +60,7 @@ export function replayViewOf(season: Season, defendingChampion: DefendingChampio
     riders,
     participantsNote:
       defendingChampion && !defending ? `Defending Champion ${defendingChampion.name} takes no part in this Season.` : null,
-    steps: [participantsStep(riders, defending), ...sessionSteps],
+    steps: [participantsStep(riders, defending, firstTeamColours(season)), ...sessionSteps],
     calendar,
   };
 }
@@ -65,7 +69,11 @@ export function replayViewOf(season: Season, defendingChampion: DefendingChampio
  * The first Step, before any Session: every Participant on 0 points, the Defending Champion first,
  * then by Season number, then by name.
  */
-function participantsStep(riders: Record<string, RiderInfo>, defending: string | null): ReplayViewStep {
+function participantsStep(
+  riders: Record<string, RiderInfo>,
+  defending: string | null,
+  colours: Map<string, string | null>,
+): ReplayViewStep {
   const order = Object.keys(riders).sort(
     (a, b) =>
       Number(b === defending) - Number(a === defending) ||
@@ -89,6 +97,7 @@ function participantsStep(riders: Record<string, RiderInfo>, defending: string |
       podiums: 0,
       rankChange: 0,
       gap: null,
+      box: boxColoursOf(colours.get(riderId)),
     })),
     worldChampion: null,
     titleChances: [],
@@ -98,6 +107,42 @@ function participantsStep(riders: Record<string, RiderInfo>, defending: string |
     classification: [],
     podium: [],
     belowPodium: [],
+  };
+}
+
+/** Every Session of the Season in running order, with its Round number. */
+function sessionsInOrder(season: Season) {
+  return [...season.rounds]
+    .sort((a, b) => a.number - b.number)
+    .flatMap((round) => [...round.sessions].sort((a, b) => a.order - b.order).map((session) => ({ roundNumber: round.number, session })));
+}
+
+/** Each Rider's Team colour on their first Result: the Participants step shows the Team they start with. */
+function firstTeamColours(season: Season): Map<string, string | null> {
+  const colours = new Map<string, string | null>();
+  for (const { session } of sessionsInOrder(season)) {
+    for (const result of session.results) {
+      if (!colours.has(result.riderId)) colours.set(result.riderId, result.teamColour ?? null);
+    }
+  }
+  return colours;
+}
+
+/**
+ * A lookup, called with the Steps in order, from a Step's Session to each Rider's Team colour on their latest Result
+ * up to and including it, so a Rider who changes Team shows the new colour from that Step on.
+ */
+function latestTeamColours(season: Season): (roundNumber: number, sessionType: string) => Map<string, string | null> {
+  const sessions = sessionsInOrder(season);
+  const colours = new Map<string, string | null>();
+  let next = 0;
+  return (roundNumber, sessionType) => {
+    while (next < sessions.length) {
+      const { roundNumber: number, session } = sessions[next++];
+      for (const result of session.results) colours.set(result.riderId, result.teamColour ?? null);
+      if (number === roundNumber && session.type === sessionType) break;
+    }
+    return new Map(colours);
   };
 }
 

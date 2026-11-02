@@ -1,0 +1,6 @@
+{
+  "manufacturers": [
+    { "name": "Maker A", "colour": "#0000cc" },
+    { "name": "Maker B", "colour": "#ffcc00" }
+  ]
+}

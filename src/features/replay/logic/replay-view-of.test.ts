@@ -155,17 +155,31 @@ describe('replayViewOf', () => {
       [[2, 's2'], [1, 's1'], [3, 's3']],
       [[2, 'b'], [1, 'a'], [3, 'c']],
     ]);
-    expect(view.steps[2].podium[2].rider).toEqual({ riderId: 'c', team: 'Team C', manufacturer: 'Honda', seasonNumber: null });
+    expect(view.steps[2].podium[2].rider).toEqual({
+      riderId: 'c', team: 'Team C', manufacturer: 'Honda', bikeNumber: null, numberException: false,
+      box: { background: '#5a606c', foreground: '#ffffff' },
+    });
   });
 
-  it('shows each Podium Rider with their Season number, even on a day they carried another number', () => {
-    // a: 46, 46, 58 -> Season number 46, also on the Round 3 Podium where they carried 58.
+  it("shows each Podium Rider with that Result's own Bike number and Team colour, marked when it isn't their Season number", () => {
+    // a: 46, 46, 58 -> Season number 46; on the Round 3 Podium a carried 58 on a yellow bike.
     const view = replayViewOf(season([
       round(1, [gp(fin('a', 1, { bikeNumber: 46 }), fin('b', 2, { bikeNumber: 4 }))]),
       round(2, [gp(fin('a', 1, { bikeNumber: 46 }), fin('b', 2, { bikeNumber: 4 }))]),
-      round(3, [gp(fin('b', 1, { bikeNumber: 4 }), fin('a', 2, { bikeNumber: 58 }))]),
+      round(3, [gp(fin('b', 1, { bikeNumber: 4 }), fin('a', 2, { bikeNumber: 58, teamColour: '#ffcc00' }))]),
     ]));
-    expect(view.steps[3].podium.map((p) => p.rider?.seasonNumber ?? null)).toEqual([46, 4, null]);
+    expect(view.steps[3].podium.map((p) => p.rider && [p.rider.riderId, p.rider.bikeNumber, p.rider.numberException, p.rider.box.background]))
+      .toEqual([['a', 58, true, '#ffcc00'], ['b', 4, false, '#5a606c'], null]);
+  });
+
+  it('shows the known Bike numbers on the Podium in a Season without Season numbers, with no exception marked', () => {
+    // b has no number in Round 2, so the Season has no Season numbers.
+    const view = replayViewOf(season([
+      round(1, [gp(fin('a', 1, { bikeNumber: 7 }), fin('b', 2, { bikeNumber: 3 }))]),
+      round(2, [gp(fin('a', 1, { bikeNumber: 11 }), fin('b', 2))]),
+    ]));
+    expect(view.steps[2].podium.map((p) => p.rider && [p.rider.riderId, p.rider.bikeNumber, p.rider.numberException]))
+      .toEqual([['b', null, false], ['a', 11, false], null]);
   });
 
   it('leaves Podium places empty when fewer than three Riders were Classified', () => {
@@ -239,6 +253,40 @@ describe('replayViewOf', () => {
       ['a', 11, false],
       ['b', null, false],
     ]);
+  });
+
+  it("fills each Classification row's box with its own Result's Team colour, grey when unknown, with contrasting text", () => {
+    // a changes Team between Rounds: Round 2's row shows the yellow one. Yellow takes black text, red white, grey white.
+    const view = replayViewOf(season([
+      round(1, [gp(fin('a', 1, { teamColour: '#cc0000' }), fin('b', 2))]),
+      round(2, [gp(fin('a', 1, { teamColour: '#ffcc00' }), fin('b', 2, { teamColour: null }), fin('c', 3, { teamColour: '#cc0000' }))]),
+    ]));
+    expect(view.steps[2].classification.map((r) => [r.riderId, r.box])).toEqual([
+      ['a', { background: '#ffcc00', foreground: '#000000' }],
+      ['b', { background: '#5a606c', foreground: '#ffffff' }],
+      ['c', { background: '#cc0000', foreground: '#ffffff' }],
+    ]);
+  });
+
+  it("fills each Standings box with the Team colour of the Rider's latest Result so far, the first one on the Participants step", () => {
+    // a: red in Round 1, yellow from Round 2's Sprint. b: grey (no colour) in Round 1, then absent from the Sprint,
+    // then blue in Round 2's race, so b stays grey at the Sprint's Step.
+    const view = replayViewOf(season([
+      round(1, [gp(fin('a', 1, { teamColour: '#cc0000' }), fin('b', 2))]),
+      round(2, [
+        session('sprint', 1, [fin('a', 1, { teamColour: '#ffcc00' })]),
+        session('grand-prix-race', 2, [fin('b', 1, { teamColour: '#0033aa' }), fin('a', 2, { teamColour: '#ffcc00' })]),
+      ]),
+    ]));
+    const boxes = (i: number) =>
+      Object.fromEntries(view.steps[i].standings.map((r) => [r.riderId, r.box.background]));
+    expect([0, 1, 2, 3].map(boxes)).toEqual([
+      { a: '#cc0000', b: '#5a606c' },
+      { a: '#cc0000', b: '#5a606c' },
+      { a: '#ffcc00', b: '#5a606c' },
+      { a: '#ffcc00', b: '#0033aa' },
+    ]);
+    expect(view.steps[2].standings.find((r) => r.riderId === 'a')?.box.foreground).toEqual('#000000');
   });
 
   it('orders the Participants by Defending Champion, then Season number, then name', () => {

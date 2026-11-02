@@ -39,12 +39,14 @@ export function getSeason(classCode: string, year: number): Season | null {
     .prepare(
       `SELECT re.session_id AS sessionId, ri.slug AS riderId, ri.name AS riderName, re.position, re.outcome,
               re.fastest_lap AS fastestLap, re.points_override AS pointsOverride, te.name AS team, re.manufacturer,
+              COALESCE(te.colour, ma.colour) AS teamColour,
               re.bike_number AS bikeNumber, re.nationality, re.source
          FROM results re
          JOIN sessions se ON se.id = re.session_id
          JOIN rounds ro   ON ro.id = se.round_id
          JOIN riders ri   ON ri.id = re.rider_id
          LEFT JOIN teams te ON te.id = re.team_id
+         LEFT JOIN manufacturers ma ON ma.name = re.manufacturer
         WHERE ro.season_id = ? ORDER BY re.id`,
     )
     .all(season.id) as Array<Omit<Result, 'fastestLap'> & { sessionId: number; riderName: string; fastestLap: number }>;

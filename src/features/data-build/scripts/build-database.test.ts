@@ -41,6 +41,16 @@ describe('buildDatabase', () => {
     rmSync(path.join(dir, 'teams', '500cc-1999.json'));
     expect(() => buildDatabase(dir, path.join(dir, 'out.db'))).toThrow(/500cc-1999\.json: no Team data/);
   });
+
+  it('refuses a Team colour or Manufacturer colour that is not #rrggbb', () => {
+    const team = copyOfFixture();
+    writeFileSync(path.join(team, 'teams', '500cc-1999.json'), JSON.stringify({ teams: [{ name: 'Team A', colour: 'red' }, { name: 'Team B' }] }));
+    expect(() => buildDatabase(team, path.join(team, 'out.db'))).toThrow(/teams\/500cc-1999\.json: Team "Team A" has colour "red"/);
+
+    const maker = copyOfFixture();
+    writeFileSync(path.join(maker, 'manufacturers.json'), JSON.stringify({ manufacturers: [{ name: 'Maker A', colour: '#abc' }] }));
+    expect(() => buildDatabase(maker, path.join(maker, 'out.db'))).toThrow(/manufacturers\.json: Manufacturer "Maker A" has colour "#abc"/);
+  });
 });
 
 function copyOfFixture() {
