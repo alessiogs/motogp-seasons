@@ -209,6 +209,14 @@ h2 { font-size: 1.15rem; text-transform: uppercase; }
   vertical-align: middle;
   clip-path: polygon(var(--slant) 0, 100% 0, calc(100% - var(--slant)) 100%, 0 100%);
 }
+.defending-badge {
+  --slant: 5px;
+  display: inline-block; margin-left: 6px; padding: 0 8px;
+  border: 1px solid var(--champion); color: var(--champion);
+  font-size: 0.7rem; font-weight: 900; font-style: italic; text-transform: uppercase; letter-spacing: 0.03em;
+  vertical-align: middle;
+  transform: skewX(-12deg);
+}
 .title-race {
   margin: 0 0 16px; padding: 10px 14px; background: var(--champion-bg);
   border-left: 3px solid var(--champion); font-size: 0.9rem; overflow-wrap: anywhere;

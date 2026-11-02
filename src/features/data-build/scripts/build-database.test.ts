@@ -22,7 +22,7 @@ describe('buildDatabase', () => {
   });
 
   it('accepts a Season whose year is in the list', () => {
-    const dir = fixtureWithRuleValidFor([1999]);
+    const dir = fixtureWithRuleValidFor([1999, 2000]);
     expect(() => buildDatabase(dir, path.join(dir, 'out.db'))).not.toThrow();
   });
 
