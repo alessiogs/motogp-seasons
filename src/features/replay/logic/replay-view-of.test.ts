@@ -47,6 +47,54 @@ const season = (rounds: Round[], extra: Partial<Season> = {}): Season => ({
 });
 
 describe('replayViewOf', () => {
+  it('opens on the Participants step: every Participant on 0 points, by name, with no Session and no Podium', () => {
+    // 'late' only races in a Non-championship round: still a Participant.
+    const view = replayViewOf(season(
+      [
+        round(1, [gp('b', 'a', out('c', 'DNS'))]),
+        round(2, [gp('late')], { nonChampionship: true }),
+      ],
+      { riders: { a: { name: 'Zed' }, b: { name: 'Alpha' }, c: { name: 'Mid' }, late: { name: 'Bravo' } } },
+    ));
+    const [participants, first] = view.steps;
+    expect(view.steps.map((s) => s.kind)).toEqual(['participants', 'session']);
+    expect(participants.standings.map((r) => [r.rank, r.riderId, r.points, r.rankChange, r.gap])).toEqual([
+      [1, 'b', 0, 0, null],
+      [2, 'late', 0, 0, null],
+      [3, 'c', 0, 0, null],
+      [4, 'a', 0, 0, null],
+    ]);
+    expect([participants.round, participants.classification, participants.podium, participants.crowning, participants.worldChampion])
+      .toEqual([null, [], [], false, null]);
+    expect(first.round?.name).toEqual('Round 1');
+  });
+
+  it('lists the Defending Champion first and labels them on every Step until a World Champion is crowned', () => {
+    // a is crowned at Round 2 (50 to 20, one Round of 25 left), so 'z' is labelled on the first three Steps.
+    const view = replayViewOf(
+      season(
+        [round(1, [gp('a', 'z')]), round(2, [gp('a')]), round(3, [gp('z', 'a')])],
+        { riders: { a: { name: 'Alpha' }, z: { name: 'Zulu' } } },
+      ),
+      { riderId: 'z', name: 'Zulu' },
+    );
+    expect(view.steps[0].standings.map((r) => r.riderId)).toEqual(['z', 'a']);
+    expect(view.steps.map((s) => s.defendingChampion)).toEqual(['z', 'z', null, null]);
+    expect(view.participantsNote).toBeNull();
+  });
+
+  it('has a note on the Participants step and no label when the Defending Champion takes no part', () => {
+    const view = replayViewOf(season([round(1, [gp('a', 'b')])]), { riderId: 'gone', name: 'Gone Rider' });
+    expect(view.steps.map((s) => s.defendingChampion)).toEqual([null, null]);
+    expect(view.participantsNote).toEqual('Defending Champion Gone Rider takes no part in this Season.');
+  });
+
+  it('has no label and no note in a Season with no Defending Champion', () => {
+    const view = replayViewOf(season([round(1, [gp('a', 'b')])]), null);
+    expect(view.steps.map((s) => s.defendingChampion)).toEqual([null, null]);
+    expect(view.participantsNote).toBeNull();
+  });
+
   it("names each Rider, with the Nationality of their first Result that has one", () => {
     const view = replayViewOf(season(
       [
@@ -76,6 +124,7 @@ describe('replayViewOf', () => {
       ]),
     ]));
     expect(view.steps.map((s) => s.classification.map((r) => [r.riderId, r.positionLabel, r.outcomeLabel]))).toEqual([
+      [],
       [['b', '1', null], ['a', '2', null]],
       [
         ['first', '1', null],
@@ -97,10 +146,11 @@ describe('replayViewOf', () => {
       ]),
     ]));
     expect(view.steps.map((s) => s.podium.map((p) => [p.place, p.rider?.riderId ?? null]))).toEqual([
+      [],
       [[2, 's2'], [1, 's1'], [3, 's3']],
       [[2, 'b'], [1, 'a'], [3, 'c']],
     ]);
-    expect(view.steps[1].podium[2].rider).toEqual({ riderId: 'c', team: 'Team C', manufacturer: 'Honda' });
+    expect(view.steps[2].podium[2].rider).toEqual({ riderId: 'c', team: 'Team C', manufacturer: 'Honda' });
   });
 
   it('leaves Podium places empty when fewer than three Riders were Classified', () => {
@@ -109,6 +159,7 @@ describe('replayViewOf', () => {
       round(2, [session('grand-prix-race', 1, [out('c', 'DNF'), fin('b', 1)])]),
     ]));
     expect(view.steps.map((s) => s.podium.map((p) => [p.place, p.rider?.riderId ?? null]))).toEqual([
+      [],
       [[2, 'e'], [1, 'b'], [3, null]],
       [[2, null], [1, 'b'], [3, null]],
     ]);
@@ -120,15 +171,17 @@ describe('replayViewOf', () => {
       round(2, [session('grand-prix-race', 1, [out('c', 'DNF'), fin('b', 1), out('a', 'NC'), fin('e', 2)])]),
     ]));
     expect(view.steps.map((s) => s.belowPodium.map((r) => [r.riderId, r.positionLabel]))).toEqual([
+      [],
       [['d', '4'], ['e', '5']],
       [['a', '–'], ['c', '–']],
     ]);
   });
 
   it('marks the crowning only on the Step where the World Champion is crowned', () => {
-    // After Round 2 a has 50, b 20, one Round (25) left: b can't catch a, so a is crowned at Step 2.
+    // After Round 2 a has 50, b 20, one Round (25) left: b can't catch a, so a is crowned at Round 2's Step.
     const view = replayViewOf(season([round(1, [gp('a', 'b')]), round(2, [gp('a')]), round(3, [gp('b', 'a')])]));
     expect(view.steps.map((s) => [s.worldChampion, s.crowning])).toEqual([
+      [null, false],
       [null, false],
       ['a', true],
       ['a', false],
@@ -136,9 +189,9 @@ describe('replayViewOf', () => {
   });
 
   it('shows how each Rider moved since the previous Step and how far behind the leader they are', () => {
-    // Step 1: a 25, b 20, c 16. Step 2: a 45, c 41, b 36, d 13 (new, so no movement).
+    // Round 1: a 25, b 20, c 16 (no movement from the Participants step). Round 2: a 45, c 41, b 36, d 13 (new).
     const view = replayViewOf(season([round(1, [gp('a', 'b', 'c')]), round(2, [gp('c', 'a', 'b', 'd')])]));
-    const rows = (i: number) => view.steps[i].standings.map((r) => [r.riderId, r.rankChange, r.gap]);
+    const rows = (i: number) => view.steps[i + 1].standings.map((r) => [r.riderId, r.rankChange, r.gap]);
     expect(rows(0)).toEqual([['a', 0, null], ['b', 0, 5], ['c', 0, 9]]);
     expect(rows(1)).toEqual([['a', 0, null], ['c', 1, 4], ['b', -1, 9], ['d', 0, 32]]);
   });
@@ -154,7 +207,7 @@ describe('replayViewOf', () => {
       ['Imola', true, 0],
       ['Assen', false, 1],
     ]);
-    expect(view.steps.map((s) => [s.round.name, s.round.date, s.round.notes])).toEqual([
+    expect(view.steps.slice(1).map((s) => [s.round?.name, s.round?.date, s.round?.notes])).toEqual([
       ['Qatar', '2000-03-10', null],
       ['Qatar', '2000-03-10', null],
       ['Assen', null, 'Half points'],

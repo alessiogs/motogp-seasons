@@ -10,11 +10,11 @@ import TitleRacePanel from './title-race-panel';
 const ROW_HEIGHT = 44;
 
 export default function SeasonReplay({ view }: { view: ReplayView }) {
-  const { steps, riders, calendar, hasCountingWindows, fastestLapBonus } = view;
+  const { steps, riders, calendar, hasCountingWindows, fastestLapBonus, participantsNote } = view;
   const last = steps.length - 1;
   const [idx, setIdx] = useState(last);
 
-  if (steps.length === 0) return <p className="notice">No results for this season yet.</p>;
+  if (steps.length <= 1) return <p className="notice">No results for this season yet.</p>;
 
   const step = steps[idx];
   const table = step.standings;
@@ -42,12 +42,23 @@ export default function SeasonReplay({ view }: { view: ReplayView }) {
         </button>
       </div>
 
-      <p className="round-label">
-        Step {idx + 1} of {steps.length} · Round {step.roundNumber} · {round.name}
-        {step.sessionsInRound > 1 && <> · {sessionLabel(step.sessionType)}</>}
-        {round.date && <span className="muted"> · {round.date}</span>}
-      </p>
-      {round.notes && <p className="round-note muted">{round.notes}</p>}
+      {round == null ? (
+        <>
+          <p className="round-label">
+            Step {idx + 1} of {steps.length} · Participants
+          </p>
+          {participantsNote && <p className="round-note muted">{participantsNote}</p>}
+        </>
+      ) : (
+        <>
+          <p className="round-label">
+            Step {idx + 1} of {steps.length} · Round {step.roundNumber} · {round.name}
+            {step.sessionsInRound > 1 && <> · {sessionLabel(step.sessionType)}</>}
+            {round.date && <span className="muted"> · {round.date}</span>}
+          </p>
+          {round.notes && <p className="round-note muted">{round.notes}</p>}
+        </>
+      )}
 
       <TitleRacePanel
         step={step}
@@ -77,7 +88,7 @@ export default function SeasonReplay({ view }: { view: ReplayView }) {
             return (
               <div
                 key={row.riderId}
-                className={`standings-row${row.rank === 1 ? ' leader' : ''}${row.riderId === champion ? ' champion' : ''}`}
+                className={`standings-row${row.rank === 1 && row.points > 0 ? ' leader' : ''}${row.riderId === champion ? ' champion' : ''}`}
                 role="row"
                 style={{ transform: `translateY(${row.rank * ROW_HEIGHT}px)` }}
               >
@@ -88,6 +99,7 @@ export default function SeasonReplay({ view }: { view: ReplayView }) {
                 <span className="rider-cell">
                   <FlagBadge code={rider?.nationality ?? null} /> {rider?.name ?? row.riderId}
                   {step.crowning && row.riderId === champion && <span className="champion-badge">World Champion</span>}
+                  {row.riderId === step.defendingChampion && <span className="defending-badge">Defending Champion</span>}
                   {hasCountingWindows && row.droppedRounds.length > 0 && (
                     <span className="dropped" title="Dropped scores">
                       dropped:{' '}
@@ -108,7 +120,7 @@ export default function SeasonReplay({ view }: { view: ReplayView }) {
           })}
       </div>
 
-      <StepDetails podium={step.podium} belowPodium={step.belowPodium} riders={riders} />
+      {step.kind === 'session' && <StepDetails podium={step.podium} belowPodium={step.belowPodium} riders={riders} />}
     </>
   );
 }

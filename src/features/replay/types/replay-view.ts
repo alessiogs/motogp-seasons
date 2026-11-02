@@ -12,7 +12,9 @@ export interface ReplayView {
   fastestLapBonus: boolean;
   /** Every Rider with a Result in the Season, by Rider id. */
   riders: Record<string, RiderInfo>;
-  /** One per points-paying Session, in order. */
+  /** A one-line note for the Participants step: set when the Defending Champion takes no part in the Season. */
+  participantsNote: string | null;
+  /** The Participants step, then one per points-paying Session, in order. */
   steps: ReplayViewStep[];
   /** Every Round of the Season, Non-championship rounds included. */
   calendar: CalendarEntry[];

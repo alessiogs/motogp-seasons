@@ -88,6 +88,9 @@ describe('data seam: Season JSON -> generated SQLite -> build-time query', () =>
   });
 
   it('lists Seasons by Class, Classes ordered by Category', () => {
-    expect(listSeasons()).toEqual([{ classCode: '500cc', className: '500cc', year: 1999 }]);
+    expect(listSeasons()).toEqual([
+      { classCode: '500cc', className: '500cc', year: 1999 },
+      { classCode: 'motogp', className: 'MotoGP', year: 2000 },
+    ]);
   });
 });
