@@ -6,6 +6,7 @@ import Database from 'better-sqlite3';
 import { existsSync, mkdirSync, readFileSync, readdirSync, rmSync } from 'node:fs';
 import path from 'node:path';
 import { fileURLToPath } from 'node:url';
+import { teamsWithSeveralManufacturers } from '../logic/teams-with-several-manufacturers';
 import type { ManufacturerFile } from '../types/manufacturer-file';
 import type { RiderFile } from '../types/rider-file';
 import type { TeamFile } from '../types/team-file';
@@ -44,22 +45,27 @@ function readJsonFiles<T>(dir: string): { file: string; data: T }[] {
     .map((f) => ({ file: f, data: JSON.parse(readFileSync(path.join(dir, f), 'utf8')) as T }));
 }
 
-/** Recreates `dbPath` from the JSON files in `dataDir`. Throws on data that must not be published. */
-export function buildDatabase(dataDir: string, dbPath: string): void {
+/**
+ * Recreates `dbPath` from the JSON files in `dataDir`. Throws on data that must not be published;
+ * returns warnings about data that is probably, but not certainly, wrong.
+ */
+export function buildDatabase(dataDir: string, dbPath: string): string[] {
   mkdirSync(path.dirname(dbPath), { recursive: true });
   rmSync(dbPath, { force: true });
   const db = new Database(dbPath);
+  const warnings: string[] = [];
   try {
     db.exec(readFileSync(SCHEMA, 'utf8'));
     db.transaction(() => {
       const riderIds = loadRiders(db, dataDir);
       const ruleIds = loadRules(db, dataDir);
       loadManufacturers(db, dataDir);
-      loadSeasons(db, dataDir, riderIds, ruleIds);
+      warnings.push(...loadSeasons(db, dataDir, riderIds, ruleIds));
     })();
   } finally {
     db.close();
   }
+  return warnings;
 }
 
 function loadRiders(db: Database.Database, dataDir: string): Map<string, number> {
@@ -119,7 +125,8 @@ function loadSeasons(
   dataDir: string,
   riderIds: Map<string, number>,
   rules: Map<string, { id: number; types: Set<string>; validFor: number[] | null }>,
-): void {
+): string[] {
+  const warnings: string[] = [];
   const classId = db.prepare('SELECT id FROM classes WHERE code = ?');
   const insertSeason = db.prepare('INSERT INTO seasons (year, class_id, scoring_rule_id, notes) VALUES (?, ?, ?, ?)');
   const insertRound = db.prepare(
@@ -169,7 +176,13 @@ function loadSeasons(
         }
       }
     }
+    const results = season.rounds.flatMap((round) => round.sessions.flatMap((session) => session.results));
+    for (const { team, manufacturers } of teamsWithSeveralManufacturers(results)) {
+      const list = manufacturers.map((m) => `${m.name} (${m.results})`).join(', ');
+      warnings.push(`${file}: Team "${team}" has Results on ${list}`);
+    }
   }
+  return warnings;
 }
 
 /**
