@@ -51,6 +51,20 @@ describe('buildDatabase', () => {
     writeFileSync(path.join(maker, 'manufacturers.json'), JSON.stringify({ manufacturers: [{ name: 'Maker A', colour: '#abc' }] }));
     expect(() => buildDatabase(maker, path.join(maker, 'out.db'))).toThrow(/manufacturers\.json: Manufacturer "Maker A" has colour "#abc"/);
   });
+
+  it('warns about a Team whose Results name more than one Manufacturer in a Season', () => {
+    const clean = copyOfFixture();
+    expect(buildDatabase(clean, path.join(clean, 'out.db'))).toEqual([]);
+
+    const dir = copyOfFixture();
+    const seasonPath = path.join(dir, 'seasons', '500cc-1999.json');
+    const season = JSON.parse(readFileSync(seasonPath, 'utf8'));
+    season.rounds[0].sessions[0].results[0].manufacturer = 'Maker B';
+    writeFileSync(seasonPath, JSON.stringify(season));
+    expect(buildDatabase(dir, path.join(dir, 'out.db'))).toEqual([
+      '500cc-1999.json: Team "Team A" has Results on Maker B (1), Maker A (1)',
+    ]);
+  });
 });
 
 function copyOfFixture() {

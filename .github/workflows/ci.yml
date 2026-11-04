@@ -21,8 +21,22 @@ jobs:
         with:
           node-version: 22
       - run: npm ci
+      - run: npm run lint:imports
       - run: npm run typecheck
       - run: npm test
       - run: npm run build
         env:
           NEXT_PUBLIC_BASE_PATH: /motogp-seasons
+      # Phone and desktop shots of home, 1949 and 2024, so the PR's pages get looked at.
+      # Playwright stays out of package.json: only this step needs it.
+      - name: Screenshot pages
+        run: |
+          npm install --no-save playwright@1.49.1
+          npx playwright install --with-deps chromium
+          npm run screenshots
+        env:
+          BASE_PATH: /motogp-seasons
+      - uses: actions/upload-artifact@v4
+        with:
+          name: screenshots
+          path: screenshots

@@ -8,6 +8,8 @@
     "build": "next build",
     "test": "vitest run",
     "typecheck": "tsc --noEmit",
+    "lint:imports": "node scripts/check-feature-imports.mjs",
+    "screenshots": "node scripts/screenshot-pages.mjs",
     "data:build": "tsx src/features/data-build/scripts/run-build-database.ts",
     "data:load-wikipedia": "tsx src/features/data-build/scripts/load-wikipedia-season.ts",
     "prebuild": "npm run data:build",
