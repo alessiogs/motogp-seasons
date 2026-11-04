@@ -16,6 +16,21 @@ Issues and specs for this repo live as GitHub issues. Use the `gh` CLI for all o
 
 Infer the repo from `git remote -v`; `gh` does this automatically when run inside a clone.
 
+## When `gh` answers "GraphQL is not available"
+
+Claude Code cloud sessions block GitHub's GraphQL API, which most `gh issue` and `gh pr` subcommands use. Their REST equivalents, with `R=repos/alessiogs/motogp-seasons`; `-F body=@file.md` reads a multi-line body from a file:
+
+- **Read an issue / PR**: `gh api $R/issues/<n>` / `gh api $R/pulls/<n>`.
+- **Create an issue**: `gh api $R/issues -f title="..." -F body=@body.md -f 'labels[]=ready-for-agent'`.
+- **Sub-issue / blocking**: the `gh api` forms under **Conventions** above already use REST. Both take the **database id** (`gh api $R/issues/<n> --jq .id`), not the `#number`.
+- **Comment**: `gh api $R/issues/<n>/comments -F body=@comment.md`.
+- **Labels**: add with `gh api $R/issues/<n>/labels -f 'labels[]=<label>'`; remove with `gh api -X DELETE $R/issues/<n>/labels/<label>`.
+- **Close**: `gh api -X PATCH $R/issues/<n> -f state=closed -f state_reason=completed` (or `not_planned`).
+- **Open a PR**: `gh api $R/pulls -f title="..." -f head=<branch> -f base=develop -F body=@pr.md`. Add `-F draft=true` for a draft.
+- **Draft → ready for review**: `gh api -X POST $R/pulls/<n>/ccr/ready_for_review` (a session-only route; GitHub's own needs GraphQL).
+- **Check runs on a PR head**: `gh api $R/commits/<sha>/check-runs --jq '.check_runs[] | {name, status, conclusion}'`.
+- **Merge a PR**: `gh api -X PUT $R/pulls/<n>/merge -f merge_method=merge`.
+
 File issues only into the user's own repo. Never file into `mattpocock/skills` (the repo these skills come from) unless the user owns it. In a fork, `gh` can default to the upstream parent, so before the first `gh issue create` of a session, check the target with `gh repo view --json nameWithOwner` and confirm it with the user if it is not their repo.
 
 ## Pull requests as a triage surface
