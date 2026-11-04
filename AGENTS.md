@@ -7,7 +7,7 @@
 1. Branch from an up-to-date `develop`, named `<type>/<short-kebab-name>` with type `feat`, `fix`, `chore`, or `docs` (e.g. `feat/season-timeline`).
 2. Commit on that branch, push it, and open a PR into `develop`.
 3. When `develop` moves ahead, `git merge origin/develop` into the feature branch, resolve any conflicts there, and push. The branch keeps its commits as they are, so pushes stay fast-forward.
-4. Merge the PR once `check` is green.
+4. Merge the PR once `check` is green. For a UI change, first open the `screenshots` artifact on the PR's `check` run (phone and desktop shots of home, 1949 and 2024) and look at them.
 5. To release, open a PR from `develop` into `main` and merge it. CI fails any PR into `main` whose head is not `develop`.
 
 ## Code organization
