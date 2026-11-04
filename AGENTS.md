@@ -21,6 +21,10 @@ Code lives in `src/features/<feature>/`, one folder per feature, named in the vo
 
 ## Agent skills
 
+### No npm registry?
+
+When `npm ci` can't reach the registry, run tests and a partial typecheck with `scripts/offline/` (see its README).
+
 ### Issue tracker
 
 Issues live in GitHub Issues for `alessiogs/motogp-seasons`, managed via the `gh` CLI. See `docs/agents/issue-tracker.md`.
