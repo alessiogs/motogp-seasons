@@ -134,6 +134,13 @@ const crowned: Record<string, { rider: string; round: number; session: string; s
     session: 'grand-prix-race',
     source: 'https://en.wikipedia.org/wiki/2012_Australian_motorcycle_Grand_Prix',
   },
+  // "Australian rider Casey Stoner clinched the 2011 MotoGP World Championship with his fifth consecutive victory at his home Grand Prix on his 26th birthday": the Australian Grand Prix, Round 16 of 18, the Malaysian Round 17 being cancelled.
+  'motogp-2011': {
+    rider: 'casey-stoner',
+    round: 16,
+    session: 'grand-prix-race',
+    source: 'https://en.wikipedia.org/wiki/2011_Australian_motorcycle_Grand_Prix',
+  },
 };
 
 const dataDir = path.join(process.cwd(), 'data');

@@ -12,8 +12,9 @@ export function parseOfficialTable(
   for (const row of table.text.split(/^\|-.*$/m)) {
     const lines = row.split('\n');
     const headers = lines.filter((l) => l.startsWith('!')).map((l) => cellText(l));
-    const riderLine = lines.find((l) => /flagicon/i.test(l) && /\[\[/.test(l));
-    const link = riderLine?.match(/\[\[([^\]|]+)(?:\|([^\]]+))?\]\]/);
+    // The flag is a template (2013 on) or an image (up to 2012); the Rider's article is the first link that is not an image.
+    const riderLine = lines.find((l) => /flagicon|\[\[File:Flag/i.test(l) && /\[\[(?!File:)/.test(l));
+    const link = riderLine?.match(/\[\[(?!File:)([^\]|]+)(?:\|([^\]]+))?\]\]/);
     if (!link || headers.length < 2 || !/^\d+$/.test(headers[0])) continue;
     const points = Number(headers[headers.length - 1]);
     if (Number.isNaN(points)) continue;

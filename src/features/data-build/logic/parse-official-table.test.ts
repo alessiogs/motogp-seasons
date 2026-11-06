@@ -19,3 +19,19 @@ describe("parseOfficialTable for a Riders' standings table", () => {
     ]);
   });
 });
+
+describe("parseOfficialTable for a Riders' standings table with image flags", () => {
+  // Trimmed from the 2011 season article, a layout shared by 2002-2011: the Rider cell holds
+  // "[[File:Flag of ….svg|…]] [[Casey Stoner]]" instead of a flag template.
+  const sample2011 = readFileSync(
+    path.join(process.cwd(), 'src/features/data-build/fixtures/wikitext/2011-riders-standings.txt'),
+    'utf8',
+  );
+
+  it('reads the Rider from the article link after the flag image', () => {
+    expect(parseOfficialTable(sample2011, riderId, "Riders' standings")).toEqual([
+      { position: 1, rider: 'casey-stoner', points: 350 },
+      { position: 2, rider: 'jorge-lorenzo', points: 260 },
+    ]);
+  });
+});

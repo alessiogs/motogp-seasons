@@ -3766,5 +3766,40 @@
     "sourceIds": {
       "wikipedia": "Roberto Rolfo"
     }
+  },
+  {
+    "id": "marco-simoncelli",
+    "name": "Marco Simoncelli",
+    "sourceIds": {
+      "wikipedia": "Marco Simoncelli"
+    }
+  },
+  {
+    "id": "loris-capirossi",
+    "name": "Loris Capirossi",
+    "sourceIds": {
+      "wikipedia": "Loris Capirossi"
+    }
+  },
+  {
+    "id": "john-hopkins",
+    "name": "John Hopkins",
+    "sourceIds": {
+      "wikipedia": "John Hopkins (motorcyclist)"
+    }
+  },
+  {
+    "id": "ben-bostrom",
+    "name": "Ben Bostrom",
+    "sourceIds": {
+      "wikipedia": "Ben Bostrom"
+    }
+  },
+  {
+    "id": "josh-hayes",
+    "name": "Josh Hayes",
+    "sourceIds": {
+      "wikipedia": "Josh Hayes (motorcyclist)"
+    }
   }
 ]

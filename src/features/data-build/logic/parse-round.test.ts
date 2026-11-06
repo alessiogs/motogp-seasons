@@ -81,3 +81,16 @@ describe('parseRound for a MotoGP Round filed under "MotoGP classification"', ()
     ]);
   });
 });
+
+describe('parseRound for a Grand Prix red-flagged and then cancelled', () => {
+  // Trimmed from the 2011 Malaysian report article: "the MotoGP race was red-flagged and subsequently
+  // cancelled", so the MotoGP classification heading holds prose only, and the Moto2 table must not stand in for it.
+  const malaysia = readFileSync(
+    path.join(process.cwd(), 'src/features/data-build/fixtures/wikitext/2011-malaysian-grand-prix.txt'),
+    'utf8',
+  );
+
+  it('has no Round to load, so the loader leaves it out for a hand-written Non-championship round', () => {
+    expect(parseRound(17, '2011 Malaysian motorcycle Grand Prix', 2011, malaysia, riderId, 'motogp')).toBeNull();
+  });
+});

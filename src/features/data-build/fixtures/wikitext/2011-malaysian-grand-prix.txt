@@ -1,0 +1,36 @@
+{{Infobox Grand Prix motorcycle race report
+| Grand Prix = Malaysian
+| flag = Malaysia
+| Official_Name=[[Royal Dutch Shell|Shell Advance]] Malaysian Motorcycle Grand Prix
+| Location = [[Sepang International Circuit]]
+| Race_No = 17
+| Date = 23 October
+| Year = 2011
+}}
+The '''2011 Malaysian motorcycle Grand Prix''' was the seventeenth round of the [[2011 Grand Prix motorcycle racing season]]. It took place on the weekend of 21–23 October 2011 at the [[Sepang International Circuit]], but the MotoGP race was [[Racing flags#red flag|red-flagged]] and subsequently cancelled after two laps due to a serious accident involving [[Marco Simoncelli]].
+==MotoGP classification==
+After qualifying, the [[Repsol Honda]] team locked out the front row of the grid. The race was completely abandoned as a non-event because only one lap was completed. No race winner was declared nor were points offered.
+
+==Moto2 classification==
+The race was stopped after 17 laps due to an accident involving [[Axel Pons]].
+
+{| class="wikitable" style="font-size: 95%;"
+! Pos.
+! No.
+! Rider
+! Manufacturer
+! Laps
+! Time/Retired
+! Grid
+! Points
+|-
+! 1
+| 12
+| {{flagicon|SUI}} '''[[Thomas Lüthi]]'''
+| '''[[Eskil Suter|Suter]]'''
+| 17
+| 36:42.215
+| 1
+| '''25'''
+|-
+|}

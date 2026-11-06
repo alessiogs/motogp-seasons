@@ -35,7 +35,7 @@ export function parseRound(
     // Up to 2012 the classification is a top-level "MotoGP classification" heading.
     ?? tables.find((t) => /^MotoGP(&nbsp;|\s)+classification$/i.test(t.path[0]));
   // A cancelled Grand Prix has no classification: the Round is left for a hand-written Non-championship round.
-  if (!raceTable && /\b(?:race|Grand Prix)\b[^.]*\bwas cancelled\b/.test(stripMarkup(text.split(/^==/m)[0]))) return null;
+  if (!raceTable && /\b(?:race|Grand Prix)\b[^.]*\b(?:was|and subsequently) cancelled\b/.test(stripMarkup(text.split(/^==/m)[0]))) return null;
   if (!raceTable) throw new Error(`${title}: no MotoGP race classification found`);
 
   const sessions = [];
