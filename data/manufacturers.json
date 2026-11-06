@@ -2,6 +2,7 @@
   "manufacturers": [
     { "name": "AJS", "colour": "#8b0000" },
     { "name": "Aprilia", "colour": "#3d2b56" },
+    { "name": "ART", "colour": "#3d2b56" },
     { "name": "Arter Matchless", "colour": "#c9a227" },
     { "name": "BMW", "colour": "#0066b1" },
     { "name": "Cagiva", "colour": "#c8102e" },
@@ -32,6 +33,7 @@
     { "name": "Urs-Métisse", "colour": "#6b3e26" },
     { "name": "Velocette", "colour": "#2f2f2f" },
     { "name": "Yamaha", "colour": "#1b2a8a" },
+    { "name": "Yamaha Forward", "colour": "#1b2a8a" },
     { "name": "ČZ", "colour": "#b22222" }
   ]
 }
