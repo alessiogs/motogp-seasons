@@ -3822,5 +3822,40 @@
     "sourceIds": {
       "wikipedia": "Carlos Checa"
     }
+  },
+  {
+    "id": "sete-gibernau",
+    "name": "Sete Gibernau",
+    "sourceIds": {
+      "wikipedia": "Sete Gibernau"
+    }
+  },
+  {
+    "id": "yuki-takahashi",
+    "name": "Yuki Takahashi",
+    "sourceIds": {
+      "wikipedia": "Yuki Takahashi"
+    }
+  },
+  {
+    "id": "james-toseland",
+    "name": "James Toseland",
+    "sourceIds": {
+      "wikipedia": "James Toseland"
+    }
+  },
+  {
+    "id": "niccolo-canepa",
+    "name": "Niccolò Canepa",
+    "sourceIds": {
+      "wikipedia": "Niccolò Canepa"
+    }
+  },
+  {
+    "id": "gabor-talmacsi",
+    "name": "Gábor Talmácsi",
+    "sourceIds": {
+      "wikipedia": "Gábor Talmácsi"
+    }
   }
 ]

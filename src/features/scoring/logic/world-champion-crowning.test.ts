@@ -148,6 +148,13 @@ const crowned: Record<string, { rider: string; round: number; session: string; s
     session: 'grand-prix-race',
     source: 'https://en.wikipedia.org/wiki/2010_Grand_Prix_motorcycle_racing_season',
   },
+  // "Valentino Rossi finished third, which clinched the 2009 MotoGP championship for him": the Malaysian Grand Prix, Round 16 of 17.
+  'motogp-2009': {
+    rider: 'valentino-rossi',
+    round: 16,
+    session: 'grand-prix-race',
+    source: 'https://en.wikipedia.org/wiki/2009_Malaysian_motorcycle_Grand_Prix',
+  },
 };
 
 const dataDir = path.join(process.cwd(), 'data');
