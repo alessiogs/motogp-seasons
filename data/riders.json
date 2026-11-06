@@ -3367,5 +3367,19 @@
     "sourceIds": {
       "wikipedia": "Jake Dixon"
     }
+  },
+  {
+    "id": "bradley-smith",
+    "name": "Bradley Smith",
+    "sourceIds": {
+      "wikipedia": "Bradley Smith (motorcyclist)"
+    }
+  },
+  {
+    "id": "mika-kallio",
+    "name": "Mika Kallio",
+    "sourceIds": {
+      "wikipedia": "Mika Kallio"
+    }
   }
 ]

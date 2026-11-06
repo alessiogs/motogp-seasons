@@ -1,0 +1,44 @@
+{
+  "teams": [
+    {
+      "name": "Aprilia Racing Team Gresini"
+    },
+    {
+      "name": "Ducati Team"
+    },
+    {
+      "name": "Esponsorama Racing",
+      "variants": [
+        "Hublot Reale Avintia Racing",
+        "Hublot Reale Avintia"
+      ]
+    },
+    {
+      "name": "LCR Honda Castrol"
+    },
+    {
+      "name": "LCR Honda Idemitsu"
+    },
+    {
+      "name": "Monster Energy Yamaha MotoGP"
+    },
+    {
+      "name": "Petronas Yamaha SRT"
+    },
+    {
+      "name": "Pramac Racing"
+    },
+    {
+      "name": "Red Bull KTM Factory Racing"
+    },
+    {
+      "name": "Red Bull KTM Tech3"
+    },
+    {
+      "name": "Repsol Honda Team"
+    },
+    {
+      "name": "Team Suzuki Ecstar"
+    }
+  ]
+}

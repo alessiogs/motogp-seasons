@@ -71,6 +71,13 @@ const crowned: Record<string, { rider: string; round: number; session: string; s
     session: 'grand-prix-race',
     source: 'https://en.wikipedia.org/wiki/2021_MotoGP_World_Championship',
   },
+  // "Joan Mir claimed the premier class title after securing seventh place": the Valencian Community Grand Prix, Round 13 of 14.
+  'motogp-2020': {
+    rider: 'joan-mir',
+    round: 13,
+    session: 'grand-prix-race',
+    source: 'https://en.wikipedia.org/wiki/2020_Valencian_Community_motorcycle_Grand_Prix',
+  },
 };
 
 const dataDir = path.join(process.cwd(), 'data');

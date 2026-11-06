@@ -1,0 +1,130 @@
+{
+  "source": "https://en.wikipedia.org/wiki/2020_MotoGP_World_Championship",
+  "standings": [
+    {
+      "position": 1,
+      "rider": "joan-mir",
+      "points": 171
+    },
+    {
+      "position": 2,
+      "rider": "franco-morbidelli",
+      "points": 158
+    },
+    {
+      "position": 3,
+      "rider": "alex-rins",
+      "points": 139
+    },
+    {
+      "position": 4,
+      "rider": "andrea-dovizioso",
+      "points": 135
+    },
+    {
+      "position": 5,
+      "rider": "pol-espargaro",
+      "points": 135
+    },
+    {
+      "position": 6,
+      "rider": "maverick-vinales",
+      "points": 132
+    },
+    {
+      "position": 7,
+      "rider": "jack-miller",
+      "points": 132
+    },
+    {
+      "position": 8,
+      "rider": "fabio-quartararo",
+      "points": 127
+    },
+    {
+      "position": 9,
+      "rider": "miguel-oliveira",
+      "points": 125
+    },
+    {
+      "position": 10,
+      "rider": "takaaki-nakagami",
+      "points": 116
+    },
+    {
+      "position": 11,
+      "rider": "brad-binder",
+      "points": 87
+    },
+    {
+      "position": 12,
+      "rider": "danilo-petrucci",
+      "points": 78
+    },
+    {
+      "position": 13,
+      "rider": "johann-zarco",
+      "points": 77
+    },
+    {
+      "position": 14,
+      "rider": "alex-marquez",
+      "points": 74
+    },
+    {
+      "position": 15,
+      "rider": "valentino-rossi",
+      "points": 66
+    },
+    {
+      "position": 16,
+      "rider": "francesco-bagnaia",
+      "points": 47
+    },
+    {
+      "position": 17,
+      "rider": "aleix-espargaro",
+      "points": 42
+    },
+    {
+      "position": 18,
+      "rider": "cal-crutchlow",
+      "points": 32
+    },
+    {
+      "position": 19,
+      "rider": "stefan-bradl",
+      "points": 27
+    },
+    {
+      "position": 20,
+      "rider": "iker-lecuona",
+      "points": 27
+    },
+    {
+      "position": 21,
+      "rider": "bradley-smith",
+      "points": 12
+    },
+    {
+      "position": 22,
+      "rider": "tito-rabat",
+      "points": 10
+    },
+    {
+      "position": 23,
+      "rider": "michele-pirro",
+      "points": 4
+    },
+    {
+      "position": 24,
+      "rider": "mika-kallio",
+      "points": 0
+    },
+    {
+      "position": 25,
+      "rider": "lorenzo-savadori",
+      "points": 0
+    }
+  ]
+}
