@@ -24,7 +24,7 @@ A numbered Grand Prix weekend within a Season.
 _Avoid_: Race, event, GP
 
 **Non-championship round**:
-A Round that was held but excluded from the championship, so it awards no points.
+A Round on the Class's calendar whose Grand Prix race was excluded from the championship or cancelled, so it awards no points. It keeps its Round number. A weekend with no race for the Class at all is not a Round.
 
 **Session**:
 A contest within a Round that awards championship points: the Grand Prix race and, since 2023, the Sprint.
@@ -127,7 +127,7 @@ Riders ranked by Championship points at a given Step, built from the final offic
 _Avoid_: Leaderboard, table
 
 **Countback**:
-The tie-break on equal Championship points: most Grand Prix race wins, then most second places, and so on. Sprint results do not count.
+The tie-break on equal Championship points: most Grand Prix race wins, then most second places, and so on, over every Grand Prix race finish, Dropped scores included. Sprint results do not count.
 
 **Latest-best tie-break**:
 The last tie-break after Countback: the Rider whose highest place came later in the Season ranks ahead.
