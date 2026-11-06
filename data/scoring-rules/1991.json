@@ -1,0 +1,13 @@
+{
+  "code": "1991",
+  "name": "1991: 20-17-15-13-11-10-9-8-7-6-5-4-3-2-1, best 13 of Rounds 1-15",
+  "source": "https://en.wikipedia.org/wiki/1991_Grand_Prix_motorcycle_racing_season (Scoring system and standings sections: points to the top 15 finishers, best 13 of 1-15 Round scores counted). Also https://global.yamaha-motor.com/race/wgp-50th/race_archive/season1990_99/1991/index.html (Yamaha gross and net totals). Also https://speedweek.com/motogp500/wmstand/560/1991.html. Checked by arithmetic on the Wikipedia final standings (docs/research/premier-class-scoring-rules.md section 1), not yet by replaying this Season's Results. To be re-checked by hand against motogp.com before this rule is published.",
+  "validFor": [1991],
+  "fastestLapPoints": 0,
+  "fastestLapRequiresFinish": true,
+  "countingWindows": [{ "fromRound": 1, "toRound": 15, "count": 13 }],
+  "points": {
+    "grand-prix-race": [20, 17, 15, 13, 11, 10, 9, 8, 7, 6, 5, 4, 3, 2, 1]
+  },
+  "notes": "Era rule for 1991. Counting windows index by Round number. Best 13 of 15, each Rider dropping their two worst Round scores ('a one-year quirk'). Rainey 233 and Doohan 224 are net totals (Yamaha WGP-50th archive)."
+}

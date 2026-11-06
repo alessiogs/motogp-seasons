@@ -1,0 +1,13 @@
+{
+  "code": "1956-57",
+  "name": "1956-57: 8-6-4-3-2-1, best 4 of Rounds 1-6",
+  "source": "https://en.wikipedia.org/wiki/1956_Grand_Prix_motorcycle_racing_season, https://en.wikipedia.org/wiki/1957_Grand_Prix_motorcycle_racing_season (Scoring system and standings sections: points to the top 6 finishers, best 4 of 1-6 Round scores counted). Checked by arithmetic on the Wikipedia final standings (docs/research/premier-class-scoring-rules.md section 1), not yet by replaying this Season's Results. To be re-checked by hand against motogp.com before this rule is published.",
+  "validFor": [1956, 1957],
+  "fastestLapPoints": 0,
+  "fastestLapRequiresFinish": true,
+  "countingWindows": [{ "fromRound": 1, "toRound": 6, "count": 4 }],
+  "points": {
+    "grand-prix-race": [8, 6, 4, 3, 2, 1]
+  },
+  "notes": "Era rule for 1956-1957. Counting windows index by Round number. Binding in 1957 (Liberati 38 counts as 32); 1956 is non-binding (only N>=4 proved by arithmetic)."
+}
