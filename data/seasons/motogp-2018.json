@@ -2,7 +2,7 @@
   "class": "motogp",
   "year": 2018,
   "scoringRule": "1993-2022",
-  "notes": "Loaded from Wikipedia (2018 MotoGP World Championship); needs a hand check against motogp.com.",
+  "notes": "Loaded from Wikipedia (2018 MotoGP World Championship); needs a hand check against motogp.com. The British GP (Round 12) was cancelled because of rain and awards no points; it is kept as a Non-championship round so the calendar numbering matches the 19-Round calendar.",
   "rounds": [
     {
       "number": 1,

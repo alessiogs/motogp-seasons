@@ -120,6 +120,13 @@ const crowned: Record<string, { rider: string; round: number; session: string; s
     session: 'grand-prix-race',
     source: 'https://en.wikipedia.org/wiki/2014_Japanese_motorcycle_Grand_Prix',
   },
+  // "Marc Márquez became MotoGP world champion in his rookie season": the Valencian finale, Round 18 of 18.
+  'motogp-2013': {
+    rider: 'marc-marquez',
+    round: 18,
+    session: 'grand-prix-race',
+    source: 'https://en.wikipedia.org/wiki/2013_Valencian_Community_motorcycle_Grand_Prix',
+  },
 };
 
 const dataDir = path.join(process.cwd(), 'data');

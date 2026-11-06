@@ -2,7 +2,7 @@
   "class": "motogp",
   "year": 2021,
   "scoringRule": "1993-2022",
-  "notes": "Loaded from Wikipedia (2021 MotoGP World Championship); needs a hand check against motogp.com.",
+  "notes": "Loaded from Wikipedia (2021 MotoGP World Championship); needs a hand check against motogp.com. Red flags stopped the Styrian and Algarve GPs early; both keep full points.",
   "rounds": [
     {
       "number": 1,

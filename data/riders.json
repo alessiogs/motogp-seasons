@@ -3633,5 +3633,68 @@
     "sourceIds": {
       "wikipedia": "Randy de Puniet"
     }
+  },
+  {
+    "id": "ben-spies",
+    "name": "Ben Spies",
+    "sourceIds": {
+      "wikipedia": "Ben Spies"
+    }
+  },
+  {
+    "id": "lukas-pesek",
+    "name": "Lukáš Pešek",
+    "sourceIds": {
+      "wikipedia": "Lukáš Pešek"
+    }
+  },
+  {
+    "id": "bryan-staring",
+    "name": "Bryan Staring",
+    "sourceIds": {
+      "wikipedia": "Bryan Staring"
+    }
+  },
+  {
+    "id": "blake-young",
+    "name": "Blake Young",
+    "sourceIds": {
+      "wikipedia": "Blake Young (motorcyclist)"
+    }
+  },
+  {
+    "id": "mike-barnes",
+    "name": "Mike Barnes",
+    "sourceIds": {
+      "wikipedia": "Michael Barnes (motorcyclist)"
+    }
+  },
+  {
+    "id": "javier-del-amor",
+    "name": "Javier del Amor",
+    "sourceIds": {
+      "wikipedia": "Javier del Amor"
+    }
+  },
+  {
+    "id": "ivan-silva",
+    "name": "Iván Silva",
+    "sourceIds": {
+      "wikipedia": "Iván Silva (motorcyclist)"
+    }
+  },
+  {
+    "id": "martin-bauer",
+    "name": "Martin Bauer",
+    "sourceIds": {
+      "wikipedia": "Martin Bauer (motorcyclist)"
+    }
+  },
+  {
+    "id": "luca-scassa",
+    "name": "Luca Scassa",
+    "sourceIds": {
+      "wikipedia": "Luca Scassa"
+    }
   }
 ]

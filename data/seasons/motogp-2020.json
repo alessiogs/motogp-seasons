@@ -2,7 +2,7 @@
   "class": "motogp",
   "year": 2020,
   "scoringRule": "1993-2022",
-  "notes": "Loaded from Wikipedia (2020 MotoGP World Championship); needs a hand check against motogp.com.",
+  "notes": "Loaded from Wikipedia (2020 MotoGP World Championship); needs a hand check against motogp.com. The calendar was shortened to 14 Rounds by the COVID-19 pandemic. Yamaha's engine-valve penalties were applied to the manufacturer and team standings only, so no Rider points change.",
   "rounds": [
     {
       "number": 1,
