@@ -65,7 +65,38 @@ describe('buildDatabase', () => {
       '500cc-1999.json: Team "Team A" has Results on Maker B (1), Maker A (1)',
     ]);
   });
+
+  it('warns about each pair of Riders whose names match on surname and first initial', () => {
+    const clean = copyOfFixture();
+    expect(buildDatabase(clean, path.join(clean, 'out.db'))).toEqual([]);
+
+    const dir = renamedRider('unused-rider', 'Roger One');
+    expect(buildDatabase(dir, path.join(dir, 'out.db'))).toEqual([
+      'riders.json: Riders "rider-one" (Rider One) and "unused-rider" (Roger One) have near-identical names',
+    ]);
+  });
+
+  it('matches Rider names whatever their accents and case', () => {
+    const dir = renamedRider('unused-rider', 'RÍDÉR ÓNE');
+    expect(buildDatabase(dir, path.join(dir, 'out.db'))).toEqual([
+      'riders.json: Riders "rider-one" (Rider One) and "unused-rider" (RÍDÉR ÓNE) have near-identical names',
+    ]);
+  });
+
+  it('does not warn about Riders sharing a surname but not a first initial', () => {
+    const dir = renamedRider('unused-rider', 'Zed One');
+    expect(buildDatabase(dir, path.join(dir, 'out.db'))).toEqual([]);
+  });
 });
+
+function renamedRider(id: string, name: string) {
+  const dir = copyOfFixture();
+  const ridersPath = path.join(dir, 'riders.json');
+  const riders = JSON.parse(readFileSync(ridersPath, 'utf8')) as { id: string; name: string }[];
+  riders.find((r) => r.id === id)!.name = name;
+  writeFileSync(ridersPath, JSON.stringify(riders));
+  return dir;
+}
 
 function copyOfFixture() {
   const dir = mkdtempSync(path.join(tmpdir(), 'motogp-fixture-'));

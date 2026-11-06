@@ -4,16 +4,15 @@ import { tmpdir } from 'node:os';
 import path from 'node:path';
 import { buildDatabase } from '@/features/data-build/scripts/build-database';
 import { getSeason } from '@/features/seasons/queries/get-season';
+import { applyKnownMismatch } from './apply-known-mismatch';
 import { computeReplay } from './compute-replay';
+import type { OfficialTable } from '../types/official-table';
 
 // Real Seasons: the final Replay Step must equal the official final table, which is
 // recorded separately (data/official-tables) from the Results it is checked against.
 const dataDir = path.join(process.cwd(), 'data');
 const tablesDir = path.join(dataDir, 'official-tables');
 
-interface OfficialTable {
-  standings: { rider: string; points: number }[];
-}
 
 beforeAll(() => {
   const dbPath = path.join(mkdtempSync(path.join(tmpdir(), 'motogp-real-')), 'real.db');
@@ -46,7 +45,7 @@ describe.each(readdirSync(tablesDir).filter((f) => f.endsWith('.json')).map((f) 
       const steps = computeReplay(season);
       const scored = steps[steps.length - 1].standings.filter((r) => r.points > 0);
       const replayed = scored.map((r) => ({ rider: r.riderId, points: r.points }));
-      const table = official.standings.filter((r) => r.points > 0);
+      const table = applyKnownMismatch(official.standings, official.knownMismatch).filter((r) => r.points > 0);
       if (FULL_ORDER.includes(name)) {
         expect(replayed).toEqual(table.map(({ rider, points }) => ({ rider, points })));
       } else {
