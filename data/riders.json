@@ -3458,5 +3458,54 @@
     "sourceIds": {
       "wikipedia": "Mike Jones (motorcyclist)"
     }
+  },
+  {
+    "id": "loris-baz",
+    "name": "Loris Baz",
+    "sourceIds": {
+      "wikipedia": "Loris Baz"
+    }
+  },
+  {
+    "id": "hector-barbera",
+    "name": "Héctor Barberá",
+    "sourceIds": {
+      "wikipedia": "Héctor Barberá"
+    }
+  },
+  {
+    "id": "sam-lowes",
+    "name": "Sam Lowes",
+    "sourceIds": {
+      "wikipedia": "Sam Lowes"
+    }
+  },
+  {
+    "id": "hiroshi-aoyama",
+    "name": "Hiroshi Aoyama",
+    "sourceIds": {
+      "wikipedia": "Hiroshi Aoyama"
+    }
+  },
+  {
+    "id": "kohta-nozane",
+    "name": "Kohta Nozane",
+    "sourceIds": {
+      "wikipedia": "Kohta Nozane"
+    }
+  },
+  {
+    "id": "broc-parkes",
+    "name": "Broc Parkes",
+    "sourceIds": {
+      "wikipedia": "Broc Parkes"
+    }
+  },
+  {
+    "id": "michael-van-der-mark",
+    "name": "Michael van der Mark",
+    "sourceIds": {
+      "wikipedia": "Michael van der Mark"
+    }
   }
 ]
