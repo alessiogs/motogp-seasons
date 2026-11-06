@@ -19,7 +19,7 @@ export function ridersWithMatchingNames<T extends { name: string }>(riders: T[])
 function matchKey(name: string): string {
   const [first = '', ...surname] = name
     .normalize('NFD')
-    .replace(/[̀-ͯ]/g, '')
+    .replace(/[\u0300-\u036f]/g, '')
     .toLowerCase()
     .split(/\s+/)
     .filter(Boolean);
