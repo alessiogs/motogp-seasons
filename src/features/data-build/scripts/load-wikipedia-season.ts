@@ -4,6 +4,7 @@
 //
 // Writes data/seasons/<class>-<year>.json, adds new Riders to data/riders.json and writes the
 // official final table seen on Wikipedia to data/official-tables/<class>-<year>.json (used by tests).
+// Re-running it overwrites that file, so re-add any hand-written `knownMismatch` afterwards.
 // Team names are written as the Team names in the hand-authored data/teams/<class>-<year>.json,
 // mapping each spelling variant listed there; Teams it does not list are written as spelled and
 // make the data build fail until they are added to it.
