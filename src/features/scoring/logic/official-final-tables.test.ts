@@ -32,7 +32,7 @@ function byPoints(rows: { rider: string; points: number }[]) {
 }
 
 // Seasons whose official table states a full order, ties included: the replayed order must match it rank by rank.
-const FULL_ORDER = ['motogp-2024'];
+const FULL_ORDER = ['motogp-2023', 'motogp-2024', 'motogp-2025'];
 
 describe.each(readdirSync(tablesDir).filter((f) => f.endsWith('.json')).map((f) => f.replace('.json', '')))(
   'final Step of %s',
@@ -106,6 +106,34 @@ describe('2024 MotoGP', () => {
     const results = season.rounds.flatMap((r) => r.sessions.flatMap((s) => s.results));
     expect(results.length).toBeGreaterThan(0);
     expect(results.every((r) => r.source.length > 0)).toBe(true);
+  });
+});
+
+describe('2023 MotoGP', () => {
+  it('has 20 Rounds and no Sprint Step in Australia, where the Sprint was cancelled', () => {
+    const season = getSeason('motogp', 2023)!;
+    const steps = computeReplay(season);
+    expect(season.rounds).toHaveLength(20);
+    expect(steps).toHaveLength(39);
+    expect(steps.filter((s) => s.roundNumber === 16).map((s) => s.sessionType)).toEqual(['grand-prix-race']);
+    expect(season.rounds.find((r) => r.number === 16)!.notes).toMatch(/sprint/i);
+  });
+
+  it('scores the stopped Japanese Grand Prix at full points', () => {
+    const japan = getSeason('motogp', 2023)!.rounds.find((r) => r.number === 14)!;
+    expect(japan.sessions.map((s) => s.pointsMultiplier)).toEqual([1, 1]);
+  });
+});
+
+describe('2025 MotoGP', () => {
+  it('has 22 Rounds and ends with M. Márquez 545, A. Márquez 467 and Bezzecchi 353', () => {
+    const season = getSeason('motogp', 2025)!;
+    const steps = computeReplay(season);
+    expect(season.rounds).toHaveLength(22);
+    expect(steps).toHaveLength(44);
+    expect(steps.at(-1)!.standings.slice(0, 3).map((r) => [r.riderId, r.points])).toEqual([
+      ['marc-marquez', 545], ['alex-marquez', 467], ['marco-bezzecchi', 353],
+    ]);
   });
 });
 
