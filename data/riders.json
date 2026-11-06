@@ -3304,5 +3304,40 @@
     "sourceIds": {
       "wikipedia": "Álvaro Bautista"
     }
+  },
+  {
+    "id": "andrea-dovizioso",
+    "name": "Andrea Dovizioso",
+    "sourceIds": {
+      "wikipedia": "Andrea Dovizioso"
+    }
+  },
+  {
+    "id": "darryn-binder",
+    "name": "Darryn Binder",
+    "sourceIds": {
+      "wikipedia": "Darryn Binder"
+    }
+  },
+  {
+    "id": "kazuki-watanabe",
+    "name": "Kazuki Watanabe",
+    "sourceIds": {
+      "wikipedia": "Kazuki Watanabe (motorcyclist)"
+    }
+  },
+  {
+    "id": "takuya-tsuda",
+    "name": "Takuya Tsuda",
+    "sourceIds": {
+      "wikipedia": "Takuya Tsuda"
+    }
+  },
+  {
+    "id": "tetsuta-nagashima",
+    "name": "Tetsuta Nagashima",
+    "sourceIds": {
+      "wikipedia": "Tetsuta Nagashima"
+    }
   }
 ]
