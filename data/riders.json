@@ -3409,5 +3409,54 @@
     "sourceIds": {
       "wikipedia": "Sylvain Guintoli"
     }
+  },
+  {
+    "id": "thomas-luthi",
+    "name": "Thomas Lüthi",
+    "sourceIds": {
+      "wikipedia": "Thomas Lüthi"
+    }
+  },
+  {
+    "id": "scott-redding",
+    "name": "Scott Redding",
+    "sourceIds": {
+      "wikipedia": "Scott Redding"
+    }
+  },
+  {
+    "id": "xavier-simeon",
+    "name": "Xavier Siméon",
+    "sourceIds": {
+      "wikipedia": "Xavier Siméon"
+    }
+  },
+  {
+    "id": "christophe-ponsson",
+    "name": "Christophe Ponsson",
+    "sourceIds": {
+      "wikipedia": "Christophe Ponsson"
+    }
+  },
+  {
+    "id": "jordi-torres",
+    "name": "Jordi Torres",
+    "sourceIds": {
+      "wikipedia": "Jordi Torres"
+    }
+  },
+  {
+    "id": "katsuyuki-nakasuga",
+    "name": "Katsuyuki Nakasuga",
+    "sourceIds": {
+      "wikipedia": "Katsuyuki Nakasuga"
+    }
+  },
+  {
+    "id": "mike-jones",
+    "name": "Mike Jones",
+    "sourceIds": {
+      "wikipedia": "Mike Jones (motorcyclist)"
+    }
   }
 ]

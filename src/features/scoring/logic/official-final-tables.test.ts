@@ -32,7 +32,7 @@ function byPoints(rows: { rider: string; points: number }[]) {
 }
 
 // Seasons whose official table states a full order, ties included: the replayed order must match it rank by rank.
-const FULL_ORDER = ['motogp-2019', 'motogp-2020', 'motogp-2021', 'motogp-2022', 'motogp-2023', 'motogp-2024', 'motogp-2025'];
+const FULL_ORDER = ['motogp-2018', 'motogp-2019', 'motogp-2020', 'motogp-2021', 'motogp-2022', 'motogp-2023', 'motogp-2024', 'motogp-2025'];
 
 describe.each(readdirSync(tablesDir).filter((f) => f.endsWith('.json')).map((f) => f.replace('.json', '')))(
   'final Step of %s',

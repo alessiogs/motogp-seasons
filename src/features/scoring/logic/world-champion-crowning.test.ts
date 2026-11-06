@@ -85,6 +85,13 @@ const crowned: Record<string, { rider: string; round: number; session: string; s
     session: 'grand-prix-race',
     source: 'https://en.wikipedia.org/wiki/2019_Thailand_motorcycle_Grand_Prix',
   },
+  // "Marc Márquez clinched his third consecutive MotoGP title after Andrea Dovizioso crashed during the penultimate lap": the Japanese Grand Prix, the sixteenth round counting the cancelled British one, Round 16 of 19.
+  'motogp-2018': {
+    rider: 'marc-marquez',
+    round: 16,
+    session: 'grand-prix-race',
+    source: 'https://en.wikipedia.org/wiki/2018_Japanese_motorcycle_Grand_Prix',
+  },
 };
 
 const dataDir = path.join(process.cwd(), 'data');
