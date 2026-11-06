@@ -3542,5 +3542,68 @@
     "sourceIds": {
       "wikipedia": "Nicky Hayden"
     }
+  },
+  {
+    "id": "mike-di-meglio",
+    "name": "Mike Di Meglio",
+    "sourceIds": {
+      "wikipedia": "Mike Di Meglio"
+    }
+  },
+  {
+    "id": "alex-de-angelis",
+    "name": "Alex de Angelis",
+    "sourceIds": {
+      "wikipedia": "Alex de Angelis"
+    }
+  },
+  {
+    "id": "marco-melandri",
+    "name": "Marco Melandri",
+    "sourceIds": {
+      "wikipedia": "Marco Melandri"
+    }
+  },
+  {
+    "id": "michael-laverty",
+    "name": "Michael Laverty",
+    "sourceIds": {
+      "wikipedia": "Michael Laverty"
+    }
+  },
+  {
+    "id": "claudio-corti",
+    "name": "Claudio Corti",
+    "sourceIds": {
+      "wikipedia": "Claudio Corti (motorcyclist)"
+    }
+  },
+  {
+    "id": "toni-elias",
+    "name": "Toni Elías",
+    "sourceIds": {
+      "wikipedia": "Toni Elías"
+    }
+  },
+  {
+    "id": "kousuke-akiyoshi",
+    "name": "Kousuke Akiyoshi",
+    "sourceIds": {
+      "wikipedia": "Kousuke Akiyoshi"
+    }
+  },
+  {
+    "id": "anthony-west",
+    "name": "Anthony West",
+    "sourceIds": {
+      "wikipedia": "Anthony West (motorcyclist)"
+    }
+  },
+  {
+    "id": "damian-cudlin",
+    "name": "Damian Cudlin",
+    "sourceIds": {
+      "wikipedia": "Damian Cudlin"
+    }
   }
 ]

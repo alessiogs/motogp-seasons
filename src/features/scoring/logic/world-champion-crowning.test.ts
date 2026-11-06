@@ -106,6 +106,13 @@ const crowned: Record<string, { rider: string; round: number; session: string; s
     session: 'grand-prix-race',
     source: 'https://en.wikipedia.org/wiki/2016_Japanese_motorcycle_Grand_Prix',
   },
+  // "Lorenzo was subject to heavy pressure by the Honda riders during the final lap, but held on to claim his third MotoGP and fifth overall title": the Valencian finale, Round 18 of 18.
+  'motogp-2015': {
+    rider: 'jorge-lorenzo',
+    round: 18,
+    session: 'grand-prix-race',
+    source: 'https://en.wikipedia.org/wiki/2015_Valencian_Community_motorcycle_Grand_Prix',
+  },
 };
 
 const dataDir = path.join(process.cwd(), 'data');
