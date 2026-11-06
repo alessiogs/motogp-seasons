@@ -141,6 +141,13 @@ const crowned: Record<string, { rider: string; round: number; session: string; s
     session: 'grand-prix-race',
     source: 'https://en.wikipedia.org/wiki/2011_Australian_motorcycle_Grand_Prix',
   },
+  // "Jorge Lorenzo was crowned MotoGP World Champion for the first time, after he finished third in the Malaysian Grand Prix on 10 October": the Malaysian Grand Prix, Round 15 of 18.
+  'motogp-2010': {
+    rider: 'jorge-lorenzo',
+    round: 15,
+    session: 'grand-prix-race',
+    source: 'https://en.wikipedia.org/wiki/2010_Grand_Prix_motorcycle_racing_season',
+  },
 };
 
 const dataDir = path.join(process.cwd(), 'data');

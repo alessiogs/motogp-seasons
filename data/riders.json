@@ -3801,5 +3801,26 @@
     "sourceIds": {
       "wikipedia": "Josh Hayes (motorcyclist)"
     }
+  },
+  {
+    "id": "wataru-yoshikawa",
+    "name": "Wataru Yoshikawa",
+    "sourceIds": {
+      "wikipedia": "Wataru Yoshikawa"
+    }
+  },
+  {
+    "id": "roger-lee-hayden",
+    "name": "Roger Lee Hayden",
+    "sourceIds": {
+      "wikipedia": "Roger Lee Hayden"
+    }
+  },
+  {
+    "id": "carlos-checa",
+    "name": "Carlos Checa",
+    "sourceIds": {
+      "wikipedia": "Carlos Checa"
+    }
   }
 ]
