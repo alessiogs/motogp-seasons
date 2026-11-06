@@ -78,6 +78,13 @@ const crowned: Record<string, { rider: string; round: number; session: string; s
     session: 'grand-prix-race',
     source: 'https://en.wikipedia.org/wiki/2020_Valencian_Community_motorcycle_Grand_Prix',
   },
+  // "Marc Márquez won the MotoGP race, ensuring his sixth world title in the class": the Thailand Grand Prix, Round 15 of 19.
+  'motogp-2019': {
+    rider: 'marc-marquez',
+    round: 15,
+    session: 'grand-prix-race',
+    source: 'https://en.wikipedia.org/wiki/2019_Thailand_motorcycle_Grand_Prix',
+  },
 };
 
 const dataDir = path.join(process.cwd(), 'data');

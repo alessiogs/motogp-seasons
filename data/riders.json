@@ -3381,5 +3381,33 @@
     "sourceIds": {
       "wikipedia": "Mika Kallio"
     }
+  },
+  {
+    "id": "jorge-lorenzo",
+    "name": "Jorge Lorenzo",
+    "sourceIds": {
+      "wikipedia": "Jorge Lorenzo"
+    }
+  },
+  {
+    "id": "karel-abraham",
+    "name": "Karel Abraham",
+    "sourceIds": {
+      "wikipedia": "Karel Abraham"
+    }
+  },
+  {
+    "id": "hafizh-syahrin",
+    "name": "Hafizh Syahrin",
+    "sourceIds": {
+      "wikipedia": "Hafizh Syahrin"
+    }
+  },
+  {
+    "id": "sylvain-guintoli",
+    "name": "Sylvain Guintoli",
+    "sourceIds": {
+      "wikipedia": "Sylvain Guintoli"
+    }
   }
 ]
