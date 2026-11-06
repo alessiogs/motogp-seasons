@@ -28,8 +28,10 @@ export function parseRound(
   }
 
   const sprintTable = tables.find((t) => t.path.some((p) => /sprint/i.test(p)) && !t.path.some((p) => /moto[23]/i.test(p)));
+  // 2023 on files the race under "Race" > "MotoGP"; 2013-2022 (no Sprint) under "Classification" > "MotoGP".
   const raceTable = tables.find((t) => t.path[0] === 'Race' && t.path[t.path.length - 1] === 'MotoGP')
-    ?? tables.find((t) => t.path.includes('Race') && t.path.includes('MotoGP'));
+    ?? tables.find((t) => t.path.includes('Race') && t.path.includes('MotoGP'))
+    ?? tables.find((t) => t.path[0] === 'Classification' && t.path[t.path.length - 1] === 'MotoGP');
   if (!raceTable) throw new Error(`${title}: no MotoGP race classification found`);
 
   const sessions = [];
@@ -41,7 +43,7 @@ export function parseRound(
     });
   }
   sessions.push({
-    type: 'grand-prix-race', order: 2, date, pointsMultiplier: 1, notes: null,
+    type: 'grand-prix-race', order: sessions.length + 1, date, pointsMultiplier: 1, notes: null,
     results: parseClassification(raceTable.text, source, riderId),
   });
 
