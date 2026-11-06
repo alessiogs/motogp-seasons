@@ -36,3 +36,28 @@ describe('parseRound for a MotoGP Round without a Sprint', () => {
     expect((other.sessions[0] as { results: unknown[] }).results).toHaveLength(3);
   });
 });
+
+describe('parseRound for a cancelled Grand Prix', () => {
+  // The 2018 British report article keeps the infobox and qualifying but has no classification.
+  const cancelled = `{{Infobox Grand Prix motorcycle race report
+| Grand Prix = British
+| Date = 26 August
+}}
+
+The '''2018 British motorcycle Grand Prix''' was the scheduled twelfth round of the 2018 MotoGP season. Planned to be held at the [[Silverstone Circuit]] on 26 August 2018, the race was cancelled due to heavy rain.
+
+==Qualifying==
+Qualifying was conducted on 25 August 2018.
+`;
+
+  it('has no Round to load, so the loader leaves it out for a hand-written Non-championship round', () => {
+    expect(parseRound(12, '2018 British motorcycle Grand Prix', 2018, cancelled, riderId, 'motogp')).toBeNull();
+  });
+
+  it('still refuses a report that has no classification and was not cancelled', () => {
+    const broken = cancelled.replace('the race was cancelled due to heavy rain', 'the race was held');
+    expect(() => parseRound(12, '2018 British motorcycle Grand Prix', 2018, broken, riderId, 'motogp')).toThrow(
+      /no MotoGP race classification/,
+    );
+  });
+});
