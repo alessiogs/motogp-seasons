@@ -3234,5 +3234,75 @@
     "sourceIds": {
       "wikipedia": "Rex McCandless"
     }
+  },
+  {
+    "id": "ai-ogura",
+    "name": "Ai Ogura",
+    "sourceIds": {
+      "wikipedia": "Ai Ogura"
+    }
+  },
+  {
+    "id": "fermin-aldeguer",
+    "name": "Fermín Aldeguer",
+    "sourceIds": {
+      "wikipedia": "Fermín Aldeguer"
+    }
+  },
+  {
+    "id": "somkiat-chantra",
+    "name": "Somkiat Chantra",
+    "sourceIds": {
+      "wikipedia": "Somkiat Chantra"
+    }
+  },
+  {
+    "id": "nicolo-bulega",
+    "name": "Nicolò Bulega",
+    "sourceIds": {
+      "wikipedia": "Nicolò Bulega"
+    }
+  },
+  {
+    "id": "jonas-folger",
+    "name": "Jonas Folger",
+    "sourceIds": {
+      "wikipedia": "Jonas Folger"
+    }
+  },
+  {
+    "id": "iker-lecuona",
+    "name": "Iker Lecuona",
+    "sourceIds": {
+      "wikipedia": "Iker Lecuona"
+    }
+  },
+  {
+    "id": "danilo-petrucci",
+    "name": "Danilo Petrucci",
+    "sourceIds": {
+      "wikipedia": "Danilo Petrucci"
+    }
+  },
+  {
+    "id": "takumi-takahashi",
+    "name": "Takumi Takahashi",
+    "sourceIds": {
+      "wikipedia": "Takumi Takahashi"
+    }
+  },
+  {
+    "id": "cal-crutchlow",
+    "name": "Cal Crutchlow",
+    "sourceIds": {
+      "wikipedia": "Cal Crutchlow"
+    }
+  },
+  {
+    "id": "alvaro-bautista",
+    "name": "Álvaro Bautista",
+    "sourceIds": {
+      "wikipedia": "Álvaro Bautista"
+    }
   }
 ]

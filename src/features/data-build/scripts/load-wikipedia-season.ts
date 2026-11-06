@@ -148,7 +148,13 @@ async function main() {
 
 async function fetchWikitext(title: string): Promise<string> {
   const url = `${API}?action=parse&page=${encodeURIComponent(title)}&prop=wikitext&redirects=1&format=json&formatversion=2`;
-  const res = await fetch(url, { headers: { 'User-Agent': USER_AGENT } });
+  let res = await fetch(url, { headers: { 'User-Agent': USER_AGENT } });
+  // Wikipedia rate-limits a Season's dozens of Round pages with 429s: back off and retry.
+  for (let attempt = 1; res.status === 429 && attempt <= 6; attempt++) {
+    const retryAfter = Number(res.headers.get('retry-after'));
+    await new Promise((r) => setTimeout(r, (retryAfter > 0 ? retryAfter : 2 ** attempt) * 1000));
+    res = await fetch(url, { headers: { 'User-Agent': USER_AGENT } });
+  }
   if (!res.ok) throw new Error(`Wikipedia returned ${res.status} for ${title}`);
   const json = (await res.json()) as { parse?: { wikitext: string }; error?: { info: string } };
   if (!json.parse) throw new Error(`Wikipedia: ${json.error?.info ?? 'no page'} (${title})`);

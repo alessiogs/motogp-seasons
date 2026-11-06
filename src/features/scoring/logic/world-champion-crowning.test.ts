@@ -33,6 +33,14 @@ const crowned: Record<string, { rider: string; round: number; session: string; s
     session: 'grand-prix-race',
     source: 'https://en.wikipedia.org/wiki/1976_Grand_Prix_motorcycle_racing_season',
   },
+  // "Francesco Bagnaia successfully defended his Riders' Championship by winning the Grand Prix and with
+  // closest title contender Jorge Martín crashing out": the Valencian finale, Round 20 of 20.
+  'motogp-2023': {
+    rider: 'francesco-bagnaia',
+    round: 20,
+    session: 'grand-prix-race',
+    source: 'https://en.wikipedia.org/wiki/2023_Valencian_Community_motorcycle_Grand_Prix',
+  },
   // Martín went into the Barcelona finale 24 points up; Bagnaia won the Sprint (Martín 3rd, 19 up with
   // 25 left), and Martín's 3rd place in the Grand Prix race, the last Step, decided it.
   'motogp-2024': {
@@ -40,6 +48,14 @@ const crowned: Record<string, { rider: string; round: number; session: string; s
     round: 20,
     session: 'grand-prix-race',
     source: 'https://en.wikipedia.org/wiki/2024_MotoGP_World_Championship',
+  },
+  // "Marc Márquez of Ducati Lenovo Team finished second in the main race, clinching his seventh MotoGP
+  // World Riders' Championship": the Japanese Grand Prix, Round 17 of 22.
+  'motogp-2025': {
+    rider: 'marc-marquez',
+    round: 17,
+    session: 'grand-prix-race',
+    source: 'https://en.wikipedia.org/wiki/2025_Japanese_motorcycle_Grand_Prix',
   },
 };
 
