@@ -1,0 +1,165 @@
+{
+  "source": "https://en.wikipedia.org/wiki/2018_MotoGP_World_Championship",
+  "standings": [
+    {
+      "position": 1,
+      "rider": "marc-marquez",
+      "points": 321
+    },
+    {
+      "position": 2,
+      "rider": "andrea-dovizioso",
+      "points": 245
+    },
+    {
+      "position": 3,
+      "rider": "valentino-rossi",
+      "points": 198
+    },
+    {
+      "position": 4,
+      "rider": "maverick-vinales",
+      "points": 193
+    },
+    {
+      "position": 5,
+      "rider": "alex-rins",
+      "points": 169
+    },
+    {
+      "position": 6,
+      "rider": "johann-zarco",
+      "points": 158
+    },
+    {
+      "position": 7,
+      "rider": "cal-crutchlow",
+      "points": 148
+    },
+    {
+      "position": 8,
+      "rider": "danilo-petrucci",
+      "points": 144
+    },
+    {
+      "position": 9,
+      "rider": "jorge-lorenzo",
+      "points": 134
+    },
+    {
+      "position": 10,
+      "rider": "andrea-iannone",
+      "points": 133
+    },
+    {
+      "position": 11,
+      "rider": "dani-pedrosa",
+      "points": 117
+    },
+    {
+      "position": 12,
+      "rider": "alvaro-bautista",
+      "points": 105
+    },
+    {
+      "position": 13,
+      "rider": "jack-miller",
+      "points": 91
+    },
+    {
+      "position": 14,
+      "rider": "pol-espargaro",
+      "points": 51
+    },
+    {
+      "position": 15,
+      "rider": "franco-morbidelli",
+      "points": 50
+    },
+    {
+      "position": 16,
+      "rider": "hafizh-syahrin",
+      "points": 46
+    },
+    {
+      "position": 17,
+      "rider": "aleix-espargaro",
+      "points": 44
+    },
+    {
+      "position": 18,
+      "rider": "bradley-smith",
+      "points": 38
+    },
+    {
+      "position": 19,
+      "rider": "tito-rabat",
+      "points": 35
+    },
+    {
+      "position": 20,
+      "rider": "takaaki-nakagami",
+      "points": 33
+    },
+    {
+      "position": 21,
+      "rider": "scott-redding",
+      "points": 20
+    },
+    {
+      "position": 22,
+      "rider": "michele-pirro",
+      "points": 14
+    },
+    {
+      "position": 23,
+      "rider": "karel-abraham",
+      "points": 12
+    },
+    {
+      "position": 24,
+      "rider": "stefan-bradl",
+      "points": 10
+    },
+    {
+      "position": 25,
+      "rider": "mika-kallio",
+      "points": 6
+    },
+    {
+      "position": 26,
+      "rider": "katsuyuki-nakasuga",
+      "points": 2
+    },
+    {
+      "position": 27,
+      "rider": "xavier-simeon",
+      "points": 1
+    },
+    {
+      "position": 28,
+      "rider": "jordi-torres",
+      "points": 1
+    },
+    {
+      "position": 29,
+      "rider": "thomas-luthi",
+      "points": 0
+    },
+    {
+      "position": 30,
+      "rider": "mike-jones",
+      "points": 0
+    },
+    {
+      "position": 31,
+      "rider": "sylvain-guintoli",
+      "points": 0
+    },
+    {
+      "position": 32,
+      "rider": "christophe-ponsson",
+      "points": 0
+    }
+  ]
+}

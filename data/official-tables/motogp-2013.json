@@ -1,0 +1,140 @@
+{
+  "source": "https://en.wikipedia.org/wiki/2013_MotoGP_World_Championship",
+  "standings": [
+    {
+      "position": 1,
+      "rider": "marc-marquez",
+      "points": 334
+    },
+    {
+      "position": 2,
+      "rider": "jorge-lorenzo",
+      "points": 330
+    },
+    {
+      "position": 3,
+      "rider": "dani-pedrosa",
+      "points": 300
+    },
+    {
+      "position": 4,
+      "rider": "valentino-rossi",
+      "points": 237
+    },
+    {
+      "position": 5,
+      "rider": "cal-crutchlow",
+      "points": 188
+    },
+    {
+      "position": 6,
+      "rider": "alvaro-bautista",
+      "points": 171
+    },
+    {
+      "position": 7,
+      "rider": "stefan-bradl",
+      "points": 156
+    },
+    {
+      "position": 8,
+      "rider": "andrea-dovizioso",
+      "points": 140
+    },
+    {
+      "position": 9,
+      "rider": "nicky-hayden",
+      "points": 126
+    },
+    {
+      "position": 10,
+      "rider": "bradley-smith",
+      "points": 116
+    },
+    {
+      "position": 11,
+      "rider": "aleix-espargaro",
+      "points": 93
+    },
+    {
+      "position": 12,
+      "rider": "andrea-iannone",
+      "points": 57
+    },
+    {
+      "position": 13,
+      "rider": "michele-pirro",
+      "points": 56
+    },
+    {
+      "position": 14,
+      "rider": "colin-edwards",
+      "points": 41
+    },
+    {
+      "position": 15,
+      "rider": "randy-de-puniet",
+      "points": 36
+    },
+    {
+      "position": 16,
+      "rider": "hector-barbera",
+      "points": 35
+    },
+    {
+      "position": 17,
+      "rider": "danilo-petrucci",
+      "points": 26
+    },
+    {
+      "position": 18,
+      "rider": "yonny-hernandez",
+      "points": 21
+    },
+    {
+      "position": 19,
+      "rider": "claudio-corti",
+      "points": 14
+    },
+    {
+      "position": 20,
+      "rider": "hiroshi-aoyama",
+      "points": 13
+    },
+    {
+      "position": 21,
+      "rider": "ben-spies",
+      "points": 9
+    },
+    {
+      "position": 22,
+      "rider": "katsuyuki-nakasuga",
+      "points": 5
+    },
+    {
+      "position": 23,
+      "rider": "alex-de-angelis",
+      "points": 5
+    },
+    {
+      "position": 24,
+      "rider": "karel-abraham",
+      "points": 5
+    },
+    {
+      "position": 25,
+      "rider": "michael-laverty",
+      "points": 3
+    },
+    {
+      "position": 26,
+      "rider": "bryan-staring",
+      "points": 2
+    },
+    {
+      "position": 27,
+      "rider": "javier-del-amor",
+      "points": 1
+    }
+  ]
+}

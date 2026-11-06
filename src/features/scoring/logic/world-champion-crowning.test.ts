@@ -57,6 +57,76 @@ const crowned: Record<string, { rider: string; round: number; session: string; s
     session: 'grand-prix-race',
     source: 'https://en.wikipedia.org/wiki/2025_Japanese_motorcycle_Grand_Prix',
   },
+  // "Bagnaia secured his first MotoGP riders' title after finishing in ninth, as Quartararo's fourth-place-finish was eventually not enough": the Valencian finale, Round 20 of 20.
+  'motogp-2022': {
+    rider: 'francesco-bagnaia',
+    round: 20,
+    session: 'grand-prix-race',
+    source: 'https://en.wikipedia.org/wiki/2022_Valencian_Community_motorcycle_Grand_Prix',
+  },
+  // "Ultimately finishing the race in fourth after a last-lap pass by Enea Bastianini, Quartararo was crowned the 2021 MotoGP World Champion": the Emilia Romagna Grand Prix, Round 16 of 18.
+  'motogp-2021': {
+    rider: 'fabio-quartararo',
+    round: 16,
+    session: 'grand-prix-race',
+    source: 'https://en.wikipedia.org/wiki/2021_MotoGP_World_Championship',
+  },
+  // "Joan Mir claimed the premier class title after securing seventh place": the Valencian Community Grand Prix, Round 13 of 14.
+  'motogp-2020': {
+    rider: 'joan-mir',
+    round: 13,
+    session: 'grand-prix-race',
+    source: 'https://en.wikipedia.org/wiki/2020_Valencian_Community_motorcycle_Grand_Prix',
+  },
+  // "Marc Márquez won the MotoGP race, ensuring his sixth world title in the class": the Thailand Grand Prix, Round 15 of 19.
+  'motogp-2019': {
+    rider: 'marc-marquez',
+    round: 15,
+    session: 'grand-prix-race',
+    source: 'https://en.wikipedia.org/wiki/2019_Thailand_motorcycle_Grand_Prix',
+  },
+  // "Marc Márquez clinched his third consecutive MotoGP title after Andrea Dovizioso crashed during the penultimate lap": the Japanese Grand Prix, the sixteenth round counting the cancelled British one, Round 16 of 19.
+  'motogp-2018': {
+    rider: 'marc-marquez',
+    round: 16,
+    session: 'grand-prix-race',
+    source: 'https://en.wikipedia.org/wiki/2018_Japanese_motorcycle_Grand_Prix',
+  },
+  // "Marc Márquez clinched his fourth premier class title and sixth overall with a third place finish after rival Andrea Dovizioso crashed out": the Valencian finale, Round 18 of 18.
+  'motogp-2017': {
+    rider: 'marc-marquez',
+    round: 18,
+    session: 'grand-prix-race',
+    source: 'https://en.wikipedia.org/wiki/2017_Valencian_Community_motorcycle_Grand_Prix',
+  },
+  // "Marc Márquez, doing a burnout and celebrating his third MotoGP world championship title after winning the race" (photo caption in the article): the Japanese Grand Prix, Round 15 of 18.
+  'motogp-2016': {
+    rider: 'marc-marquez',
+    round: 15,
+    session: 'grand-prix-race',
+    source: 'https://en.wikipedia.org/wiki/2016_Japanese_motorcycle_Grand_Prix',
+  },
+  // "Lorenzo was subject to heavy pressure by the Honda riders during the final lap, but held on to claim his third MotoGP and fifth overall title": the Valencian finale, Round 18 of 18.
+  'motogp-2015': {
+    rider: 'jorge-lorenzo',
+    round: 18,
+    session: 'grand-prix-race',
+    source: 'https://en.wikipedia.org/wiki/2015_Valencian_Community_motorcycle_Grand_Prix',
+  },
+  // "a second-place finish for Marc Márquez was good enough for his second consecutive premier class world championship": the Japanese Grand Prix, Round 15 of 18.
+  'motogp-2014': {
+    rider: 'marc-marquez',
+    round: 15,
+    session: 'grand-prix-race',
+    source: 'https://en.wikipedia.org/wiki/2014_Japanese_motorcycle_Grand_Prix',
+  },
+  // "Marc Márquez became MotoGP world champion in his rookie season": the Valencian finale, Round 18 of 18.
+  'motogp-2013': {
+    rider: 'marc-marquez',
+    round: 18,
+    session: 'grand-prix-race',
+    source: 'https://en.wikipedia.org/wiki/2013_Valencian_Community_motorcycle_Grand_Prix',
+  },
 };
 
 const dataDir = path.join(process.cwd(), 'data');

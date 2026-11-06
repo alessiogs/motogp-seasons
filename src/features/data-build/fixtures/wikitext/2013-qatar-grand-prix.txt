@@ -1,0 +1,83 @@
+{{Infobox Grand Prix motorcycle race report
+| Grand Prix = Qatar
+| flag = Qatar
+| Year = 2013
+| Date = 7 April
+| Race_No = 1
+| Official_Name= [[The Commercial Bank of Qatar|Commercial Bank]] Grand Prix of Qatar
+| Location = [[Losail International Circuit]]
+}}
+
+The '''2013 Qatar motorcycle Grand Prix''' was the first round of the 2013 MotoGP season (trimmed sample: first three finishers and the top of the Moto2 table).
+
+==Classification==
+===MotoGP===
+{| class="wikitable" style="font-size: 95%;"
+! Pos.
+! No.
+! Rider
+! Team
+! Manufacturer
+! Laps
+! Time
+! Grid
+! Points
+|-
+! 1
+| 99
+| {{flagicon|ESP}} '''[[Jorge Lorenzo]]'''
+| '''Yamaha Factory Racing'''
+| '''[[Yamaha Motor Company|Yamaha]]'''
+| 22
+| 42:39.802
+| 1
+| '''25'''
+|-
+! 2
+| 46
+| {{flagicon|ITA}} '''[[Valentino Rossi]]'''
+| '''Yamaha Factory Racing'''
+| '''[[Yamaha Motor Company|Yamaha]]'''
+| 22
+| +5.990
+| 7
+| '''20'''
+|-
+! 3
+| 93
+| {{flagicon|ESP}} '''[[Marc Márquez]]'''
+| '''Repsol Honda Team'''
+| '''[[Honda]]'''
+| 22
+| +6.201
+| 6
+| '''16'''
+|-
+|}
+
+===Moto2===
+{| class="wikitable" style="font-size: 95%;"
+! Pos
+! No
+! Rider
+! Manufacturer
+! Laps
+! Time
+! Grid
+! Points
+|-
+! 1
+| 40
+| {{flagicon|ESP}} '''[[Pol Espargaró]]'''
+| '''[[Kalex]]'''
+| 20
+| 40:31.782
+| 1
+| '''25'''
+|-
+! 2
+| 45
+| {{flagicon|GBR}} '''[[Scott Redding]]'''
+| '''Kalex'''
+| 20
+|}

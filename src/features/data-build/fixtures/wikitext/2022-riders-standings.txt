@@ -1,0 +1,87 @@
+===Riders' standings===
+{|
+|
+{| class="wikitable" style="font-size:85%; text-align:center;"
+! Pos.
+! Rider
+! Bike
+! Team
+! [[2022 Qatar motorcycle Grand Prix|QAT]]<br>{{flagicon|QAT}}
+! [[2022 Indonesian motorcycle Grand Prix|INA]]<br>{{flagicon|IDN}}
+! [[2022 Argentine Republic motorcycle Grand Prix|ARG]]<br>{{flagicon|ARG}}
+! [[2022 Motorcycle Grand Prix of the Americas|AME]]<br>{{flagicon|USA}}
+! [[2022 Portuguese motorcycle Grand Prix|POR]]<br>{{flagicon|PRT}}
+! [[2022 Spanish motorcycle Grand Prix|SPA]]<br>{{flagicon|ESP}}
+! [[2022 French motorcycle Grand Prix|FRA]]<br>{{flagicon|FRA}}
+! [[2022 Italian motorcycle Grand Prix|ITA]]<br>{{flagicon|ITA}}
+! [[2022 Catalan motorcycle Grand Prix|CAT]]<br>{{flagicon|Catalunya}}
+! [[2022 German motorcycle Grand Prix|GER]]<br>{{flagicon|DEU}}
+! [[2022 Dutch TT|NED]]<br>{{flagicon|NLD}}
+! [[2022 British motorcycle Grand Prix|GBR]]<br>{{flagicon|GBR}}
+! [[2022 Austrian motorcycle Grand Prix|AUT]]<br>{{flagicon|AUT}}
+! [[2022 San Marino and Rimini Riviera motorcycle Grand Prix|RSM]]<br>{{flagicon|SMR}}
+! [[2022 Aragon motorcycle Grand Prix|ARA]]<br>{{flagicon|Aragon}}
+! [[2022 Japanese motorcycle Grand Prix|JPN]]<br>{{flagicon|JPN}}
+! [[2022 Thailand motorcycle Grand Prix|THA]]<br>{{flagicon|THA}}
+! [[2022 Australian motorcycle Grand Prix|AUS]]<br>{{flagicon|AUS}}
+! [[2022 Malaysian motorcycle Grand Prix|MAL]]<br>{{flagicon|MYS}}
+! [[2022 Valencian Community motorcycle Grand Prix|VAL]]<br>{{flagicon|Valencia}}
+! Pts
+|-
+! 1 
+|align=left| {{flagicon|ITA}} [[Francesco Bagnaia]]
+| [[Ducati]]
+| Ducati Lenovo Team
+| style="background:#efcfff;" | Ret
+| style="background:#dfffdf;" | 15
+| style="background:#dfffdf;" | 5
+| style="background:#dfffdf;" | 5
+| style="background:#dfffdf;" | 8
+| style="background:#ffffbf;" | 1{{nowrap|'''<sup>P F</sup>'''}}
+| style="background:#efcfff;" | Ret{{nowrap|'''<sup>P F</sup>'''}}
+| style="background:#ffffbf;" | 1'''<sup>F</sup>'''
+| style="background:#efcfff;" | Ret
+| style="background:#efcfff;" | Ret'''<sup>P</sup>'''
+| style="background:#ffffbf;" | 1'''<sup>P</sup>'''
+| style="background:#ffffbf;" | 1
+| style="background:#ffffbf;" | 1
+| style="background:#ffffbf;" | 1
+| style="background:#dfdfdf;" | 2'''<sup>P</sup>'''
+| style="background:#efcfff;" | Ret
+| style="background:#ffdf9f;" | 3
+| style="background:#ffdf9f;" | 3
+| style="background:#ffffbf;" | 1
+| style="background:#dfffdf;" | 9
+! 265
+|-
+! 10
+|-
+!rowspan=2| 26
+|rowspan=2 align=left| {{flagicon|GER}} [[Stefan Bradl]]
+|rowspan=2| [[Honda]]
+| Repsol Honda Team
+|
+|
+|style="background:#cfcfff;"| 19
+|
+|
+|
+|
+|
+|style="background:#efcfff;"| Ret
+|style="background:#cfcfff;"| 16
+|style="background:#cfcfff;"| 18
+|style="background:#cfcfff;"| 19
+|style="background:#cfcfff;"| 17
+|style="background:#dfffdf;"| 14
+|
+|
+|
+|
+|
+|
+!rowspan=2| 2
+|-
+| Team HRC
+|}
+|}
