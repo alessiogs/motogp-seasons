@@ -29,4 +29,10 @@ describe('parseRound for a MotoGP Round without a Sprint', () => {
     expect(round.date).toBe('2013-04-07');
     expect(round.circuit).toBe('Losail International Circuit');
   });
+
+  it('also reads a classification filed under "Race results" > "MotoGP" (2022 Valencia)', () => {
+    const renamed = sample.replace('==Classification==', '==Race results==');
+    const other = parseRound(1, '2022 Valencian Community motorcycle Grand Prix', 2013, renamed, riderId, 'motogp')!;
+    expect((other.sessions[0] as { results: unknown[] }).results).toHaveLength(3);
+  });
 });
