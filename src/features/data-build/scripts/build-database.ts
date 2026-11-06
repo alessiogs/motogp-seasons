@@ -6,6 +6,7 @@ import Database from 'better-sqlite3';
 import { existsSync, mkdirSync, readFileSync, readdirSync, rmSync } from 'node:fs';
 import path from 'node:path';
 import { fileURLToPath } from 'node:url';
+import { ridersWithMatchingNames } from '../logic/riders-with-matching-names';
 import { teamsWithSeveralManufacturers } from '../logic/teams-with-several-manufacturers';
 import type { ManufacturerFile } from '../types/manufacturer-file';
 import type { RiderFile } from '../types/rider-file';
@@ -57,7 +58,7 @@ export function buildDatabase(dataDir: string, dbPath: string): string[] {
   try {
     db.exec(readFileSync(SCHEMA, 'utf8'));
     db.transaction(() => {
-      const riderIds = loadRiders(db, dataDir);
+      const riderIds = loadRiders(db, dataDir, warnings);
       const ruleIds = loadRules(db, dataDir);
       loadManufacturers(db, dataDir);
       warnings.push(...loadSeasons(db, dataDir, riderIds, ruleIds));
@@ -68,7 +69,7 @@ export function buildDatabase(dataDir: string, dbPath: string): string[] {
   return warnings;
 }
 
-function loadRiders(db: Database.Database, dataDir: string): Map<string, number> {
+function loadRiders(db: Database.Database, dataDir: string, warnings: string[]): Map<string, number> {
   const ids = new Map<string, number>();
   const insert = db.prepare('INSERT INTO riders (slug, name, abbreviation) VALUES (?, ?, ?)');
   const insertSource = db.prepare('INSERT INTO rider_source_ids (rider_id, source, source_id) VALUES (?, ?, ?)');
@@ -77,6 +78,9 @@ function loadRiders(db: Database.Database, dataDir: string): Map<string, number>
     const id = Number(insert.run(rider.id, rider.name, rider.abbreviation ?? null).lastInsertRowid);
     ids.set(rider.id, id);
     for (const [source, sourceId] of Object.entries(rider.sourceIds)) insertSource.run(id, source, sourceId);
+  }
+  for (const [a, b] of ridersWithMatchingNames(riders)) {
+    warnings.push(`riders.json: Riders "${a.id}" (${a.name}) and "${b.id}" (${b.name}) have near-identical names`);
   }
   return ids;
 }
