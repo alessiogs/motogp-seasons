@@ -3605,5 +3605,33 @@
     "sourceIds": {
       "wikipedia": "Damian Cudlin"
     }
+  },
+  {
+    "id": "colin-edwards",
+    "name": "Colin Edwards",
+    "sourceIds": {
+      "wikipedia": "Colin Edwards"
+    }
+  },
+  {
+    "id": "michel-fabrizio",
+    "name": "Michel Fabrizio",
+    "sourceIds": {
+      "wikipedia": "Michel Fabrizio"
+    }
+  },
+  {
+    "id": "leon-camier",
+    "name": "Leon Camier",
+    "sourceIds": {
+      "wikipedia": "Leon Camier"
+    }
+  },
+  {
+    "id": "randy-de-puniet",
+    "name": "Randy de Puniet",
+    "sourceIds": {
+      "wikipedia": "Randy de Puniet"
+    }
   }
 ]

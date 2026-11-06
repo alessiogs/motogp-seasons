@@ -113,6 +113,13 @@ const crowned: Record<string, { rider: string; round: number; session: string; s
     session: 'grand-prix-race',
     source: 'https://en.wikipedia.org/wiki/2015_Valencian_Community_motorcycle_Grand_Prix',
   },
+  // "a second-place finish for Marc Márquez was good enough for his second consecutive premier class world championship": the Japanese Grand Prix, Round 15 of 18.
+  'motogp-2014': {
+    rider: 'marc-marquez',
+    round: 15,
+    session: 'grand-prix-race',
+    source: 'https://en.wikipedia.org/wiki/2014_Japanese_motorcycle_Grand_Prix',
+  },
 };
 
 const dataDir = path.join(process.cwd(), 'data');
