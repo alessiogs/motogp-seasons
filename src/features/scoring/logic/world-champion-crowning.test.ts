@@ -127,6 +127,13 @@ const crowned: Record<string, { rider: string; round: number; session: string; s
     session: 'grand-prix-race',
     source: 'https://en.wikipedia.org/wiki/2013_Valencian_Community_motorcycle_Grand_Prix',
   },
+  // "Lorenzo does a big wheelie as he crosses the finish line to come home in second place, making him the 2012 MotoGP world champion": the Australian Grand Prix, Round 17 of 18.
+  'motogp-2012': {
+    rider: 'jorge-lorenzo',
+    round: 17,
+    session: 'grand-prix-race',
+    source: 'https://en.wikipedia.org/wiki/2012_Australian_motorcycle_Grand_Prix',
+  },
 };
 
 const dataDir = path.join(process.cwd(), 'data');

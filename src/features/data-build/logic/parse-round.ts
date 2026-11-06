@@ -31,7 +31,9 @@ export function parseRound(
   // 2023 on files the race under "Race" > "MotoGP"; 2013-2022 (no Sprint) under "Classification" or "Race results" > "MotoGP".
   const raceTable = tables.find((t) => t.path[0] === 'Race' && t.path[t.path.length - 1] === 'MotoGP')
     ?? tables.find((t) => t.path.includes('Race') && t.path.includes('MotoGP'))
-    ?? tables.find((t) => /^(classification|race results)$/i.test(t.path[0]) && t.path[t.path.length - 1] === 'MotoGP');
+    ?? tables.find((t) => /^(classification|race results)$/i.test(t.path[0]) && t.path[t.path.length - 1] === 'MotoGP')
+    // Up to 2012 the classification is a top-level "MotoGP classification" heading.
+    ?? tables.find((t) => /^MotoGP(&nbsp;|\s)+classification$/i.test(t.path[0]));
   // A cancelled Grand Prix has no classification: the Round is left for a hand-written Non-championship round.
   if (!raceTable && /\b(?:race|Grand Prix)\b[^.]*\bwas cancelled\b/.test(stripMarkup(text.split(/^==/m)[0]))) return null;
   if (!raceTable) throw new Error(`${title}: no MotoGP race classification found`);

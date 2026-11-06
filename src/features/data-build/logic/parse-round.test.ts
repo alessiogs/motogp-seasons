@@ -61,3 +61,23 @@ Qualifying was conducted on 25 August 2018.
     );
   });
 });
+
+describe('parseRound for a MotoGP Round filed under "MotoGP classification"', () => {
+  // Trimmed from the 2012 Dutch TT report article, a layout shared by 2010-2012 (and earlier):
+  // the classification is a top-level "MotoGP classification" heading with no "Race" parent.
+  const dutch = readFileSync(
+    path.join(process.cwd(), 'src/features/data-build/fixtures/wikitext/2012-dutch-tt.txt'),
+    'utf8',
+  );
+
+  it('reads the Grand Prix race from that heading and not the Moto2 one', () => {
+    const round = parseRound(7, '2012 Dutch TT', 2012, dutch, riderId, 'motogp')!;
+    expect(round.sessions.map((s) => (s as { type: string }).type)).toEqual(['grand-prix-race']);
+    const results = (round.sessions[0] as { results: { rider: string; position: number }[] }).results;
+    expect(results.map((r) => [r.rider, r.position])).toEqual([
+      ['casey-stoner', 1],
+      ['dani-pedrosa', 2],
+      ['andrea-dovizioso', 3],
+    ]);
+  });
+});

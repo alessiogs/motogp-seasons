@@ -3696,5 +3696,75 @@
     "sourceIds": {
       "wikipedia": "Luca Scassa"
     }
+  },
+  {
+    "id": "casey-stoner",
+    "name": "Casey Stoner",
+    "sourceIds": {
+      "wikipedia": "Casey Stoner"
+    }
+  },
+  {
+    "id": "mattia-pasini",
+    "name": "Mattia Pasini",
+    "sourceIds": {
+      "wikipedia": "Mattia Pasini"
+    }
+  },
+  {
+    "id": "james-ellison",
+    "name": "James Ellison",
+    "sourceIds": {
+      "wikipedia": "James Ellison (motorcyclist)"
+    }
+  },
+  {
+    "id": "chris-vermeulen",
+    "name": "Chris Vermeulen",
+    "sourceIds": {
+      "wikipedia": "Chris Vermeulen"
+    }
+  },
+  {
+    "id": "franco-battaini",
+    "name": "Franco Battaini",
+    "sourceIds": {
+      "wikipedia": "Franco Battaini"
+    }
+  },
+  {
+    "id": "steve-rapp",
+    "name": "Steve Rapp",
+    "sourceIds": {
+      "wikipedia": "Steve Rapp"
+    }
+  },
+  {
+    "id": "aaron-yates",
+    "name": "Aaron Yates",
+    "sourceIds": {
+      "wikipedia": "Aaron Yates (motorcyclist)"
+    }
+  },
+  {
+    "id": "jonathan-rea",
+    "name": "Jonathan Rea",
+    "sourceIds": {
+      "wikipedia": "Jonathan Rea"
+    }
+  },
+  {
+    "id": "david-salom",
+    "name": "David Salom",
+    "sourceIds": {
+      "wikipedia": "David Salom"
+    }
+  },
+  {
+    "id": "roberto-rolfo",
+    "name": "Roberto Rolfo",
+    "sourceIds": {
+      "wikipedia": "Roberto Rolfo"
+    }
   }
 ]
