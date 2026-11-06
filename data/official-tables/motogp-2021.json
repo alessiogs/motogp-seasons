@@ -1,0 +1,155 @@
+{
+  "source": "https://en.wikipedia.org/wiki/2021_MotoGP_World_Championship",
+  "standings": [
+    {
+      "position": 1,
+      "rider": "fabio-quartararo",
+      "points": 278
+    },
+    {
+      "position": 2,
+      "rider": "francesco-bagnaia",
+      "points": 252
+    },
+    {
+      "position": 3,
+      "rider": "joan-mir",
+      "points": 208
+    },
+    {
+      "position": 4,
+      "rider": "jack-miller",
+      "points": 181
+    },
+    {
+      "position": 5,
+      "rider": "johann-zarco",
+      "points": 173
+    },
+    {
+      "position": 6,
+      "rider": "brad-binder",
+      "points": 151
+    },
+    {
+      "position": 7,
+      "rider": "marc-marquez",
+      "points": 142
+    },
+    {
+      "position": 8,
+      "rider": "aleix-espargaro",
+      "points": 120
+    },
+    {
+      "position": 9,
+      "rider": "jorge-martin",
+      "points": 111
+    },
+    {
+      "position": 10,
+      "rider": "maverick-vinales",
+      "points": 106
+    },
+    {
+      "position": 11,
+      "rider": "enea-bastianini",
+      "points": 102
+    },
+    {
+      "position": 12,
+      "rider": "pol-espargaro",
+      "points": 100
+    },
+    {
+      "position": 13,
+      "rider": "alex-rins",
+      "points": 99
+    },
+    {
+      "position": 14,
+      "rider": "miguel-oliveira",
+      "points": 94
+    },
+    {
+      "position": 15,
+      "rider": "takaaki-nakagami",
+      "points": 76
+    },
+    {
+      "position": 16,
+      "rider": "alex-marquez",
+      "points": 70
+    },
+    {
+      "position": 17,
+      "rider": "franco-morbidelli",
+      "points": 47
+    },
+    {
+      "position": 18,
+      "rider": "valentino-rossi",
+      "points": 44
+    },
+    {
+      "position": 19,
+      "rider": "luca-marini",
+      "points": 41
+    },
+    {
+      "position": 20,
+      "rider": "iker-lecuona",
+      "points": 39
+    },
+    {
+      "position": 21,
+      "rider": "danilo-petrucci",
+      "points": 37
+    },
+    {
+      "position": 22,
+      "rider": "stefan-bradl",
+      "points": 14
+    },
+    {
+      "position": 23,
+      "rider": "michele-pirro",
+      "points": 12
+    },
+    {
+      "position": 24,
+      "rider": "andrea-dovizioso",
+      "points": 12
+    },
+    {
+      "position": 25,
+      "rider": "dani-pedrosa",
+      "points": 6
+    },
+    {
+      "position": 26,
+      "rider": "lorenzo-savadori",
+      "points": 4
+    },
+    {
+      "position": 27,
+      "rider": "tito-rabat",
+      "points": 1
+    },
+    {
+      "position": 28,
+      "rider": "cal-crutchlow",
+      "points": 0
+    },
+    {
+      "position": 29,
+      "rider": "garrett-gerloff",
+      "points": 0
+    },
+    {
+      "position": 30,
+      "rider": "jake-dixon",
+      "points": 0
+    }
+  ]
+}

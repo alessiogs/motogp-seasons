@@ -64,6 +64,13 @@ const crowned: Record<string, { rider: string; round: number; session: string; s
     session: 'grand-prix-race',
     source: 'https://en.wikipedia.org/wiki/2022_Valencian_Community_motorcycle_Grand_Prix',
   },
+  // "Ultimately finishing the race in fourth after a last-lap pass by Enea Bastianini, Quartararo was crowned the 2021 MotoGP World Champion": the Emilia Romagna Grand Prix, Round 16 of 18.
+  'motogp-2021': {
+    rider: 'fabio-quartararo',
+    round: 16,
+    session: 'grand-prix-race',
+    source: 'https://en.wikipedia.org/wiki/2021_MotoGP_World_Championship',
+  },
 };
 
 const dataDir = path.join(process.cwd(), 'data');

@@ -3339,5 +3339,33 @@
     "sourceIds": {
       "wikipedia": "Tetsuta Nagashima"
     }
+  },
+  {
+    "id": "valentino-rossi",
+    "name": "Valentino Rossi",
+    "sourceIds": {
+      "wikipedia": "Valentino Rossi"
+    }
+  },
+  {
+    "id": "tito-rabat",
+    "name": "Tito Rabat",
+    "sourceIds": {
+      "wikipedia": "Tito Rabat"
+    }
+  },
+  {
+    "id": "garrett-gerloff",
+    "name": "Garrett Gerloff",
+    "sourceIds": {
+      "wikipedia": "Garrett Gerloff"
+    }
+  },
+  {
+    "id": "jake-dixon",
+    "name": "Jake Dixon",
+    "sourceIds": {
+      "wikipedia": "Jake Dixon"
+    }
   }
 ]
