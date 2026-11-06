@@ -1,0 +1,13 @@
+{
+  "code": "1993-2022",
+  "name": "1993-2022: 25-20-16-13-11-10-9-8-7-6-5-4-3-2-1, every Round counts",
+  "source": "the Season articles https://en.wikipedia.org/wiki/1993_Grand_Prix_motorcycle_racing_season to https://en.wikipedia.org/wiki/2022_MotoGP_World_Championship (each Season's article gives the same table) (Scoring system and standings sections: points to the top 15 finishers, all Round scores counted). Checked by arithmetic on the Wikipedia final standings (docs/research/premier-class-scoring-rules.md section 1), not yet by replaying this Season's Results. To be re-checked by hand against motogp.com before this rule is published.",
+  "validFor": [1993, 1994, 1995, 1996, 1997, 1998, 1999, 2000, 2001, 2002, 2003, 2004, 2005, 2006, 2007, 2008, 2009, 2010, 2011, 2012, 2013, 2014, 2015, 2016, 2017, 2018, 2019, 2020, 2021, 2022],
+  "fastestLapPoints": 0,
+  "fastestLapRequiresFinish": true,
+  "countingWindows": [],
+  "points": {
+    "grand-prix-race": [25, 20, 16, 13, 11, 10, 9, 8, 7, 6, 5, 4, 3, 2, 1]
+  },
+  "notes": "Era rule for 1993-2022. Counting windows index by Round number. Every Round counts. 500cc until 2001, MotoGP from 2002. Stopped races that kept full points (2008 Indianapolis) and the cancelled 2011 Malaysian and 2018 British Grands Prix (Non-championship rounds) are set in the Season files."
+}

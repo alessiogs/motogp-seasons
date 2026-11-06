@@ -1,0 +1,13 @@
+{
+  "code": "1962-63",
+  "name": "1962-63: 8-6-4-3-2-1, best 5 of Rounds 1-8",
+  "source": "https://en.wikipedia.org/wiki/1962_Grand_Prix_motorcycle_racing_season, https://en.wikipedia.org/wiki/1963_Grand_Prix_motorcycle_racing_season (Scoring system and standings sections: points to the top 6 finishers, best 5 of 1-8 Round scores counted). Checked by arithmetic on the Wikipedia final standings (docs/research/premier-class-scoring-rules.md section 1), not yet by replaying this Season's Results. To be re-checked by hand against motogp.com before this rule is published.",
+  "validFor": [1962, 1963],
+  "fastestLapPoints": 0,
+  "fastestLapRequiresFinish": true,
+  "countingWindows": [{ "fromRound": 1, "toRound": 8, "count": 5 }],
+  "points": {
+    "grand-prix-race": [8, 6, 4, 3, 2, 1]
+  },
+  "notes": "Era rule for 1962-1963. Counting windows index by Round number. 1962 is non-binding (only N>=5 proved by arithmetic, the exact N rests on the cited text)."
+}

@@ -75,8 +75,9 @@ describe('1949 500cc', () => {
 });
 
 describe('1989 500cc', () => {
-  it('replays one Step per championship Round on the 1988-91 points table', () => {
+  it('replays one Step per championship Round on the 1988-90 rule points table', () => {
     const season = getSeason('500cc', 1989)!;
+    expect(season.rule.code).toBe('1988-90');
     expect(computeReplay(season)).toHaveLength(15);
     expect(season.rule.points['grand-prix-race']).toEqual([20, 17, 15, 13, 11, 10, 9, 8, 7, 6, 5, 4, 3, 2, 1]);
   });

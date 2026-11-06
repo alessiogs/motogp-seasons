@@ -1,0 +1,13 @@
+{
+  "code": "1958-60",
+  "name": "1958-60: 8-6-4-3-2-1, best 4 of Rounds 1-8",
+  "source": "https://en.wikipedia.org/wiki/1958_Grand_Prix_motorcycle_racing_season, https://en.wikipedia.org/wiki/1959_Grand_Prix_motorcycle_racing_season, https://en.wikipedia.org/wiki/1960_Grand_Prix_motorcycle_racing_season (Scoring system and standings sections: points to the top 6 finishers, best 4 of 1-8 Round scores counted). Checked by arithmetic on the Wikipedia final standings (docs/research/premier-class-scoring-rules.md section 1), not yet by replaying this Season's Results. To be re-checked by hand against motogp.com before this rule is published.",
+  "validFor": [1958, 1959, 1960],
+  "fastestLapPoints": 0,
+  "fastestLapRequiresFinish": true,
+  "countingWindows": [{ "fromRound": 1, "toRound": 8, "count": 4 }],
+  "points": {
+    "grand-prix-race": [8, 6, 4, 3, 2, 1]
+  },
+  "notes": "Era rule for 1958-1960. Counting windows index by Round number. Window is Rounds 1-8 because the 1959 Swedish 500cc race, which did not count towards the championship, keeps its Round number as a Non-championship round; 1958 and 1960 had 7 Rounds, so the wider window changes nothing for them."
+}

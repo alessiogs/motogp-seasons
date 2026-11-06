@@ -1,0 +1,13 @@
+{
+  "code": "1977-87",
+  "name": "1977-87: 15-12-10-8-6-5-4-3-2-1, every Round counts",
+  "source": "the Season articles https://en.wikipedia.org/wiki/1977_Grand_Prix_motorcycle_racing_season to https://en.wikipedia.org/wiki/1987_Grand_Prix_motorcycle_racing_season (each Season's article gives the same table) (Scoring system and standings sections: points to the top 10 finishers, all Round scores counted). Checked by arithmetic on the Wikipedia final standings (docs/research/premier-class-scoring-rules.md section 1), not yet by replaying this Season's Results. To be re-checked by hand against motogp.com before this rule is published.",
+  "validFor": [1977, 1978, 1979, 1980, 1981, 1982, 1983, 1984, 1985, 1986, 1987],
+  "fastestLapPoints": 0,
+  "fastestLapRequiresFinish": true,
+  "countingWindows": [],
+  "points": {
+    "grand-prix-race": [15, 12, 10, 8, 6, 5, 4, 3, 2, 1]
+  },
+  "notes": "Era rule for 1977-1987. Counting windows index by Round number. Every Round counts. Same points table as 1976 and 1969-1975, without Dropped scores."
+}

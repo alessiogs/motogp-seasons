@@ -1,0 +1,13 @@
+{
+  "code": "1970-71",
+  "name": "1970-71: 15-12-10-8-6-5-4-3-2-1, best 6 of Rounds 1-11",
+  "source": "https://en.wikipedia.org/wiki/1970_Grand_Prix_motorcycle_racing_season, https://en.wikipedia.org/wiki/1971_Grand_Prix_motorcycle_racing_season (Scoring system and standings sections: points to the top 10 finishers, best 6 of 1-11 Round scores counted). Checked by arithmetic on the Wikipedia final standings (docs/research/premier-class-scoring-rules.md section 1), not yet by replaying this Season's Results. To be re-checked by hand against motogp.com before this rule is published.",
+  "validFor": [1970, 1971],
+  "fastestLapPoints": 0,
+  "fastestLapRequiresFinish": true,
+  "countingWindows": [{ "fromRound": 1, "toRound": 11, "count": 6 }],
+  "points": {
+    "grand-prix-race": [15, 12, 10, 8, 6, 5, 4, 3, 2, 1]
+  },
+  "notes": "Era rule for 1970-1971. Counting windows index by Round number."
+}
