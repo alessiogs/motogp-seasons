@@ -3507,5 +3507,40 @@
     "sourceIds": {
       "wikipedia": "Michael van der Mark"
     }
+  },
+  {
+    "id": "eugene-laverty",
+    "name": "Eugene Laverty",
+    "sourceIds": {
+      "wikipedia": "Eugene Laverty"
+    }
+  },
+  {
+    "id": "yonny-hernandez",
+    "name": "Yonny Hernández",
+    "sourceIds": {
+      "wikipedia": "Yonny Hernández (motorcyclist)"
+    }
+  },
+  {
+    "id": "alex-lowes",
+    "name": "Alex Lowes",
+    "sourceIds": {
+      "wikipedia": "Alex Lowes"
+    }
+  },
+  {
+    "id": "javier-fores",
+    "name": "Javier Forés",
+    "sourceIds": {
+      "wikipedia": "Javier Forés"
+    }
+  },
+  {
+    "id": "nicky-hayden",
+    "name": "Nicky Hayden",
+    "sourceIds": {
+      "wikipedia": "Nicky Hayden"
+    }
   }
 ]

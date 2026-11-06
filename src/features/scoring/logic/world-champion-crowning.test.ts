@@ -99,6 +99,13 @@ const crowned: Record<string, { rider: string; round: number; session: string; s
     session: 'grand-prix-race',
     source: 'https://en.wikipedia.org/wiki/2017_Valencian_Community_motorcycle_Grand_Prix',
   },
+  // "Marc Márquez, doing a burnout and celebrating his third MotoGP world championship title after winning the race" (photo caption in the article): the Japanese Grand Prix, Round 15 of 18.
+  'motogp-2016': {
+    rider: 'marc-marquez',
+    round: 15,
+    session: 'grand-prix-race',
+    source: 'https://en.wikipedia.org/wiki/2016_Japanese_motorcycle_Grand_Prix',
+  },
 };
 
 const dataDir = path.join(process.cwd(), 'data');
