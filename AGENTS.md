@@ -7,7 +7,7 @@
 1. Branch from an up-to-date `develop`, named `<type>/<short-kebab-name>` with type `feat`, `fix`, `chore`, or `docs` (e.g. `feat/season-timeline`).
 2. Commit on that branch, push it, and open a PR into `develop`.
 3. When `develop` moves ahead, `git merge origin/develop` into the feature branch, resolve any conflicts there, and push. The branch keeps its commits as they are, so pushes stay fast-forward.
-4. Merge the PR once `check` is green.
+4. Merge the PR once `check` is green. For a UI change, first open the `screenshots` artifact on the PR's `check` run (phone and desktop shots of home, 1949 and 2024) and look at them.
 5. To release, open a PR from `develop` into `main` and merge it. CI fails any PR into `main` whose head is not `develop`.
 
 ## Code organization
@@ -20,6 +20,10 @@ Code lives in `src/features/<feature>/`, one folder per feature, named in the vo
 - **`src/app/` is routing only**: `page.tsx` reads params, calls a feature query and renders a feature component; `generateStaticParams`, `layout.tsx` and `globals.css` stay there because Next.js requires them. Everything else belongs in a feature.
 
 ## Agent skills
+
+### No npm registry?
+
+When `npm ci` can't reach the registry, run tests and a partial typecheck with `scripts/offline/` (see its README).
 
 ### Issue tracker
 

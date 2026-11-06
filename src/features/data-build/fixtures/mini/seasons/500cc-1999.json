@@ -1,0 +1,51 @@
+{
+  "class": "500cc",
+  "year": 1999,
+  "scoringRule": "mini-rule",
+  "notes": "Fixture season",
+  "rounds": [
+    {
+      "number": 1,
+      "name": "Fixture Grand Prix",
+      "circuit": "Fixture Circuit",
+      "country": "ITA",
+      "date": "1999-04-11",
+      "nonChampionship": false,
+      "notes": null,
+      "sessions": [
+        {
+          "type": "sprint",
+          "order": 1,
+          "date": "1999-04-10",
+          "pointsMultiplier": 1,
+          "notes": null,
+          "results": [
+            { "rider": "rider-one", "position": 1, "outcome": "FIN", "fastestLap": false, "pointsOverride": null, "team": "Team A", "manufacturer": "Maker A", "bikeNumber": 1, "nationality": "ITA", "source": "fixture" },
+            { "rider": "rider-two", "position": null, "outcome": "DNF", "fastestLap": false, "pointsOverride": null, "team": null, "manufacturer": null, "bikeNumber": null, "nationality": null, "source": "fixture" }
+          ]
+        },
+        {
+          "type": "grand-prix-race",
+          "order": 2,
+          "date": "1999-04-11",
+          "pointsMultiplier": 0.5,
+          "notes": "Stopped early",
+          "results": [
+            { "rider": "rider-two", "position": 1, "outcome": "FIN", "fastestLap": true, "pointsOverride": null, "team": "Team B", "manufacturer": "Maker B", "bikeNumber": 2, "nationality": "ESP", "source": "fixture" },
+            { "rider": "rider-one", "position": 2, "outcome": "FIN", "fastestLap": false, "pointsOverride": 4.5, "team": "Team A", "manufacturer": "Maker A", "bikeNumber": 1, "nationality": "ITA", "source": "fixture" }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 2,
+      "name": "Fixture Exhibition",
+      "circuit": null,
+      "country": null,
+      "date": null,
+      "nonChampionship": true,
+      "notes": "Held but no points",
+      "sessions": []
+    }
+  ]
+}

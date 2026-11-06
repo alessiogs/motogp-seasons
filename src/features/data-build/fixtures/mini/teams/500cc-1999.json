@@ -1,0 +1,6 @@
+{
+  "teams": [
+    { "name": "Team A", "colour": "#cc0000", "variants": ["TEAM A", "Team-A"] },
+    { "name": "Team B" }
+  ]
+}

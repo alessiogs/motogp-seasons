@@ -1,0 +1,150 @@
+{
+  "source": "https://en.wikipedia.org/wiki/2024_MotoGP_World_Championship",
+  "standings": [
+    {
+      "position": 1,
+      "rider": "jorge-martin",
+      "points": 508
+    },
+    {
+      "position": 2,
+      "rider": "francesco-bagnaia",
+      "points": 498
+    },
+    {
+      "position": 3,
+      "rider": "marc-marquez",
+      "points": 392
+    },
+    {
+      "position": 4,
+      "rider": "enea-bastianini",
+      "points": 386
+    },
+    {
+      "position": 5,
+      "rider": "brad-binder",
+      "points": 217
+    },
+    {
+      "position": 6,
+      "rider": "pedro-acosta",
+      "points": 215
+    },
+    {
+      "position": 7,
+      "rider": "maverick-vinales",
+      "points": 190
+    },
+    {
+      "position": 8,
+      "rider": "alex-marquez",
+      "points": 173
+    },
+    {
+      "position": 9,
+      "rider": "franco-morbidelli",
+      "points": 173
+    },
+    {
+      "position": 10,
+      "rider": "fabio-di-giannantonio",
+      "points": 165
+    },
+    {
+      "position": 11,
+      "rider": "aleix-espargaro",
+      "points": 163
+    },
+    {
+      "position": 12,
+      "rider": "marco-bezzecchi",
+      "points": 153
+    },
+    {
+      "position": 13,
+      "rider": "fabio-quartararo",
+      "points": 113
+    },
+    {
+      "position": 14,
+      "rider": "jack-miller",
+      "points": 87
+    },
+    {
+      "position": 15,
+      "rider": "miguel-oliveira",
+      "points": 75
+    },
+    {
+      "position": 16,
+      "rider": "raul-fernandez",
+      "points": 66
+    },
+    {
+      "position": 17,
+      "rider": "johann-zarco",
+      "points": 55
+    },
+    {
+      "position": 18,
+      "rider": "alex-rins",
+      "points": 31
+    },
+    {
+      "position": 19,
+      "rider": "takaaki-nakagami",
+      "points": 31
+    },
+    {
+      "position": 20,
+      "rider": "augusto-fernandez",
+      "points": 27
+    },
+    {
+      "position": 21,
+      "rider": "joan-mir",
+      "points": 21
+    },
+    {
+      "position": 22,
+      "rider": "luca-marini",
+      "points": 14
+    },
+    {
+      "position": 23,
+      "rider": "pol-espargaro",
+      "points": 12
+    },
+    {
+      "position": 24,
+      "rider": "dani-pedrosa",
+      "points": 7
+    },
+    {
+      "position": 25,
+      "rider": "stefan-bradl",
+      "points": 2
+    },
+    {
+      "position": 26,
+      "rider": "remy-gardner",
+      "points": 0
+    },
+    {
+      "position": 27,
+      "rider": "andrea-iannone",
+      "points": 0
+    },
+    {
+      "position": 28,
+      "rider": "lorenzo-savadori",
+      "points": 0
+    },
+    {
+      "position": 29,
+      "rider": "michele-pirro",
+      "points": 0
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "class": "motogp",
+  "year": 2000,
+  "scoringRule": "mini-rule",
+  "notes": "Fixture season after 500cc 1999, same Category",
+  "rounds": [
+    {
+      "number": 1,
+      "name": "Fixture Opener",
+      "circuit": null,
+      "country": null,
+      "date": "2000-04-09",
+      "nonChampionship": false,
+      "notes": null,
+      "sessions": [
+        {
+          "type": "grand-prix-race",
+          "order": 1,
+          "date": "2000-04-09",
+          "pointsMultiplier": 1,
+          "notes": null,
+          "results": [
+            { "rider": "rider-two", "position": 1, "outcome": "FIN", "fastestLap": false, "pointsOverride": null, "team": "Team B", "manufacturer": "Maker B", "bikeNumber": 2, "nationality": "ESP", "source": "fixture" }
+          ]
+        }
+      ]
+    }
+  ]
+}

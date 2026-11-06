@@ -1,9 +1,12 @@
 node_modules/
 .next/
 out/
+screenshots/
+.claude/worktrees/
 next-env.d.ts
 *.tsbuildinfo
 .DS_Store
 db/*.db-journal
 db/*.db-wal
 db/*.db-shm
+db/*.db
