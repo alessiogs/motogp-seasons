@@ -94,3 +94,21 @@ describe('parseRound for a Grand Prix red-flagged and then cancelled', () => {
     expect(parseRound(17, '2011 Malaysian motorcycle Grand Prix', 2011, malaysia, riderId, 'motogp')).toBeNull();
   });
 });
+
+describe('parseRound for a 500cc Round whose classification names a Rider without a link', () => {
+  // Trimmed from the 2001 British report article, a layout shared by the 2001 500cc reports (and earlier ones):
+  // wildcard Rider "Jason Vincent" is plain text, not an article link.
+  const british = readFileSync(
+    path.join(process.cwd(), 'src/features/data-build/fixtures/wikitext/2001-british-grand-prix.txt'),
+    'utf8',
+  );
+
+  it('keeps the unlinked Rider, named by the text next to the flag', () => {
+    const round = parseRound(8, '2001 British motorcycle Grand Prix', 2001, british, riderId, '500cc')!;
+    const results = (round.sessions[0] as { results: { rider: string; position: number; team: string }[] }).results;
+    expect(results.map((r) => [r.rider, r.position, r.team])).toEqual([
+      ['valentino-rossi', 1, 'Nastro Azzurro Honda'],
+      ['jason-vincent', 13, 'Red Bull Yamaha WCM'],
+    ]);
+  });
+});

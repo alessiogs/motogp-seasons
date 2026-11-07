@@ -1,0 +1,42 @@
+==Standings==
+===500cc riders' standings===
+;Scoring system
+Points were awarded to the top fifteen finishers. A rider had to finish the race to earn points.
+
+{| class="wikitable" style="font-size:85%; text-align:center"
+|-
+! Position
+| 1st
+| 2nd
+|-
+! Points
+| 25
+| 20
+|}
+
+{|
+|
+{| class="wikitable" style="font-size: 85%; text-align:center"
+|- valign="top"
+!valign="middle"| Pos
+!valign="middle"| Rider
+!valign="middle"| Bike
+! [[2001 Japanese motorcycle Grand Prix|JPN]]<br>{{flagicon|JPN}}
+! [[2001 South African motorcycle Grand Prix|RSA]]<br>{{flagicon|ZAF}}
+!valign="middle"| Pts
+|-
+! 1
+|nowrap align="left"| {{flagicon|ITA}} [[Valentino Rossi]]
+| [[Honda]]
+|style="background:#ffffbf;"| 1
+|style="background:#ffffbf;"| '''''1'''''
+! 325
+|-
+! 2
+|nowrap align="left"| {{flagicon|ITA}} [[Max Biaggi]]
+| [[Yamaha Motor Company|Yamaha]]
+|style="background:#dfdfdf;"| 2
+|style="background:#dfdfdf;"| 2
+! 215
+|}
+|}

@@ -4,6 +4,8 @@ import { tmpdir } from 'node:os';
 import path from 'node:path';
 import { buildDatabase } from '@/features/data-build/scripts/build-database';
 import { getSeason } from '@/features/seasons/queries/get-season';
+import { getPreviousSeason } from '@/features/seasons/queries/get-previous-season';
+import { defendingChampionOf } from '@/features/seasons/logic/defending-champion-of';
 import { computeReplay } from './compute-replay';
 
 // Real Seasons: the World Champion must be crowned at the Step where the title was historically decided.
@@ -204,6 +206,13 @@ const crowned: Record<string, { rider: string; round: number; session: string; s
     session: 'grand-prix-race',
     source: 'https://motorcyclenews.com/sport/motogp/2002/september/rossi-takes-the-title-with-a-win-in-rio',
   },
+  // Rossi "sew-up the championship with two rounds to go" (the article's "that race" is muddled: the title was not decided in the Suzuka opener): the Australian Grand Prix, Round 14 of 16.
+  '500cc-2001': {
+    rider: 'valentino-rossi',
+    round: 14,
+    session: 'grand-prix-race',
+    source: 'https://en.wikipedia.org/wiki/2001_Grand_Prix_motorcycle_racing_season',
+  },
 };
 
 const dataDir = path.join(process.cwd(), 'data');
@@ -230,5 +239,11 @@ describe.each(loaded)('World Champion of %s', (name) => {
       expected.rider, expected.round, expected.session,
     ]);
     expect(steps.slice(first).every((s) => s.worldChampion === expected.rider)).toBe(true);
+  });
+});
+
+describe('Defending Champion of MotoGP 2002', () => {
+  it('is the 500cc 2001 World Champion, Rossi, the Category continuing across the class change', () => {
+    expect(defendingChampionOf(getPreviousSeason('motogp', 2002))).toEqual({ riderId: 'valentino-rossi', name: 'Valentino Rossi' });
   });
 });

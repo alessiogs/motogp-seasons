@@ -4,10 +4,12 @@ import { extractTables } from './extract-tables';
 export function parseOfficialTable(
   seasonText: string,
   riderId: (articleTitle: string, displayName: string) => string,
-  heading: string,
+  /** The heading of the standings section; several when articles of one class disagree on it. */
+  heading: string | string[],
 ) {
-  const table = extractTables(seasonText).find((t) => t.path.includes(heading) && /Pts|Points/.test(t.text) && /Rider/.test(t.text));
-  if (!table) throw new Error(`${heading} table not found`);
+  const headings = Array.isArray(heading) ? heading : [heading];
+  const table = extractTables(seasonText).find((t) => headings.some((h) => t.path.includes(h)) && /Pts|Points/.test(t.text) && /Rider/.test(t.text));
+  if (!table) throw new Error(`${headings.join(' / ')} table not found`);
   const standings: { position: number; rider: string; points: number }[] = [];
   for (const row of table.text.split(/^\|-.*$/m)) {
     const lines = row.split('\n');

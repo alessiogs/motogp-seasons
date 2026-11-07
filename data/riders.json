@@ -4051,7 +4051,8 @@
     "id": "norifumi-abe",
     "name": "Norifumi Abe",
     "sourceIds": {
-      "wikipedia": "Norifumi Abe"
+      "wikipedia": "Norifumi Abe",
+      "wikipedia2": "Norick Abe"
     }
   },
   {
@@ -4144,6 +4145,111 @@
     "name": "Jean-Michel Bayle",
     "sourceIds": {
       "wikipedia": "Jean-Michel Bayle"
+    }
+  },
+  {
+    "id": "alex-criville",
+    "name": "Àlex Crivillé",
+    "sourceIds": {
+      "wikipedia": "Àlex Crivillé"
+    }
+  },
+  {
+    "id": "haruchika-aoki",
+    "name": "Haruchika Aoki",
+    "sourceIds": {
+      "wikipedia": "Haruchika Aoki"
+    }
+  },
+  {
+    "id": "leon-haslam",
+    "name": "Leon Haslam",
+    "sourceIds": {
+      "wikipedia": "Leon Haslam"
+    }
+  },
+  {
+    "id": "jason-vincent",
+    "name": "Jason Vincent",
+    "sourceIds": {
+      "wikipedia": "Jason Vincent"
+    }
+  },
+  {
+    "id": "mark-willis",
+    "name": "Mark Willis",
+    "sourceIds": {
+      "wikipedia": "Mark Willis (motorcyclist)"
+    }
+  },
+  {
+    "id": "barry-veneman",
+    "name": "Barry Veneman",
+    "sourceIds": {
+      "wikipedia": "Barry Veneman"
+    }
+  },
+  {
+    "id": "johan-stigefelt",
+    "name": "Johan Stigefelt",
+    "sourceIds": {
+      "wikipedia": "Johan Stigefelt"
+    }
+  },
+  {
+    "id": "chris-walker",
+    "name": "Chris Walker",
+    "sourceIds": {
+      "wikipedia": "Chris Walker (motorcyclist)"
+    }
+  },
+  {
+    "id": "marcus-payten",
+    "name": "Marcus Payten",
+    "sourceIds": {
+      "wikipedia": "Marcus Payten"
+    }
+  },
+  {
+    "id": "vladimir-castka",
+    "name": "Vladimír Častka",
+    "sourceIds": {
+      "wikipedia": "Vladimír Častka"
+    }
+  },
+  {
+    "id": "jarno-janssen",
+    "name": "Jarno Janssen",
+    "sourceIds": {
+      "wikipedia": "Jarno Janssen"
+    }
+  },
+  {
+    "id": "sebastien-gimbert",
+    "name": "Sébastien Gimbert",
+    "sourceIds": {
+      "wikipedia": "Sébastien Gimbert"
+    }
+  },
+  {
+    "id": "brendan-clarke",
+    "name": "Brendan Clarke",
+    "sourceIds": {
+      "wikipedia": "Brendan Clarke (motorcyclist)"
+    }
+  },
+  {
+    "id": "shaun-geronimi",
+    "name": "Shaun Geronimi",
+    "sourceIds": {
+      "wikipedia": "Shaun Geronimi"
+    }
+  },
+  {
+    "id": "miguel-tey",
+    "name": "Miguel Tey",
+    "sourceIds": {
+      "wikipedia": "Miguel Tey"
     }
   }
 ]
