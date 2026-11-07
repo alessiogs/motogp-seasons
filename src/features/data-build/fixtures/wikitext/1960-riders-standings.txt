@@ -1,0 +1,67 @@
+====500cc final standings====
+
+{|
+|
+{| class="wikitable" style="font-size: 85%; text-align:center"
+|- valign="top"
+!valign="middle"| Pos
+!valign="middle"| Rider
+!valign="middle"| Machine
+! [[1960 French motorcycle Grand Prix|FRA]]<br />{{flagicon|FRA}}
+! [[1960 Isle of Man TT|MAN]]<br />{{flagicon|IOM}}
+! [[1960 Dutch TT|HOL]]<br />{{flagicon|NLD}}
+! [[1960 Belgian motorcycle Grand Prix|BEL]]<br />{{flagicon|BEL}}
+! [[1960 German motorcycle Grand Prix|GER]]<br />{{flagicon|DEU}}
+! [[1960 Ulster Grand Prix|ULS]]<br />{{flagicon|NIR}}
+! [[1960 Nations motorcycle Grand Prix|NAC]]<br />{{flagicon|ITA}}
+!valign="middle"| Pts
+|-
+! 1
+|align="left"| {{flagicon|GBR}} [[John Surtees]]
+| [[MV Agusta]]
+|style="background:#ffffbf;"| ''1''
+|style="background:#ffffbf;"| '''''1'''''
+|style="background:#efcfff;"| Ret
+|style="background:#ffffbf;"| ''1''
+|style="background:#ffffbf;"| ''1''
+|style="background:#dfdfdf;"| ''2''
+|style="background:#ffffbf;"| '''''1'''''
+| '''32''' (46)
+|-
+! 4
+|align="left"| {{flagicon|AUS}} [[Bob Brown (motorcyclist)|Bob Brown]]
+| [[Norton Motorcycle Company|Norton]]
+|style="background:#ffdf9f;"| 3
+|style="background:#dfffdf;"| 6
+|style="background:#dfdfdf;"| 2
+|style="background:#ffdf9f;"| 3
+|
+|
+|
+| '''15'''
+|-
+! -
+|align="left"| {{flagicon|ITA}} [[Emilio Mendogni]]
+| [[MV Agusta]]
+|
+|
+|style="background:#ffdf9f;"| 3
+|style="background:#dfffdf;"| 6
+|style="background:#ffdf9f;"| 3
+|
+|style="background:#dfdfdf;"| 2
+| '''15'''
+|-
+! 6
+|align="left"| {{flagicon|GBR}} [[Mike Hailwood]]
+| [[Norton Motorcycle Company|Norton]]
+|
+|style="background:#ffdf9f;"| 3
+|style="background:#dfffdf;"| 5
+|style="background:#dfffdf;"| 4
+|
+|style="background:#efcfff;"| Ret
+|style="background:#ffdf9f;"| 3
+| '''13'''
+|}
+|}

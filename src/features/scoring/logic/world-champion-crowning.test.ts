@@ -92,6 +92,89 @@ const crowned: Record<string, { rider: string; round: number; session: string; s
     session: 'grand-prix-race',
     source: 'https://en.wikipedia.org/wiki/1970_Grand_Prix_motorcycle_racing_season',
   },
+  // Wikipedia does not say where Agostini clinched (the 1968 season article: "Agostini won every race in the 500 and 350 classes").
+  // After the East German Grand Prix, Round 6 of 10, he had 48 points, six wins, the most that six counted scores can make; with four
+  // Rounds left Findlay, second with 22, could reach at most 44 (four wins plus his two best earlier scores, 6 and 6).
+  '500cc-1968': {
+    rider: 'giacomo-agostini',
+    round: 6,
+    session: 'grand-prix-race',
+    source: 'https://en.wikipedia.org/wiki/1968_Grand_Prix_motorcycle_racing_season',
+  },
+  // The season article: "The chase went down to the last race in Canada. Hailwood won there to tie Agostini on points. Each rider had
+  // five wins so it came down to second places - Agostini taking the title with three seconds to Hailwood's two." The replay agrees on
+  // the title but crowns it one Round early, after the Nations Grand Prix, Round 9 of 10: Agostini had 46 to Hailwood's 44 and, with
+  // five wins and two seconds each, a Hailwood win in Canada would tie them on points and on wins and seconds, and Countback over every
+  // finish then goes to Agostini, whose 20th place at the Ulster Grand Prix (Hailwood did not finish there) is the first difference.
+  // The sources settle it by the third second place at Canada (a Dropped score); the code needs no Canadian Result.
+  '500cc-1967': {
+    rider: 'giacomo-agostini',
+    round: 9,
+    session: 'grand-prix-race',
+    source: 'https://en.wikipedia.org/wiki/1967_Grand_Prix_motorcycle_racing_season',
+  },
+  // Wikipedia does not say where Agostini clinched (the 1966 season article: Redman's crash in Belgium "gave Agostini the championship
+  // lead, which he held despite Hailwood taking three of the last six races"). It was open until the Nations Grand Prix, Round 9 of 9:
+  // after Round 8 Agostini had 34 (best five of his scores) and Hailwood 30 with a Round to go, 38 if he won it.
+  '500cc-1966': {
+    rider: 'giacomo-agostini',
+    round: 9,
+    session: 'grand-prix-race',
+    source: 'https://en.wikipedia.org/wiki/1966_Grand_Prix_motorcycle_racing_season',
+  },
+  // Wikipedia does not say where Hailwood clinched (the 1965 season article: he "easily claimed his fourth successive 500 class crown").
+  // After the East German Grand Prix, Round 6 of 10, he had 48 points, six wins, the most that six counted scores can make; with four
+  // Rounds left Agostini, second with 24, could reach at most 44 (four wins plus two earlier seconds).
+  '500cc-1965': {
+    rider: 'mike-hailwood',
+    round: 6,
+    session: 'grand-prix-race',
+    source: 'https://en.wikipedia.org/wiki/1965_Grand_Prix_motorcycle_racing_season',
+  },
+  // "Mike Hailwood sprinted to another 500 class win for MV Agusta, winning the first six races of the year" (the 1964 season article).
+  // After the West German Grand Prix, Round 5 of 9, he had 40 points, five wins, the most that five counted scores can make; with four
+  // Rounds left Read, second with 17, could reach at most 38 (four wins plus his best earlier score, 6).
+  '500cc-1964': {
+    rider: 'mike-hailwood',
+    round: 5,
+    session: 'grand-prix-race',
+    source: 'https://en.wikipedia.org/wiki/1964_Grand_Prix_motorcycle_racing_season',
+  },
+  // Wikipedia does not say where Hailwood clinched (the 1963 season article gives the final table only). After the Finnish Grand Prix,
+  // Round 6 of 8, he had 40 points, five wins, the most that five counted scores can make; with two Rounds left Shepherd, second
+  // with 21, could reach at most 30 (two wins plus 6, 4 and 4) and Hartle 36 (two wins plus 8, 6 and 6).
+  '500cc-1963': {
+    rider: 'mike-hailwood',
+    round: 6,
+    session: 'grand-prix-race',
+    source: 'https://en.wikipedia.org/wiki/1963_Grand_Prix_motorcycle_racing_season',
+  },
+  // Wikipedia does not say where Hailwood clinched (the 1962 season article gives the final table only). After the Nations Grand Prix,
+  // Round 6 of 8, he had 40 points, five wins, the most that five counted scores can make; with two Rounds left Shepherd, second
+  // with 21, could reach at most 34 (two wins plus 6, 6 and 6).
+  '500cc-1962': {
+    rider: 'mike-hailwood',
+    round: 6,
+    session: 'grand-prix-race',
+    source: 'https://en.wikipedia.org/wiki/1962_Grand_Prix_motorcycle_racing_season',
+  },
+  // Wikipedia does not say where Hocking clinched (the 1961 season article gives the final table only). After the Ulster Grand Prix,
+  // Round 7 of 10, he had 48 points, six wins, the most that six counted scores can make; with three Rounds left Hailwood, second
+  // with 38, could reach at most 44 (three wins plus 8, 6 and 6).
+  '500cc-1961': {
+    rider: 'gary-hocking',
+    round: 7,
+    session: 'grand-prix-race',
+    source: 'https://en.wikipedia.org/wiki/1961_Grand_Prix_motorcycle_racing_season',
+  },
+  // "John Surtees won the fourth and final 500cc championship after winning the German Grand Prix" (the 1960 season article):
+  // Round 5 of 7, with four counted scores of 8 (32 points); Venturi, second with 26, could reach at most 30 with two Rounds left.
+  '500cc-1960': {
+    rider: 'john-surtees',
+    round: 5,
+    session: 'grand-prix-race',
+    source: 'https://en.wikipedia.org/wiki/1960_Grand_Prix_motorcycle_racing_season',
+  },
   // Wikipedia does not say where Agostini clinched (the 1969 season article gives the final table only). After the East German
   // Grand Prix, Round 7 of 12, he had 105 points, seven wins, the most that seven counted scores can make; with five Rounds
   // left a rival could take 75 and add at most two earlier scores of 12 (Agostini had won every Round), 99 in all.

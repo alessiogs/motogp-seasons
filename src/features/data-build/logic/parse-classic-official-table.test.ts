@@ -73,3 +73,20 @@ describe('parseClassicOfficialTable for Riders marked "=" in the position cell',
     ]);
   });
 });
+
+describe('parseClassicOfficialTable for a Rider marked "-" in the position cell', () => {
+  // Trimmed from the 1960 season article: Mendogni is level with Brown on 15 and has "-" instead of a position.
+  const sample1960 = readFileSync(
+    path.join(process.cwd(), 'src/features/data-build/fixtures/wikitext/1960-riders-standings.txt'),
+    'utf8',
+  );
+
+  it('ranks him with the Rider above, and reads "(46)" after the points as the gross total', () => {
+    expect(parseClassicOfficialTable(sample1960, riderId).map((r) => [r.position, r.rider, r.points])).toEqual([
+      [1, 'john-surtees', 32],
+      [4, 'bob-brown', 15],
+      [4, 'emilio-mendogni', 15],
+      [6, 'mike-hailwood', 13],
+    ]);
+  });
+});
