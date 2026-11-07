@@ -1,7 +1,7 @@
 {
   "class": "500cc",
   "year": 1988,
-  "scoringRule": "1976",
+  "scoringRule": "1988-90",
   "notes": "Loaded from Wikipedia (1988 Grand Prix motorcycle racing season); needs a hand check against motogp.com.",
   "rounds": [
     {
@@ -159,7 +159,7 @@
               "fastestLap": false,
               "pointsOverride": null,
               "team": "Team ROC Elf Honda",
-              "manufacturer": "Elf Honda",
+              "manufacturer": "Elf 500",
               "bikeNumber": null,
               "nationality": "GBR",
               "source": "https://en.wikipedia.org/wiki/1988_Japanese_motorcycle_Grand_Prix"
@@ -467,7 +467,7 @@
               "fastestLap": false,
               "pointsOverride": null,
               "team": "Team ROC Elf Honda",
-              "manufacturer": "Elf Honda",
+              "manufacturer": "Elf 500",
               "bikeNumber": null,
               "nationality": "GBR",
               "source": "https://en.wikipedia.org/wiki/1988_United_States_motorcycle_Grand_Prix"
@@ -883,7 +883,7 @@
               "fastestLap": false,
               "pointsOverride": null,
               "team": "Team ROC Elf Honda",
-              "manufacturer": "Elf Honda",
+              "manufacturer": "Elf 500",
               "bikeNumber": null,
               "nationality": "GBR",
               "source": "https://en.wikipedia.org/wiki/1988_Spanish_motorcycle_Grand_Prix"
@@ -1491,7 +1491,7 @@
               "fastestLap": false,
               "pointsOverride": null,
               "team": "Team ROC Elf Honda",
-              "manufacturer": "Elf Honda",
+              "manufacturer": "Elf 500",
               "bikeNumber": null,
               "nationality": "GBR",
               "source": "https://en.wikipedia.org/wiki/1988_Expo_92_motorcycle_Grand_Prix"
@@ -1799,7 +1799,7 @@
               "fastestLap": false,
               "pointsOverride": null,
               "team": "Team ROC Elf Honda",
-              "manufacturer": "Elf Honda",
+              "manufacturer": "Elf 500",
               "bikeNumber": null,
               "nationality": "GBR",
               "source": "https://en.wikipedia.org/wiki/1988_Nations_motorcycle_Grand_Prix"
@@ -2069,7 +2069,7 @@
               "source": "https://en.wikipedia.org/wiki/1988_Nations_motorcycle_Grand_Prix"
             },
             {
-              "rider": "leandro-becheroni",
+              "rider": "leandro-beccheroni",
               "position": null,
               "outcome": "DNS",
               "fastestLap": false,
@@ -2503,7 +2503,7 @@
               "fastestLap": false,
               "pointsOverride": null,
               "team": "Team ROC Elf Honda",
-              "manufacturer": "Elf Honda",
+              "manufacturer": "Elf 500",
               "bikeNumber": null,
               "nationality": "GBR",
               "source": "https://en.wikipedia.org/wiki/1988_German_motorcycle_Grand_Prix"
@@ -2715,7 +2715,7 @@
               "fastestLap": false,
               "pointsOverride": null,
               "team": "Team ROC Elf Honda",
-              "manufacturer": "Elf Honda",
+              "manufacturer": "Elf 500",
               "bikeNumber": null,
               "nationality": "GBR",
               "source": "https://en.wikipedia.org/wiki/1988_Austrian_motorcycle_Grand_Prix"
@@ -3179,7 +3179,7 @@
               "fastestLap": false,
               "pointsOverride": null,
               "team": "Team ROC Elf Honda",
-              "manufacturer": "Elf Honda",
+              "manufacturer": "Elf 500",
               "bikeNumber": null,
               "nationality": "GBR",
               "source": "https://en.wikipedia.org/wiki/1988_Dutch_TT"
@@ -3691,7 +3691,7 @@
               "fastestLap": false,
               "pointsOverride": null,
               "team": "Team ROC Elf Honda",
-              "manufacturer": "Elf Honda",
+              "manufacturer": "Elf 500",
               "bikeNumber": null,
               "nationality": "GBR",
               "source": "https://en.wikipedia.org/wiki/1988_Belgian_motorcycle_Grand_Prix"
@@ -4215,7 +4215,7 @@
               "fastestLap": false,
               "pointsOverride": null,
               "team": "Team ROC Elf Honda",
-              "manufacturer": "Elf Honda",
+              "manufacturer": "Elf 500",
               "bikeNumber": null,
               "nationality": "GBR",
               "source": "https://en.wikipedia.org/wiki/1988_Yugoslavian_motorcycle_Grand_Prix"
@@ -4322,8 +4322,8 @@
               "outcome": "FIN",
               "fastestLap": false,
               "pointsOverride": null,
-              "team": null,
-              "manufacturer": "Shell",
+              "team": "Shell",
+              "manufacturer": null,
               "bikeNumber": null,
               "nationality": "AUT",
               "source": "https://en.wikipedia.org/wiki/1988_Yugoslavian_motorcycle_Grand_Prix"
@@ -4491,7 +4491,7 @@
               "fastestLap": false,
               "pointsOverride": null,
               "team": "Team ROC Elf Honda",
-              "manufacturer": "Elf Honda",
+              "manufacturer": "Elf 500",
               "bikeNumber": null,
               "nationality": "AUS",
               "source": "https://en.wikipedia.org/wiki/1988_Yugoslavian_motorcycle_Grand_Prix"
@@ -4763,7 +4763,7 @@
               "fastestLap": false,
               "pointsOverride": null,
               "team": "Team ROC Elf Honda",
-              "manufacturer": "Elf Honda",
+              "manufacturer": "Elf 500",
               "bikeNumber": null,
               "nationality": "GBR",
               "source": "https://en.wikipedia.org/wiki/1988_French_motorcycle_Grand_Prix"
@@ -4787,7 +4787,7 @@
               "fastestLap": false,
               "pointsOverride": null,
               "team": "Team ROC Elf Honda",
-              "manufacturer": "Elf Honda",
+              "manufacturer": "Elf 500",
               "bikeNumber": null,
               "nationality": "AUS",
               "source": "https://en.wikipedia.org/wiki/1988_French_motorcycle_Grand_Prix"
@@ -5050,8 +5050,8 @@
               "outcome": "DNF",
               "fastestLap": false,
               "pointsOverride": null,
-              "team": "Cagiva",
-              "manufacturer": "Retirement",
+              "team": "Cagiva Corse",
+              "manufacturer": "Cagiva",
               "bikeNumber": null,
               "nationality": "FRA",
               "source": "https://en.wikipedia.org/wiki/1988_French_motorcycle_Grand_Prix"
@@ -5371,7 +5371,7 @@
               "fastestLap": false,
               "pointsOverride": null,
               "team": "Team ROC Elf Honda",
-              "manufacturer": "Elf Honda",
+              "manufacturer": "Elf 500",
               "bikeNumber": null,
               "nationality": "GBR",
               "source": "https://en.wikipedia.org/wiki/1988_British_motorcycle_Grand_Prix"
@@ -5847,7 +5847,7 @@
               "fastestLap": false,
               "pointsOverride": null,
               "team": "Team ROC Elf Honda",
-              "manufacturer": "Elf Honda",
+              "manufacturer": "Elf 500",
               "bikeNumber": null,
               "nationality": "UK",
               "source": "https://en.wikipedia.org/wiki/1988_Swedish_motorcycle_Grand_Prix"
@@ -6123,7 +6123,7 @@
               "fastestLap": false,
               "pointsOverride": null,
               "team": null,
-              "manufacturer": "Nicco Bakker",
+              "manufacturer": "Bakker",
               "bikeNumber": null,
               "nationality": "SWE",
               "source": "https://en.wikipedia.org/wiki/1988_Swedish_motorcycle_Grand_Prix"
@@ -6263,7 +6263,7 @@
               "fastestLap": false,
               "pointsOverride": null,
               "team": "Team ROC Elf Honda",
-              "manufacturer": "Elf Honda",
+              "manufacturer": "Elf 500",
               "bikeNumber": null,
               "nationality": "GBR",
               "source": "https://en.wikipedia.org/wiki/1988_Czechoslovak_motorcycle_Grand_Prix"
@@ -6931,7 +6931,7 @@
               "fastestLap": false,
               "pointsOverride": null,
               "team": "Team ROC Elf Honda",
-              "manufacturer": "Elf Honda",
+              "manufacturer": "Elf 500",
               "bikeNumber": null,
               "nationality": "GBR",
               "source": "https://en.wikipedia.org/wiki/1988_Brazilian_motorcycle_Grand_Prix"

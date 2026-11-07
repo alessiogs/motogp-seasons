@@ -7,16 +7,16 @@
       "name": "Cagiva"
     },
     {
-      "name": "Claude Fior"
+      "name": "Carimati-Pezzani Racing"
     },
     {
-      "name": "D. McManus"
+      "name": "Claude Fior"
     },
     {
       "name": "Deutsche Tecalemit"
     },
     {
-      "name": "DIKO"
+      "name": "Dieter Braun Team"
     },
     {
       "name": "DTR Fowler Yamaha"
@@ -46,6 +46,9 @@
       "name": "HIRT Giapauto-Honda"
     },
     {
+      "name": "HIRT Italia"
+    },
+    {
       "name": "Honda Britain Racing"
     },
     {
@@ -58,13 +61,13 @@
       "name": "HRC-Honda"
     },
     {
-      "name": "Jeb's Helmet Sweden"
+      "name": "Jeb’s Helmet Sweden"
     },
     {
       "name": "Krauter-Vertrieb Racing"
     },
     {
-      "name": "M. Woestenburg"
+      "name": "M Woestenburg"
     },
     {
       "name": "Marlboro Agostini-Yamaha"
@@ -76,10 +79,7 @@
       "name": "Marlboro-Suzuki"
     },
     {
-      "name": "Marlboro-Yamaha"
-    },
-    {
-      "name": "Mitsui Yamaha"
+      "name": "Mitsui-Yamaha"
     },
     {
       "name": "MO Motul Racing Team"
@@ -97,9 +97,6 @@
       "name": "Myers Motorcycles"
     },
     {
-      "name": "Royal Cars Suzuki"
-    },
-    {
       "name": "Shell Nederland-Suzuki"
     },
     {
@@ -112,7 +109,13 @@
       "name": "Stichting Ned-Honda"
     },
     {
+      "name": "Stichting Racing Team"
+    },
+    {
       "name": "Team Johnson Elf"
+    },
+    {
+      "name": "Venemotos-Yamaha"
     }
   ]
 }

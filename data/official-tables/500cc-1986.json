@@ -121,5 +121,11 @@
       "rider": "marco-papa",
       "points": 1
     }
-  ]
+  ],
+  "knownMismatch": {
+    "rider": "pierfrancesco-chili",
+    "replayedPoints": 11,
+    "printedPoints": 18,
+    "reason": "Pierfrancesco Chili's row on the 1986 season article has 14, 7, 16, 9, DNS, blank, 6, Ret, DNS: 7th (4), 9th (2) and 6th (5) give 11 points under the 15-12-10-8-6-5-4-3-2-1 table. The printed total is 18. No second source found; likely a source error."
+  }
 }

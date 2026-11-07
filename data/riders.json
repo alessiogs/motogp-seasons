@@ -473,7 +473,8 @@
     "id": "b-rge-nielsen",
     "name": "Børge Nielsen",
     "sourceIds": {
-      "wikipedia": "Børge Nielsen (motorcyclist)"
+      "wikipedia": "Børge Nielsen (motorcyclist)",
+      "wikipedia2": "Börge Nielsen"
     }
   },
   {
@@ -1181,7 +1182,8 @@
     "id": "gianfranco-bonera",
     "name": "Gianfranco Bonera",
     "sourceIds": {
-      "wikipedia": "Gianfranco Bonera"
+      "wikipedia": "Gianfranco Bonera",
+      "wikipedia2": "Franco Bonera"
     }
   },
   {
@@ -1880,7 +1882,8 @@
     "name": "Hansjoerg Butz",
     "sourceIds": {
       "wikipedia": "Hansjoerg Butz",
-      "wikipedia2": "Hansjorg Butz"
+      "wikipedia2": "Hansjorg Butz",
+      "wikipedia3": "Hansjörg Butz"
     }
   },
   {
@@ -5159,7 +5162,8 @@
     "id": "masaru-mizutani",
     "name": "Masaru Mizutani",
     "sourceIds": {
-      "wikipedia": "Masaru Mizutani"
+      "wikipedia": "Masaru Mizutani",
+      "wikipedia2": "Masuru Mizutani"
     }
   },
   {
@@ -5290,13 +5294,6 @@
     }
   },
   {
-    "id": "leandro-becheroni",
-    "name": "Leandro Becheroni",
-    "sourceIds": {
-      "wikipedia": "Leandro Becheroni"
-    }
-  },
-  {
     "id": "jorg-gammerschalg",
     "name": "Jorg Gammerschalg",
     "sourceIds": {
@@ -5342,7 +5339,8 @@
     "id": "johan-ten-napel",
     "name": "Johan ten Napel",
     "sourceIds": {
-      "wikipedia": "Johan ten Napel"
+      "wikipedia": "Johan ten Napel",
+      "wikipedia2": "Johann Ten Napel"
     }
   },
   {
@@ -5625,13 +5623,6 @@
     "sourceIds": {
       "wikipedia": "Gianni Rolando",
       "wikipedia2": "Giovanni Rolando"
-    }
-  },
-  {
-    "id": "franco-bonera",
-    "name": "Franco Bonera",
-    "sourceIds": {
-      "wikipedia": "Franco Bonera"
     }
   },
   {
@@ -5971,13 +5962,6 @@
     }
   },
   {
-    "id": "jean-luc-maisto",
-    "name": "Jean-Luc Maisto",
-    "sourceIds": {
-      "wikipedia": "Jean-Luc Maisto"
-    }
-  },
-  {
     "id": "vittorio-gibertini",
     "name": "Vittorio Gibertini",
     "sourceIds": {
@@ -6054,7 +6038,8 @@
     "id": "franz-kaserer",
     "name": "Franz Kaserer",
     "sourceIds": {
-      "wikipedia": "Franz Kaserer"
+      "wikipedia": "Franz Kaserer",
+      "wikipedia2": "Frank Kaserer"
     }
   },
   {
@@ -6104,7 +6089,8 @@
     "name": "Hennie Boerman",
     "sourceIds": {
       "wikipedia": "Hennie Boerman",
-      "wikipedia2": "Henry Boerman"
+      "wikipedia2": "Henry Boerman",
+      "wikipedia3": "Henny Boerman"
     }
   },
   {
@@ -6209,7 +6195,8 @@
     "id": "sergio-pellandini",
     "name": "Sergio Pellandini",
     "sourceIds": {
-      "wikipedia": "Sergio Pellandini"
+      "wikipedia": "Sergio Pellandini",
+      "wikipedia2": "Stefan Pellandini"
     }
   },
   {
@@ -6298,13 +6285,6 @@
     }
   },
   {
-    "id": "antonio-perez",
-    "name": "Antonio Perez",
-    "sourceIds": {
-      "wikipedia": "Antonio Perez"
-    }
-  },
-  {
     "id": "maurice-coq",
     "name": "Maurice Coq",
     "sourceIds": {
@@ -6371,7 +6351,8 @@
     "id": "trevor-nation",
     "name": "Trevor Nation",
     "sourceIds": {
-      "wikipedia": "Trevor Nation"
+      "wikipedia": "Trevor Nation",
+      "wikipedia2": "Trever Nation"
     }
   },
   {
@@ -6504,7 +6485,8 @@
     "id": "chris-guy",
     "name": "Chris Guy",
     "sourceIds": {
-      "wikipedia": "Chris Guy"
+      "wikipedia": "Chris Guy",
+      "wikipedia2": "Christophe Guyot"
     }
   },
   {
@@ -6609,7 +6591,8 @@
     "id": "leandro-beccheroni",
     "name": "Leandro Beccheroni",
     "sourceIds": {
-      "wikipedia": "Leandro Beccheroni"
+      "wikipedia": "Leandro Beccheroni",
+      "wikipedia2": "Leandro Becheroni"
     }
   },
   {
@@ -6661,7 +6644,8 @@
     "sourceIds": {
       "wikipedia": "Bent Slydal",
       "wikipedia2": "Beni Slydal",
-      "wikipedia3": "Bengt Slydal"
+      "wikipedia3": "Bengt Slydal",
+      "wikipedia4": "Bengt Slydal "
     }
   },
   {
@@ -6756,13 +6740,6 @@
     }
   },
   {
-    "id": "marco-grino",
-    "name": "Marco Grino",
-    "sourceIds": {
-      "wikipedia": "Marco Grino"
-    }
-  },
-  {
     "id": "bernard-denis",
     "name": "Bernard Denis",
     "sourceIds": {
@@ -6788,13 +6765,6 @@
     "name": "Risto Korhonen",
     "sourceIds": {
       "wikipedia": "Risto Korhonen"
-    }
-  },
-  {
-    "id": "peter-karlsson",
-    "name": "Peter Karlsson",
-    "sourceIds": {
-      "wikipedia": "Peter Karlsson"
     }
   },
   {
@@ -6833,31 +6803,10 @@
     }
   },
   {
-    "id": "eddy-elias",
-    "name": "Eddy Elias",
-    "sourceIds": {
-      "wikipedia": "Eddy Elias"
-    }
-  },
-  {
     "id": "benny-mortensen",
     "name": "Benny Mortensen",
     "sourceIds": {
       "wikipedia": "Benny Mortensen"
-    }
-  },
-  {
-    "id": "hans-steinhogel",
-    "name": "Hans Steinhogel",
-    "sourceIds": {
-      "wikipedia": "Hans Steinhogel"
-    }
-  },
-  {
-    "id": "luigi-rimoldi",
-    "name": "Luigi Rimoldi",
-    "sourceIds": {
-      "wikipedia": "Luigi Rimoldi"
     }
   },
   {
@@ -6936,13 +6885,6 @@
     "name": "Kjeil Warz",
     "sourceIds": {
       "wikipedia": "Kjeil Warz"
-    }
-  },
-  {
-    "id": "olivieri-cruciani",
-    "name": "Olivieri Cruciani",
-    "sourceIds": {
-      "wikipedia": "Olivieri Cruciani"
     }
   },
   {
@@ -7093,13 +7035,6 @@
     }
   },
   {
-    "id": "rolf-schneider",
-    "name": "Rolf Schneider",
-    "sourceIds": {
-      "wikipedia": "Rolf Schneider"
-    }
-  },
-  {
     "id": "carlo-prati",
     "name": "Carlo Prati",
     "sourceIds": {
@@ -7142,38 +7077,10 @@
     }
   },
   {
-    "id": "johann-ten-napel",
-    "name": "Johann Ten Napel",
-    "sourceIds": {
-      "wikipedia": "Johann Ten Napel"
-    }
-  },
-  {
     "id": "hans-klingbiel",
     "name": "Hans Klingbiel",
     "sourceIds": {
       "wikipedia": "Hans Klingbiel"
-    }
-  },
-  {
-    "id": "hansjorg-butz",
-    "name": "Hansjörg Butz",
-    "sourceIds": {
-      "wikipedia": "Hansjörg Butz"
-    }
-  },
-  {
-    "id": "donnie-macleod",
-    "name": "Donnie MacLeod",
-    "sourceIds": {
-      "wikipedia": "Donnie MacLeod"
-    }
-  },
-  {
-    "id": "henny-boerman",
-    "name": "Henny Boerman",
-    "sourceIds": {
-      "wikipedia": "Henny Boerman"
     }
   },
   {
@@ -7226,13 +7133,6 @@
     }
   },
   {
-    "id": "masuru-mizutani",
-    "name": "Masuru Mizutani",
-    "sourceIds": {
-      "wikipedia": "Masuru Mizutani"
-    }
-  },
-  {
     "id": "paul-ramon",
     "name": "Paul Ramon",
     "sourceIds": {
@@ -7247,13 +7147,6 @@
     }
   },
   {
-    "id": "trever-nation",
-    "name": "Trever Nation",
-    "sourceIds": {
-      "wikipedia": "Trever Nation"
-    }
-  },
-  {
     "id": "andres-perez-rubio",
     "name": "Andres Perez Rubio",
     "sourceIds": {
@@ -7265,20 +7158,6 @@
     "name": "Paolo Ferreti",
     "sourceIds": {
       "wikipedia": "Paolo Ferreti"
-    }
-  },
-  {
-    "id": "roberto-balbi",
-    "name": "Roberto Balbi",
-    "sourceIds": {
-      "wikipedia": "Roberto Balbi"
-    }
-  },
-  {
-    "id": "christophe-guyot",
-    "name": "Christophe Guyot",
-    "sourceIds": {
-      "wikipedia": "Christophe Guyot"
     }
   },
   {
@@ -7307,13 +7186,6 @@
     "name": "Claude Arcieso",
     "sourceIds": {
       "wikipedia": "Claude Arcieso"
-    }
-  },
-  {
-    "id": "borge-nielsen",
-    "name": "Börge Nielsen",
-    "sourceIds": {
-      "wikipedia": "Börge Nielsen"
     }
   },
   {
@@ -7356,13 +7228,6 @@
     "name": "Alfons Amerschläger",
     "sourceIds": {
       "wikipedia": "Alfons Amerschläger"
-    }
-  },
-  {
-    "id": "frank-kaserer",
-    "name": "Frank Kaserer",
-    "sourceIds": {
-      "wikipedia": "Frank Kaserer"
     }
   },
   {
@@ -7415,13 +7280,6 @@
     }
   },
   {
-    "id": "isao-ishikawa",
-    "name": "Isao Ishikawa",
-    "sourceIds": {
-      "wikipedia": "Isao Ishikawa"
-    }
-  },
-  {
     "id": "pierluigi-rimoldi",
     "name": "Pierluigi Rimoldi",
     "sourceIds": {
@@ -7433,13 +7291,6 @@
     "name": "Oliviero Cruciani",
     "sourceIds": {
       "wikipedia": "Oliviero Cruciani"
-    }
-  },
-  {
-    "id": "bengt-slydal",
-    "name": "Bengt Slydal",
-    "sourceIds": {
-      "wikipedia": "Bengt Slydal "
     }
   },
   {
@@ -7499,24 +7350,10 @@
     }
   },
   {
-    "id": "phil-henderson",
-    "name": "Phil Henderson",
-    "sourceIds": {
-      "wikipedia": "Phil Henderson"
-    }
-  },
-  {
     "id": "bert-schneider",
     "name": "Bert Schneider",
     "sourceIds": {
       "wikipedia": "Bert Schneider"
-    }
-  },
-  {
-    "id": "stefan-pellandini",
-    "name": "Stefan Pellandini",
-    "sourceIds": {
-      "wikipedia": "Stefan Pellandini"
     }
   },
   {

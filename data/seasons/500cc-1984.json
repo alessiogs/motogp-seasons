@@ -1,7 +1,7 @@
 {
   "class": "500cc",
   "year": 1984,
-  "scoringRule": "TODO-set-by-hand",
+  "scoringRule": "1977-87",
   "notes": "Loaded from Wikipedia (1984 Grand Prix motorcycle racing season); needs a hand check against motogp.com. Set the Scoring rule, Half points and aggregate classifications by hand.",
   "rounds": [
     {
@@ -117,7 +117,7 @@
               "source": "https://en.wikipedia.org/wiki/1984_South_African_motorcycle_Grand_Prix"
             },
             {
-              "rider": "christophe-guyot",
+              "rider": "chris-guy",
               "position": 9,
               "outcome": "FIN",
               "fastestLap": false,
@@ -545,7 +545,7 @@
               "source": "https://en.wikipedia.org/wiki/1984_Nations_motorcycle_Grand_Prix"
             },
             {
-              "rider": "christophe-guyot",
+              "rider": "chris-guy",
               "position": 24,
               "outcome": "FIN",
               "fastestLap": false,
@@ -670,8 +670,8 @@
               "outcome": "DNF",
               "fastestLap": false,
               "pointsOverride": null,
-              "team": "Suzuki",
-              "manufacturer": "Retired",
+              "team": null,
+              "manufacturer": "Suzuki",
               "bikeNumber": null,
               "nationality": "ITA",
               "source": "https://en.wikipedia.org/wiki/1984_Nations_motorcycle_Grand_Prix"
@@ -689,7 +689,7 @@
               "source": "https://en.wikipedia.org/wiki/1984_Nations_motorcycle_Grand_Prix"
             },
             {
-              "rider": "leandro-becheroni",
+              "rider": "leandro-beccheroni",
               "position": null,
               "outcome": "DNF",
               "fastestLap": false,
@@ -889,7 +889,7 @@
               "source": "https://en.wikipedia.org/wiki/1984_Spanish_motorcycle_Grand_Prix"
             },
             {
-              "rider": "christophe-guyot",
+              "rider": "chris-guy",
               "position": 11,
               "outcome": "FIN",
               "fastestLap": false,
@@ -2617,7 +2617,7 @@
               "source": "https://en.wikipedia.org/wiki/1984_French_motorcycle_Grand_Prix"
             },
             {
-              "rider": "borge-nielsen",
+              "rider": "b-rge-nielsen",
               "position": null,
               "outcome": "DNF",
               "fastestLap": false,
@@ -3014,14 +3014,14 @@
               "outcome": "FIN",
               "fastestLap": false,
               "pointsOverride": null,
-              "team": "Suzuki",
-              "manufacturer": "+2 laps",
+              "team": null,
+              "manufacturer": "Suzuki",
               "bikeNumber": null,
               "nationality": "BRD",
               "source": "https://en.wikipedia.org/wiki/1984_Yugoslavian_motorcycle_Grand_Prix"
             },
             {
-              "rider": "borge-nielsen",
+              "rider": "b-rge-nielsen",
               "position": 22,
               "outcome": "FIN",
               "fastestLap": false,
@@ -5165,7 +5165,7 @@
               "source": "https://en.wikipedia.org/wiki/1984_Swedish_motorcycle_Grand_Prix"
             },
             {
-              "rider": "borge-nielsen",
+              "rider": "b-rge-nielsen",
               "position": null,
               "outcome": "DNS",
               "fastestLap": false,

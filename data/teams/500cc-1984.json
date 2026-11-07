@@ -1,64 +1,55 @@
 {
   "teams": [
     {
-      "name": "Bill Smith Racing"
-    },
-    {
-      "name": "Cagiva"
+      "name": "Cagiva Motor Italia"
     },
     {
       "name": "David Attwood"
     },
     {
-      "name": "David Brown Racing"
-    },
-    {
       "name": "Dieter Braun Team"
-    },
-    {
-      "name": "DTR/Fowler’s of Bristol"
     },
     {
       "name": "Frankonia-Suzuki"
     },
     {
-      "name": "HB Gallina-Suzuki"
+      "name": "HB Suzuki GP Team"
     },
     {
-      "name": "Heron-Suzuki"
+      "name": "Heron Suzuki"
     },
     {
-      "name": "Honda Britain Racing"
+      "name": "Heron Team Suzuki"
     },
     {
-      "name": "HRC-Honda"
+      "name": "Honda Britain"
     },
     {
-      "name": "Marlboro Yamaha-Agostini"
+      "name": "Honda Racing Corporation"
     },
     {
-      "name": "Men Only Salon"
+      "name": "Honda Total"
     },
     {
-      "name": "Mitsui-Yamaha"
+      "name": "Juchem"
+    },
+    {
+      "name": "Marlboro Team Agostini"
     },
     {
       "name": "Olymp-Hemden Racing"
     },
     {
-      "name": "Royal Cars Suzuki"
+      "name": "RM Promotions"
     },
     {
-      "name": "Römer Racing Team"
+      "name": "Romer Racing Suisse"
     },
     {
-      "name": "Team Elf/Chevallier Johnson"
+      "name": "Team Elf Chevallier Johnson"
     },
     {
-      "name": "Toshiba-Suzuki"
-    },
-    {
-      "name": "Total-Honda"
+      "name": "Team Marlboro Agostini"
     }
   ]
 }

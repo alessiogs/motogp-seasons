@@ -1,7 +1,7 @@
 {
   "class": "500cc",
   "year": 1985,
-  "scoringRule": "TODO-set-by-hand",
+  "scoringRule": "1977-87",
   "notes": "Loaded from Wikipedia (1985 Grand Prix motorcycle racing season); needs a hand check against motogp.com. Set the Scoring rule, Half points and aggregate classifications by hand.",
   "rounds": [
     {
@@ -1526,7 +1526,7 @@
               "outcome": "FIN",
               "fastestLap": false,
               "pointsOverride": null,
-              "team": "Sonauto Gauloises-Yamaha",
+              "team": "Sonauto Gauloises Yamaha",
               "manufacturer": "Yamaha",
               "bikeNumber": null,
               "nationality": "France",
@@ -1670,7 +1670,7 @@
               "outcome": "FIN",
               "fastestLap": false,
               "pointsOverride": null,
-              "team": "Frankonia Suzuki",
+              "team": "Frankonia-Suzuki",
               "manufacturer": "Suzuki",
               "bikeNumber": null,
               "nationality": "Switzerland",
@@ -1689,7 +1689,7 @@
               "source": "https://en.wikipedia.org/wiki/1985_Grand_Prix_motorcycle_racing_season"
             },
             {
-              "rider": "leandro-becheroni",
+              "rider": "leandro-beccheroni",
               "position": 19,
               "outcome": "FIN",
               "fastestLap": false,
@@ -1767,7 +1767,7 @@
               "fastestLap": false,
               "pointsOverride": null,
               "team": "Katayama Racing Team",
-              "manufacturer": "Bakker-NS500",
+              "manufacturer": "Bakker",
               "bikeNumber": null,
               "nationality": "Japan",
               "source": "https://en.wikipedia.org/wiki/1985_Grand_Prix_motorcycle_racing_season"
@@ -2665,7 +2665,7 @@
               "source": "https://en.wikipedia.org/wiki/1985_Yugoslavian_motorcycle_Grand_Prix"
             },
             {
-              "rider": "leandro-becheroni",
+              "rider": "leandro-beccheroni",
               "position": 27,
               "outcome": "FIN",
               "fastestLap": false,
@@ -4430,8 +4430,8 @@
               "outcome": "FIN",
               "fastestLap": false,
               "pointsOverride": null,
-              "team": "Suzuki",
-              "manufacturer": "+2 laps",
+              "team": null,
+              "manufacturer": "Suzuki",
               "bikeNumber": null,
               "nationality": "NED",
               "source": "https://en.wikipedia.org/wiki/1985_British_motorcycle_Grand_Prix"
@@ -4798,7 +4798,7 @@
               "outcome": "FIN",
               "fastestLap": false,
               "pointsOverride": null,
-              "team": "'Honda Benelux Elf",
+              "team": "Honda Benelux Elf",
               "manufacturer": "Honda",
               "bikeNumber": null,
               "nationality": "BEL",
@@ -5418,7 +5418,7 @@
               "outcome": "FIN",
               "fastestLap": false,
               "pointsOverride": null,
-              "team": "|Shell-Toshiba Racing Team",
+              "team": "Shell-Toshiba Racing Team",
               "manufacturer": "Honda",
               "bikeNumber": null,
               "nationality": "NED",
@@ -5586,8 +5586,8 @@
               "outcome": "DNF",
               "fastestLap": false,
               "pointsOverride": null,
-              "team": "Cagiva",
-              "manufacturer": "Retired",
+              "team": null,
+              "manufacturer": "Cagiva",
               "bikeNumber": null,
               "nationality": "ITA",
               "source": "https://en.wikipedia.org/wiki/1985_San_Marino_motorcycle_Grand_Prix"

@@ -1,25 +1,22 @@
 {
   "teams": [
     {
-      "name": "Aldridge Racing"
-    },
-    {
-      "name": "Cagiva"
-    },
-    {
       "name": "Chevallier"
     },
     {
       "name": "DAF Trucks"
     },
     {
-      "name": "David Brown Racing"
-    },
-    {
-      "name": "Frankonia Suzuki"
+      "name": "Frankonia-Suzuki"
     },
     {
       "name": "HB Gallina-Suzuki"
+    },
+    {
+      "name": "HB Suzuki GP Team"
+    },
+    {
+      "name": "Honda Benelux Elf"
     },
     {
       "name": "Jim Finlay Racing"
@@ -28,7 +25,13 @@
       "name": "Katayama Racing Team"
     },
     {
+      "name": "Kreepy Krauly Racing"
+    },
+    {
       "name": "Kreepy Krauly Racing Team"
+    },
+    {
+      "name": "Marlboro Team Agostini"
     },
     {
       "name": "Marlboro Yamaha-Agostini"
@@ -37,19 +40,28 @@
       "name": "Michael Baldwin Racing"
     },
     {
-      "name": "Mitsui-Yamaha"
-    },
-    {
       "name": "Myers Motorcycles"
     },
     {
-      "name": "Nimag/Oud Bier"
+      "name": "Oud Bier"
+    },
+    {
+      "name": "Rollstar Honda Racing Team"
     },
     {
       "name": "Rothmans Honda Britain"
     },
     {
+      "name": "Rothmans Honda Mamola"
+    },
+    {
+      "name": "Rothmans Honda Team"
+    },
+    {
       "name": "Rothmans Honda-HRC"
+    },
+    {
+      "name": "Rothmans Team HRC"
     },
     {
       "name": "Royal Cars"
@@ -67,10 +79,13 @@
       "name": "Skoal Bandit Heron Suzuki"
     },
     {
-      "name": "Sonauto Gauloises-Yamaha"
+      "name": "Sonauto Gauloises Yamaha"
     },
     {
       "name": "Stichting Nederlands Racing Team"
+    },
+    {
+      "name": "Stichting Netherlands Racing Team"
     },
     {
       "name": "Team Arnetoli"
@@ -85,7 +100,10 @@
       "name": "Team Italia"
     },
     {
-      "name": "Zwafink Wilbers Racing"
+      "name": "Team ROC"
+    },
+    {
+      "name": "Zwafink & Wilberts Racing"
     }
   ]
 }

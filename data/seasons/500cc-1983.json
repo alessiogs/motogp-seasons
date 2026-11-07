@@ -1,7 +1,7 @@
 {
   "class": "500cc",
   "year": 1983,
-  "scoringRule": "TODO-set-by-hand",
+  "scoringRule": "1977-87",
   "notes": "Loaded from Wikipedia (1983 Grand Prix motorcycle racing season); needs a hand check against motogp.com. Set the Scoring rule, Half points and aggregate classifications by hand.",
   "rounds": [
     {
@@ -110,7 +110,7 @@
               "outcome": "FIN",
               "fastestLap": false,
               "pointsOverride": null,
-              "team": "Marlboro Agostini Yamaha",
+              "team": "Marlboro Agostini-Yamaha",
               "manufacturer": "Yamaha",
               "bikeNumber": null,
               "nationality": "USA",
@@ -254,7 +254,7 @@
               "outcome": "FIN",
               "fastestLap": false,
               "pointsOverride": null,
-              "team": "Mitsui Yamaha",
+              "team": "Mitsui-Yamaha",
               "manufacturer": "Yamaha",
               "bikeNumber": null,
               "nationality": "GBR",
@@ -333,7 +333,7 @@
               "source": "https://en.wikipedia.org/wiki/1983_South_African_motorcycle_Grand_Prix"
             },
             {
-              "rider": "leandro-becheroni",
+              "rider": "leandro-beccheroni",
               "position": null,
               "outcome": "DNF",
               "fastestLap": false,
@@ -393,7 +393,7 @@
               "source": "https://en.wikipedia.org/wiki/1983_South_African_motorcycle_Grand_Prix"
             },
             {
-              "rider": "frank-kaserer",
+              "rider": "franz-kaserer",
               "position": null,
               "outcome": "DNS",
               "fastestLap": false,
@@ -646,7 +646,7 @@
               "outcome": "FIN",
               "fastestLap": false,
               "pointsOverride": null,
-              "team": "Jeb's Helmet Sweden",
+              "team": "Jeb’s Helmet Sweden",
               "manufacturer": "Suzuki",
               "bikeNumber": null,
               "nationality": "Sweden",
@@ -850,7 +850,7 @@
               "outcome": "DNF",
               "fastestLap": false,
               "pointsOverride": null,
-              "team": "Mitsui Yamaha",
+              "team": "Mitsui-Yamaha",
               "manufacturer": "Yamaha",
               "bikeNumber": null,
               "nationality": "Great Britain",
@@ -1273,7 +1273,7 @@
               "source": "https://en.wikipedia.org/wiki/1983_Nations_motorcycle_Grand_Prix"
             },
             {
-              "rider": "leandro-becheroni",
+              "rider": "leandro-beccheroni",
               "position": 22,
               "outcome": "FIN",
               "fastestLap": false,
@@ -1338,7 +1338,7 @@
               "outcome": "DNF",
               "fastestLap": false,
               "pointsOverride": null,
-              "team": "Marlboro Agostini Yamaha",
+              "team": "Marlboro Agostini-Yamaha",
               "manufacturer": "Yamaha",
               "bikeNumber": null,
               "nationality": "USA",
@@ -1362,7 +1362,7 @@
               "outcome": "DNF",
               "fastestLap": false,
               "pointsOverride": null,
-              "team": "Hirt Giapauto-Honda",
+              "team": "HIRT Giapauto-Honda",
               "manufacturer": "Honda",
               "bikeNumber": null,
               "nationality": "ITA",
@@ -1598,7 +1598,7 @@
               "outcome": "FIN",
               "fastestLap": false,
               "pointsOverride": null,
-              "team": "Marlboro Agostini Yamaha",
+              "team": "Marlboro Agostini-Yamaha",
               "manufacturer": "Yamaha",
               "bikeNumber": null,
               "nationality": "USA",
@@ -1629,7 +1629,7 @@
               "source": "https://en.wikipedia.org/wiki/1983_German_motorcycle_Grand_Prix"
             },
             {
-              "rider": "leandro-becheroni",
+              "rider": "leandro-beccheroni",
               "position": 12,
               "outcome": "FIN",
               "fastestLap": false,
@@ -1646,7 +1646,7 @@
               "outcome": "FIN",
               "fastestLap": false,
               "pointsOverride": null,
-              "team": "Hirt Giapauto-Honda",
+              "team": "HIRT Giapauto-Honda",
               "manufacturer": "Honda",
               "bikeNumber": null,
               "nationality": "ITA",
@@ -2170,7 +2170,7 @@
               "outcome": "FIN",
               "fastestLap": false,
               "pointsOverride": null,
-              "team": "Marlboro Agostini Yamaha",
+              "team": "Marlboro Agostini-Yamaha",
               "manufacturer": "Yamaha",
               "bikeNumber": null,
               "nationality": "USA",
@@ -2465,7 +2465,7 @@
               "source": "https://en.wikipedia.org/wiki/1983_Spanish_motorcycle_Grand_Prix"
             },
             {
-              "rider": "leandro-becheroni",
+              "rider": "leandro-beccheroni",
               "position": null,
               "outcome": "DNS",
               "fastestLap": false,
@@ -2514,7 +2514,7 @@
               "outcome": "FIN",
               "fastestLap": false,
               "pointsOverride": null,
-              "team": "Marlboro Agostini Yamaha",
+              "team": "Marlboro Agostini-Yamaha",
               "manufacturer": "Yamaha",
               "bikeNumber": null,
               "nationality": "USA",
@@ -2773,7 +2773,7 @@
               "source": "https://en.wikipedia.org/wiki/1983_Austrian_motorcycle_Grand_Prix"
             },
             {
-              "rider": "leandro-becheroni",
+              "rider": "leandro-beccheroni",
               "position": 24,
               "outcome": "FIN",
               "fastestLap": false,
@@ -3002,7 +3002,7 @@
               "outcome": "FIN",
               "fastestLap": false,
               "pointsOverride": null,
-              "team": "Marlboro Agostini Yamaha",
+              "team": "Marlboro Agostini-Yamaha",
               "manufacturer": "Yamaha",
               "bikeNumber": null,
               "nationality": "USA",
@@ -3345,7 +3345,7 @@
               "source": "https://en.wikipedia.org/wiki/1983_Yugoslavian_motorcycle_Grand_Prix"
             },
             {
-              "rider": "leandro-becheroni",
+              "rider": "leandro-beccheroni",
               "position": null,
               "outcome": "DNS",
               "fastestLap": false,
@@ -3454,7 +3454,7 @@
               "outcome": "FIN",
               "fastestLap": false,
               "pointsOverride": null,
-              "team": "Marlboro Agostini Yamaha",
+              "team": "Marlboro Agostini-Yamaha",
               "manufacturer": "Yamaha",
               "bikeNumber": null,
               "nationality": "USA",
@@ -3906,7 +3906,7 @@
               "outcome": "FIN",
               "fastestLap": false,
               "pointsOverride": null,
-              "team": "Marlboro Agostini Yamaha",
+              "team": "Marlboro Agostini-Yamaha",
               "manufacturer": "Yamaha",
               "bikeNumber": null,
               "nationality": "USA",
@@ -4170,7 +4170,7 @@
               "outcome": "DNF",
               "fastestLap": false,
               "pointsOverride": null,
-              "team": "Jeb's Helmet Sweden",
+              "team": "Jeb’s Helmet Sweden",
               "manufacturer": "Suzuki",
               "bikeNumber": null,
               "nationality": "SWE",
@@ -4331,7 +4331,7 @@
       "country": "UK",
       "date": "1983-07-31",
       "nonChampionship": false,
-      "notes": null,
+      "notes": "Aggregate classification: the race was red-flagged on lap 6 after a crash and restarted as a split race; the order is that of the total time of the two parts combined (\"The total time of the two races combined formed the aggregate time for the results\", the 1983 British GP article).",
       "sessions": [
         {
           "type": "grand-prix-race",
@@ -4382,7 +4382,7 @@
               "outcome": "FIN",
               "fastestLap": false,
               "pointsOverride": null,
-              "team": "Marlboro Agostini Yamaha",
+              "team": "Marlboro Agostini-Yamaha",
               "manufacturer": "Yamaha",
               "bikeNumber": null,
               "nationality": "USA",
@@ -4761,7 +4761,7 @@
               "source": "https://en.wikipedia.org/wiki/1983_British_motorcycle_Grand_Prix"
             },
             {
-              "rider": "leandro-becheroni",
+              "rider": "leandro-beccheroni",
               "position": null,
               "outcome": "DNF",
               "fastestLap": false,
@@ -5014,7 +5014,7 @@
               "outcome": "FIN",
               "fastestLap": false,
               "pointsOverride": null,
-              "team": "Marlboro Agostini Yamaha",
+              "team": "Marlboro Agostini-Yamaha",
               "manufacturer": "Yamaha",
               "bikeNumber": null,
               "nationality": "USA",
@@ -5146,7 +5146,7 @@
               "outcome": "FIN",
               "fastestLap": false,
               "pointsOverride": null,
-              "team": "Jeb's Helmet Sweden",
+              "team": "Jeb’s Helmet Sweden",
               "manufacturer": "Suzuki",
               "bikeNumber": null,
               "nationality": "SWE",
@@ -5165,7 +5165,7 @@
               "source": "https://en.wikipedia.org/wiki/1983_Swedish_motorcycle_Grand_Prix"
             },
             {
-              "rider": "leandro-becheroni",
+              "rider": "leandro-beccheroni",
               "position": 18,
               "outcome": "FIN",
               "fastestLap": false,
@@ -5545,7 +5545,7 @@
               "source": "https://en.wikipedia.org/wiki/1983_San_Marino_motorcycle_Grand_Prix"
             },
             {
-              "rider": "leandro-becheroni",
+              "rider": "leandro-beccheroni",
               "position": 11,
               "outcome": "FIN",
               "fastestLap": false,
@@ -5802,7 +5802,7 @@
               "outcome": "DNF",
               "fastestLap": false,
               "pointsOverride": null,
-              "team": "Heron Suzuki",
+              "team": "Heron-Suzuki",
               "manufacturer": "Suzuki",
               "bikeNumber": null,
               "nationality": "GBR",

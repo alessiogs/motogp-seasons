@@ -1,7 +1,7 @@
 {
   "class": "500cc",
   "year": 1977,
-  "scoringRule": "1976",
+  "scoringRule": "1977-87",
   "notes": "Loaded from Wikipedia (1977 Grand Prix motorcycle racing season); needs a hand check against motogp.com.",
   "rounds": [
     {
@@ -199,7 +199,7 @@
       "country": "Austria",
       "date": "1977-05-01",
       "nonChampionship": false,
-      "notes": null,
+      "notes": "Austrian GP raced by a reduced field after a riders' strike over safety. It still counts as a Round of the championship.",
       "sessions": [
         {
           "type": "grand-prix-race",
@@ -334,7 +334,7 @@
               "outcome": "DNF",
               "fastestLap": false,
               "pointsOverride": null,
-              "team": "Lansivuori Team",
+              "team": "Länsivuori Team",
               "manufacturer": "Suzuki",
               "bikeNumber": null,
               "nationality": "FIN",

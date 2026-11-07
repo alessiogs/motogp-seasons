@@ -323,7 +323,7 @@
     },
     {
       "position": 65,
-      "rider": "johann-ten-napel",
+      "rider": "johan-ten-napel",
       "points": 0
     },
     {
@@ -393,7 +393,7 @@
     },
     {
       "position": 79,
-      "rider": "hansjorg-butz",
+      "rider": "hansjoerg-butz",
       "points": 0
     },
     {
@@ -431,5 +431,11 @@
       "rider": "thomas-aronsson",
       "points": 0
     }
-  ]
+  ],
+  "knownMismatch": {
+    "rider": "alessandro-valesi",
+    "replayedPoints": 26,
+    "printedPoints": 19,
+    "reason": "Alessandro Valesi's row on the 1988 season article and the report articles agree: 11th (5), 13th (3), 10th (6), 13th (3), 12th (4), 14th (2) and 13th (3) give 26 points under the 20-17-15-13-11-10-9-8-7-6-5-4-3-2-1 table. The printed total is 19. No second source found; likely a source error."
+  }
 }

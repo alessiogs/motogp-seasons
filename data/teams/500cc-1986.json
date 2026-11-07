@@ -1,6 +1,9 @@
 {
   "teams": [
     {
+      "name": "Bakker-Honda"
+    },
+    {
       "name": "Cagiva"
     },
     {
@@ -10,10 +13,16 @@
       "name": "Ecurie Fior"
     },
     {
-      "name": "Frankonia Suzuki"
+      "name": "Fior"
+    },
+    {
+      "name": "Frankonia-Suzuki"
     },
     {
       "name": "HB Suzuki"
+    },
+    {
+      "name": "HB Suzuki GP Team"
     },
     {
       "name": "HDJ Sportswear"
@@ -34,6 +43,9 @@
       "name": "Lucky Strike Yamaha-Roberts"
     },
     {
+      "name": "Marlboro Yamaha Team Agostini"
+    },
+    {
       "name": "Marlboro Yamaha-Agostini"
     },
     {
@@ -46,9 +58,6 @@
       "name": "Rallye Sport"
     },
     {
-      "name": "Rizla Heron Suzuki"
-    },
-    {
       "name": "Rollstar Honda Racing Team"
     },
     {
@@ -56,6 +65,9 @@
     },
     {
       "name": "Rothmans Honda-HRC"
+    },
+    {
+      "name": "Rothmans Team HRC"
     },
     {
       "name": "Skoal Bandit Heron Suzuki"
@@ -70,10 +82,25 @@
       "name": "Team Elf-ROC"
     },
     {
+      "name": "Team Gauloises Blondes Yamaha"
+    },
+    {
       "name": "Team Hein Gericke"
     },
     {
+      "name": "Team HRC"
+    },
+    {
       "name": "Team Italia"
+    },
+    {
+      "name": "Team Lucky Strike Roberts"
+    },
+    {
+      "name": "Team Paton"
+    },
+    {
+      "name": "Team ROC"
     },
     {
       "name": "Walter Wolf Racing"

@@ -1,7 +1,7 @@
 {
   "class": "500cc",
   "year": 1987,
-  "scoringRule": "TODO-set-by-hand",
+  "scoringRule": "1977-87",
   "notes": "Loaded from Wikipedia (1987 Grand Prix motorcycle racing season); needs a hand check against motogp.com. Set the Scoring rule, Half points and aggregate classifications by hand.",
   "rounds": [
     {
@@ -3441,7 +3441,7 @@
               "source": "https://en.wikipedia.org/wiki/1987_Dutch_TT"
             },
             {
-              "rider": "henny-boerman",
+              "rider": "hennie-boerman",
               "position": null,
               "outcome": "DNS",
               "fastestLap": false,

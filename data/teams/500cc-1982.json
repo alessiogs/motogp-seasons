@@ -22,6 +22,9 @@
       "name": "Fowler's of Bristol/DTR"
     },
     {
+      "name": "Gallina Team Suzuki"
+    },
+    {
       "name": "Gallina-Suzuki"
     },
     {
@@ -43,13 +46,22 @@
       "name": "Henk de Vries Motoren"
     },
     {
+      "name": "Heron Team Suzuki"
+    },
+    {
       "name": "Heron-Suzuki"
+    },
+    {
+      "name": "Hollande Isolatie"
     },
     {
       "name": "Honda Britain"
     },
     {
-      "name": "Honda-HRC"
+      "name": "Honda International Racing"
+    },
+    {
+      "name": "Honda Racing Corporation"
     },
     {
       "name": "Hordo Racing"
@@ -64,10 +76,16 @@
       "name": "Kortedala MK"
     },
     {
+      "name": "Krauser MDS German Racing Team"
+    },
+    {
       "name": "Krauser MDS Racing Team"
     },
     {
       "name": "Marlboro Agostini-Yamaha"
+    },
+    {
+      "name": "Marlboro Team Agostini"
     },
     {
       "name": "Millar Racing"
@@ -77,6 +95,9 @@
     },
     {
       "name": "Morbidelli"
+    },
+    {
+      "name": "Moto Sanvenero"
     },
     {
       "name": "Padgetts of Batley"
@@ -94,19 +115,31 @@
       "name": "Sonauto Gauloises-Yamaha"
     },
     {
+      "name": "Team HB Suzuki"
+    },
+    {
       "name": "Team Kawasaki"
     },
     {
       "name": "Team MDS Belgarda"
     },
     {
-      "name": "Venemotos Yamaha"
+      "name": "Team Mitsui Yamaha"
+    },
+    {
+      "name": "Team Sonauto Gauloises"
+    },
+    {
+      "name": "Triumph Club Wien"
     },
     {
       "name": "Wolfgang Kucera"
     },
     {
       "name": "Yamaha International"
+    },
+    {
+      "name": "Yamaha Motor Company"
     }
   ]
 }

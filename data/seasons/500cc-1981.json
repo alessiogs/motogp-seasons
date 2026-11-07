@@ -1,7 +1,7 @@
 {
   "class": "500cc",
   "year": 1981,
-  "scoringRule": "TODO-set-by-hand",
+  "scoringRule": "1977-87",
   "notes": "Loaded from Wikipedia (1981 Grand Prix motorcycle racing season); needs a hand check against motogp.com. Set the Scoring rule, Half points and aggregate classifications by hand.",
   "rounds": [
     {
@@ -339,7 +339,7 @@
               "fastestLap": false,
               "pointsOverride": null,
               "team": "Team Solitude Deutschland",
-              "manufacturer": "Solo",
+              "manufacturer": null,
               "bikeNumber": null,
               "nationality": "BRD",
               "source": "https://en.wikipedia.org/wiki/1981_Austrian_motorcycle_Grand_Prix"
@@ -435,7 +435,7 @@
               "fastestLap": false,
               "pointsOverride": null,
               "team": "Team Solitude Deutschland",
-              "manufacturer": "Solo",
+              "manufacturer": null,
               "bikeNumber": null,
               "nationality": "RSA",
               "source": "https://en.wikipedia.org/wiki/1981_Austrian_motorcycle_Grand_Prix"
@@ -863,7 +863,7 @@
               "fastestLap": false,
               "pointsOverride": null,
               "team": "Team Kawasaki",
-              "manufacturer": "KR500",
+              "manufacturer": "Kawasaki",
               "bikeNumber": null,
               "nationality": "South Africa",
               "source": "https://en.wikipedia.org/wiki/1981_Grand_Prix_motorcycle_racing_season"
@@ -959,7 +959,7 @@
               "fastestLap": false,
               "pointsOverride": null,
               "team": "HRC-Honda",
-              "manufacturer": "NR500",
+              "manufacturer": "Honda",
               "bikeNumber": null,
               "nationality": "Japan",
               "source": "https://en.wikipedia.org/wiki/1981_Grand_Prix_motorcycle_racing_season"
@@ -1007,7 +1007,7 @@
               "fastestLap": false,
               "pointsOverride": null,
               "team": "Team Solitude Deutschland",
-              "manufacturer": "Solo",
+              "manufacturer": null,
               "bikeNumber": null,
               "nationality": "South Africa",
               "source": "https://en.wikipedia.org/wiki/1981_Grand_Prix_motorcycle_racing_season"
@@ -1066,8 +1066,8 @@
               "outcome": "DNF",
               "fastestLap": false,
               "pointsOverride": null,
-              "team": "FKN",
-              "manufacturer": null,
+              "team": null,
+              "manufacturer": "FKN",
               "bikeNumber": null,
               "nationality": "Germany",
               "source": "https://en.wikipedia.org/wiki/1981_Grand_Prix_motorcycle_racing_season"
@@ -1225,7 +1225,7 @@
               "source": "https://en.wikipedia.org/wiki/1981_Nations_motorcycle_Grand_Prix"
             },
             {
-              "rider": "leandro-becheroni",
+              "rider": "leandro-beccheroni",
               "position": 11,
               "outcome": "FIN",
               "fastestLap": false,
@@ -1471,7 +1471,7 @@
               "fastestLap": false,
               "pointsOverride": null,
               "team": "Team Solitude Deutschland",
-              "manufacturer": "Solo",
+              "manufacturer": null,
               "bikeNumber": null,
               "nationality": "BRD",
               "source": "https://en.wikipedia.org/wiki/1981_Nations_motorcycle_Grand_Prix"
@@ -1567,7 +1567,7 @@
               "fastestLap": false,
               "pointsOverride": null,
               "team": "Team Solitude Deutschland",
-              "manufacturer": "Solo",
+              "manufacturer": null,
               "bikeNumber": null,
               "nationality": "RSA",
               "source": "https://en.wikipedia.org/wiki/1981_Nations_motorcycle_Grand_Prix"
@@ -2007,7 +2007,7 @@
               "fastestLap": false,
               "pointsOverride": null,
               "team": "Team Solitude Deutschland",
-              "manufacturer": "Solo",
+              "manufacturer": null,
               "bikeNumber": null,
               "nationality": "BRD",
               "source": "https://en.wikipedia.org/wiki/1981_French_motorcycle_Grand_Prix"
@@ -2230,7 +2230,7 @@
               "outcome": "FIN",
               "fastestLap": false,
               "pointsOverride": null,
-              "team": "Heron Suzuki",
+              "team": "Heron-Suzuki",
               "manufacturer": "Suzuki",
               "bikeNumber": null,
               "nationality": "NZL",
@@ -2435,7 +2435,7 @@
               "fastestLap": false,
               "pointsOverride": null,
               "team": "Team Solitude Deutschland",
-              "manufacturer": "Solo",
+              "manufacturer": null,
               "bikeNumber": null,
               "nationality": "RSA",
               "source": "https://en.wikipedia.org/wiki/1981_Yugoslavian_motorcycle_Grand_Prix"
@@ -3635,7 +3635,7 @@
               "fastestLap": false,
               "pointsOverride": null,
               "team": "Team Sonauto Gauloises",
-              "manufacturer": "+1'22.850",
+              "manufacturer": "Yamaha",
               "bikeNumber": null,
               "nationality": "FRA",
               "source": "https://en.wikipedia.org/wiki/1981_San_Marino_motorcycle_Grand_Prix"
@@ -4315,7 +4315,7 @@
               "fastestLap": false,
               "pointsOverride": null,
               "team": "Team Kawasaki",
-              "manufacturer": "KR500",
+              "manufacturer": "Kawasaki",
               "bikeNumber": null,
               "nationality": "South Africa",
               "source": "https://en.wikipedia.org/wiki/1981_Grand_Prix_motorcycle_racing_season"
@@ -4447,7 +4447,7 @@
               "fastestLap": false,
               "pointsOverride": null,
               "team": "HRC-Honda",
-              "manufacturer": "NR500",
+              "manufacturer": "Honda",
               "bikeNumber": null,
               "nationality": "USA",
               "source": "https://en.wikipedia.org/wiki/1981_Grand_Prix_motorcycle_racing_season"

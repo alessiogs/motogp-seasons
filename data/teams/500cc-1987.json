@@ -1,112 +1,43 @@
 {
   "teams": [
     {
-      "name": "Aldridge Racing"
-    },
-    {
-      "name": "Amatriain Racing"
-    },
-    {
-      "name": "Andy Leuthe"
-    },
-    {
-      "name": "Assmex"
-    },
-    {
-      "name": "Bruno Kneubühler"
-    },
-    {
       "name": "Cagiva-Bastos-Alstare"
-    },
-    {
-      "name": "Duckhams NLM Honda"
-    },
-    {
-      "name": "FE-GO"
     },
     {
       "name": "Fior"
     },
     {
-      "name": "Fior-SNCF"
-    },
-    {
-      "name": "Frankonia-Suzuki"
-    },
-    {
-      "name": "H.D.J. B.Y."
-    },
-    {
       "name": "HB Honda Gallina Team"
-    },
-    {
-      "name": "HB-Honda"
-    },
-    {
-      "name": "Hein Gericke Racing"
     },
     {
       "name": "Heron Suzuki GB"
     },
     {
-      "name": "Heron-Suzuki"
-    },
-    {
       "name": "Honda GB"
-    },
-    {
-      "name": "La Vigile San Marco"
-    },
-    {
-      "name": "Lucky Strike Fior"
     },
     {
       "name": "Marlboro Yamaha Team Agostini"
     },
     {
-      "name": "Marlboro-Agostini"
+      "name": "Moriwaki Racing"
     },
     {
-      "name": "Paton"
+      "name": "Moto Shop Kajigaya Racing"
     },
     {
       "name": "Racing Team Docshop"
     },
     {
-      "name": "Rallye Sport"
-    },
-    {
-      "name": "Rothmans Honda Britain"
-    },
-    {
       "name": "Rothmans Honda Team"
-    },
-    {
-      "name": "Rothmans Honda-HRC"
-    },
-    {
-      "name": "Servisco"
-    },
-    {
-      "name": "Shell Gemini"
-    },
-    {
-      "name": "Shell-DAF Trucks"
-    },
-    {
-      "name": "Skoal Bandit Heron Suzuki"
     },
     {
       "name": "Sonauto Gauloises Jack Germain"
     },
     {
-      "name": "Sonauto Gauloises-Yamaha"
+      "name": "SRS Sugaya"
     },
     {
-      "name": "Team Cagiva-Alstare"
-    },
-    {
-      "name": "Team Elf-ROC"
+      "name": "Suzuki Japan"
     },
     {
       "name": "Team Hein Gericke"
@@ -115,19 +46,25 @@
       "name": "Team HRC"
     },
     {
-      "name": "Team Iberna"
+      "name": "Team Lucky Strike Roberts"
     },
     {
-      "name": "Team Lucky Strike-Roberts"
+      "name": "Team Paton"
     },
     {
       "name": "Team ROC Elf Honda"
     },
     {
-      "name": "Team Sweden"
+      "name": "Technical Sports Kanto"
     },
     {
-      "name": "Yamaha Japan"
+      "name": "Walter Wolf Suzuki MIIP"
+    },
+    {
+      "name": "Yamaha Motor Company"
+    },
+    {
+      "name": "Yamaha Roberts"
     }
   ]
 }

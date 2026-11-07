@@ -1,7 +1,7 @@
 {
   "class": "500cc",
   "year": 1978,
-  "scoringRule": "TODO-set-by-hand",
+  "scoringRule": "1977-87",
   "notes": "Loaded from Wikipedia (1978 Grand Prix motorcycle racing season); needs a hand check against motogp.com. Set the Scoring rule, Half points and aggregate classifications by hand.",
   "rounds": [
     {
@@ -93,7 +93,7 @@
               "source": "https://en.wikipedia.org/wiki/1978_Venezuelan_motorcycle_Grand_Prix"
             },
             {
-              "rider": "leandro-becheroni",
+              "rider": "leandro-beccheroni",
               "position": 7,
               "outcome": "FIN",
               "fastestLap": false,
@@ -587,7 +587,7 @@
               "fastestLap": false,
               "pointsOverride": null,
               "team": "Sonauto",
-              "manufacturer": "Buton",
+              "manufacturer": null,
               "bikeNumber": null,
               "nationality": "ESP",
               "source": "https://en.wikipedia.org/wiki/1978_Spanish_motorcycle_Grand_Prix"
@@ -709,7 +709,7 @@
               "source": "https://en.wikipedia.org/wiki/1978_Austrian_motorcycle_Grand_Prix"
             },
             {
-              "rider": "franco-bonera",
+              "rider": "gianfranco-bonera",
               "position": 9,
               "outcome": "FIN",
               "fastestLap": false,
@@ -1383,7 +1383,7 @@
               "fastestLap": false,
               "pointsOverride": null,
               "team": null,
-              "manufacturer": "Buton",
+              "manufacturer": null,
               "bikeNumber": null,
               "nationality": "FRA",
               "source": "https://en.wikipedia.org/wiki/1978_French_motorcycle_Grand_Prix"
@@ -1509,7 +1509,7 @@
               "source": "https://en.wikipedia.org/wiki/1978_French_motorcycle_Grand_Prix"
             },
             {
-              "rider": "leandro-becheroni",
+              "rider": "leandro-beccheroni",
               "position": null,
               "outcome": "DNS",
               "fastestLap": false,
@@ -2077,7 +2077,7 @@
               "source": "https://en.wikipedia.org/wiki/1978_Dutch_TT"
             },
             {
-              "rider": "franco-bonera",
+              "rider": "gianfranco-bonera",
               "position": 13,
               "outcome": "FIN",
               "fastestLap": false,
@@ -2311,7 +2311,7 @@
               "fastestLap": false,
               "pointsOverride": null,
               "team": "Buton",
-              "manufacturer": "Buton",
+              "manufacturer": null,
               "bikeNumber": null,
               "nationality": "FRA",
               "source": "https://en.wikipedia.org/wiki/1978_Dutch_TT"
@@ -2619,7 +2619,7 @@
               "fastestLap": false,
               "pointsOverride": null,
               "team": "Buton",
-              "manufacturer": "Buton",
+              "manufacturer": null,
               "bikeNumber": null,
               "nationality": "FRA",
               "source": "https://en.wikipedia.org/wiki/1978_Belgian_motorcycle_Grand_Prix"
@@ -3095,7 +3095,7 @@
               "fastestLap": false,
               "pointsOverride": null,
               "team": "Buton",
-              "manufacturer": "Buton",
+              "manufacturer": null,
               "bikeNumber": null,
               "nationality": "FRA",
               "source": "https://en.wikipedia.org/wiki/1978_Swedish_motorcycle_Grand_Prix"
@@ -3873,7 +3873,7 @@
               "source": "https://en.wikipedia.org/wiki/1978_British_motorcycle_Grand_Prix"
             },
             {
-              "rider": "franco-bonera",
+              "rider": "gianfranco-bonera",
               "position": null,
               "outcome": "DNF",
               "fastestLap": false,
@@ -4217,7 +4217,7 @@
               "source": "https://en.wikipedia.org/wiki/1978_German_motorcycle_Grand_Prix"
             },
             {
-              "rider": "franco-bonera",
+              "rider": "gianfranco-bonera",
               "position": 12,
               "outcome": "FIN",
               "fastestLap": false,
@@ -4523,7 +4523,7 @@
               "fastestLap": false,
               "pointsOverride": null,
               "team": "Buton",
-              "manufacturer": "Buton",
+              "manufacturer": null,
               "bikeNumber": null,
               "nationality": "FRA",
               "source": "https://en.wikipedia.org/wiki/1978_German_motorcycle_Grand_Prix"

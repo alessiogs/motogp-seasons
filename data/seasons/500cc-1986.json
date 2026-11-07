@@ -1,7 +1,7 @@
 {
   "class": "500cc",
   "year": 1986,
-  "scoringRule": "TODO-set-by-hand",
+  "scoringRule": "1977-87",
   "notes": "Loaded from Wikipedia (1986 Grand Prix motorcycle racing season); needs a hand check against motogp.com. Set the Scoring rule, Half points and aggregate classifications by hand.",
   "rounds": [
     {
@@ -2165,7 +2165,7 @@
               "source": "https://en.wikipedia.org/wiki/1986_Yugoslavian_motorcycle_Grand_Prix"
             },
             {
-              "rider": "leandro-becheroni",
+              "rider": "leandro-beccheroni",
               "position": 24,
               "outcome": "FIN",
               "fastestLap": false,
@@ -2467,7 +2467,7 @@
               "fastestLap": false,
               "pointsOverride": null,
               "team": "Team Elf-ROC",
-              "manufacturer": "Elf",
+              "manufacturer": "Elf 500",
               "bikeNumber": null,
               "nationality": "GBR",
               "source": "https://en.wikipedia.org/wiki/1986_Grand_Prix_motorcycle_racing_season"
@@ -2538,8 +2538,8 @@
               "outcome": "FIN",
               "fastestLap": false,
               "pointsOverride": null,
-              "team": "Frankonia Suzuki",
-              "manufacturer": "Bakker-RG500",
+              "team": "Frankonia-Suzuki",
+              "manufacturer": "Bakker",
               "bikeNumber": null,
               "nationality": "SUI",
               "source": "https://en.wikipedia.org/wiki/1986_Grand_Prix_motorcycle_racing_season"
@@ -2587,7 +2587,7 @@
               "fastestLap": false,
               "pointsOverride": null,
               "team": "Team Hein Gericke",
-              "manufacturer": "HG-RS500",
+              "manufacturer": "Honda",
               "bikeNumber": null,
               "nationality": "BRD",
               "source": "https://en.wikipedia.org/wiki/1986_Grand_Prix_motorcycle_racing_season"
@@ -2658,7 +2658,7 @@
               "outcome": "DNF",
               "fastestLap": false,
               "pointsOverride": null,
-              "team": "| Loctite Yamaha",
+              "team": "Loctite Yamaha",
               "manufacturer": "Yamaha",
               "bikeNumber": null,
               "nationality": "GBR",
@@ -2725,7 +2725,7 @@
               "source": "https://en.wikipedia.org/wiki/1986_Grand_Prix_motorcycle_racing_season"
             },
             {
-              "rider": "leandro-becheroni",
+              "rider": "leandro-beccheroni",
               "position": null,
               "outcome": "DNF",
               "fastestLap": false,
@@ -2925,7 +2925,7 @@
               "source": "https://en.wikipedia.org/wiki/1986_Belgian_motorcycle_Grand_Prix"
             },
             {
-              "rider": "masuru-mizutani",
+              "rider": "masaru-mizutani",
               "position": 13,
               "outcome": "FIN",
               "fastestLap": false,
@@ -4057,7 +4057,7 @@
               "source": "https://en.wikipedia.org/wiki/1986_British_motorcycle_Grand_Prix"
             },
             {
-              "rider": "trever-nation",
+              "rider": "trevor-nation",
               "position": null,
               "outcome": "DNF",
               "fastestLap": false,

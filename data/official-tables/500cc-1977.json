@@ -33,7 +33,7 @@
     },
     {
       "position": 6,
-      "rider": "franco-bonera",
+      "rider": "gianfranco-bonera",
       "points": 37
     },
     {
@@ -161,5 +161,11 @@
       "rider": "kevin-wrettom",
       "points": 1
     }
-  ]
+  ],
+  "knownMismatch": {
+    "rider": "alex-george",
+    "replayedPoints": 15,
+    "printedPoints": 12,
+    "reason": "Alex George's matrix row on the 1977 season article and the Austrian (3rd, 10 points) and British (6th, 5 points) report articles agree on his only scoring finishes: 3rd and 6th give 15 points under the 15-12-10-8-6-5-4-3-2-1 table. The printed total is 12. No second source found; the printed total looks like a source error."
+  }
 }

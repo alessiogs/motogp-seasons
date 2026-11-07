@@ -201,5 +201,19 @@
       "rider": "john-newbold",
       "points": 1
     }
+  ],
+  "knownMismatch": [
+    {
+      "rider": "jack-middelburg",
+      "replayedPoints": 36,
+      "printedPoints": 42,
+      "reason": "Jack Middelburg's matrix row and the report articles agree: 2nd (12), 4th (8) and four 7th places (4 each) give 36 points. The printed total is 42. No second source found; likely a source error."
+    },
+    {
+      "rider": "dennis-ireland",
+      "replayedPoints": 16,
+      "printedPoints": 17,
+      "reason": "Dennis Ireland's matrix row and the report articles agree: 1st at the Belgian GP (15) and 10th at the Venezuelan GP (1) give 16 points. The printed total is 17. No second source found; likely a source error."
+    }
   ]
 }

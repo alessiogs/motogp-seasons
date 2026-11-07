@@ -1,7 +1,7 @@
 {
   "class": "500cc",
   "year": 1982,
-  "scoringRule": "TODO-set-by-hand",
+  "scoringRule": "1977-87",
   "notes": "Loaded from Wikipedia (1982 Grand Prix motorcycle racing season); needs a hand check against motogp.com. Set the Scoring rule, Half points and aggregate classifications by hand.",
   "rounds": [
     {
@@ -461,7 +461,7 @@
               "source": "https://en.wikipedia.org/wiki/1982_Austrian_motorcycle_Grand_Prix"
             },
             {
-              "rider": "leandro-becheroni",
+              "rider": "leandro-beccheroni",
               "position": 8,
               "outcome": "FIN",
               "fastestLap": false,
@@ -879,7 +879,7 @@
       "country": "France",
       "date": "1982-05-09",
       "nonChampionship": false,
-      "notes": null,
+      "notes": "French GP at Nogaro boycotted by the factory riders over the safety of the track; Frutschi won against a reduced field. It still counts as a Round of the championship.",
       "sessions": [
         {
           "type": "grand-prix-race",
@@ -1207,7 +1207,7 @@
               "fastestLap": false,
               "pointsOverride": null,
               "team": "Team Kawasaki",
-              "manufacturer": "KR500",
+              "manufacturer": "Kawasaki",
               "bikeNumber": null,
               "nationality": "South Africa",
               "source": "https://en.wikipedia.org/wiki/1982_Grand_Prix_motorcycle_racing_season"
@@ -1261,7 +1261,7 @@
               "source": "https://en.wikipedia.org/wiki/1982_Grand_Prix_motorcycle_racing_season"
             },
             {
-              "rider": "leandro-becheroni",
+              "rider": "leandro-beccheroni",
               "position": null,
               "outcome": "DNS",
               "fastestLap": false,
@@ -1773,7 +1773,7 @@
               "source": "https://en.wikipedia.org/wiki/1982_Spanish_motorcycle_Grand_Prix"
             },
             {
-              "rider": "leandro-becheroni",
+              "rider": "leandro-beccheroni",
               "position": null,
               "outcome": "DNS",
               "fastestLap": false,
@@ -1901,7 +1901,7 @@
               "source": "https://en.wikipedia.org/wiki/1982_Nations_motorcycle_Grand_Prix"
             },
             {
-              "rider": "leandro-becheroni",
+              "rider": "leandro-beccheroni",
               "position": 8,
               "outcome": "FIN",
               "fastestLap": false,
@@ -2509,7 +2509,7 @@
               "source": "https://en.wikipedia.org/wiki/1982_Dutch_TT"
             },
             {
-              "rider": "leandro-becheroni",
+              "rider": "leandro-beccheroni",
               "position": 27,
               "outcome": "FIN",
               "fastestLap": false,
@@ -2835,7 +2835,7 @@
               "fastestLap": false,
               "pointsOverride": null,
               "team": "Team Kawasaki",
-              "manufacturer": "KR500",
+              "manufacturer": "Kawasaki",
               "bikeNumber": null,
               "nationality": "South Africa",
               "source": "https://en.wikipedia.org/wiki/1982_Grand_Prix_motorcycle_racing_season"
@@ -2871,7 +2871,7 @@
               "fastestLap": false,
               "pointsOverride": null,
               "team": "Honda Britain",
-              "manufacturer": "NR500",
+              "manufacturer": "Honda",
               "bikeNumber": null,
               "nationality": "Great Britain",
               "source": "https://en.wikipedia.org/wiki/1982_Grand_Prix_motorcycle_racing_season"
@@ -2949,7 +2949,7 @@
               "source": "https://en.wikipedia.org/wiki/1982_Grand_Prix_motorcycle_racing_season"
             },
             {
-              "rider": "leandro-becheroni",
+              "rider": "leandro-beccheroni",
               "position": 18,
               "outcome": "FIN",
               "fastestLap": false,
@@ -3146,7 +3146,7 @@
               "outcome": "DNF",
               "fastestLap": false,
               "pointsOverride": null,
-              "team": "Marlboro Agostini Yamaha",
+              "team": "Marlboro Agostini-Yamaha",
               "manufacturer": "Yamaha",
               "bikeNumber": null,
               "nationality": "Italy",
@@ -3545,7 +3545,7 @@
               "source": "https://en.wikipedia.org/wiki/1982_Yugoslavian_motorcycle_Grand_Prix"
             },
             {
-              "rider": "leandro-becheroni",
+              "rider": "leandro-beccheroni",
               "position": 21,
               "outcome": "FIN",
               "fastestLap": false,
@@ -3859,7 +3859,7 @@
               "fastestLap": false,
               "pointsOverride": null,
               "team": "Team Kawasaki",
-              "manufacturer": "KR500",
+              "manufacturer": "Kawasaki",
               "bikeNumber": null,
               "nationality": "South Africa",
               "source": "https://en.wikipedia.org/wiki/1982_Grand_Prix_motorcycle_racing_season"
@@ -3877,7 +3877,7 @@
               "source": "https://en.wikipedia.org/wiki/1982_Grand_Prix_motorcycle_racing_season"
             },
             {
-              "rider": "leandro-becheroni",
+              "rider": "leandro-beccheroni",
               "position": 9,
               "outcome": "FIN",
               "fastestLap": false,
@@ -3955,7 +3955,7 @@
               "fastestLap": false,
               "pointsOverride": null,
               "team": "Honda Britain",
-              "manufacturer": "NR500",
+              "manufacturer": "Honda",
               "bikeNumber": null,
               "nationality": "Great Britain",
               "source": "https://en.wikipedia.org/wiki/1982_Grand_Prix_motorcycle_racing_season"
@@ -4230,7 +4230,7 @@
               "outcome": "DNF",
               "fastestLap": false,
               "pointsOverride": null,
-              "team": "Marlboro Agostini Yamaha",
+              "team": "Marlboro Agostini-Yamaha",
               "manufacturer": "Yamaha",
               "bikeNumber": null,
               "nationality": "Italy",
@@ -4314,7 +4314,7 @@
               "outcome": "DNF",
               "fastestLap": false,
               "pointsOverride": null,
-              "team": "Heron Suzuki",
+              "team": "Heron-Suzuki",
               "manufacturer": "Suzuki",
               "bikeNumber": null,
               "nationality": "Great Britain",
@@ -4949,7 +4949,7 @@
               "source": "https://en.wikipedia.org/wiki/1982_San_Marino_motorcycle_Grand_Prix"
             },
             {
-              "rider": "leandro-becheroni",
+              "rider": "leandro-beccheroni",
               "position": 8,
               "outcome": "FIN",
               "fastestLap": false,
@@ -5333,7 +5333,7 @@
               "source": "https://en.wikipedia.org/wiki/1982_San_Marino_motorcycle_Grand_Prix"
             },
             {
-              "rider": "bengt-slydal",
+              "rider": "bent-slydal",
               "position": null,
               "outcome": "DNS",
               "fastestLap": false,
@@ -5809,7 +5809,7 @@
               "source": "https://en.wikipedia.org/wiki/1982_German_motorcycle_Grand_Prix"
             },
             {
-              "rider": "leandro-becheroni",
+              "rider": "leandro-beccheroni",
               "position": null,
               "outcome": "DNF",
               "fastestLap": false,
