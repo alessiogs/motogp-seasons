@@ -1,14 +1,14 @@
 {
   "class": "500cc",
   "year": 1966,
-  "scoringRule": "TODO-set-by-hand",
-  "notes": "Loaded from Wikipedia (1966 Grand Prix motorcycle racing season); needs a hand check against motogp.com. Set the Scoring rule, Half points and aggregate classifications by hand.",
+  "scoringRule": "1966",
+  "notes": "Loaded from Wikipedia (1966 Grand Prix motorcycle racing season, with the Grand Prix report articles that exist, otherwise its standings matrix alone); 9 Rounds. Counting window: best 5 of Rounds 1-9. The source names no Team, and gives one machine per Rider, not per Round: the Manufacturer of every Result is the first bike named for him in the standings matrix, or the bike of the report where one exists. Needs a hand check against motogp.com.",
   "rounds": [
     {
       "number": 1,
       "name": "Spanish Grand Prix",
       "circuit": "Montjuïc circuit",
-      "country": "ESP",
+      "country": "Spain",
       "date": "1966-05-08",
       "nonChampionship": false,
       "notes": null,
@@ -219,7 +219,7 @@
               "fastestLap": false,
               "pointsOverride": null,
               "team": null,
-              "manufacturer": "CZ",
+              "manufacturer": "ČZ",
               "bikeNumber": null,
               "nationality": "TCH",
               "source": "https://en.wikipedia.org/wiki/1966_Grand_Prix_motorcycle_racing_season"
@@ -304,7 +304,7 @@
       "number": 2,
       "name": "Dutch TT",
       "circuit": "TT Circuit Assen",
-      "country": "NLD",
+      "country": "Netherlands",
       "date": "1966-06-25",
       "nonChampionship": false,
       "notes": null,
@@ -347,7 +347,7 @@
               "fastestLap": false,
               "pointsOverride": null,
               "team": null,
-              "manufacturer": "CZ",
+              "manufacturer": "ČZ",
               "bikeNumber": null,
               "nationality": "TCH",
               "source": "https://en.wikipedia.org/wiki/1966_Grand_Prix_motorcycle_racing_season"
@@ -443,7 +443,7 @@
               "fastestLap": false,
               "pointsOverride": null,
               "team": null,
-              "manufacturer": "CZ",
+              "manufacturer": "ČZ",
               "bikeNumber": null,
               "nationality": "TCH",
               "source": "https://en.wikipedia.org/wiki/1966_Grand_Prix_motorcycle_racing_season"
@@ -612,7 +612,7 @@
       "number": 3,
       "name": "Belgian Grand Prix",
       "circuit": "Spa-Francorchamps",
-      "country": "BEL",
+      "country": "Belgium",
       "date": "1966-07-03",
       "nonChampionship": false,
       "notes": null,
@@ -823,7 +823,7 @@
               "fastestLap": false,
               "pointsOverride": null,
               "team": null,
-              "manufacturer": "CZ",
+              "manufacturer": "ČZ",
               "bikeNumber": null,
               "nationality": "TCH",
               "source": "https://en.wikipedia.org/wiki/1966_Grand_Prix_motorcycle_racing_season"
@@ -968,7 +968,7 @@
       "number": 4,
       "name": "East German Grand Prix",
       "circuit": "Sachsenring",
-      "country": "DDR",
+      "country": "East Germany",
       "date": "1966-07-17",
       "nonChampionship": false,
       "notes": null,
@@ -987,7 +987,7 @@
               "fastestLap": false,
               "pointsOverride": null,
               "team": null,
-              "manufacturer": "CZ",
+              "manufacturer": "ČZ",
               "bikeNumber": null,
               "nationality": "TCH",
               "source": "https://en.wikipedia.org/wiki/1966_Grand_Prix_motorcycle_racing_season"
@@ -1143,7 +1143,7 @@
               "fastestLap": false,
               "pointsOverride": null,
               "team": null,
-              "manufacturer": "CZ",
+              "manufacturer": "ČZ",
               "bikeNumber": null,
               "nationality": "TCH",
               "source": "https://en.wikipedia.org/wiki/1966_Grand_Prix_motorcycle_racing_season"
@@ -1360,7 +1360,7 @@
       "number": 5,
       "name": "Czechoslovak Grand Prix",
       "circuit": "Masaryk Circuit",
-      "country": "TCH",
+      "country": "Czechoslovakia",
       "date": "1966-07-24",
       "nonChampionship": false,
       "notes": null,
@@ -1499,7 +1499,7 @@
               "fastestLap": false,
               "pointsOverride": null,
               "team": null,
-              "manufacturer": "CZ",
+              "manufacturer": "ČZ",
               "bikeNumber": null,
               "nationality": "TCH",
               "source": "https://en.wikipedia.org/wiki/1966_Grand_Prix_motorcycle_racing_season"
@@ -1583,7 +1583,7 @@
               "fastestLap": false,
               "pointsOverride": null,
               "team": null,
-              "manufacturer": "CZ",
+              "manufacturer": "ČZ",
               "bikeNumber": null,
               "nationality": "TCH",
               "source": "https://en.wikipedia.org/wiki/1966_Grand_Prix_motorcycle_racing_season"
@@ -1716,7 +1716,7 @@
       "number": 6,
       "name": "Finnish Grand Prix",
       "circuit": "Imatra Circuit",
-      "country": "FIN",
+      "country": "Finland",
       "date": "1966-08-07",
       "nonChampionship": false,
       "notes": null,
@@ -1891,7 +1891,7 @@
               "fastestLap": false,
               "pointsOverride": null,
               "team": null,
-              "manufacturer": "CZ",
+              "manufacturer": "ČZ",
               "bikeNumber": null,
               "nationality": "TCH",
               "source": "https://en.wikipedia.org/wiki/1966_Grand_Prix_motorcycle_racing_season"
@@ -1951,7 +1951,7 @@
               "fastestLap": false,
               "pointsOverride": null,
               "team": null,
-              "manufacturer": "CZ",
+              "manufacturer": "ČZ",
               "bikeNumber": null,
               "nationality": "TCH",
               "source": "https://en.wikipedia.org/wiki/1966_Grand_Prix_motorcycle_racing_season"
@@ -1988,7 +1988,7 @@
       "number": 7,
       "name": "Ulster Grand Prix",
       "circuit": "Dundrod Circuit",
-      "country": "NIR",
+      "country": "Northern Ireland",
       "date": "1966-08-20",
       "nonChampionship": false,
       "notes": null,
@@ -2031,7 +2031,7 @@
               "fastestLap": false,
               "pointsOverride": null,
               "team": null,
-              "manufacturer": "CZ",
+              "manufacturer": "ČZ",
               "bikeNumber": null,
               "nationality": "TCH",
               "source": "https://en.wikipedia.org/wiki/1966_Grand_Prix_motorcycle_racing_season"
@@ -2103,7 +2103,7 @@
               "fastestLap": false,
               "pointsOverride": null,
               "team": null,
-              "manufacturer": "CZ",
+              "manufacturer": "ČZ",
               "bikeNumber": null,
               "nationality": "TCH",
               "source": "https://en.wikipedia.org/wiki/1966_Grand_Prix_motorcycle_racing_season"
@@ -2205,7 +2205,7 @@
               "source": "https://en.wikipedia.org/wiki/1966_Grand_Prix_motorcycle_racing_season"
             },
             {
-              "rider": "dennis-gallagher",
+              "rider": "denis-gallagher",
               "position": 18,
               "outcome": "FIN",
               "fastestLap": false,
@@ -2368,7 +2368,7 @@
       "number": 8,
       "name": "Isle of Man TT",
       "circuit": "Snaefell Mountain",
-      "country": "IOM",
+      "country": "Isle of Man",
       "date": "1966-09-02",
       "nonChampionship": false,
       "notes": null,
@@ -2447,7 +2447,7 @@
               "fastestLap": false,
               "pointsOverride": null,
               "team": null,
-              "manufacturer": "CZ",
+              "manufacturer": "ČZ",
               "bikeNumber": null,
               "nationality": "TCH",
               "source": "https://en.wikipedia.org/wiki/1966_Grand_Prix_motorcycle_racing_season"
@@ -2885,7 +2885,7 @@
               "source": "https://en.wikipedia.org/wiki/1966_Grand_Prix_motorcycle_racing_season"
             },
             {
-              "rider": "dennis-gallagher",
+              "rider": "denis-gallagher",
               "position": null,
               "outcome": "DNF",
               "fastestLap": false,
@@ -2952,7 +2952,7 @@
       "number": 9,
       "name": "Nations Grand Prix",
       "circuit": "Monza",
-      "country": "ITA",
+      "country": "Italy",
       "date": "1966-09-11",
       "nonChampionship": false,
       "notes": null,
@@ -3139,7 +3139,7 @@
               "fastestLap": false,
               "pointsOverride": null,
               "team": null,
-              "manufacturer": "CZ",
+              "manufacturer": "ČZ",
               "bikeNumber": null,
               "nationality": "TCH",
               "source": "https://en.wikipedia.org/wiki/1966_Grand_Prix_motorcycle_racing_season"
@@ -3235,7 +3235,7 @@
               "fastestLap": false,
               "pointsOverride": null,
               "team": null,
-              "manufacturer": "CZ",
+              "manufacturer": "ČZ",
               "bikeNumber": null,
               "nationality": "TCH",
               "source": "https://en.wikipedia.org/wiki/1966_Grand_Prix_motorcycle_racing_season"

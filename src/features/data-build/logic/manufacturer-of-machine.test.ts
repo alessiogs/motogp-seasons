@@ -29,6 +29,11 @@ describe('manufacturerOfMachine', () => {
     ['Aermacchi-Harley Davidson', 'Harley-Davidson'],
     ['Harley-Davidson', 'Harley-Davidson'],
     ['Husqvarna-Proto', 'Husqvarna'],
+    ['Dunstall Norton', 'Norton'],
+    ['Lancefield Norton', 'Norton'],
+    ['Jawa-CZ', 'ČZ'],
+    ['CZ', 'ČZ'],
+    ['ČZ', 'ČZ'],
   ])('reads %s as %s', (machine, expected) => {
     expect(manufacturerOfMachine(machine)).toBe(expected);
   });

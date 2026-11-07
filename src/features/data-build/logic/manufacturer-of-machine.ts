@@ -25,7 +25,8 @@ function brandOf(text: string): string {
   if (/Husqvarna/i.test(text)) return 'Husqvarna'; // Husqvarna-Proto: a Husqvarna engine in a one-off frame
   if (/^Yamsel/i.test(text)) return 'Seeley'; // Yamaha engine in a Seeley frame
   if (/^G50|Matchless/i.test(text)) return 'Matchless';
-  if (/Manx|^Norton/i.test(text)) return 'Norton';
+  if (/Manx|Norton/i.test(text)) return 'Norton'; // also Dunstall Norton, Lancefield Norton, RD Norton: a special built round a Norton engine
+  if (/^[CČ]Z\b/i.test(text)) return 'ČZ';
   // A one-off special named "Builder-Engine" (Coleman-Suzuki, Kettle-Norton, Hughes-Triumph): the engine's brand.
   const dash = text.lastIndexOf('-');
   return dash > 0 ? brandOf(text.slice(dash + 1).trim()) : text;

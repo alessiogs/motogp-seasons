@@ -7975,7 +7975,8 @@
     "id": "denis-gallagher",
     "name": "Denis Gallagher",
     "sourceIds": {
-      "wikipedia": "Denis Gallagher (motorcyclist)"
+      "wikipedia": "Denis Gallagher (motorcyclist)",
+      "wikipedia2": "Dennis Gallagher (motorcyclist)"
     }
   },
   {
@@ -8224,7 +8225,9 @@
     "name": "Sven-Olof Gunnarsson",
     "sourceIds": {
       "wikipedia": "Sven-Olof Gunnarsson",
-      "wikipedia2": "Sven Gunnarsson"
+      "wikipedia2": "Sven Gunnarsson",
+      "wikipedia3": "Sven-Olaf Gunnarsson",
+      "wikipedia4": "Sven-Olov Gunnarsson"
     }
   },
   {
@@ -8849,7 +8852,8 @@
     "id": "vasco-loro",
     "name": "Vasco Loro",
     "sourceIds": {
-      "wikipedia": "Vasco Loro"
+      "wikipedia": "Vasco Loro",
+      "wikipedia2": "V. Loro"
     }
   },
   {
@@ -9526,13 +9530,6 @@
     }
   },
   {
-    "id": "dave-lloyd",
-    "name": "Dave Lloyd",
-    "sourceIds": {
-      "wikipedia": "Dave Lloyd (motorcyclist)"
-    }
-  },
-  {
     "id": "billy-mccosch",
     "name": "Billy McCosch",
     "sourceIds": {
@@ -9680,13 +9677,6 @@
     }
   },
   {
-    "id": "lee-atlee",
-    "name": "Lee Atlee",
-    "sourceIds": {
-      "wikipedia": "Lee Atlee"
-    }
-  },
-  {
     "id": "doug-cash",
     "name": "Doug Cash",
     "sourceIds": {
@@ -9802,7 +9792,8 @@
     "id": "len-atlee",
     "name": "Len Atlee",
     "sourceIds": {
-      "wikipedia": "Len Atlee"
+      "wikipedia": "Len Atlee",
+      "wikipedia2": "Lee Atlee"
     }
   },
   {
@@ -9816,7 +9807,8 @@
     "id": "david-lloyd",
     "name": "David Lloyd",
     "sourceIds": {
-      "wikipedia": "David Lloyd (motorcyclist)"
+      "wikipedia": "David Lloyd (motorcyclist)",
+      "wikipedia2": "Dave Lloyd (motorcyclist)"
     }
   },
   {
@@ -9855,17 +9847,11 @@
     }
   },
   {
-    "id": "dennis-gallagher",
-    "name": "Dennis Gallagher",
-    "sourceIds": {
-      "wikipedia": "Dennis Gallagher (motorcyclist)"
-    }
-  },
-  {
     "id": "tom-gill",
     "name": "Tom Gill",
     "sourceIds": {
-      "wikipedia": "Tom Gill (motorcyclist)"
+      "wikipedia": "Tom Gill (motorcyclist)",
+      "wikipedia2": "Thomas Gill (motorcyclist)"
     }
   },
   {
@@ -10275,24 +10261,10 @@
     }
   },
   {
-    "id": "sven-olaf-gunnarsson",
-    "name": "Sven-Olaf Gunnarsson",
-    "sourceIds": {
-      "wikipedia": "Sven-Olaf Gunnarsson"
-    }
-  },
-  {
     "id": "brian-davis",
     "name": "Brian Davis",
     "sourceIds": {
       "wikipedia": "Brian Davis (motorcyclist)"
-    }
-  },
-  {
-    "id": "thomas-gill",
-    "name": "Thomas Gill",
-    "sourceIds": {
-      "wikipedia": "Thomas Gill (motorcyclist)"
     }
   },
   {
@@ -10541,13 +10513,6 @@
     }
   },
   {
-    "id": "ronald-foll",
-    "name": "Ronald Föll",
-    "sourceIds": {
-      "wikipedia": "Ronald Föll"
-    }
-  },
-  {
     "id": "maurice-gittins",
     "name": "Maurice Gittins",
     "sourceIds": {
@@ -10632,17 +10597,11 @@
     }
   },
   {
-    "id": "johnnie-rae",
-    "name": "Johnnie Rae",
-    "sourceIds": {
-      "wikipedia": "Johnnie Rae"
-    }
-  },
-  {
     "id": "ladislaus-richter",
     "name": "Ladislaus Richter",
     "sourceIds": {
-      "wikipedia": "Ladislaus Richter"
+      "wikipedia": "Ladislaus Richter",
+      "wikipedia2": "Ladi Richter"
     }
   },
   {
@@ -11083,7 +11042,8 @@
     "id": "roland-foll",
     "name": "Roland Föll",
     "sourceIds": {
-      "wikipedia": "Roland Föll"
+      "wikipedia": "Roland Föll",
+      "wikipedia2": "Ronald Föll"
     }
   },
   {
@@ -11314,7 +11274,8 @@
     "id": "johnny-rae",
     "name": "Johnny Rae",
     "sourceIds": {
-      "wikipedia": "Johnny Rae (motorcyclist)"
+      "wikipedia": "Johnny Rae (motorcyclist)",
+      "wikipedia2": "Johnnie Rae"
     }
   },
   {
@@ -11482,7 +11443,8 @@
     "id": "heinz-kauert",
     "name": "Heinz Kauert",
     "sourceIds": {
-      "wikipedia": "Heinz Kauert"
+      "wikipedia": "Heinz Kauert",
+      "wikipedia2": "H. Kauert"
     }
   },
   {
@@ -11539,13 +11501,6 @@
     "name": "Anton Elbersen",
     "sourceIds": {
       "wikipedia": "Anton Elbersen"
-    }
-  },
-  {
-    "id": "sven-olov-gunnarsson",
-    "name": "Sven-Olov Gunnarsson",
-    "sourceIds": {
-      "wikipedia": "Sven-Olov Gunnarsson"
     }
   },
   {
@@ -12032,13 +11987,6 @@
     }
   },
   {
-    "id": "ladi-richter",
-    "name": "Ladi Richter",
-    "sourceIds": {
-      "wikipedia": "Ladi Richter"
-    }
-  },
-  {
     "id": "bob-west",
     "name": "Bob West",
     "sourceIds": {
@@ -12050,20 +11998,6 @@
     "name": "Sven-Olof Gunnarson",
     "sourceIds": {
       "wikipedia": "Sven-Olof Gunnarson"
-    }
-  },
-  {
-    "id": "h-kauert",
-    "name": "H. Kauert",
-    "sourceIds": {
-      "wikipedia": "H. Kauert"
-    }
-  },
-  {
-    "id": "v-loro",
-    "name": "V. Loro",
-    "sourceIds": {
-      "wikipedia": "V. Loro"
     }
   }
 ]
