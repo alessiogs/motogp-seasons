@@ -1,0 +1,53 @@
+==Standings==
+===Riders' standings===
+====500cc====
+;Scoring system
+Points were awarded to the top fifteen finishers. A rider had to finish the race to earn points.
+
+{| class="wikitable" style=" text-align:center"
+|-
+! Position
+|style="background:#ffffbf;"| &nbsp;'''1st'''&nbsp;
+|style="background:#dfdfdf;"| &nbsp;'''2nd'''&nbsp;
+|-
+! Points
+| 25
+| 20
+|}
+
+{|
+|
+{| class="wikitable" style="font-size: 85%; text-align:center"
+|- valign="top"
+!valign="middle"| Pos
+!valign="middle"| Rider
+!valign="middle"| Bike
+! [[1999 Malaysian motorcycle Grand Prix|MAL]]<br />{{flagicon|Malaysia}}
+!valign="middle"| Pts
+|-
+! 1
+|align="left"| {{flagicon|Spain}} [[Àlex Crivillé]]
+| [[Honda]]
+|style="background:#ffdf9f;"| 3
+! 267
+|-
+! 2
+|align="left"| {{flagicon|Brazil}} [[Alex Barros]]
+| [[Honda]]
+|style="background:#ffffbf;"| 1
+! 211
+|}
+|}
+
+===Manufacturers' standings===
+====500cc====
+{| class="wikitable"
+|-
+! Pos
+! Manufacturer
+! Pts
+|-
+! 1
+| [[Honda]]
+! 350
+|}

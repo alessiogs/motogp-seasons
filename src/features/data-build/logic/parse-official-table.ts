@@ -4,11 +4,11 @@ import { extractTables } from './extract-tables';
 export function parseOfficialTable(
   seasonText: string,
   riderId: (articleTitle: string, displayName: string) => string,
-  /** The heading of the standings section; several when articles of one class disagree on it. */
+  /** The heading of the standings section; several when articles of one class disagree on it. "A/B" means heading B under heading A. */
   heading: string | string[],
 ) {
   const headings = Array.isArray(heading) ? heading : [heading];
-  const table = extractTables(seasonText).find((t) => headings.some((h) => t.path.includes(h)) && /Pts|Points/.test(t.text) && /Rider/.test(t.text));
+  const table = extractTables(seasonText).find((t) => headings.some((h) => h.split('/').every((part) => t.path.includes(part))) && /Pts|Points/.test(t.text) && /Rider/.test(t.text));
   if (!table) throw new Error(`${headings.join(' / ')} table not found`);
   const standings: { position: number; rider: string; points: number }[] = [];
   for (const row of table.text.split(/^\|-.*$/m)) {

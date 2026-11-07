@@ -1,0 +1,205 @@
+{
+  "source": "https://en.wikipedia.org/wiki/1993_Grand_Prix_motorcycle_racing_season",
+  "standings": [
+    {
+      "position": 1,
+      "rider": "kevin-schwantz",
+      "points": 248
+    },
+    {
+      "position": 2,
+      "rider": "wayne-rainey",
+      "points": 214
+    },
+    {
+      "position": 3,
+      "rider": "daryl-beattie",
+      "points": 176
+    },
+    {
+      "position": 4,
+      "rider": "mick-doohan",
+      "points": 156
+    },
+    {
+      "position": 5,
+      "rider": "luca-cadalora",
+      "points": 145
+    },
+    {
+      "position": 6,
+      "rider": "alex-barros",
+      "points": 125
+    },
+    {
+      "position": 7,
+      "rider": "shinichi-itoh",
+      "points": 119
+    },
+    {
+      "position": 8,
+      "rider": "alex-criville",
+      "points": 117
+    },
+    {
+      "position": 9,
+      "rider": "niall-mackenzie",
+      "points": 103
+    },
+    {
+      "position": 10,
+      "rider": "doug-chandler",
+      "points": 83
+    },
+    {
+      "position": 11,
+      "rider": "john-kocinski",
+      "points": 51
+    },
+    {
+      "position": 12,
+      "rider": "juan-lopez-mella",
+      "points": 46
+    },
+    {
+      "position": 13,
+      "rider": "mat-mladin",
+      "points": 45
+    },
+    {
+      "position": 14,
+      "rider": "jose-kuhn",
+      "points": 45
+    },
+    {
+      "position": 15,
+      "rider": "john-reynolds",
+      "points": 42
+    },
+    {
+      "position": 16,
+      "rider": "bernard-garcia",
+      "points": 40
+    },
+    {
+      "position": 17,
+      "rider": "renzo-colleoni",
+      "points": 22
+    },
+    {
+      "position": 18,
+      "rider": "laurent-naveau",
+      "points": 21
+    },
+    {
+      "position": 19,
+      "rider": "sean-emmett",
+      "points": 19
+    },
+    {
+      "position": 20,
+      "rider": "tsutomu-udagawa",
+      "points": 18
+    },
+    {
+      "position": 21,
+      "rider": "michael-rudroff",
+      "points": 17
+    },
+    {
+      "position": 22,
+      "rider": "jeremy-mcwilliams",
+      "points": 17
+    },
+    {
+      "position": 23,
+      "rider": "carl-fogarty",
+      "points": 13
+    },
+    {
+      "position": 24,
+      "rider": "toshihiko-honma",
+      "points": 8
+    },
+    {
+      "position": 25,
+      "rider": "juan-garriga",
+      "points": 7
+    },
+    {
+      "position": 26,
+      "rider": "kevin-magee",
+      "points": 7
+    },
+    {
+      "position": 27,
+      "rider": "simon-crafar",
+      "points": 7
+    },
+    {
+      "position": 28,
+      "rider": "norihiko-fujiwara",
+      "points": 6
+    },
+    {
+      "position": 29,
+      "rider": "lucio-pedercini",
+      "points": 6
+    },
+    {
+      "position": 30,
+      "rider": "serge-david",
+      "points": 6
+    },
+    {
+      "position": 31,
+      "rider": "corrado-catalano",
+      "points": 5
+    },
+    {
+      "position": 32,
+      "rider": "james-haydon",
+      "points": 5
+    },
+    {
+      "position": 33,
+      "rider": "toshiyuki-arakaki",
+      "points": 4
+    },
+    {
+      "position": 34,
+      "rider": "andrew-stroud",
+      "points": 4
+    },
+    {
+      "position": 35,
+      "rider": "kevin-mitchell",
+      "points": 3
+    },
+    {
+      "position": 36,
+      "rider": "andreas-meklau",
+      "points": 3
+    },
+    {
+      "position": 37,
+      "rider": "freddie-spencer",
+      "points": 2
+    },
+    {
+      "position": 38,
+      "rider": "cees-doorakkers",
+      "points": 2
+    },
+    {
+      "position": 39,
+      "rider": "ron-haslam",
+      "points": 2
+    },
+    {
+      "position": 40,
+      "rider": "bruno-bonhuil",
+      "points": 1
+    }
+  ]
+}

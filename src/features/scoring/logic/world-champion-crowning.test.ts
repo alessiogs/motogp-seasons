@@ -213,6 +213,83 @@ const crowned: Record<string, { rider: string; round: number; session: string; s
     session: 'grand-prix-race',
     source: 'https://en.wikipedia.org/wiki/2001_Grand_Prix_motorcycle_racing_season',
   },
+  // "scoring points in every race but Hungary after he had already clinched the championship": Rainey had it by the Czechoslovak Grand Prix, Round 13 of 15 (after Round 13 he led Schwantz by 67 with 40 left).
+  '500cc-1990': {
+    rider: 'wayne-rainey',
+    round: 13,
+    session: 'grand-prix-race',
+    source: 'https://en.wikipedia.org/wiki/1990_Grand_Prix_motorcycle_racing_season',
+  },
+  // "at ten laps to go, Rainey just needs to stay in 3rd place to win the championship": the Le Mans Grand Prix, Round 14 of 15.
+  '500cc-1991': {
+    rider: 'wayne-rainey',
+    round: 14,
+    session: 'grand-prix-race',
+    source: 'https://en.wikipedia.org/wiki/1991_Vitesse_du_Mans_motorcycle_Grand_Prix',
+  },
+  // "Rainey's 3rd place is enough to win the championship by 4 points": the South African finale, Round 13 of 13.
+  '500cc-1992': {
+    rider: 'wayne-rainey',
+    round: 13,
+    session: 'grand-prix-race',
+    source: 'https://en.wikipedia.org/wiki/1992_South_African_motorcycle_Grand_Prix',
+  },
+  // Wikipedia does not say where Schwantz clinched. Rainey's accident at Misano (Round 12) ended his season; the title was decided at the finale, the FIM Grand Prix at Jarama, Round 14 of 14 (the season article: "Schwantz won the 500cc 1993 world championship").
+  '500cc-1993': {
+    rider: 'kevin-schwantz',
+    round: 14,
+    session: 'grand-prix-race',
+    source: 'https://en.wikipedia.org/wiki/1993_Grand_Prix_motorcycle_racing_season',
+  },
+  // "Mick Doohan would secure the first of his five consecutive world championships in the 500cc class by winning the race, as with three races to go, he could no longer be caught": the Czech Republic Grand Prix, Round 11 of 14.
+  '500cc-1994': {
+    rider: 'mick-doohan',
+    round: 11,
+    session: 'grand-prix-race',
+    source: 'https://en.wikipedia.org/wiki/1994_Czech_Republic_motorcycle_Grand_Prix',
+  },
+  // Photo caption "Mick Doohan, celebrating his second 500cc title after winning the race": the Argentine Grand Prix, Round 12 of 13.
+  '500cc-1995': {
+    rider: 'mick-doohan',
+    round: 12,
+    session: 'grand-prix-race',
+    source: 'https://en.wikipedia.org/wiki/1995_Argentine_motorcycle_Grand_Prix',
+  },
+  // Wikipedia does not say where Doohan clinched. The Catalan Grand Prix, Round 13 of 15, is the first Round after which his lead (61 over Crivillé) exceeds the 50 points left; the 1996 season article names him champion ("continued his domination of the 500 class").
+  '500cc-1996': {
+    rider: 'mick-doohan',
+    round: 13,
+    session: 'grand-prix-race',
+    source: 'https://en.wikipedia.org/wiki/1996_Grand_Prix_motorcycle_racing_season',
+  },
+  // "Doohan's victory now means he has an unassailable lead over his championship rivals, making him the 1997 world champion": the British Grand Prix, Round 11 of 15.
+  '500cc-1997': {
+    rider: 'mick-doohan',
+    round: 11,
+    session: 'grand-prix-race',
+    source: 'https://en.wikipedia.org/wiki/1997_British_motorcycle_Grand_Prix',
+  },
+  // Photo caption "Mick Doohan, clinching his fifth and final 500cc title after winning the race": the Australian Grand Prix, Round 13 of 14.
+  '500cc-1998': {
+    rider: 'mick-doohan',
+    round: 13,
+    session: 'grand-prix-race',
+    source: 'https://en.wikipedia.org/wiki/1998_Australian_motorcycle_Grand_Prix',
+  },
+  // Wikipedia does not say where Crivillé clinched (its Rio article covers Rossi's 250cc title). The Rio de Janeiro Grand Prix, Round 15 of 16, is the first Round after which his lead (45 over Okada) exceeds the 25 points left; the 1999 season article: "Crivillé stepped forward and claimed Spain's first-ever 500cc world championship".
+  '500cc-1999': {
+    rider: 'alex-criville',
+    round: 15,
+    session: 'grand-prix-race',
+    source: 'https://en.wikipedia.org/wiki/1999_Grand_Prix_motorcycle_racing_season',
+  },
+  // "Kenny Roberts Jr sealed the world title at this race by finishing in 6th place": the Rio de Janeiro Grand Prix, Round 14 of 16.
+  '500cc-2000': {
+    rider: 'kenny-roberts-jr',
+    round: 14,
+    session: 'grand-prix-race',
+    source: 'https://en.wikipedia.org/wiki/2000_Rio_de_Janeiro_motorcycle_Grand_Prix',
+  },
 };
 
 const dataDir = path.join(process.cwd(), 'data');

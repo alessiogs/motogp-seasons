@@ -1,0 +1,145 @@
+{
+  "source": "https://en.wikipedia.org/wiki/1992_Grand_Prix_motorcycle_racing_season",
+  "standings": [
+    {
+      "position": 1,
+      "rider": "wayne-rainey",
+      "points": 140
+    },
+    {
+      "position": 2,
+      "rider": "mick-doohan",
+      "points": 136
+    },
+    {
+      "position": 3,
+      "rider": "john-kocinski",
+      "points": 102
+    },
+    {
+      "position": 4,
+      "rider": "kevin-schwantz",
+      "points": 99
+    },
+    {
+      "position": 5,
+      "rider": "doug-chandler",
+      "points": 94
+    },
+    {
+      "position": 6,
+      "rider": "wayne-gardner",
+      "points": 78
+    },
+    {
+      "position": 7,
+      "rider": "juan-garriga",
+      "points": 61
+    },
+    {
+      "position": 8,
+      "rider": "alex-criville",
+      "points": 59
+    },
+    {
+      "position": 9,
+      "rider": "eddie-lawson",
+      "points": 56
+    },
+    {
+      "position": 10,
+      "rider": "randy-mamola",
+      "points": 45
+    },
+    {
+      "position": 11,
+      "rider": "niall-mackenzie",
+      "points": 37
+    },
+    {
+      "position": 12,
+      "rider": "miguel-duhamel",
+      "points": 34
+    },
+    {
+      "position": 13,
+      "rider": "alex-barros",
+      "points": 29
+    },
+    {
+      "position": 14,
+      "rider": "daryl-beattie",
+      "points": 18
+    },
+    {
+      "position": 15,
+      "rider": "peter-goddard",
+      "points": 18
+    },
+    {
+      "position": 16,
+      "rider": "shinichi-itoh",
+      "points": 10
+    },
+    {
+      "position": 17,
+      "rider": "keiji-ohishi",
+      "points": 6
+    },
+    {
+      "position": 18,
+      "rider": "terry-rymer",
+      "points": 6
+    },
+    {
+      "position": 19,
+      "rider": "corrado-catalano",
+      "points": 5
+    },
+    {
+      "position": 20,
+      "rider": "eddie-laycock",
+      "points": 4
+    },
+    {
+      "position": 21,
+      "rider": "toshihiko-honma",
+      "points": 3
+    },
+    {
+      "position": 22,
+      "rider": "michael-rudroff",
+      "points": 3
+    },
+    {
+      "position": 23,
+      "rider": "jamie-whitham",
+      "points": 2
+    },
+    {
+      "position": 24,
+      "rider": "dominique-sarron",
+      "points": 2
+    },
+    {
+      "position": 25,
+      "rider": "norihiko-fujiwara",
+      "points": 2
+    },
+    {
+      "position": 26,
+      "rider": "toshiyuki-arakaki",
+      "points": 2
+    },
+    {
+      "position": 27,
+      "rider": "kevin-mitchell",
+      "points": 1
+    },
+    {
+      "position": 28,
+      "rider": "satoshi-tsujimoto",
+      "points": 1
+    }
+  ]
+}

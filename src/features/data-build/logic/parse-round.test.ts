@@ -112,3 +112,23 @@ describe('parseRound for a 500cc Round whose classification names a Rider withou
     ]);
   });
 });
+
+describe('parseRound for a 500cc Round whose classification has no number column', () => {
+  // Trimmed from the 1996 Japanese Grand Prix report, a layout shared by 1990-1992 and 1995-1997:
+  // Pos., Rider, Team, Manufacturer, Time/Retired, Points. The Team and Manufacturer must not be
+  // read from the columns of the layout that has a bike number.
+  const sample1996 = readFileSync(
+    path.join(process.cwd(), 'src/features/data-build/fixtures/wikitext/1996-japanese-grand-prix.txt'),
+    'utf8',
+  );
+  const round = parseRound(3, '1996 Japanese motorcycle Grand Prix', 1996, sample1996, riderId, '500cc')!;
+  const results = (round.sessions[0] as { results: { rider: string; position: number | null; team: string; manufacturer: string; bikeNumber: number | null }[] }).results;
+
+  it('reads Team and Manufacturer by their column headings', () => {
+    expect(results.map((r) => [r.rider, r.position, r.team, r.manufacturer, r.bikeNumber])).toEqual([
+      ['norifumi-abe', 1, 'Marlboro Yamaha Roberts', 'Yamaha', null],
+      ['àlex-crivillé', 2, 'Team Repsol Honda', 'Honda', null],
+      ['frederic-protat', null, 'Soverex FP Racing', 'ROC Yamaha', null],
+    ]);
+  });
+});

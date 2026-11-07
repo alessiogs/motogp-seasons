@@ -1,0 +1,106 @@
+{
+  "teams": [
+    {
+      "name": "Aprilia Racing Team"
+    },
+    {
+      "name": "Cagiva Team Agostini"
+    },
+    {
+      "name": "DR Team Shark"
+    },
+    {
+      "name": "Ducados Honda Pons"
+    },
+    {
+      "name": "Euro Team"
+    },
+    {
+      "name": "Felipe Horta"
+    },
+    {
+      "name": "Haenggeli Racing"
+    },
+    {
+      "name": "Honda Team HRC"
+    },
+    {
+      "name": "Jean Foray Racing Team"
+    },
+    {
+      "name": "JPJ Racing"
+    },
+    {
+      "name": "Lopez Mella Racing Team"
+    },
+    {
+      "name": "Lucky Strike Suzuki"
+    },
+    {
+      "name": "Manfred Erhardt"
+    },
+    {
+      "name": "Marlboro Team Roberts"
+    },
+    {
+      "name": "MBM Racing"
+    },
+    {
+      "name": "Millar Racing"
+    },
+    {
+      "name": "Mister Yumcha Blue Fox"
+    },
+    {
+      "name": "MTD Objectif 500"
+    },
+    {
+      "name": "Padgett's Motorcycles",
+      "variants": [
+        "'Padgett's Motorcycles"
+      ]
+    },
+    {
+      "name": "Sachsen Racing"
+    },
+    {
+      "name": "Sachsen Racing Team"
+    },
+    {
+      "name": "Shell Harris Grand Prix"
+    },
+    {
+      "name": "Slick 50 Team WCM"
+    },
+    {
+      "name": "Team Doorakkers"
+    },
+    {
+      "name": "Team Doppler Austria"
+    },
+    {
+      "name": "Team Elit"
+    },
+    {
+      "name": "Team Paton"
+    },
+    {
+      "name": "Team Pedercini"
+    },
+    {
+      "name": "Team ROC"
+    },
+    {
+      "name": "Triton Team GB"
+    },
+    {
+      "name": "Yamaha Motor France"
+    },
+    {
+      "name": "Yamasur"
+    },
+    {
+      "name": "YRTR"
+    }
+  ]
+}
