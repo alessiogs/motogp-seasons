@@ -169,6 +169,13 @@ const crowned: Record<string, { rider: string; round: number; session: string; s
     session: 'grand-prix-race',
     source: 'https://en.wikipedia.org/wiki/2007_Japanese_motorcycle_Grand_Prix',
   },
+  // "The MotoGP riders' championship was decided at this race, as Nicky Hayden's third place ensured he completed the season with more points than his rival": the Valencian finale, Round 17 of 17.
+  'motogp-2006': {
+    rider: 'nicky-hayden',
+    round: 17,
+    session: 'grand-prix-race',
+    source: 'https://en.wikipedia.org/wiki/2006_Valencian_Community_motorcycle_Grand_Prix',
+  },
 };
 
 const dataDir = path.join(process.cwd(), 'data');

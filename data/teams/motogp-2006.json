@@ -1,0 +1,46 @@
+{
+  "teams": [
+    {
+      "name": "Camel Yamaha Team"
+    },
+    {
+      "name": "Ducati Marlboro Team"
+    },
+    {
+      "name": "Fortuna Honda"
+    },
+    {
+      "name": "Honda LCR"
+    },
+    {
+      "name": "Ilmor SRT"
+    },
+    {
+      "name": "Kawasaki"
+    },
+    {
+      "name": "Kawasaki Racing Team"
+    },
+    {
+      "name": "Konica Minolta Honda"
+    },
+    {
+      "name": "Pramac d'Antin MotoGP"
+    },
+    {
+      "name": "Repsol Honda Team"
+    },
+    {
+      "name": "Rizla Suzuki MotoGP"
+    },
+    {
+      "name": "Team Roberts"
+    },
+    {
+      "name": "Team Suzuki MotoGP"
+    },
+    {
+      "name": "Tech 3 Yamaha"
+    }
+  ]
+}

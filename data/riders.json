@@ -3969,5 +3969,33 @@
     "sourceIds": {
       "wikipedia": "Akira Yanagawa"
     }
+  },
+  {
+    "id": "jose-luis-cardoso",
+    "name": "José Luis Cardoso",
+    "sourceIds": {
+      "wikipedia": "José Luis Cardoso"
+    }
+  },
+  {
+    "id": "naoki-matsudo",
+    "name": "Naoki Matsudo",
+    "sourceIds": {
+      "wikipedia": "Naoki Matsudo"
+    }
+  },
+  {
+    "id": "garry-mccoy",
+    "name": "Garry McCoy",
+    "sourceIds": {
+      "wikipedia": "Garry McCoy"
+    }
+  },
+  {
+    "id": "troy-bayliss",
+    "name": "Troy Bayliss",
+    "sourceIds": {
+      "wikipedia": "Troy Bayliss"
+    }
   }
 ]
