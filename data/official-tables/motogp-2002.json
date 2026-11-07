@@ -1,0 +1,140 @@
+{
+  "source": "https://en.wikipedia.org/wiki/2002_Grand_Prix_motorcycle_racing_season",
+  "standings": [
+    {
+      "position": 1,
+      "rider": "valentino-rossi",
+      "points": 355
+    },
+    {
+      "position": 2,
+      "rider": "max-biaggi",
+      "points": 215
+    },
+    {
+      "position": 3,
+      "rider": "tohru-ukawa",
+      "points": 209
+    },
+    {
+      "position": 4,
+      "rider": "alex-barros",
+      "points": 204
+    },
+    {
+      "position": 5,
+      "rider": "carlos-checa",
+      "points": 141
+    },
+    {
+      "position": 6,
+      "rider": "norifumi-abe",
+      "points": 129
+    },
+    {
+      "position": 7,
+      "rider": "daijiro-kato",
+      "points": 117
+    },
+    {
+      "position": 8,
+      "rider": "loris-capirossi",
+      "points": 109
+    },
+    {
+      "position": 9,
+      "rider": "kenny-roberts-jr",
+      "points": 99
+    },
+    {
+      "position": 10,
+      "rider": "olivier-jacque",
+      "points": 81
+    },
+    {
+      "position": 11,
+      "rider": "shinya-nakano",
+      "points": 68
+    },
+    {
+      "position": 12,
+      "rider": "nobuatsu-aoki",
+      "points": 63
+    },
+    {
+      "position": 13,
+      "rider": "jurgen-vd-goorbergh",
+      "points": 60
+    },
+    {
+      "position": 14,
+      "rider": "jeremy-mcwilliams",
+      "points": 59
+    },
+    {
+      "position": 15,
+      "rider": "john-hopkins",
+      "points": 58
+    },
+    {
+      "position": 16,
+      "rider": "sete-gibernau",
+      "points": 51
+    },
+    {
+      "position": 17,
+      "rider": "tetsuya-harada",
+      "points": 47
+    },
+    {
+      "position": 18,
+      "rider": "akira-ryo",
+      "points": 41
+    },
+    {
+      "position": 19,
+      "rider": "regis-laconi",
+      "points": 33
+    },
+    {
+      "position": 20,
+      "rider": "garry-mccoy",
+      "points": 33
+    },
+    {
+      "position": 21,
+      "rider": "shinichi-itoh",
+      "points": 13
+    },
+    {
+      "position": 22,
+      "rider": "alex-hofmann",
+      "points": 11
+    },
+    {
+      "position": 23,
+      "rider": "jose-luis-cardoso",
+      "points": 9
+    },
+    {
+      "position": 24,
+      "rider": "jean-michel-bayle",
+      "points": 5
+    },
+    {
+      "position": 25,
+      "rider": "wataru-yoshikawa",
+      "points": 4
+    },
+    {
+      "position": 26,
+      "rider": "andrew-pitt",
+      "points": 4
+    },
+    {
+      "position": 27,
+      "rider": "pere-riba",
+      "points": 4
+    }
+  ]
+}

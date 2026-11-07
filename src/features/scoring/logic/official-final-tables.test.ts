@@ -32,6 +32,8 @@ function byPoints(rows: { rider: string; points: number }[]) {
 }
 
 // Seasons whose official table states a full order, ties included: the replayed order must match it rank by rank.
+// motogp-2002 is not listed: its table puts Yoshikawa (4 points, 12th at Round 13) ahead of Pitt (4 points, 12th at Round 16),
+// but Countback and the Latest-best tie-break rank Pitt first, and no source states the pre-2004 tie-break. Compared by points groups.
 const FULL_ORDER = ['motogp-2003', 'motogp-2004', 'motogp-2005', 'motogp-2006', 'motogp-2007', 'motogp-2008', 'motogp-2009', 'motogp-2010', 'motogp-2011', 'motogp-2012', 'motogp-2013', 'motogp-2014', 'motogp-2015', 'motogp-2016', 'motogp-2017', 'motogp-2018', 'motogp-2019', 'motogp-2020', 'motogp-2021', 'motogp-2022', 'motogp-2023', 'motogp-2024', 'motogp-2025'];
 
 describe.each(readdirSync(tablesDir).filter((f) => f.endsWith('.json')).map((f) => f.replace('.json', '')))(

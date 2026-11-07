@@ -197,6 +197,13 @@ const crowned: Record<string, { rider: string; round: number; session: string; s
     session: 'grand-prix-race',
     source: 'https://www.roadracingworld.com/?p=60055',
   },
+  // Motorcycle News headline, "Rossi takes the title with a win in Rio" (the Wikipedia articles do not state the clinch): the Rio de Janeiro Grand Prix, Round 12 of 16.
+  'motogp-2002': {
+    rider: 'valentino-rossi',
+    round: 12,
+    session: 'grand-prix-race',
+    source: 'https://motorcyclenews.com/sport/motogp/2002/september/rossi-takes-the-title-with-a-win-in-rio',
+  },
 };
 
 const dataDir = path.join(process.cwd(), 'data');

@@ -4123,5 +4123,33 @@
     "sourceIds": {
       "wikipedia": "Akira Ryō"
     }
+  },
+  {
+    "id": "regis-laconi",
+    "name": "Régis Laconi",
+    "sourceIds": {
+      "wikipedia": "Régis Laconi"
+    }
+  },
+  {
+    "id": "tetsuya-harada",
+    "name": "Tetsuya Harada",
+    "sourceIds": {
+      "wikipedia": "Tetsuya Harada"
+    }
+  },
+  {
+    "id": "pere-riba",
+    "name": "Pere Riba",
+    "sourceIds": {
+      "wikipedia": "Pere Riba (motorcyclist)"
+    }
+  },
+  {
+    "id": "jean-michel-bayle",
+    "name": "Jean-Michel Bayle",
+    "sourceIds": {
+      "wikipedia": "Jean-Michel Bayle"
+    }
   }
 ]
