@@ -1,0 +1,180 @@
+{
+  "source": "https://en.wikipedia.org/wiki/1971_Grand_Prix_motorcycle_racing_season",
+  "standings": [
+    {
+      "position": 1,
+      "rider": "giacomo-agostini",
+      "points": 90
+    },
+    {
+      "position": 2,
+      "rider": "keith-turner",
+      "points": 58
+    },
+    {
+      "position": 3,
+      "rider": "rob-bron",
+      "points": 57
+    },
+    {
+      "position": 4,
+      "rider": "dave-simmonds",
+      "points": 52
+    },
+    {
+      "position": 5,
+      "rider": "jack-findlay",
+      "points": 50
+    },
+    {
+      "position": 6,
+      "rider": "eric-offenstadt",
+      "points": 32
+    },
+    {
+      "position": 7,
+      "rider": "tommy-robb",
+      "points": 31
+    },
+    {
+      "position": 8,
+      "rider": "alberto-pagani",
+      "points": 29
+    },
+    {
+      "position": 9,
+      "rider": "kaarlo-koivuniemi",
+      "points": 24
+    },
+    {
+      "position": 10,
+      "rider": "ron-chandler",
+      "points": 19
+    },
+    {
+      "position": 11,
+      "rider": "frank-perris",
+      "points": 14
+    },
+    {
+      "position": 12,
+      "rider": "lothar-john",
+      "points": 13
+    },
+    {
+      "position": 13,
+      "rider": "gianpiero-zubani",
+      "points": 12
+    },
+    {
+      "position": 14,
+      "rider": "peter-williams",
+      "points": 12
+    },
+    {
+      "position": 15,
+      "rider": "bo-granath",
+      "points": 12
+    },
+    {
+      "position": 16,
+      "rider": "billie-nelson",
+      "points": 11
+    },
+    {
+      "position": 17,
+      "rider": "ernst-hiller",
+      "points": 10
+    },
+    {
+      "position": 18,
+      "rider": "maurice-hawthorne",
+      "points": 8
+    },
+    {
+      "position": 19,
+      "rider": "hans-rudolf-brunger",
+      "points": 8
+    },
+    {
+      "position": 20,
+      "rider": "benjamin-grau",
+      "points": 8
+    },
+    {
+      "position": 25,
+      "rider": "ivan-carlsson",
+      "points": 7
+    },
+    {
+      "position": 26,
+      "rider": "jim-curry",
+      "points": 6
+    },
+    {
+      "position": 27,
+      "rider": "gerry-mateer",
+      "points": 6
+    },
+    {
+      "position": 29,
+      "rider": "karl-auer",
+      "points": 5
+    },
+    {
+      "position": 30,
+      "rider": "matti-salonen",
+      "points": 5
+    },
+    {
+      "position": 31,
+      "rider": "roger-sutcliffe",
+      "points": 5
+    },
+    {
+      "position": 32,
+      "rider": "hans-otto-butenuth",
+      "points": 5
+    },
+    {
+      "position": 33,
+      "rider": "piet-van-der-wal",
+      "points": 5
+    },
+    {
+      "position": 34,
+      "rider": "peter-jones",
+      "points": 4
+    },
+    {
+      "position": 35,
+      "rider": "jean-campiche",
+      "points": 4
+    },
+    {
+      "position": 36,
+      "rider": "tom-herron",
+      "points": 4
+    },
+    {
+      "position": 38,
+      "rider": "kurt-willy-bertsch",
+      "points": 3
+    },
+    {
+      "position": 42,
+      "rider": "paul-eickelberg",
+      "points": 3
+    },
+    {
+      "position": 43,
+      "rider": "johnny-bengtsson",
+      "points": 2
+    },
+    {
+      "position": 49,
+      "rider": "john-dodds",
+      "points": 1
+    }
+  ]
+}

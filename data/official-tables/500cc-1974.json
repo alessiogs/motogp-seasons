@@ -1,0 +1,190 @@
+{
+  "source": "https://en.wikipedia.org/wiki/1974_Grand_Prix_motorcycle_racing_season",
+  "standings": [
+    {
+      "position": 1,
+      "rider": "phil-read",
+      "points": 82
+    },
+    {
+      "position": 2,
+      "rider": "gianfranco-bonera",
+      "points": 69
+    },
+    {
+      "position": 3,
+      "rider": "teuvo-lansivuori",
+      "points": 67
+    },
+    {
+      "position": 4,
+      "rider": "giacomo-agostini",
+      "points": 47
+    },
+    {
+      "position": 5,
+      "rider": "jack-findlay",
+      "points": 34
+    },
+    {
+      "position": 6,
+      "rider": "barry-sheene",
+      "points": 30
+    },
+    {
+      "position": 7,
+      "rider": "dieter-braun",
+      "points": 22
+    },
+    {
+      "position": 8,
+      "rider": "pentti-korhonen",
+      "points": 22
+    },
+    {
+      "position": 9,
+      "rider": "billie-nelson",
+      "points": 21
+    },
+    {
+      "position": 10,
+      "rider": "charlie-williams",
+      "points": 18
+    },
+    {
+      "position": 11,
+      "rider": "john-williams",
+      "points": 18
+    },
+    {
+      "position": 12,
+      "rider": "helmut-kassner",
+      "points": 17
+    },
+    {
+      "position": 13,
+      "rider": "karl-auer",
+      "points": 17
+    },
+    {
+      "position": 14,
+      "rider": "phil-carpenter",
+      "points": 15
+    },
+    {
+      "position": 14,
+      "rider": "edmund-czihak",
+      "points": 15
+    },
+    {
+      "position": 16,
+      "rider": "michel-rougerie",
+      "points": 14
+    },
+    {
+      "position": 17,
+      "rider": "werner-giger",
+      "points": 13
+    },
+    {
+      "position": 18,
+      "rider": "walter-kaletsch",
+      "points": 10
+    },
+    {
+      "position": 18,
+      "rider": "tony-rutter",
+      "points": 10
+    },
+    {
+      "position": 20,
+      "rider": "christian-leon",
+      "points": 9
+    },
+    {
+      "position": 21,
+      "rider": "udo-kochanski",
+      "points": 8
+    },
+    {
+      "position": 21,
+      "rider": "billie-guthrie",
+      "points": 8
+    },
+    {
+      "position": 21,
+      "rider": "patrick-pons",
+      "points": 8
+    },
+    {
+      "position": 24,
+      "rider": "roberto-gallina",
+      "points": 6
+    },
+    {
+      "position": 24,
+      "rider": "paul-cott",
+      "points": 6
+    },
+    {
+      "position": 26,
+      "rider": "victor-palomo",
+      "points": 6
+    },
+    {
+      "position": 27,
+      "rider": "alex-george",
+      "points": 5
+    },
+    {
+      "position": 28,
+      "rider": "chas-mortimer",
+      "points": 4
+    },
+    {
+      "position": 29,
+      "rider": "paul-eickelberg",
+      "points": 4
+    },
+    {
+      "position": 30,
+      "rider": "pete-mckinley",
+      "points": 3
+    },
+    {
+      "position": 31,
+      "rider": "selwyn-griffiths",
+      "points": 2
+    },
+    {
+      "position": 31,
+      "rider": "philippe-coulon",
+      "points": 2
+    },
+    {
+      "position": 31,
+      "rider": "ramon-jimenez",
+      "points": 2
+    },
+    {
+      "position": 31,
+      "rider": "tom-herron",
+      "points": 2
+    },
+    {
+      "position": 35,
+      "rider": "jean-paul-boinet",
+      "points": 1
+    },
+    {
+      "position": 35,
+      "rider": "geoff-barry",
+      "points": 1
+    },
+    {
+      "position": 35,
+      "rider": "philippe-gerard",
+      "points": 1
+    }
+  ]
+}
