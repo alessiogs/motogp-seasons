@@ -1,0 +1,56 @@
+{
+  "teams": [
+    {
+      "name": "Antena 3 Yamaha d'Antin"
+    },
+    {
+      "name": "Arie Molenaar Racing"
+    },
+    {
+      "name": "By Queroseno Racing"
+    },
+    {
+      "name": "Dee Cee Jeans Racing Team"
+    },
+    {
+      "name": "Gauloises Yamaha Tech 3"
+    },
+    {
+      "name": "Marlboro Yamaha Team"
+    },
+    {
+      "name": "Nastro Azzurro Honda"
+    },
+    {
+      "name": "Paton Grand Prix"
+    },
+    {
+      "name": "Proton Team KR"
+    },
+    {
+      "name": "Pulse GP"
+    },
+    {
+      "name": "Red Bull Yamaha WCM"
+    },
+    {
+      "name": "Repsol YPF Honda Team",
+      "colour": "#ff8200"
+    },
+    {
+      "name": "Sabre Sport"
+    },
+    {
+      "name": "Shell Advance Honda"
+    },
+    {
+      "name": "Slovnaft Paton Grand Prix"
+    },
+    {
+      "name": "Telefónica Movistar Suzuki"
+    },
+    {
+      "name": "West Honda Pons"
+    }
+  ]
+}

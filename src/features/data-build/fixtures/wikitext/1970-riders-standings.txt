@@ -1,0 +1,55 @@
+====500cc final standings====
+
+{|
+|
+{| class="wikitable" style="font-size: 85%; text-align:center"
+|- valign="top"
+!valign="middle"| Pos
+!valign="middle"| Rider
+!valign="middle"| Machine
+! [[1970 German motorcycle Grand Prix|GER]]<br />{{flagicon|DEU}}
+! [[1970 French motorcycle Grand Prix|FRA]]<br />{{flagicon|FRA}}
+! [[1970 Yugoslavian motorcycle Grand Prix|YUG]]<br />{{flagicon|YUG}}
+! [[1970 Isle of Man TT|MAN]]<br />{{flagicon|IOM}}
+! [[1970 Dutch TT|HOL]]<br />{{flagicon|NLD}}
+! [[1970 Belgian motorcycle Grand Prix|BEL]]<br />{{flagicon|BEL}}
+! [[1970 German motorcycle Grand Prix|DDR]]<br />{{flagicon|DDR}}
+! [[1970 Finnish motorcycle Grand Prix|FIN]]<br />{{flagicon|FIN}}
+! [[1970 Ulster motorcycle Grand Prix|ULS]]<br />{{flagicon|NIR}}
+! [[1970 Nations motorcycle Grand Prix|NAC]]<br />{{flagicon|ITA}}
+! [[1970 Spanish motorcycle Grand Prix|ESP]]<br />{{flagicon|ESP|1945}}
+!valign="middle"| Pts
+|-
+! 1
+|align="left"| {{flagicon|ITA}} [[Giacomo Agostini]]
+| [[MV Agusta]]
+|style="background:#ffffbf;"| ''1''
+|style="background:#ffffbf;"| ''1''
+|style="background:#ffffbf;"| ''1''
+|style="background:#ffffbf;"| ''1''
+|style="background:#ffffbf;"| ''1''
+|style="background:#ffffbf;"| ''1''
+|style="background:#ffffbf;"| ''1''
+|style="background:#ffffbf;"| ''1''
+|style="background:#ffffbf;"| ''1''
+|style="background:#ffffbf;"| 1
+|
+| '''90'''
+|-
+! 2
+|align="left"| {{flagicon|NZL}} [[Ginger Molloy]]
+| [[Bultaco]] / [[Kawasaki Heavy Industries Motorcycle & Engine|Kawasaki]]
+|style="background:#dfffdf;"| 5
+|style="background:#dfdfdf;"| 2
+|style="background:#dfffdf;"| 7
+|
+|style="background:#dfffdf;"| 4
+|style="background:#cfcfff;"| 16
+|style="background:#cfcfff;"| 15
+|style="background:#dfdfdf;"| 2
+|style="background:#dfdfdf;"| 2
+|style="background:#dfffdf;"| 6
+|style="background:#dfdfdf;"| 2
+| '''62'''
+|}
+|}

@@ -4,16 +4,15 @@ import { tmpdir } from 'node:os';
 import path from 'node:path';
 import { buildDatabase } from '@/features/data-build/scripts/build-database';
 import { getSeason } from '@/features/seasons/queries/get-season';
+import { applyKnownMismatch } from './apply-known-mismatch';
 import { computeReplay } from './compute-replay';
+import type { OfficialTable } from '../types/official-table';
 
 // Real Seasons: the final Replay Step must equal the official final table, which is
 // recorded separately (data/official-tables) from the Results it is checked against.
 const dataDir = path.join(process.cwd(), 'data');
 const tablesDir = path.join(dataDir, 'official-tables');
 
-interface OfficialTable {
-  standings: { rider: string; points: number }[];
-}
 
 beforeAll(() => {
   const dbPath = path.join(mkdtempSync(path.join(tmpdir(), 'motogp-real-')), 'real.db');
@@ -24,7 +23,8 @@ beforeAll(() => {
 /** [points, riders] groups in the order the table lists them. */
 function byPoints(rows: { rider: string; points: number }[]) {
   const groups: [number, string[]][] = [];
-  for (const { rider, points } of rows) {
+  // Sorted first: a known mismatch can move a Rider across a points boundary (1979 Ireland, printed 17 above Baldwin 17, replayed 16).
+  for (const { rider, points } of [...rows].sort((a, b) => b.points - a.points)) {
     const last = groups[groups.length - 1];
     if (last && last[0] === points) last[1].push(rider);
     else groups.push([points, [rider]]);
@@ -33,7 +33,22 @@ function byPoints(rows: { rider: string; points: number }[]) {
 }
 
 // Seasons whose official table states a full order, ties included: the replayed order must match it rank by rank.
-const FULL_ORDER = ['motogp-2024'];
+// 500cc-2001 and motogp-2002 are not listed: each has one tie at the bottom of its table that Countback and the
+// Latest-best tie-break order the other way round, and no source states the pre-2004 tie-break.
+//   2001: Willis (13th at Round 5) above Vincent (13th at Round 8), both on 3 points; Vincent has the better lower finishes (16th twice).
+//   2002: Yoshikawa (12th at Round 13) above Pitt (12th at Round 16), both on 4 points; Pitt has the better lower finishes (17th, 19th).
+// 500cc 1990, 1992, 1993, 1995, 1996, 1998-2000 are left out for the same reason: each has ties the code orders differently (evidence on issue #54).
+// 500cc 1977-1988 are all left out: each lists Riders level on points (mostly in the lower half) in an order Countback and
+// Latest-best do not give, e.g. 1979 Coulon above Mamola on 29, 1987 Kawasaki above Spencer on 4 (all cases on issue #54).
+// 500cc 1969-1975 are all left out as well: each lists Riders level on points (mostly in the lower half) in an order Countback and
+// Latest-best do not give, e.g. 1972 Kevin Cowley above Hideo Kanaya on 8, 1974 Udo Kochanski above Patrick Pons on 8 (all cases on issue #54).
+// 500cc 1960-1968 are all left out too: each lists Riders level on points in an order Countback and Latest-best do not give, e.g. 1964
+// Ahearn above Read on 25 (one win each, Read has two 2nd places), 1960 Brown above Mendogni on 15 (all cases on issue #54).
+// 500cc 1950-1959 are left out too, except 1953 and 1959, which have no tie the code orders differently: the other eight each list
+// Riders level on points in an order Countback and Latest-best do not give, e.g. 1956 Brown above Liberati on 6, 1950 Jensen above
+// Armstrong on 1 (all cases on issue #54).
+// Both tables put the Rider whose best place came earlier first. They are compared by points groups until the pre-2004 rule is known.
+const FULL_ORDER = ['500cc-1953', '500cc-1959', '500cc-1991', '500cc-1994', '500cc-1997', 'motogp-2003', 'motogp-2004', 'motogp-2005', 'motogp-2006', 'motogp-2007', 'motogp-2008', 'motogp-2009', 'motogp-2010', 'motogp-2011', 'motogp-2012', 'motogp-2013', 'motogp-2014', 'motogp-2015', 'motogp-2016', 'motogp-2017', 'motogp-2018', 'motogp-2019', 'motogp-2020', 'motogp-2021', 'motogp-2022', 'motogp-2023', 'motogp-2024', 'motogp-2025'];
 
 describe.each(readdirSync(tablesDir).filter((f) => f.endsWith('.json')).map((f) => f.replace('.json', '')))(
   'final Step of %s',
@@ -46,7 +61,7 @@ describe.each(readdirSync(tablesDir).filter((f) => f.endsWith('.json')).map((f) 
       const steps = computeReplay(season);
       const scored = steps[steps.length - 1].standings.filter((r) => r.points > 0);
       const replayed = scored.map((r) => ({ rider: r.riderId, points: r.points }));
-      const table = official.standings.filter((r) => r.points > 0);
+      const table = applyKnownMismatch(official.standings, official.knownMismatch).filter((r) => r.points > 0);
       if (FULL_ORDER.includes(name)) {
         expect(replayed).toEqual(table.map(({ rider, points }) => ({ rider, points })));
       } else {
@@ -57,6 +72,19 @@ describe.each(readdirSync(tablesDir).filter((f) => f.endsWith('.json')).map((f) 
     });
   },
 );
+
+describe('1967 500cc', () => {
+  it('ranks Agostini first and Hailwood second on 46 points each, as the official table does, and the next 17 ranks match it rank by rank', () => {
+    const official = JSON.parse(readFileSync(path.join(tablesDir, '500cc-1967.json'), 'utf8')) as OfficialTable;
+    const final = computeReplay(getSeason('500cc', 1967)!).at(-1)!.standings;
+    expect(final.slice(0, 2).map((r) => [r.riderId, r.points, r.grossPoints])).toEqual([
+      ['giacomo-agostini', 46, 58],
+      ['mike-hailwood', 46, 52],
+    ]);
+    const top = official.standings.slice(0, 19).map((r) => [r.rider, r.points]);
+    expect(final.slice(0, 19).map((r) => [r.riderId, r.points])).toEqual(top);
+  });
+});
 
 describe('1949 500cc', () => {
   it('replays one Step per Round on the 10-8-7-6-5 table, with only the best three Round scores counting', () => {
@@ -75,8 +103,9 @@ describe('1949 500cc', () => {
 });
 
 describe('1989 500cc', () => {
-  it('replays one Step per championship Round on the 1988-91 points table', () => {
+  it('replays one Step per championship Round on the 1988-90 rule points table', () => {
     const season = getSeason('500cc', 1989)!;
+    expect(season.rule.code).toBe('1988-90');
     expect(computeReplay(season)).toHaveLength(15);
     expect(season.rule.points['grand-prix-race']).toEqual([20, 17, 15, 13, 11, 10, 9, 8, 7, 6, 5, 4, 3, 2, 1]);
   });
@@ -106,6 +135,34 @@ describe('2024 MotoGP', () => {
     const results = season.rounds.flatMap((r) => r.sessions.flatMap((s) => s.results));
     expect(results.length).toBeGreaterThan(0);
     expect(results.every((r) => r.source.length > 0)).toBe(true);
+  });
+});
+
+describe('2023 MotoGP', () => {
+  it('has 20 Rounds and no Sprint Step in Australia, where the Sprint was cancelled', () => {
+    const season = getSeason('motogp', 2023)!;
+    const steps = computeReplay(season);
+    expect(season.rounds).toHaveLength(20);
+    expect(steps).toHaveLength(39);
+    expect(steps.filter((s) => s.roundNumber === 16).map((s) => s.sessionType)).toEqual(['grand-prix-race']);
+    expect(season.rounds.find((r) => r.number === 16)!.notes).toMatch(/sprint/i);
+  });
+
+  it('scores the stopped Japanese Grand Prix at full points', () => {
+    const japan = getSeason('motogp', 2023)!.rounds.find((r) => r.number === 14)!;
+    expect(japan.sessions.map((s) => s.pointsMultiplier)).toEqual([1, 1]);
+  });
+});
+
+describe('2025 MotoGP', () => {
+  it('has 22 Rounds and ends with M. Márquez 545, A. Márquez 467 and Bezzecchi 353', () => {
+    const season = getSeason('motogp', 2025)!;
+    const steps = computeReplay(season);
+    expect(season.rounds).toHaveLength(22);
+    expect(steps).toHaveLength(44);
+    expect(steps.at(-1)!.standings.slice(0, 3).map((r) => [r.riderId, r.points])).toEqual([
+      ['marc-marquez', 545], ['alex-marquez', 467], ['marco-bezzecchi', 353],
+    ]);
   });
 });
 

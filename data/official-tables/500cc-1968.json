@@ -1,0 +1,460 @@
+{
+  "source": "https://en.wikipedia.org/wiki/1968_Grand_Prix_motorcycle_racing_season",
+  "standings": [
+    {
+      "position": 1,
+      "rider": "giacomo-agostini",
+      "points": 48
+    },
+    {
+      "position": 2,
+      "rider": "jack-findlay",
+      "points": 34
+    },
+    {
+      "position": 3,
+      "rider": "gyula-marsovszky",
+      "points": 10
+    },
+    {
+      "position": 4,
+      "rider": "alberto-pagani",
+      "points": 9
+    },
+    {
+      "position": 5,
+      "rider": "robin-fitton",
+      "points": 9
+    },
+    {
+      "position": 6,
+      "rider": "peter-williams",
+      "points": 9
+    },
+    {
+      "position": 7,
+      "rider": "derek-woodman",
+      "points": 8
+    },
+    {
+      "position": 8,
+      "rider": "john-cooper",
+      "points": 8
+    },
+    {
+      "position": 9,
+      "rider": "dan-shorey",
+      "points": 7
+    },
+    {
+      "position": 10,
+      "rider": "angelo-bergamonti",
+      "points": 7
+    },
+    {
+      "position": 11,
+      "rider": "kel-carruthers",
+      "points": 7
+    },
+    {
+      "position": 12,
+      "rider": "brian-ball",
+      "points": 6
+    },
+    {
+      "position": 13,
+      "rider": "renzo-pasolini",
+      "points": 6
+    },
+    {
+      "position": 14,
+      "rider": "john-dodds",
+      "points": 6
+    },
+    {
+      "position": 15,
+      "rider": "billie-nelson",
+      "points": 5
+    },
+    {
+      "position": 16,
+      "rider": "john-hartle",
+      "points": 4
+    },
+    {
+      "position": 17,
+      "rider": "barry-randle",
+      "points": 4
+    },
+    {
+      "position": 18,
+      "rider": "percy-tait",
+      "points": 3
+    },
+    {
+      "position": 19,
+      "rider": "bill-smith",
+      "points": 3
+    },
+    {
+      "position": 20,
+      "rider": "nikolai-sevostianov",
+      "points": 3
+    },
+    {
+      "position": 21,
+      "rider": "bohumil-stasa",
+      "points": 2
+    },
+    {
+      "position": 22,
+      "rider": "silvano-bertarelli",
+      "points": 2
+    },
+    {
+      "position": 22,
+      "rider": "bernie-lund",
+      "points": 2
+    },
+    {
+      "position": 24,
+      "rider": "rodney-gould",
+      "points": 1
+    },
+    {
+      "position": 25,
+      "rider": "ron-chandler",
+      "points": 1
+    },
+    {
+      "position": 26,
+      "rider": "rex-butcher",
+      "points": 1
+    },
+    {
+      "position": 27,
+      "rider": "godfrey-nash",
+      "points": 1
+    },
+    {
+      "position": 28,
+      "rider": "derek-lee",
+      "points": 0
+    },
+    {
+      "position": 29,
+      "rider": "walter-scheimann",
+      "points": 0
+    },
+    {
+      "position": 30,
+      "rider": "malcolm-uphill",
+      "points": 0
+    },
+    {
+      "position": 31,
+      "rider": "john-blanchard",
+      "points": 0
+    },
+    {
+      "position": 32,
+      "rider": "errol-cowan",
+      "points": 0
+    },
+    {
+      "position": 33,
+      "rider": "keith-turner",
+      "points": 0
+    },
+    {
+      "position": 34,
+      "rider": "bo-granath",
+      "points": 0
+    },
+    {
+      "position": 35,
+      "rider": "steve-jolly",
+      "points": 0
+    },
+    {
+      "position": 36,
+      "rider": "gordon-keith",
+      "points": 0
+    },
+    {
+      "position": 37,
+      "rider": "paul-eickelberg",
+      "points": 0
+    },
+    {
+      "position": 38,
+      "rider": "pentti-lehtela",
+      "points": 0
+    },
+    {
+      "position": 39,
+      "rider": "heinrich-rosenbusch",
+      "points": 0
+    },
+    {
+      "position": 39,
+      "rider": "frantisek-srna",
+      "points": 0
+    },
+    {
+      "position": 41,
+      "rider": "theo-louwes",
+      "points": 0
+    },
+    {
+      "position": 42,
+      "rider": "hannu-kuparinen",
+      "points": 0
+    },
+    {
+      "position": 42,
+      "rider": "william-mccosh",
+      "points": 0
+    },
+    {
+      "position": 44,
+      "rider": "gyorgy-kurucz",
+      "points": 0
+    },
+    {
+      "position": 45,
+      "rider": "armand-nerger",
+      "points": 0
+    },
+    {
+      "position": 45,
+      "rider": "bert-oosterhuis",
+      "points": 0
+    },
+    {
+      "position": 45,
+      "rider": "matti-salonen",
+      "points": 0
+    },
+    {
+      "position": 45,
+      "rider": "ron-wilson",
+      "points": 0
+    },
+    {
+      "position": 45,
+      "rider": "john-williams",
+      "points": 0
+    },
+    {
+      "position": 50,
+      "rider": "werner-bergold",
+      "points": 0
+    },
+    {
+      "position": 50,
+      "rider": "paolo-campanelli",
+      "points": 0
+    },
+    {
+      "position": 50,
+      "rider": "tony-godfrey",
+      "points": 0
+    },
+    {
+      "position": 50,
+      "rider": "wolfgang-stropek",
+      "points": 0
+    },
+    {
+      "position": 54,
+      "rider": "karl-hoppe",
+      "points": 0
+    },
+    {
+      "position": 55,
+      "rider": "dieter-dogmann",
+      "points": 0
+    },
+    {
+      "position": 55,
+      "rider": "gianfranco-domeniconi",
+      "points": 0
+    },
+    {
+      "position": 55,
+      "rider": "george-fogarty",
+      "points": 0
+    },
+    {
+      "position": 55,
+      "rider": "osmo-hansen",
+      "points": 0
+    },
+    {
+      "position": 55,
+      "rider": "jack-lindh",
+      "points": 0
+    },
+    {
+      "position": 60,
+      "rider": "edy-lenz",
+      "points": 0
+    },
+    {
+      "position": 60,
+      "rider": "charlie-sanby",
+      "points": 0
+    },
+    {
+      "position": 60,
+      "rider": "barry-scully",
+      "points": 0
+    },
+    {
+      "position": 63,
+      "rider": "peter-humber",
+      "points": 0
+    },
+    {
+      "position": 64,
+      "rider": "peter-darvill",
+      "points": 0
+    },
+    {
+      "position": 65,
+      "rider": "alan-lawton",
+      "points": 0
+    },
+    {
+      "position": 66,
+      "rider": "ferdinand-kaczor",
+      "points": 0
+    },
+    {
+      "position": 67,
+      "rider": "hartmut-allner",
+      "points": 0
+    },
+    {
+      "position": 67,
+      "rider": "bob-mccurry",
+      "points": 0
+    },
+    {
+      "position": 67,
+      "rider": "jan-strijbis",
+      "points": 0
+    },
+    {
+      "position": 70,
+      "rider": "jim-evans",
+      "points": 0
+    },
+    {
+      "position": 71,
+      "rider": "ralf-engelhardt",
+      "points": 0
+    },
+    {
+      "position": 72,
+      "rider": "selwyn-griffiths",
+      "points": 0
+    },
+    {
+      "position": 73,
+      "rider": "norman-price",
+      "points": 0
+    },
+    {
+      "position": 74,
+      "rider": "harris-healey",
+      "points": 0
+    },
+    {
+      "position": 74,
+      "rider": "ian-munro",
+      "points": 0
+    },
+    {
+      "position": 76,
+      "rider": "peter-gibson",
+      "points": 0
+    },
+    {
+      "position": 77,
+      "rider": "george-barnacle",
+      "points": 0
+    },
+    {
+      "position": 78,
+      "rider": "brian-adams",
+      "points": 0
+    },
+    {
+      "position": 79,
+      "rider": "adrian-cooper",
+      "points": 0
+    },
+    {
+      "position": 80,
+      "rider": "bob-heath",
+      "points": 0
+    },
+    {
+      "position": 81,
+      "rider": "gilbert-argo",
+      "points": 0
+    },
+    {
+      "position": 82,
+      "rider": "walter-dawson",
+      "points": 0
+    },
+    {
+      "position": 83,
+      "rider": "jim-curry",
+      "points": 0
+    },
+    {
+      "position": 84,
+      "rider": "jim-ashton",
+      "points": 0
+    },
+    {
+      "position": 85,
+      "rider": "john-burgess",
+      "points": 0
+    },
+    {
+      "position": 86,
+      "rider": "graham-robinson",
+      "points": 0
+    },
+    {
+      "position": 87,
+      "rider": "brian-hunter",
+      "points": 0
+    },
+    {
+      "position": 88,
+      "rider": "chris-neve",
+      "points": 0
+    },
+    {
+      "position": 89,
+      "rider": "dennis-trollope",
+      "points": 0
+    },
+    {
+      "position": 90,
+      "rider": "reay-mackay",
+      "points": 0
+    },
+    {
+      "position": 91,
+      "rider": "roy-reid",
+      "points": 0
+    }
+  ]
+}

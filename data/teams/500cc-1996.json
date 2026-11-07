@@ -1,0 +1,68 @@
+{
+  "teams": [
+    {
+      "name": "ELC Lease ROC"
+    },
+    {
+      "name": "Elf 500 ROC"
+    },
+    {
+      "name": "Fortuna Honda Pons"
+    },
+    {
+      "name": "Harris Grand Prix"
+    },
+    {
+      "name": "Honda Pileri"
+    },
+    {
+      "name": "IP Aprilia Racing Team"
+    },
+    {
+      "name": "Kanemoto Honda"
+    },
+    {
+      "name": "Lucky Strike Suzuki"
+    },
+    {
+      "name": "Marlboro Yamaha Roberts"
+    },
+    {
+      "name": "Millar Racing"
+    },
+    {
+      "name": "Padgett's Racing Team"
+    },
+    {
+      "name": "QUB Team Optimum"
+    },
+    {
+      "name": "Soverex FP Racing"
+    },
+    {
+      "name": "Suzuki Deutschland"
+    },
+    {
+      "name": "Team HRC"
+    },
+    {
+      "name": "Team Leone Racing"
+    },
+    {
+      "name": "Team Paton"
+    },
+    {
+      "name": "Team Pedercini"
+    },
+    {
+      "name": "Team Repsol Honda",
+      "colour": "#ff8200"
+    },
+    {
+      "name": "Team Schmassman"
+    },
+    {
+      "name": "World Championship Motorsports"
+    }
+  ]
+}

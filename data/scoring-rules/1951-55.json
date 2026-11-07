@@ -1,0 +1,13 @@
+{
+  "code": "1951-55",
+  "name": "1951-55: 8-6-4-3-2-1, best 5 of Rounds 1-9",
+  "source": "https://en.wikipedia.org/wiki/1951_Grand_Prix_motorcycle_racing_season, https://en.wikipedia.org/wiki/1952_Grand_Prix_motorcycle_racing_season, https://en.wikipedia.org/wiki/1953_Grand_Prix_motorcycle_racing_season, https://en.wikipedia.org/wiki/1954_Grand_Prix_motorcycle_racing_season, https://en.wikipedia.org/wiki/1955_Grand_Prix_motorcycle_racing_season (Scoring system and standings sections: points to the top 6 finishers, best 5 of 1-9 Round scores counted). Checked by arithmetic on the Wikipedia final standings (docs/research/premier-class-scoring-rules.md section 1), not yet by replaying this Season's Results. To be re-checked by hand against motogp.com before this rule is published.",
+  "validFor": [1951, 1952, 1953, 1954, 1955],
+  "fastestLapPoints": 0,
+  "fastestLapRequiresFinish": true,
+  "countingWindows": [{ "fromRound": 1, "toRound": 9, "count": 5 }],
+  "points": {
+    "grand-prix-race": [8, 6, 4, 3, 2, 1]
+  },
+  "notes": "Era rule for 1951-1955. Counting windows index by Round number. Window is Rounds 1-9 because the excluded 1953 German and 1954 Ulster 500cc races keep their Round numbers as Non-championship rounds (Wikipedia's calendars); the other three Seasons had 8 Rounds, so the wider window changes nothing for them. Binding in 1951 (Duke 37 counts as 35), 1953 (Armstrong 30 counts as 24) and 1954 (Duke 46 counts as 40); 1952 and 1955 are non-binding (only N>=5 proved by arithmetic, the exact N rests on the cited text and the 'Rounds divided by two, plus one' footnote)."
+}

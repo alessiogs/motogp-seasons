@@ -1,0 +1,165 @@
+{
+  "source": "https://en.wikipedia.org/wiki/1996_Grand_Prix_motorcycle_racing_season",
+  "standings": [
+    {
+      "position": 1,
+      "rider": "mick-doohan",
+      "points": 309
+    },
+    {
+      "position": 2,
+      "rider": "alex-criville",
+      "points": 245
+    },
+    {
+      "position": 3,
+      "rider": "luca-cadalora",
+      "points": 168
+    },
+    {
+      "position": 4,
+      "rider": "alex-barros",
+      "points": 158
+    },
+    {
+      "position": 5,
+      "rider": "norifumi-abe",
+      "points": 148
+    },
+    {
+      "position": 6,
+      "rider": "scott-russell",
+      "points": 133
+    },
+    {
+      "position": 7,
+      "rider": "tadayuki-okada",
+      "points": 132
+    },
+    {
+      "position": 8,
+      "rider": "carlos-checa",
+      "points": 124
+    },
+    {
+      "position": 9,
+      "rider": "jean-michel-bayle",
+      "points": 110
+    },
+    {
+      "position": 10,
+      "rider": "loris-capirossi",
+      "points": 98
+    },
+    {
+      "position": 11,
+      "rider": "alberto-puig",
+      "points": 93
+    },
+    {
+      "position": 12,
+      "rider": "shinichi-itoh",
+      "points": 77
+    },
+    {
+      "position": 13,
+      "rider": "kenny-roberts-jr",
+      "points": 69
+    },
+    {
+      "position": 14,
+      "rider": "juan-borja",
+      "points": 34
+    },
+    {
+      "position": 15,
+      "rider": "frederic-protat",
+      "points": 32
+    },
+    {
+      "position": 16,
+      "rider": "jeremy-mcwilliams",
+      "points": 26
+    },
+    {
+      "position": 17,
+      "rider": "lucio-pedercini",
+      "points": 25
+    },
+    {
+      "position": 18,
+      "rider": "daryl-beattie",
+      "points": 24
+    },
+    {
+      "position": 19,
+      "rider": "doriano-romboni",
+      "points": 23
+    },
+    {
+      "position": 20,
+      "rider": "terry-rymer",
+      "points": 16
+    },
+    {
+      "position": 21,
+      "rider": "james-haydon",
+      "points": 16
+    },
+    {
+      "position": 22,
+      "rider": "sean-emmett",
+      "points": 9
+    },
+    {
+      "position": 23,
+      "rider": "peter-goddard",
+      "points": 6
+    },
+    {
+      "position": 24,
+      "rider": "eugene-mcmanus",
+      "points": 6
+    },
+    {
+      "position": 25,
+      "rider": "toshiyuki-arakaki",
+      "points": 4
+    },
+    {
+      "position": 26,
+      "rider": "laurent-naveau",
+      "points": 3
+    },
+    {
+      "position": 27,
+      "rider": "florian-ferracci",
+      "points": 3
+    },
+    {
+      "position": 28,
+      "rider": "jean-marc-deletang",
+      "points": 2
+    },
+    {
+      "position": 29,
+      "rider": "paul-young",
+      "points": 2
+    },
+    {
+      "position": 30,
+      "rider": "andrew-stroud",
+      "points": 2
+    },
+    {
+      "position": 31,
+      "rider": "chris-walker",
+      "points": 2
+    },
+    {
+      "position": 32,
+      "rider": "marcellino-lucchi",
+      "points": 1
+    }
+  ]
+}

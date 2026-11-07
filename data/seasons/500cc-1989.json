@@ -1,7 +1,7 @@
 {
   "class": "500cc",
   "year": 1989,
-  "scoringRule": "1988-91",
+  "scoringRule": "1988-90",
   "notes": "Loaded from Wikipedia (1989 Grand Prix motorcycle racing season and the Grand Prix articles), then corrected by hand: Belgian Grand Prix at Half points. Needs a final hand check against motogp.com.",
   "rounds": [
     {
@@ -5289,7 +5289,7 @@
               "source": "https://en.wikipedia.org/wiki/1989_Swedish_motorcycle_Grand_Prix"
             },
             {
-              "rider": "aki-dahli",
+              "rider": "ake-dahli",
               "position": null,
               "outcome": "DNS",
               "fastestLap": false,

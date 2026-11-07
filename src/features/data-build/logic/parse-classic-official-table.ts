@@ -14,7 +14,10 @@ export function parseClassicOfficialTable(seasonText: string, riderId: RiderIdFn
   for (const row of tableRows(table.text)) {
     const riderCell = row.find((c) => /flagicon/i.test(c) && !/<br/i.test(c));
     const who = riderCell ? parseRiderCell(riderCell) : null;
-    const position = row[0] && cellText(`|${row[0]}`);
+    // Riders level on points further down the table have no position cell, or "=" (1969-1971) or "-" (1960) in it: they share the one above.
+    const cell = row[0] && cellText(`|${row[0]}`);
+    const shares = (cell === '=' || cell === '-' || riderCell === row[0]) && standings.length > 0;
+    const position = /^\d+$/.test(cell) ? cell : shares ? String(standings[standings.length - 1].position) : cell;
     const points = stripMarkup(cellText(`|${row[row.length - 1]}`)).replace(/'/g, '').match(/^\d+(?:\.\d+)?/)?.[0];
     if (!who || !position || !/^\d+$/.test(position) || points == null) continue;
     standings.push({

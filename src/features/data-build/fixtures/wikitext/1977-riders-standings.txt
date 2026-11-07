@@ -1,0 +1,88 @@
+==Final standings==
+===500cc final standings===
+{| class="wikitable" style="font-size: 85%; text-align:center"
+|- valign="top"
+!valign="middle"| Place
+!valign="middle"| Rider
+!valign="middle"| Team
+!valign="middle"| Machine
+! [[1977 Venezuelan motorcycle Grand Prix|VEN]]<br>{{flagicon|VEN}}
+! [[1977 Austrian motorcycle Grand Prix|AUT]]<br>{{flagicon|AUT}}
+! [[1977 German motorcycle Grand Prix|GER]]<br>{{flagicon|RFA}}
+! [[1977 Nations motorcycle Grand Prix|NAT]]<br>{{flagicon|ITA}}
+! [[1977 French motorcycle Grand Prix|FRA]]<br>{{flagicon|FRA}}
+! [[1977 Dutch TT|NED]]<br>{{flagicon|NED}}
+! [[1977 Belgian motorcycle Grand Prix|BEL]]<br>{{flagicon|BEL}}
+! [[1977 Swedish motorcycle Grand Prix|SWE]]<br>{{flagicon|SWE}}
+! [[1977 Finnish motorcycle Grand Prix|FIN]]<br>{{flagicon|FIN}}
+! [[1977 Czechoslovak motorcycle Grand Prix|CZE]]<br>{{flagicon|CZE}}
+! [[1977 British motorcycle Grand Prix|GBR]]<br>{{flagicon|UK}}
+
+!valign="middle"| Points
+|-
+! style="text-align:center;"|1
+|style="text-align:left;"| {{flagicon|UK}} [[Barry Sheene]]
+|style="text-align:left;"| [[Heron International|Heron]]-[[Suzuki MotoGP|Suzuki]]
+| [[Suzuki RG 500|RG500]]
+|style="background:#ffffbf;"| 1
+|style="background:#ffffff;"| DNS
+|style="background:#ffffbf;"| 1
+|style="background:#ffffbf;"| 1
+|style="background:#ffffbf;"| 1
+|style="background:#dfdfdf;"| 2
+|style="background:#ffffbf;"| 1 
+|style="background:#ffffbf;"| 1
+|style="background:#dfffdf;"| 6
+|
+|style="background:#efcfff;"| Ret
+! align="center"|107
+|-
+|style="text-align:left;"| {{flagicon|RFA}} Franz Heller
+|style="text-align:left;"| Bromme GMHH Suzuki Racing 
+| RG500
+|
+|style="background:#dfffdf;"| 5
+|style="background:#cfcfff;"| 19
+|
+|
+|
+|style="background:#cfcfff;"| 20
+|
+|
+|style="background:#cfcfff;"| 13
+|
+! align="center"|6
+|-
+|style="text-align:left;"| {{flagicon|AUT}} Karl Auer
+|style="text-align:left;"| MSC Rottenberg
+| RG500
+|
+|
+|style="background:#ffffff;"| DNS
+|
+|style="background:#efcfff;"| Ret
+|style="background:#ffffff;"| DNS
+|style="background:#efcfff;"| Ret
+|style="background:#efcfff;"| Ret
+|style="background:#dfffdf;"| 10
+|style="background:#efcfff;"| Ret
+|
+! align="center"|1
+|- 
+|style="text-align:left;"| {{flagicon|UK}} Kevin Wrettom
+| 
+| RG500
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|style="background:#dfffdf;"| 10 
+! align="center"|1
+|-
+|}

@@ -1,0 +1,185 @@
+{
+  "source": "https://en.wikipedia.org/wiki/1990_Grand_Prix_motorcycle_racing_season",
+  "standings": [
+    {
+      "position": 1,
+      "rider": "wayne-rainey",
+      "points": 255
+    },
+    {
+      "position": 2,
+      "rider": "kevin-schwantz",
+      "points": 188
+    },
+    {
+      "position": 3,
+      "rider": "mick-doohan",
+      "points": 179
+    },
+    {
+      "position": 4,
+      "rider": "niall-mackenzie",
+      "points": 140
+    },
+    {
+      "position": 5,
+      "rider": "wayne-gardner",
+      "points": 138
+    },
+    {
+      "position": 6,
+      "rider": "juan-garriga",
+      "points": 121
+    },
+    {
+      "position": 7,
+      "rider": "eddie-lawson",
+      "points": 118
+    },
+    {
+      "position": 8,
+      "rider": "jean-philippe-ruggia",
+      "points": 110
+    },
+    {
+      "position": 9,
+      "rider": "christian-sarron",
+      "points": 84
+    },
+    {
+      "position": 10,
+      "rider": "sito-pons",
+      "points": 76
+    },
+    {
+      "position": 11,
+      "rider": "pierfrancesco-chili",
+      "points": 63
+    },
+    {
+      "position": 12,
+      "rider": "alex-barros",
+      "points": 57
+    },
+    {
+      "position": 13,
+      "rider": "marco-papa",
+      "points": 55
+    },
+    {
+      "position": 14,
+      "rider": "randy-mamola",
+      "points": 55
+    },
+    {
+      "position": 15,
+      "rider": "ron-haslam",
+      "points": 46
+    },
+    {
+      "position": 16,
+      "rider": "cees-doorakkers",
+      "points": 38
+    },
+    {
+      "position": 17,
+      "rider": "eddie-laycock",
+      "points": 30
+    },
+    {
+      "position": 18,
+      "rider": "carl-fogarty",
+      "points": 24
+    },
+    {
+      "position": 19,
+      "rider": "niggi-schmassman",
+      "points": 23
+    },
+    {
+      "position": 20,
+      "rider": "peter-linden",
+      "points": 15
+    },
+    {
+      "position": 21,
+      "rider": "kevin-magee",
+      "points": 13
+    },
+    {
+      "position": 22,
+      "rider": "karl-truchsess",
+      "points": 12
+    },
+    {
+      "position": 23,
+      "rider": "tadahiko-taira",
+      "points": 10
+    },
+    {
+      "position": 24,
+      "rider": "peter-goddard",
+      "points": 8
+    },
+    {
+      "position": 25,
+      "rider": "andreas-leuthe",
+      "points": 8
+    },
+    {
+      "position": 26,
+      "rider": "shinichi-itoh",
+      "points": 7
+    },
+    {
+      "position": 27,
+      "rider": "romolo-balbi",
+      "points": 6
+    },
+    {
+      "position": 28,
+      "rider": "michele-valdo",
+      "points": 5
+    },
+    {
+      "position": 29,
+      "rider": "hikaru-miyagi",
+      "points": 5
+    },
+    {
+      "position": 30,
+      "rider": "norihiko-fujiwara",
+      "points": 5
+    },
+    {
+      "position": 31,
+      "rider": "shinji-katayama",
+      "points": 4
+    },
+    {
+      "position": 32,
+      "rider": "rachel-nicotte",
+      "points": 4
+    },
+    {
+      "position": 33,
+      "rider": "osamu-hiwatashi",
+      "points": 3
+    },
+    {
+      "position": 34,
+      "rider": "hansjoerg-butz",
+      "points": 3
+    },
+    {
+      "position": 35,
+      "rider": "martin-troesch",
+      "points": 1
+    },
+    {
+      "position": 36,
+      "rider": "vittorio-scatola",
+      "points": 1
+    }
+  ]
+}

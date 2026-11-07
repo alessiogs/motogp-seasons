@@ -56,14 +56,38 @@ const COUNTRIES: Record<string, Entry> = {
   SLO: ['Slovenia', 'SI'],
   TUR: ['Turkey', 'TR'],
   UKR: ['Ukraine', 'UA'],
+  IRE: ['Ireland', 'IE'],
+  UK: ['Great Britain', 'GB'],
+  GB: ['Great Britain', 'GB'],
+  JAP: ['Japan', 'JP'],
+  ZAF: ['South Africa', 'ZA'],
+  DNK: ['Denmark', 'DK'],
+  CH: ['Switzerland', 'CH'],
+  SWI: ['Switzerland', 'CH'],
+  SMR: ['San Marino', 'SM'],
+  GRE: ['Greece', 'GR'],
+  ZIM: ['Zimbabwe', 'ZW'],
+  HKG: ['Hong Kong', 'HK'],
+  CHI: ['Chile', 'CL'],
+  CHL: ['Chile', 'CL'],
+  IOM: ['Isle of Man', 'IM'],
   // Countries that no longer exist. West Germany raced under the same black-red-gold flag as Germany today.
   FRG: ['West Germany', 'DE'],
+  BRD: ['West Germany', 'DE'],
   GDR: ['East Germany', null],
   TCH: ['Czechoslovakia', null],
   CZS: ['Czechoslovakia', null],
+  CSK: ['Czechoslovakia', null],
   YUG: ['Yugoslavia', null],
   URS: ['Soviet Union', null],
   RHO: ['Rhodesia', null],
+};
+
+// Some articles name the country in full instead of giving a code.
+const NAMES: Record<string, string> = {
+  ...Object.fromEntries(Object.entries(COUNTRIES).map(([code, [name]]) => [name, code])),
+  'United Kingdom': 'GBR',
+  'The Netherlands': 'NED',
 };
 
 function emojiFlag(iso2: string): string {
@@ -73,7 +97,7 @@ function emojiFlag(iso2: string): string {
 /** The flag a Rider raced under, from the Nationality code stored on their Result. */
 export function flagOf(code: string | null): Flag | null {
   if (!code) return null;
-  const entry = COUNTRIES[code];
+  const entry = COUNTRIES[code] ?? COUNTRIES[NAMES[code]];
   if (!entry) return { code, name: code, emoji: null };
   const [name, iso2] = entry;
   return { code, name, emoji: iso2 ? emojiFlag(iso2) : null };

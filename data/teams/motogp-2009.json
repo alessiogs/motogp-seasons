@@ -1,0 +1,44 @@
+{
+  "teams": [
+    {
+      "name": "Ducati Marlboro Team",
+      "variants": [
+        "Ducati Team"
+      ]
+    },
+    {
+      "name": "Fiat Yamaha Team"
+    },
+    {
+      "name": "Grupo Francisco Hernando"
+    },
+    {
+      "name": "Hayate Racing Team"
+    },
+    {
+      "name": "LCR Honda MotoGP"
+    },
+    {
+      "name": "Monster Yamaha Tech 3"
+    },
+    {
+      "name": "Pramac Racing"
+    },
+    {
+      "name": "Repsol Honda Team",
+      "colour": "#ff8200"
+    },
+    {
+      "name": "Rizla Suzuki MotoGP"
+    },
+    {
+      "name": "San Carlo Honda Gresini"
+    },
+    {
+      "name": "Scot Racing Team MotoGP"
+    },
+    {
+      "name": "Sterilgarda Yamaha Team"
+    }
+  ]
+}

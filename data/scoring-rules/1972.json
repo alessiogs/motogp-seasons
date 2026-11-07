@@ -1,0 +1,13 @@
+{
+  "code": "1972",
+  "name": "1972: 15-12-10-8-6-5-4-3-2-1, best 7 of Rounds 1-13",
+  "source": "https://en.wikipedia.org/wiki/1972_Grand_Prix_motorcycle_racing_season (Scoring system and standings sections: points to the top 10 finishers, best 7 of 1-13 Round scores counted). Checked by arithmetic on the Wikipedia final standings (docs/research/premier-class-scoring-rules.md section 1), not yet by replaying this Season's Results. To be re-checked by hand against motogp.com before this rule is published.",
+  "validFor": [1972],
+  "fastestLapPoints": 0,
+  "fastestLapRequiresFinish": true,
+  "countingWindows": [{ "fromRound": 1, "toRound": 13, "count": 7 }],
+  "points": {
+    "grand-prix-race": [15, 12, 10, 8, 6, 5, 4, 3, 2, 1]
+  },
+  "notes": "Era rule for 1972. Counting windows index by Round number. A plain best-7 window fits; a two-half split fails (Kneubuhler 48 against 54). The Senior TT dead heat for 8th (Brown, Cott) follows the official table: see the Season file for any Points override."
+}

@@ -1,0 +1,56 @@
+{
+  "teams": [
+    {
+      "name": "Ducati Lenovo Team"
+    },
+    {
+      "name": "Prima Pramac Racing"
+    },
+    {
+      "name": "Repsol Honda Team",
+      "colour": "#ff8200"
+    },
+    {
+      "name": "Red Bull KTM Factory Racing"
+    },
+    {
+      "name": "Aprilia Racing"
+    },
+    {
+      "name": "CryptoData RNF MotoGP Team",
+      "variants": [
+        "CryptoDATA RNF MotoGP Team"
+      ]
+    },
+    {
+      "name": "Gresini Racing MotoGP"
+    },
+    {
+      "name": "Monster Energy Yamaha MotoGP Team",
+      "variants": [
+        "Monster Energy Yamaha MotoGP"
+      ]
+    },
+    {
+      "name": "LCR Honda Castrol"
+    },
+    {
+      "name": "LCR Honda Idemitsu"
+    },
+    {
+      "name": "Mooney VR46 Racing Team"
+    },
+    {
+      "name": "GasGas Factory Racing Tech3"
+    },
+    {
+      "name": "HRC Team"
+    },
+    {
+      "name": "Aruba.it Racing"
+    },
+    {
+      "name": "Yamalube RS4GP Racing Team"
+    }
+  ]
+}

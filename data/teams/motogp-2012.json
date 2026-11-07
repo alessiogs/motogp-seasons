@@ -1,0 +1,56 @@
+{
+  "teams": [
+    {
+      "name": "Attack Performance"
+    },
+    {
+      "name": "Avintia Blusens"
+    },
+    {
+      "name": "Came IodaRacing Project"
+    },
+    {
+      "name": "Cardion AB Motoracing"
+    },
+    {
+      "name": "Ducati Team"
+    },
+    {
+      "name": "GPTech"
+    },
+    {
+      "name": "LCR Honda MotoGP"
+    },
+    {
+      "name": "Monster Yamaha Tech 3"
+    },
+    {
+      "name": "NGM Mobile Forward Racing"
+    },
+    {
+      "name": "Paul Bird Motorsport"
+    },
+    {
+      "name": "Power Electronics Aspar"
+    },
+    {
+      "name": "Pramac Racing Team"
+    },
+    {
+      "name": "Repsol Honda Team",
+      "colour": "#ff8200"
+    },
+    {
+      "name": "San Carlo Honda Gresini"
+    },
+    {
+      "name": "Speed Master"
+    },
+    {
+      "name": "Yamaha Factory Racing"
+    },
+    {
+      "name": "Yamaha YSP Racing Team"
+    }
+  ]
+}

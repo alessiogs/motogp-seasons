@@ -2,6 +2,7 @@
   "code": "2023-plus",
   "name": "2023 onwards: Sprint and Grand Prix race",
   "source": "https://en.wikipedia.org/wiki/2024_MotoGP_World_Championship#Riders'_standings (scoring system table: Grand Prix race 25-20-16-13-11-10-9-8-7-6-5-4-3-2-1 to 15th, Sprint 12-9-7-6-5-4-3-2-1 to 9th, finishing required). To be re-checked by hand against the FIM MotoGP Sporting Regulations on motogp.com before this rule is published.",
+  "validFor": [2023, 2024, 2025],
   "fastestLapPoints": 0,
   "fastestLapRequiresFinish": true,
   "countingWindows": [],

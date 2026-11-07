@@ -1,0 +1,65 @@
+{
+  "teams": [
+    {
+      "name": "AB Motoracing"
+    },
+    {
+      "name": "Aprilia Racing Team Gresini"
+    },
+    {
+      "name": "Aspar MotoGP Team"
+    },
+    {
+      "name": "Athinà Forward Racing",
+      "variants": [
+        "Forward Racing"
+      ]
+    },
+    {
+      "name": "Avintia Racing"
+    },
+    {
+      "name": "CWM LCR Honda",
+      "variants": [
+        "LCR Honda"
+      ]
+    },
+    {
+      "name": "Ducati Team"
+    },
+    {
+      "name": "E-Motion IodaRacing Team",
+      "variants": [
+        "Octo IodaRacing Team"
+      ]
+    },
+    {
+      "name": "EG 0,0 Marc VDS"
+    },
+    {
+      "name": "Monster Yamaha Tech 3"
+    },
+    {
+      "name": "Movistar Yamaha MotoGP"
+    },
+    {
+      "name": "Octo Pramac Racing",
+      "variants": [
+        "Pramac Racing"
+      ]
+    },
+    {
+      "name": "Repsol Honda Team",
+      "colour": "#ff8200"
+    },
+    {
+      "name": "Team HRC with Nissin"
+    },
+    {
+      "name": "Team Suzuki Ecstar"
+    },
+    {
+      "name": "Yamaha Factory Racing Team"
+    }
+  ]
+}

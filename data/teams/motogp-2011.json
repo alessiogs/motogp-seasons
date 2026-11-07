@@ -1,0 +1,38 @@
+{
+  "teams": [
+    {
+      "name": "Cardion AB Motoracing"
+    },
+    {
+      "name": "Ducati Team"
+    },
+    {
+      "name": "Honda Racing Team"
+    },
+    {
+      "name": "LCR Honda MotoGP"
+    },
+    {
+      "name": "Mapfre Aspar Team MotoGP"
+    },
+    {
+      "name": "Monster Yamaha Tech 3"
+    },
+    {
+      "name": "Pramac Racing Team"
+    },
+    {
+      "name": "Repsol Honda Team",
+      "colour": "#ff8200"
+    },
+    {
+      "name": "Rizla Suzuki MotoGP"
+    },
+    {
+      "name": "San Carlo Honda Gresini"
+    },
+    {
+      "name": "Yamaha Factory Racing"
+    }
+  ]
+}

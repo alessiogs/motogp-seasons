@@ -1,0 +1,13 @@
+{
+  "code": "1967-68",
+  "name": "1967-68: 8-6-4-3-2-1, best 6 of Rounds 1-10",
+  "source": "https://en.wikipedia.org/wiki/1967_Grand_Prix_motorcycle_racing_season, https://en.wikipedia.org/wiki/1968_Grand_Prix_motorcycle_racing_season (Scoring system and standings sections: points to the top 6 finishers, best 6 of 1-10 Round scores counted). Checked by arithmetic on the Wikipedia final standings (docs/research/premier-class-scoring-rules.md section 1), not yet by replaying this Season's Results. To be re-checked by hand against motogp.com before this rule is published.",
+  "validFor": [1967, 1968],
+  "fastestLapPoints": 0,
+  "fastestLapRequiresFinish": true,
+  "countingWindows": [{ "fromRound": 1, "toRound": 10, "count": 6 }],
+  "points": {
+    "grand-prix-race": [8, 6, 4, 3, 2, 1]
+  },
+  "notes": "Era rule for 1967-1968. Counting windows index by Round number. Countback runs over every Grand Prix race finish, Dropped scores included: in 1967 Agostini and Hailwood tied on 46 Championship points with 5 wins each, and Agostini's third second place, a Dropped score, decided the title."
+}

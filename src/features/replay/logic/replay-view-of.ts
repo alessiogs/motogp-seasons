@@ -10,6 +10,7 @@ import { calendarEntriesOf } from './calendar-entries-of';
 import { classificationOf } from './classification-of';
 import { belowPodiumOf } from './below-podium-of';
 import { boxColoursOf } from './box-colours-of';
+import { flagOf } from './flag-of';
 import { podiumOf } from './podium-of';
 import { seasonNumbersOf } from './season-numbers-of';
 import { shortNameOf } from './short-name-of';
@@ -141,6 +142,8 @@ function ridersOf(
   seasonNumbers: Map<string, number>,
 ): Record<string, RiderInfo> {
   const riders: Record<string, RiderInfo> = {};
+  // Per Rider, how many Results name each country (spellings of one country counted together), in first-seen order.
+  const countries: Record<string, Map<string, { code: string; count: number }>> = {};
   for (const { session } of sessions) {
     for (const result of session.results) {
       const known = season.riders[result.riderId];
@@ -151,8 +154,20 @@ function ridersOf(
         nationality: null,
         seasonNumber: seasonNumbers.get(result.riderId) ?? null,
       };
-      riders[result.riderId].nationality ??= result.nationality;
+      if (result.nationality) {
+        const seen = (countries[result.riderId] ??= new Map());
+        const country = flagOf(result.nationality)!.name;
+        const entry = seen.get(country) ?? { code: result.nationality, count: 0 };
+        entry.count++;
+        seen.set(country, entry);
+      }
     }
+  }
+  // The country most Results name; on a tie, the first one seen. One misread row can't change a Rider's flag.
+  for (const [riderId, seen] of Object.entries(countries)) {
+    let best: { code: string; count: number } | null = null;
+    for (const entry of seen.values()) if (!best || entry.count > best.count) best = entry;
+    riders[riderId].nationality = best!.code;
   }
   return riders;
 }

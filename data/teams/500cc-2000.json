@@ -1,0 +1,75 @@
+{
+  "teams": [
+    {
+      "name": "Antena 3 Yamaha d'Antin"
+    },
+    {
+      "name": "Aprilia Grand Prix Racing"
+    },
+    {
+      "name": "Blu Aprilia Team"
+    },
+    {
+      "name": "BSL"
+    },
+    {
+      "name": "Demon Vimto Honda"
+    },
+    {
+      "name": "Emerson Honda Pons"
+    },
+    {
+      "name": "FCC TSR",
+      "variants": [
+        "F.C.C. TSR"
+      ]
+    },
+    {
+      "name": "Marlboro Yamaha Team"
+    },
+    {
+      "name": "Maxon Dee Cee Jeans"
+    },
+    {
+      "name": "Nastro Azzurro Honda"
+    },
+    {
+      "name": "Proton Team KR"
+    },
+    {
+      "name": "Queroseno Racing Team"
+    },
+    {
+      "name": "Red Bull Yamaha WCM"
+    },
+    {
+      "name": "Repsol Honda Team",
+      "colour": "#ff8200"
+    },
+    {
+      "name": "Repsol YPF Honda Team",
+      "colour": "#ff8200"
+    },
+    {
+      "name": "Rizla Honda"
+    },
+    {
+      "name": "Sabre Sport"
+    },
+    {
+      "name": "Team Paton"
+    },
+    {
+      "name": "Team Suzuki"
+    },
+    {
+      "name": "Technical Sports Racing"
+    },
+    {
+      "name": "Tecmas Honda Elf"
+    },
+    {
+      "name": "Telefónica Movistar Suzuki"
+    }
+  ]
+}

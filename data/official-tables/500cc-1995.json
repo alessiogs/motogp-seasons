@@ -1,0 +1,180 @@
+{
+  "source": "https://en.wikipedia.org/wiki/1995_Grand_Prix_motorcycle_racing_season",
+  "standings": [
+    {
+      "position": 1,
+      "rider": "mick-doohan",
+      "points": 248
+    },
+    {
+      "position": 2,
+      "rider": "daryl-beattie",
+      "points": 215
+    },
+    {
+      "position": 3,
+      "rider": "luca-cadalora",
+      "points": 176
+    },
+    {
+      "position": 4,
+      "rider": "alex-criville",
+      "points": 166
+    },
+    {
+      "position": 5,
+      "rider": "shinichi-itoh",
+      "points": 127
+    },
+    {
+      "position": 6,
+      "rider": "loris-capirossi",
+      "points": 108
+    },
+    {
+      "position": 7,
+      "rider": "alex-barros",
+      "points": 104
+    },
+    {
+      "position": 8,
+      "rider": "alberto-puig",
+      "points": 99
+    },
+    {
+      "position": 9,
+      "rider": "norifumi-abe",
+      "points": 81
+    },
+    {
+      "position": 10,
+      "rider": "loris-reggiani",
+      "points": 59
+    },
+    {
+      "position": 11,
+      "rider": "neil-hodgson",
+      "points": 54
+    },
+    {
+      "position": 12,
+      "rider": "juan-borja",
+      "points": 52
+    },
+    {
+      "position": 13,
+      "rider": "scott-russell",
+      "points": 43
+    },
+    {
+      "position": 14,
+      "rider": "bernard-garcia",
+      "points": 41
+    },
+    {
+      "position": 15,
+      "rider": "kevin-schwantz",
+      "points": 34
+    },
+    {
+      "position": 16,
+      "rider": "carlos-checa",
+      "points": 26
+    },
+    {
+      "position": 17,
+      "rider": "adrian-bosshard",
+      "points": 21
+    },
+    {
+      "position": 18,
+      "rider": "laurent-naveau",
+      "points": 21
+    },
+    {
+      "position": 19,
+      "rider": "jeremy-mcwilliams",
+      "points": 20
+    },
+    {
+      "position": 20,
+      "rider": "toshiyuki-arakaki",
+      "points": 20
+    },
+    {
+      "position": 21,
+      "rider": "cristiano-migliorati",
+      "points": 17
+    },
+    {
+      "position": 22,
+      "rider": "sean-emmett",
+      "points": 17
+    },
+    {
+      "position": 23,
+      "rider": "takuma-aoki",
+      "points": 16
+    },
+    {
+      "position": 24,
+      "rider": "james-haydon",
+      "points": 11
+    },
+    {
+      "position": 25,
+      "rider": "frederic-protat",
+      "points": 9
+    },
+    {
+      "position": 26,
+      "rider": "marc-garcia",
+      "points": 9
+    },
+    {
+      "position": 27,
+      "rider": "pierfrancesco-chili",
+      "points": 6
+    },
+    {
+      "position": 28,
+      "rider": "bruno-bonhuil",
+      "points": 5
+    },
+    {
+      "position": 29,
+      "rider": "andrew-stroud",
+      "points": 5
+    },
+    {
+      "position": 30,
+      "rider": "eugene-mcmanus",
+      "points": 4
+    },
+    {
+      "position": 31,
+      "rider": "bernard-haenggeli",
+      "points": 2
+    },
+    {
+      "position": 32,
+      "rider": "philippe-monneret",
+      "points": 1
+    },
+    {
+      "position": 33,
+      "rider": "chris-walker",
+      "points": 1
+    },
+    {
+      "position": 34,
+      "rider": "jean-pierre-jeandat",
+      "points": 1
+    },
+    {
+      "position": 35,
+      "rider": "lucio-pedercini",
+      "points": 1
+    }
+  ]
+}

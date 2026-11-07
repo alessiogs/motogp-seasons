@@ -1,0 +1,150 @@
+{
+  "source": "https://en.wikipedia.org/wiki/2004_Grand_Prix_motorcycle_racing_season",
+  "standings": [
+    {
+      "position": 1,
+      "rider": "valentino-rossi",
+      "points": 304
+    },
+    {
+      "position": 2,
+      "rider": "sete-gibernau",
+      "points": 257
+    },
+    {
+      "position": 3,
+      "rider": "max-biaggi",
+      "points": 217
+    },
+    {
+      "position": 4,
+      "rider": "alex-barros",
+      "points": 165
+    },
+    {
+      "position": 5,
+      "rider": "colin-edwards",
+      "points": 157
+    },
+    {
+      "position": 6,
+      "rider": "makoto-tamada",
+      "points": 150
+    },
+    {
+      "position": 7,
+      "rider": "carlos-checa",
+      "points": 117
+    },
+    {
+      "position": 8,
+      "rider": "nicky-hayden",
+      "points": 117
+    },
+    {
+      "position": 9,
+      "rider": "loris-capirossi",
+      "points": 117
+    },
+    {
+      "position": 10,
+      "rider": "shinya-nakano",
+      "points": 83
+    },
+    {
+      "position": 11,
+      "rider": "ruben-xaus",
+      "points": 77
+    },
+    {
+      "position": 12,
+      "rider": "marco-melandri",
+      "points": 75
+    },
+    {
+      "position": 13,
+      "rider": "norifumi-abe",
+      "points": 74
+    },
+    {
+      "position": 14,
+      "rider": "troy-bayliss",
+      "points": 71
+    },
+    {
+      "position": 15,
+      "rider": "alex-hofmann",
+      "points": 51
+    },
+    {
+      "position": 16,
+      "rider": "john-hopkins",
+      "points": 45
+    },
+    {
+      "position": 17,
+      "rider": "neil-hodgson",
+      "points": 38
+    },
+    {
+      "position": 18,
+      "rider": "kenny-roberts-jr",
+      "points": 37
+    },
+    {
+      "position": 19,
+      "rider": "jeremy-mcwilliams",
+      "points": 26
+    },
+    {
+      "position": 20,
+      "rider": "shane-byrne",
+      "points": 18
+    },
+    {
+      "position": 21,
+      "rider": "nobuatsu-aoki",
+      "points": 10
+    },
+    {
+      "position": 22,
+      "rider": "michel-fabrizio",
+      "points": 8
+    },
+    {
+      "position": 23,
+      "rider": "yukio-kagayama",
+      "points": 7
+    },
+    {
+      "position": 24,
+      "rider": "olivier-jacque",
+      "points": 5
+    },
+    {
+      "position": 25,
+      "rider": "james-haydon",
+      "points": 4
+    },
+    {
+      "position": 26,
+      "rider": "james-ellison",
+      "points": 3
+    },
+    {
+      "position": 27,
+      "rider": "andrew-pitt",
+      "points": 2
+    },
+    {
+      "position": 28,
+      "rider": "youichi-ui",
+      "points": 1
+    },
+    {
+      "position": 29,
+      "rider": "kurtis-roberts",
+      "points": 1
+    }
+  ]
+}

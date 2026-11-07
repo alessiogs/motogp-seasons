@@ -1,0 +1,82 @@
+{
+  "teams": [
+    {
+      "name": "Albion Street Motors"
+    },
+    {
+      "name": "AMF Harley-Davidson"
+    },
+    {
+      "name": "Barton Motors"
+    },
+    {
+      "name": "Bill Robertson Motors"
+    },
+    {
+      "name": "Boyer Team Kawasaki"
+    },
+    {
+      "name": "Carvalho Racing"
+    },
+    {
+      "name": "Chatterton Motors"
+    },
+    {
+      "name": "EC Oakley"
+    },
+    {
+      "name": "Equipe Sonauto BP Gauloises",
+      "variants": [
+        "Sonauto Gauloises-Yamaha"
+      ]
+    },
+    {
+      "name": "Fred Hanks Motorcycles"
+    },
+    {
+      "name": "GIR"
+    },
+    {
+      "name": "Harris Everton Racing"
+    },
+    {
+      "name": "Jacques Berlioz"
+    },
+    {
+      "name": "König Motorenbau"
+    },
+    {
+      "name": "Marcel Ankoné"
+    },
+    {
+      "name": "Mitsui Maschinen"
+    },
+    {
+      "name": "Munot Racing Team"
+    },
+    {
+      "name": "MV Agusta"
+    },
+    {
+      "name": "Racing Team NO"
+    },
+    {
+      "name": "Sarome Racing"
+    },
+    {
+      "name": "Silja Line Racing"
+    },
+    {
+      "name": "Suzuki Motor Company",
+      "variants": [
+        "Suzuki"
+      ]
+    },
+    {
+      "name": "Yamaha Motor NV"
+    },
+    {
+      "name": "Zata Motor"
+    }
+  ]
+}

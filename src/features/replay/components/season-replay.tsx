@@ -39,7 +39,7 @@ export default function SeasonReplay({ view }: { view: ReplayView }) {
           value={idx}
           onChange={(e) => setIdx(Number(e.target.value))}
           aria-label="Step"
-          aria-valuetext={stepLabel(step)}
+          aria-valuetext={stepLabel(step, calendar.length)}
         />
         <button onClick={() => setIdx((i) => Math.min(last, i + 1))} disabled={idx === last} aria-label="Next step">
           ›
@@ -49,14 +49,14 @@ export default function SeasonReplay({ view }: { view: ReplayView }) {
       {step.kind === 'participants' ? (
         <>
           <p className="round-label">
-            Step {idx + 1} of {steps.length} · {stepLabel(step)}
+            {stepLabel(step, calendar.length)}
           </p>
           {participantsNote && <p className="round-note muted">{participantsNote}</p>}
         </>
       ) : (
         <>
           <p className="round-label">
-            Step {idx + 1} of {steps.length} · {stepLabel(step)}
+            {stepLabel(step, calendar.length)}
             {step.round.date && <span className="muted"> · {step.round.date}</span>}
           </p>
           {step.round.notes && <p className="round-note muted">{step.round.notes}</p>}

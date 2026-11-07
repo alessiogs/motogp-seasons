@@ -1,0 +1,47 @@
+{
+  "teams": [
+    {
+      "name": "Aprilia Racing Team Gresini"
+    },
+    {
+      "name": "Pull & Bear Aspar Team",
+      "variants": [
+        "Aspar Team MotoGP"
+      ]
+    },
+    {
+      "name": "Avintia Racing"
+    },
+    {
+      "name": "Ducati Team"
+    },
+    {
+      "name": "Estrella Galicia 0,0 Marc VDS"
+    },
+    {
+      "name": "LCR Honda"
+    },
+    {
+      "name": "Monster Yamaha Tech 3"
+    },
+    {
+      "name": "Movistar Yamaha MotoGP"
+    },
+    {
+      "name": "Octo Pramac Yakhnich"
+    },
+    {
+      "name": "Red Bull KTM Factory Racing"
+    },
+    {
+      "name": "Repsol Honda Team",
+      "colour": "#ff8200"
+    },
+    {
+      "name": "Team Suzuki Ecstar"
+    },
+    {
+      "name": "Yamalube Yamaha Factory Racing"
+    }
+  ]
+}

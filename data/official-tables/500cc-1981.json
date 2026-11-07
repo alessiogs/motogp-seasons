@@ -1,0 +1,150 @@
+{
+  "source": "https://en.wikipedia.org/wiki/1981_Grand_Prix_motorcycle_racing_season",
+  "standings": [
+    {
+      "position": 1,
+      "rider": "marco-lucchinelli",
+      "points": 105
+    },
+    {
+      "position": 2,
+      "rider": "randy-mamola",
+      "points": 94
+    },
+    {
+      "position": 3,
+      "rider": "kenny-roberts",
+      "points": 74
+    },
+    {
+      "position": 4,
+      "rider": "barry-sheene",
+      "points": 72
+    },
+    {
+      "position": 5,
+      "rider": "graeme-crosby",
+      "points": 68
+    },
+    {
+      "position": 6,
+      "rider": "boet-van-dulmen",
+      "points": 64
+    },
+    {
+      "position": 7,
+      "rider": "jack-middelburg",
+      "points": 60
+    },
+    {
+      "position": 8,
+      "rider": "kork-ballington",
+      "points": 43
+    },
+    {
+      "position": 9,
+      "rider": "marc-fontan",
+      "points": 25
+    },
+    {
+      "position": 10,
+      "rider": "hiroyuki-kawasaki",
+      "points": 19
+    },
+    {
+      "position": 11,
+      "rider": "bernard-fau",
+      "points": 14
+    },
+    {
+      "position": 12,
+      "rider": "guido-paci",
+      "points": 14
+    },
+    {
+      "position": 13,
+      "rider": "franco-uncini",
+      "points": 12
+    },
+    {
+      "position": 14,
+      "rider": "willem-zoet",
+      "points": 10
+    },
+    {
+      "position": 15,
+      "rider": "seppo-rossi",
+      "points": 9
+    },
+    {
+      "position": 16,
+      "rider": "gianni-pelletier",
+      "points": 8
+    },
+    {
+      "position": 17,
+      "rider": "michel-frutschi",
+      "points": 6
+    },
+    {
+      "position": 18,
+      "rider": "dave-potter",
+      "points": 5
+    },
+    {
+      "position": 19,
+      "rider": "stuart-avant",
+      "points": 4
+    },
+    {
+      "position": 20,
+      "rider": "sergio-pellandini",
+      "points": 4
+    },
+    {
+      "position": 21,
+      "rider": "ikujiro-takai",
+      "points": 3
+    },
+    {
+      "position": 22,
+      "rider": "steve-parrish",
+      "points": 3
+    },
+    {
+      "position": 23,
+      "rider": "franck-gross",
+      "points": 2
+    },
+    {
+      "position": 24,
+      "rider": "wil-hartog",
+      "points": 2
+    },
+    {
+      "position": 25,
+      "rider": "christian-sarron",
+      "points": 2
+    },
+    {
+      "position": 26,
+      "rider": "sadao-asami",
+      "points": 1
+    },
+    {
+      "position": 27,
+      "rider": "chris-guy",
+      "points": 1
+    },
+    {
+      "position": 28,
+      "rider": "keith-huewen",
+      "points": 1
+    },
+    {
+      "position": 29,
+      "rider": "kimmo-kopra",
+      "points": 1
+    }
+  ]
+}

@@ -14,11 +14,16 @@ export function parseCalendar(seasonText: string, year: number) {
     if (!first || !/^\d+$/.test(first)) continue;
     const [, date, grandPrix, circuit] = lines.map(cellText);
     rounds[Number(first) - 1] = {
-      name: stripMarkup(grandPrix.replace(/\{\{flagicon[^}]*\}\}/gi, '')),
-      circuit: stripMarkup(circuit) || null,
+      name: withoutFootnoteMarks(stripMarkup(grandPrix.replace(/\{\{flagicon[^}]*\}\}/gi, ''))),
+      circuit: withoutFootnoteMarks(stripMarkup(circuit)) || null,
       country: grandPrix.match(/flagicon\|([^|}]+)/i)?.[1] ?? null,
       date: toIsoDate(date, year),
     };
   }
   return rounds;
+}
+
+/** "Nations Grand Prix††": the calendar's footnote marks belong to the note below the table, not to the name. */
+function withoutFootnoteMarks(text: string): string {
+  return text.replace(/\s*[†‡*]+\s*$/, '');
 }

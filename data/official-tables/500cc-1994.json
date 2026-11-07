@@ -1,0 +1,170 @@
+{
+  "source": "https://en.wikipedia.org/wiki/1994_Grand_Prix_motorcycle_racing_season",
+  "standings": [
+    {
+      "position": 1,
+      "rider": "mick-doohan",
+      "points": 317
+    },
+    {
+      "position": 2,
+      "rider": "luca-cadalora",
+      "points": 174
+    },
+    {
+      "position": 3,
+      "rider": "john-kocinski",
+      "points": 172
+    },
+    {
+      "position": 4,
+      "rider": "kevin-schwantz",
+      "points": 169
+    },
+    {
+      "position": 5,
+      "rider": "alberto-puig",
+      "points": 152
+    },
+    {
+      "position": 6,
+      "rider": "alex-criville",
+      "points": 144
+    },
+    {
+      "position": 7,
+      "rider": "shinichi-itoh",
+      "points": 141
+    },
+    {
+      "position": 8,
+      "rider": "alex-barros",
+      "points": 134
+    },
+    {
+      "position": 9,
+      "rider": "doug-chandler",
+      "points": 96
+    },
+    {
+      "position": 10,
+      "rider": "niall-mackenzie",
+      "points": 69
+    },
+    {
+      "position": 11,
+      "rider": "bernard-garcia",
+      "points": 56
+    },
+    {
+      "position": 12,
+      "rider": "jeremy-mcwilliams",
+      "points": 49
+    },
+    {
+      "position": 13,
+      "rider": "daryl-beattie",
+      "points": 44
+    },
+    {
+      "position": 14,
+      "rider": "john-reynolds",
+      "points": 43
+    },
+    {
+      "position": 15,
+      "rider": "sean-emmett",
+      "points": 34
+    },
+    {
+      "position": 16,
+      "rider": "juan-lopez-mella",
+      "points": 26
+    },
+    {
+      "position": 17,
+      "rider": "norifumi-abe",
+      "points": 20
+    },
+    {
+      "position": 18,
+      "rider": "laurent-naveau",
+      "points": 19
+    },
+    {
+      "position": 19,
+      "rider": "jean-pierre-jeandat",
+      "points": 17
+    },
+    {
+      "position": 20,
+      "rider": "cristiano-migliorati",
+      "points": 12
+    },
+    {
+      "position": 21,
+      "rider": "marc-garcia",
+      "points": 11
+    },
+    {
+      "position": 22,
+      "rider": "toshihiko-honma",
+      "points": 10
+    },
+    {
+      "position": 23,
+      "rider": "jean-foray",
+      "points": 8
+    },
+    {
+      "position": 24,
+      "rider": "loris-reggiani",
+      "points": 7
+    },
+    {
+      "position": 25,
+      "rider": "bernard-haenggeli",
+      "points": 7
+    },
+    {
+      "position": 26,
+      "rider": "julian-miralles",
+      "points": 7
+    },
+    {
+      "position": 27,
+      "rider": "bruno-bonhuil",
+      "points": 7
+    },
+    {
+      "position": 28,
+      "rider": "herve-moineau",
+      "points": 5
+    },
+    {
+      "position": 29,
+      "rider": "scott-doohan",
+      "points": 4
+    },
+    {
+      "position": 30,
+      "rider": "udo-mark",
+      "points": 2
+    },
+    {
+      "position": 31,
+      "rider": "lucio-pedercini",
+      "points": 2
+    },
+    {
+      "position": 32,
+      "rider": "neil-hodgson",
+      "points": 1
+    },
+    {
+      "position": 33,
+      "rider": "andrew-stroud",
+      "points": 1
+    }
+  ]
+}

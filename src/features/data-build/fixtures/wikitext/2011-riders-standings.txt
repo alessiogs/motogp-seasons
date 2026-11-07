@@ -1,0 +1,32 @@
+===MotoGP standings===
+====Riders' standings====
+
+{|
+|
+{| class="wikitable" style="font-size: 85%; text-align:center"
+|- valign="top"
+!valign="middle"| Pos
+!valign="middle"| Rider
+!valign="middle"| Bike
+!valign="middle"| Team
+! [[2011 Qatar motorcycle Grand Prix|QAT]]<br />[[File:Flag of Qatar.svg|23x15px|border |alt=Qatar|link=Qatar]]
+!style="background:#8fcfdf;"| [[2011 Spanish motorcycle Grand Prix|SPA]]<br />[[File:Flag of Spain.svg|23x15px|border |alt=Spain|link=Spain]]
+!valign="middle"| Pts
+|-
+! 1
+|align="left"| [[File:Flag of Australia (converted).svg|23x15px|border |alt=Australia|link=Australia]] [[Casey Stoner]]
+| [[Honda]]
+|Repsol Honda Team
+|style="background:#ffffbf;"| '''''1'''''
+|style="background:#efcfff;"| '''Ret'''
+! 350
+|-
+! 2
+|align="left"| [[File:Flag of Spain.svg|23x15px|border |alt=Spain|link=Spain]] [[Jorge Lorenzo]]
+| [[Yamaha Motor Company|Yamaha]]
+|Yamaha Factory Racing
+|style="background:#dfdfdf;"| 2
+|style="background:#ffffbf;"| 1
+! 260
+|}
+|}

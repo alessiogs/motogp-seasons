@@ -1,0 +1,47 @@
+{{Infobox Grand Prix motorcycle race report
+| flag = GBR
+| Grand Prix = British
+| Official Name = [[Cinzano]] British Grand Prix
+| Location = [[Donington Park]]
+| Race_No = 8
+| Date = 8 July
+| Year = 2001
+}}
+
+The '''2001 British motorcycle Grand Prix''' was the eighth round of the 2001 Grand Prix motorcycle racing season (trimmed sample: the top and the 13th place of the 500 cc classification).
+
+==500 cc classification==
+{| class="wikitable" style="font-size: 95%;"
+! Pos.
+! No.
+! Rider
+! Team
+! Manufacturer
+! Laps
+! Time/Retired
+! Grid
+! Points
+|-
+! 1
+| 46
+| {{flagicon|ITA}} '''[[Valentino Rossi]]'''
+| '''Nastro Azzurro Honda'''
+| '''[[Honda]]'''
+| 30
+| 46:53.349
+| 11
+| '''25'''
+|-
+! 13
+| 24
+| {{flagicon|GBR}} '''Jason Vincent'''
+| '''Red Bull Yamaha WCM'''
+| '''[[Yamaha Motor Company|Yamaha]]'''
+| 30
+| +49.907
+| 19
+| '''3'''
+|-
+|}
+
+==250 cc race classification==

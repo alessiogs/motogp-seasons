@@ -1,15 +1,16 @@
 import { cellText } from './cell-text';
 import { extractTables } from './extract-tables';
+import { manufacturerOfMachine } from './manufacturer-of-machine';
 import { parseRiderCell } from './parse-rider-cell';
 import { stripMarkup } from './strip-markup';
 import { toOutcome } from './to-outcome';
 import type { ResultOut } from '../types/result-out';
 import type { RiderIdFn } from '../types/rider-id-fn';
 
-/** A report article's "500cc classification" table, read by its header names. Empty if it has none. */
+/** A report article's 500cc classification table (heading "500cc classification", or "500 cc" under "Classification"), read by its header names; a machine model in the Manufacturer column becomes its brand. Empty if it has none. */
 export function parseClassicClassification(text: string, source: string, riderId: RiderIdFn): ResultOut[] {
   const table = extractTables(text).find(
-    (t) => t.path.some((p) => /^500(&nbsp;|\s)*cc/i.test(p) && /classification/i.test(p)) && /Rider/.test(t.text),
+    (t) => t.path.some((p) => /^500(&nbsp;|\s)*cc/i.test(p)) && t.path.some((p) => /classification/i.test(p)) && /Rider/.test(t.text),
   );
   if (!table) return [];
   const allRows = table.text.split(/^\|-.*$/m);
@@ -33,9 +34,9 @@ export function parseClassicClassification(text: string, source: string, riderId
       fastestLap: false,
       pointsOverride: null,
       team: teamCol === -1 ? null : stripMarkup(cells[teamCol] ?? '') || null,
-      manufacturer: makeCol === -1 ? null : stripMarkup(cells[makeCol] ?? '') || null,
+      manufacturer: makeCol === -1 ? null : manufacturerOfMachine(stripMarkup(cells[makeCol] ?? '') || null),
       bikeNumber: numCol !== -1 && /^\d+$/.test(cells[numCol] ?? '') ? Number(cells[numCol]) : null,
-      nationality: cells[riderCol].match(/flagicon\|([A-Za-z ]+)/i)?.[1] ?? null,
+      nationality: cells[riderCol].match(/flagicon\|\s*([A-Za-z_ ]+)/i)?.[1]?.trim().replaceAll('_', ' ') ?? null,
       source,
     });
   }

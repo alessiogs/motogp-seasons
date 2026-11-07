@@ -1,0 +1,56 @@
+{
+  "teams": [
+    {
+      "name": "Avintia Racing"
+    },
+    {
+      "name": "Cardion AB Motoracing"
+    },
+    {
+      "name": "Drive M7 Aspar"
+    },
+    {
+      "name": "Ducati Team"
+    },
+    {
+      "name": "Energy T.I. Pramac Racing"
+    },
+    {
+      "name": "Go&Fun Honda Gresini"
+    },
+    {
+      "name": "Octo IodaRacing Team",
+      "variants": [
+        "IodaRacing Project"
+      ]
+    },
+    {
+      "name": "LCR Honda MotoGP"
+    },
+    {
+      "name": "Monster Yamaha Tech 3"
+    },
+    {
+      "name": "Movistar Yamaha MotoGP"
+    },
+    {
+      "name": "NGM Forward Racing"
+    },
+    {
+      "name": "Paul Bird Motorsport"
+    },
+    {
+      "name": "Pramac Racing"
+    },
+    {
+      "name": "Repsol Honda Team",
+      "colour": "#ff8200"
+    },
+    {
+      "name": "Team Suzuki MotoGP"
+    },
+    {
+      "name": "Yamalube Racing Team with YSP"
+    }
+  ]
+}

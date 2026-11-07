@@ -1,0 +1,62 @@
+{
+  "teams": [
+    {
+      "name": "Blata WCM"
+    },
+    {
+      "name": "Camel Honda"
+    },
+    {
+      "name": "Ducati Marlboro Team",
+      "variants": [
+        "Ducati Team"
+      ]
+    },
+    {
+      "name": "Fortuna Yamaha Team"
+    },
+    {
+      "name": "Gauloises Yamaha Team",
+      "variants": [
+        "Yamaha Factory Racing"
+      ]
+    },
+    {
+      "name": "Honda Pons"
+    },
+    {
+      "name": "Kawasaki Racing Team"
+    },
+    {
+      "name": "Konica Minolta Honda",
+      "variants": [
+        "JIR Konica Minolta Honda"
+      ]
+    },
+    {
+      "name": "Moriwaki Racing"
+    },
+    {
+      "name": "Movistar Honda MotoGP"
+    },
+    {
+      "name": "Red Bull Suzuki"
+    },
+    {
+      "name": "Repsol Honda Team",
+      "colour": "#ff8200"
+    },
+    {
+      "name": "Team Roberts"
+    },
+    {
+      "name": "Team Suzuki MotoGP"
+    },
+    {
+      "name": "Team d'Antin Pramac",
+      "variants": [
+        "D'Antin MotoGP – Pramac"
+      ]
+    }
+  ]
+}
