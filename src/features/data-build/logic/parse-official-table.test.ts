@@ -51,3 +51,19 @@ describe("parseOfficialTable for a 500cc Season filed under \"500cc riders' stan
     ]);
   });
 });
+
+describe("parseOfficialTable for a 500cc Season filed under \"Riders' standings\" > \"500cc\"", () => {
+  // Trimmed from the 1999 season article, a layout shared by 1997-1999: the class is a sub-heading of
+  // "Riders' standings", and a Manufacturers' standings table has the same "500cc" sub-heading.
+  const sample1999 = readFileSync(
+    path.join(process.cwd(), 'src/features/data-build/fixtures/wikitext/1999-riders-standings.txt'),
+    'utf8',
+  );
+
+  it('finds the matrix when the heading is given as "Riders\' standings/500cc"', () => {
+    expect(parseOfficialTable(sample1999, riderId, ['500cc final standings', "Riders' standings/500cc"])).toEqual([
+      { position: 1, rider: 'àlex-crivillé', points: 267 },
+      { position: 2, rider: 'alex-barros', points: 211 },
+    ]);
+  });
+});

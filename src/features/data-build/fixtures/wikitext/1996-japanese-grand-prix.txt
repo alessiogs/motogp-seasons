@@ -1,0 +1,48 @@
+{{Infobox Grand Prix motorcycle race report
+| Grand Prix = Japanese
+| flag = Japan
+| Official_Name= [[Marlboro (cigarette)|Marlboro]] Grand Prix of Japan<ref>{{cite web|url=https://japan.webike.net/products/1563707.html|title=WiCK : 1996 WGP 500cc JAPAN Grand Prix [WVD-121]|website=Webike Japan|accessdate=16 May 2018}}</ref><ref>{{cite web|url=http://www.jumpingjack.nl/GP-races_1996_heden.htm|archiveurl=https://archive.today/20150725155441/http://www.jumpingjack.nl/GP-races_1996_heden.htm|url-status=dead|title=Grand Prix uitslagen en bijzonderheden 1996|date=25 July 2015|archivedate=25 July 2015|website=Archive.today|accessdate=16 May 2018}}</ref><ref>{{Cite web|url=https://www.progcovers.com/motor/500cc1996.html|title=1996 500cc Class (FIM Grand Prix World Championship) Programmes &#124; The Motor Racing Programme Covers Project|website=www.progcovers.com}}</ref><ref>{{Cite web|url=https://www.progcovers.com/motor/suzuka.html|title=Suzuka Circuit &#124; The Motor Racing Programme Covers Project|website=www.progcovers.com}}</ref>
+| Location = [[Suzuka Circuit]]
+| Course_mi = 3.644
+| Course_km = 5.864
+| Race_No = 3
+| Season_No = 15
+| Date = 21 April
+| Year = 1996
+}}
+
+The '''1996 Japanese motorcycle Grand Prix''' was the third round of the 1996 season.
+
+==500 cc classification==
+{| class="wikitable" style="font-size: 95%;"
+|-
+! Pos.
+! Rider
+! Team
+! Manufacturer
+! Time/Retired
+! Points
+|-
+! 1
+| {{flagicon|JPN}} '''[[Norifumi Abe]]'''
+| '''Marlboro Yamaha Roberts'''
+| '''[[Yamaha Motor Company|Yamaha]]'''
+| 45:34.590
+| '''25'''
+|-
+! 2
+| {{flagicon|ESP}} '''[[Àlex Crivillé]]'''
+| '''Team Repsol Honda'''
+| '''[[Honda]]'''
+| +6.496
+| '''20'''
+|-
+! Ret
+| {{flagicon|FRA}} [[Frederic Protat]]
+| Soverex FP Racing
+| [[Yamaha Motor Company|ROC Yamaha]]
+| Retirement
+| 
+|}
+
+==250 cc classification==

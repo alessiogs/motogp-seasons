@@ -43,7 +43,7 @@ const USER_AGENT = 'motogp-seasons-loader/0.1 (https://github.com/alessiogs/moto
 const CLASSES: Record<string, { seasonTitle: (year: number) => string; scoringRule: string; standingsHeading: string | string[] }> = {
   // Up to 2011 the MotoGP Season shares one article with the lower classes.
   motogp: { seasonTitle: (y) => (y <= 2011 ? `${y} Grand Prix motorcycle racing season` : `${y} MotoGP World Championship`), scoringRule: '2023-plus', standingsHeading: "Riders' standings" },
-  '500cc': { seasonTitle: (y) => `${y} Grand Prix motorcycle racing season`, scoringRule: '1976', standingsHeading: ['500cc final standings', "500cc riders' standings"] },
+  '500cc': { seasonTitle: (y) => `${y} Grand Prix motorcycle racing season`, scoringRule: '1976', standingsHeading: ['500cc final standings', "500cc riders' standings", "Riders' standings/500cc"] },
 };
 
 

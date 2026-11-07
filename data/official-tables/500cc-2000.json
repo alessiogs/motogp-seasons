@@ -1,0 +1,160 @@
+{
+  "source": "https://en.wikipedia.org/wiki/2000_Grand_Prix_motorcycle_racing_season",
+  "standings": [
+    {
+      "position": 1,
+      "rider": "kenny-roberts-jr",
+      "points": 258
+    },
+    {
+      "position": 2,
+      "rider": "valentino-rossi",
+      "points": 209
+    },
+    {
+      "position": 3,
+      "rider": "max-biaggi",
+      "points": 170
+    },
+    {
+      "position": 4,
+      "rider": "alex-barros",
+      "points": 163
+    },
+    {
+      "position": 5,
+      "rider": "garry-mccoy",
+      "points": 161
+    },
+    {
+      "position": 6,
+      "rider": "carlos-checa",
+      "points": 155
+    },
+    {
+      "position": 7,
+      "rider": "loris-capirossi",
+      "points": 154
+    },
+    {
+      "position": 8,
+      "rider": "norifumi-abe",
+      "points": 147
+    },
+    {
+      "position": 9,
+      "rider": "alex-criville",
+      "points": 122
+    },
+    {
+      "position": 10,
+      "rider": "nobuatsu-aoki",
+      "points": 116
+    },
+    {
+      "position": 11,
+      "rider": "tadayuki-okada",
+      "points": 107
+    },
+    {
+      "position": 12,
+      "rider": "regis-laconi",
+      "points": 106
+    },
+    {
+      "position": 13,
+      "rider": "jurgen-vd-goorbergh",
+      "points": 85
+    },
+    {
+      "position": 14,
+      "rider": "jeremy-mcwilliams",
+      "points": 76
+    },
+    {
+      "position": 15,
+      "rider": "sete-gibernau",
+      "points": 72
+    },
+    {
+      "position": 16,
+      "rider": "tetsuya-harada",
+      "points": 38
+    },
+    {
+      "position": 17,
+      "rider": "jose-david-de-gea",
+      "points": 23
+    },
+    {
+      "position": 18,
+      "rider": "jose-luis-cardoso",
+      "points": 19
+    },
+    {
+      "position": 19,
+      "rider": "yoshiteru-konishi",
+      "points": 16
+    },
+    {
+      "position": 20,
+      "rider": "sebastien-le-grelle",
+      "points": 7
+    },
+    {
+      "position": 21,
+      "rider": "akira-ryo",
+      "points": 6
+    },
+    {
+      "position": 22,
+      "rider": "sebastien-gimbert",
+      "points": 5
+    },
+    {
+      "position": 23,
+      "rider": "shane-norval",
+      "points": 4
+    },
+    {
+      "position": 24,
+      "rider": "john-mcguinness",
+      "points": 3
+    },
+    {
+      "position": 25,
+      "rider": "david-tomas",
+      "points": 3
+    },
+    {
+      "position": 26,
+      "rider": "tekkyu-kayo",
+      "points": 3
+    },
+    {
+      "position": 27,
+      "rider": "luca-cadalora",
+      "points": 3
+    },
+    {
+      "position": 28,
+      "rider": "mark-willis",
+      "points": 3
+    },
+    {
+      "position": 29,
+      "rider": "anthony-gobert",
+      "points": 1
+    },
+    {
+      "position": 30,
+      "rider": "paolo-tessari",
+      "points": 1
+    },
+    {
+      "position": 31,
+      "rider": "phil-giles",
+      "points": 1
+    }
+  ]
+}

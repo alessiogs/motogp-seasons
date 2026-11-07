@@ -1,0 +1,73 @@
+{
+  "teams": [
+    {
+      "name": "Elf 500 ROC"
+    },
+    {
+      "name": "Honda Gresini"
+    },
+    {
+      "name": "IP Aprilia Racing Team"
+    },
+    {
+      "name": "Lucky Strike Suzuki"
+    },
+    {
+      "name": "Marlboro Team Roberts"
+    },
+    {
+      "name": "Marlboro Yamaha Team"
+    },
+    {
+      "name": "Millet Racing"
+    },
+    {
+      "name": "Movistar Honda Pons"
+    },
+    {
+      "name": "Padgett's"
+    },
+    {
+      "name": "Red Bull Yamaha WCM"
+    },
+    {
+      "name": "Repsol Honda"
+    },
+    {
+      "name": "Repsol Honda Team"
+    },
+    {
+      "name": "Repsol YPF Honda Team",
+      "variants": [
+        "Repsol YPF Honda Team'"
+      ]
+    },
+    {
+      "name": "Rheos Elf FCC TS"
+    },
+    {
+      "name": "Soverex FP Racing"
+    },
+    {
+      "name": "Team Millar MQP"
+    },
+    {
+      "name": "Team Paton"
+    },
+    {
+      "name": "Team Pedercini"
+    },
+    {
+      "name": "Team Tecmas"
+    },
+    {
+      "name": "World Championship Motorsports"
+    },
+    {
+      "name": "Yamaha Promotor Racing"
+    },
+    {
+      "name": "Yamaha Team Rainey"
+    }
+  ]
+}
