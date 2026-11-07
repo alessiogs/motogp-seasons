@@ -1,14 +1,14 @@
 {
   "class": "500cc",
   "year": 1950,
-  "scoringRule": "TODO-set-by-hand",
-  "notes": "Loaded from Wikipedia (1950 Grand Prix motorcycle racing season); needs a hand check against motogp.com. Set the Scoring rule, Half points and aggregate classifications by hand.",
+  "scoringRule": "1950",
+  "notes": "Loaded from Wikipedia (1950 Grand Prix motorcycle racing season, with the Grand Prix report articles that exist, otherwise its standings matrix alone); 6 Rounds. Counting window: best 4 of Rounds 1-6. The source names no Team, and gives one machine per Rider, not per Round: the Manufacturer of every Result is the first bike named for him in the standings matrix, or the bike of the report where one exists. Needs a hand check against motogp.com.",
   "rounds": [
     {
       "number": 1,
       "name": "Isle of Man TT",
       "circuit": "Snaefell Mountain",
-      "country": "IOM",
+      "country": "Isle of Man",
       "date": "1950-06-10",
       "nonChampionship": false,
       "notes": null,
@@ -63,7 +63,7 @@
               "fastestLap": false,
               "pointsOverride": null,
               "team": null,
-              "manufacturer": "AJS Porcupine",
+              "manufacturer": "AJS",
               "bikeNumber": null,
               "nationality": "GBR",
               "source": "https://en.wikipedia.org/wiki/1950_Grand_Prix_motorcycle_racing_season"
@@ -159,7 +159,7 @@
               "fastestLap": false,
               "pointsOverride": null,
               "team": null,
-              "manufacturer": "Vincent Grey Flash",
+              "manufacturer": "Vincent HRD",
               "bikeNumber": null,
               "nationality": "GBR",
               "source": "https://en.wikipedia.org/wiki/1950_Grand_Prix_motorcycle_racing_season"
@@ -627,7 +627,7 @@
               "fastestLap": false,
               "pointsOverride": null,
               "team": null,
-              "manufacturer": "Vincent Grey Flash",
+              "manufacturer": "Vincent HRD",
               "bikeNumber": null,
               "nationality": "GBR",
               "source": "https://en.wikipedia.org/wiki/1950_Grand_Prix_motorcycle_racing_season"
@@ -771,7 +771,7 @@
               "fastestLap": false,
               "pointsOverride": null,
               "team": null,
-              "manufacturer": "Vincent Grey Flash",
+              "manufacturer": "Vincent HRD",
               "bikeNumber": null,
               "nationality": "IRL",
               "source": "https://en.wikipedia.org/wiki/1950_Grand_Prix_motorcycle_racing_season"
@@ -819,7 +819,7 @@
               "fastestLap": false,
               "pointsOverride": null,
               "team": null,
-              "manufacturer": "Vincent Grey Flash",
+              "manufacturer": "Vincent HRD",
               "bikeNumber": null,
               "nationality": "GBR",
               "source": "https://en.wikipedia.org/wiki/1950_Grand_Prix_motorcycle_racing_season"
@@ -903,7 +903,7 @@
               "fastestLap": false,
               "pointsOverride": null,
               "team": null,
-              "manufacturer": "Vincent",
+              "manufacturer": "Vincent HRD",
               "bikeNumber": null,
               "nationality": "GBR",
               "source": "https://en.wikipedia.org/wiki/1950_Grand_Prix_motorcycle_racing_season"
@@ -928,7 +928,7 @@
       "number": 2,
       "name": "Belgian Grand Prix",
       "circuit": "Spa-Francorchamps",
-      "country": "BEL",
+      "country": "Belgium",
       "date": "1950-07-02",
       "nonChampionship": false,
       "notes": null,
@@ -1199,7 +1199,7 @@
               "fastestLap": false,
               "pointsOverride": null,
               "team": null,
-              "manufacturer": "AJS Porcupine",
+              "manufacturer": "AJS",
               "bikeNumber": null,
               "nationality": "GBR",
               "source": "https://en.wikipedia.org/wiki/1950_Grand_Prix_motorcycle_racing_season"
@@ -1452,7 +1452,7 @@
       "number": 3,
       "name": "Dutch TT",
       "circuit": "Assen",
-      "country": "NLD",
+      "country": "Netherlands",
       "date": "1950-07-08",
       "nonChampionship": false,
       "notes": null,
@@ -1687,7 +1687,7 @@
               "fastestLap": false,
               "pointsOverride": null,
               "team": null,
-              "manufacturer": "AJS Porcupine",
+              "manufacturer": "AJS",
               "bikeNumber": null,
               "nationality": "GBR",
               "source": "https://en.wikipedia.org/wiki/1950_Grand_Prix_motorcycle_racing_season"
@@ -1867,7 +1867,7 @@
               "fastestLap": false,
               "pointsOverride": null,
               "team": null,
-              "manufacturer": "BMW R51/2",
+              "manufacturer": "BMW",
               "bikeNumber": null,
               "nationality": "NLD",
               "source": "https://en.wikipedia.org/wiki/1950_Grand_Prix_motorcycle_racing_season"
@@ -1879,7 +1879,7 @@
               "fastestLap": false,
               "pointsOverride": null,
               "team": null,
-              "manufacturer": "BMW R51/2",
+              "manufacturer": "BMW",
               "bikeNumber": null,
               "nationality": "NLD",
               "source": "https://en.wikipedia.org/wiki/1950_Grand_Prix_motorcycle_racing_season"
@@ -1928,7 +1928,7 @@
       "number": 4,
       "name": "Swiss Grand Prix",
       "circuit": "Geneva",
-      "country": "CHE",
+      "country": "Switzerland",
       "date": "1950-07-23",
       "nonChampionship": false,
       "notes": null,
@@ -1947,7 +1947,7 @@
               "fastestLap": false,
               "pointsOverride": null,
               "team": null,
-              "manufacturer": "AJS Porcupine",
+              "manufacturer": "AJS",
               "bikeNumber": null,
               "nationality": "GBR",
               "source": "https://en.wikipedia.org/wiki/1950_Grand_Prix_motorcycle_racing_season"
@@ -2272,7 +2272,7 @@
       "number": 5,
       "name": "Ulster Grand Prix",
       "circuit": "Clady",
-      "country": "NIR",
+      "country": "Northern Ireland",
       "date": "1950-08-18",
       "nonChampionship": false,
       "notes": null,
@@ -2303,7 +2303,7 @@
               "fastestLap": false,
               "pointsOverride": null,
               "team": null,
-              "manufacturer": "AJS Porcupine",
+              "manufacturer": "AJS",
               "bikeNumber": null,
               "nationality": "GBR",
               "source": "https://en.wikipedia.org/wiki/1950_Grand_Prix_motorcycle_racing_season"
@@ -2423,7 +2423,7 @@
               "fastestLap": false,
               "pointsOverride": null,
               "team": null,
-              "manufacturer": "Vincent Grey Flash",
+              "manufacturer": "Vincent HRD",
               "bikeNumber": null,
               "nationality": "GBR",
               "source": "https://en.wikipedia.org/wiki/1950_Grand_Prix_motorcycle_racing_season"
@@ -2628,7 +2628,7 @@
       "number": 6,
       "name": "Nations Grand Prix",
       "circuit": "Monza",
-      "country": "ITA",
+      "country": "Italy",
       "date": "1950-09-10",
       "nonChampionship": false,
       "notes": null,
@@ -2719,7 +2719,7 @@
               "fastestLap": false,
               "pointsOverride": null,
               "team": null,
-              "manufacturer": "AJS Porcupine",
+              "manufacturer": "AJS",
               "bikeNumber": null,
               "nationality": "GBR",
               "source": "https://en.wikipedia.org/wiki/1950_Grand_Prix_motorcycle_racing_season"

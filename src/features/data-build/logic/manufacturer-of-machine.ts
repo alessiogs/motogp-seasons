@@ -27,6 +27,10 @@ function brandOf(text: string): string {
   if (/^G50|Matchless/i.test(text)) return 'Matchless';
   if (/Manx|Norton/i.test(text)) return 'Norton'; // also Dunstall Norton, Lancefield Norton, RD Norton: a special built round a Norton engine
   if (/^[CČ]Z\b/i.test(text)) return 'ČZ';
+  if (/^AJS\b/i.test(text)) return 'AJS'; // AJS Porcupine
+  if (/^BMW\b/i.test(text)) return 'BMW'; // BMW R51/2, BMW RS
+  if (/^Vincent\b/i.test(text)) return 'Vincent HRD'; // the name 1949 uses; Vincent Grey Flash is a Vincent
+  if (/^F\.?A\.?N\.?$/i.test(text)) return 'F.A.N.';
   // A one-off special named "Builder-Engine" (Coleman-Suzuki, Kettle-Norton, Hughes-Triumph): the engine's brand.
   const dash = text.lastIndexOf('-');
   return dash > 0 ? brandOf(text.slice(dash + 1).trim()) : text;

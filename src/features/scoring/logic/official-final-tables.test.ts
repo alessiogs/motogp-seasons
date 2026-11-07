@@ -44,8 +44,11 @@ function byPoints(rows: { rider: string; points: number }[]) {
 // Latest-best do not give, e.g. 1972 Kevin Cowley above Hideo Kanaya on 8, 1974 Udo Kochanski above Patrick Pons on 8 (all cases on issue #54).
 // 500cc 1960-1968 are all left out too: each lists Riders level on points in an order Countback and Latest-best do not give, e.g. 1964
 // Ahearn above Read on 25 (one win each, Read has two 2nd places), 1960 Brown above Mendogni on 15 (all cases on issue #54).
+// 500cc 1950-1959 are left out too, except 1953 and 1959, which have no tie the code orders differently: the other eight each list
+// Riders level on points in an order Countback and Latest-best do not give, e.g. 1956 Brown above Liberati on 6, 1950 Jensen above
+// Armstrong on 1 (all cases on issue #54).
 // Both tables put the Rider whose best place came earlier first. They are compared by points groups until the pre-2004 rule is known.
-const FULL_ORDER = ['500cc-1991', '500cc-1994', '500cc-1997', 'motogp-2003', 'motogp-2004', 'motogp-2005', 'motogp-2006', 'motogp-2007', 'motogp-2008', 'motogp-2009', 'motogp-2010', 'motogp-2011', 'motogp-2012', 'motogp-2013', 'motogp-2014', 'motogp-2015', 'motogp-2016', 'motogp-2017', 'motogp-2018', 'motogp-2019', 'motogp-2020', 'motogp-2021', 'motogp-2022', 'motogp-2023', 'motogp-2024', 'motogp-2025'];
+const FULL_ORDER = ['500cc-1953', '500cc-1959', '500cc-1991', '500cc-1994', '500cc-1997', 'motogp-2003', 'motogp-2004', 'motogp-2005', 'motogp-2006', 'motogp-2007', 'motogp-2008', 'motogp-2009', 'motogp-2010', 'motogp-2011', 'motogp-2012', 'motogp-2013', 'motogp-2014', 'motogp-2015', 'motogp-2016', 'motogp-2017', 'motogp-2018', 'motogp-2019', 'motogp-2020', 'motogp-2021', 'motogp-2022', 'motogp-2023', 'motogp-2024', 'motogp-2025'];
 
 describe.each(readdirSync(tablesDir).filter((f) => f.endsWith('.json')).map((f) => f.replace('.json', '')))(
   'final Step of %s',

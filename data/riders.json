@@ -2647,7 +2647,8 @@
     "id": "phil-heath",
     "name": "Phil Heath",
     "sourceIds": {
-      "wikipedia": "Phil Heath (motorcyclist)"
+      "wikipedia": "Phil Heath (motorcyclist)",
+      "wikipedia2": "Philip Heath"
     }
   },
   {
@@ -2934,7 +2935,8 @@
     "id": "les-dear",
     "name": "Les Dear",
     "sourceIds": {
-      "wikipedia": "Les Dear"
+      "wikipedia": "Les Dear",
+      "wikipedia2": "Leslie Dear"
     }
   },
   {
@@ -3179,7 +3181,8 @@
     "id": "ashley-len-parry",
     "name": "Ashley Len Parry",
     "sourceIds": {
-      "wikipedia": "Ashley Len Parry"
+      "wikipedia": "Ashley Len Parry",
+      "wikipedia2": "Ashley Parry"
     },
     "abbreviation": "PAR"
   },
@@ -11345,7 +11348,8 @@
     "id": "hans-gunter-jager",
     "name": "Hans-Günter Jäger",
     "sourceIds": {
-      "wikipedia": "Hans-Günter Jäger"
+      "wikipedia": "Hans-Günter Jäger",
+      "wikipedia2": "Hans-Günther Jäger"
     }
   },
   {
@@ -11479,7 +11483,8 @@
     "id": "geoffrey-tanner",
     "name": "Geoffrey Tanner",
     "sourceIds": {
-      "wikipedia": "Geoffrey Tanner"
+      "wikipedia": "Geoffrey Tanner",
+      "wikipedia2": "Geoff Tanner"
     }
   },
   {
@@ -11976,7 +11981,8 @@
     "id": "llewelyn-ranson",
     "name": "Llewelyn Ranson",
     "sourceIds": {
-      "wikipedia": "Llewelyn Ranson"
+      "wikipedia": "Llewelyn Ranson",
+      "wikipedia2": "Llewellyn Ranson"
     }
   },
   {
@@ -12012,13 +12018,6 @@
     "name": "Ken Kavanagh",
     "sourceIds": {
       "wikipedia": "Ken Kavanagh"
-    }
-  },
-  {
-    "id": "geoff-tanner",
-    "name": "Geoff Tanner",
-    "sourceIds": {
-      "wikipedia": "Geoff Tanner"
     }
   },
   {
@@ -12165,7 +12164,8 @@
     "id": "francesco-guglielminetti",
     "name": "Francesco Guglielminetti",
     "sourceIds": {
-      "wikipedia": "Francesco Guglielminetti"
+      "wikipedia": "Francesco Guglielminetti",
+      "wikipedia2": "Francis Guglielminetti"
     }
   },
   {
@@ -12334,13 +12334,6 @@
     "name": "Alan Holmes",
     "sourceIds": {
       "wikipedia": "Alan Holmes (motorcyclist)"
-    }
-  },
-  {
-    "id": "llewellyn-ranson",
-    "name": "Llewellyn Ranson",
-    "sourceIds": {
-      "wikipedia": "Llewellyn Ranson"
     }
   },
   {
@@ -12788,7 +12781,8 @@
     "id": "rudolf-knees",
     "name": "Rudolf Knees",
     "sourceIds": {
-      "wikipedia": "Rudolf Knees"
+      "wikipedia": "Rudolf Knees",
+      "wikipedia2": "Rudi Knees"
     }
   },
   {
@@ -12939,13 +12933,6 @@
     }
   },
   {
-    "id": "hans-gunther-jager",
-    "name": "Hans-Günther Jäger",
-    "sourceIds": {
-      "wikipedia": "Hans-Günther Jäger"
-    }
-  },
-  {
     "id": "peter-knees",
     "name": "Peter Knees",
     "sourceIds": {
@@ -13072,13 +13059,6 @@
     }
   },
   {
-    "id": "buno-bohrer",
-    "name": "Buno Böhrer",
-    "sourceIds": {
-      "wikipedia": "Buno Böhrer"
-    }
-  },
-  {
     "id": "robert-cook",
     "name": "Robert Cook",
     "sourceIds": {
@@ -13152,7 +13132,8 @@
     "id": "lodewijk-simons",
     "name": "Lodewijk Simons",
     "sourceIds": {
-      "wikipedia": "Lodewijk Simons"
+      "wikipedia": "Lodewijk Simons",
+      "wikipedia2": "Lodweijk Simons"
     }
   },
   {
@@ -13230,97 +13211,6 @@
     "name": "J. Woods",
     "sourceIds": {
       "wikipedia": "J. Woods (motorcyclist)"
-    }
-  },
-  {
-    "id": "fred-cook",
-    "name": "Fred Cook",
-    "sourceIds": {
-      "wikipedia": "Fred Cook (motorcyclist)"
-    }
-  },
-  {
-    "id": "m-roche",
-    "name": "M. Roche",
-    "sourceIds": {
-      "wikipedia": "M. Roche"
-    }
-  },
-  {
-    "id": "p-nicholas",
-    "name": "P. Nicholas",
-    "sourceIds": {
-      "wikipedia": "P. Nicholas"
-    }
-  },
-  {
-    "id": "wilfred-herron",
-    "name": "Wilfred Herron",
-    "sourceIds": {
-      "wikipedia": "Wilfred Herron"
-    }
-  },
-  {
-    "id": "a-martin",
-    "name": "A. Martin",
-    "sourceIds": {
-      "wikipedia": "A. Martin"
-    }
-  },
-  {
-    "id": "d-g-chapman",
-    "name": "D. G. Chapman",
-    "sourceIds": {
-      "wikipedia": "D. G. Chapman"
-    }
-  },
-  {
-    "id": "s-murray",
-    "name": "S. Murray",
-    "sourceIds": {
-      "wikipedia": "S. Murray"
-    }
-  },
-  {
-    "id": "tom-turner",
-    "name": "Tom Turner",
-    "sourceIds": {
-      "wikipedia": "Tom Turner (motorcyclist)"
-    }
-  },
-  {
-    "id": "t-d-sloan",
-    "name": "T. D. Sloan",
-    "sourceIds": {
-      "wikipedia": "T. D. Sloan"
-    }
-  },
-  {
-    "id": "w-robertson",
-    "name": "W. Robertson",
-    "sourceIds": {
-      "wikipedia": "W. Robertson"
-    }
-  },
-  {
-    "id": "m-brosnan",
-    "name": "M. Brosnan",
-    "sourceIds": {
-      "wikipedia": "M. Brosnan"
-    }
-  },
-  {
-    "id": "h-b-lowe",
-    "name": "H. B. Lowe",
-    "sourceIds": {
-      "wikipedia": "H. B. Lowe"
-    }
-  },
-  {
-    "id": "s-williamson",
-    "name": "S. Williamson",
-    "sourceIds": {
-      "wikipedia": "S. Williamson"
     }
   },
   {
@@ -13488,7 +13378,8 @@
     "id": "bruno-bohrer",
     "name": "Bruno Böhrer",
     "sourceIds": {
-      "wikipedia": "Bruno Böhrer"
+      "wikipedia": "Bruno Böhrer",
+      "wikipedia2": "Buno Böhrer"
     }
   },
   {
@@ -13611,45 +13502,10 @@
     }
   },
   {
-    "id": "h-schreiber",
-    "name": "H. Schreiber",
-    "sourceIds": {
-      "wikipedia": "H. Schreiber"
-    }
-  },
-  {
-    "id": "h-scheifel",
-    "name": "H. Scheifel",
-    "sourceIds": {
-      "wikipedia": "H. Scheifel"
-    }
-  },
-  {
-    "id": "bill-aislabie",
-    "name": "Bill Aislabie",
-    "sourceIds": {
-      "wikipedia": "Bill Aislabie"
-    }
-  },
-  {
-    "id": "piet-knijenburg",
-    "name": "Piet Knijenburg",
-    "sourceIds": {
-      "wikipedia": "Piet Knijenburg"
-    }
-  },
-  {
     "id": "bill-hall",
     "name": "Bill Hall",
     "sourceIds": {
       "wikipedia": "Bill Hall (motorcyclist)"
-    }
-  },
-  {
-    "id": "a-cirelli",
-    "name": "A. Cirelli",
-    "sourceIds": {
-      "wikipedia": "A. Cirelli"
     }
   },
   {
@@ -13727,13 +13583,6 @@
     "name": "Bob Keeler",
     "sourceIds": {
       "wikipedia": "Bob Keeler"
-    }
-  },
-  {
-    "id": "barrie-stormont",
-    "name": "Barrie Stormont",
-    "sourceIds": {
-      "wikipedia": "Barrie Stormont"
     }
   },
   {
@@ -13866,7 +13715,8 @@
     "id": "louis-gilbert",
     "name": "Louis Gilbert",
     "sourceIds": {
-      "wikipedia": "Louis Gilbert (motorcyclist)"
+      "wikipedia": "Louis Gilbert (motorcyclist)",
+      "wikipedia2": "Luis Gilbert"
     }
   },
   {
@@ -13947,13 +13797,6 @@
     }
   },
   {
-    "id": "francis-guglielminetti",
-    "name": "Francis Guglielminetti",
-    "sourceIds": {
-      "wikipedia": "Francis Guglielminetti"
-    }
-  },
-  {
     "id": "edward-hunt",
     "name": "Edward Hunt",
     "sourceIds": {
@@ -14006,7 +13849,8 @@
     "id": "heinrich-thorn-prikker",
     "name": "Heinrich Thorn-Prikker",
     "sourceIds": {
-      "wikipedia": "Heinrich Thorn-Prikker"
+      "wikipedia": "Heinrich Thorn-Prikker",
+      "wikipedia2": "Heinz Thorn-Prikker"
     }
   },
   {
@@ -14094,13 +13938,6 @@
     }
   },
   {
-    "id": "leslie-dear",
-    "name": "Leslie Dear",
-    "sourceIds": {
-      "wikipedia": "Leslie Dear"
-    }
-  },
-  {
     "id": "sidney-mason",
     "name": "Sidney Mason",
     "sourceIds": {
@@ -14112,13 +13949,6 @@
     "name": "Heer Meyer",
     "sourceIds": {
       "wikipedia": "Heer Meyer"
-    }
-  },
-  {
-    "id": "heinz-thorn-prikker",
-    "name": "Heinz Thorn-Prikker",
-    "sourceIds": {
-      "wikipedia": "Heinz Thorn-Prikker"
     }
   },
   {
@@ -14140,13 +13970,6 @@
     "name": "Siegfried Wünsche",
     "sourceIds": {
       "wikipedia": "Siegfried Wünsche"
-    }
-  },
-  {
-    "id": "lodweijk-simons",
-    "name": "Lodweijk Simons",
-    "sourceIds": {
-      "wikipedia": "Lodweijk Simons"
     }
   },
   {
@@ -14276,13 +14099,6 @@
     }
   },
   {
-    "id": "luis-gilbert",
-    "name": "Luis Gilbert",
-    "sourceIds": {
-      "wikipedia": "Luis Gilbert"
-    }
-  },
-  {
     "id": "bob-mcdonald",
     "name": "Bob McDonald",
     "sourceIds": {
@@ -14314,7 +14130,8 @@
     "id": "barry-stormont",
     "name": "Barry Stormont",
     "sourceIds": {
-      "wikipedia": "Barry Stormont"
+      "wikipedia": "Barry Stormont",
+      "wikipedia2": "Barrie Stormont"
     }
   },
   {
@@ -14370,14 +14187,16 @@
     "id": "archie-fenn",
     "name": "Archie Fenn",
     "sourceIds": {
-      "wikipedia": "Archie Fenn"
+      "wikipedia": "Archie Fenn",
+      "wikipedia2": "Achie Fenn"
     }
   },
   {
     "id": "giulio-galbiati",
     "name": "Giulio Galbiati",
     "sourceIds": {
-      "wikipedia": "Giulio Galbiati"
+      "wikipedia": "Giulio Galbiati",
+      "wikipedia2": "Giulie Galbiati"
     }
   },
   {
@@ -14405,7 +14224,8 @@
     "id": "alexander-mayer",
     "name": "Alexander Mayer",
     "sourceIds": {
-      "wikipedia": "Alexander Mayer (motorcyclist)"
+      "wikipedia": "Alexander Mayer (motorcyclist)",
+      "wikipedia2": "Alex Mayer (motorcyclist)"
     }
   },
   {
@@ -14532,13 +14352,6 @@
     "name": "Willy Lips",
     "sourceIds": {
       "wikipedia": "Willy Lips"
-    }
-  },
-  {
-    "id": "rudi-knees",
-    "name": "Rudi Knees",
-    "sourceIds": {
-      "wikipedia": "Rudi Knees"
     }
   },
   {
@@ -14731,24 +14544,10 @@
     }
   },
   {
-    "id": "alex-mayer",
-    "name": "Alex Mayer",
-    "sourceIds": {
-      "wikipedia": "Alex Mayer (motorcyclist)"
-    }
-  },
-  {
     "id": "gerhard-mette",
     "name": "Gerhard Mette",
     "sourceIds": {
       "wikipedia": "Gerhard Mette"
-    }
-  },
-  {
-    "id": "ashley-parry",
-    "name": "Ashley Parry",
-    "sourceIds": {
-      "wikipedia": "Ashley Parry"
     }
   },
   {
@@ -14801,38 +14600,10 @@
     }
   },
   {
-    "id": "syd-lawton",
-    "name": "Syd Lawton",
-    "sourceIds": {
-      "wikipedia": "Syd Lawton"
-    }
-  },
-  {
-    "id": "max-forster",
-    "name": "Max Forster",
-    "sourceIds": {
-      "wikipedia": "Max Forster (motorcyclist)"
-    }
-  },
-  {
-    "id": "carlo-belotti",
-    "name": "Carlo Belotti",
-    "sourceIds": {
-      "wikipedia": "Carlo Belotti"
-    }
-  },
-  {
     "id": "louis-van-rijswijk",
     "name": "Louis van Rijswijk",
     "sourceIds": {
       "wikipedia": "Louis van Rijswijk"
-    }
-  },
-  {
-    "id": "geoff-e-read",
-    "name": "Geoff E. Read",
-    "sourceIds": {
-      "wikipedia": "Geoff E. Read"
     }
   },
   {
@@ -14899,13 +14670,6 @@
     }
   },
   {
-    "id": "giulie-galbiati",
-    "name": "Giulie Galbiati",
-    "sourceIds": {
-      "wikipedia": "Giulie Galbiati"
-    }
-  },
-  {
     "id": "georges-houel",
     "name": "Georges Houel",
     "sourceIds": {
@@ -14931,13 +14695,6 @@
     "name": "Ray Petty",
     "sourceIds": {
       "wikipedia": "Ray Petty"
-    }
-  },
-  {
-    "id": "achie-fenn",
-    "name": "Achie Fenn",
-    "sourceIds": {
-      "wikipedia": "Achie Fenn"
     }
   },
   {
@@ -14980,13 +14737,6 @@
     "name": "J. Gunn",
     "sourceIds": {
       "wikipedia": "J. B. Gunn"
-    }
-  },
-  {
-    "id": "mick-featherstone",
-    "name": "Mick Featherstone",
-    "sourceIds": {
-      "wikipedia": "Mick Featherstone"
     }
   },
   {
@@ -15043,13 +14793,6 @@
     "name": "Roger Ergé",
     "sourceIds": {
       "wikipedia": "Roger Ergé"
-    }
-  },
-  {
-    "id": "philip-heath",
-    "name": "Philip Heath",
-    "sourceIds": {
-      "wikipedia": "Philip Heath"
     }
   },
   {
@@ -15113,13 +14856,6 @@
     "name": "Ernest Walker",
     "sourceIds": {
       "wikipedia": "Ernest Walker (motorcyclist)"
-    }
-  },
-  {
-    "id": "sid-mason",
-    "name": "Sid Mason",
-    "sourceIds": {
-      "wikipedia": "Sid Mason"
     }
   },
   {
@@ -15203,7 +14939,8 @@
     "id": "mike-featherstone",
     "name": "Mike Featherstone",
     "sourceIds": {
-      "wikipedia": "Mike Featherstone (motorcyclist)"
+      "wikipedia": "Mike Featherstone (motorcyclist)",
+      "wikipedia2": "Mick Featherstone"
     }
   },
   {
@@ -15253,34 +14990,6 @@
     "name": "Henri Widonne",
     "sourceIds": {
       "wikipedia": "Henri Widonne"
-    }
-  },
-  {
-    "id": "e-a-barrett",
-    "name": "E. A. Barrett",
-    "sourceIds": {
-      "wikipedia": "E. A. Barrett"
-    }
-  },
-  {
-    "id": "j-f-kentish",
-    "name": "J. F. Kentish",
-    "sourceIds": {
-      "wikipedia": "J. F. Kentish"
-    }
-  },
-  {
-    "id": "f-fairbairn",
-    "name": "F. Fairbairn",
-    "sourceIds": {
-      "wikipedia": "F. Fairbairn"
-    }
-  },
-  {
-    "id": "e-braine",
-    "name": "E. Braine",
-    "sourceIds": {
-      "wikipedia": "E. Braine"
     }
   }
 ]

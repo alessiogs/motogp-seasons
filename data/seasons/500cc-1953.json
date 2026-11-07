@@ -1,14 +1,14 @@
 {
   "class": "500cc",
   "year": 1953,
-  "scoringRule": "TODO-set-by-hand",
-  "notes": "Loaded from Wikipedia (1953 Grand Prix motorcycle racing season); needs a hand check against motogp.com. Set the Scoring rule, Half points and aggregate classifications by hand.",
+  "scoringRule": "1951-55",
+  "notes": "Loaded from Wikipedia (1953 Grand Prix motorcycle racing season, with the Grand Prix report articles that exist, otherwise its standings matrix alone); 8 championship Rounds plus the German Grand Prix, whose 500cc race did not count and which stays in the numbering as a Non-championship round (Round 4), so the Rounds are numbered 1 to 9. Counting window: best 5 of Rounds 1-9. The source names no Team, and gives one machine per Rider, not per Round: the Manufacturer of every Result is the first bike named for him in the standings matrix, or the bike of the report where one exists. Needs a hand check against motogp.com.",
   "rounds": [
     {
       "number": 1,
       "name": "Isle of Man TT",
       "circuit": "Snaefell Mountain",
-      "country": "IOM",
+      "country": "Isle of Man",
       "date": "1953-06-12",
       "nonChampionship": false,
       "notes": null,
@@ -381,7 +381,7 @@
               "source": "https://en.wikipedia.org/wiki/1953_Grand_Prix_motorcycle_racing_season"
             },
             {
-              "rider": "luis-gilbert",
+              "rider": "louis-gilbert",
               "position": 31,
               "outcome": "FIN",
               "fastestLap": false,
@@ -964,7 +964,7 @@
       "number": 2,
       "name": "Dutch TT",
       "circuit": "Assen",
-      "country": "NLD",
+      "country": "Netherlands",
       "date": "1953-06-27",
       "nonChampionship": false,
       "notes": null,
@@ -1121,7 +1121,7 @@
               "source": "https://en.wikipedia.org/wiki/1953_Grand_Prix_motorcycle_racing_season"
             },
             {
-              "rider": "lodweijk-simons",
+              "rider": "lodewijk-simons",
               "position": 13,
               "outcome": "FIN",
               "fastestLap": false,
@@ -1476,7 +1476,7 @@
       "number": 3,
       "name": "Belgian Grand Prix",
       "circuit": "Spa-Francorchamps",
-      "country": "BEL",
+      "country": "Belgium",
       "date": "1953-07-05",
       "nonChampionship": false,
       "notes": null,
@@ -1789,7 +1789,7 @@
               "source": "https://en.wikipedia.org/wiki/1953_Grand_Prix_motorcycle_racing_season"
             },
             {
-              "rider": "lodweijk-simons",
+              "rider": "lodewijk-simons",
               "position": null,
               "outcome": "DNF",
               "fastestLap": false,
@@ -1938,9 +1938,41 @@
     },
     {
       "number": 4,
+      "name": "German Grand Prix",
+      "circuit": "Schottenring",
+      "country": "West Germany",
+      "date": "1953-07-19",
+      "nonChampionship": true,
+      "notes": "All the factory teams withdrew from the 350cc and 500cc classes after pronouncing the Schottenring unsafe before practice began; the event went on, but these two classes were agreed to count only as an ordinary international event (the 1953 season article, citing The Motor Cycle, 23 July 1953). No points were awarded. The Round keeps number 4, so the later Rounds are numbered 5 to 9. The race was held: its Session has the winner, the only Result on Wikipedia (the season article's calendar; no report article exists).",
+      "sessions": [
+        {
+          "type": "grand-prix-race",
+          "order": 1,
+          "date": "1953-07-19",
+          "pointsMultiplier": 1,
+          "notes": "Only the winner is recorded: Wikipedia has no report article for this race and its season article's calendar names the 500cc winner alone. The race scored no points.",
+          "results": [
+            {
+              "rider": "walter-zeller",
+              "position": 1,
+              "outcome": "FIN",
+              "fastestLap": false,
+              "pointsOverride": null,
+              "team": null,
+              "manufacturer": "BMW",
+              "bikeNumber": null,
+              "nationality": "FRG",
+              "source": "https://en.wikipedia.org/wiki/1953_Grand_Prix_motorcycle_racing_season"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 5,
       "name": "French Grand Prix",
       "circuit": "Rouen-Les-Essarts",
-      "country": "FRA",
+      "country": "France",
       "date": "1953-08-02",
       "nonChampionship": false,
       "notes": null,
@@ -2197,10 +2229,10 @@
       ]
     },
     {
-      "number": 5,
+      "number": 6,
       "name": "Ulster Grand Prix",
       "circuit": "Dundrod",
-      "country": "NIR",
+      "country": "Northern Ireland",
       "date": "1953-08-15",
       "nonChampionship": false,
       "notes": null,
@@ -2333,7 +2365,7 @@
               "source": "https://en.wikipedia.org/wiki/1953_Grand_Prix_motorcycle_racing_season"
             },
             {
-              "rider": "leslie-dear",
+              "rider": "les-dear",
               "position": 11,
               "outcome": "FIN",
               "fastestLap": false,
@@ -2613,10 +2645,10 @@
       ]
     },
     {
-      "number": 6,
+      "number": 7,
       "name": "Swiss Grand Prix",
       "circuit": "Bremgarten",
-      "country": "CHE",
+      "country": "Switzerland",
       "date": "1953-08-23",
       "nonChampionship": false,
       "notes": null,
@@ -2921,10 +2953,10 @@
       ]
     },
     {
-      "number": 7,
+      "number": 8,
       "name": "Nations Grand Prix",
       "circuit": "Monza",
-      "country": "ITA",
+      "country": "Italy",
       "date": "1953-09-06",
       "nonChampionship": false,
       "notes": null,
@@ -3289,10 +3321,10 @@
       ]
     },
     {
-      "number": 8,
+      "number": 9,
       "name": "Spanish Grand Prix",
       "circuit": "Montjuïc",
-      "country": "ESP",
+      "country": "Spain",
       "date": "1953-10-04",
       "nonChampionship": false,
       "notes": null,
@@ -3425,7 +3457,7 @@
               "source": "https://en.wikipedia.org/wiki/1953_Grand_Prix_motorcycle_racing_season"
             },
             {
-              "rider": "heinz-thorn-prikker",
+              "rider": "heinrich-thorn-prikker",
               "position": 11,
               "outcome": "FIN",
               "fastestLap": false,

@@ -1,14 +1,14 @@
 {
   "class": "500cc",
   "year": 1951,
-  "scoringRule": "TODO-set-by-hand",
-  "notes": "Loaded from Wikipedia (1951 Grand Prix motorcycle racing season); needs a hand check against motogp.com. Set the Scoring rule, Half points and aggregate classifications by hand.",
+  "scoringRule": "1951-55",
+  "notes": "Loaded from Wikipedia (1951 Grand Prix motorcycle racing season, with the Grand Prix report articles that exist, otherwise its standings matrix alone); 8 Rounds. Counting window: best 5 of Rounds 1-9 (the rule's window; this Season had 8). The source names no Team, and gives one machine per Rider, not per Round: the Manufacturer of every Result is the first bike named for him in the standings matrix, or the bike of the report where one exists. Needs a hand check against motogp.com.",
   "rounds": [
     {
       "number": 1,
       "name": "Spanish Grand Prix",
       "circuit": "Montjuïc",
-      "country": "ESP",
+      "country": "Spain",
       "date": "1951-04-08",
       "nonChampionship": false,
       "notes": null,
@@ -165,7 +165,7 @@
               "source": "https://en.wikipedia.org/wiki/1951_Grand_Prix_motorcycle_racing_season"
             },
             {
-              "rider": "giulie-galbiati",
+              "rider": "giulio-galbiati",
               "position": null,
               "outcome": "DNF",
               "fastestLap": false,
@@ -364,7 +364,7 @@
       "number": 2,
       "name": "Swiss Grand Prix",
       "circuit": "Bremgarten",
-      "country": "SUI",
+      "country": "Switzerland",
       "date": "1951-05-27",
       "nonChampionship": false,
       "notes": null,
@@ -672,7 +672,7 @@
       "number": 3,
       "name": "Isle of Man TT",
       "circuit": "Snaefell Mountain",
-      "country": "IOM",
+      "country": "Isle of Man",
       "date": "1951-06-08",
       "nonChampionship": false,
       "notes": null,
@@ -961,7 +961,7 @@
               "source": "https://en.wikipedia.org/wiki/1951_Grand_Prix_motorcycle_racing_season"
             },
             {
-              "rider": "achie-fenn",
+              "rider": "archie-fenn",
               "position": 24,
               "outcome": "FIN",
               "fastestLap": false,
@@ -1273,7 +1273,7 @@
               "source": "https://en.wikipedia.org/wiki/1951_Grand_Prix_motorcycle_racing_season"
             },
             {
-              "rider": "mick-featherstone",
+              "rider": "mike-featherstone",
               "position": null,
               "outcome": "DNF",
               "fastestLap": false,
@@ -1399,7 +1399,7 @@
               "fastestLap": false,
               "pointsOverride": null,
               "team": null,
-              "manufacturer": "Vincent",
+              "manufacturer": "Vincent HRD",
               "bikeNumber": null,
               "nationality": "GB",
               "source": "https://en.wikipedia.org/wiki/1951_Grand_Prix_motorcycle_racing_season"
@@ -1640,7 +1640,7 @@
       "number": 4,
       "name": "Belgian Grand Prix",
       "circuit": "Spa-Francorchamps",
-      "country": "BEL",
+      "country": "Belgium",
       "date": "1951-07-01",
       "nonChampionship": false,
       "notes": null,
@@ -1833,7 +1833,7 @@
               "source": "https://en.wikipedia.org/wiki/1951_Grand_Prix_motorcycle_racing_season"
             },
             {
-              "rider": "giulie-galbiati",
+              "rider": "giulio-galbiati",
               "position": 17,
               "outcome": "FIN",
               "fastestLap": false,
@@ -2001,7 +2001,7 @@
               "source": "https://en.wikipedia.org/wiki/1951_Grand_Prix_motorcycle_racing_season"
             },
             {
-              "rider": "mick-featherstone",
+              "rider": "mike-featherstone",
               "position": null,
               "outcome": "DNF",
               "fastestLap": false,
@@ -2068,7 +2068,7 @@
       "number": 5,
       "name": "Dutch TT",
       "circuit": "Assen",
-      "country": "NED",
+      "country": "Netherlands",
       "date": "1951-07-07",
       "nonChampionship": false,
       "notes": null,
@@ -2345,13 +2345,13 @@
               "source": "https://en.wikipedia.org/wiki/1951_Grand_Prix_motorcycle_racing_season"
             },
             {
-              "rider": "philip-heath",
+              "rider": "phil-heath",
               "position": null,
               "outcome": "DNF",
               "fastestLap": false,
               "pointsOverride": null,
               "team": null,
-              "manufacturer": "Vincent",
+              "manufacturer": "Vincent HRD",
               "bikeNumber": null,
               "nationality": "GB",
               "source": "https://en.wikipedia.org/wiki/1951_Grand_Prix_motorcycle_racing_season"
@@ -2364,7 +2364,7 @@
       "number": 6,
       "name": "French Grand Prix",
       "circuit": "Albi",
-      "country": "FRA",
+      "country": "France",
       "date": "1951-07-14",
       "nonChampionship": false,
       "notes": null,
@@ -2617,7 +2617,7 @@
               "source": "https://en.wikipedia.org/wiki/1951_Grand_Prix_motorcycle_racing_season"
             },
             {
-              "rider": "giulie-galbiati",
+              "rider": "giulio-galbiati",
               "position": null,
               "outcome": "DNF",
               "fastestLap": false,
@@ -2684,7 +2684,7 @@
       "number": 7,
       "name": "Ulster Grand Prix",
       "circuit": "Clady",
-      "country": "NIR",
+      "country": "Northern Ireland",
       "date": "1951-08-18",
       "nonChampionship": false,
       "notes": null,
@@ -3028,7 +3028,7 @@
       "number": 8,
       "name": "Nations Grand Prix",
       "circuit": "Monza",
-      "country": "ITA",
+      "country": "Italy",
       "date": "1951-09-09",
       "nonChampionship": false,
       "notes": null,
@@ -3221,7 +3221,7 @@
               "source": "https://en.wikipedia.org/wiki/1951_Grand_Prix_motorcycle_racing_season"
             },
             {
-              "rider": "giulie-galbiati",
+              "rider": "giulio-galbiati",
               "position": 16,
               "outcome": "FIN",
               "fastestLap": false,

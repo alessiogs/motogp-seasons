@@ -1,14 +1,14 @@
 {
   "class": "500cc",
   "year": 1956,
-  "scoringRule": "TODO-set-by-hand",
-  "notes": "Loaded from Wikipedia (1956 Grand Prix motorcycle racing season); needs a hand check against motogp.com. Set the Scoring rule, Half points and aggregate classifications by hand.",
+  "scoringRule": "1956-57",
+  "notes": "Loaded from Wikipedia (1956 Grand Prix motorcycle racing season, with the Grand Prix report articles that exist, otherwise its standings matrix alone); 6 Rounds. Counting window: best 4 of Rounds 1-6. The source names no Team, and gives one machine per Rider, not per Round: the Manufacturer of every Result is the first bike named for him in the standings matrix, or the bike of the report where one exists. Needs a hand check against motogp.com.",
   "rounds": [
     {
       "number": 1,
       "name": "Isle of Man TT",
       "circuit": "Snaefell Mountain",
-      "country": "IOM",
+      "country": "Isle of Man",
       "date": "1956-06-08",
       "nonChampionship": false,
       "notes": null,
@@ -1096,7 +1096,7 @@
       "number": 2,
       "name": "Dutch TT",
       "circuit": "TT Circuit Assen",
-      "country": "NLD",
+      "country": "Netherlands",
       "date": "1956-06-30",
       "nonChampionship": false,
       "notes": null,
@@ -1289,7 +1289,7 @@
               "source": "https://en.wikipedia.org/wiki/1956_Grand_Prix_motorcycle_racing_season"
             },
             {
-              "rider": "hans-gunther-jager",
+              "rider": "hans-gunter-jager",
               "position": null,
               "outcome": "DNF",
               "fastestLap": false,
@@ -1476,7 +1476,7 @@
       "number": 3,
       "name": "Belgian Grand Prix",
       "circuit": "Spa-Francorchamps",
-      "country": "BEL",
+      "country": "Belgium",
       "date": "1956-07-08",
       "nonChampionship": false,
       "notes": null,
@@ -1765,7 +1765,7 @@
               "source": "https://en.wikipedia.org/wiki/1956_Grand_Prix_motorcycle_racing_season"
             },
             {
-              "rider": "hans-gunther-jager",
+              "rider": "hans-gunter-jager",
               "position": null,
               "outcome": "DNF",
               "fastestLap": false,
@@ -1868,7 +1868,7 @@
       "number": 4,
       "name": "German Grand Prix",
       "circuit": "Solitude",
-      "country": "FRG",
+      "country": "West Germany",
       "date": "1956-07-22",
       "nonChampionship": false,
       "notes": null,
@@ -1959,7 +1959,7 @@
               "fastestLap": false,
               "pointsOverride": null,
               "team": null,
-              "manufacturer": "BMW RS",
+              "manufacturer": "BMW",
               "bikeNumber": null,
               "nationality": "DEU",
               "source": "https://en.wikipedia.org/wiki/1956_Grand_Prix_motorcycle_racing_season"
@@ -2013,7 +2013,7 @@
               "source": "https://en.wikipedia.org/wiki/1956_Grand_Prix_motorcycle_racing_season"
             },
             {
-              "rider": "hans-gunther-jager",
+              "rider": "hans-gunter-jager",
               "position": 12,
               "outcome": "FIN",
               "fastestLap": false,
@@ -2253,7 +2253,7 @@
               "source": "https://en.wikipedia.org/wiki/1956_Grand_Prix_motorcycle_racing_season"
             },
             {
-              "rider": "buno-bohrer",
+              "rider": "bruno-bohrer",
               "position": null,
               "outcome": "DNF",
               "fastestLap": false,
@@ -2296,7 +2296,7 @@
       "number": 5,
       "name": "Ulster Grand Prix",
       "circuit": "Dundrod Circuit",
-      "country": "NIR",
+      "country": "Northern Ireland",
       "date": "1956-08-11",
       "nonChampionship": false,
       "notes": null,
@@ -2688,7 +2688,7 @@
       "number": 6,
       "name": "Nations Grand Prix",
       "circuit": "Monza",
-      "country": "ITA",
+      "country": "Italy",
       "date": "1956-09-09",
       "nonChampionship": false,
       "notes": null,
@@ -2875,7 +2875,7 @@
               "fastestLap": false,
               "pointsOverride": null,
               "team": null,
-              "manufacturer": "BMW RS",
+              "manufacturer": "BMW",
               "bikeNumber": null,
               "nationality": "DEU",
               "source": "https://en.wikipedia.org/wiki/1956_Grand_Prix_motorcycle_racing_season"

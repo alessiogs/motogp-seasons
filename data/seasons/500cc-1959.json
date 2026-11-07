@@ -1,14 +1,14 @@
 {
   "class": "500cc",
   "year": 1959,
-  "scoringRule": "TODO-set-by-hand",
-  "notes": "Loaded from Wikipedia (1959 Grand Prix motorcycle racing season); needs a hand check against motogp.com. Set the Scoring rule, Half points and aggregate classifications by hand.",
+  "scoringRule": "1958-60",
+  "notes": "Loaded from Wikipedia (1959 Grand Prix motorcycle racing season, with the Grand Prix report articles that exist, otherwise its standings matrix alone); 7 championship Rounds plus the Swedish Grand Prix, whose 500cc race did not count and which stays in the numbering as a Non-championship round (Round 6), so the Rounds are numbered 1 to 8. Counting window: best 4 of Rounds 1-8. The source names no Team, and gives one machine per Rider, not per Round: the Manufacturer of every Result is the first bike named for him in the standings matrix, or the bike of the report where one exists. Needs a hand check against motogp.com.",
   "rounds": [
     {
       "number": 1,
       "name": "French Grand Prix",
       "circuit": "Charade Circuit",
-      "country": "FRA",
+      "country": "France",
       "date": "1959-05-17",
       "nonChampionship": false,
       "notes": null,
@@ -225,7 +225,7 @@
               "source": "https://en.wikipedia.org/wiki/1959_Grand_Prix_motorcycle_racing_season"
             },
             {
-              "rider": "geoff-tanner",
+              "rider": "geoffrey-tanner",
               "position": null,
               "outcome": "DNF",
               "fastestLap": false,
@@ -304,7 +304,7 @@
       "number": 2,
       "name": "Isle of Man TT",
       "circuit": "Snaefell Mountain",
-      "country": "IOM",
+      "country": "Isle of Man",
       "date": "1959-06-06",
       "nonChampionship": false,
       "notes": null,
@@ -1044,7 +1044,7 @@
       "number": 3,
       "name": "German Grand Prix",
       "circuit": "Hockenheimring",
-      "country": "FRG",
+      "country": "West Germany",
       "date": "1959-06-14",
       "nonChampionship": false,
       "notes": null,
@@ -1129,7 +1129,7 @@
               "source": "https://en.wikipedia.org/wiki/1959_Grand_Prix_motorcycle_racing_season"
             },
             {
-              "rider": "geoff-tanner",
+              "rider": "geoffrey-tanner",
               "position": 7,
               "outcome": "FIN",
               "fastestLap": false,
@@ -1352,7 +1352,7 @@
       "number": 4,
       "name": "Dutch TT",
       "circuit": "TT Circuit Assen",
-      "country": "NLD",
+      "country": "Netherlands",
       "date": "1959-06-27",
       "nonChampionship": false,
       "notes": null,
@@ -1449,7 +1449,7 @@
               "source": "https://en.wikipedia.org/wiki/1959_Grand_Prix_motorcycle_racing_season"
             },
             {
-              "rider": "geoff-tanner",
+              "rider": "geoffrey-tanner",
               "position": 9,
               "outcome": "FIN",
               "fastestLap": false,
@@ -1648,7 +1648,7 @@
       "number": 5,
       "name": "Belgian Grand Prix",
       "circuit": "Spa-Francorchamps",
-      "country": "BEL",
+      "country": "Belgium",
       "date": "1959-07-05",
       "nonChampionship": false,
       "notes": null,
@@ -1781,7 +1781,7 @@
               "source": "https://en.wikipedia.org/wiki/1959_Grand_Prix_motorcycle_racing_season"
             },
             {
-              "rider": "geoff-tanner",
+              "rider": "geoffrey-tanner",
               "position": 11,
               "outcome": "FIN",
               "fastestLap": false,
@@ -1906,9 +1906,41 @@
     },
     {
       "number": 6,
+      "name": "Swedish Grand Prix",
+      "circuit": "Råbelövsbanan",
+      "country": "Sweden",
+      "date": "1959-07-26",
+      "nonChampionship": true,
+      "notes": "The 500cc race \"did not count towards the World Championship\" (the 1959 season article): no points were awarded. The Round keeps number 6, so the later Rounds are numbered 7 and 8. The race was held: its Session has the winner, the only Result on Wikipedia (the season article's calendar; no report article exists).",
+      "sessions": [
+        {
+          "type": "grand-prix-race",
+          "order": 1,
+          "date": "1959-07-26",
+          "pointsMultiplier": 1,
+          "notes": "Only the winner is recorded: Wikipedia has no report article for this race and its season article's calendar names the 500cc winner alone. The race scored no points.",
+          "results": [
+            {
+              "rider": "bob-brown",
+              "position": 1,
+              "outcome": "FIN",
+              "fastestLap": false,
+              "pointsOverride": null,
+              "team": null,
+              "manufacturer": "Norton",
+              "bikeNumber": null,
+              "nationality": "AUS",
+              "source": "https://en.wikipedia.org/wiki/1959_Grand_Prix_motorcycle_racing_season"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 7,
       "name": "Ulster Grand Prix",
       "circuit": "Dundrod Circuit",
-      "country": "NIR",
+      "country": "Northern Ireland",
       "date": "1959-08-08",
       "nonChampionship": false,
       "notes": null,
@@ -2465,10 +2497,10 @@
       ]
     },
     {
-      "number": 7,
-      "name": "Nations Grand Prix††",
+      "number": 8,
+      "name": "Nations Grand Prix",
       "circuit": "Monza",
-      "country": "ITA",
+      "country": "Italy",
       "date": "1959-09-06",
       "nonChampionship": false,
       "notes": null,

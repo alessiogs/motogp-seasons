@@ -1,0 +1,31 @@
+====500cc final standings====
+{| class="wikitable" style="font-size: 85%; text-align:center"
+|- valign="top"
+!valign="middle"| Pos
+!valign="middle"| Rider
+!valign="middle"| Machine
+! [[1958 Isle of Man TT|MAN]]<br />{{flagicon|IOM}}
+! [[1958 Dutch TT|HOL]]<br />{{flagicon|NLD}}
+!valign="middle"| Pts
+|-
+! 1
+|align="left"| {{flagicon|GBR}} [[John Surtees]]
+| [[MV Agusta]]
+|style="background:#ffffbf;"| ''1''
+|style="background:#ffffbf;"| '''''1'''''
+| '''16''' (16)
+|-
+! –
+|align="left"| {{flagicon|Isle_of_Wight}} [[Tommy Wood (motorcyclist)|Tommy Wood]]
+| [[Norton Motorcycle Company|Norton]]
+|style="background:#ffffbf;"| 9
+|
+| '''0'''
+|-
+! -
+|align="left"| {{flagicon| NIR}} [[Bob Coulter (motorcyclist)|Bob Coulter]]
+| [[Birmingham Small Arms Company|BSA]]
+|
+|style="background:#efcfff;"| Ret
+| '''0'''
+|}

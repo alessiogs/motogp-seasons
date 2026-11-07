@@ -1,14 +1,14 @@
 {
   "class": "500cc",
   "year": 1952,
-  "scoringRule": "TODO-set-by-hand",
-  "notes": "Loaded from Wikipedia (1952 Grand Prix motorcycle racing season); needs a hand check against motogp.com. Set the Scoring rule, Half points and aggregate classifications by hand.",
+  "scoringRule": "1951-55",
+  "notes": "Loaded from Wikipedia (1952 Grand Prix motorcycle racing season, with the Grand Prix report articles that exist, otherwise its standings matrix alone); 8 Rounds. Counting window: best 5 of Rounds 1-9 (the rule's window; this Season had 8). The source names no Team, and gives one machine per Rider, not per Round: the Manufacturer of every Result is the first bike named for him in the standings matrix, or the bike of the report where one exists. Needs a hand check against motogp.com.",
   "rounds": [
     {
       "number": 1,
       "name": "Swiss Grand Prix",
       "circuit": "Bremgarten",
-      "country": "CHE",
+      "country": "Switzerland",
       "date": "1952-05-18",
       "nonChampionship": false,
       "notes": null,
@@ -255,7 +255,7 @@
               "fastestLap": false,
               "pointsOverride": null,
               "team": null,
-              "manufacturer": "Vincent",
+              "manufacturer": "Vincent HRD",
               "bikeNumber": null,
               "nationality": "GBR",
               "source": "https://en.wikipedia.org/wiki/1952_Grand_Prix_motorcycle_racing_season"
@@ -340,7 +340,7 @@
       "number": 2,
       "name": "Isle of Man TT",
       "circuit": "Snaefell Mountain",
-      "country": "IOM",
+      "country": "Isle of Man",
       "date": "1952-06-13",
       "nonChampionship": false,
       "notes": null,
@@ -1055,7 +1055,7 @@
               "fastestLap": false,
               "pointsOverride": null,
               "team": null,
-              "manufacturer": "Vincent",
+              "manufacturer": "Vincent HRD",
               "bikeNumber": null,
               "nationality": "GBR",
               "source": "https://en.wikipedia.org/wiki/1952_Grand_Prix_motorcycle_racing_season"
@@ -1085,7 +1085,7 @@
               "source": "https://en.wikipedia.org/wiki/1952_Grand_Prix_motorcycle_racing_season"
             },
             {
-              "rider": "ashley-parry",
+              "rider": "ashley-len-parry",
               "position": null,
               "outcome": "DNF",
               "fastestLap": false,
@@ -1224,7 +1224,7 @@
       "number": 3,
       "name": "Dutch TT",
       "circuit": "Assen",
-      "country": "NLD",
+      "country": "Netherlands",
       "date": "1952-06-28",
       "nonChampionship": false,
       "notes": null,
@@ -1495,7 +1495,7 @@
               "fastestLap": false,
               "pointsOverride": null,
               "team": null,
-              "manufacturer": "Vincent",
+              "manufacturer": "Vincent HRD",
               "bikeNumber": null,
               "nationality": "GBR",
               "source": "https://en.wikipedia.org/wiki/1952_Grand_Prix_motorcycle_racing_season"
@@ -1616,7 +1616,7 @@
       "number": 4,
       "name": "Belgian Grand Prix",
       "circuit": "Spa-Francorchamps",
-      "country": "BEL",
+      "country": "Belgium",
       "date": "1952-07-06",
       "nonChampionship": false,
       "notes": null,
@@ -1876,7 +1876,7 @@
       "number": 5,
       "name": "German Grand Prix",
       "circuit": "Solitude",
-      "country": "FRG",
+      "country": "West Germany",
       "date": "1952-07-20",
       "nonChampionship": false,
       "notes": null,
@@ -1997,7 +1997,7 @@
               "source": "https://en.wikipedia.org/wiki/1952_Grand_Prix_motorcycle_racing_season"
             },
             {
-              "rider": "rudi-knees",
+              "rider": "rudolf-knees",
               "position": 10,
               "outcome": "FIN",
               "fastestLap": false,
@@ -2196,7 +2196,7 @@
       "number": 6,
       "name": "Ulster Grand Prix",
       "circuit": "Clady",
-      "country": "NIR",
+      "country": "Northern Ireland",
       "date": "1952-08-16",
       "nonChampionship": false,
       "notes": null,
@@ -2551,7 +2551,7 @@
               "fastestLap": false,
               "pointsOverride": null,
               "team": null,
-              "manufacturer": "Vincent",
+              "manufacturer": "Vincent HRD",
               "bikeNumber": null,
               "nationality": "GBR",
               "source": "https://en.wikipedia.org/wiki/1952_Grand_Prix_motorcycle_racing_season"
@@ -2588,7 +2588,7 @@
       "number": 7,
       "name": "Nations Grand Prix",
       "circuit": "Monza",
-      "country": "ITA",
+      "country": "Italy",
       "date": "1952-09-14",
       "nonChampionship": false,
       "notes": null,
@@ -2872,7 +2872,7 @@
       "number": 8,
       "name": "Spanish Grand Prix",
       "circuit": "Montjuïc",
-      "country": "ESP",
+      "country": "Spain",
       "date": "1952-10-05",
       "nonChampionship": false,
       "notes": null,
@@ -3017,7 +3017,7 @@
               "source": "https://en.wikipedia.org/wiki/1952_Grand_Prix_motorcycle_racing_season"
             },
             {
-              "rider": "rudi-knees",
+              "rider": "rudolf-knees",
               "position": 11,
               "outcome": "FIN",
               "fastestLap": false,
@@ -3179,7 +3179,7 @@
               "fastestLap": false,
               "pointsOverride": null,
               "team": null,
-              "manufacturer": "Vincent",
+              "manufacturer": "Vincent HRD",
               "bikeNumber": null,
               "nationality": "GBR",
               "source": "https://en.wikipedia.org/wiki/1952_Grand_Prix_motorcycle_racing_season"
@@ -3257,7 +3257,7 @@
               "source": "https://en.wikipedia.org/wiki/1952_Grand_Prix_motorcycle_racing_season"
             },
             {
-              "rider": "alex-mayer",
+              "rider": "alexander-mayer",
               "position": null,
               "outcome": "DNF",
               "fastestLap": false,

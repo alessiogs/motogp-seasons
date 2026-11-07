@@ -53,3 +53,19 @@ describe('parseStandingsMatrix for a table without a Team column', () => {
     expect(matrix.resultsForRound(0, 'src')[1].fastestLap).toBe(false);
   });
 });
+
+describe('parseStandingsMatrix for flag templates written loosely', () => {
+  // Trimmed from the 1958 season article (a layout shared by 1950-1959): "{{flagicon|Isle_of_Wight}}" has underscores and
+  // "{{flagicon| NIR}}" a leading space; the Nationality is the whole name, trimmed, with spaces for the underscores.
+  const matrix = parseStandingsMatrix(fixture('1958-riders-standings.txt'), 2, riderId);
+
+  it('reads the whole flag name, trimmed', () => {
+    const rows = [...matrix.resultsForRound(0, 'src'), ...matrix.resultsForRound(1, 'src')];
+    expect(rows.map((r) => [r.rider, r.nationality])).toEqual([
+      ['john-surtees', 'GBR'],
+      ['tommy-wood', 'Isle of Wight'],
+      ['john-surtees', 'GBR'],
+      ['bob-coulter', 'NIR'],
+    ]);
+  });
+});

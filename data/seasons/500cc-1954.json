@@ -1,14 +1,14 @@
 {
   "class": "500cc",
   "year": 1954,
-  "scoringRule": "TODO-set-by-hand",
-  "notes": "Loaded from Wikipedia (1954 Grand Prix motorcycle racing season); needs a hand check against motogp.com. Set the Scoring rule, Half points and aggregate classifications by hand.",
+  "scoringRule": "1951-55",
+  "notes": "Loaded from Wikipedia (1954 Grand Prix motorcycle racing season, with the Grand Prix report articles that exist, otherwise its standings matrix alone); 8 championship Rounds plus the Ulster Grand Prix, whose 500cc race did not count and which stays in the numbering as a Non-championship round (Round 3), so the Rounds are numbered 1 to 9. Counting window: best 5 of Rounds 1-9. The source names no Team, and gives one machine per Rider, not per Round: the Manufacturer of every Result is the first bike named for him in the standings matrix, or the bike of the report where one exists. Needs a hand check against motogp.com.",
   "rounds": [
     {
       "number": 1,
       "name": "French Grand Prix",
       "circuit": "Reims",
-      "country": "FRA",
+      "country": "France",
       "date": "1954-05-30",
       "nonChampionship": false,
       "notes": null,
@@ -105,7 +105,7 @@
               "source": "https://en.wikipedia.org/wiki/1954_Grand_Prix_motorcycle_racing_season"
             },
             {
-              "rider": "barrie-stormont",
+              "rider": "barry-stormont",
               "position": 8,
               "outcome": "FIN",
               "fastestLap": false,
@@ -328,7 +328,7 @@
       "number": 2,
       "name": "Isle of Man TT",
       "circuit": "Snaefell Mountain††",
-      "country": "IOM",
+      "country": "Isle of Man",
       "date": "1954-06-18",
       "nonChampionship": false,
       "notes": null,
@@ -1235,7 +1235,7 @@
               "fastestLap": false,
               "pointsOverride": null,
               "team": null,
-              "manufacturer": "FAN",
+              "manufacturer": "F.A.N.",
               "bikeNumber": null,
               "nationality": "GBR",
               "source": "https://en.wikipedia.org/wiki/1954_Grand_Prix_motorcycle_racing_season"
@@ -1306,9 +1306,41 @@
     },
     {
       "number": 3,
+      "name": "Ulster Grand Prix",
+      "circuit": "Dundrod Circuit",
+      "country": "Northern Ireland",
+      "date": "1954-06-26",
+      "nonChampionship": true,
+      "notes": "The 500cc race was stopped by bad weather and the FIM excluded it from the World Championship (the 1954 season article): no points were awarded. The Round keeps number 3, so the later Rounds are numbered 4 to 9. The race was held: its Session has the winner, the only Result on Wikipedia (the season article's calendar; no report article exists).",
+      "sessions": [
+        {
+          "type": "grand-prix-race",
+          "order": 1,
+          "date": "1954-06-26",
+          "pointsMultiplier": 1,
+          "notes": "Only the winner is recorded: Wikipedia has no report article for this race and its season article's calendar names the 500cc winner alone. The race scored no points.",
+          "results": [
+            {
+              "rider": "ray-amm",
+              "position": 1,
+              "outcome": "FIN",
+              "fastestLap": false,
+              "pointsOverride": null,
+              "team": null,
+              "manufacturer": "Norton",
+              "bikeNumber": null,
+              "nationality": "Southern Rhodesia",
+              "source": "https://en.wikipedia.org/wiki/1954_Grand_Prix_motorcycle_racing_season"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 4,
       "name": "Belgian Grand Prix",
       "circuit": "Spa-Francorchamps",
-      "country": "BEL",
+      "country": "Belgium",
       "date": "1954-07-04",
       "nonChampionship": false,
       "notes": null,
@@ -1613,10 +1645,10 @@
       ]
     },
     {
-      "number": 4,
+      "number": 5,
       "name": "Dutch TT",
       "circuit": "Assen",
-      "country": "NLD",
+      "country": "Netherlands",
       "date": "1954-07-10",
       "nonChampionship": false,
       "notes": null,
@@ -2077,10 +2109,10 @@
       ]
     },
     {
-      "number": 5,
+      "number": 6,
       "name": "German Grand Prix",
       "circuit": "Solitude",
-      "country": "FRG",
+      "country": "West Germany",
       "date": "1954-07-25",
       "nonChampionship": false,
       "notes": null,
@@ -2481,10 +2513,10 @@
       ]
     },
     {
-      "number": 6,
+      "number": 7,
       "name": "Swiss Grand Prix",
       "circuit": "Bremgarten",
-      "country": "CHE",
+      "country": "Switzerland",
       "date": "1954-08-22",
       "nonChampionship": false,
       "notes": null,
@@ -2777,10 +2809,10 @@
       ]
     },
     {
-      "number": 7,
+      "number": 8,
       "name": "Nations Grand Prix",
       "circuit": "Monza",
-      "country": "ITA",
+      "country": "Italy",
       "date": "1954-09-12",
       "nonChampionship": false,
       "notes": null,
@@ -3105,7 +3137,7 @@
               "source": "https://en.wikipedia.org/wiki/1954_Grand_Prix_motorcycle_racing_season"
             },
             {
-              "rider": "francis-guglielminetti",
+              "rider": "francesco-guglielminetti",
               "position": null,
               "outcome": "DNF",
               "fastestLap": false,
@@ -3145,10 +3177,10 @@
       ]
     },
     {
-      "number": 8,
+      "number": 9,
       "name": "Spanish Grand Prix",
       "circuit": "Montjuïc",
-      "country": "ESP",
+      "country": "Spain",
       "date": "1954-10-03",
       "nonChampionship": false,
       "notes": null,
