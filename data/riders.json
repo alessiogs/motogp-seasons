@@ -4072,7 +4072,8 @@
     "id": "jose-david-de-gea",
     "name": "José David de Gea",
     "sourceIds": {
-      "wikipedia": "José David de Gea"
+      "wikipedia": "José David de Gea",
+      "wikipedia2": "David de Gea (motorcyclist)"
     }
   },
   {
@@ -4108,13 +4109,6 @@
     "name": "Daijiro Kato",
     "sourceIds": {
       "wikipedia": "Daijiro Kato"
-    }
-  },
-  {
-    "id": "david-de-gea",
-    "name": "David de Gea",
-    "sourceIds": {
-      "wikipedia": "David de Gea (motorcyclist)"
     }
   },
   {
