@@ -26,6 +26,7 @@ import path from 'node:path';
 import { canonicalTeamName } from '../logic/canonical-team-name';
 import { extractReportTitles } from '../logic/extract-report-titles';
 import { firstPerRider } from '../logic/first-per-rider';
+import { matrixRoundTitles } from '../logic/matrix-round-titles';
 import { parseCalendar } from '../logic/parse-calendar';
 import { parseClassicClassification } from '../logic/parse-classic-classification';
 import { parseClassicOfficialTable } from '../logic/parse-classic-official-table';
@@ -59,7 +60,10 @@ async function main() {
   const dataDir = path.join(process.cwd(), 'data');
   const ridersPath = path.join(dataDir, 'riders.json');
   const riders: RiderFile[] = existsSync(ridersPath) ? JSON.parse(readFileSync(ridersPath, 'utf8')) : [];
-  const riderIdByWikipedia = new Map(riders.map((r) => [r.sourceIds.wikipedia, r.id]));
+  // A Rider merged by hand keeps the other article title as sourceIds.wikipedia2, wikipedia3, ...: all of them name him.
+  const riderIdByWikipedia = new Map(
+    riders.flatMap((r) => Object.entries(r.sourceIds).filter(([key]) => key.startsWith('wikipedia')).map(([, title]) => [title, r.id] as const)),
+  );
   const claimedIds = new Set(riders.map((r) => r.id));
 
   /** Stable Rider ID for a Wikipedia article title; creates the Rider when new. */
@@ -91,23 +95,36 @@ async function main() {
     scoringRule = 'TODO-set-by-hand';
     notes += ' Set the Scoring rule, Half points and aggregate classifications by hand.';
     const calendar = parseCalendar(seasonText, year);
-    const matrix = parseStandingsMatrix(seasonText, reportTitles.length, riderId);
-    for (const [i, title] of reportTitles.entries()) {
+    // The matrix columns are the Rounds that had a 500cc race; the season article links more reports (other classes, cancelled races).
+    const matrixTitles = matrixRoundTitles(seasonText);
+    const roundTitles = matrixTitles.length > 0 ? matrixTitles : reportTitles;
+    const matrix = parseStandingsMatrix(seasonText, roundTitles.length, riderId);
+    for (const [i, title] of roundTitles.entries()) {
+      const calendarIndex = reportTitles.includes(title) ? reportTitles.indexOf(title) : i;
       console.error(`Round ${i + 1}: ${title}`);
-      const text = await fetchWikitext(title);
-      const classification = firstPerRider(parseClassicClassification(text, seasonUrl(title), riderId));
+      // Some 1979-1982 report articles do not exist: the standings matrix alone then gives the Round's Results.
+      const text = await fetchWikitext(title).catch((err: Error) => {
+        console.error(`  ${err.message}; using the standings matrix only`);
+        return null;
+      });
+      const classification = text == null ? [] : firstPerRider(parseClassicClassification(text, seasonUrl(title), riderId));
       // The fuller of the two wins; the matrix is the only one that flags the fastest lap.
       const fromMatrix = matrix.resultsForRound(i, seasonUrl(seasonTitle));
       const results = classification.length >= fromMatrix.length ? classification : fromMatrix;
+      // A calendar weekend with no 500cc race is not a Round: leave it out and renumber, as the championship did.
+      if (results.length === 0) {
+        console.error(`  no 500cc results, skipped`);
+        continue;
+      }
       rounds.push({
-        number: i + 1,
-        name: calendar[i]?.name ?? title,
-        circuit: calendar[i]?.circuit ?? null,
-        country: calendar[i]?.country ?? null,
-        date: calendar[i]?.date ?? null,
+        number: rounds.length + 1,
+        name: calendar[calendarIndex]?.name ?? title,
+        circuit: calendar[calendarIndex]?.circuit ?? null,
+        country: calendar[calendarIndex]?.country ?? null,
+        date: calendar[calendarIndex]?.date ?? null,
         nonChampionship: false,
         notes: null,
-        sessions: [{ type: 'grand-prix-race', order: 1, date: calendar[i]?.date ?? null, pointsMultiplier: 1, notes: null, results }],
+        sessions: [{ type: 'grand-prix-race', order: 1, date: calendar[calendarIndex]?.date ?? null, pointsMultiplier: 1, notes: null, results }],
       });
     }
   } else {
@@ -130,9 +147,18 @@ async function main() {
 
   const seasonFile = { class: classCode, year, scoringRule, notes, rounds };
 
-  const official = classic
-    ? parseClassicOfficialTable(seasonText, riderId)
-    : parseOfficialTable(seasonText, riderId, config.standingsHeading);
+  // 1977-1979 and 1988 write rows the "!" reader skips (no position cell for tied Riders, inline "||" cells): the classic reader takes the fuller table.
+  let official = classic ? parseClassicOfficialTable(seasonText, riderId) : parseOfficialTable(seasonText, riderId, config.standingsHeading);
+  if (!classic && classCode === '500cc') {
+    const fuller = (() => {
+      try {
+        return parseClassicOfficialTable(seasonText, riderId);
+      } catch {
+        return []; // no 500cc matrix in this article
+      }
+    })();
+    if (fuller.length > official.length) official = fuller;
+  }
 
   mkdirSync(path.join(dataDir, 'seasons'), { recursive: true });
   mkdirSync(path.join(dataDir, 'official-tables'), { recursive: true });

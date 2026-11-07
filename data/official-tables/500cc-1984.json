@@ -1,0 +1,150 @@
+{
+  "source": "https://en.wikipedia.org/wiki/1984_Grand_Prix_motorcycle_racing_season",
+  "standings": [
+    {
+      "position": 1,
+      "rider": "eddie-lawson",
+      "points": 142
+    },
+    {
+      "position": 2,
+      "rider": "randy-mamola",
+      "points": 111
+    },
+    {
+      "position": 3,
+      "rider": "raymond-roche",
+      "points": 99
+    },
+    {
+      "position": 4,
+      "rider": "freddie-spencer",
+      "points": 87
+    },
+    {
+      "position": 5,
+      "rider": "ron-haslam",
+      "points": 77
+    },
+    {
+      "position": 6,
+      "rider": "barry-sheene",
+      "points": 34
+    },
+    {
+      "position": 7,
+      "rider": "wayne-gardner",
+      "points": 33
+    },
+    {
+      "position": 8,
+      "rider": "boet-van-dulmen",
+      "points": 25
+    },
+    {
+      "position": 9,
+      "rider": "didier-de-radigues",
+      "points": 24
+    },
+    {
+      "position": 10,
+      "rider": "virginio-ferrari",
+      "points": 22
+    },
+    {
+      "position": 11,
+      "rider": "rob-mcelnea",
+      "points": 21
+    },
+    {
+      "position": 12,
+      "rider": "sergio-pellandini",
+      "points": 16
+    },
+    {
+      "position": 13,
+      "rider": "takazumi-katayama",
+      "points": 14
+    },
+    {
+      "position": 14,
+      "rider": "franco-uncini",
+      "points": 14
+    },
+    {
+      "position": 15,
+      "rider": "reinhold-roth",
+      "points": 14
+    },
+    {
+      "position": 16,
+      "rider": "tadahiko-taira",
+      "points": 10
+    },
+    {
+      "position": 17,
+      "rider": "massimo-broccoli",
+      "points": 10
+    },
+    {
+      "position": 18,
+      "rider": "gustav-reiner",
+      "points": 10
+    },
+    {
+      "position": 19,
+      "rider": "keith-huewen",
+      "points": 6
+    },
+    {
+      "position": 20,
+      "rider": "leandro-becheroni",
+      "points": 4
+    },
+    {
+      "position": 21,
+      "rider": "christian-le-liard",
+      "points": 4
+    },
+    {
+      "position": 22,
+      "rider": "wolfgang-von-muralt",
+      "points": 4
+    },
+    {
+      "position": 23,
+      "rider": "fabio-biliotti",
+      "points": 2
+    },
+    {
+      "position": 24,
+      "rider": "roger-marshall",
+      "points": 2
+    },
+    {
+      "position": 25,
+      "rider": "chris-guy",
+      "points": 2
+    },
+    {
+      "position": 26,
+      "rider": "eero-hyvarinen",
+      "points": 2
+    },
+    {
+      "position": 27,
+      "rider": "armando-errico",
+      "points": 1
+    },
+    {
+      "position": 28,
+      "rider": "brett-hudson",
+      "points": 1
+    },
+    {
+      "position": 29,
+      "rider": "herve-moineau",
+      "points": 1
+    }
+  ]
+}

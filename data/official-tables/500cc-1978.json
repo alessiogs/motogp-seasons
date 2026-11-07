@@ -1,0 +1,160 @@
+{
+  "source": "https://en.wikipedia.org/wiki/1978_Grand_Prix_motorcycle_racing_season",
+  "standings": [
+    {
+      "position": 1,
+      "rider": "kenny-roberts",
+      "points": 110
+    },
+    {
+      "position": 2,
+      "rider": "barry-sheene",
+      "points": 100
+    },
+    {
+      "position": 3,
+      "rider": "johnny-cecotto",
+      "points": 66
+    },
+    {
+      "position": 4,
+      "rider": "wil-hartog",
+      "points": 65
+    },
+    {
+      "position": 5,
+      "rider": "takazumi-katayama",
+      "points": 53
+    },
+    {
+      "position": 6,
+      "rider": "pat-hennen",
+      "points": 51
+    },
+    {
+      "position": 7,
+      "rider": "steve-baker",
+      "points": 42
+    },
+    {
+      "position": 8,
+      "rider": "teuvo-lansivuori",
+      "points": 39
+    },
+    {
+      "position": 9,
+      "rider": "marco-lucchinelli",
+      "points": 30
+    },
+    {
+      "position": 10,
+      "rider": "michel-rougerie",
+      "points": 23
+    },
+    {
+      "position": 11,
+      "rider": "virginio-ferrari",
+      "points": 22
+    },
+    {
+      "position": 12,
+      "rider": "steve-parrish",
+      "points": 20
+    },
+    {
+      "position": 13,
+      "rider": "boet-van-dulmen",
+      "points": 15
+    },
+    {
+      "position": 14,
+      "rider": "steve-manship",
+      "points": 12
+    },
+    {
+      "position": 15,
+      "rider": "christian-estrosi",
+      "points": 11
+    },
+    {
+      "position": 16,
+      "rider": "graziano-rossi",
+      "points": 7
+    },
+    {
+      "position": 16,
+      "rider": "john-newbold",
+      "points": 7
+    },
+    {
+      "position": 18,
+      "rider": "roberto-pietri",
+      "points": 6
+    },
+    {
+      "position": 18,
+      "rider": "gianni-rolando",
+      "points": 6
+    },
+    {
+      "position": 20,
+      "rider": "gerhard-vogt",
+      "points": 5
+    },
+    {
+      "position": 20,
+      "rider": "philippe-coulon",
+      "points": 5
+    },
+    {
+      "position": 22,
+      "rider": "leandro-becheroni",
+      "points": 4
+    },
+    {
+      "position": 22,
+      "rider": "alex-george",
+      "points": 4
+    },
+    {
+      "position": 22,
+      "rider": "jurgen-steiner",
+      "points": 4
+    },
+    {
+      "position": 25,
+      "rider": "jean-philippe-orban",
+      "points": 3
+    },
+    {
+      "position": 26,
+      "rider": "carlo-perugini",
+      "points": 2
+    },
+    {
+      "position": 26,
+      "rider": "tom-herron",
+      "points": 2
+    },
+    {
+      "position": 26,
+      "rider": "gianfranco-bonera",
+      "points": 2
+    },
+    {
+      "position": 26,
+      "rider": "bruno-kneubuhler",
+      "points": 2
+    },
+    {
+      "position": 27,
+      "rider": "dennis-ireland",
+      "points": 1
+    },
+    {
+      "position": 27,
+      "rider": "kenny-blake",
+      "points": 1
+    }
+  ]
+}

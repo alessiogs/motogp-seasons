@@ -1,0 +1,47 @@
+==Final standings==
+===500cc standings===
+{|class="wikitable" style="font-size:85%; text-align:center;"
+|- valign="top"
+!valign="middle"| Pos.
+!valign="middle"| Rider
+!valign="middle"| Team
+!valign="middle"| Machine
+! [[1987 Japanese motorcycle Grand Prix|JPN]]<br>{{flagicon|JPN}}
+! [[1987 Spanish motorcycle Grand Prix|ESP]]<br>{{flagicon|ESP}}
+! [[1987 German motorcycle Grand Prix|GER]]<br>{{flagicon|FRG}}
+! [[1987 Nations motorcycle Grand Prix|NAT]]<br>{{flagicon|ITA}}
+! [[1987 Austrian motorcycle Grand Prix|AUT]]<br>{{flagicon|AUT}}
+! [[1987 Yugoslavian motorcycle Grand Prix|YUG]]<br>{{flagicon|Yugoslavia}}
+! [[1987 Dutch TT|NED]]<br>{{flagicon|NLD}}
+! [[1987 French motorcycle Grand Prix|FRA]]<br>{{flagicon|FRA}}
+! [[1987 British motorcycle Grand Prix|GBR]]<br>{{flagicon|GBR}}
+! [[1987 Swedish motorcycle Grand Prix|SWE]]<br>{{flagicon|SWE}}
+! [[1987 Czechoslovak motorcycle Grand Prix|TCH]]<br>{{flagicon|Czechoslovakia}}
+! [[1987 San Marino motorcycle Grand Prix|SMR]]<br>{{flagicon|SMR|1862}}
+! [[1987 Portuguese motorcycle Grand Prix|POR]]<br>{{flagicon|POR}}
+! [[1987 Brazilian motorcycle Grand Prix|BRA]]<br>{{flagicon|BRA|1968}}
+! [[1987 Argentine motorcycle Grand Prix|ARG]]<br>{{flagicon|ARG}}
+!valign="middle"| Pts
+|-
+! 1
+|align=left| {{flagicon|AUS}} [[Wayne Gardner]]
+|align=left| [[Rothmans International|Rothmans]] [[Honda]]-[[Honda Racing Corporation|HRC]]
+| [[Honda NSR500|NSR500]]
+|style="background:#dfdfdf;"| 2
+|style="background:#ffffbf;"| 1'''<sup>F</sup>'''
+|style="background:#dfffdf;"| 10{{nowrap|'''<sup>P F</sup>'''}}
+|style="background:#ffffbf;"| 1{{nowrap|'''<sup>P F</sup>'''}}
+|style="background:#ffffbf;"| 1{{nowrap|'''<sup>P F</sup>'''}}
+|style="background:#ffffbf;"| 1{{nowrap|'''<sup>P F</sup>'''}}
+|style="background:#dfdfdf;"| 2'''<sup>P</sup>'''
+|style="background:#dfffdf;"| 4
+|style="background:#dfdfdf;"| 2'''<sup>P</sup>'''
+|style="background:#ffffbf;"| 1{{nowrap|'''<sup>P F</sup>'''}}
+|style="background:#ffffbf;"| 1{{nowrap|'''<sup>P F</sup>'''}}
+|style="background:#ffdf9f;"| 3
+|style="background:#dfffdf;"| 4'''<sup>F</sup>'''
+|style="background:#ffffbf;"| 1{{nowrap|'''<sup>P F</sup>'''}}
+|style="background:#ffdf9f;"| 3'''<sup>P</sup>'''
+! 178
+|-
+|}

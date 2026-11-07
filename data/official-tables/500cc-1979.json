@@ -1,0 +1,205 @@
+{
+  "source": "https://en.wikipedia.org/wiki/1979_Grand_Prix_motorcycle_racing_season",
+  "standings": [
+    {
+      "position": 1,
+      "rider": "kenny-roberts",
+      "points": 113
+    },
+    {
+      "position": 2,
+      "rider": "virginio-ferrari",
+      "points": 89
+    },
+    {
+      "position": 3,
+      "rider": "barry-sheene",
+      "points": 87
+    },
+    {
+      "position": 4,
+      "rider": "wil-hartog",
+      "points": 66
+    },
+    {
+      "position": 5,
+      "rider": "franco-uncini",
+      "points": 51
+    },
+    {
+      "position": 6,
+      "rider": "boet-van-dulmen",
+      "points": 50
+    },
+    {
+      "position": 7,
+      "rider": "jack-middelburg",
+      "points": 42
+    },
+    {
+      "position": 8,
+      "rider": "philippe-coulon",
+      "points": 29
+    },
+    {
+      "position": 8,
+      "rider": "randy-mamola",
+      "points": 29
+    },
+    {
+      "position": 10,
+      "rider": "tom-herron",
+      "points": 28
+    },
+    {
+      "position": 11,
+      "rider": "christian-sarron",
+      "points": 26
+    },
+    {
+      "position": 12,
+      "rider": "steve-parrish",
+      "points": 19
+    },
+    {
+      "position": 13,
+      "rider": "dennis-ireland",
+      "points": 17
+    },
+    {
+      "position": 13,
+      "rider": "mike-baldwin",
+      "points": 17
+    },
+    {
+      "position": 14,
+      "rider": "michel-rougerie",
+      "points": 16
+    },
+    {
+      "position": 15,
+      "rider": "bernard-fau",
+      "points": 13
+    },
+    {
+      "position": 17,
+      "rider": "kenny-blake",
+      "points": 12
+    },
+    {
+      "position": 18,
+      "rider": "marco-lucchinelli",
+      "points": 11
+    },
+    {
+      "position": 19,
+      "rider": "johnny-cecotto",
+      "points": 10
+    },
+    {
+      "position": 19,
+      "rider": "gary-lingham",
+      "points": 10
+    },
+    {
+      "position": 21,
+      "rider": "gustav-reiner",
+      "points": 8
+    },
+    {
+      "position": 22,
+      "rider": "hiroyuki-kawasaki",
+      "points": 6
+    },
+    {
+      "position": 22,
+      "rider": "henk-de-vries",
+      "points": 6
+    },
+    {
+      "position": 22,
+      "rider": "gerhard-vogt",
+      "points": 6
+    },
+    {
+      "position": 25,
+      "rider": "roberto-pietri",
+      "points": 5
+    },
+    {
+      "position": 25,
+      "rider": "josef-hage",
+      "points": 5
+    },
+    {
+      "position": 27,
+      "rider": "jacky-matagne",
+      "points": 4
+    },
+    {
+      "position": 27,
+      "rider": "max-wiener",
+      "points": 4
+    },
+    {
+      "position": 29,
+      "rider": "ikujiro-takai",
+      "points": 3
+    },
+    {
+      "position": 29,
+      "rider": "carlo-perugini",
+      "points": 3
+    },
+    {
+      "position": 31,
+      "rider": "sergio-pellandini",
+      "points": 2
+    },
+    {
+      "position": 31,
+      "rider": "guy-cooremans",
+      "points": 2
+    },
+    {
+      "position": 31,
+      "rider": "graziano-rossi",
+      "points": 2
+    },
+    {
+      "position": 31,
+      "rider": "john-woodley",
+      "points": 2
+    },
+    {
+      "position": 35,
+      "rider": "peter-sjostrom",
+      "points": 1
+    },
+    {
+      "position": 35,
+      "rider": "seppo-rossi",
+      "points": 1
+    },
+    {
+      "position": 35,
+      "rider": "gianni-pelletier",
+      "points": 1
+    },
+    {
+      "position": 35,
+      "rider": "mick-grant",
+      "points": 1
+    },
+    {
+      "position": 35,
+      "rider": "dieter-heinen",
+      "points": 1
+    },
+    {
+      "position": 35,
+      "rider": "john-newbold",
+      "points": 1
+    }
+  ]
+}

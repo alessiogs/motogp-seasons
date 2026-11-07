@@ -1,0 +1,32 @@
+==Results and standings==
+===500cc riders' standings===
+{| class="wikitable" style="font-size: 85%; 
+|- valign="top"
+!valign="middle"| Pos
+!valign="middle"| Rider
+!valign="middle"| Team
+!valign="middle"| Machine
+! [[1988 Japanese motorcycle Grand Prix|JPN]]<br />{{flagicon|JPN}}
+! [[1988 United States motorcycle Grand Prix|USA]]<br />{{flagicon|USA}}
+! [[1988 Spanish motorcycle Grand Prix|ESP]]<br />{{flagicon|ESP}}
+! [[1988 Expo 92 motorcycle Grand Prix|AND]]<br />{{flagicon|Andalucia}}
+! [[1988 Nations motorcycle Grand Prix|NAT]]<br />{{flagicon|ITA}}
+! [[1988 German motorcycle Grand Prix|GER]]<br />{{flagicon|GER}}
+! [[1988 Austrian motorcycle Grand Prix|AUT]]<br />{{flagicon|AUT}}
+! [[1988 Dutch TT|NED]]<br />{{flagicon|NED}}
+! [[1988 Belgian motorcycle Grand Prix|BEL]]<br />{{flagicon|BEL}}
+! [[1988 Yugoslavian motorcycle Grand Prix|YUG]]<br />{{flagicon|YUG}}
+! [[1988 French motorcycle Grand Prix|FRA]]<br />{{flagicon|FRA}}
+! [[1988 British motorcycle Grand Prix|GBR]]<br />{{flagicon|GBR}}
+! [[1988 Swedish motorcycle Grand Prix|SWE]]<br />{{flagicon|SWE}}
+! [[1988 Czechoslovak motorcycle Grand Prix|TCH]]<br />{{flagicon|TCH}}
+! [[1988 Brazilian motorcycle Grand Prix|BRA]]<br />{{flagicon|BRA}}
+!valign="middle"| Pts
+|-
+| 1 || style="text-align:left;"| {{flagicon|USA}} [[Eddie Lawson]] || [[Marlboro (cigarette)|Marlboro]] [[Yamaha Motor Company|Yamaha]]-[[Giacomo Agostini|Agostini]] || [[Yamaha YZR500|YZR500]] ||style="background:#ffdf9f;"| 3 ||style="background:#ffffbf;"| ''1'' ||style="background:#dfdfdf;"| 2 ||style="background:#ffffbf;"| '''''1''''' ||style="background:#ffffbf;"| ''1'' ||style="background:#dfffdf;"| 4 ||style="background:#ffffbf;"| 1 ||style="background:#dfdfdf;"| 2 ||style="background:#dfdfdf;"| 2 ||style="background:#dfffdf;"| 10 ||style="background:#ffffbf;"| 1 ||style="background:#dfffdf;"| 6 ||style="background:#ffffbf;"| '''''1''''' ||style="background:#dfdfdf;"| 2 ||style="background:#ffffbf;"| ''1'' || '''252'''
+|-
+| 2 || style="text-align:left;"| {{flagicon|AUS}} [[Wayne Gardner]] || [[Rothmans International|Rothmans]] [[Honda]]-[[Honda Racing Corporation|HRC]] || [[Honda NSR500|NSR500]] ||style="background:#dfdfdf;"| 2 ||style="background:#dfdfdf;"| 2 ||style="background:#ffdf9f;"| 3 ||style="background:#dfffdf;"| 5 ||style="background:#dfdfdf;"| '''''2''''' ||style="background:#dfffdf;"| '''8''' ||style="background:#efcfff;"| Ret ||style="background:#ffffbf;"| ''1'' ||style="background:#ffffbf;"| 1 ||style="background:#ffffbf;"| 1 ||style="background:#dfffdf;"| 4 ||style="background:#dfdfdf;"| ''2'' ||style="background:#dfdfdf;"| '''2''' ||style="background:#ffffbf;"| '''''1''''' ||style="background:#dfdfdf;"| '''2''' || '''229'''
+|-
+| 3 || style="text-align:left;"| {{flagicon|USA}} [[Wayne Rainey]] || [[Lucky Strike]] Yamaha-[[Kenny Roberts|Roberts]] || YZR500 ||style="background:#dfffdf;"| 6 ||style="background:#dfffdf;"| '''4''' ||style="background:#dfffdf;"| 6 ||style="background:#dfdfdf;"| 2 ||style="background:#ffdf9f;"| 3 ||style="background:#dfdfdf;"| 2 ||style="background:#ffdf9f;"| 3 ||style="background:#dfffdf;"| 7 ||style="background:#dfffdf;"| 5 ||style="background:#ffdf9f;"| 3 ||style="background:#dfffdf;"| 5 ||style="background:#ffffbf;"| 1 ||style="background:#dfffdf;"| 5 ||style="background:#ffdf9f;"| 3 ||style="background:#efcfff;"| Ret || '''189'''
+|-
+|}

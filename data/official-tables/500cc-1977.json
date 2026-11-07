@@ -1,0 +1,165 @@
+{
+  "source": "https://en.wikipedia.org/wiki/1977_Grand_Prix_motorcycle_racing_season",
+  "standings": [
+    {
+      "position": 1,
+      "rider": "barry-sheene",
+      "points": 107
+    },
+    {
+      "position": 2,
+      "rider": "steve-baker",
+      "points": 80
+    },
+    {
+      "position": 3,
+      "rider": "pat-hennen",
+      "points": 67
+    },
+    {
+      "position": 4,
+      "rider": "johnny-cecotto",
+      "points": 50
+    },
+    {
+      "position": 5,
+      "rider": "steve-parrish",
+      "points": 39
+    },
+    {
+      "position": 6,
+      "rider": "giacomo-agostini",
+      "points": 37
+    },
+    {
+      "position": 6,
+      "rider": "franco-bonera",
+      "points": 37
+    },
+    {
+      "position": 8,
+      "rider": "philippe-coulon",
+      "points": 36
+    },
+    {
+      "position": 9,
+      "rider": "teuvo-lansivuori",
+      "points": 35
+    },
+    {
+      "position": 10,
+      "rider": "wil-hartog",
+      "points": 30
+    },
+    {
+      "position": 11,
+      "rider": "marco-lucchinelli",
+      "points": 25
+    },
+    {
+      "position": 12,
+      "rider": "virginio-ferrari",
+      "points": 21
+    },
+    {
+      "position": 12,
+      "rider": "michel-rougerie",
+      "points": 21
+    },
+    {
+      "position": 12,
+      "rider": "armando-toracca",
+      "points": 21
+    },
+    {
+      "position": 15,
+      "rider": "max-wiener",
+      "points": 20
+    },
+    {
+      "position": 16,
+      "rider": "jack-findlay",
+      "points": 17
+    },
+    {
+      "position": 17,
+      "rider": "alex-george",
+      "points": 12
+    },
+    {
+      "position": 15,
+      "rider": "helmut-kassner",
+      "points": 9
+    },
+    {
+      "position": 19,
+      "rider": "steve-wright",
+      "points": 6
+    },
+    {
+      "position": 19,
+      "rider": "franz-heller",
+      "points": 6
+    },
+    {
+      "position": 19,
+      "rider": "christian-estrosi",
+      "points": 6
+    },
+    {
+      "position": 22,
+      "rider": "michael-schmid",
+      "points": 5
+    },
+    {
+      "position": 23,
+      "rider": "john-newbold",
+      "points": 4
+    },
+    {
+      "position": 23,
+      "rider": "derek-chatterton",
+      "points": 4
+    },
+    {
+      "position": 23,
+      "rider": "anton-mang",
+      "points": 4
+    },
+    {
+      "position": 23,
+      "rider": "john-williams",
+      "points": 4
+    },
+    {
+      "position": 27,
+      "rider": "boet-van-dulmen",
+      "points": 3
+    },
+    {
+      "position": 28,
+      "rider": "jean-philippe-orban",
+      "points": 2
+    },
+    {
+      "position": 28,
+      "rider": "franz-rau",
+      "points": 2
+    },
+    {
+      "position": 30,
+      "rider": "alan-north",
+      "points": 1
+    },
+    {
+      "position": 30,
+      "rider": "karl-auer",
+      "points": 1
+    },
+    {
+      "position": 30,
+      "rider": "kevin-wrettom",
+      "points": 1
+    }
+  ]
+}
