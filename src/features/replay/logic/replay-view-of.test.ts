@@ -114,7 +114,17 @@ describe('replayViewOf', () => {
     expect(view.participantsNote).toBeNull();
   });
 
-  it("names each Rider, with the Nationality of their first Result that has one", () => {
+  it("gives each Rider the country most of their Results name, so one misread row doesn't change the flag (1983 Mang)", () => {
+    const view = replayViewOf(season([
+      round(1, [gp(fin('a', 1, { nationality: 'USA' }))]),
+      round(2, [gp(fin('a', 1, { nationality: 'BRD' }))]),
+      round(3, [gp(fin('a', 1, { nationality: 'FRG' }))]),
+    ]), null);
+    // BRD and FRG are both West Germany: two Results against one.
+    expect(view.riders.a.nationality).toBe('BRD');
+  });
+
+  it("names each Rider, with the Nationality of their first Result that has one when no country is named more often", () => {
     const view = replayViewOf(season(
       [
         round(1, [gp(fin('a', 1, { nationality: 'ITA' }), fin('b', 2))]),

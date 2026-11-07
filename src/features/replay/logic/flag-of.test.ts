@@ -22,6 +22,17 @@ describe('flagOf', () => {
     expect(flagOf('FRG')).toMatchObject({ name: 'West Germany', emoji: '🇩🇪' });
   });
 
+  it('reads the other codes and the country names the 500cc articles use', () => {
+    expect(flagOf('BRD')).toMatchObject({ name: 'West Germany', emoji: '🇩🇪' });
+    expect(flagOf('IRE')).toMatchObject({ name: 'Ireland', emoji: '🇮🇪' });
+    expect(flagOf('UK')).toMatchObject({ name: 'Great Britain', emoji: '🇬🇧' });
+    expect(flagOf('JAP')).toMatchObject({ name: 'Japan', emoji: '🇯🇵' });
+    expect(flagOf('CSK')).toEqual({ code: 'CSK', name: 'Czechoslovakia', emoji: null });
+    expect(flagOf('Switzerland')).toMatchObject({ name: 'Switzerland', emoji: '🇨🇭' });
+    expect(flagOf('United States')).toMatchObject({ name: 'United States', emoji: '🇺🇸' });
+    expect(flagOf('The Netherlands')).toMatchObject({ name: 'Netherlands', emoji: '🇳🇱' });
+  });
+
   it('never fails on an unknown code', () => {
     expect(flagOf('XYZ')).toEqual({ code: 'XYZ', name: 'XYZ', emoji: null });
   });
