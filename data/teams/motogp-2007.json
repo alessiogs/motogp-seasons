@@ -1,0 +1,43 @@
+{
+  "teams": [
+    {
+      "name": "Ducati Marlboro Team",
+      "variants": [
+        "Ducati Team"
+      ]
+    },
+    {
+      "name": "Dunlop Yamaha Tech 3"
+    },
+    {
+      "name": "Fiat Yamaha Team"
+    },
+    {
+      "name": "Honda Gresini"
+    },
+    {
+      "name": "Honda LCR"
+    },
+    {
+      "name": "Ilmor GP"
+    },
+    {
+      "name": "Kawasaki Racing Team"
+    },
+    {
+      "name": "Konica Minolta Honda"
+    },
+    {
+      "name": "Pramac d'Antin"
+    },
+    {
+      "name": "Repsol Honda Team"
+    },
+    {
+      "name": "Rizla Suzuki MotoGP"
+    },
+    {
+      "name": "Team Roberts"
+    }
+  ]
+}

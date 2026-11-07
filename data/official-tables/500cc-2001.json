@@ -1,0 +1,140 @@
+{
+  "source": "https://en.wikipedia.org/wiki/2001_Grand_Prix_motorcycle_racing_season",
+  "standings": [
+    {
+      "position": 1,
+      "rider": "valentino-rossi",
+      "points": 325
+    },
+    {
+      "position": 2,
+      "rider": "max-biaggi",
+      "points": 219
+    },
+    {
+      "position": 3,
+      "rider": "loris-capirossi",
+      "points": 210
+    },
+    {
+      "position": 4,
+      "rider": "alex-barros",
+      "points": 182
+    },
+    {
+      "position": 5,
+      "rider": "shinya-nakano",
+      "points": 155
+    },
+    {
+      "position": 6,
+      "rider": "carlos-checa",
+      "points": 137
+    },
+    {
+      "position": 7,
+      "rider": "norifumi-abe",
+      "points": 137
+    },
+    {
+      "position": 8,
+      "rider": "alex-criville",
+      "points": 120
+    },
+    {
+      "position": 9,
+      "rider": "sete-gibernau",
+      "points": 119
+    },
+    {
+      "position": 10,
+      "rider": "tohru-ukawa",
+      "points": 107
+    },
+    {
+      "position": 11,
+      "rider": "kenny-roberts-jr",
+      "points": 97
+    },
+    {
+      "position": 12,
+      "rider": "garry-mccoy",
+      "points": 88
+    },
+    {
+      "position": 13,
+      "rider": "jurgen-vd-goorbergh",
+      "points": 65
+    },
+    {
+      "position": 14,
+      "rider": "noriyuki-haga",
+      "points": 59
+    },
+    {
+      "position": 15,
+      "rider": "olivier-jacque",
+      "points": 59
+    },
+    {
+      "position": 16,
+      "rider": "jose-luis-cardoso",
+      "points": 45
+    },
+    {
+      "position": 17,
+      "rider": "haruchika-aoki",
+      "points": 33
+    },
+    {
+      "position": 18,
+      "rider": "anthony-west",
+      "points": 27
+    },
+    {
+      "position": 19,
+      "rider": "leon-haslam",
+      "points": 13
+    },
+    {
+      "position": 20,
+      "rider": "chris-walker",
+      "points": 9
+    },
+    {
+      "position": 21,
+      "rider": "yukio-kagayama",
+      "points": 6
+    },
+    {
+      "position": 22,
+      "rider": "johan-stigefelt",
+      "points": 6
+    },
+    {
+      "position": 23,
+      "rider": "brendan-clarke",
+      "points": 5
+    },
+    {
+      "position": 24,
+      "rider": "barry-veneman",
+      "points": 4
+    },
+    {
+      "position": 25,
+      "rider": "mark-willis",
+      "points": 3
+    },
+    {
+      "position": 26,
+      "rider": "jason-vincent",
+      "points": 3
+    },
+    {
+      "position": 27,
+      "rider": "jarno-janssen",
+      "points": 1
+    }
+  ]
+}

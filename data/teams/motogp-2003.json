@@ -1,0 +1,52 @@
+{
+  "teams": [
+    {
+      "name": "Alice Aprilia Racing"
+    },
+    {
+      "name": "Camel Pramac Pons"
+    },
+    {
+      "name": "Ducati Marlboro Team"
+    },
+    {
+      "name": "Fortuna Yamaha Team"
+    },
+    {
+      "name": "Gauloises Yamaha Team"
+    },
+    {
+      "name": "Kawasaki Racing Team"
+    },
+    {
+      "name": "Pramac Honda"
+    },
+    {
+      "name": "Proton Team KR"
+    },
+    {
+      "name": "Repsol Honda"
+    },
+    {
+      "name": "Suzuki Grand Prix Team"
+    },
+    {
+      "name": "Team Suzuki"
+    },
+    {
+      "name": "Telefónica Movistar Honda"
+    },
+    {
+      "name": "WCM"
+    },
+    {
+      "name": "Yamaha Racing Team"
+    },
+    {
+      "name": "d'Antín Yamaha Team",
+      "variants": [
+        "d'antin Yamaha Team"
+      ]
+    }
+  ]
+}

@@ -19,3 +19,35 @@ describe("parseOfficialTable for a Riders' standings table", () => {
     ]);
   });
 });
+
+describe("parseOfficialTable for a Riders' standings table with image flags", () => {
+  // Trimmed from the 2011 season article, a layout shared by 2002-2011: the Rider cell holds
+  // "[[File:Flag of ….svg|…]] [[Casey Stoner]]" instead of a flag template.
+  const sample2011 = readFileSync(
+    path.join(process.cwd(), 'src/features/data-build/fixtures/wikitext/2011-riders-standings.txt'),
+    'utf8',
+  );
+
+  it('reads the Rider from the article link after the flag image', () => {
+    expect(parseOfficialTable(sample2011, riderId, "Riders' standings")).toEqual([
+      { position: 1, rider: 'casey-stoner', points: 350 },
+      { position: 2, rider: 'jorge-lorenzo', points: 260 },
+    ]);
+  });
+});
+
+describe("parseOfficialTable for a 500cc Season filed under \"500cc riders' standings\"", () => {
+  // Trimmed from the 2001 season article: the final-standings heading names the class and "riders'",
+  // and a scoring-system table (no Rider column) precedes the standings matrix.
+  const sample2001 = readFileSync(
+    path.join(process.cwd(), 'src/features/data-build/fixtures/wikitext/2001-riders-standings.txt'),
+    'utf8',
+  );
+
+  it('finds the matrix under whichever of the given headings the article uses', () => {
+    expect(parseOfficialTable(sample2001, riderId, ['500cc final standings', "500cc riders' standings"])).toEqual([
+      { position: 1, rider: 'valentino-rossi', points: 325 },
+      { position: 2, rider: 'max-biaggi', points: 215 },
+    ]);
+  });
+});

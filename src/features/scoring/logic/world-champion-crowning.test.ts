@@ -4,6 +4,8 @@ import { tmpdir } from 'node:os';
 import path from 'node:path';
 import { buildDatabase } from '@/features/data-build/scripts/build-database';
 import { getSeason } from '@/features/seasons/queries/get-season';
+import { getPreviousSeason } from '@/features/seasons/queries/get-previous-season';
+import { defendingChampionOf } from '@/features/seasons/logic/defending-champion-of';
 import { computeReplay } from './compute-replay';
 
 // Real Seasons: the World Champion must be crowned at the Step where the title was historically decided.
@@ -127,6 +129,90 @@ const crowned: Record<string, { rider: string; round: number; session: string; s
     session: 'grand-prix-race',
     source: 'https://en.wikipedia.org/wiki/2013_Valencian_Community_motorcycle_Grand_Prix',
   },
+  // "Lorenzo does a big wheelie as he crosses the finish line to come home in second place, making him the 2012 MotoGP world champion": the Australian Grand Prix, Round 17 of 18.
+  'motogp-2012': {
+    rider: 'jorge-lorenzo',
+    round: 17,
+    session: 'grand-prix-race',
+    source: 'https://en.wikipedia.org/wiki/2012_Australian_motorcycle_Grand_Prix',
+  },
+  // "Australian rider Casey Stoner clinched the 2011 MotoGP World Championship with his fifth consecutive victory at his home Grand Prix on his 26th birthday": the Australian Grand Prix, Round 16 of 18, the Malaysian Round 17 being cancelled.
+  'motogp-2011': {
+    rider: 'casey-stoner',
+    round: 16,
+    session: 'grand-prix-race',
+    source: 'https://en.wikipedia.org/wiki/2011_Australian_motorcycle_Grand_Prix',
+  },
+  // "Jorge Lorenzo was crowned MotoGP World Champion for the first time, after he finished third in the Malaysian Grand Prix on 10 October": the Malaysian Grand Prix, Round 15 of 18.
+  'motogp-2010': {
+    rider: 'jorge-lorenzo',
+    round: 15,
+    session: 'grand-prix-race',
+    source: 'https://en.wikipedia.org/wiki/2010_Grand_Prix_motorcycle_racing_season',
+  },
+  // "Valentino Rossi finished third, which clinched the 2009 MotoGP championship for him": the Malaysian Grand Prix, Round 16 of 17.
+  'motogp-2009': {
+    rider: 'valentino-rossi',
+    round: 16,
+    session: 'grand-prix-race',
+    source: 'https://en.wikipedia.org/wiki/2009_Malaysian_motorcycle_Grand_Prix',
+  },
+  // "Rossi clinched his sixth premier class title with three races to go, by winning the race ahead of Stoner": the Japanese Grand Prix, Round 15 of 18.
+  'motogp-2008': {
+    rider: 'valentino-rossi',
+    round: 15,
+    session: 'grand-prix-race',
+    source: 'https://en.wikipedia.org/wiki/2008_Grand_Prix_motorcycle_racing_season',
+  },
+  // "teammate Stoner secured his and Ducati's first MotoGP title with a sixth place": the Japanese Grand Prix, Round 15 of 18.
+  'motogp-2007': {
+    rider: 'casey-stoner',
+    round: 15,
+    session: 'grand-prix-race',
+    source: 'https://en.wikipedia.org/wiki/2007_Japanese_motorcycle_Grand_Prix',
+  },
+  // "The MotoGP riders' championship was decided at this race, as Nicky Hayden's third place ensured he completed the season with more points than his rival": the Valencian finale, Round 17 of 17.
+  'motogp-2006': {
+    rider: 'nicky-hayden',
+    round: 17,
+    session: 'grand-prix-race',
+    source: 'https://en.wikipedia.org/wiki/2006_Valencian_Community_motorcycle_Grand_Prix',
+  },
+  // Crash.net's race report headline, "Capirossi wins, Rossi crowned 2005 champion" (Rossi was second; no Wikipedia article states the clinch): the Malaysian Grand Prix, Round 13 of 17.
+  'motogp-2005': {
+    rider: 'valentino-rossi',
+    round: 13,
+    session: 'grand-prix-race',
+    source: 'https://www.crash.net/motogp/race-report/76531/1/capirossi-wins-rossi-crowned-2005-champion',
+  },
+  // "Rossi's subsequent crowning as world champion - clinching his sixth overall world title, fourth premier-class title and third back-to-back MotoGP title": the Australian Grand Prix, the penultimate Round, 15 of 16.
+  'motogp-2004': {
+    rider: 'valentino-rossi',
+    round: 15,
+    session: 'grand-prix-race',
+    source: 'https://en.wikipedia.org/wiki/2004_Australian_motorcycle_Grand_Prix',
+  },
+  // Road Racing World's headline, "Rossi Wins MotoGP Race And World Championship At Sepang" (the Wikipedia articles only call him "newly-crowned" at the next Round, Australia): the Malaysian Grand Prix, Round 14 of 16.
+  'motogp-2003': {
+    rider: 'valentino-rossi',
+    round: 14,
+    session: 'grand-prix-race',
+    source: 'https://www.roadracingworld.com/?p=60055',
+  },
+  // Motorcycle News headline, "Rossi takes the title with a win in Rio" (the Wikipedia articles do not state the clinch): the Rio de Janeiro Grand Prix, Round 12 of 16.
+  'motogp-2002': {
+    rider: 'valentino-rossi',
+    round: 12,
+    session: 'grand-prix-race',
+    source: 'https://motorcyclenews.com/sport/motogp/2002/september/rossi-takes-the-title-with-a-win-in-rio',
+  },
+  // Rossi "sew-up the championship with two rounds to go" (the article's "that race" is muddled: the title was not decided in the Suzuka opener): the Australian Grand Prix, Round 14 of 16.
+  '500cc-2001': {
+    rider: 'valentino-rossi',
+    round: 14,
+    session: 'grand-prix-race',
+    source: 'https://en.wikipedia.org/wiki/2001_Grand_Prix_motorcycle_racing_season',
+  },
 };
 
 const dataDir = path.join(process.cwd(), 'data');
@@ -153,5 +239,11 @@ describe.each(loaded)('World Champion of %s', (name) => {
       expected.rider, expected.round, expected.session,
     ]);
     expect(steps.slice(first).every((s) => s.worldChampion === expected.rider)).toBe(true);
+  });
+});
+
+describe('Defending Champion of MotoGP 2002', () => {
+  it('is the 500cc 2001 World Champion, Rossi, the Category continuing across the class change', () => {
+    expect(defendingChampionOf(getPreviousSeason('motogp', 2002))).toEqual({ riderId: 'valentino-rossi', name: 'Valentino Rossi' });
   });
 });

@@ -1,0 +1,110 @@
+{
+  "source": "https://en.wikipedia.org/wiki/2009_Grand_Prix_motorcycle_racing_season",
+  "standings": [
+    {
+      "position": 1,
+      "rider": "valentino-rossi",
+      "points": 306
+    },
+    {
+      "position": 2,
+      "rider": "jorge-lorenzo",
+      "points": 261
+    },
+    {
+      "position": 3,
+      "rider": "dani-pedrosa",
+      "points": 234
+    },
+    {
+      "position": 4,
+      "rider": "casey-stoner",
+      "points": 220
+    },
+    {
+      "position": 5,
+      "rider": "colin-edwards",
+      "points": 161
+    },
+    {
+      "position": 6,
+      "rider": "andrea-dovizioso",
+      "points": 160
+    },
+    {
+      "position": 7,
+      "rider": "toni-elias",
+      "points": 115
+    },
+    {
+      "position": 8,
+      "rider": "alex-de-angelis",
+      "points": 111
+    },
+    {
+      "position": 9,
+      "rider": "loris-capirossi",
+      "points": 110
+    },
+    {
+      "position": 10,
+      "rider": "marco-melandri",
+      "points": 108
+    },
+    {
+      "position": 11,
+      "rider": "randy-de-puniet",
+      "points": 106
+    },
+    {
+      "position": 12,
+      "rider": "chris-vermeulen",
+      "points": 106
+    },
+    {
+      "position": 13,
+      "rider": "nicky-hayden",
+      "points": 104
+    },
+    {
+      "position": 14,
+      "rider": "james-toseland",
+      "points": 92
+    },
+    {
+      "position": 15,
+      "rider": "mika-kallio",
+      "points": 71
+    },
+    {
+      "position": 16,
+      "rider": "niccolo-canepa",
+      "points": 38
+    },
+    {
+      "position": 17,
+      "rider": "gabor-talmacsi",
+      "points": 19
+    },
+    {
+      "position": 18,
+      "rider": "aleix-espargaro",
+      "points": 16
+    },
+    {
+      "position": 19,
+      "rider": "sete-gibernau",
+      "points": 12
+    },
+    {
+      "position": 20,
+      "rider": "ben-spies",
+      "points": 9
+    },
+    {
+      "position": 21,
+      "rider": "yuki-takahashi",
+      "points": 9
+    }
+  ]
+}

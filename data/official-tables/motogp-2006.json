@@ -1,0 +1,115 @@
+{
+  "source": "https://en.wikipedia.org/wiki/2006_Grand_Prix_motorcycle_racing_season",
+  "standings": [
+    {
+      "position": 1,
+      "rider": "nicky-hayden",
+      "points": 252
+    },
+    {
+      "position": 2,
+      "rider": "valentino-rossi",
+      "points": 247
+    },
+    {
+      "position": 3,
+      "rider": "loris-capirossi",
+      "points": 229
+    },
+    {
+      "position": 4,
+      "rider": "marco-melandri",
+      "points": 228
+    },
+    {
+      "position": 5,
+      "rider": "dani-pedrosa",
+      "points": 215
+    },
+    {
+      "position": 6,
+      "rider": "kenny-roberts-jr",
+      "points": 134
+    },
+    {
+      "position": 7,
+      "rider": "colin-edwards",
+      "points": 124
+    },
+    {
+      "position": 8,
+      "rider": "casey-stoner",
+      "points": 119
+    },
+    {
+      "position": 9,
+      "rider": "toni-elias",
+      "points": 116
+    },
+    {
+      "position": 10,
+      "rider": "john-hopkins",
+      "points": 116
+    },
+    {
+      "position": 11,
+      "rider": "chris-vermeulen",
+      "points": 98
+    },
+    {
+      "position": 12,
+      "rider": "makoto-tamada",
+      "points": 96
+    },
+    {
+      "position": 13,
+      "rider": "sete-gibernau",
+      "points": 95
+    },
+    {
+      "position": 14,
+      "rider": "shinya-nakano",
+      "points": 92
+    },
+    {
+      "position": 15,
+      "rider": "carlos-checa",
+      "points": 75
+    },
+    {
+      "position": 16,
+      "rider": "randy-de-puniet",
+      "points": 37
+    },
+    {
+      "position": 17,
+      "rider": "alex-hofmann",
+      "points": 30
+    },
+    {
+      "position": 18,
+      "rider": "james-ellison",
+      "points": 26
+    },
+    {
+      "position": 19,
+      "rider": "troy-bayliss",
+      "points": 25
+    },
+    {
+      "position": 20,
+      "rider": "jose-luis-cardoso",
+      "points": 10
+    },
+    {
+      "position": 21,
+      "rider": "kousuke-akiyoshi",
+      "points": 3
+    },
+    {
+      "position": 22,
+      "rider": "garry-mccoy",
+      "points": 2
+    }
+  ]
+}
