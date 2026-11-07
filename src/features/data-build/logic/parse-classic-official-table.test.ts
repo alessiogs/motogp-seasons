@@ -53,3 +53,23 @@ describe('parseClassicOfficialTable for Riders level on points', () => {
     ]);
   });
 });
+
+describe('parseClassicOfficialTable for Riders marked "=" in the position cell', () => {
+  // Trimmed from the 1971 season article (layout shared by 1969-1971): a Rider level on points has "=" instead of a position.
+  const sample1971 = readFileSync(
+    path.join(process.cwd(), 'src/features/data-build/fixtures/wikitext/1971-riders-standings.txt'),
+    'utf8',
+  );
+
+  it('ranks each with the Rider above, and reads "(120)" after the points as the gross total', () => {
+    expect(parseClassicOfficialTable(sample1971, riderId).map((r) => [r.position, r.rider, r.points])).toEqual([
+      [1, 'giacomo-agostini', 90],
+      [20, 'benjamin-grau', 8],
+      [20, 'selwyn-griffiths', 8],
+      [20, 'ulfe-nilsson', 8],
+      [20, 'phil-read', 8],
+      [20, 'percy-tait', 8],
+      [25, 'ivan-carlsson', 7],
+    ]);
+  });
+});

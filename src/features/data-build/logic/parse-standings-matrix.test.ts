@@ -36,3 +36,20 @@ describe('parseStandingsMatrix for cells with superscript marks', () => {
     expect(matrix.resultsForRound(0, 'src')[0].fastestLap).toBe(false);
   });
 });
+
+describe('parseStandingsMatrix for a table without a Team column', () => {
+  // Trimmed from the 1970 season article (layout shared by 1969-1972): Rider, Machine, one cell per Round, Points.
+  const matrix = parseStandingsMatrix(fixture('1970-riders-standings.txt'), 11, riderId);
+
+  it('reads the first bike named in the Machine cell as the Manufacturer, and no Team', () => {
+    expect(matrix.resultsForRound(0, 'src').map((r) => [r.rider, r.position, r.team, r.manufacturer])).toEqual([
+      ['giacomo-agostini', 1, null, 'MV Agusta'],
+      ['ginger-molloy', 5, null, 'Bultaco'],
+    ]);
+  });
+
+  it('flags the fastest lap from italics', () => {
+    expect(matrix.resultsForRound(0, 'src')[0].fastestLap).toBe(true);
+    expect(matrix.resultsForRound(0, 'src')[1].fastestLap).toBe(false);
+  });
+});
