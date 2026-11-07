@@ -88,7 +88,7 @@ async function main() {
   const reportTitles = extractReportTitles(seasonText);
   if (reportTitles.length === 0) throw new Error(`No Grand Prix report links found on ${seasonTitle}`);
 
-  const rounds = [];
+  const rounds: unknown[] = [];
   let scoringRule = config.scoringRule;
   let notes = `Loaded from Wikipedia (${seasonTitle}); needs a hand check against motogp.com.`;
   if (classic) {
@@ -99,33 +99,50 @@ async function main() {
     const matrixTitles = matrixRoundTitles(seasonText);
     const roundTitles = matrixTitles.length > 0 ? matrixTitles : reportTitles;
     const matrix = parseStandingsMatrix(seasonText, roundTitles.length, riderId);
+    let previousCalendarIndex = -1;
     for (const [i, title] of roundTitles.entries()) {
-      const calendarIndex = reportTitles.includes(title) ? reportTitles.indexOf(title) : i;
+      // A column linking an article an earlier column already named (the East German column of 1969-1971 links the West German
+      // article) is on the calendar right after the previous column, and its Results are the matrix's alone.
+      const repeated = roundTitles.indexOf(title) < i;
+      const calendarIndex = reportTitles.includes(title) && !repeated ? reportTitles.indexOf(title) : matrixTitles.length > 0 ? previousCalendarIndex + 1 : i;
+      previousCalendarIndex = calendarIndex;
       console.error(`Round ${i + 1}: ${title}`);
       // Some 1979-1982 report articles do not exist: the standings matrix alone then gives the Round's Results.
-      const text = await fetchWikitext(title).catch((err: Error) => {
-        console.error(`  ${err.message}; using the standings matrix only`);
-        return null;
-      });
+      const text = repeated
+        ? null
+        : await fetchWikitext(title).catch((err: Error) => {
+            console.error(`  ${err.message}; using the standings matrix only`);
+            return null;
+          });
       const classification = text == null ? [] : firstPerRider(parseClassicClassification(text, seasonUrl(title), riderId));
       // The fuller of the two wins; the matrix is the only one that flags the fastest lap.
       const fromMatrix = matrix.resultsForRound(i, seasonUrl(seasonTitle));
       const results = classification.length >= fromMatrix.length ? classification : fromMatrix;
-      // A calendar weekend with no 500cc race is not a Round: leave it out and renumber, as the championship did.
-      if (results.length === 0) {
-        console.error(`  no 500cc results, skipped`);
-        continue;
-      }
-      rounds.push({
+      const entry = calendar[calendarIndex];
+      const round = {
         number: rounds.length + 1,
-        name: calendar[calendarIndex]?.name ?? title,
-        circuit: calendar[calendarIndex]?.circuit ?? null,
-        country: calendar[calendarIndex]?.country ?? null,
-        date: calendar[calendarIndex]?.date ?? null,
+        name: entry?.name ?? title,
+        circuit: entry?.circuit ?? null,
+        country: entry?.country ?? null,
+        date: entry?.date ?? null,
         nonChampionship: false,
-        notes: null,
-        sessions: [{ type: 'grand-prix-race', order: 1, date: calendar[calendarIndex]?.date ?? null, pointsMultiplier: 1, notes: null, results }],
-      });
+        notes: null as string | null,
+        sessions: [] as unknown[],
+      };
+      if (results.length === 0) {
+        // A matrix column nobody has a Result in is a race that was not run (1973 Nations): a Non-championship round keeps its number.
+        // Without a matrix the calendar weekend simply had no 500cc race: it is not a Round, so the next ones move up.
+        if (matrixTitles.length === 0) {
+          console.error(`  no 500cc results, skipped`);
+          continue;
+        }
+        console.error(`  no 500cc results in its matrix column: Non-championship round`);
+        round.nonChampionship = true;
+        round.notes = 'The 500cc race was not run (no Results in the standings matrix); the Round keeps its number. Needs a hand note.';
+      } else {
+        round.sessions = [{ type: 'grand-prix-race', order: 1, date: entry?.date ?? null, pointsMultiplier: 1, notes: null, results }];
+      }
+      rounds.push(round);
     }
   } else {
     for (const title of reportTitles) {

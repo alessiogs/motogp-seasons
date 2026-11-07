@@ -49,7 +49,7 @@ export function parseStandingsMatrix(seasonText: string, roundCount: number, rid
           fastestLap: /\bF\b/.test(mark) || /(?<!')''(?!')/.test(raw),
           pointsOverride: null,
           team: e.team,
-          manufacturer: teamOffset == null ? e.machine : manufacturerOfMachine(e.machine),
+          manufacturer: manufacturerOfMachine(e.machine),
           bikeNumber: null,
           nationality: e.nationality,
           source,

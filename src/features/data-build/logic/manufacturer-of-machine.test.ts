@@ -13,7 +13,30 @@ describe('manufacturerOfMachine', () => {
     ['Chevallier-Honda NS500', 'Chevallier'],
     ['Sanvenero', 'Sanvenero'],
     ['Morbidelli', 'Morbidelli'],
+    ['MV500', 'MV Agusta'],
+    ['TR500', 'Suzuki'],
+    ['H1R-RW', 'Kawasaki'],
+    ['RR500', 'Harley-Davidson'],
+    ['Matchless G50', 'Matchless'],
+    ['Seeley TR500', 'Seeley'],
+    ['Yamsel', 'Seeley'],
+    ['Seeley-Matchless', 'Seeley'],
+    ['Maxton-TZ350', 'Yamaha'],
+    ['Coleman-Suzuki', 'Suzuki'],
+    ['Kettle-Norton', 'Norton'],
+    ['Kirby-Metisse', 'Métisse'],
+    ['Münch-URS', 'Münch'],
   ])('reads %s as %s', (machine, expected) => {
+    expect(manufacturerOfMachine(machine)).toBe(expected);
+  });
+
+  // 1969-1972 matrices: a Rider who changed bikes has several in one cell, and the source gives no machine per Round.
+  it.each([
+    ['Bultaco / Kawasaki', 'Bultaco'],
+    ['Linto / MV Agusta', 'Linto'],
+    ['Suzuki / Jawa', 'Suzuki'],
+    ['Norton / Manx', 'Norton'],
+  ])('reads %s as the first bike named, %s', (machine, expected) => {
     expect(manufacturerOfMachine(machine)).toBe(expected);
   });
 

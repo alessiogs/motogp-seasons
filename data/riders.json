@@ -312,7 +312,8 @@
     "id": "rene-guili",
     "name": "René Guili",
     "sourceIds": {
-      "wikipedia": "René Guili"
+      "wikipedia": "René Guili",
+      "wikipedia2": "René Guilli"
     }
   },
   {
@@ -354,7 +355,8 @@
     "id": "thierry-tchernine",
     "name": "Thierry Tchernine",
     "sourceIds": {
-      "wikipedia": "Thierry Tchernine"
+      "wikipedia": "Thierry Tchernine",
+      "wikipedia2": "Tierry Tchernine"
     }
   },
   {
@@ -650,14 +652,16 @@
     "id": "billy-guthrie",
     "name": "Billy Guthrie",
     "sourceIds": {
-      "wikipedia": "Billy Guthrie"
+      "wikipedia": "Billy Guthrie",
+      "wikipedia2": "Billie Guthrie"
     }
   },
   {
     "id": "roger-nicholls",
     "name": "Roger Nicholls",
     "sourceIds": {
-      "wikipedia": "Roger Nicholls (motorcyclist)"
+      "wikipedia": "Roger Nicholls (motorcyclist)",
+      "wikipedia2": "Roger Nichols (motorcyclist)"
     }
   },
   {
@@ -713,7 +717,8 @@
     "id": "gerry-mateer",
     "name": "Gerry Mateer",
     "sourceIds": {
-      "wikipedia": "Gerry Mateer"
+      "wikipedia": "Gerry Mateer",
+      "wikipedia2": "Garry Mateer"
     }
   },
   {
@@ -895,7 +900,8 @@
     "id": "malcolm-moffat",
     "name": "Malcolm Moffat",
     "sourceIds": {
-      "wikipedia": "Malcolm Moffat"
+      "wikipedia": "Malcolm Moffat",
+      "wikipedia2": "Malcom Moffatt"
     }
   },
   {
@@ -916,7 +922,8 @@
     "id": "david-hughes",
     "name": "David Hughes",
     "sourceIds": {
-      "wikipedia": "David Hughes (motorcyclist)"
+      "wikipedia": "David Hughes (motorcyclist)",
+      "wikipedia2": "Dave Hughes"
     }
   },
   {
@@ -1140,7 +1147,8 @@
     "id": "piet-van-der-wal",
     "name": "Piet van der Wal",
     "sourceIds": {
-      "wikipedia": "Piet van der Wal"
+      "wikipedia": "Piet van der Wal",
+      "wikipedia2": "Peter Van Der Wal"
     }
   },
   {
@@ -1365,7 +1373,8 @@
     "id": "francois-hollebecq",
     "name": "Francois Hollebecq",
     "sourceIds": {
-      "wikipedia": "Francois Hollebecq"
+      "wikipedia": "Francois Hollebecq",
+      "wikipedia2": "Francis Holleberg"
     }
   },
   {
@@ -7539,13 +7548,6 @@
     }
   },
   {
-    "id": "billie-guthrie",
-    "name": "Billie Guthrie",
-    "sourceIds": {
-      "wikipedia": "Billie Guthrie"
-    }
-  },
-  {
     "id": "steve-ellis",
     "name": "Steve Ellis",
     "sourceIds": {
@@ -7553,31 +7555,10 @@
     }
   },
   {
-    "id": "tierry-tchernine",
-    "name": "Tierry Tchernine",
-    "sourceIds": {
-      "wikipedia": "Tierry Tchernine"
-    }
-  },
-  {
-    "id": "pete-mckinley",
-    "name": "Pete McKinley",
-    "sourceIds": {
-      "wikipedia": "Pete McKinley"
-    }
-  },
-  {
     "id": "thierry-van-der-veken",
     "name": "Thierry Van Der Veken",
     "sourceIds": {
       "wikipedia": "Thierry Van Der Veken"
-    }
-  },
-  {
-    "id": "francis-holleberg",
-    "name": "Francis Holleberg",
-    "sourceIds": {
-      "wikipedia": "Francis Holleberg"
     }
   },
   {
@@ -7591,14 +7572,8 @@
     "id": "rudolph-keller",
     "name": "Rudolph Keller",
     "sourceIds": {
-      "wikipedia": "Rudolph Keller"
-    }
-  },
-  {
-    "id": "peter-van-der-wal",
-    "name": "Peter Van Der Wal",
-    "sourceIds": {
-      "wikipedia": "Peter Van Der Wal"
+      "wikipedia": "Rudolph Keller",
+      "wikipedia2": "[[Rudolph Keller |Rudolph"
     }
   },
   {
@@ -7626,7 +7601,8 @@
     "id": "peter-mckinley",
     "name": "Peter McKinley",
     "sourceIds": {
-      "wikipedia": "Peter McKinley (motorcyclist)"
+      "wikipedia": "Peter McKinley (motorcyclist)",
+      "wikipedia2": "Pete McKinley"
     }
   },
   {
@@ -7763,13 +7739,6 @@
     }
   },
   {
-    "id": "rudolph-keller-rudolph",
-    "name": "[[Rudolph Keller |Rudolph",
-    "sourceIds": {
-      "wikipedia": "[[Rudolph Keller |Rudolph"
-    }
-  },
-  {
     "id": "g-salsi",
     "name": "G Salsi",
     "sourceIds": {
@@ -7858,13 +7827,6 @@
     "name": "John Taylor",
     "sourceIds": {
       "wikipedia": "John Taylor (motorcyclist)"
-    }
-  },
-  {
-    "id": "roger-nichols",
-    "name": "Roger Nichols",
-    "sourceIds": {
-      "wikipedia": "Roger Nichols (motorcyclist)"
     }
   },
   {
@@ -8088,7 +8050,8 @@
     "id": "paul-eickelberg",
     "name": "Paul Eickelberg",
     "sourceIds": {
-      "wikipedia": "Paul Eickelberg"
+      "wikipedia": "Paul Eickelberg",
+      "wikipedia2": "Paul Eickleberg"
     }
   },
   {
@@ -8141,13 +8104,6 @@
     }
   },
   {
-    "id": "dave-hughes",
-    "name": "Dave Hughes",
-    "sourceIds": {
-      "wikipedia": "Dave Hughes"
-    }
-  },
-  {
     "id": "mario-lega",
     "name": "Mario Lega",
     "sourceIds": {
@@ -8158,7 +8114,8 @@
     "id": "gyula-marsovszky",
     "name": "Gyula Marsovszky",
     "sourceIds": {
-      "wikipedia": "Gyula Marsovszky"
+      "wikipedia": "Gyula Marsovszky",
+      "wikipedia2": "Gyula Marsovsky"
     }
   },
   {
@@ -8173,13 +8130,6 @@
     "name": "Peter Stocksiefen",
     "sourceIds": {
       "wikipedia": "Peter Stocksiefen"
-    }
-  },
-  {
-    "id": "sven-gunnarsson",
-    "name": "Sven Gunnarsson",
-    "sourceIds": {
-      "wikipedia": "Sven Gunnarsson"
     }
   },
   {
@@ -8200,7 +8150,8 @@
     "id": "ted-jansen",
     "name": "Ted Jansen",
     "sourceIds": {
-      "wikipedia": "Ted Jansen"
+      "wikipedia": "Ted Jansen",
+      "wikipedia2": "Ted Janssen"
     }
   },
   {
@@ -8270,7 +8221,8 @@
     "id": "sven-olof-gunnarsson",
     "name": "Sven-Olof Gunnarsson",
     "sourceIds": {
-      "wikipedia": "Sven-Olof Gunnarsson"
+      "wikipedia": "Sven-Olof Gunnarsson",
+      "wikipedia2": "Sven Gunnarsson"
     }
   },
   {
@@ -8278,13 +8230,6 @@
     "name": "Jerry Lancaster",
     "sourceIds": {
       "wikipedia": "Jerry Lancaster"
-    }
-  },
-  {
-    "id": "paul-eickleberg",
-    "name": "Paul Eickleberg",
-    "sourceIds": {
-      "wikipedia": "Paul Eickleberg"
     }
   },
   {
@@ -8389,7 +8334,8 @@
     "id": "ulf-nilsson",
     "name": "Ulf Nilsson",
     "sourceIds": {
-      "wikipedia": "Ulf Nilsson"
+      "wikipedia": "Ulf Nilsson",
+      "wikipedia2": "Ulfe Nilsson"
     }
   },
   {
@@ -8404,13 +8350,6 @@
     "name": "Kai Kuparinen",
     "sourceIds": {
       "wikipedia": "Kai Kuparinen"
-    }
-  },
-  {
-    "id": "ted-janssen",
-    "name": "Ted Janssen",
-    "sourceIds": {
-      "wikipedia": "Ted Janssen"
     }
   },
   {
@@ -8530,13 +8469,6 @@
     "name": "Walter Rüngg",
     "sourceIds": {
       "wikipedia": "Walter Rüngg"
-    }
-  },
-  {
-    "id": "garry-mateer",
-    "name": "Garry Mateer",
-    "sourceIds": {
-      "wikipedia": "Garry Mateer"
     }
   },
   {
@@ -8743,13 +8675,6 @@
     }
   },
   {
-    "id": "ulfe-nilsson",
-    "name": "Ulfe Nilsson",
-    "sourceIds": {
-      "wikipedia": "Ulfe Nilsson"
-    }
-  },
-  {
     "id": "jim-curry",
     "name": "Jim Curry",
     "sourceIds": {
@@ -8795,7 +8720,8 @@
     "id": "emanuele-maugliani",
     "name": "Emanuele Maugliani",
     "sourceIds": {
-      "wikipedia": "Emanuele Maugliani"
+      "wikipedia": "Emanuele Maugliani",
+      "wikipedia2": "Emanuelle Maugliani"
     }
   },
   {
@@ -8932,13 +8858,6 @@
     }
   },
   {
-    "id": "gyula-marsovsky",
-    "name": "Gyula Marsovsky",
-    "sourceIds": {
-      "wikipedia": "Gyula Marsovsky"
-    }
-  },
-  {
     "id": "pierre-louis-tebec",
     "name": "Pierre-Louis Tebec",
     "sourceIds": {
@@ -8963,7 +8882,8 @@
     "id": "theo-louwes",
     "name": "Theo Louwes",
     "sourceIds": {
-      "wikipedia": "Theo Louwes"
+      "wikipedia": "Theo Louwes",
+      "wikipedia2": "Teo Louwes"
     }
   },
   {
@@ -9044,13 +8964,6 @@
     }
   },
   {
-    "id": "teo-louwes",
-    "name": "Teo Louwes",
-    "sourceIds": {
-      "wikipedia": "Teo Louwes"
-    }
-  },
-  {
     "id": "john-tom-findlay",
     "name": "John-Tom Findlay",
     "sourceIds": {
@@ -9118,13 +9031,6 @@
     "name": "Kel Carruthers",
     "sourceIds": {
       "wikipedia": "Kel Carruthers"
-    }
-  },
-  {
-    "id": "emanuelle-maugliani",
-    "name": "Emanuelle Maugliani",
-    "sourceIds": {
-      "wikipedia": "Emanuelle Maugliani"
     }
   },
   {
@@ -9202,20 +9108,6 @@
     "name": "Patrick Lefevre",
     "sourceIds": {
       "wikipedia": "Patrick Lefevre (motorcyclist)"
-    }
-  },
-  {
-    "id": "rene-guilli",
-    "name": "René Guilli",
-    "sourceIds": {
-      "wikipedia": "René Guilli"
-    }
-  },
-  {
-    "id": "malcom-moffatt",
-    "name": "Malcom Moffatt",
-    "sourceIds": {
-      "wikipedia": "Malcom Moffatt"
     }
   },
   {

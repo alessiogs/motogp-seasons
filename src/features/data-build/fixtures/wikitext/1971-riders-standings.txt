@@ -1,0 +1,136 @@
+====500cc final standings====
+
+{|
+|
+{| class="wikitable" style="font-size: 85%; text-align:center"
+|- valign="top"
+!valign="middle"| Pos
+!valign="middle"| Rider
+!valign="middle"| Machine
+! [[1971 Austrian motorcycle Grand Prix|AUT]]<br />{{flagicon|AUT}}
+! [[1971 German motorcycle Grand Prix|GER]]<br />{{flagicon|DEU}}
+! [[1971 Isle of Man TT|MAN]]<br />{{flagicon|IOM}}
+! [[1971 Dutch TT|HOL]]<br />{{flagicon|NLD}}
+! [[1971 Belgian motorcycle Grand Prix|BEL]]<br />{{flagicon|BEL}}
+! [[1971 German motorcycle Grand Prix|DDR]]<br />{{flagicon|DDR}}
+! [[1971 Swedish motorcycle Grand Prix|SWE]]<br />{{flagicon|SWE}}
+! [[1971 Finnish motorcycle Grand Prix|FIN]]<br />{{flagicon|FIN}}
+! [[1971 Ulster motorcycle Grand Prix|ULS]]<br />{{flagicon|NIR}}
+! [[1971 Nations motorcycle Grand Prix|NAC]]<br />{{flagicon|ITA}}
+! [[1971 Spanish motorcycle Grand Prix|ESP]]<br />{{flagicon|ESP|1945}}
+!valign="middle"| Pts
+|-
+! 1
+|align="left"| {{flagicon|ITA}} [[Giacomo Agostini]]
+| [[MV Agusta]]
+|style="background:#ffffbf;"| ''1''
+|style="background:#ffffbf;"| ''1''
+|style="background:#ffffbf;"| ''1''
+|style="background:#ffffbf;"| ''1''
+|style="background:#ffffbf;"| ''1''
+|style="background:#ffffbf;"| ''1''
+|style="background:#ffffbf;"| ''1''
+|style="background:#ffffbf;"| ''1''
+|
+|style="background:#efcfff;"| ''Ret''
+|
+| '''90''' (120)
+|-
+! 20
+|align="left"| {{flagicon|ESP|1945}} [[Benjamin Grau]]
+| [[Bultaco]]
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|style="background:#dfffdf;"| 4
+| '''8'''
+|-
+|-
+! =
+|align="left"| {{flagicon|Wales}} Selwyn Griffiths
+| Cowles-[[Matchless]]
+|
+|
+|style="background:#dfffdf;"| 4
+|
+|
+|
+|
+|
+|
+|
+|
+| '''8'''
+|-
+! =
+|align="left"| {{flagicon|SWE}} Ulfe Nilsson
+| Seeley-[[Matchless]]
+|
+|
+|
+|
+|
+|
+|style="background:#dfffdf;"| 4
+|
+|
+|
+|
+| '''8'''
+|-
+! =
+|align="left"| {{flagicon|GBR}} [[Phil Read]]
+| [[Ducati]]
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|style="background:#dfffdf;"| 4
+|
+| '''8'''
+|-
+! =
+|align="left"| {{flagicon|GBR}} [[Percy Tait]]
+| Seeley-[[Matchless]]
+|
+|
+|
+|
+|
+|
+|
+|
+|style="background:#dfffdf;"| 4
+|
+|
+| '''8'''
+|-
+! 25
+|align="left"| {{flagicon|SWE}} [[Ivan Carlsson]]
+| [[Yamaha Motor Corporation|Yamaha]]
+|style="background:#efcfff;"| Ret
+|style="background:#efcfff;"| Ret
+|
+|style="background:#cfcfff;"| 11
+|style="background:#dfffdf;"| 6
+|style="background:#efcfff;"| Ret
+|style="background:#efcfff;"| Ret
+|
+|
+|style="background:#efcfff;"| Ret
+|style="background:#dfffdf;"| ''9''
+| '''7'''
+|}
+|}
