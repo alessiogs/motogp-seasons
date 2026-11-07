@@ -4046,5 +4046,54 @@
     "sourceIds": {
       "wikipedia": "Ryuichi Kiyonari"
     }
+  },
+  {
+    "id": "norifumi-abe",
+    "name": "Norifumi Abe",
+    "sourceIds": {
+      "wikipedia": "Norifumi Abe"
+    }
+  },
+  {
+    "id": "neil-hodgson",
+    "name": "Neil Hodgson",
+    "sourceIds": {
+      "wikipedia": "Neil Hodgson"
+    }
+  },
+  {
+    "id": "gregorio-lavilla",
+    "name": "Gregorio Lavilla",
+    "sourceIds": {
+      "wikipedia": "Gregorio Lavilla"
+    }
+  },
+  {
+    "id": "jose-david-de-gea",
+    "name": "José David de Gea",
+    "sourceIds": {
+      "wikipedia": "José David de Gea"
+    }
+  },
+  {
+    "id": "youichi-ui",
+    "name": "Youichi Ui",
+    "sourceIds": {
+      "wikipedia": "Youichi Ui"
+    }
+  },
+  {
+    "id": "yukio-kagayama",
+    "name": "Yukio Kagayama",
+    "sourceIds": {
+      "wikipedia": "Yukio Kagayama"
+    }
+  },
+  {
+    "id": "james-haydon",
+    "name": "James Haydon",
+    "sourceIds": {
+      "wikipedia": "James Haydon"
+    }
   }
 ]

@@ -183,6 +183,13 @@ const crowned: Record<string, { rider: string; round: number; session: string; s
     session: 'grand-prix-race',
     source: 'https://www.crash.net/motogp/race-report/76531/1/capirossi-wins-rossi-crowned-2005-champion',
   },
+  // "Rossi's subsequent crowning as world champion - clinching his sixth overall world title, fourth premier-class title and third back-to-back MotoGP title": the Australian Grand Prix, the penultimate Round, 15 of 16.
+  'motogp-2004': {
+    rider: 'valentino-rossi',
+    round: 15,
+    session: 'grand-prix-race',
+    source: 'https://en.wikipedia.org/wiki/2004_Australian_motorcycle_Grand_Prix',
+  },
 };
 
 const dataDir = path.join(process.cwd(), 'data');
