@@ -162,6 +162,13 @@ const crowned: Record<string, { rider: string; round: number; session: string; s
     session: 'grand-prix-race',
     source: 'https://en.wikipedia.org/wiki/2008_Grand_Prix_motorcycle_racing_season',
   },
+  // "teammate Stoner secured his and Ducati's first MotoGP title with a sixth place": the Japanese Grand Prix, Round 15 of 18.
+  'motogp-2007': {
+    rider: 'casey-stoner',
+    round: 15,
+    session: 'grand-prix-race',
+    source: 'https://en.wikipedia.org/wiki/2007_Japanese_motorcycle_Grand_Prix',
+  },
 };
 
 const dataDir = path.join(process.cwd(), 'data');

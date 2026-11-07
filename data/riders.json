@@ -3885,5 +3885,89 @@
     "sourceIds": {
       "wikipedia": "Nobuatsu Aoki"
     }
+  },
+  {
+    "id": "alex-barros",
+    "name": "Alex Barros",
+    "sourceIds": {
+      "wikipedia": "Alex Barros"
+    }
+  },
+  {
+    "id": "alex-hofmann",
+    "name": "Alex Hofmann",
+    "sourceIds": {
+      "wikipedia": "Alex Hofmann"
+    }
+  },
+  {
+    "id": "olivier-jacque",
+    "name": "Olivier Jacque",
+    "sourceIds": {
+      "wikipedia": "Olivier Jacque"
+    }
+  },
+  {
+    "id": "kenny-roberts-jr",
+    "name": "Kenny Roberts Jr.",
+    "sourceIds": {
+      "wikipedia": "Kenny Roberts Jr."
+    }
+  },
+  {
+    "id": "makoto-tamada",
+    "name": "Makoto Tamada",
+    "sourceIds": {
+      "wikipedia": "Makoto Tamada"
+    }
+  },
+  {
+    "id": "andrew-pitt",
+    "name": "Andrew Pitt",
+    "sourceIds": {
+      "wikipedia": "Andrew Pitt"
+    }
+  },
+  {
+    "id": "jeremy-mcwilliams",
+    "name": "Jeremy McWilliams",
+    "sourceIds": {
+      "wikipedia": "Jeremy McWilliams"
+    }
+  },
+  {
+    "id": "fonsi-nieto",
+    "name": "Fonsi Nieto",
+    "sourceIds": {
+      "wikipedia": "Fonsi Nieto"
+    }
+  },
+  {
+    "id": "kurtis-roberts",
+    "name": "Kurtis Roberts",
+    "sourceIds": {
+      "wikipedia": "Kurtis Roberts"
+    }
+  },
+  {
+    "id": "chaz-davies",
+    "name": "Chaz Davies",
+    "sourceIds": {
+      "wikipedia": "Chaz Davies"
+    }
+  },
+  {
+    "id": "miguel-duhamel",
+    "name": "Miguel Duhamel",
+    "sourceIds": {
+      "wikipedia": "Miguel Duhamel"
+    }
+  },
+  {
+    "id": "akira-yanagawa",
+    "name": "Akira Yanagawa",
+    "sourceIds": {
+      "wikipedia": "Akira Yanagawa"
+    }
   }
 ]
