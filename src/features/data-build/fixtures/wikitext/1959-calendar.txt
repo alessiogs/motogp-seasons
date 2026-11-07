@@ -1,0 +1,40 @@
+==1959 Grand Prix season calendar==
+{| class="wikitable" style="font-size: 85%"
+|-
+! 6
+| 26 July
+| {{flagicon|SWE}} [[Swedish motorcycle Grand Prix|Swedish Grand Prix]]
+| [[Råbelövsbanan]]
+| {{flagicon|ITA}} [[Tarquinio Provini]]
+| {{flagicon|Rhodesia and Nyasaland}} [[Gary Hocking]]
+| {{flagicon|GBR}} [[John Surtees]]
+| {{flagicon|AUS}} ''[[Bob Brown (motorcyclist)|Bob Brown]]'' † 
+|
+| [[1959 Swedish motorcycle Grand Prix|Report]]
+|-
+! 7 
+| 8 August
+| {{flagicon|NIR}} [[Ulster motorcycle Grand Prix|Ulster Grand Prix]]
+| [[Dundrod Circuit]]
+| {{flagicon|GBR}} [[Mike Hailwood]]
+| {{flagicon|Rhodesia and Nyasaland}} [[Gary Hocking]]
+| {{flagicon|GBR}} [[John Surtees]]
+| {{flagicon|GBR}} [[John Surtees]]
+|
+| [[1959 Ulster motorcycle Grand Prix|Report]]
+|-
+! 8
+| 6 September
+| {{flagicon|ITA}} [[Nations motorcycle Grand Prix|Nations Grand Prix]]††
+| [[Autodromo Nazionale Monza|Monza]]
+| {{flagicon|East Germany|1949}} [[Ernst Degner]]
+| {{flagicon|ITA}} [[Carlo Ubbiali]]
+| {{flagicon|GBR}} [[John Surtees]]
+| {{flagicon|GBR}} [[John Surtees]]
+|
+| [[1959 Nations motorcycle Grand Prix|Report]]
+|}
+
+† Race did not count towards the World Championship.
+
+†† The Nations Grand Prix also held a non-championship 175 cc race, won by the Italian, [[Francesco Villa]].

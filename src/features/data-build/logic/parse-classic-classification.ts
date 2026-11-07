@@ -36,7 +36,7 @@ export function parseClassicClassification(text: string, source: string, riderId
       team: teamCol === -1 ? null : stripMarkup(cells[teamCol] ?? '') || null,
       manufacturer: makeCol === -1 ? null : manufacturerOfMachine(stripMarkup(cells[makeCol] ?? '') || null),
       bikeNumber: numCol !== -1 && /^\d+$/.test(cells[numCol] ?? '') ? Number(cells[numCol]) : null,
-      nationality: cells[riderCol].match(/flagicon\|([A-Za-z ]+)/i)?.[1] ?? null,
+      nationality: cells[riderCol].match(/flagicon\|\s*([A-Za-z_ ]+)/i)?.[1]?.trim().replaceAll('_', ' ') ?? null,
       source,
     });
   }

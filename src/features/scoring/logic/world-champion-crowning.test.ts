@@ -175,6 +175,98 @@ const crowned: Record<string, { rider: string; round: number; session: string; s
     session: 'grand-prix-race',
     source: 'https://en.wikipedia.org/wiki/1960_Grand_Prix_motorcycle_racing_season',
   },
+  // Wikipedia does not say where Surtees clinched (the 1959 season article's caption: he "won all races to retain his 350cc and
+  // 500cc World Championship title"). The Swedish Grand Prix, Round 6, did not count (a Non-championship round), so seven Rounds scored. After the
+  // Dutch TT, Round 4, he had 32 points, four wins, the most that four counted scores can make; with three scoring Rounds left Venturi,
+  // second with 16, could reach at most 30 (three wins plus his best earlier score, 6).
+  '500cc-1959': {
+    rider: 'john-surtees',
+    round: 4,
+    session: 'grand-prix-race',
+    source: 'https://en.wikipedia.org/wiki/1959_Grand_Prix_motorcycle_racing_season',
+  },
+  // Wikipedia does not say where Surtees clinched (the 1958 season article: he was "the 1958 350cc and 500cc World Champion"). After
+  // the German Grand Prix, Round 4 of 7, he had 32 points, four wins, the most that four counted scores can make; with three Rounds
+  // left Hartle, second with 16, could reach at most 30 (three wins plus his best earlier score, 6).
+  '500cc-1958': {
+    rider: 'john-surtees',
+    round: 4,
+    session: 'grand-prix-race',
+    source: 'https://en.wikipedia.org/wiki/1958_Grand_Prix_motorcycle_racing_season',
+  },
+  // Wikipedia does not say where Liberati clinched (the 1957 season article gives the final table only). After the Ulster Grand Prix,
+  // Round 5 of 6, he had 30 points (8, 8, 8 and 6, all four counted scores); with one Round left McIntyre, second with 20, could
+  // reach at most 28 (a win plus 8, 6 and 6).
+  '500cc-1957': {
+    rider: 'libero-liberati',
+    round: 5,
+    session: 'grand-prix-race',
+    source: 'https://en.wikipedia.org/wiki/1957_Grand_Prix_motorcycle_racing_season',
+  },
+  // Wikipedia does not say where Surtees clinched (the 1956 season article gives the final table only). He won the first three Rounds
+  // and scored no more, so his 24 points stand. After the Ulster Grand Prix, Round 5 of 6, Zeller, second with 15 (3, 6 and 6), could
+  // reach at most 23 with a win in the Nations Grand Prix (8, 6, 6 and 3); a Round earlier he could still reach 28.
+  '500cc-1956': {
+    rider: 'john-surtees',
+    round: 5,
+    session: 'grand-prix-race',
+    source: 'https://en.wikipedia.org/wiki/1956_Grand_Prix_motorcycle_racing_season',
+  },
+  // Wikipedia does not say where Duke clinched (the 1955 season article gives the final table only). After the Ulster Grand Prix,
+  // Round 7 of 8 (neither he nor Armstrong scored there), he had 32 points, four wins. With one Round left Armstrong, second with 24 (8, 6, 6
+  // and 4), could reach 32 with a win (8, 8, 6, 6 and 4): level on points, and Duke wins the tie-break with four wins to two.
+  '500cc-1955': {
+    rider: 'geoff-duke',
+    round: 7,
+    session: 'grand-prix-race',
+    source: 'https://en.wikipedia.org/wiki/1955_Grand_Prix_motorcycle_racing_season',
+  },
+  // Wikipedia does not say where Duke clinched (the 1954 season article gives the final table only). The Ulster Grand Prix, Round 3,
+  // was excluded by the FIM (a Non-championship round), so the Swiss Grand Prix is Round 7 and the sixth that counted. After it he had
+  // 38 points (8, 8, 8, 8 and 6); with two Rounds left Amm, second with 20 (8, 6 and 6), could reach at most 36 (8, 8, 8, 6 and 6).
+  '500cc-1954': {
+    rider: 'geoff-duke',
+    round: 7,
+    session: 'grand-prix-race',
+    source: 'https://en.wikipedia.org/wiki/1954_Grand_Prix_motorcycle_racing_season',
+  },
+  // Wikipedia does not say where Duke clinched (the 1953 season article gives the final table only). The German Grand Prix, Round 4,
+  // did not count (a Non-championship round). After the Nations Grand Prix, Round 8 of 9, he had 38 points (8, 8, 8, 8 and 6); with
+  // the Spanish Grand Prix left Armstrong, second with 24, could reach at most 28 (8, 6, 6, 4 and 4). A Round earlier the lead was
+  // 30 to 18 with two Rounds left, and Milani could still reach 34.
+  '500cc-1953': {
+    rider: 'geoff-duke',
+    round: 8,
+    session: 'grand-prix-race',
+    source: 'https://en.wikipedia.org/wiki/1953_Grand_Prix_motorcycle_racing_season',
+  },
+  // Wikipedia does not say where Masetti clinched (the 1952 season article gives the final table only). The title was open until the
+  // Spanish Grand Prix, Round 8 of 8: after Round 7 he had 22 points to Armstrong's 20 and Graham's 17, and a win in Spain would have
+  // given Armstrong 28 and Graham 25 (best five of each). Graham won there and Masetti was 2nd: 28 points (8, 8, 6 and 6) to 25.
+  '500cc-1952': {
+    rider: 'umberto-masetti',
+    round: 8,
+    session: 'grand-prix-race',
+    source: 'https://en.wikipedia.org/wiki/1952_Grand_Prix_motorcycle_racing_season',
+  },
+  // Wikipedia does not say where Duke clinched (the 1951 season article gives the final table only). After the Ulster Grand Prix,
+  // Round 7 of 8, he had 34 points (8, 8, 8, 8 and 2); with one Round left Milani, second with 23 (8, 6, 6 and 3), could reach at
+  // most 31 (8, 8, 6, 6 and 3).
+  '500cc-1951': {
+    rider: 'geoff-duke',
+    round: 7,
+    session: 'grand-prix-race',
+    source: 'https://en.wikipedia.org/wiki/1951_Grand_Prix_motorcycle_racing_season',
+  },
+  // Wikipedia does not say where Masetti clinched (the 1950 season article gives the final table only). The title was open until the
+  // Nations Grand Prix, Round 6 of 6: after Round 5 he had 23 points to Duke's 19, and Duke, with a win in the last Round, could reach
+  // 27 (8, 8, 8 and 3). Duke won it and Masetti was 2nd: 28 points (8, 8, 6 and 6, the 1 of Round 5 dropped) to 27.
+  '500cc-1950': {
+    rider: 'umberto-masetti',
+    round: 6,
+    session: 'grand-prix-race',
+    source: 'https://en.wikipedia.org/wiki/1950_Grand_Prix_motorcycle_racing_season',
+  },
   // Wikipedia does not say where Agostini clinched (the 1969 season article gives the final table only). After the East German
   // Grand Prix, Round 7 of 12, he had 105 points, seven wins, the most that seven counted scores can make; with five Rounds
   // left a rival could take 75 and add at most two earlier scores of 12 (Agostini had won every Round), 99 in all.

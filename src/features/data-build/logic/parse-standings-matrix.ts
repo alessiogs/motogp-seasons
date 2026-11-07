@@ -25,7 +25,7 @@ export function parseStandingsMatrix(seasonText: string, roundCount: number, rid
     const rest = row.slice(riderIdx + 1);
     entries.push({
       riderId: riderId(who.title, who.name),
-      nationality: row[riderIdx].match(/flagicon\|([A-Za-z ]+)/i)?.[1] ?? null,
+      nationality: row[riderIdx].match(/flagicon\|\s*([A-Za-z_ ]+)/i)?.[1]?.trim().replaceAll('_', ' ') ?? null,
       team: teamOffset == null ? null : plain(row[riderIdx + teamOffset] ?? '') || null,
       machine: plain(row[riderIdx + (machineOffset ?? 1)] ?? '') || null,
       // Machine (and Team) cells come first, then one cell per Round, then the points.

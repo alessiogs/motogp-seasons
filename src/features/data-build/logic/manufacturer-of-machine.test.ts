@@ -34,6 +34,13 @@ describe('manufacturerOfMachine', () => {
     ['Jawa-CZ', 'ČZ'],
     ['CZ', 'ČZ'],
     ['ČZ', 'ČZ'],
+    // 1950-1959 matrices and reports: model names after the brand, and the Vincent that 1949 calls Vincent HRD.
+    ['AJS Porcupine', 'AJS'],
+    ['BMW R51/2', 'BMW'],
+    ['BMW RS', 'BMW'],
+    ['Vincent', 'Vincent HRD'],
+    ['Vincent Grey Flash', 'Vincent HRD'],
+    ['FAN', 'F.A.N.'],
   ])('reads %s as %s', (machine, expected) => {
     expect(manufacturerOfMachine(machine)).toBe(expected);
   });

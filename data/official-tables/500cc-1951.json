@@ -1,0 +1,455 @@
+{
+  "source": "https://en.wikipedia.org/wiki/1951_Grand_Prix_motorcycle_racing_season",
+  "standings": [
+    {
+      "position": 1,
+      "rider": "geoff-duke",
+      "points": 35
+    },
+    {
+      "position": 2,
+      "rider": "alfredo-milani",
+      "points": 31
+    },
+    {
+      "position": 3,
+      "rider": "umberto-masetti",
+      "points": 21
+    },
+    {
+      "position": 4,
+      "rider": "bill-doran",
+      "points": 14
+    },
+    {
+      "position": 5,
+      "rider": "nello-pagani",
+      "points": 10
+    },
+    {
+      "position": 6,
+      "rider": "reg-armstrong",
+      "points": 9
+    },
+    {
+      "position": 7,
+      "rider": "fergus-anderson",
+      "points": 8
+    },
+    {
+      "position": 8,
+      "rider": "enrico-lorenzetti",
+      "points": 8
+    },
+    {
+      "position": 9,
+      "rider": "tommy-wood",
+      "points": 6
+    },
+    {
+      "position": 10,
+      "rider": "ken-kavanagh",
+      "points": 6
+    },
+    {
+      "position": 11,
+      "rider": "johnny-lockett",
+      "points": 6
+    },
+    {
+      "position": 12,
+      "rider": "carlo-bandirola",
+      "points": 5
+    },
+    {
+      "position": 13,
+      "rider": "sante-geminiani",
+      "points": 4
+    },
+    {
+      "position": 14,
+      "rider": "arciso-artesiani",
+      "points": 4
+    },
+    {
+      "position": 14,
+      "rider": "cromie-mccandless",
+      "points": 4
+    },
+    {
+      "position": 16,
+      "rider": "tommy-mcewans",
+      "points": 3
+    },
+    {
+      "position": 16,
+      "rider": "roger-montane",
+      "points": 3
+    },
+    {
+      "position": 18,
+      "rider": "jack-brett",
+      "points": 3
+    },
+    {
+      "position": 19,
+      "rider": "bruno-ruffo",
+      "points": 2
+    },
+    {
+      "position": 20,
+      "rider": "manliff-barrington",
+      "points": 2
+    },
+    {
+      "position": 20,
+      "rider": "benoit-musy",
+      "points": 2
+    },
+    {
+      "position": 22,
+      "rider": "len-perry",
+      "points": 1
+    },
+    {
+      "position": 23,
+      "rider": "willy-lips",
+      "points": 1
+    },
+    {
+      "position": 23,
+      "rider": "ashley-len-parry",
+      "points": 1
+    },
+    {
+      "position": 23,
+      "rider": "ernesto-vidal",
+      "points": 1
+    },
+    {
+      "position": 26,
+      "rider": "arthur-wheeler",
+      "points": 0
+    },
+    {
+      "position": 27,
+      "rider": "hans-baltisberger",
+      "points": 0
+    },
+    {
+      "position": 27,
+      "rider": "eric-briggs",
+      "points": 0
+    },
+    {
+      "position": 27,
+      "rider": "louis-carter",
+      "points": 0
+    },
+    {
+      "position": 27,
+      "rider": "libero-liberati",
+      "points": 0
+    },
+    {
+      "position": 31,
+      "rider": "albert-moule",
+      "points": 0
+    },
+    {
+      "position": 32,
+      "rider": "bill-petch",
+      "points": 0
+    },
+    {
+      "position": 33,
+      "rider": "lous-van-riswijk",
+      "points": 0
+    },
+    {
+      "position": 34,
+      "rider": "massimo-forster",
+      "points": 0
+    },
+    {
+      "position": 35,
+      "rider": "vaino-hollming",
+      "points": 0
+    },
+    {
+      "position": 36,
+      "rider": "cees-fokke-bosch",
+      "points": 0
+    },
+    {
+      "position": 37,
+      "rider": "rod-coleman",
+      "points": 0
+    },
+    {
+      "position": 38,
+      "rider": "sidney-mason",
+      "points": 0
+    },
+    {
+      "position": 39,
+      "rider": "ken-armstrong",
+      "points": 0
+    },
+    {
+      "position": 39,
+      "rider": "phil-carter",
+      "points": 0
+    },
+    {
+      "position": 39,
+      "rider": "les-dear",
+      "points": 0
+    },
+    {
+      "position": 42,
+      "rider": "ray-amm",
+      "points": 0
+    },
+    {
+      "position": 43,
+      "rider": "guy-newman",
+      "points": 0
+    },
+    {
+      "position": 44,
+      "rider": "jack-bailey",
+      "points": 0
+    },
+    {
+      "position": 44,
+      "rider": "roy-evans",
+      "points": 0
+    },
+    {
+      "position": 46,
+      "rider": "alexandre-mayer",
+      "points": 0
+    },
+    {
+      "position": 47,
+      "rider": "harold-grindley",
+      "points": 0
+    },
+    {
+      "position": 48,
+      "rider": "dante-bianchi",
+      "points": 0
+    },
+    {
+      "position": 48,
+      "rider": "dennis-lashmar",
+      "points": 0
+    },
+    {
+      "position": 50,
+      "rider": "maurice-acheson",
+      "points": 0
+    },
+    {
+      "position": 50,
+      "rider": "giuseppe-colnago",
+      "points": 0
+    },
+    {
+      "position": 50,
+      "rider": "auguste-goffin",
+      "points": 0
+    },
+    {
+      "position": 53,
+      "rider": "bill-hall",
+      "points": 0
+    },
+    {
+      "position": 54,
+      "rider": "jean-behra",
+      "points": 0
+    },
+    {
+      "position": 54,
+      "rider": "leon-martin",
+      "points": 0
+    },
+    {
+      "position": 54,
+      "rider": "roy-walker",
+      "points": 0
+    },
+    {
+      "position": 57,
+      "rider": "giulio-galbiati",
+      "points": 0
+    },
+    {
+      "position": 58,
+      "rider": "felice-benasedo",
+      "points": 0
+    },
+    {
+      "position": 59,
+      "rider": "robert-ferguson",
+      "points": 0
+    },
+    {
+      "position": 59,
+      "rider": "sid-franklen",
+      "points": 0
+    },
+    {
+      "position": 61,
+      "rider": "ernie-barrett",
+      "points": 0
+    },
+    {
+      "position": 62,
+      "rider": "syl-anderton",
+      "points": 0
+    },
+    {
+      "position": 62,
+      "rider": "lodovico-facchinelli",
+      "points": 0
+    },
+    {
+      "position": 62,
+      "rider": "jack-harding",
+      "points": 0
+    },
+    {
+      "position": 65,
+      "rider": "georges-houel",
+      "points": 0
+    },
+    {
+      "position": 66,
+      "rider": "charlie-gray",
+      "points": 0
+    },
+    {
+      "position": 66,
+      "rider": "george-brockerton",
+      "points": 0
+    },
+    {
+      "position": 66,
+      "rider": "jaak-delsing",
+      "points": 0
+    },
+    {
+      "position": 69,
+      "rider": "leo-starr",
+      "points": 0
+    },
+    {
+      "position": 70,
+      "rider": "ernie-thomas",
+      "points": 0
+    },
+    {
+      "position": 71,
+      "rider": "george-paterson",
+      "points": 0
+    },
+    {
+      "position": 72,
+      "rider": "sven-s-rensen",
+      "points": 0
+    },
+    {
+      "position": 72,
+      "rider": "albert-vertriest",
+      "points": 0
+    },
+    {
+      "position": 74,
+      "rider": "evert-carlsson",
+      "points": 0
+    },
+    {
+      "position": 74,
+      "rider": "ronald-pike",
+      "points": 0
+    },
+    {
+      "position": 76,
+      "rider": "ray-petty",
+      "points": 0
+    },
+    {
+      "position": 77,
+      "rider": "arnold-jones",
+      "points": 0
+    },
+    {
+      "position": 78,
+      "rider": "archie-fenn",
+      "points": 0
+    },
+    {
+      "position": 79,
+      "rider": "jim-kentish",
+      "points": 0
+    },
+    {
+      "position": 80,
+      "rider": "humphrey-ranson",
+      "points": 0
+    },
+    {
+      "position": 81,
+      "rider": "eddie-stidolph",
+      "points": 0
+    },
+    {
+      "position": 82,
+      "rider": "max-klein",
+      "points": 0
+    },
+    {
+      "position": 83,
+      "rider": "leslie-harris",
+      "points": 0
+    },
+    {
+      "position": 84,
+      "rider": "ernie-braine",
+      "points": 0
+    },
+    {
+      "position": 85,
+      "rider": "john-fisher",
+      "points": 0
+    },
+    {
+      "position": 86,
+      "rider": "joe-chapman",
+      "points": 0
+    },
+    {
+      "position": 87,
+      "rider": "bill-maddrick",
+      "points": 0
+    },
+    {
+      "position": 88,
+      "rider": "j-gunn",
+      "points": 0
+    },
+    {
+      "position": 89,
+      "rider": "bob-mcdonald",
+      "points": 0
+    },
+    {
+      "position": 90,
+      "rider": "bill-beevers",
+      "points": 0
+    }
+  ]
+}
