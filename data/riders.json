@@ -4095,5 +4095,33 @@
     "sourceIds": {
       "wikipedia": "James Haydon"
     }
+  },
+  {
+    "id": "noriyuki-haga",
+    "name": "Noriyuki Haga",
+    "sourceIds": {
+      "wikipedia": "Noriyuki Haga"
+    }
+  },
+  {
+    "id": "daijiro-kato",
+    "name": "Daijiro Kato",
+    "sourceIds": {
+      "wikipedia": "Daijiro Kato"
+    }
+  },
+  {
+    "id": "david-de-gea",
+    "name": "David de Gea",
+    "sourceIds": {
+      "wikipedia": "David de Gea (motorcyclist)"
+    }
+  },
+  {
+    "id": "akira-ryo",
+    "name": "Akira Ryō",
+    "sourceIds": {
+      "wikipedia": "Akira Ryō"
+    }
   }
 ]

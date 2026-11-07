@@ -190,6 +190,13 @@ const crowned: Record<string, { rider: string; round: number; session: string; s
     session: 'grand-prix-race',
     source: 'https://en.wikipedia.org/wiki/2004_Australian_motorcycle_Grand_Prix',
   },
+  // Road Racing World's headline, "Rossi Wins MotoGP Race And World Championship At Sepang" (the Wikipedia articles only call him "newly-crowned" at the next Round, Australia): the Malaysian Grand Prix, Round 14 of 16.
+  'motogp-2003': {
+    rider: 'valentino-rossi',
+    round: 14,
+    session: 'grand-prix-race',
+    source: 'https://www.roadracingworld.com/?p=60055',
+  },
 };
 
 const dataDir = path.join(process.cwd(), 'data');
