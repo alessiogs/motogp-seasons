@@ -33,6 +33,182 @@
               "source": "https://en.wikipedia.org/wiki/1971_Grand_Prix_motorcycle_racing_season"
             },
             {
+              "rider": "keith-turner",
+              "position": 2,
+              "outcome": "FIN",
+              "fastestLap": false,
+              "pointsOverride": null,
+              "team": null,
+              "manufacturer": "Suzuki",
+              "bikeNumber": null,
+              "nationality": "NZL",
+              "source": "https://en.wikipedia.org/wiki/1971_Grand_Prix_motorcycle_racing_season"
+            },
+            {
+              "rider": "eric-offenstadt",
+              "position": 3,
+              "outcome": "FIN",
+              "fastestLap": false,
+              "pointsOverride": null,
+              "team": null,
+              "manufacturer": "Kawasaki",
+              "bikeNumber": null,
+              "nationality": "FRA",
+              "source": "https://en.wikipedia.org/wiki/1971_Grand_Prix_motorcycle_racing_season"
+            },
+            {
+              "rider": "jack-findlay",
+              "position": 4,
+              "outcome": "FIN",
+              "fastestLap": false,
+              "pointsOverride": null,
+              "team": null,
+              "manufacturer": "Suzuki",
+              "bikeNumber": null,
+              "nationality": "AUS",
+              "source": "https://en.wikipedia.org/wiki/1971_Grand_Prix_motorcycle_racing_season"
+            },
+            {
+              "rider": "lothar-john",
+              "position": 5,
+              "outcome": "FIN",
+              "fastestLap": false,
+              "pointsOverride": null,
+              "team": null,
+              "manufacturer": "Yamaha",
+              "bikeNumber": null,
+              "nationality": "DEU",
+              "source": "https://en.wikipedia.org/wiki/1971_Grand_Prix_motorcycle_racing_season"
+            },
+            {
+              "rider": "billie-nelson",
+              "position": 6,
+              "outcome": "FIN",
+              "fastestLap": false,
+              "pointsOverride": null,
+              "team": null,
+              "manufacturer": "Paton",
+              "bikeNumber": null,
+              "nationality": "GBR",
+              "source": "https://en.wikipedia.org/wiki/1971_Grand_Prix_motorcycle_racing_season"
+            },
+            {
+              "rider": "alberto-pagani",
+              "position": 7,
+              "outcome": "FIN",
+              "fastestLap": false,
+              "pointsOverride": null,
+              "team": null,
+              "manufacturer": "Linto",
+              "bikeNumber": null,
+              "nationality": "ITA",
+              "source": "https://en.wikipedia.org/wiki/1971_Grand_Prix_motorcycle_racing_season"
+            },
+            {
+              "rider": "gianpiero-zubani",
+              "position": null,
+              "outcome": "DNF",
+              "fastestLap": false,
+              "pointsOverride": null,
+              "team": null,
+              "manufacturer": "Kawasaki",
+              "bikeNumber": null,
+              "nationality": "ITA",
+              "source": "https://en.wikipedia.org/wiki/1971_Grand_Prix_motorcycle_racing_season"
+            },
+            {
+              "rider": "ernst-hiller",
+              "position": null,
+              "outcome": "DNF",
+              "fastestLap": false,
+              "pointsOverride": null,
+              "team": null,
+              "manufacturer": "Kawasaki",
+              "bikeNumber": null,
+              "nationality": "DEU",
+              "source": "https://en.wikipedia.org/wiki/1971_Grand_Prix_motorcycle_racing_season"
+            },
+            {
+              "rider": "maurice-hawthorne",
+              "position": null,
+              "outcome": "DNF",
+              "fastestLap": false,
+              "pointsOverride": null,
+              "team": null,
+              "manufacturer": "Kawasaki",
+              "bikeNumber": null,
+              "nationality": "GBR",
+              "source": "https://en.wikipedia.org/wiki/1971_Grand_Prix_motorcycle_racing_season"
+            },
+            {
+              "rider": "ivan-carlsson",
+              "position": null,
+              "outcome": "DNF",
+              "fastestLap": false,
+              "pointsOverride": null,
+              "team": null,
+              "manufacturer": "Yamaha",
+              "bikeNumber": null,
+              "nationality": "SWE",
+              "source": "https://en.wikipedia.org/wiki/1971_Grand_Prix_motorcycle_racing_season"
+            },
+            {
+              "rider": "karl-auer",
+              "position": null,
+              "outcome": "DNF",
+              "fastestLap": false,
+              "pointsOverride": null,
+              "team": null,
+              "manufacturer": "Matchless",
+              "bikeNumber": null,
+              "nationality": "AUT",
+              "source": "https://en.wikipedia.org/wiki/1971_Grand_Prix_motorcycle_racing_season"
+            },
+            {
+              "rider": "john-dodds",
+              "position": null,
+              "outcome": "DNF",
+              "fastestLap": false,
+              "pointsOverride": null,
+              "team": null,
+              "manufacturer": "König",
+              "bikeNumber": null,
+              "nationality": "AUS",
+              "source": "https://en.wikipedia.org/wiki/1971_Grand_Prix_motorcycle_racing_season"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 2,
+      "name": "West German Grand Prix",
+      "circuit": "Hockenheimring",
+      "country": "FRG",
+      "date": "1971-05-16",
+      "nonChampionship": false,
+      "notes": null,
+      "sessions": [
+        {
+          "type": "grand-prix-race",
+          "order": 1,
+          "date": "1971-05-16",
+          "pointsMultiplier": 1,
+          "notes": null,
+          "results": [
+            {
+              "rider": "giacomo-agostini",
+              "position": 1,
+              "outcome": "FIN",
+              "fastestLap": true,
+              "pointsOverride": null,
+              "team": null,
+              "manufacturer": "MV Agusta",
+              "bikeNumber": null,
+              "nationality": "ITA",
+              "source": "https://en.wikipedia.org/wiki/1971_Grand_Prix_motorcycle_racing_season"
+            },
+            {
               "rider": "rob-bron",
               "position": 2,
               "outcome": "FIN",
@@ -75,7 +251,7 @@
               "fastestLap": false,
               "pointsOverride": null,
               "team": null,
-              "manufacturer": "Linto / MV Agusta",
+              "manufacturer": "Linto",
               "bikeNumber": null,
               "nationality": "ITA",
               "source": "https://en.wikipedia.org/wiki/1971_Grand_Prix_motorcycle_racing_season"
@@ -87,7 +263,7 @@
               "fastestLap": false,
               "pointsOverride": null,
               "team": null,
-              "manufacturer": "Hurst-Seeley / Matchless",
+              "manufacturer": "Seeley",
               "bikeNumber": null,
               "nationality": "NIR",
               "source": "https://en.wikipedia.org/wiki/1971_Grand_Prix_motorcycle_racing_season"
@@ -159,7 +335,7 @@
               "fastestLap": false,
               "pointsOverride": null,
               "team": null,
-              "manufacturer": "Coleman-Suzuki",
+              "manufacturer": "Suzuki",
               "bikeNumber": null,
               "nationality": "NZL",
               "source": "https://en.wikipedia.org/wiki/1971_Grand_Prix_motorcycle_racing_season"
@@ -183,7 +359,7 @@
               "fastestLap": false,
               "pointsOverride": null,
               "team": null,
-              "manufacturer": "Suzuki / Jawa",
+              "manufacturer": "Suzuki",
               "bikeNumber": null,
               "nationality": "AUS",
               "source": "https://en.wikipedia.org/wiki/1971_Grand_Prix_motorcycle_racing_season"
@@ -231,7 +407,7 @@
               "fastestLap": false,
               "pointsOverride": null,
               "team": null,
-              "manufacturer": "Seeley-Matchless",
+              "manufacturer": "Seeley",
               "bikeNumber": null,
               "nationality": "GBR",
               "source": "https://en.wikipedia.org/wiki/1971_Grand_Prix_motorcycle_racing_season"
@@ -253,18 +429,18 @@
       ]
     },
     {
-      "number": 2,
-      "name": "West German Grand Prix",
-      "circuit": "Hockenheimring",
-      "country": "FRG",
-      "date": "1971-05-16",
+      "number": 3,
+      "name": "Isle of Man TT",
+      "circuit": "Snaefell Mountain",
+      "country": "IOM",
+      "date": "1971-06-12",
       "nonChampionship": false,
       "notes": null,
       "sessions": [
         {
           "type": "grand-prix-race",
           "order": 1,
-          "date": "1971-05-16",
+          "date": "1971-06-12",
           "pointsMultiplier": 1,
           "notes": null,
           "results": [
@@ -287,7 +463,7 @@
               "fastestLap": false,
               "pointsOverride": null,
               "team": null,
-              "manufacturer": "Arter-Matchless",
+              "manufacturer": "Matchless",
               "bikeNumber": null,
               "nationality": "GBR",
               "source": "https://en.wikipedia.org/wiki/1971_Grand_Prix_motorcycle_racing_season"
@@ -299,7 +475,7 @@
               "fastestLap": false,
               "pointsOverride": null,
               "team": null,
-              "manufacturer": "Suzuki / Seeley / Linto",
+              "manufacturer": "Suzuki",
               "bikeNumber": null,
               "nationality": "GBR",
               "source": "https://en.wikipedia.org/wiki/1971_Grand_Prix_motorcycle_racing_season"
@@ -311,7 +487,7 @@
               "fastestLap": false,
               "pointsOverride": null,
               "team": null,
-              "manufacturer": "Cowles-Matchless",
+              "manufacturer": "Matchless",
               "bikeNumber": null,
               "nationality": "Wales",
               "source": "https://en.wikipedia.org/wiki/1971_Grand_Prix_motorcycle_racing_season"
@@ -323,7 +499,7 @@
               "fastestLap": false,
               "pointsOverride": null,
               "team": null,
-              "manufacturer": "Padgett-Kawasaki",
+              "manufacturer": "Kawasaki",
               "bikeNumber": null,
               "nationality": "GBR",
               "source": "https://en.wikipedia.org/wiki/1971_Grand_Prix_motorcycle_racing_season"
@@ -347,7 +523,7 @@
               "fastestLap": false,
               "pointsOverride": null,
               "team": null,
-              "manufacturer": "Coleman-Suzuki",
+              "manufacturer": "Suzuki",
               "bikeNumber": null,
               "nationality": "NZL",
               "source": "https://en.wikipedia.org/wiki/1971_Grand_Prix_motorcycle_racing_season"
@@ -359,7 +535,7 @@
               "fastestLap": false,
               "pointsOverride": null,
               "team": null,
-              "manufacturer": "Seeley-Matchless",
+              "manufacturer": "Seeley",
               "bikeNumber": null,
               "nationality": "GBR",
               "source": "https://en.wikipedia.org/wiki/1971_Grand_Prix_motorcycle_racing_season"
@@ -371,7 +547,7 @@
               "fastestLap": false,
               "pointsOverride": null,
               "team": null,
-              "manufacturer": "Cowles-Matchless",
+              "manufacturer": "Matchless",
               "bikeNumber": null,
               "nationality": "GBR",
               "source": "https://en.wikipedia.org/wiki/1971_Grand_Prix_motorcycle_racing_season"
@@ -395,7 +571,7 @@
               "fastestLap": false,
               "pointsOverride": null,
               "team": null,
-              "manufacturer": "Hurst-Seeley / Matchless",
+              "manufacturer": "Seeley",
               "bikeNumber": null,
               "nationality": "NIR",
               "source": "https://en.wikipedia.org/wiki/1971_Grand_Prix_motorcycle_racing_season"
@@ -419,7 +595,7 @@
               "fastestLap": false,
               "pointsOverride": null,
               "team": null,
-              "manufacturer": "Linto / MV Agusta",
+              "manufacturer": "Linto",
               "bikeNumber": null,
               "nationality": "ITA",
               "source": "https://en.wikipedia.org/wiki/1971_Grand_Prix_motorcycle_racing_season"
@@ -441,18 +617,18 @@
       ]
     },
     {
-      "number": 3,
-      "name": "Isle of Man TT",
-      "circuit": "Snaefell Mountain",
-      "country": "IOM",
-      "date": "1971-06-12",
+      "number": 4,
+      "name": "Dutch TT",
+      "circuit": "Assen",
+      "country": "NLD",
+      "date": "1971-06-26",
       "nonChampionship": false,
       "notes": null,
       "sessions": [
         {
           "type": "grand-prix-race",
           "order": 1,
-          "date": "1971-06-12",
+          "date": "1971-06-26",
           "pointsMultiplier": 1,
           "notes": null,
           "results": [
@@ -499,7 +675,7 @@
               "fastestLap": false,
               "pointsOverride": null,
               "team": null,
-              "manufacturer": "Coleman-Suzuki",
+              "manufacturer": "Suzuki",
               "bikeNumber": null,
               "nationality": "NZL",
               "source": "https://en.wikipedia.org/wiki/1971_Grand_Prix_motorcycle_racing_season"
@@ -511,7 +687,7 @@
               "fastestLap": false,
               "pointsOverride": null,
               "team": null,
-              "manufacturer": "Seeley-Matchless",
+              "manufacturer": "Seeley",
               "bikeNumber": null,
               "nationality": "GBR",
               "source": "https://en.wikipedia.org/wiki/1971_Grand_Prix_motorcycle_racing_season"
@@ -535,7 +711,7 @@
               "fastestLap": false,
               "pointsOverride": null,
               "team": null,
-              "manufacturer": "Hurst-Seeley / Matchless",
+              "manufacturer": "Seeley",
               "bikeNumber": null,
               "nationality": "NIR",
               "source": "https://en.wikipedia.org/wiki/1971_Grand_Prix_motorcycle_racing_season"
@@ -607,7 +783,7 @@
               "fastestLap": false,
               "pointsOverride": null,
               "team": null,
-              "manufacturer": "Suzuki / Jawa",
+              "manufacturer": "Suzuki",
               "bikeNumber": null,
               "nationality": "AUS",
               "source": "https://en.wikipedia.org/wiki/1971_Grand_Prix_motorcycle_racing_season"
@@ -631,7 +807,7 @@
               "fastestLap": false,
               "pointsOverride": null,
               "team": null,
-              "manufacturer": "Linto / MV Agusta",
+              "manufacturer": "Linto",
               "bikeNumber": null,
               "nationality": "ITA",
               "source": "https://en.wikipedia.org/wiki/1971_Grand_Prix_motorcycle_racing_season"
@@ -713,18 +889,18 @@
       ]
     },
     {
-      "number": 4,
-      "name": "Dutch TT",
-      "circuit": "Assen",
-      "country": "NLD",
-      "date": "1971-06-26",
+      "number": 5,
+      "name": "Belgian Grand Prix",
+      "circuit": "Spa-Francorchamps",
+      "country": "BEL",
+      "date": "1971-07-04",
       "nonChampionship": false,
       "notes": null,
       "sessions": [
         {
           "type": "grand-prix-race",
           "order": 1,
-          "date": "1971-06-26",
+          "date": "1971-07-04",
           "pointsMultiplier": 1,
           "notes": null,
           "results": [
@@ -759,7 +935,7 @@
               "fastestLap": false,
               "pointsOverride": null,
               "team": null,
-              "manufacturer": "Suzuki / Jawa",
+              "manufacturer": "Suzuki",
               "bikeNumber": null,
               "nationality": "AUS",
               "source": "https://en.wikipedia.org/wiki/1971_Grand_Prix_motorcycle_racing_season"
@@ -807,7 +983,7 @@
               "fastestLap": false,
               "pointsOverride": null,
               "team": null,
-              "manufacturer": "Suzuki / Seeley / Linto",
+              "manufacturer": "Suzuki",
               "bikeNumber": null,
               "nationality": "GBR",
               "source": "https://en.wikipedia.org/wiki/1971_Grand_Prix_motorcycle_racing_season"
@@ -855,7 +1031,7 @@
               "fastestLap": false,
               "pointsOverride": null,
               "team": null,
-              "manufacturer": "Coleman-Suzuki",
+              "manufacturer": "Suzuki",
               "bikeNumber": null,
               "nationality": "NZL",
               "source": "https://en.wikipedia.org/wiki/1971_Grand_Prix_motorcycle_racing_season"
@@ -879,7 +1055,7 @@
               "fastestLap": false,
               "pointsOverride": null,
               "team": null,
-              "manufacturer": "Hurst-Seeley / Matchless",
+              "manufacturer": "Seeley",
               "bikeNumber": null,
               "nationality": "NIR",
               "source": "https://en.wikipedia.org/wiki/1971_Grand_Prix_motorcycle_racing_season"
@@ -891,7 +1067,7 @@
               "fastestLap": false,
               "pointsOverride": null,
               "team": null,
-              "manufacturer": "Linto / MV Agusta",
+              "manufacturer": "Linto",
               "bikeNumber": null,
               "nationality": "ITA",
               "source": "https://en.wikipedia.org/wiki/1971_Grand_Prix_motorcycle_racing_season"
@@ -951,7 +1127,7 @@
               "fastestLap": false,
               "pointsOverride": null,
               "team": null,
-              "manufacturer": "Seeley-Matchless",
+              "manufacturer": "Seeley",
               "bikeNumber": null,
               "nationality": "GBR",
               "source": "https://en.wikipedia.org/wiki/1971_Grand_Prix_motorcycle_racing_season"
@@ -973,18 +1149,18 @@
       ]
     },
     {
-      "number": 5,
-      "name": "Belgian Grand Prix",
-      "circuit": "Spa-Francorchamps",
-      "country": "BEL",
-      "date": "1971-07-04",
+      "number": 6,
+      "name": "East German Grand Prix",
+      "circuit": "Sachsenring",
+      "country": "DDR",
+      "date": "1971-07-11",
       "nonChampionship": false,
       "notes": null,
       "sessions": [
         {
           "type": "grand-prix-race",
           "order": 1,
-          "date": "1971-07-04",
+          "date": "1971-07-11",
           "pointsMultiplier": 1,
           "notes": null,
           "results": [
@@ -1007,7 +1183,7 @@
               "fastestLap": false,
               "pointsOverride": null,
               "team": null,
-              "manufacturer": "Coleman-Suzuki",
+              "manufacturer": "Suzuki",
               "bikeNumber": null,
               "nationality": "NZL",
               "source": "https://en.wikipedia.org/wiki/1971_Grand_Prix_motorcycle_racing_season"
@@ -1043,7 +1219,7 @@
               "fastestLap": false,
               "pointsOverride": null,
               "team": null,
-              "manufacturer": "Seeley-Matchless",
+              "manufacturer": "Seeley",
               "bikeNumber": null,
               "nationality": "FIN",
               "source": "https://en.wikipedia.org/wiki/1971_Grand_Prix_motorcycle_racing_season"
@@ -1197,7 +1373,7 @@
       ]
     },
     {
-      "number": 6,
+      "number": 7,
       "name": "Swedish Grand Prix",
       "circuit": "Anderstorp",
       "country": "SWE",
@@ -1231,7 +1407,7 @@
               "fastestLap": false,
               "pointsOverride": null,
               "team": null,
-              "manufacturer": "Coleman-Suzuki",
+              "manufacturer": "Suzuki",
               "bikeNumber": null,
               "nationality": "NZL",
               "source": "https://en.wikipedia.org/wiki/1971_Grand_Prix_motorcycle_racing_season"
@@ -1243,19 +1419,19 @@
               "fastestLap": false,
               "pointsOverride": null,
               "team": null,
-              "manufacturer": "Hurst-Seeley / Matchless",
+              "manufacturer": "Seeley",
               "bikeNumber": null,
               "nationality": "NIR",
               "source": "https://en.wikipedia.org/wiki/1971_Grand_Prix_motorcycle_racing_season"
             },
             {
-              "rider": "ulfe-nilsson",
+              "rider": "ulf-nilsson",
               "position": 4,
               "outcome": "FIN",
               "fastestLap": false,
               "pointsOverride": null,
               "team": null,
-              "manufacturer": "Seeley-Matchless",
+              "manufacturer": "Seeley",
               "bikeNumber": null,
               "nationality": "SWE",
               "source": "https://en.wikipedia.org/wiki/1971_Grand_Prix_motorcycle_racing_season"
@@ -1267,7 +1443,7 @@
               "fastestLap": false,
               "pointsOverride": null,
               "team": null,
-              "manufacturer": "Seeley-Matchless",
+              "manufacturer": "Seeley",
               "bikeNumber": null,
               "nationality": "FIN",
               "source": "https://en.wikipedia.org/wiki/1971_Grand_Prix_motorcycle_racing_season"
@@ -1327,7 +1503,7 @@
               "fastestLap": false,
               "pointsOverride": null,
               "team": null,
-              "manufacturer": "Suzuki / Jawa",
+              "manufacturer": "Suzuki",
               "bikeNumber": null,
               "nationality": "AUS",
               "source": "https://en.wikipedia.org/wiki/1971_Grand_Prix_motorcycle_racing_season"
@@ -1363,7 +1539,7 @@
               "fastestLap": false,
               "pointsOverride": null,
               "team": null,
-              "manufacturer": "Linto / MV Agusta",
+              "manufacturer": "Linto",
               "bikeNumber": null,
               "nationality": "ITA",
               "source": "https://en.wikipedia.org/wiki/1971_Grand_Prix_motorcycle_racing_season"
@@ -1387,7 +1563,7 @@
               "fastestLap": false,
               "pointsOverride": null,
               "team": null,
-              "manufacturer": "Suzuki / Seeley / Linto",
+              "manufacturer": "Suzuki",
               "bikeNumber": null,
               "nationality": "GBR",
               "source": "https://en.wikipedia.org/wiki/1971_Grand_Prix_motorcycle_racing_season"
@@ -1457,7 +1633,7 @@
       ]
     },
     {
-      "number": 7,
+      "number": 8,
       "name": "Finnish Grand Prix",
       "circuit": "Imatra",
       "country": "FIN",
@@ -1515,7 +1691,7 @@
               "fastestLap": false,
               "pointsOverride": null,
               "team": null,
-              "manufacturer": "Coleman-Suzuki",
+              "manufacturer": "Suzuki",
               "bikeNumber": null,
               "nationality": "NZL",
               "source": "https://en.wikipedia.org/wiki/1971_Grand_Prix_motorcycle_racing_season"
@@ -1527,7 +1703,7 @@
               "fastestLap": false,
               "pointsOverride": null,
               "team": null,
-              "manufacturer": "Suzuki / Jawa",
+              "manufacturer": "Suzuki",
               "bikeNumber": null,
               "nationality": "AUS",
               "source": "https://en.wikipedia.org/wiki/1971_Grand_Prix_motorcycle_racing_season"
@@ -1551,7 +1727,7 @@
               "fastestLap": false,
               "pointsOverride": null,
               "team": null,
-              "manufacturer": "Linto / MV Agusta",
+              "manufacturer": "Linto",
               "bikeNumber": null,
               "nationality": "ITA",
               "source": "https://en.wikipedia.org/wiki/1971_Grand_Prix_motorcycle_racing_season"
@@ -1575,7 +1751,7 @@
               "fastestLap": false,
               "pointsOverride": null,
               "team": null,
-              "manufacturer": "Hurst-Seeley / Matchless",
+              "manufacturer": "Seeley",
               "bikeNumber": null,
               "nationality": "NIR",
               "source": "https://en.wikipedia.org/wiki/1971_Grand_Prix_motorcycle_racing_season"
@@ -1611,7 +1787,7 @@
               "fastestLap": false,
               "pointsOverride": null,
               "team": null,
-              "manufacturer": "Seeley-Matchless",
+              "manufacturer": "Seeley",
               "bikeNumber": null,
               "nationality": "FIN",
               "source": "https://en.wikipedia.org/wiki/1971_Grand_Prix_motorcycle_racing_season"
@@ -1623,7 +1799,7 @@
               "fastestLap": false,
               "pointsOverride": null,
               "team": null,
-              "manufacturer": "Suzuki / Seeley / Linto",
+              "manufacturer": "Suzuki",
               "bikeNumber": null,
               "nationality": "GBR",
               "source": "https://en.wikipedia.org/wiki/1971_Grand_Prix_motorcycle_racing_season"
@@ -1693,7 +1869,7 @@
       ]
     },
     {
-      "number": 8,
+      "number": 9,
       "name": "Ulster Grand Prix",
       "circuit": "Dundrod",
       "country": "NIR",
@@ -1715,7 +1891,7 @@
               "fastestLap": true,
               "pointsOverride": null,
               "team": null,
-              "manufacturer": "Suzuki / Jawa",
+              "manufacturer": "Suzuki",
               "bikeNumber": null,
               "nationality": "AUS",
               "source": "https://en.wikipedia.org/wiki/1971_Grand_Prix_motorcycle_racing_season"
@@ -1739,7 +1915,7 @@
               "fastestLap": false,
               "pointsOverride": null,
               "team": null,
-              "manufacturer": "Hurst-Seeley / Matchless",
+              "manufacturer": "Seeley",
               "bikeNumber": null,
               "nationality": "NIR",
               "source": "https://en.wikipedia.org/wiki/1971_Grand_Prix_motorcycle_racing_season"
@@ -1751,7 +1927,7 @@
               "fastestLap": false,
               "pointsOverride": null,
               "team": null,
-              "manufacturer": "Seeley-Matchless",
+              "manufacturer": "Seeley",
               "bikeNumber": null,
               "nationality": "GBR",
               "source": "https://en.wikipedia.org/wiki/1971_Grand_Prix_motorcycle_racing_season"
@@ -1811,7 +1987,7 @@
               "fastestLap": false,
               "pointsOverride": null,
               "team": null,
-              "manufacturer": "Padgett-Yamaha",
+              "manufacturer": "Yamaha",
               "bikeNumber": null,
               "nationality": "NIR",
               "source": "https://en.wikipedia.org/wiki/1971_Grand_Prix_motorcycle_racing_season"
@@ -1835,7 +2011,7 @@
               "fastestLap": false,
               "pointsOverride": null,
               "team": null,
-              "manufacturer": "Coleman-Suzuki",
+              "manufacturer": "Suzuki",
               "bikeNumber": null,
               "nationality": "NZL",
               "source": "https://en.wikipedia.org/wiki/1971_Grand_Prix_motorcycle_racing_season"
@@ -1859,7 +2035,7 @@
               "fastestLap": false,
               "pointsOverride": null,
               "team": null,
-              "manufacturer": "Padgett-Kawasaki",
+              "manufacturer": "Kawasaki",
               "bikeNumber": null,
               "nationality": "GBR",
               "source": "https://en.wikipedia.org/wiki/1971_Grand_Prix_motorcycle_racing_season"
@@ -1881,7 +2057,7 @@
       ]
     },
     {
-      "number": 9,
+      "number": 10,
       "name": "Nations Grand Prix",
       "circuit": "Monza",
       "country": "ITA",
@@ -1903,7 +2079,7 @@
               "fastestLap": false,
               "pointsOverride": null,
               "team": null,
-              "manufacturer": "Linto / MV Agusta",
+              "manufacturer": "Linto",
               "bikeNumber": null,
               "nationality": "ITA",
               "source": "https://en.wikipedia.org/wiki/1971_Grand_Prix_motorcycle_racing_season"
@@ -1951,7 +2127,7 @@
               "fastestLap": false,
               "pointsOverride": null,
               "team": null,
-              "manufacturer": "Suzuki / Jawa",
+              "manufacturer": "Suzuki",
               "bikeNumber": null,
               "nationality": "AUS",
               "source": "https://en.wikipedia.org/wiki/1971_Grand_Prix_motorcycle_racing_season"
@@ -1963,7 +2139,7 @@
               "fastestLap": false,
               "pointsOverride": null,
               "team": null,
-              "manufacturer": "Coleman-Suzuki",
+              "manufacturer": "Suzuki",
               "bikeNumber": null,
               "nationality": "NZL",
               "source": "https://en.wikipedia.org/wiki/1971_Grand_Prix_motorcycle_racing_season"
@@ -2047,7 +2223,7 @@
               "fastestLap": false,
               "pointsOverride": null,
               "team": null,
-              "manufacturer": "Suzuki / Seeley / Linto",
+              "manufacturer": "Suzuki",
               "bikeNumber": null,
               "nationality": "GBR",
               "source": "https://en.wikipedia.org/wiki/1971_Grand_Prix_motorcycle_racing_season"
@@ -2129,7 +2305,7 @@
       ]
     },
     {
-      "number": 10,
+      "number": 11,
       "name": "Spanish Grand Prix",
       "circuit": "Jarama",
       "country": "ESP",
@@ -2163,7 +2339,7 @@
               "fastestLap": false,
               "pointsOverride": null,
               "team": null,
-              "manufacturer": "Seeley-Matchless",
+              "manufacturer": "Seeley",
               "bikeNumber": null,
               "nationality": "FIN",
               "source": "https://en.wikipedia.org/wiki/1971_Grand_Prix_motorcycle_racing_season"
@@ -2199,7 +2375,7 @@
               "fastestLap": false,
               "pointsOverride": null,
               "team": null,
-              "manufacturer": "Coleman-Suzuki",
+              "manufacturer": "Suzuki",
               "bikeNumber": null,
               "nationality": "NZL",
               "source": "https://en.wikipedia.org/wiki/1971_Grand_Prix_motorcycle_racing_season"
@@ -2211,7 +2387,7 @@
               "fastestLap": false,
               "pointsOverride": null,
               "team": null,
-              "manufacturer": "Suzuki / Jawa",
+              "manufacturer": "Suzuki",
               "bikeNumber": null,
               "nationality": "AUS",
               "source": "https://en.wikipedia.org/wiki/1971_Grand_Prix_motorcycle_racing_season"
@@ -2259,7 +2435,7 @@
               "fastestLap": false,
               "pointsOverride": null,
               "team": null,
-              "manufacturer": "Seeley-Matchless",
+              "manufacturer": "Seeley",
               "bikeNumber": null,
               "nationality": "ITA",
               "source": "https://en.wikipedia.org/wiki/1971_Grand_Prix_motorcycle_racing_season"

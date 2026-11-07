@@ -99,7 +99,7 @@
               "fastestLap": false,
               "pointsOverride": null,
               "team": "AMF Harley-Davidson",
-              "manufacturer": "Harley-Davidson",
+              "manufacturer": "Davidson",
               "bikeNumber": null,
               "nationality": "FRA",
               "source": "https://en.wikipedia.org/wiki/1975_French_motorcycle_Grand_Prix"
@@ -411,7 +411,7 @@
               "fastestLap": false,
               "pointsOverride": null,
               "team": null,
-              "manufacturer": "Harley-Davidson",
+              "manufacturer": "Davidson",
               "bikeNumber": null,
               "nationality": "SPA",
               "source": "https://en.wikipedia.org/wiki/1975_French_motorcycle_Grand_Prix"
@@ -518,7 +518,7 @@
               "manufacturer": "Yamaha",
               "bikeNumber": null,
               "nationality": "JPN",
-              "source": "https://en.wikipedia.org/wiki/1975_Austrian_motorcycle_Grand_Prix"
+              "source": "https://en.wikipedia.org/wiki/1975_Grand_Prix_motorcycle_racing_season"
             },
             {
               "rider": "teuvo-lansivuori",
@@ -526,11 +526,11 @@
               "outcome": "FIN",
               "fastestLap": false,
               "pointsOverride": null,
-              "team": "Suzuki Motor Company",
+              "team": "Suzuki",
               "manufacturer": "Suzuki",
               "bikeNumber": null,
               "nationality": "FIN",
-              "source": "https://en.wikipedia.org/wiki/1975_Austrian_motorcycle_Grand_Prix"
+              "source": "https://en.wikipedia.org/wiki/1975_Grand_Prix_motorcycle_racing_season"
             },
             {
               "rider": "phil-read",
@@ -541,8 +541,8 @@
               "team": "MV Agusta",
               "manufacturer": "MV Agusta",
               "bikeNumber": null,
-              "nationality": "GBR",
-              "source": "https://en.wikipedia.org/wiki/1975_Austrian_motorcycle_Grand_Prix"
+              "nationality": "UK",
+              "source": "https://en.wikipedia.org/wiki/1975_Grand_Prix_motorcycle_racing_season"
             },
             {
               "rider": "armando-toracca",
@@ -550,11 +550,11 @@
               "outcome": "FIN",
               "fastestLap": false,
               "pointsOverride": null,
-              "team": null,
+              "team": "MV Agusta",
               "manufacturer": "MV Agusta",
               "bikeNumber": null,
               "nationality": "ITA",
-              "source": "https://en.wikipedia.org/wiki/1975_Austrian_motorcycle_Grand_Prix"
+              "source": "https://en.wikipedia.org/wiki/1975_Grand_Prix_motorcycle_racing_season"
             },
             {
               "rider": "horst-lahfeld",
@@ -562,11 +562,11 @@
               "outcome": "FIN",
               "fastestLap": false,
               "pointsOverride": null,
-              "team": null,
+              "team": "König Motorenbau",
               "manufacturer": "König",
               "bikeNumber": null,
-              "nationality": "BRD",
-              "source": "https://en.wikipedia.org/wiki/1975_Austrian_motorcycle_Grand_Prix"
+              "nationality": "GER",
+              "source": "https://en.wikipedia.org/wiki/1975_Grand_Prix_motorcycle_racing_season"
             },
             {
               "rider": "dieter-braun",
@@ -577,8 +577,8 @@
               "team": "Mitsui Maschinen",
               "manufacturer": "Yamaha",
               "bikeNumber": null,
-              "nationality": "BRD",
-              "source": "https://en.wikipedia.org/wiki/1975_Austrian_motorcycle_Grand_Prix"
+              "nationality": "RFA",
+              "source": "https://en.wikipedia.org/wiki/1975_Grand_Prix_motorcycle_racing_season"
             },
             {
               "rider": "karl-auer",
@@ -590,7 +590,7 @@
               "manufacturer": "Yamaha",
               "bikeNumber": null,
               "nationality": "AUT",
-              "source": "https://en.wikipedia.org/wiki/1975_Austrian_motorcycle_Grand_Prix"
+              "source": "https://en.wikipedia.org/wiki/1975_Grand_Prix_motorcycle_racing_season"
             },
             {
               "rider": "tom-herron",
@@ -602,7 +602,7 @@
               "manufacturer": "Yamaha",
               "bikeNumber": null,
               "nationality": "GBR",
-              "source": "https://en.wikipedia.org/wiki/1975_Austrian_motorcycle_Grand_Prix"
+              "source": "https://en.wikipedia.org/wiki/1975_Grand_Prix_motorcycle_racing_season"
             },
             {
               "rider": "alex-george",
@@ -610,11 +610,11 @@
               "outcome": "FIN",
               "fastestLap": false,
               "pointsOverride": null,
-              "team": null,
+              "team": "Hermetite Racing International",
               "manufacturer": "Yamaha",
               "bikeNumber": null,
-              "nationality": "GBR",
-              "source": "https://en.wikipedia.org/wiki/1975_Austrian_motorcycle_Grand_Prix"
+              "nationality": "UK",
+              "source": "https://en.wikipedia.org/wiki/1975_Grand_Prix_motorcycle_racing_season"
             },
             {
               "rider": "thierry-tchernine",
@@ -625,8 +625,8 @@
               "team": null,
               "manufacturer": "Yamaha",
               "bikeNumber": null,
-              "nationality": "FRA",
-              "source": "https://en.wikipedia.org/wiki/1975_Austrian_motorcycle_Grand_Prix"
+              "nationality": "BEL",
+              "source": "https://en.wikipedia.org/wiki/1975_Grand_Prix_motorcycle_racing_season"
             },
             {
               "rider": "charlie-williams",
@@ -638,19 +638,7 @@
               "manufacturer": "Yamaha",
               "bikeNumber": null,
               "nationality": "GBR",
-              "source": "https://en.wikipedia.org/wiki/1975_Austrian_motorcycle_Grand_Prix"
-            },
-            {
-              "rider": "reinhard-hiller",
-              "position": 12,
-              "outcome": "FIN",
-              "fastestLap": false,
-              "pointsOverride": null,
-              "team": null,
-              "manufacturer": "König",
-              "bikeNumber": null,
-              "nationality": "BRD",
-              "source": "https://en.wikipedia.org/wiki/1975_Austrian_motorcycle_Grand_Prix"
+              "source": "https://en.wikipedia.org/wiki/1975_Grand_Prix_motorcycle_racing_season"
             },
             {
               "rider": "helmut-kassner",
@@ -661,20 +649,8 @@
               "team": null,
               "manufacturer": "Yamaha",
               "bikeNumber": null,
-              "nationality": "BRD",
-              "source": "https://en.wikipedia.org/wiki/1975_Austrian_motorcycle_Grand_Prix"
-            },
-            {
-              "rider": "alfred-bajohr",
-              "position": 14,
-              "outcome": "FIN",
-              "fastestLap": false,
-              "pointsOverride": null,
-              "team": null,
-              "manufacturer": "König",
-              "bikeNumber": null,
-              "nationality": "BRD",
-              "source": "https://en.wikipedia.org/wiki/1975_Austrian_motorcycle_Grand_Prix"
+              "nationality": "RFA",
+              "source": "https://en.wikipedia.org/wiki/1975_Grand_Prix_motorcycle_racing_season"
             },
             {
               "rider": "hans-braumandl",
@@ -686,31 +662,7 @@
               "manufacturer": "Yamaha",
               "bikeNumber": null,
               "nationality": "AUT",
-              "source": "https://en.wikipedia.org/wiki/1975_Austrian_motorcycle_Grand_Prix"
-            },
-            {
-              "rider": "boet-van-dulmen",
-              "position": 16,
-              "outcome": "FIN",
-              "fastestLap": false,
-              "pointsOverride": null,
-              "team": null,
-              "manufacturer": "Yamaha",
-              "bikeNumber": null,
-              "nationality": "NED",
-              "source": "https://en.wikipedia.org/wiki/1975_Austrian_motorcycle_Grand_Prix"
-            },
-            {
-              "rider": "frank-fellmann",
-              "position": 17,
-              "outcome": "FIN",
-              "fastestLap": false,
-              "pointsOverride": null,
-              "team": null,
-              "manufacturer": "König",
-              "bikeNumber": null,
-              "nationality": "BRD",
-              "source": "https://en.wikipedia.org/wiki/1975_Austrian_motorcycle_Grand_Prix"
+              "source": "https://en.wikipedia.org/wiki/1975_Grand_Prix_motorcycle_racing_season"
             },
             {
               "rider": "edmund-czihak",
@@ -718,143 +670,11 @@
               "outcome": "FIN",
               "fastestLap": false,
               "pointsOverride": null,
-              "team": null,
-              "manufacturer": "König",
-              "bikeNumber": null,
-              "nationality": "BRD",
-              "source": "https://en.wikipedia.org/wiki/1975_Austrian_motorcycle_Grand_Prix"
-            },
-            {
-              "rider": "max-wiener",
-              "position": 19,
-              "outcome": "FIN",
-              "fastestLap": false,
-              "pointsOverride": null,
-              "team": null,
-              "manufacturer": "Rotax",
-              "bikeNumber": null,
-              "nationality": "AUT",
-              "source": "https://en.wikipedia.org/wiki/1975_Austrian_motorcycle_Grand_Prix"
-            },
-            {
-              "rider": "peter-balaz",
-              "position": 20,
-              "outcome": "FIN",
-              "fastestLap": false,
-              "pointsOverride": null,
-              "team": null,
+              "team": "Zweirad",
               "manufacturer": "Yamaha",
               "bikeNumber": null,
-              "nationality": "CSK",
-              "source": "https://en.wikipedia.org/wiki/1975_Austrian_motorcycle_Grand_Prix"
-            },
-            {
-              "rider": "walter-kaletsch",
-              "position": 21,
-              "outcome": "FIN",
-              "fastestLap": false,
-              "pointsOverride": null,
-              "team": null,
-              "manufacturer": "Yamaha",
-              "bikeNumber": null,
-              "nationality": "BRD",
-              "source": "https://en.wikipedia.org/wiki/1975_Austrian_motorcycle_Grand_Prix"
-            },
-            {
-              "rider": "gary-scott",
-              "position": null,
-              "outcome": "DNF",
-              "fastestLap": false,
-              "pointsOverride": null,
-              "team": null,
-              "manufacturer": "Harley-Davidson",
-              "bikeNumber": null,
-              "nationality": "USA",
-              "source": "https://en.wikipedia.org/wiki/1975_Austrian_motorcycle_Grand_Prix"
-            },
-            {
-              "rider": "ernst-hiller",
-              "position": null,
-              "outcome": "DNF",
-              "fastestLap": false,
-              "pointsOverride": null,
-              "team": null,
-              "manufacturer": "König",
-              "bikeNumber": null,
-              "nationality": "BRD",
-              "source": "https://en.wikipedia.org/wiki/1975_Austrian_motorcycle_Grand_Prix"
-            },
-            {
-              "rider": "michael-schmid",
-              "position": null,
-              "outcome": "DNF",
-              "fastestLap": false,
-              "pointsOverride": null,
-              "team": "Racing Team NO",
-              "manufacturer": "Rotax",
-              "bikeNumber": null,
-              "nationality": "AUT",
-              "source": "https://en.wikipedia.org/wiki/1975_Austrian_motorcycle_Grand_Prix"
-            },
-            {
-              "rider": "john-newbold",
-              "position": null,
-              "outcome": "DNF",
-              "fastestLap": false,
-              "pointsOverride": null,
-              "team": null,
-              "manufacturer": "Suzuki",
-              "bikeNumber": null,
-              "nationality": "GBR",
-              "source": "https://en.wikipedia.org/wiki/1975_Austrian_motorcycle_Grand_Prix"
-            },
-            {
-              "rider": "stan-woods",
-              "position": null,
-              "outcome": "DNF",
-              "fastestLap": false,
-              "pointsOverride": null,
-              "team": null,
-              "manufacturer": "Suzuki",
-              "bikeNumber": null,
-              "nationality": "GBR",
-              "source": "https://en.wikipedia.org/wiki/1975_Austrian_motorcycle_Grand_Prix"
-            },
-            {
-              "rider": "adu-celso-santos",
-              "position": null,
-              "outcome": "DNF",
-              "fastestLap": false,
-              "pointsOverride": null,
-              "team": "Carvalho Racing",
-              "manufacturer": "Yamaha",
-              "bikeNumber": null,
-              "nationality": "BRA",
-              "source": "https://en.wikipedia.org/wiki/1975_Austrian_motorcycle_Grand_Prix"
-            },
-            {
-              "rider": "chas-mortimer",
-              "position": null,
-              "outcome": "DNF",
-              "fastestLap": false,
-              "pointsOverride": null,
-              "team": "Carvalho Racing",
-              "manufacturer": "Yamaha",
-              "bikeNumber": null,
-              "nationality": "GBR",
-              "source": "https://en.wikipedia.org/wiki/1975_Austrian_motorcycle_Grand_Prix"
-            },
-            {
-              "rider": "franz-laimbock",
-              "position": null,
-              "outcome": "DNF",
-              "fastestLap": false,
-              "pointsOverride": null,
-              "team": null,
-              "manufacturer": "Yamaha",
-              "bikeNumber": null,
-              "nationality": "AUT",
-              "source": "https://en.wikipedia.org/wiki/1975_Austrian_motorcycle_Grand_Prix"
+              "nationality": "GER",
+              "source": "https://en.wikipedia.org/wiki/1975_Grand_Prix_motorcycle_racing_season"
             },
             {
               "rider": "giacomo-agostini",
@@ -866,31 +686,7 @@
               "manufacturer": "Yamaha",
               "bikeNumber": null,
               "nationality": "ITA",
-              "source": "https://en.wikipedia.org/wiki/1975_Austrian_motorcycle_Grand_Prix"
-            },
-            {
-              "rider": "hans-stadelmann",
-              "position": null,
-              "outcome": "DNF",
-              "fastestLap": false,
-              "pointsOverride": null,
-              "team": null,
-              "manufacturer": "Yamaha",
-              "bikeNumber": null,
-              "nationality": "SUI",
-              "source": "https://en.wikipedia.org/wiki/1975_Austrian_motorcycle_Grand_Prix"
-            },
-            {
-              "rider": "jack-findlay",
-              "position": null,
-              "outcome": "DNF",
-              "fastestLap": false,
-              "pointsOverride": null,
-              "team": null,
-              "manufacturer": "Yamaha",
-              "bikeNumber": null,
-              "nationality": "AUS",
-              "source": "https://en.wikipedia.org/wiki/1975_Austrian_motorcycle_Grand_Prix"
+              "source": "https://en.wikipedia.org/wiki/1975_Grand_Prix_motorcycle_racing_season"
             },
             {
               "rider": "john-williams",
@@ -898,11 +694,59 @@
               "outcome": "DNF",
               "fastestLap": false,
               "pointsOverride": null,
-              "team": null,
+              "team": "Gerald Brown",
               "manufacturer": "Yamaha",
               "bikeNumber": null,
+              "nationality": "UK",
+              "source": "https://en.wikipedia.org/wiki/1975_Grand_Prix_motorcycle_racing_season"
+            },
+            {
+              "rider": "john-newbold",
+              "position": null,
+              "outcome": "DNF",
+              "fastestLap": false,
+              "pointsOverride": null,
+              "team": "Suzuki GB",
+              "manufacturer": "Suzuki",
+              "bikeNumber": null,
+              "nationality": "UK",
+              "source": "https://en.wikipedia.org/wiki/1975_Grand_Prix_motorcycle_racing_season"
+            },
+            {
+              "rider": "jack-findlay",
+              "position": null,
+              "outcome": "DNF",
+              "fastestLap": false,
+              "pointsOverride": null,
+              "team": "Suzuki",
+              "manufacturer": "Suzuki",
+              "bikeNumber": null,
+              "nationality": "AUS",
+              "source": "https://en.wikipedia.org/wiki/1975_Grand_Prix_motorcycle_racing_season"
+            },
+            {
+              "rider": "chas-mortimer",
+              "position": null,
+              "outcome": "DNF",
+              "fastestLap": false,
+              "pointsOverride": null,
+              "team": "Sarome Racing",
+              "manufacturer": "Yamaha",
+              "bikeNumber": null,
+              "nationality": "UK",
+              "source": "https://en.wikipedia.org/wiki/1975_Grand_Prix_motorcycle_racing_season"
+            },
+            {
+              "rider": "stan-woods",
+              "position": null,
+              "outcome": "DNF",
+              "fastestLap": false,
+              "pointsOverride": null,
+              "team": null,
+              "manufacturer": "Suzuki",
+              "bikeNumber": null,
               "nationality": "GBR",
-              "source": "https://en.wikipedia.org/wiki/1975_Austrian_motorcycle_Grand_Prix"
+              "source": "https://en.wikipedia.org/wiki/1975_Grand_Prix_motorcycle_racing_season"
             },
             {
               "rider": "patrick-pons",
@@ -910,11 +754,11 @@
               "outcome": "DNF",
               "fastestLap": false,
               "pointsOverride": null,
-              "team": "Equipe Sonauto BP Gauloises",
+              "team": "Sonauto Gauloises-Yamaha",
               "manufacturer": "Yamaha",
               "bikeNumber": null,
               "nationality": "FRA",
-              "source": "https://en.wikipedia.org/wiki/1975_Austrian_motorcycle_Grand_Prix"
+              "source": "https://en.wikipedia.org/wiki/1975_Grand_Prix_motorcycle_racing_season"
             },
             {
               "rider": "steve-ellis",
@@ -926,10 +770,10 @@
               "manufacturer": "Yamaha",
               "bikeNumber": null,
               "nationality": "GBR",
-              "source": "https://en.wikipedia.org/wiki/1975_Austrian_motorcycle_Grand_Prix"
+              "source": "https://en.wikipedia.org/wiki/1975_Grand_Prix_motorcycle_racing_season"
             },
             {
-              "rider": "victor-palomo",
+              "rider": "hans-stadelmann",
               "position": null,
               "outcome": "DNF",
               "fastestLap": false,
@@ -937,20 +781,20 @@
               "team": null,
               "manufacturer": "Yamaha",
               "bikeNumber": null,
-              "nationality": "SPA",
-              "source": "https://en.wikipedia.org/wiki/1975_Austrian_motorcycle_Grand_Prix"
+              "nationality": "CH",
+              "source": "https://en.wikipedia.org/wiki/1975_Grand_Prix_motorcycle_racing_season"
             },
             {
-              "rider": "barry-sheene",
+              "rider": "adu-celso-santos",
               "position": null,
-              "outcome": "DNS",
+              "outcome": "DNF",
               "fastestLap": false,
               "pointsOverride": null,
-              "team": "Suzuki Motor Company",
-              "manufacturer": "Suzuki",
+              "team": "Carvalho Racing",
+              "manufacturer": "Yamaha",
               "bikeNumber": null,
-              "nationality": "GBR",
-              "source": "https://en.wikipedia.org/wiki/1975_Austrian_motorcycle_Grand_Prix"
+              "nationality": "BRA",
+              "source": "https://en.wikipedia.org/wiki/1975_Grand_Prix_motorcycle_racing_season"
             }
           ]
         }
@@ -1291,7 +1135,7 @@
               "fastestLap": false,
               "pointsOverride": null,
               "team": "AMF Harley-Davidson",
-              "manufacturer": "Harley-Davidson",
+              "manufacturer": "Davidson",
               "bikeNumber": null,
               "nationality": "FRA",
               "source": "https://en.wikipedia.org/wiki/1975_German_motorcycle_Grand_Prix"
@@ -1339,7 +1183,7 @@
               "fastestLap": false,
               "pointsOverride": null,
               "team": null,
-              "manufacturer": "Harley-Davidson",
+              "manufacturer": "Davidson",
               "bikeNumber": null,
               "nationality": "ITA",
               "source": "https://en.wikipedia.org/wiki/1975_German_motorcycle_Grand_Prix"
@@ -1581,7 +1425,7 @@
               "source": "https://en.wikipedia.org/wiki/1975_Nations_motorcycle_Grand_Prix"
             },
             {
-              "rider": "rudolph-keller-rudolph",
+              "rider": "rudolph-keller",
               "position": 10,
               "outcome": "FIN",
               "fastestLap": false,
@@ -1635,7 +1479,7 @@
               "fastestLap": false,
               "pointsOverride": null,
               "team": null,
-              "manufacturer": "Harley-Davidson",
+              "manufacturer": "Davidson",
               "bikeNumber": null,
               "nationality": "ITA",
               "source": "https://en.wikipedia.org/wiki/1975_Nations_motorcycle_Grand_Prix"
@@ -1671,7 +1515,7 @@
               "fastestLap": false,
               "pointsOverride": null,
               "team": "AMF Harley-Davidson",
-              "manufacturer": "Harley-Davidson",
+              "manufacturer": "Davidson",
               "bikeNumber": null,
               "nationality": "FRA",
               "source": "https://en.wikipedia.org/wiki/1975_Nations_motorcycle_Grand_Prix"
@@ -1901,7 +1745,7 @@
               "source": "https://en.wikipedia.org/wiki/1975_Isle_of_Man_TT"
             },
             {
-              "rider": "billie-guthrie",
+              "rider": "billy-guthrie",
               "position": 4,
               "outcome": "FIN",
               "fastestLap": false,
@@ -1931,7 +1775,7 @@
               "fastestLap": false,
               "pointsOverride": null,
               "team": "EC Oakley",
-              "manufacturer": "Yamsel",
+              "manufacturer": "Seeley",
               "bikeNumber": null,
               "nationality": "GBR",
               "source": "https://en.wikipedia.org/wiki/1975_Isle_of_Man_TT"
@@ -2357,7 +2201,7 @@
               "source": "https://en.wikipedia.org/wiki/1975_Isle_of_Man_TT"
             },
             {
-              "rider": "roger-nichols",
+              "rider": "roger-nicholls",
               "position": null,
               "outcome": "DNF",
               "fastestLap": false,
@@ -2375,7 +2219,7 @@
               "fastestLap": false,
               "pointsOverride": null,
               "team": null,
-              "manufacturer": "Yamsel",
+              "manufacturer": "Seeley",
               "bikeNumber": null,
               "nationality": "GBR",
               "source": "https://en.wikipedia.org/wiki/1975_Isle_of_Man_TT"
@@ -2735,7 +2579,7 @@
               "fastestLap": false,
               "pointsOverride": null,
               "team": null,
-              "manufacturer": "Yamsel",
+              "manufacturer": "Seeley",
               "bikeNumber": null,
               "nationality": "GBR",
               "source": "https://en.wikipedia.org/wiki/1975_Isle_of_Man_TT"
@@ -2747,7 +2591,7 @@
               "fastestLap": false,
               "pointsOverride": null,
               "team": null,
-              "manufacturer": "Yamsel",
+              "manufacturer": "Seeley",
               "bikeNumber": null,
               "nationality": "GBR",
               "source": "https://en.wikipedia.org/wiki/1975_Isle_of_Man_TT"
@@ -3243,7 +3087,7 @@
               "fastestLap": false,
               "pointsOverride": null,
               "team": null,
-              "manufacturer": "Harley-Davidson",
+              "manufacturer": "Davidson",
               "bikeNumber": null,
               "nationality": "RSA",
               "source": "https://en.wikipedia.org/wiki/1975_Belgian_motorcycle_Grand_Prix"
@@ -3635,7 +3479,7 @@
               "fastestLap": false,
               "pointsOverride": null,
               "team": null,
-              "manufacturer": "Harley-Davidson",
+              "manufacturer": "Davidson",
               "bikeNumber": null,
               "nationality": "FRA",
               "source": "https://en.wikipedia.org/wiki/1975_Swedish_motorcycle_Grand_Prix"
@@ -3707,7 +3551,7 @@
               "fastestLap": false,
               "pointsOverride": null,
               "team": null,
-              "manufacturer": "Harley-Davidson",
+              "manufacturer": "Davidson",
               "bikeNumber": null,
               "nationality": "ITA",
               "source": "https://en.wikipedia.org/wiki/1975_Swedish_motorcycle_Grand_Prix"

@@ -75,7 +75,7 @@
               "fastestLap": false,
               "pointsOverride": null,
               "team": null,
-              "manufacturer": "König / Kawasaki",
+              "manufacturer": "König",
               "bikeNumber": null,
               "nationality": "DEU",
               "source": "https://en.wikipedia.org/wiki/1972_Grand_Prix_motorcycle_racing_season"
@@ -99,7 +99,7 @@
               "fastestLap": false,
               "pointsOverride": null,
               "team": null,
-              "manufacturer": "Jada-Suzuki",
+              "manufacturer": "Suzuki",
               "bikeNumber": null,
               "nationality": "AUS",
               "source": "https://en.wikipedia.org/wiki/1972_Grand_Prix_motorcycle_racing_season"
@@ -111,7 +111,7 @@
               "fastestLap": false,
               "pointsOverride": null,
               "team": null,
-              "manufacturer": "Honda / Yamaha / Paton",
+              "manufacturer": "Honda",
               "bikeNumber": null,
               "nationality": "GBR",
               "source": "https://en.wikipedia.org/wiki/1972_Grand_Prix_motorcycle_racing_season"
@@ -135,7 +135,7 @@
               "fastestLap": false,
               "pointsOverride": null,
               "team": null,
-              "manufacturer": "Yamaha / Suzuki",
+              "manufacturer": "Yamaha",
               "bikeNumber": null,
               "nationality": "DEU",
               "source": "https://en.wikipedia.org/wiki/1972_Grand_Prix_motorcycle_racing_season"
@@ -195,7 +195,7 @@
               "fastestLap": false,
               "pointsOverride": null,
               "team": null,
-              "manufacturer": "Yamaha / Suzuki",
+              "manufacturer": "Yamaha",
               "bikeNumber": null,
               "nationality": "GBR",
               "source": "https://en.wikipedia.org/wiki/1972_Grand_Prix_motorcycle_racing_season"
@@ -333,7 +333,7 @@
               "source": "https://en.wikipedia.org/wiki/1972_Grand_Prix_motorcycle_racing_season"
             },
             {
-              "rider": "ted-janssen",
+              "rider": "ted-jansen",
               "position": 27,
               "outcome": "FIN",
               "fastestLap": false,
@@ -369,7 +369,7 @@
               "source": "https://en.wikipedia.org/wiki/1972_Grand_Prix_motorcycle_racing_season"
             },
             {
-              "rider": "paul-eickleberg",
+              "rider": "paul-eickelberg",
               "position": 30,
               "outcome": "FIN",
               "fastestLap": false,
@@ -411,7 +411,7 @@
               "fastestLap": false,
               "pointsOverride": null,
               "team": null,
-              "manufacturer": "Kawasaki / Yamaha",
+              "manufacturer": "Kawasaki",
               "bikeNumber": null,
               "nationality": "FRA",
               "source": "https://en.wikipedia.org/wiki/1972_Grand_Prix_motorcycle_racing_season"
@@ -555,7 +555,7 @@
               "fastestLap": false,
               "pointsOverride": null,
               "team": null,
-              "manufacturer": "Riemanoc-Yamaha",
+              "manufacturer": "Yamaha",
               "bikeNumber": null,
               "nationality": "NLD",
               "source": "https://en.wikipedia.org/wiki/1972_Grand_Prix_motorcycle_racing_season"
@@ -659,7 +659,7 @@
               "fastestLap": false,
               "pointsOverride": null,
               "team": null,
-              "manufacturer": "Honda / Yamaha / Paton",
+              "manufacturer": "Honda",
               "bikeNumber": null,
               "nationality": "GBR",
               "source": "https://en.wikipedia.org/wiki/1972_Grand_Prix_motorcycle_racing_season"
@@ -803,7 +803,7 @@
               "fastestLap": false,
               "pointsOverride": null,
               "team": null,
-              "manufacturer": "Jada-Suzuki",
+              "manufacturer": "Suzuki",
               "bikeNumber": null,
               "nationality": "AUS",
               "source": "https://en.wikipedia.org/wiki/1972_Grand_Prix_motorcycle_racing_season"
@@ -827,7 +827,7 @@
               "fastestLap": false,
               "pointsOverride": null,
               "team": null,
-              "manufacturer": "Yamaha / Suzuki",
+              "manufacturer": "Yamaha",
               "bikeNumber": null,
               "nationality": "GBR",
               "source": "https://en.wikipedia.org/wiki/1972_Grand_Prix_motorcycle_racing_season"
@@ -839,7 +839,7 @@
               "fastestLap": false,
               "pointsOverride": null,
               "team": null,
-              "manufacturer": "Kawasaki / Yamaha",
+              "manufacturer": "Kawasaki",
               "bikeNumber": null,
               "nationality": "FRA",
               "source": "https://en.wikipedia.org/wiki/1972_Grand_Prix_motorcycle_racing_season"
@@ -1039,7 +1039,7 @@
               "fastestLap": false,
               "pointsOverride": null,
               "team": null,
-              "manufacturer": "Kawasaki / Paton",
+              "manufacturer": "Kawasaki",
               "bikeNumber": null,
               "nationality": "ITA",
               "source": "https://en.wikipedia.org/wiki/1972_Grand_Prix_motorcycle_racing_season"
@@ -1075,7 +1075,7 @@
               "fastestLap": false,
               "pointsOverride": null,
               "team": null,
-              "manufacturer": "Paton / Kawasaki",
+              "manufacturer": "Paton",
               "bikeNumber": null,
               "nationality": "ITA",
               "source": "https://en.wikipedia.org/wiki/1972_Grand_Prix_motorcycle_racing_season"
@@ -1111,7 +1111,7 @@
               "fastestLap": false,
               "pointsOverride": null,
               "team": null,
-              "manufacturer": "Kawasaki / Yamaha",
+              "manufacturer": "Kawasaki",
               "bikeNumber": null,
               "nationality": "FRA",
               "source": "https://en.wikipedia.org/wiki/1972_Grand_Prix_motorcycle_racing_season"
@@ -1371,7 +1371,7 @@
               "fastestLap": false,
               "pointsOverride": null,
               "team": null,
-              "manufacturer": "Yamaha / Suzuki",
+              "manufacturer": "Yamaha",
               "bikeNumber": null,
               "nationality": "DEU",
               "source": "https://en.wikipedia.org/wiki/1972_Grand_Prix_motorcycle_racing_season"
@@ -1383,7 +1383,7 @@
               "fastestLap": false,
               "pointsOverride": null,
               "team": null,
-              "manufacturer": "Paton / Kawasaki",
+              "manufacturer": "Paton",
               "bikeNumber": null,
               "nationality": "ITA",
               "source": "https://en.wikipedia.org/wiki/1972_Grand_Prix_motorcycle_racing_season"
@@ -1407,7 +1407,7 @@
               "fastestLap": false,
               "pointsOverride": null,
               "team": null,
-              "manufacturer": "Jada-Suzuki",
+              "manufacturer": "Suzuki",
               "bikeNumber": null,
               "nationality": "AUS",
               "source": "https://en.wikipedia.org/wiki/1972_Grand_Prix_motorcycle_racing_season"
@@ -1419,7 +1419,7 @@
               "fastestLap": false,
               "pointsOverride": null,
               "team": null,
-              "manufacturer": "Honda / Yamaha / Paton",
+              "manufacturer": "Honda",
               "bikeNumber": null,
               "nationality": "GBR",
               "source": "https://en.wikipedia.org/wiki/1972_Grand_Prix_motorcycle_racing_season"
@@ -1443,7 +1443,7 @@
               "fastestLap": false,
               "pointsOverride": null,
               "team": null,
-              "manufacturer": "Yamaha / Suzuki",
+              "manufacturer": "Yamaha",
               "bikeNumber": null,
               "nationality": "GBR",
               "source": "https://en.wikipedia.org/wiki/1972_Grand_Prix_motorcycle_racing_season"
@@ -1479,7 +1479,7 @@
               "fastestLap": false,
               "pointsOverride": null,
               "team": null,
-              "manufacturer": "Kawasaki / Yamaha",
+              "manufacturer": "Kawasaki",
               "bikeNumber": null,
               "nationality": "FRA",
               "source": "https://en.wikipedia.org/wiki/1972_Grand_Prix_motorcycle_racing_season"
@@ -1491,7 +1491,7 @@
               "fastestLap": false,
               "pointsOverride": null,
               "team": null,
-              "manufacturer": "Kawasaki / Paton",
+              "manufacturer": "Kawasaki",
               "bikeNumber": null,
               "nationality": "ITA",
               "source": "https://en.wikipedia.org/wiki/1972_Grand_Prix_motorcycle_racing_season"
@@ -1667,7 +1667,7 @@
               "fastestLap": false,
               "pointsOverride": null,
               "team": null,
-              "manufacturer": "Seeley-Matchless",
+              "manufacturer": "Seeley",
               "bikeNumber": null,
               "nationality": "GBR",
               "source": "https://en.wikipedia.org/wiki/1972_Grand_Prix_motorcycle_racing_season"
@@ -1799,13 +1799,13 @@
               "fastestLap": false,
               "pointsOverride": null,
               "team": null,
-              "manufacturer": "Cunningham-Suzuki",
+              "manufacturer": "Suzuki",
               "bikeNumber": null,
               "nationality": "GBR",
               "source": "https://en.wikipedia.org/wiki/1972_Grand_Prix_motorcycle_racing_season"
             },
             {
-              "rider": "garry-mateer",
+              "rider": "gerry-mateer",
               "position": 16,
               "outcome": "FIN",
               "fastestLap": false,
@@ -1823,7 +1823,7 @@
               "fastestLap": false,
               "pointsOverride": null,
               "team": null,
-              "manufacturer": "Petty-Norton",
+              "manufacturer": "Norton",
               "bikeNumber": null,
               "nationality": "GBR",
               "source": "https://en.wikipedia.org/wiki/1972_Grand_Prix_motorcycle_racing_season"
@@ -1835,7 +1835,7 @@
               "fastestLap": false,
               "pointsOverride": null,
               "team": null,
-              "manufacturer": "Cowles-Matchless",
+              "manufacturer": "Matchless",
               "bikeNumber": null,
               "nationality": "GBR",
               "source": "https://en.wikipedia.org/wiki/1972_Grand_Prix_motorcycle_racing_season"
@@ -1931,7 +1931,7 @@
               "fastestLap": false,
               "pointsOverride": null,
               "team": null,
-              "manufacturer": "Velocette-Metisse",
+              "manufacturer": "Métisse",
               "bikeNumber": null,
               "nationality": "IOM",
               "source": "https://en.wikipedia.org/wiki/1972_Grand_Prix_motorcycle_racing_season"
@@ -1979,7 +1979,7 @@
               "fastestLap": false,
               "pointsOverride": null,
               "team": null,
-              "manufacturer": "Crooks-Suzuki",
+              "manufacturer": "Suzuki",
               "bikeNumber": null,
               "nationality": "GBR",
               "source": "https://en.wikipedia.org/wiki/1972_Grand_Prix_motorcycle_racing_season"
@@ -2039,7 +2039,7 @@
               "fastestLap": false,
               "pointsOverride": null,
               "team": null,
-              "manufacturer": "Oakley-Seeley",
+              "manufacturer": "Seeley",
               "bikeNumber": null,
               "nationality": "GBR",
               "source": "https://en.wikipedia.org/wiki/1972_Grand_Prix_motorcycle_racing_season"
@@ -2051,7 +2051,7 @@
               "fastestLap": false,
               "pointsOverride": null,
               "team": null,
-              "manufacturer": "Jada-Suzuki",
+              "manufacturer": "Suzuki",
               "bikeNumber": null,
               "nationality": "AUS",
               "source": "https://en.wikipedia.org/wiki/1972_Grand_Prix_motorcycle_racing_season"
@@ -2113,7 +2113,7 @@
               "source": "https://en.wikipedia.org/wiki/1972_Grand_Prix_motorcycle_racing_season"
             },
             {
-              "rider": "paul-eickleberg",
+              "rider": "paul-eickelberg",
               "position": 3,
               "outcome": "FIN",
               "fastestLap": false,
@@ -2191,7 +2191,7 @@
               "fastestLap": false,
               "pointsOverride": null,
               "team": null,
-              "manufacturer": "Yamaha / Suzuki",
+              "manufacturer": "Yamaha",
               "bikeNumber": null,
               "nationality": "GBR",
               "source": "https://en.wikipedia.org/wiki/1972_Grand_Prix_motorcycle_racing_season"
@@ -2275,7 +2275,7 @@
               "fastestLap": false,
               "pointsOverride": null,
               "team": null,
-              "manufacturer": "Jada-Suzuki",
+              "manufacturer": "Suzuki",
               "bikeNumber": null,
               "nationality": "AUS",
               "source": "https://en.wikipedia.org/wiki/1972_Grand_Prix_motorcycle_racing_season"
@@ -2287,7 +2287,7 @@
               "fastestLap": false,
               "pointsOverride": null,
               "team": null,
-              "manufacturer": "Honda / Yamaha / Paton",
+              "manufacturer": "Honda",
               "bikeNumber": null,
               "nationality": "GBR",
               "source": "https://en.wikipedia.org/wiki/1972_Grand_Prix_motorcycle_racing_season"
@@ -2323,7 +2323,7 @@
               "fastestLap": false,
               "pointsOverride": null,
               "team": null,
-              "manufacturer": "Kawasaki / Yamaha",
+              "manufacturer": "Kawasaki",
               "bikeNumber": null,
               "nationality": "FRA",
               "source": "https://en.wikipedia.org/wiki/1972_Grand_Prix_motorcycle_racing_season"
@@ -2347,7 +2347,7 @@
               "fastestLap": false,
               "pointsOverride": null,
               "team": null,
-              "manufacturer": "Suzuki / Kawasaki",
+              "manufacturer": "Suzuki",
               "bikeNumber": null,
               "nationality": "FIN",
               "source": "https://en.wikipedia.org/wiki/1972_Grand_Prix_motorcycle_racing_season"
@@ -2451,7 +2451,7 @@
               "fastestLap": false,
               "pointsOverride": null,
               "team": null,
-              "manufacturer": "Jada-Suzuki",
+              "manufacturer": "Suzuki",
               "bikeNumber": null,
               "nationality": "AUS",
               "source": "https://en.wikipedia.org/wiki/1972_Grand_Prix_motorcycle_racing_season"
@@ -2463,13 +2463,13 @@
               "fastestLap": false,
               "pointsOverride": null,
               "team": null,
-              "manufacturer": "Yamaha / Suzuki",
+              "manufacturer": "Yamaha",
               "bikeNumber": null,
               "nationality": "GBR",
               "source": "https://en.wikipedia.org/wiki/1972_Grand_Prix_motorcycle_racing_season"
             },
             {
-              "rider": "paul-eickleberg",
+              "rider": "paul-eickelberg",
               "position": 8,
               "outcome": "FIN",
               "fastestLap": false,
@@ -2487,7 +2487,7 @@
               "fastestLap": false,
               "pointsOverride": null,
               "team": null,
-              "manufacturer": "Honda / Yamaha / Paton",
+              "manufacturer": "Honda",
               "bikeNumber": null,
               "nationality": "GBR",
               "source": "https://en.wikipedia.org/wiki/1972_Grand_Prix_motorcycle_racing_season"
@@ -2511,7 +2511,7 @@
               "fastestLap": false,
               "pointsOverride": null,
               "team": null,
-              "manufacturer": "Yamaha / Suzuki",
+              "manufacturer": "Yamaha",
               "bikeNumber": null,
               "nationality": "DEU",
               "source": "https://en.wikipedia.org/wiki/1972_Grand_Prix_motorcycle_racing_season"
@@ -2583,7 +2583,7 @@
               "fastestLap": false,
               "pointsOverride": null,
               "team": null,
-              "manufacturer": "König / Kawasaki",
+              "manufacturer": "König",
               "bikeNumber": null,
               "nationality": "DEU",
               "source": "https://en.wikipedia.org/wiki/1972_Grand_Prix_motorcycle_racing_season"
@@ -2595,7 +2595,7 @@
               "fastestLap": false,
               "pointsOverride": null,
               "team": null,
-              "manufacturer": "Kawasaki / Yamaha",
+              "manufacturer": "Kawasaki",
               "bikeNumber": null,
               "nationality": "FRA",
               "source": "https://en.wikipedia.org/wiki/1972_Grand_Prix_motorcycle_racing_season"
@@ -2619,7 +2619,7 @@
               "fastestLap": false,
               "pointsOverride": null,
               "team": null,
-              "manufacturer": "Suzuki / Kawasaki",
+              "manufacturer": "Suzuki",
               "bikeNumber": null,
               "nationality": "FIN",
               "source": "https://en.wikipedia.org/wiki/1972_Grand_Prix_motorcycle_racing_season"
@@ -2703,7 +2703,7 @@
               "fastestLap": false,
               "pointsOverride": null,
               "team": null,
-              "manufacturer": "Riemanoc-Yamaha",
+              "manufacturer": "Yamaha",
               "bikeNumber": null,
               "nationality": "NLD",
               "source": "https://en.wikipedia.org/wiki/1972_Grand_Prix_motorcycle_racing_season"
@@ -2771,7 +2771,7 @@
               "fastestLap": false,
               "pointsOverride": null,
               "team": null,
-              "manufacturer": "Yamaha International",
+              "manufacturer": "Yamaha",
               "bikeNumber": null,
               "nationality": "JPN",
               "source": "https://en.wikipedia.org/wiki/1972_Grand_Prix_motorcycle_racing_season"
@@ -2795,7 +2795,7 @@
               "fastestLap": false,
               "pointsOverride": null,
               "team": null,
-              "manufacturer": "Kawasaki / Yamaha",
+              "manufacturer": "Kawasaki",
               "bikeNumber": null,
               "nationality": "FRA",
               "source": "https://en.wikipedia.org/wiki/1972_Grand_Prix_motorcycle_racing_season"
@@ -2807,7 +2807,7 @@
               "fastestLap": false,
               "pointsOverride": null,
               "team": null,
-              "manufacturer": "Yamaha / Suzuki",
+              "manufacturer": "Yamaha",
               "bikeNumber": null,
               "nationality": "GBR",
               "source": "https://en.wikipedia.org/wiki/1972_Grand_Prix_motorcycle_racing_season"
@@ -2819,7 +2819,7 @@
               "fastestLap": false,
               "pointsOverride": null,
               "team": null,
-              "manufacturer": "Honda / Yamaha / Paton",
+              "manufacturer": "Honda",
               "bikeNumber": null,
               "nationality": "GBR",
               "source": "https://en.wikipedia.org/wiki/1972_Grand_Prix_motorcycle_racing_season"
@@ -2843,7 +2843,7 @@
               "fastestLap": false,
               "pointsOverride": null,
               "team": null,
-              "manufacturer": "Yamaha / Suzuki",
+              "manufacturer": "Yamaha",
               "bikeNumber": null,
               "nationality": "DEU",
               "source": "https://en.wikipedia.org/wiki/1972_Grand_Prix_motorcycle_racing_season"
@@ -2939,7 +2939,7 @@
               "fastestLap": false,
               "pointsOverride": null,
               "team": null,
-              "manufacturer": "Jada-Suzuki",
+              "manufacturer": "Suzuki",
               "bikeNumber": null,
               "nationality": "AUS",
               "source": "https://en.wikipedia.org/wiki/1972_Grand_Prix_motorcycle_racing_season"
@@ -2975,7 +2975,7 @@
               "fastestLap": false,
               "pointsOverride": null,
               "team": null,
-              "manufacturer": "König / Kawasaki",
+              "manufacturer": "König",
               "bikeNumber": null,
               "nationality": "DEU",
               "source": "https://en.wikipedia.org/wiki/1972_Grand_Prix_motorcycle_racing_season"
@@ -3163,7 +3163,7 @@
               "fastestLap": false,
               "pointsOverride": null,
               "team": null,
-              "manufacturer": "Metisse-Matchless / Aermacchi",
+              "manufacturer": "Métisse",
               "bikeNumber": null,
               "nationality": "HUN",
               "source": "https://en.wikipedia.org/wiki/1972_Grand_Prix_motorcycle_racing_season"
@@ -3199,7 +3199,7 @@
               "fastestLap": false,
               "pointsOverride": null,
               "team": null,
-              "manufacturer": "Jada-Suzuki",
+              "manufacturer": "Suzuki",
               "bikeNumber": null,
               "nationality": "AUS",
               "source": "https://en.wikipedia.org/wiki/1972_Grand_Prix_motorcycle_racing_season"
@@ -3223,7 +3223,7 @@
               "fastestLap": false,
               "pointsOverride": null,
               "team": null,
-              "manufacturer": "Kawasaki / Yamaha",
+              "manufacturer": "Kawasaki",
               "bikeNumber": null,
               "nationality": "FRA",
               "source": "https://en.wikipedia.org/wiki/1972_Grand_Prix_motorcycle_racing_season"
@@ -3247,7 +3247,7 @@
               "fastestLap": false,
               "pointsOverride": null,
               "team": null,
-              "manufacturer": "Suzuki / Kawasaki",
+              "manufacturer": "Suzuki",
               "bikeNumber": null,
               "nationality": "FIN",
               "source": "https://en.wikipedia.org/wiki/1972_Grand_Prix_motorcycle_racing_season"
@@ -3327,7 +3327,7 @@
               "fastestLap": false,
               "pointsOverride": null,
               "team": null,
-              "manufacturer": "Jada-Suzuki",
+              "manufacturer": "Suzuki",
               "bikeNumber": null,
               "nationality": "AUS",
               "source": "https://en.wikipedia.org/wiki/1972_Grand_Prix_motorcycle_racing_season"
@@ -3363,7 +3363,7 @@
               "fastestLap": false,
               "pointsOverride": null,
               "team": null,
-              "manufacturer": "Honda / Yamaha / Paton",
+              "manufacturer": "Honda",
               "bikeNumber": null,
               "nationality": "GBR",
               "source": "https://en.wikipedia.org/wiki/1972_Grand_Prix_motorcycle_racing_season"
@@ -3399,7 +3399,7 @@
               "fastestLap": false,
               "pointsOverride": null,
               "team": null,
-              "manufacturer": "Yamaha / Suzuki",
+              "manufacturer": "Yamaha",
               "bikeNumber": null,
               "nationality": "DEU",
               "source": "https://en.wikipedia.org/wiki/1972_Grand_Prix_motorcycle_racing_season"
@@ -3483,7 +3483,7 @@
               "fastestLap": false,
               "pointsOverride": null,
               "team": null,
-              "manufacturer": "Metisse-Matchless / Aermacchi",
+              "manufacturer": "Métisse",
               "bikeNumber": null,
               "nationality": "HUN",
               "source": "https://en.wikipedia.org/wiki/1972_Grand_Prix_motorcycle_racing_season"
@@ -3555,7 +3555,7 @@
               "fastestLap": false,
               "pointsOverride": null,
               "team": null,
-              "manufacturer": "Kawasaki / Yamaha",
+              "manufacturer": "Kawasaki",
               "bikeNumber": null,
               "nationality": "FRA",
               "source": "https://en.wikipedia.org/wiki/1972_Grand_Prix_motorcycle_racing_season"
@@ -3755,7 +3755,7 @@
               "fastestLap": false,
               "pointsOverride": null,
               "team": null,
-              "manufacturer": "Honda / Yamaha / Paton",
+              "manufacturer": "Honda",
               "bikeNumber": null,
               "nationality": "GBR",
               "source": "https://en.wikipedia.org/wiki/1972_Grand_Prix_motorcycle_racing_season"
@@ -3779,7 +3779,7 @@
               "fastestLap": false,
               "pointsOverride": null,
               "team": null,
-              "manufacturer": "Yamaha / Suzuki",
+              "manufacturer": "Yamaha",
               "bikeNumber": null,
               "nationality": "GBR",
               "source": "https://en.wikipedia.org/wiki/1972_Grand_Prix_motorcycle_racing_season"
@@ -3863,7 +3863,7 @@
               "fastestLap": false,
               "pointsOverride": null,
               "team": null,
-              "manufacturer": "Yamaha / Suzuki",
+              "manufacturer": "Yamaha",
               "bikeNumber": null,
               "nationality": "DEU",
               "source": "https://en.wikipedia.org/wiki/1972_Grand_Prix_motorcycle_racing_season"
@@ -3875,7 +3875,7 @@
               "fastestLap": false,
               "pointsOverride": null,
               "team": null,
-              "manufacturer": "Suzuki / Kawasaki",
+              "manufacturer": "Suzuki",
               "bikeNumber": null,
               "nationality": "FIN",
               "source": "https://en.wikipedia.org/wiki/1972_Grand_Prix_motorcycle_racing_season"
@@ -3899,13 +3899,13 @@
               "fastestLap": false,
               "pointsOverride": null,
               "team": null,
-              "manufacturer": "Jada-Suzuki",
+              "manufacturer": "Suzuki",
               "bikeNumber": null,
               "nationality": "AUS",
               "source": "https://en.wikipedia.org/wiki/1972_Grand_Prix_motorcycle_racing_season"
             },
             {
-              "rider": "paul-eickleberg",
+              "rider": "paul-eickelberg",
               "position": null,
               "outcome": "DNF",
               "fastestLap": false,
@@ -3935,13 +3935,13 @@
               "fastestLap": false,
               "pointsOverride": null,
               "team": null,
-              "manufacturer": "Husqvarna-Proto",
+              "manufacturer": "Proto",
               "bikeNumber": null,
               "nationality": "SWE",
               "source": "https://en.wikipedia.org/wiki/1972_Grand_Prix_motorcycle_racing_season"
             },
             {
-              "rider": "ted-janssen",
+              "rider": "ted-jansen",
               "position": null,
               "outcome": "DNF",
               "fastestLap": false,
@@ -4087,7 +4087,7 @@
               "fastestLap": false,
               "pointsOverride": null,
               "team": null,
-              "manufacturer": "Honda / Yamaha / Paton",
+              "manufacturer": "Honda",
               "bikeNumber": null,
               "nationality": "GBR",
               "source": "https://en.wikipedia.org/wiki/1972_Grand_Prix_motorcycle_racing_season"
@@ -4123,7 +4123,7 @@
               "fastestLap": false,
               "pointsOverride": null,
               "team": null,
-              "manufacturer": "Yamaha / Suzuki",
+              "manufacturer": "Yamaha",
               "bikeNumber": null,
               "nationality": "GBR",
               "source": "https://en.wikipedia.org/wiki/1972_Grand_Prix_motorcycle_racing_season"
@@ -4147,7 +4147,7 @@
               "fastestLap": false,
               "pointsOverride": null,
               "team": null,
-              "manufacturer": "Husqvarna-Proto",
+              "manufacturer": "Proto",
               "bikeNumber": null,
               "nationality": "SWE",
               "source": "https://en.wikipedia.org/wiki/1972_Grand_Prix_motorcycle_racing_season"
@@ -4159,7 +4159,7 @@
               "fastestLap": false,
               "pointsOverride": null,
               "team": null,
-              "manufacturer": "Yamaha / Suzuki",
+              "manufacturer": "Yamaha",
               "bikeNumber": null,
               "nationality": "DEU",
               "source": "https://en.wikipedia.org/wiki/1972_Grand_Prix_motorcycle_racing_season"
@@ -4171,7 +4171,7 @@
               "fastestLap": false,
               "pointsOverride": null,
               "team": null,
-              "manufacturer": "Suzuki / Kawasaki",
+              "manufacturer": "Suzuki",
               "bikeNumber": null,
               "nationality": "FIN",
               "source": "https://en.wikipedia.org/wiki/1972_Grand_Prix_motorcycle_racing_season"
@@ -4219,7 +4219,7 @@
               "fastestLap": false,
               "pointsOverride": null,
               "team": null,
-              "manufacturer": "Jada-Suzuki",
+              "manufacturer": "Suzuki",
               "bikeNumber": null,
               "nationality": "AUS",
               "source": "https://en.wikipedia.org/wiki/1972_Grand_Prix_motorcycle_racing_season"
@@ -4249,7 +4249,7 @@
               "source": "https://en.wikipedia.org/wiki/1972_Grand_Prix_motorcycle_racing_season"
             },
             {
-              "rider": "paul-eickleberg",
+              "rider": "paul-eickelberg",
               "position": null,
               "outcome": "DNF",
               "fastestLap": false,
@@ -4419,7 +4419,7 @@
               "fastestLap": false,
               "pointsOverride": null,
               "team": null,
-              "manufacturer": "Jada-Suzuki",
+              "manufacturer": "Suzuki",
               "bikeNumber": null,
               "nationality": "AUS",
               "source": "https://en.wikipedia.org/wiki/1972_Grand_Prix_motorcycle_racing_season"
@@ -4455,7 +4455,7 @@
               "fastestLap": false,
               "pointsOverride": null,
               "team": null,
-              "manufacturer": "Honda / Yamaha / Paton",
+              "manufacturer": "Honda",
               "bikeNumber": null,
               "nationality": "GBR",
               "source": "https://en.wikipedia.org/wiki/1972_Grand_Prix_motorcycle_racing_season"
@@ -4509,7 +4509,7 @@
               "source": "https://en.wikipedia.org/wiki/1972_Grand_Prix_motorcycle_racing_season"
             },
             {
-              "rider": "ted-janssen",
+              "rider": "ted-jansen",
               "position": 11,
               "outcome": "FIN",
               "fastestLap": false,

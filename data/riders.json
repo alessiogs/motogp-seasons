@@ -9242,5 +9242,19 @@
     "sourceIds": {
       "wikipedia": "Ray Knight (motorcyclist)"
     }
+  },
+  {
+    "id": "roger-nichols",
+    "name": "Roger Nichols",
+    "sourceIds": {
+      "wikipedia": "Roger Nichols"
+    }
+  },
+  {
+    "id": "peter-van-der-wal",
+    "name": "Peter van der Wal",
+    "sourceIds": {
+      "wikipedia": "Peter van der Wal"
+    }
   }
 ]

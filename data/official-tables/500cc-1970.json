@@ -82,6 +82,16 @@
       "points": 10
     },
     {
+      "position": 16,
+      "rider": "bill-smith",
+      "points": 10
+    },
+    {
+      "position": 16,
+      "rider": "percy-tait",
+      "points": 10
+    },
+    {
       "position": 19,
       "rider": "giuseppe-mandolini",
       "points": 10
@@ -104,6 +114,11 @@
     {
       "position": 23,
       "rider": "gianpiero-zubani",
+      "points": 8
+    },
+    {
+      "position": 23,
+      "rider": "john-williams",
       "points": 8
     },
     {
@@ -147,6 +162,11 @@
       "points": 5
     },
     {
+      "position": 32,
+      "rider": "walter-rungg",
+      "points": 5
+    },
+    {
       "position": 34,
       "rider": "rob-bron",
       "points": 5
@@ -177,6 +197,11 @@
       "points": 3
     },
     {
+      "position": 39,
+      "rider": "giovanni-perrone",
+      "points": 3
+    },
+    {
       "position": 41,
       "rider": "vincent-duckett",
       "points": 2
@@ -204,6 +229,21 @@
     {
       "position": 46,
       "rider": "andre-luc-appietto",
+      "points": 1
+    },
+    {
+      "position": 46,
+      "rider": "charlie-dobson",
+      "points": 1
+    },
+    {
+      "position": 46,
+      "rider": "vasco-loro",
+      "points": 1
+    },
+    {
+      "position": 46,
+      "rider": "steve-spencer",
       "points": 1
     }
   ]

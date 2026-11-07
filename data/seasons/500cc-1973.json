@@ -39,7 +39,7 @@
               "fastestLap": false,
               "pointsOverride": null,
               "team": "MV Agusta",
-              "manufacturer": "MV500",
+              "manufacturer": "MV Agusta",
               "bikeNumber": null,
               "nationality": "UK",
               "source": "https://en.wikipedia.org/wiki/1973_Grand_Prix_motorcycle_racing_season"
@@ -63,7 +63,7 @@
               "fastestLap": false,
               "pointsOverride": null,
               "team": "Kawasaki-France",
-              "manufacturer": "H1R-RW",
+              "manufacturer": "Kawasaki",
               "bikeNumber": null,
               "nationality": "FRA",
               "source": "https://en.wikipedia.org/wiki/1973_Grand_Prix_motorcycle_racing_season"
@@ -87,7 +87,7 @@
               "fastestLap": false,
               "pointsOverride": null,
               "team": null,
-              "manufacturer": "TR500",
+              "manufacturer": "Suzuki",
               "bikeNumber": null,
               "nationality": "ITA",
               "source": "https://en.wikipedia.org/wiki/1973_Grand_Prix_motorcycle_racing_season"
@@ -99,7 +99,7 @@
               "fastestLap": false,
               "pointsOverride": null,
               "team": "Kawasaki-France",
-              "manufacturer": "H1R-RW",
+              "manufacturer": "Kawasaki",
               "bikeNumber": null,
               "nationality": "FRA",
               "source": "https://en.wikipedia.org/wiki/1973_Grand_Prix_motorcycle_racing_season"
@@ -135,7 +135,7 @@
               "fastestLap": false,
               "pointsOverride": null,
               "team": "Suzuki",
-              "manufacturer": "TR500",
+              "manufacturer": "Suzuki",
               "bikeNumber": null,
               "nationality": "AUS",
               "source": "https://en.wikipedia.org/wiki/1973_Grand_Prix_motorcycle_racing_season"
@@ -165,13 +165,13 @@
               "source": "https://en.wikipedia.org/wiki/1973_Grand_Prix_motorcycle_racing_season"
             },
             {
-              "rider": "sven-gunnarsson",
+              "rider": "sven-olof-gunnarsson",
               "position": 15,
               "outcome": "FIN",
               "fastestLap": false,
               "pointsOverride": null,
               "team": null,
-              "manufacturer": "H1R-RW",
+              "manufacturer": "Kawasaki",
               "bikeNumber": null,
               "nationality": "SWE",
               "source": "https://en.wikipedia.org/wiki/1973_Grand_Prix_motorcycle_racing_season"
@@ -183,7 +183,7 @@
               "fastestLap": false,
               "pointsOverride": null,
               "team": null,
-              "manufacturer": "TR500",
+              "manufacturer": "Suzuki",
               "bikeNumber": null,
               "nationality": "UK",
               "source": "https://en.wikipedia.org/wiki/1973_Grand_Prix_motorcycle_racing_season"
@@ -219,7 +219,7 @@
               "fastestLap": false,
               "pointsOverride": null,
               "team": "MV Agusta",
-              "manufacturer": "MV500",
+              "manufacturer": "MV Agusta",
               "bikeNumber": null,
               "nationality": "ITA",
               "source": "https://en.wikipedia.org/wiki/1973_Grand_Prix_motorcycle_racing_season"
@@ -315,7 +315,7 @@
               "fastestLap": false,
               "pointsOverride": null,
               "team": "Aermacchi-Harley-Davidson",
-              "manufacturer": "RR500",
+              "manufacturer": "Harley-Davidson",
               "bikeNumber": null,
               "nationality": "UK",
               "source": "https://en.wikipedia.org/wiki/1973_Grand_Prix_motorcycle_racing_season"
@@ -407,7 +407,7 @@
               "fastestLap": false,
               "pointsOverride": null,
               "team": null,
-              "manufacturer": "TR500",
+              "manufacturer": "Suzuki",
               "bikeNumber": null,
               "nationality": "ITA",
               "source": "https://en.wikipedia.org/wiki/1973_Grand_Prix_motorcycle_racing_season"
@@ -485,13 +485,13 @@
               "source": "https://en.wikipedia.org/wiki/1973_Grand_Prix_motorcycle_racing_season"
             },
             {
-              "rider": "sven-gunnarsson",
+              "rider": "sven-olof-gunnarsson",
               "position": 11,
               "outcome": "FIN",
               "fastestLap": false,
               "pointsOverride": null,
               "team": null,
-              "manufacturer": "H1R-RW",
+              "manufacturer": "Kawasaki",
               "bikeNumber": null,
               "nationality": "SWE",
               "source": "https://en.wikipedia.org/wiki/1973_Grand_Prix_motorcycle_racing_season"
@@ -503,7 +503,7 @@
               "fastestLap": false,
               "pointsOverride": null,
               "team": "MV Agusta",
-              "manufacturer": "MV500",
+              "manufacturer": "MV Agusta",
               "bikeNumber": null,
               "nationality": "UK",
               "source": "https://en.wikipedia.org/wiki/1973_Grand_Prix_motorcycle_racing_season"
@@ -515,7 +515,7 @@
               "fastestLap": false,
               "pointsOverride": null,
               "team": "MV Agusta",
-              "manufacturer": "MV500",
+              "manufacturer": "MV Agusta",
               "bikeNumber": null,
               "nationality": "ITA",
               "source": "https://en.wikipedia.org/wiki/1973_Grand_Prix_motorcycle_racing_season"
@@ -527,7 +527,7 @@
               "fastestLap": false,
               "pointsOverride": null,
               "team": "Suzuki",
-              "manufacturer": "TR500",
+              "manufacturer": "Suzuki",
               "bikeNumber": null,
               "nationality": "AUS",
               "source": "https://en.wikipedia.org/wiki/1973_Grand_Prix_motorcycle_racing_season"
@@ -619,7 +619,7 @@
               "fastestLap": false,
               "pointsOverride": null,
               "team": "MV Agusta",
-              "manufacturer": "MV500",
+              "manufacturer": "MV Agusta",
               "bikeNumber": null,
               "nationality": "UK",
               "source": "https://en.wikipedia.org/wiki/1973_Grand_Prix_motorcycle_racing_season"
@@ -691,7 +691,7 @@
               "fastestLap": false,
               "pointsOverride": null,
               "team": null,
-              "manufacturer": "TR500",
+              "manufacturer": "Suzuki",
               "bikeNumber": null,
               "nationality": "RFA",
               "source": "https://en.wikipedia.org/wiki/1973_Grand_Prix_motorcycle_racing_season"
@@ -721,13 +721,13 @@
               "source": "https://en.wikipedia.org/wiki/1973_Grand_Prix_motorcycle_racing_season"
             },
             {
-              "rider": "sven-gunnarsson",
+              "rider": "sven-olof-gunnarsson",
               "position": 10,
               "outcome": "FIN",
               "fastestLap": false,
               "pointsOverride": null,
               "team": null,
-              "manufacturer": "H1R-RW",
+              "manufacturer": "Kawasaki",
               "bikeNumber": null,
               "nationality": "SWE",
               "source": "https://en.wikipedia.org/wiki/1973_Grand_Prix_motorcycle_racing_season"
@@ -739,7 +739,7 @@
               "fastestLap": false,
               "pointsOverride": null,
               "team": null,
-              "manufacturer": "TR500",
+              "manufacturer": "Suzuki",
               "bikeNumber": null,
               "nationality": "UK",
               "source": "https://en.wikipedia.org/wiki/1973_Grand_Prix_motorcycle_racing_season"
@@ -763,7 +763,7 @@
               "fastestLap": false,
               "pointsOverride": null,
               "team": "MV Agusta",
-              "manufacturer": "MV500",
+              "manufacturer": "MV Agusta",
               "bikeNumber": null,
               "nationality": "ITA",
               "source": "https://en.wikipedia.org/wiki/1973_Grand_Prix_motorcycle_racing_season"
@@ -775,7 +775,7 @@
               "fastestLap": false,
               "pointsOverride": null,
               "team": "Suzuki",
-              "manufacturer": "TR500",
+              "manufacturer": "Suzuki",
               "bikeNumber": null,
               "nationality": "AUS",
               "source": "https://en.wikipedia.org/wiki/1973_Grand_Prix_motorcycle_racing_season"
@@ -823,7 +823,7 @@
               "fastestLap": false,
               "pointsOverride": null,
               "team": "Kawasaki-France",
-              "manufacturer": "H1R-RW",
+              "manufacturer": "Kawasaki",
               "bikeNumber": null,
               "nationality": "FRA",
               "source": "https://en.wikipedia.org/wiki/1973_Grand_Prix_motorcycle_racing_season"
@@ -835,7 +835,7 @@
               "fastestLap": false,
               "pointsOverride": null,
               "team": null,
-              "manufacturer": "TR500",
+              "manufacturer": "Suzuki",
               "bikeNumber": null,
               "nationality": "ITA",
               "source": "https://en.wikipedia.org/wiki/1973_Grand_Prix_motorcycle_racing_season"
@@ -859,7 +859,7 @@
               "fastestLap": false,
               "pointsOverride": null,
               "team": null,
-              "manufacturer": "TR500",
+              "manufacturer": "Suzuki",
               "bikeNumber": null,
               "nationality": "RFA",
               "source": "https://en.wikipedia.org/wiki/1973_Grand_Prix_motorcycle_racing_season"
@@ -882,6 +882,16 @@
     },
     {
       "number": 4,
+      "name": "Nations Grand Prix",
+      "circuit": "Monza",
+      "country": "Italy",
+      "date": "1973-05-20",
+      "nonChampionship": true,
+      "notes": "The 500cc race was not run (no Results in the standings matrix); the Round keeps its number. Needs a hand note.",
+      "sessions": []
+    },
+    {
+      "number": 5,
       "name": "Isle of Man TT",
       "circuit": "Snaefell Mountain",
       "country": "UK",
@@ -903,7 +913,7 @@
               "fastestLap": false,
               "pointsOverride": null,
               "team": "Suzuki",
-              "manufacturer": "TR500",
+              "manufacturer": "Suzuki",
               "bikeNumber": null,
               "nationality": "AUS",
               "source": "https://en.wikipedia.org/wiki/1973_Grand_Prix_motorcycle_racing_season"
@@ -915,7 +925,7 @@
               "fastestLap": false,
               "pointsOverride": null,
               "team": "Tom Arter",
-              "manufacturer": "Matchless G50",
+              "manufacturer": "Matchless",
               "bikeNumber": null,
               "nationality": "UK",
               "source": "https://en.wikipedia.org/wiki/1973_Grand_Prix_motorcycle_racing_season"
@@ -927,7 +937,7 @@
               "fastestLap": false,
               "pointsOverride": null,
               "team": null,
-              "manufacturer": "TR500",
+              "manufacturer": "Suzuki",
               "bikeNumber": null,
               "nationality": "UK",
               "source": "https://en.wikipedia.org/wiki/1973_Grand_Prix_motorcycle_racing_season"
@@ -951,19 +961,19 @@
               "fastestLap": false,
               "pointsOverride": null,
               "team": "TWS-Suzuki",
-              "manufacturer": "TR500",
+              "manufacturer": "Suzuki",
               "bikeNumber": null,
               "nationality": "UK",
               "source": "https://en.wikipedia.org/wiki/1973_Grand_Prix_motorcycle_racing_season"
             },
             {
-              "rider": "dave-hughes",
+              "rider": "david-hughes",
               "position": 6,
               "outcome": "FIN",
               "fastestLap": false,
               "pointsOverride": null,
               "team": "Tom Arter",
-              "manufacturer": "Matchless G50",
+              "manufacturer": "Matchless",
               "bikeNumber": null,
               "nationality": "GBR",
               "source": "https://en.wikipedia.org/wiki/1973_Grand_Prix_motorcycle_racing_season"
@@ -975,7 +985,7 @@
               "fastestLap": false,
               "pointsOverride": null,
               "team": "Crooks-Suzuki",
-              "manufacturer": "TR500",
+              "manufacturer": "Suzuki",
               "bikeNumber": null,
               "nationality": "UK",
               "source": "https://en.wikipedia.org/wiki/1973_Grand_Prix_motorcycle_racing_season"
@@ -987,7 +997,7 @@
               "fastestLap": false,
               "pointsOverride": null,
               "team": null,
-              "manufacturer": "Seeley TR500",
+              "manufacturer": "Seeley",
               "bikeNumber": null,
               "nationality": "UK",
               "source": "https://en.wikipedia.org/wiki/1973_Grand_Prix_motorcycle_racing_season"
@@ -999,7 +1009,7 @@
               "fastestLap": false,
               "pointsOverride": null,
               "team": "Ray Cowles Motorcycles",
-              "manufacturer": "Matchless G50",
+              "manufacturer": "Matchless",
               "bikeNumber": null,
               "nationality": "UK",
               "source": "https://en.wikipedia.org/wiki/1973_Grand_Prix_motorcycle_racing_season"
@@ -1011,7 +1021,7 @@
               "fastestLap": false,
               "pointsOverride": null,
               "team": null,
-              "manufacturer": "H1R-RW",
+              "manufacturer": "Kawasaki",
               "bikeNumber": null,
               "nationality": "UK",
               "source": "https://en.wikipedia.org/wiki/1973_Grand_Prix_motorcycle_racing_season"
@@ -1033,7 +1043,7 @@
       ]
     },
     {
-      "number": 5,
+      "number": 6,
       "name": "Yugoslavian Grand Prix",
       "circuit": "Opatija",
       "country": "Yugoslavia",
@@ -1139,7 +1149,7 @@
               "fastestLap": false,
               "pointsOverride": null,
               "team": null,
-              "manufacturer": "TR500",
+              "manufacturer": "Suzuki",
               "bikeNumber": null,
               "nationality": "UK",
               "source": "https://en.wikipedia.org/wiki/1973_Grand_Prix_motorcycle_racing_season"
@@ -1163,7 +1173,7 @@
               "fastestLap": false,
               "pointsOverride": null,
               "team": null,
-              "manufacturer": "TR500",
+              "manufacturer": "Suzuki",
               "bikeNumber": null,
               "nationality": "NED",
               "source": "https://en.wikipedia.org/wiki/1973_Grand_Prix_motorcycle_racing_season"
@@ -1187,7 +1197,7 @@
               "fastestLap": false,
               "pointsOverride": null,
               "team": "MV Agusta",
-              "manufacturer": "MV500",
+              "manufacturer": "MV Agusta",
               "bikeNumber": null,
               "nationality": "UK",
               "source": "https://en.wikipedia.org/wiki/1973_Grand_Prix_motorcycle_racing_season"
@@ -1199,7 +1209,7 @@
               "fastestLap": false,
               "pointsOverride": null,
               "team": "MV Agusta",
-              "manufacturer": "MV500",
+              "manufacturer": "MV Agusta",
               "bikeNumber": null,
               "nationality": "ITA",
               "source": "https://en.wikipedia.org/wiki/1973_Grand_Prix_motorcycle_racing_season"
@@ -1211,7 +1221,7 @@
               "fastestLap": false,
               "pointsOverride": null,
               "team": "Suzuki",
-              "manufacturer": "TR500",
+              "manufacturer": "Suzuki",
               "bikeNumber": null,
               "nationality": "AUS",
               "source": "https://en.wikipedia.org/wiki/1973_Grand_Prix_motorcycle_racing_season"
@@ -1265,13 +1275,13 @@
               "source": "https://en.wikipedia.org/wiki/1973_Grand_Prix_motorcycle_racing_season"
             },
             {
-              "rider": "sven-gunnarsson",
+              "rider": "sven-olof-gunnarsson",
               "position": null,
               "outcome": "DNF",
               "fastestLap": false,
               "pointsOverride": null,
               "team": null,
-              "manufacturer": "H1R-RW",
+              "manufacturer": "Kawasaki",
               "bikeNumber": null,
               "nationality": "SWE",
               "source": "https://en.wikipedia.org/wiki/1973_Grand_Prix_motorcycle_racing_season"
@@ -1293,7 +1303,7 @@
       ]
     },
     {
-      "number": 6,
+      "number": 7,
       "name": "Dutch TT",
       "circuit": "Assen",
       "country": "Netherlands",
@@ -1315,7 +1325,7 @@
               "fastestLap": false,
               "pointsOverride": null,
               "team": "MV Agusta",
-              "manufacturer": "MV500",
+              "manufacturer": "MV Agusta",
               "bikeNumber": null,
               "nationality": "UK",
               "source": "https://en.wikipedia.org/wiki/1973_Grand_Prix_motorcycle_racing_season"
@@ -1363,7 +1373,7 @@
               "fastestLap": false,
               "pointsOverride": null,
               "team": "Suzuki",
-              "manufacturer": "TR500",
+              "manufacturer": "Suzuki",
               "bikeNumber": null,
               "nationality": "AUS",
               "source": "https://en.wikipedia.org/wiki/1973_Grand_Prix_motorcycle_racing_season"
@@ -1411,7 +1421,7 @@
               "fastestLap": false,
               "pointsOverride": null,
               "team": "Kawasaki-France",
-              "manufacturer": "H1R-RW",
+              "manufacturer": "Kawasaki",
               "bikeNumber": null,
               "nationality": "FRA",
               "source": "https://en.wikipedia.org/wiki/1973_Grand_Prix_motorcycle_racing_season"
@@ -1447,7 +1457,7 @@
               "fastestLap": false,
               "pointsOverride": null,
               "team": null,
-              "manufacturer": "TR500",
+              "manufacturer": "Suzuki",
               "bikeNumber": null,
               "nationality": "RFA",
               "source": "https://en.wikipedia.org/wiki/1973_Grand_Prix_motorcycle_racing_season"
@@ -1459,7 +1469,7 @@
               "fastestLap": false,
               "pointsOverride": null,
               "team": "MV Agusta",
-              "manufacturer": "MV500",
+              "manufacturer": "MV Agusta",
               "bikeNumber": null,
               "nationality": "ITA",
               "source": "https://en.wikipedia.org/wiki/1973_Grand_Prix_motorcycle_racing_season"
@@ -1519,7 +1529,7 @@
               "fastestLap": false,
               "pointsOverride": null,
               "team": "Aermacchi-Harley-Davidson",
-              "manufacturer": "RR500",
+              "manufacturer": "Harley-Davidson",
               "bikeNumber": null,
               "nationality": "UK",
               "source": "https://en.wikipedia.org/wiki/1973_Grand_Prix_motorcycle_racing_season"
@@ -1565,7 +1575,7 @@
       ]
     },
     {
-      "number": 7,
+      "number": 8,
       "name": "Belgian Grand Prix",
       "circuit": "Spa",
       "country": "Belgium",
@@ -1587,7 +1597,7 @@
               "fastestLap": false,
               "pointsOverride": null,
               "team": "MV Agusta",
-              "manufacturer": "MV500",
+              "manufacturer": "MV Agusta",
               "bikeNumber": null,
               "nationality": "ITA",
               "source": "https://en.wikipedia.org/wiki/1973_Grand_Prix_motorcycle_racing_season"
@@ -1599,7 +1609,7 @@
               "fastestLap": false,
               "pointsOverride": null,
               "team": "MV Agusta",
-              "manufacturer": "MV500",
+              "manufacturer": "MV Agusta",
               "bikeNumber": null,
               "nationality": "UK",
               "source": "https://en.wikipedia.org/wiki/1973_Grand_Prix_motorcycle_racing_season"
@@ -1611,7 +1621,7 @@
               "fastestLap": false,
               "pointsOverride": null,
               "team": "Suzuki",
-              "manufacturer": "TR500",
+              "manufacturer": "Suzuki",
               "bikeNumber": null,
               "nationality": "AUS",
               "source": "https://en.wikipedia.org/wiki/1973_Grand_Prix_motorcycle_racing_season"
@@ -1635,7 +1645,7 @@
               "fastestLap": false,
               "pointsOverride": null,
               "team": "Aermacchi-Harley-Davidson",
-              "manufacturer": "RR500",
+              "manufacturer": "Harley-Davidson",
               "bikeNumber": null,
               "nationality": "UK",
               "source": "https://en.wikipedia.org/wiki/1973_Grand_Prix_motorcycle_racing_season"
@@ -1719,7 +1729,7 @@
               "fastestLap": false,
               "pointsOverride": null,
               "team": null,
-              "manufacturer": "TR500",
+              "manufacturer": "Suzuki",
               "bikeNumber": null,
               "nationality": "RFA",
               "source": "https://en.wikipedia.org/wiki/1973_Grand_Prix_motorcycle_racing_season"
@@ -1749,13 +1759,13 @@
               "source": "https://en.wikipedia.org/wiki/1973_Grand_Prix_motorcycle_racing_season"
             },
             {
-              "rider": "sven-gunnarsson",
+              "rider": "sven-olof-gunnarsson",
               "position": 15,
               "outcome": "FIN",
               "fastestLap": false,
               "pointsOverride": null,
               "team": null,
-              "manufacturer": "H1R-RW",
+              "manufacturer": "Kawasaki",
               "bikeNumber": null,
               "nationality": "SWE",
               "source": "https://en.wikipedia.org/wiki/1973_Grand_Prix_motorcycle_racing_season"
@@ -1767,7 +1777,7 @@
               "fastestLap": false,
               "pointsOverride": null,
               "team": null,
-              "manufacturer": "TR500",
+              "manufacturer": "Suzuki",
               "bikeNumber": null,
               "nationality": "UK",
               "source": "https://en.wikipedia.org/wiki/1973_Grand_Prix_motorcycle_racing_season"
@@ -1779,7 +1789,7 @@
               "fastestLap": false,
               "pointsOverride": null,
               "team": null,
-              "manufacturer": "TR500",
+              "manufacturer": "Suzuki",
               "bikeNumber": null,
               "nationality": "NED",
               "source": "https://en.wikipedia.org/wiki/1973_Grand_Prix_motorcycle_racing_season"
@@ -1827,7 +1837,7 @@
               "fastestLap": false,
               "pointsOverride": null,
               "team": "Kawasaki-France",
-              "manufacturer": "H1R-RW",
+              "manufacturer": "Kawasaki",
               "bikeNumber": null,
               "nationality": "FRA",
               "source": "https://en.wikipedia.org/wiki/1973_Grand_Prix_motorcycle_racing_season"
@@ -1885,7 +1895,7 @@
       ]
     },
     {
-      "number": 8,
+      "number": 9,
       "name": "Czechoslovak Grand Prix",
       "circuit": "Brno",
       "country": "Czechoslovakia",
@@ -1907,7 +1917,7 @@
               "fastestLap": false,
               "pointsOverride": null,
               "team": "MV Agusta",
-              "manufacturer": "MV500",
+              "manufacturer": "MV Agusta",
               "bikeNumber": null,
               "nationality": "ITA",
               "source": "https://en.wikipedia.org/wiki/1973_Grand_Prix_motorcycle_racing_season"
@@ -1919,7 +1929,7 @@
               "fastestLap": false,
               "pointsOverride": null,
               "team": "MV Agusta",
-              "manufacturer": "MV500",
+              "manufacturer": "MV Agusta",
               "bikeNumber": null,
               "nationality": "UK",
               "source": "https://en.wikipedia.org/wiki/1973_Grand_Prix_motorcycle_racing_season"
@@ -1943,7 +1953,7 @@
               "fastestLap": false,
               "pointsOverride": null,
               "team": "Kawasaki-France",
-              "manufacturer": "H1R-RW",
+              "manufacturer": "Kawasaki",
               "bikeNumber": null,
               "nationality": "FRA",
               "source": "https://en.wikipedia.org/wiki/1973_Grand_Prix_motorcycle_racing_season"
@@ -1955,7 +1965,7 @@
               "fastestLap": false,
               "pointsOverride": null,
               "team": "Suzuki",
-              "manufacturer": "TR500",
+              "manufacturer": "Suzuki",
               "bikeNumber": null,
               "nationality": "AUS",
               "source": "https://en.wikipedia.org/wiki/1973_Grand_Prix_motorcycle_racing_season"
@@ -2003,7 +2013,7 @@
               "fastestLap": false,
               "pointsOverride": null,
               "team": null,
-              "manufacturer": "TR500",
+              "manufacturer": "Suzuki",
               "bikeNumber": null,
               "nationality": "RFA",
               "source": "https://en.wikipedia.org/wiki/1973_Grand_Prix_motorcycle_racing_season"
@@ -2099,7 +2109,7 @@
               "fastestLap": false,
               "pointsOverride": null,
               "team": null,
-              "manufacturer": "TR500",
+              "manufacturer": "Suzuki",
               "bikeNumber": null,
               "nationality": "ITA",
               "source": "https://en.wikipedia.org/wiki/1973_Grand_Prix_motorcycle_racing_season"
@@ -2129,13 +2139,13 @@
               "source": "https://en.wikipedia.org/wiki/1973_Grand_Prix_motorcycle_racing_season"
             },
             {
-              "rider": "sven-gunnarsson",
+              "rider": "sven-olof-gunnarsson",
               "position": null,
               "outcome": "DNF",
               "fastestLap": false,
               "pointsOverride": null,
               "team": null,
-              "manufacturer": "H1R-RW",
+              "manufacturer": "Kawasaki",
               "bikeNumber": null,
               "nationality": "SWE",
               "source": "https://en.wikipedia.org/wiki/1973_Grand_Prix_motorcycle_racing_season"
@@ -2157,7 +2167,7 @@
       ]
     },
     {
-      "number": 9,
+      "number": 10,
       "name": "Swedish Grand Prix",
       "circuit": "Anderstorp",
       "country": "Sweden",
@@ -2179,7 +2189,7 @@
               "fastestLap": false,
               "pointsOverride": null,
               "team": "MV Agusta",
-              "manufacturer": "MV500",
+              "manufacturer": "MV Agusta",
               "bikeNumber": null,
               "nationality": "UK",
               "source": "https://en.wikipedia.org/wiki/1973_Grand_Prix_motorcycle_racing_season"
@@ -2191,7 +2201,7 @@
               "fastestLap": false,
               "pointsOverride": null,
               "team": "MV Agusta",
-              "manufacturer": "MV500",
+              "manufacturer": "MV Agusta",
               "bikeNumber": null,
               "nationality": "ITA",
               "source": "https://en.wikipedia.org/wiki/1973_Grand_Prix_motorcycle_racing_season"
@@ -2257,13 +2267,13 @@
               "source": "https://en.wikipedia.org/wiki/1973_Grand_Prix_motorcycle_racing_season"
             },
             {
-              "rider": "sven-gunnarsson",
+              "rider": "sven-olof-gunnarsson",
               "position": 8,
               "outcome": "FIN",
               "fastestLap": false,
               "pointsOverride": null,
               "team": null,
-              "manufacturer": "H1R-RW",
+              "manufacturer": "Kawasaki",
               "bikeNumber": null,
               "nationality": "SWE",
               "source": "https://en.wikipedia.org/wiki/1973_Grand_Prix_motorcycle_racing_season"
@@ -2287,7 +2297,7 @@
               "fastestLap": false,
               "pointsOverride": null,
               "team": null,
-              "manufacturer": "TR500",
+              "manufacturer": "Suzuki",
               "bikeNumber": null,
               "nationality": "SWE",
               "source": "https://en.wikipedia.org/wiki/1973_Grand_Prix_motorcycle_racing_season"
@@ -2299,7 +2309,7 @@
               "fastestLap": false,
               "pointsOverride": null,
               "team": "Suzuki",
-              "manufacturer": "TR500",
+              "manufacturer": "Suzuki",
               "bikeNumber": null,
               "nationality": "AUS",
               "source": "https://en.wikipedia.org/wiki/1973_Grand_Prix_motorcycle_racing_season"
@@ -2335,7 +2345,7 @@
               "fastestLap": false,
               "pointsOverride": null,
               "team": "Kawasaki-France",
-              "manufacturer": "H1R-RW",
+              "manufacturer": "Kawasaki",
               "bikeNumber": null,
               "nationality": "FRA",
               "source": "https://en.wikipedia.org/wiki/1973_Grand_Prix_motorcycle_racing_season"
@@ -2347,7 +2357,7 @@
               "fastestLap": false,
               "pointsOverride": null,
               "team": null,
-              "manufacturer": "TR500",
+              "manufacturer": "Suzuki",
               "bikeNumber": null,
               "nationality": "ITA",
               "source": "https://en.wikipedia.org/wiki/1973_Grand_Prix_motorcycle_racing_season"
@@ -2429,7 +2439,7 @@
       ]
     },
     {
-      "number": 10,
+      "number": 11,
       "name": "Finnish Grand Prix",
       "circuit": "Imatra",
       "country": "Finland",
@@ -2451,7 +2461,7 @@
               "fastestLap": false,
               "pointsOverride": null,
               "team": "MV Agusta",
-              "manufacturer": "MV500",
+              "manufacturer": "MV Agusta",
               "bikeNumber": null,
               "nationality": "ITA",
               "source": "https://en.wikipedia.org/wiki/1973_Grand_Prix_motorcycle_racing_season"
@@ -2463,7 +2473,7 @@
               "fastestLap": false,
               "pointsOverride": null,
               "team": "MV Agusta",
-              "manufacturer": "MV500",
+              "manufacturer": "MV Agusta",
               "bikeNumber": null,
               "nationality": "UK",
               "source": "https://en.wikipedia.org/wiki/1973_Grand_Prix_motorcycle_racing_season"
@@ -2535,7 +2545,7 @@
               "fastestLap": false,
               "pointsOverride": null,
               "team": "Kawasaki-France",
-              "manufacturer": "H1R-RW",
+              "manufacturer": "Kawasaki",
               "bikeNumber": null,
               "nationality": "FRA",
               "source": "https://en.wikipedia.org/wiki/1973_Grand_Prix_motorcycle_racing_season"
@@ -2607,7 +2617,7 @@
               "fastestLap": false,
               "pointsOverride": null,
               "team": "Suzuki",
-              "manufacturer": "TR500",
+              "manufacturer": "Suzuki",
               "bikeNumber": null,
               "nationality": "AUS",
               "source": "https://en.wikipedia.org/wiki/1973_Grand_Prix_motorcycle_racing_season"
@@ -2631,7 +2641,7 @@
               "fastestLap": false,
               "pointsOverride": null,
               "team": null,
-              "manufacturer": "TR500",
+              "manufacturer": "Suzuki",
               "bikeNumber": null,
               "nationality": "ITA",
               "source": "https://en.wikipedia.org/wiki/1973_Grand_Prix_motorcycle_racing_season"
@@ -2661,13 +2671,13 @@
               "source": "https://en.wikipedia.org/wiki/1973_Grand_Prix_motorcycle_racing_season"
             },
             {
-              "rider": "sven-gunnarsson",
+              "rider": "sven-olof-gunnarsson",
               "position": null,
               "outcome": "DNF",
               "fastestLap": false,
               "pointsOverride": null,
               "team": null,
-              "manufacturer": "H1R-RW",
+              "manufacturer": "Kawasaki",
               "bikeNumber": null,
               "nationality": "SWE",
               "source": "https://en.wikipedia.org/wiki/1973_Grand_Prix_motorcycle_racing_season"
@@ -2689,7 +2699,7 @@
       ]
     },
     {
-      "number": 11,
+      "number": 12,
       "name": "Spanish Grand Prix",
       "circuit": "Jarama",
       "country": "Spain",
@@ -2711,7 +2721,7 @@
               "fastestLap": false,
               "pointsOverride": null,
               "team": "MV Agusta",
-              "manufacturer": "MV500",
+              "manufacturer": "MV Agusta",
               "bikeNumber": null,
               "nationality": "UK",
               "source": "https://en.wikipedia.org/wiki/1973_Grand_Prix_motorcycle_racing_season"
@@ -2807,7 +2817,7 @@
               "fastestLap": false,
               "pointsOverride": null,
               "team": null,
-              "manufacturer": "H1R-RW",
+              "manufacturer": "Kawasaki",
               "bikeNumber": null,
               "nationality": "FRA",
               "source": "https://en.wikipedia.org/wiki/1973_Grand_Prix_motorcycle_racing_season"
@@ -2843,7 +2853,7 @@
               "fastestLap": false,
               "pointsOverride": null,
               "team": "MV Agusta",
-              "manufacturer": "MV500",
+              "manufacturer": "MV Agusta",
               "bikeNumber": null,
               "nationality": "ITA",
               "source": "https://en.wikipedia.org/wiki/1973_Grand_Prix_motorcycle_racing_season"
@@ -2855,7 +2865,7 @@
               "fastestLap": false,
               "pointsOverride": null,
               "team": "Suzuki",
-              "manufacturer": "TR500",
+              "manufacturer": "Suzuki",
               "bikeNumber": null,
               "nationality": "AUS",
               "source": "https://en.wikipedia.org/wiki/1973_Grand_Prix_motorcycle_racing_season"
@@ -2891,7 +2901,7 @@
               "fastestLap": false,
               "pointsOverride": null,
               "team": "Kawasaki-France",
-              "manufacturer": "H1R-RW",
+              "manufacturer": "Kawasaki",
               "bikeNumber": null,
               "nationality": "FRA",
               "source": "https://en.wikipedia.org/wiki/1973_Grand_Prix_motorcycle_racing_season"
@@ -2903,7 +2913,7 @@
               "fastestLap": false,
               "pointsOverride": null,
               "team": null,
-              "manufacturer": "TR500",
+              "manufacturer": "Suzuki",
               "bikeNumber": null,
               "nationality": "ITA",
               "source": "https://en.wikipedia.org/wiki/1973_Grand_Prix_motorcycle_racing_season"
@@ -2993,13 +3003,13 @@
               "source": "https://en.wikipedia.org/wiki/1973_Grand_Prix_motorcycle_racing_season"
             },
             {
-              "rider": "sven-gunnarsson",
+              "rider": "sven-olof-gunnarsson",
               "position": null,
               "outcome": "DNF",
               "fastestLap": false,
               "pointsOverride": null,
               "team": null,
-              "manufacturer": "H1R-RW",
+              "manufacturer": "Kawasaki",
               "bikeNumber": null,
               "nationality": "SWE",
               "source": "https://en.wikipedia.org/wiki/1973_Grand_Prix_motorcycle_racing_season"
@@ -3011,7 +3021,7 @@
               "fastestLap": false,
               "pointsOverride": null,
               "team": null,
-              "manufacturer": "TR500",
+              "manufacturer": "Suzuki",
               "bikeNumber": null,
               "nationality": "RFA",
               "source": "https://en.wikipedia.org/wiki/1973_Grand_Prix_motorcycle_racing_season"

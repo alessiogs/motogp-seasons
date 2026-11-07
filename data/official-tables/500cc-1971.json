@@ -102,6 +102,26 @@
       "points": 8
     },
     {
+      "position": 20,
+      "rider": "selwyn-griffiths",
+      "points": 8
+    },
+    {
+      "position": 20,
+      "rider": "ulf-nilsson",
+      "points": 8
+    },
+    {
+      "position": 20,
+      "rider": "phil-read",
+      "points": 8
+    },
+    {
+      "position": 20,
+      "rider": "percy-tait",
+      "points": 8
+    },
+    {
       "position": 25,
       "rider": "ivan-carlsson",
       "points": 7
@@ -114,6 +134,11 @@
     {
       "position": 27,
       "rider": "gerry-mateer",
+      "points": 6
+    },
+    {
+      "position": 27,
+      "rider": "gordon-pantall",
       "points": 6
     },
     {
@@ -157,8 +182,28 @@
       "points": 4
     },
     {
+      "position": 36,
+      "rider": "morgan-radberg",
+      "points": 4
+    },
+    {
       "position": 38,
       "rider": "kurt-willy-bertsch",
+      "points": 3
+    },
+    {
+      "position": 38,
+      "rider": "joan-bordons",
+      "points": 3
+    },
+    {
+      "position": 38,
+      "rider": "jerry-lancaster",
+      "points": 3
+    },
+    {
+      "position": 38,
+      "rider": "charlie-sanby",
       "points": 3
     },
     {
@@ -172,8 +217,48 @@
       "points": 2
     },
     {
+      "position": 43,
+      "rider": "pentti-lehtela",
+      "points": 2
+    },
+    {
+      "position": 43,
+      "rider": "tom-dickie",
+      "points": 2
+    },
+    {
+      "position": 43,
+      "rider": "horst-dzierzawa",
+      "points": 2
+    },
+    {
+      "position": 43,
+      "rider": "giuseppe-mongardi",
+      "points": 2
+    },
+    {
+      "position": 43,
+      "rider": "donnie-robinson",
+      "points": 2
+    },
+    {
       "position": 49,
       "rider": "john-dodds",
+      "points": 1
+    },
+    {
+      "position": 49,
+      "rider": "emanuele-maugliani",
+      "points": 1
+    },
+    {
+      "position": 49,
+      "rider": "rob-noorlander",
+      "points": 1
+    },
+    {
+      "position": 49,
+      "rider": "stan-woods",
       "points": 1
     }
   ]

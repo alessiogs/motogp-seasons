@@ -33,116 +33,20 @@
               "source": "https://en.wikipedia.org/wiki/1970_Grand_Prix_motorcycle_racing_season"
             },
             {
-              "rider": "ginger-molloy",
+              "rider": "alan-barnett",
               "position": 2,
               "outcome": "FIN",
               "fastestLap": false,
               "pointsOverride": null,
               "team": null,
-              "manufacturer": "Bultaco / Kawasaki",
-              "bikeNumber": null,
-              "nationality": "NZL",
-              "source": "https://en.wikipedia.org/wiki/1970_Grand_Prix_motorcycle_racing_season"
-            },
-            {
-              "rider": "alberto-pagani",
-              "position": 3,
-              "outcome": "FIN",
-              "fastestLap": false,
-              "pointsOverride": null,
-              "team": null,
-              "manufacturer": "Linto",
-              "bikeNumber": null,
-              "nationality": "ITA",
-              "source": "https://en.wikipedia.org/wiki/1970_Grand_Prix_motorcycle_racing_season"
-            },
-            {
-              "rider": "angelo-bergamonti",
-              "position": 4,
-              "outcome": "FIN",
-              "fastestLap": false,
-              "pointsOverride": null,
-              "team": null,
-              "manufacturer": "Aermacchi / MV Agusta",
-              "bikeNumber": null,
-              "nationality": "ITA",
-              "source": "https://en.wikipedia.org/wiki/1970_Grand_Prix_motorcycle_racing_season"
-            },
-            {
-              "rider": "brian-steenson",
-              "position": 5,
-              "outcome": "FIN",
-              "fastestLap": false,
-              "pointsOverride": null,
-              "team": null,
-              "manufacturer": "Seeley-Matchless",
-              "bikeNumber": null,
-              "nationality": "NIR",
-              "source": "https://en.wikipedia.org/wiki/1970_Grand_Prix_motorcycle_racing_season"
-            },
-            {
-              "rider": "gyula-marsovszky",
-              "position": 6,
-              "outcome": "FIN",
-              "fastestLap": false,
-              "pointsOverride": null,
-              "team": null,
-              "manufacturer": "Linto / Kawasaki",
-              "bikeNumber": null,
-              "nationality": "CHE",
-              "source": "https://en.wikipedia.org/wiki/1970_Grand_Prix_motorcycle_racing_season"
-            },
-            {
-              "rider": "alan-barnett",
-              "position": 7,
-              "outcome": "FIN",
-              "fastestLap": false,
-              "pointsOverride": null,
-              "team": null,
-              "manufacturer": "Seeley-Matchless",
+              "manufacturer": "Seeley",
               "bikeNumber": null,
               "nationality": "GBR",
               "source": "https://en.wikipedia.org/wiki/1970_Grand_Prix_motorcycle_racing_season"
             },
             {
-              "rider": "christian-ravel",
-              "position": 8,
-              "outcome": "FIN",
-              "fastestLap": false,
-              "pointsOverride": null,
-              "team": null,
-              "manufacturer": "Kawasaki",
-              "bikeNumber": null,
-              "nationality": "FRA",
-              "source": "https://en.wikipedia.org/wiki/1970_Grand_Prix_motorcycle_racing_season"
-            },
-            {
-              "rider": "eric-offenstadt",
-              "position": 9,
-              "outcome": "FIN",
-              "fastestLap": false,
-              "pointsOverride": null,
-              "team": null,
-              "manufacturer": "Kawasaki",
-              "bikeNumber": null,
-              "nationality": "FRA",
-              "source": "https://en.wikipedia.org/wiki/1970_Grand_Prix_motorcycle_racing_season"
-            },
-            {
-              "rider": "andre-luc-appietto",
-              "position": 10,
-              "outcome": "FIN",
-              "fastestLap": false,
-              "pointsOverride": null,
-              "team": null,
-              "manufacturer": "Paton",
-              "bikeNumber": null,
-              "nationality": "FRA",
-              "source": "https://en.wikipedia.org/wiki/1970_Grand_Prix_motorcycle_racing_season"
-            },
-            {
               "rider": "tommy-robb",
-              "position": 11,
+              "position": 3,
               "outcome": "FIN",
               "fastestLap": false,
               "pointsOverride": null,
@@ -153,27 +57,111 @@
               "source": "https://en.wikipedia.org/wiki/1970_Grand_Prix_motorcycle_racing_season"
             },
             {
-              "rider": "dave-simmonds",
-              "position": 12,
+              "rider": "karl-hoppe",
+              "position": 4,
+              "outcome": "FIN",
+              "fastestLap": false,
+              "pointsOverride": null,
+              "team": null,
+              "manufacturer": "Münch",
+              "bikeNumber": null,
+              "nationality": "DEU",
+              "source": "https://en.wikipedia.org/wiki/1970_Grand_Prix_motorcycle_racing_season"
+            },
+            {
+              "rider": "ginger-molloy",
+              "position": 5,
+              "outcome": "FIN",
+              "fastestLap": false,
+              "pointsOverride": null,
+              "team": null,
+              "manufacturer": "Bultaco",
+              "bikeNumber": null,
+              "nationality": "NZL",
+              "source": "https://en.wikipedia.org/wiki/1970_Grand_Prix_motorcycle_racing_season"
+            },
+            {
+              "rider": "walter-rungg",
+              "position": 6,
+              "outcome": "FIN",
+              "fastestLap": false,
+              "pointsOverride": null,
+              "team": null,
+              "manufacturer": "Aermacchi",
+              "bikeNumber": null,
+              "nationality": "CHE",
+              "source": "https://en.wikipedia.org/wiki/1970_Grand_Prix_motorcycle_racing_season"
+            },
+            {
+              "rider": "martti-pesonen",
+              "position": 7,
+              "outcome": "FIN",
+              "fastestLap": false,
+              "pointsOverride": null,
+              "team": null,
+              "manufacturer": "Yamaha",
+              "bikeNumber": null,
+              "nationality": "FIN",
+              "source": "https://en.wikipedia.org/wiki/1970_Grand_Prix_motorcycle_racing_season"
+            },
+            {
+              "rider": "ernst-hiller",
+              "position": 8,
               "outcome": "FIN",
               "fastestLap": false,
               "pointsOverride": null,
               "team": null,
               "manufacturer": "Kawasaki",
               "bikeNumber": null,
-              "nationality": "GBR",
+              "nationality": "DEU",
               "source": "https://en.wikipedia.org/wiki/1970_Grand_Prix_motorcycle_racing_season"
             },
             {
-              "rider": "karl-hoppe",
-              "position": 16,
+              "rider": "billie-nelson",
+              "position": 9,
               "outcome": "FIN",
               "fastestLap": false,
               "pointsOverride": null,
               "team": null,
-              "manufacturer": "Münch-URS / Seeley-URS",
+              "manufacturer": "Paton",
               "bikeNumber": null,
-              "nationality": "DEU",
+              "nationality": "GBR",
+              "source": "https://en.wikipedia.org/wiki/1970_Grand_Prix_motorcycle_racing_season"
+            },
+            {
+              "rider": "terry-dennehy",
+              "position": 10,
+              "outcome": "FIN",
+              "fastestLap": false,
+              "pointsOverride": null,
+              "team": null,
+              "manufacturer": "Honda",
+              "bikeNumber": null,
+              "nationality": "AUS",
+              "source": "https://en.wikipedia.org/wiki/1970_Grand_Prix_motorcycle_racing_season"
+            },
+            {
+              "rider": "gyula-marsovszky",
+              "position": 11,
+              "outcome": "FIN",
+              "fastestLap": false,
+              "pointsOverride": null,
+              "team": null,
+              "manufacturer": "Linto",
+              "bikeNumber": null,
+              "nationality": "CHE",
+              "source": "https://en.wikipedia.org/wiki/1970_Grand_Prix_motorcycle_racing_season"
+            },
+            {
+              "rider": "brian-steenson",
+              "position": 15,
+              "outcome": "FIN",
+              "fastestLap": false,
+              "pointsOverride": null,
+              "team": null,
+              "manufacturer": "Seeley",
+              "bikeNumber": null,
+              "nationality": "NIR",
               "source": "https://en.wikipedia.org/wiki/1970_Grand_Prix_motorcycle_racing_season"
             },
             {
@@ -183,9 +171,33 @@
               "fastestLap": false,
               "pointsOverride": null,
               "team": null,
-              "manufacturer": "Seeley-Matchless / Seeley-Suzuki",
+              "manufacturer": "Seeley",
               "bikeNumber": null,
               "nationality": "AUS",
+              "source": "https://en.wikipedia.org/wiki/1970_Grand_Prix_motorcycle_racing_season"
+            },
+            {
+              "rider": "martin-carney",
+              "position": null,
+              "outcome": "DNF",
+              "fastestLap": false,
+              "pointsOverride": null,
+              "team": null,
+              "manufacturer": "Kawasaki",
+              "bikeNumber": null,
+              "nationality": "GBR",
+              "source": "https://en.wikipedia.org/wiki/1970_Grand_Prix_motorcycle_racing_season"
+            },
+            {
+              "rider": "eric-offenstadt",
+              "position": null,
+              "outcome": "DNF",
+              "fastestLap": false,
+              "pointsOverride": null,
+              "team": null,
+              "manufacturer": "Kawasaki",
+              "bikeNumber": null,
+              "nationality": "FRA",
               "source": "https://en.wikipedia.org/wiki/1970_Grand_Prix_motorcycle_racing_season"
             },
             {
@@ -201,7 +213,7 @@
               "source": "https://en.wikipedia.org/wiki/1970_Grand_Prix_motorcycle_racing_season"
             },
             {
-              "rider": "silvano-bertarelli",
+              "rider": "dave-simmonds",
               "position": null,
               "outcome": "DNF",
               "fastestLap": false,
@@ -209,7 +221,7 @@
               "team": null,
               "manufacturer": "Kawasaki",
               "bikeNumber": null,
-              "nationality": "ITA",
+              "nationality": "GBR",
               "source": "https://en.wikipedia.org/wiki/1970_Grand_Prix_motorcycle_racing_season"
             },
             {
@@ -219,7 +231,7 @@
               "fastestLap": false,
               "pointsOverride": null,
               "team": null,
-              "manufacturer": "Norton / Manx",
+              "manufacturer": "Norton",
               "bikeNumber": null,
               "nationality": "GBR",
               "source": "https://en.wikipedia.org/wiki/1970_Grand_Prix_motorcycle_racing_season"
@@ -231,33 +243,9 @@
               "fastestLap": false,
               "pointsOverride": null,
               "team": null,
-              "manufacturer": "Honda / Matchless",
-              "bikeNumber": null,
-              "nationality": "GBR",
-              "source": "https://en.wikipedia.org/wiki/1970_Grand_Prix_motorcycle_racing_season"
-            },
-            {
-              "rider": "terry-dennehy",
-              "position": null,
-              "outcome": "DNF",
-              "fastestLap": false,
-              "pointsOverride": null,
-              "team": null,
               "manufacturer": "Honda",
               "bikeNumber": null,
-              "nationality": "AUS",
-              "source": "https://en.wikipedia.org/wiki/1970_Grand_Prix_motorcycle_racing_season"
-            },
-            {
-              "rider": "walter-rungg",
-              "position": null,
-              "outcome": "DNF",
-              "fastestLap": false,
-              "pointsOverride": null,
-              "team": null,
-              "manufacturer": "Aermacchi",
-              "bikeNumber": null,
-              "nationality": "CHE",
+              "nationality": "GBR",
               "source": "https://en.wikipedia.org/wiki/1970_Grand_Prix_motorcycle_racing_season"
             },
             {
@@ -267,21 +255,45 @@
               "fastestLap": false,
               "pointsOverride": null,
               "team": null,
-              "manufacturer": "Linto / Matchless",
+              "manufacturer": "Linto",
               "bikeNumber": null,
               "nationality": "GBR",
               "source": "https://en.wikipedia.org/wiki/1970_Grand_Prix_motorcycle_racing_season"
             },
             {
-              "rider": "jean-campiche",
+              "rider": "ron-chandler",
               "position": null,
               "outcome": "DNF",
               "fastestLap": false,
               "pointsOverride": null,
               "team": null,
-              "manufacturer": "Honda",
+              "manufacturer": "Seeley",
               "bikeNumber": null,
-              "nationality": "CHE",
+              "nationality": "GBR",
+              "source": "https://en.wikipedia.org/wiki/1970_Grand_Prix_motorcycle_racing_season"
+            },
+            {
+              "rider": "hans-otto-butenuth",
+              "position": null,
+              "outcome": "DNF",
+              "fastestLap": false,
+              "pointsOverride": null,
+              "team": null,
+              "manufacturer": "BMW",
+              "bikeNumber": null,
+              "nationality": "DEU",
+              "source": "https://en.wikipedia.org/wiki/1970_Grand_Prix_motorcycle_racing_season"
+            },
+            {
+              "rider": "gordon-keith",
+              "position": null,
+              "outcome": "DNF",
+              "fastestLap": false,
+              "pointsOverride": null,
+              "team": null,
+              "manufacturer": "Velocette",
+              "bikeNumber": null,
+              "nationality": "RHO",
               "source": "https://en.wikipedia.org/wiki/1970_Grand_Prix_motorcycle_racing_season"
             }
           ]
@@ -365,7 +377,7 @@
               "source": "https://en.wikipedia.org/wiki/1970_French_motorcycle_Grand_Prix"
             },
             {
-              "rider": "gyula-marsovsky",
+              "rider": "gyula-marsovszky",
               "position": 6,
               "outcome": "FIN",
               "fastestLap": false,
@@ -491,7 +503,7 @@
               "fastestLap": false,
               "pointsOverride": null,
               "team": null,
-              "manufacturer": "Münch-URS",
+              "manufacturer": "Münch",
               "bikeNumber": 15,
               "nationality": "DEU",
               "source": "https://en.wikipedia.org/wiki/1970_French_motorcycle_Grand_Prix"
@@ -575,7 +587,7 @@
               "fastestLap": false,
               "pointsOverride": null,
               "team": null,
-              "manufacturer": "Suzuki",
+              "manufacturer": "Métisse",
               "bikeNumber": null,
               "nationality": "FRA",
               "source": "https://en.wikipedia.org/wiki/1970_French_motorcycle_Grand_Prix"
@@ -635,7 +647,7 @@
               "fastestLap": false,
               "pointsOverride": null,
               "team": null,
-              "manufacturer": "Tickle Manx",
+              "manufacturer": "Norton",
               "bikeNumber": 3,
               "nationality": "GBR",
               "source": "https://en.wikipedia.org/wiki/1970_French_motorcycle_Grand_Prix"
@@ -793,6 +805,230 @@
               "source": "https://en.wikipedia.org/wiki/1970_Grand_Prix_motorcycle_racing_season"
             },
             {
+              "rider": "angelo-bergamonti",
+              "position": 2,
+              "outcome": "FIN",
+              "fastestLap": false,
+              "pointsOverride": null,
+              "team": null,
+              "manufacturer": "Aermacchi",
+              "bikeNumber": null,
+              "nationality": "ITA",
+              "source": "https://en.wikipedia.org/wiki/1970_Grand_Prix_motorcycle_racing_season"
+            },
+            {
+              "rider": "roberto-gallina",
+              "position": 3,
+              "outcome": "FIN",
+              "fastestLap": false,
+              "pointsOverride": null,
+              "team": null,
+              "manufacturer": "Paton",
+              "bikeNumber": null,
+              "nationality": "ITA",
+              "source": "https://en.wikipedia.org/wiki/1970_Grand_Prix_motorcycle_racing_season"
+            },
+            {
+              "rider": "jack-findlay",
+              "position": 4,
+              "outcome": "FIN",
+              "fastestLap": false,
+              "pointsOverride": null,
+              "team": null,
+              "manufacturer": "Seeley",
+              "bikeNumber": null,
+              "nationality": "AUS",
+              "source": "https://en.wikipedia.org/wiki/1970_Grand_Prix_motorcycle_racing_season"
+            },
+            {
+              "rider": "martti-pesonen",
+              "position": 5,
+              "outcome": "FIN",
+              "fastestLap": false,
+              "pointsOverride": null,
+              "team": null,
+              "manufacturer": "Yamaha",
+              "bikeNumber": null,
+              "nationality": "FIN",
+              "source": "https://en.wikipedia.org/wiki/1970_Grand_Prix_motorcycle_racing_season"
+            },
+            {
+              "rider": "dave-simmonds",
+              "position": 6,
+              "outcome": "FIN",
+              "fastestLap": false,
+              "pointsOverride": null,
+              "team": null,
+              "manufacturer": "Kawasaki",
+              "bikeNumber": null,
+              "nationality": "GBR",
+              "source": "https://en.wikipedia.org/wiki/1970_Grand_Prix_motorcycle_racing_season"
+            },
+            {
+              "rider": "ginger-molloy",
+              "position": 7,
+              "outcome": "FIN",
+              "fastestLap": false,
+              "pointsOverride": null,
+              "team": null,
+              "manufacturer": "Bultaco",
+              "bikeNumber": null,
+              "nationality": "NZL",
+              "source": "https://en.wikipedia.org/wiki/1970_Grand_Prix_motorcycle_racing_season"
+            },
+            {
+              "rider": "gyula-marsovszky",
+              "position": 8,
+              "outcome": "FIN",
+              "fastestLap": false,
+              "pointsOverride": null,
+              "team": null,
+              "manufacturer": "Linto",
+              "bikeNumber": null,
+              "nationality": "CHE",
+              "source": "https://en.wikipedia.org/wiki/1970_Grand_Prix_motorcycle_racing_season"
+            },
+            {
+              "rider": "gianpiero-zubani",
+              "position": 9,
+              "outcome": "FIN",
+              "fastestLap": false,
+              "pointsOverride": null,
+              "team": null,
+              "manufacturer": "Kawasaki",
+              "bikeNumber": null,
+              "nationality": "ITA",
+              "source": "https://en.wikipedia.org/wiki/1970_Grand_Prix_motorcycle_racing_season"
+            },
+            {
+              "rider": "jean-campiche",
+              "position": 10,
+              "outcome": "FIN",
+              "fastestLap": false,
+              "pointsOverride": null,
+              "team": null,
+              "manufacturer": "Honda",
+              "bikeNumber": null,
+              "nationality": "CHE",
+              "source": "https://en.wikipedia.org/wiki/1970_Grand_Prix_motorcycle_racing_season"
+            },
+            {
+              "rider": "lewis-young",
+              "position": 11,
+              "outcome": "FIN",
+              "fastestLap": false,
+              "pointsOverride": null,
+              "team": null,
+              "manufacturer": "Honda",
+              "bikeNumber": null,
+              "nationality": "GBR",
+              "source": "https://en.wikipedia.org/wiki/1970_Grand_Prix_motorcycle_racing_season"
+            },
+            {
+              "rider": "steve-ellis",
+              "position": 14,
+              "outcome": "FIN",
+              "fastestLap": false,
+              "pointsOverride": null,
+              "team": null,
+              "manufacturer": "Linto",
+              "bikeNumber": null,
+              "nationality": "GBR",
+              "source": "https://en.wikipedia.org/wiki/1970_Grand_Prix_motorcycle_racing_season"
+            },
+            {
+              "rider": "alberto-pagani",
+              "position": null,
+              "outcome": "DNF",
+              "fastestLap": false,
+              "pointsOverride": null,
+              "team": null,
+              "manufacturer": "Linto",
+              "bikeNumber": null,
+              "nationality": "ITA",
+              "source": "https://en.wikipedia.org/wiki/1970_Grand_Prix_motorcycle_racing_season"
+            },
+            {
+              "rider": "karl-auer",
+              "position": null,
+              "outcome": "DNF",
+              "fastestLap": false,
+              "pointsOverride": null,
+              "team": null,
+              "manufacturer": "Matchless",
+              "bikeNumber": null,
+              "nationality": "AUT",
+              "source": "https://en.wikipedia.org/wiki/1970_Grand_Prix_motorcycle_racing_season"
+            },
+            {
+              "rider": "terry-dennehy",
+              "position": null,
+              "outcome": "DNF",
+              "fastestLap": false,
+              "pointsOverride": null,
+              "team": null,
+              "manufacturer": "Honda",
+              "bikeNumber": null,
+              "nationality": "AUS",
+              "source": "https://en.wikipedia.org/wiki/1970_Grand_Prix_motorcycle_racing_season"
+            },
+            {
+              "rider": "walter-rungg",
+              "position": null,
+              "outcome": "DNF",
+              "fastestLap": false,
+              "pointsOverride": null,
+              "team": null,
+              "manufacturer": "Aermacchi",
+              "bikeNumber": null,
+              "nationality": "CHE",
+              "source": "https://en.wikipedia.org/wiki/1970_Grand_Prix_motorcycle_racing_season"
+            },
+            {
+              "rider": "paolo-campanelli",
+              "position": null,
+              "outcome": "DNF",
+              "fastestLap": false,
+              "pointsOverride": null,
+              "team": null,
+              "manufacturer": "Kawasaki",
+              "bikeNumber": null,
+              "nationality": "ITA",
+              "source": "https://en.wikipedia.org/wiki/1970_Grand_Prix_motorcycle_racing_season"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 4,
+      "name": "Isle of Man TT",
+      "circuit": "Snaefell Mountain",
+      "country": "IOM",
+      "date": "1970-06-12",
+      "nonChampionship": false,
+      "notes": null,
+      "sessions": [
+        {
+          "type": "grand-prix-race",
+          "order": 1,
+          "date": "1970-06-12",
+          "pointsMultiplier": 1,
+          "notes": null,
+          "results": [
+            {
+              "rider": "giacomo-agostini",
+              "position": 1,
+              "outcome": "FIN",
+              "fastestLap": true,
+              "pointsOverride": null,
+              "team": null,
+              "manufacturer": "MV Agusta",
+              "bikeNumber": null,
+              "nationality": "ITA",
+              "source": "https://en.wikipedia.org/wiki/1970_Grand_Prix_motorcycle_racing_season"
+            },
+            {
               "rider": "peter-williams",
               "position": 2,
               "outcome": "FIN",
@@ -811,7 +1047,7 @@
               "fastestLap": false,
               "pointsOverride": null,
               "team": null,
-              "manufacturer": "Kawasaki / Yamaha",
+              "manufacturer": "Kawasaki",
               "bikeNumber": null,
               "nationality": "GBR",
               "source": "https://en.wikipedia.org/wiki/1970_Grand_Prix_motorcycle_racing_season"
@@ -823,7 +1059,7 @@
               "fastestLap": false,
               "pointsOverride": null,
               "team": null,
-              "manufacturer": "Seeley-Matchless / Seeley-Suzuki",
+              "manufacturer": "Seeley",
               "bikeNumber": null,
               "nationality": "AUS",
               "source": "https://en.wikipedia.org/wiki/1970_Grand_Prix_motorcycle_racing_season"
@@ -883,7 +1119,7 @@
               "fastestLap": false,
               "pointsOverride": null,
               "team": null,
-              "manufacturer": "Seeley-Matchless",
+              "manufacturer": "Seeley",
               "bikeNumber": null,
               "nationality": "GBR",
               "source": "https://en.wikipedia.org/wiki/1970_Grand_Prix_motorcycle_racing_season"
@@ -931,7 +1167,7 @@
               "fastestLap": false,
               "pointsOverride": null,
               "team": null,
-              "manufacturer": "Seeley-Matchless",
+              "manufacturer": "Seeley",
               "bikeNumber": null,
               "nationality": "GBR",
               "source": "https://en.wikipedia.org/wiki/1970_Grand_Prix_motorcycle_racing_season"
@@ -967,7 +1203,7 @@
               "fastestLap": false,
               "pointsOverride": null,
               "team": null,
-              "manufacturer": "Seeley-Matchless",
+              "manufacturer": "Seeley",
               "bikeNumber": null,
               "nationality": "NIR",
               "source": "https://en.wikipedia.org/wiki/1970_Grand_Prix_motorcycle_racing_season"
@@ -979,7 +1215,7 @@
               "fastestLap": false,
               "pointsOverride": null,
               "team": null,
-              "manufacturer": "Seeley-Matchless",
+              "manufacturer": "Seeley",
               "bikeNumber": null,
               "nationality": "GBR",
               "source": "https://en.wikipedia.org/wiki/1970_Grand_Prix_motorcycle_racing_season"
@@ -1013,18 +1249,18 @@
       ]
     },
     {
-      "number": 4,
-      "name": "Isle of Man TT",
-      "circuit": "Snaefell Mountain",
-      "country": "IOM",
-      "date": "1970-06-12",
+      "number": 5,
+      "name": "Dutch TT",
+      "circuit": "Assen",
+      "country": "NLD",
+      "date": "1970-06-27",
       "nonChampionship": false,
       "notes": null,
       "sessions": [
         {
           "type": "grand-prix-race",
           "order": 1,
-          "date": "1970-06-12",
+          "date": "1970-06-27",
           "pointsMultiplier": 1,
           "notes": null,
           "results": [
@@ -1047,7 +1283,7 @@
               "fastestLap": false,
               "pointsOverride": null,
               "team": null,
-              "manufacturer": "Aermacchi / MV Agusta",
+              "manufacturer": "Aermacchi",
               "bikeNumber": null,
               "nationality": "ITA",
               "source": "https://en.wikipedia.org/wiki/1970_Grand_Prix_motorcycle_racing_season"
@@ -1071,7 +1307,7 @@
               "fastestLap": false,
               "pointsOverride": null,
               "team": null,
-              "manufacturer": "Bultaco / Kawasaki",
+              "manufacturer": "Bultaco",
               "bikeNumber": null,
               "nationality": "NZL",
               "source": "https://en.wikipedia.org/wiki/1970_Grand_Prix_motorcycle_racing_season"
@@ -1083,7 +1319,7 @@
               "fastestLap": false,
               "pointsOverride": null,
               "team": null,
-              "manufacturer": "Seeley-Matchless",
+              "manufacturer": "Seeley",
               "bikeNumber": null,
               "nationality": "GBR",
               "source": "https://en.wikipedia.org/wiki/1970_Grand_Prix_motorcycle_racing_season"
@@ -1119,7 +1355,7 @@
               "fastestLap": false,
               "pointsOverride": null,
               "team": null,
-              "manufacturer": "Seeley-Matchless / Triumph",
+              "manufacturer": "Seeley",
               "bikeNumber": null,
               "nationality": "GBR",
               "source": "https://en.wikipedia.org/wiki/1970_Grand_Prix_motorcycle_racing_season"
@@ -1131,7 +1367,7 @@
               "fastestLap": false,
               "pointsOverride": null,
               "team": null,
-              "manufacturer": "Linto / Kawasaki",
+              "manufacturer": "Linto",
               "bikeNumber": null,
               "nationality": "CHE",
               "source": "https://en.wikipedia.org/wiki/1970_Grand_Prix_motorcycle_racing_season"
@@ -1191,7 +1427,7 @@
               "fastestLap": false,
               "pointsOverride": null,
               "team": null,
-              "manufacturer": "Seeley-Matchless / Seeley-Suzuki",
+              "manufacturer": "Seeley",
               "bikeNumber": null,
               "nationality": "AUS",
               "source": "https://en.wikipedia.org/wiki/1970_Grand_Prix_motorcycle_racing_season"
@@ -1239,7 +1475,7 @@
               "fastestLap": false,
               "pointsOverride": null,
               "team": null,
-              "manufacturer": "Münch-URS / Seeley-URS",
+              "manufacturer": "Münch",
               "bikeNumber": null,
               "nationality": "DEU",
               "source": "https://en.wikipedia.org/wiki/1970_Grand_Prix_motorcycle_racing_season"
@@ -1251,7 +1487,7 @@
               "fastestLap": false,
               "pointsOverride": null,
               "team": null,
-              "manufacturer": "Norton / Manx",
+              "manufacturer": "Norton",
               "bikeNumber": null,
               "nationality": "GBR",
               "source": "https://en.wikipedia.org/wiki/1970_Grand_Prix_motorcycle_racing_season"
@@ -1287,7 +1523,7 @@
               "fastestLap": false,
               "pointsOverride": null,
               "team": null,
-              "manufacturer": "Honda / Matchless",
+              "manufacturer": "Honda",
               "bikeNumber": null,
               "nationality": "GBR",
               "source": "https://en.wikipedia.org/wiki/1970_Grand_Prix_motorcycle_racing_season"
@@ -1297,18 +1533,18 @@
       ]
     },
     {
-      "number": 5,
-      "name": "Dutch TT",
-      "circuit": "Assen",
-      "country": "NLD",
-      "date": "1970-06-27",
+      "number": 6,
+      "name": "Belgian Grand Prix",
+      "circuit": "Spa-Francorchamps",
+      "country": "BEL",
+      "date": "1970-07-05",
       "nonChampionship": false,
       "notes": null,
       "sessions": [
         {
           "type": "grand-prix-race",
           "order": 1,
-          "date": "1970-06-27",
+          "date": "1970-07-05",
           "pointsMultiplier": 1,
           "notes": null,
           "results": [
@@ -1367,7 +1603,7 @@
               "fastestLap": false,
               "pointsOverride": null,
               "team": null,
-              "manufacturer": "Honda / Matchless",
+              "manufacturer": "Honda",
               "bikeNumber": null,
               "nationality": "GBR",
               "source": "https://en.wikipedia.org/wiki/1970_Grand_Prix_motorcycle_racing_season"
@@ -1415,7 +1651,7 @@
               "fastestLap": false,
               "pointsOverride": null,
               "team": null,
-              "manufacturer": "Seeley-Matchless / Triumph",
+              "manufacturer": "Seeley",
               "bikeNumber": null,
               "nationality": "GBR",
               "source": "https://en.wikipedia.org/wiki/1970_Grand_Prix_motorcycle_racing_season"
@@ -1427,7 +1663,7 @@
               "fastestLap": false,
               "pointsOverride": null,
               "team": null,
-              "manufacturer": "Linto / Matchless",
+              "manufacturer": "Linto",
               "bikeNumber": null,
               "nationality": "GBR",
               "source": "https://en.wikipedia.org/wiki/1970_Grand_Prix_motorcycle_racing_season"
@@ -1439,7 +1675,7 @@
               "fastestLap": false,
               "pointsOverride": null,
               "team": null,
-              "manufacturer": "Norton / Manx",
+              "manufacturer": "Norton",
               "bikeNumber": null,
               "nationality": "GBR",
               "source": "https://en.wikipedia.org/wiki/1970_Grand_Prix_motorcycle_racing_season"
@@ -1475,7 +1711,7 @@
               "fastestLap": false,
               "pointsOverride": null,
               "team": null,
-              "manufacturer": "Bultaco / Kawasaki",
+              "manufacturer": "Bultaco",
               "bikeNumber": null,
               "nationality": "NZL",
               "source": "https://en.wikipedia.org/wiki/1970_Grand_Prix_motorcycle_racing_season"
@@ -1499,7 +1735,7 @@
               "fastestLap": false,
               "pointsOverride": null,
               "team": null,
-              "manufacturer": "Seeley-Matchless / Seeley-Suzuki",
+              "manufacturer": "Seeley",
               "bikeNumber": null,
               "nationality": "AUS",
               "source": "https://en.wikipedia.org/wiki/1970_Grand_Prix_motorcycle_racing_season"
@@ -1511,7 +1747,7 @@
               "fastestLap": false,
               "pointsOverride": null,
               "team": null,
-              "manufacturer": "Linto / Kawasaki",
+              "manufacturer": "Linto",
               "bikeNumber": null,
               "nationality": "CHE",
               "source": "https://en.wikipedia.org/wiki/1970_Grand_Prix_motorcycle_racing_season"
@@ -1535,7 +1771,7 @@
               "fastestLap": false,
               "pointsOverride": null,
               "team": null,
-              "manufacturer": "Triumph / Seeley-Matchless",
+              "manufacturer": "Triumph",
               "bikeNumber": null,
               "nationality": "GBR",
               "source": "https://en.wikipedia.org/wiki/1970_Grand_Prix_motorcycle_racing_season"
@@ -1557,18 +1793,18 @@
       ]
     },
     {
-      "number": 6,
-      "name": "Belgian Grand Prix",
-      "circuit": "Spa-Francorchamps",
-      "country": "BEL",
-      "date": "1970-07-05",
+      "number": 7,
+      "name": "East German Grand Prix",
+      "circuit": "Sachsenring",
+      "country": "DDR",
+      "date": "1970-07-12",
       "nonChampionship": false,
       "notes": null,
       "sessions": [
         {
           "type": "grand-prix-race",
           "order": 1,
-          "date": "1970-07-05",
+          "date": "1970-07-12",
           "pointsMultiplier": 1,
           "notes": null,
           "results": [
@@ -1615,7 +1851,7 @@
               "fastestLap": false,
               "pointsOverride": null,
               "team": null,
-              "manufacturer": "Seeley-Matchless",
+              "manufacturer": "Seeley",
               "bikeNumber": null,
               "nationality": "GBR",
               "source": "https://en.wikipedia.org/wiki/1970_Grand_Prix_motorcycle_racing_season"
@@ -1675,7 +1911,7 @@
               "fastestLap": false,
               "pointsOverride": null,
               "team": null,
-              "manufacturer": "Norton / Manx",
+              "manufacturer": "Norton",
               "bikeNumber": null,
               "nationality": "GBR",
               "source": "https://en.wikipedia.org/wiki/1970_Grand_Prix_motorcycle_racing_season"
@@ -1699,7 +1935,7 @@
               "fastestLap": false,
               "pointsOverride": null,
               "team": null,
-              "manufacturer": "Seeley-Matchless / Seeley-Suzuki",
+              "manufacturer": "Seeley",
               "bikeNumber": null,
               "nationality": "AUS",
               "source": "https://en.wikipedia.org/wiki/1970_Grand_Prix_motorcycle_racing_season"
@@ -1723,7 +1959,7 @@
               "fastestLap": false,
               "pointsOverride": null,
               "team": null,
-              "manufacturer": "Bultaco / Kawasaki",
+              "manufacturer": "Bultaco",
               "bikeNumber": null,
               "nationality": "NZL",
               "source": "https://en.wikipedia.org/wiki/1970_Grand_Prix_motorcycle_racing_season"
@@ -1747,7 +1983,7 @@
               "fastestLap": false,
               "pointsOverride": null,
               "team": null,
-              "manufacturer": "Linto / Kawasaki",
+              "manufacturer": "Linto",
               "bikeNumber": null,
               "nationality": "CHE",
               "source": "https://en.wikipedia.org/wiki/1970_Grand_Prix_motorcycle_racing_season"
@@ -1759,7 +1995,7 @@
               "fastestLap": false,
               "pointsOverride": null,
               "team": null,
-              "manufacturer": "Münch-URS / Seeley-URS",
+              "manufacturer": "Münch",
               "bikeNumber": null,
               "nationality": "DEU",
               "source": "https://en.wikipedia.org/wiki/1970_Grand_Prix_motorcycle_racing_season"
@@ -1795,7 +2031,7 @@
               "fastestLap": false,
               "pointsOverride": null,
               "team": null,
-              "manufacturer": "Linto / Matchless",
+              "manufacturer": "Linto",
               "bikeNumber": null,
               "nationality": "GBR",
               "source": "https://en.wikipedia.org/wiki/1970_Grand_Prix_motorcycle_racing_season"
@@ -1817,7 +2053,7 @@
       ]
     },
     {
-      "number": 7,
+      "number": 8,
       "name": "Finnish Grand Prix",
       "circuit": "Imatra Circuit",
       "country": "FIN",
@@ -1851,7 +2087,7 @@
               "fastestLap": false,
               "pointsOverride": null,
               "team": null,
-              "manufacturer": "Bultaco / Kawasaki",
+              "manufacturer": "Bultaco",
               "bikeNumber": null,
               "nationality": "NZL",
               "source": "https://en.wikipedia.org/wiki/1970_Grand_Prix_motorcycle_racing_season"
@@ -1899,7 +2135,7 @@
               "fastestLap": false,
               "pointsOverride": null,
               "team": null,
-              "manufacturer": "Norton / Manx",
+              "manufacturer": "Norton",
               "bikeNumber": null,
               "nationality": "GBR",
               "source": "https://en.wikipedia.org/wiki/1970_Grand_Prix_motorcycle_racing_season"
@@ -1911,7 +2147,7 @@
               "fastestLap": false,
               "pointsOverride": null,
               "team": null,
-              "manufacturer": "Linto / Matchless",
+              "manufacturer": "Linto",
               "bikeNumber": null,
               "nationality": "GBR",
               "source": "https://en.wikipedia.org/wiki/1970_Grand_Prix_motorcycle_racing_season"
@@ -1971,7 +2207,7 @@
               "fastestLap": false,
               "pointsOverride": null,
               "team": null,
-              "manufacturer": "Seeley-Matchless / Seeley-Suzuki",
+              "manufacturer": "Seeley",
               "bikeNumber": null,
               "nationality": "AUS",
               "source": "https://en.wikipedia.org/wiki/1970_Grand_Prix_motorcycle_racing_season"
@@ -1983,7 +2219,7 @@
               "fastestLap": false,
               "pointsOverride": null,
               "team": null,
-              "manufacturer": "Linto / Kawasaki",
+              "manufacturer": "Linto",
               "bikeNumber": null,
               "nationality": "CHE",
               "source": "https://en.wikipedia.org/wiki/1970_Grand_Prix_motorcycle_racing_season"
@@ -2031,7 +2267,7 @@
               "fastestLap": false,
               "pointsOverride": null,
               "team": null,
-              "manufacturer": "Honda / Matchless",
+              "manufacturer": "Honda",
               "bikeNumber": null,
               "nationality": "GBR",
               "source": "https://en.wikipedia.org/wiki/1970_Grand_Prix_motorcycle_racing_season"
@@ -2043,7 +2279,7 @@
               "fastestLap": false,
               "pointsOverride": null,
               "team": null,
-              "manufacturer": "Seeley-Matchless",
+              "manufacturer": "Seeley",
               "bikeNumber": null,
               "nationality": "GBR",
               "source": "https://en.wikipedia.org/wiki/1970_Grand_Prix_motorcycle_racing_season"
@@ -2065,18 +2301,18 @@
       ]
     },
     {
-      "number": 8,
-      "name": "Czechoslovak Grand Prix",
-      "circuit": "Masaryk Circuit",
-      "country": "TCH",
-      "date": "1970-07-19",
+      "number": 9,
+      "name": "Ulster Grand Prix",
+      "circuit": "Dundrod Circuit",
+      "country": "NIR",
+      "date": "1970-08-15",
       "nonChampionship": false,
       "notes": null,
       "sessions": [
         {
           "type": "grand-prix-race",
           "order": 1,
-          "date": "1970-07-19",
+          "date": "1970-08-15",
           "pointsMultiplier": 1,
           "notes": null,
           "results": [
@@ -2099,7 +2335,7 @@
               "fastestLap": false,
               "pointsOverride": null,
               "team": null,
-              "manufacturer": "Bultaco / Kawasaki",
+              "manufacturer": "Bultaco",
               "bikeNumber": null,
               "nationality": "NZL",
               "source": "https://en.wikipedia.org/wiki/1970_Grand_Prix_motorcycle_racing_season"
@@ -2111,7 +2347,7 @@
               "fastestLap": false,
               "pointsOverride": null,
               "team": null,
-              "manufacturer": "Triumph / Seeley-Matchless",
+              "manufacturer": "Triumph",
               "bikeNumber": null,
               "nationality": "GBR",
               "source": "https://en.wikipedia.org/wiki/1970_Grand_Prix_motorcycle_racing_season"
@@ -2123,7 +2359,7 @@
               "fastestLap": false,
               "pointsOverride": null,
               "team": null,
-              "manufacturer": "Seeley-Matchless / Seeley-Suzuki",
+              "manufacturer": "Seeley",
               "bikeNumber": null,
               "nationality": "AUS",
               "source": "https://en.wikipedia.org/wiki/1970_Grand_Prix_motorcycle_racing_season"
@@ -2195,7 +2431,7 @@
               "fastestLap": false,
               "pointsOverride": null,
               "team": null,
-              "manufacturer": "Seeley-Matchless",
+              "manufacturer": "Seeley",
               "bikeNumber": null,
               "nationality": "GBR",
               "source": "https://en.wikipedia.org/wiki/1970_Grand_Prix_motorcycle_racing_season"
@@ -2207,7 +2443,7 @@
               "fastestLap": false,
               "pointsOverride": null,
               "team": null,
-              "manufacturer": "Seeley-Matchless",
+              "manufacturer": "Seeley",
               "bikeNumber": null,
               "nationality": "GBR",
               "source": "https://en.wikipedia.org/wiki/1970_Grand_Prix_motorcycle_racing_season"
@@ -2231,7 +2467,7 @@
               "fastestLap": false,
               "pointsOverride": null,
               "team": null,
-              "manufacturer": "Seeley-Matchless",
+              "manufacturer": "Seeley",
               "bikeNumber": null,
               "nationality": "GBR",
               "source": "https://en.wikipedia.org/wiki/1970_Grand_Prix_motorcycle_racing_season"
@@ -2255,7 +2491,7 @@
               "fastestLap": false,
               "pointsOverride": null,
               "team": null,
-              "manufacturer": "Kawasaki / Yamaha",
+              "manufacturer": "Kawasaki",
               "bikeNumber": null,
               "nationality": "GBR",
               "source": "https://en.wikipedia.org/wiki/1970_Grand_Prix_motorcycle_racing_season"
@@ -2279,7 +2515,7 @@
               "fastestLap": false,
               "pointsOverride": null,
               "team": null,
-              "manufacturer": "Seeley-Matchless",
+              "manufacturer": "Seeley",
               "bikeNumber": null,
               "nationality": "GBR",
               "source": "https://en.wikipedia.org/wiki/1970_Grand_Prix_motorcycle_racing_season"
@@ -2303,7 +2539,7 @@
               "fastestLap": false,
               "pointsOverride": null,
               "team": null,
-              "manufacturer": "Seeley-Matchless / Triumph",
+              "manufacturer": "Seeley",
               "bikeNumber": null,
               "nationality": "GBR",
               "source": "https://en.wikipedia.org/wiki/1970_Grand_Prix_motorcycle_racing_season"
@@ -2313,7 +2549,7 @@
       ]
     },
     {
-      "number": 9,
+      "number": 10,
       "name": "Nations Grand Prix",
       "circuit": "Monza",
       "country": "ITA",
@@ -2347,7 +2583,7 @@
               "fastestLap": false,
               "pointsOverride": null,
               "team": null,
-              "manufacturer": "Aermacchi / MV Agusta",
+              "manufacturer": "Aermacchi",
               "bikeNumber": null,
               "nationality": "ITA",
               "source": "https://en.wikipedia.org/wiki/1970_Grand_Prix_motorcycle_racing_season"
@@ -2371,7 +2607,7 @@
               "fastestLap": false,
               "pointsOverride": null,
               "team": null,
-              "manufacturer": "Linto / Kawasaki",
+              "manufacturer": "Linto",
               "bikeNumber": null,
               "nationality": "CHE",
               "source": "https://en.wikipedia.org/wiki/1970_Grand_Prix_motorcycle_racing_season"
@@ -2395,7 +2631,7 @@
               "fastestLap": false,
               "pointsOverride": null,
               "team": null,
-              "manufacturer": "Bultaco / Kawasaki",
+              "manufacturer": "Bultaco",
               "bikeNumber": null,
               "nationality": "NZL",
               "source": "https://en.wikipedia.org/wiki/1970_Grand_Prix_motorcycle_racing_season"
@@ -2443,7 +2679,7 @@
               "fastestLap": false,
               "pointsOverride": null,
               "team": null,
-              "manufacturer": "Norton-Kawasaki",
+              "manufacturer": "Kawasaki",
               "bikeNumber": null,
               "nationality": "ITA",
               "source": "https://en.wikipedia.org/wiki/1970_Grand_Prix_motorcycle_racing_season"
@@ -2479,7 +2715,7 @@
               "fastestLap": false,
               "pointsOverride": null,
               "team": null,
-              "manufacturer": "Seeley-Matchless / Seeley-Suzuki",
+              "manufacturer": "Seeley",
               "bikeNumber": null,
               "nationality": "AUS",
               "source": "https://en.wikipedia.org/wiki/1970_Grand_Prix_motorcycle_racing_season"
@@ -2549,7 +2785,7 @@
       ]
     },
     {
-      "number": 10,
+      "number": 11,
       "name": "Spanish Grand Prix",
       "circuit": "Montjuich",
       "country": "ESP",
@@ -2571,7 +2807,7 @@
               "fastestLap": false,
               "pointsOverride": null,
               "team": null,
-              "manufacturer": "Aermacchi / MV Agusta",
+              "manufacturer": "Aermacchi",
               "bikeNumber": null,
               "nationality": "ITA",
               "source": "https://en.wikipedia.org/wiki/1970_Grand_Prix_motorcycle_racing_season"
@@ -2583,7 +2819,7 @@
               "fastestLap": false,
               "pointsOverride": null,
               "team": null,
-              "manufacturer": "Bultaco / Kawasaki",
+              "manufacturer": "Bultaco",
               "bikeNumber": null,
               "nationality": "NZL",
               "source": "https://en.wikipedia.org/wiki/1970_Grand_Prix_motorcycle_racing_season"
@@ -2703,7 +2939,7 @@
               "fastestLap": false,
               "pointsOverride": null,
               "team": null,
-              "manufacturer": "Seeley-Matchless / Seeley-Suzuki",
+              "manufacturer": "Seeley",
               "bikeNumber": null,
               "nationality": "AUS",
               "source": "https://en.wikipedia.org/wiki/1970_Grand_Prix_motorcycle_racing_season"
@@ -2715,7 +2951,7 @@
               "fastestLap": false,
               "pointsOverride": null,
               "team": null,
-              "manufacturer": "Linto / Kawasaki",
+              "manufacturer": "Linto",
               "bikeNumber": null,
               "nationality": "CHE",
               "source": "https://en.wikipedia.org/wiki/1970_Grand_Prix_motorcycle_racing_season"
@@ -2739,7 +2975,7 @@
               "fastestLap": false,
               "pointsOverride": null,
               "team": null,
-              "manufacturer": "Honda / Matchless",
+              "manufacturer": "Honda",
               "bikeNumber": null,
               "nationality": "GBR",
               "source": "https://en.wikipedia.org/wiki/1970_Grand_Prix_motorcycle_racing_season"

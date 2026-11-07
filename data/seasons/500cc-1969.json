@@ -63,7 +63,7 @@
               "fastestLap": false,
               "pointsOverride": null,
               "team": null,
-              "manufacturer": "Librenti / Linto",
+              "manufacturer": "Librenti",
               "bikeNumber": null,
               "nationality": "CHE",
               "source": "https://en.wikipedia.org/wiki/1969_Grand_Prix_motorcycle_racing_season"
@@ -123,7 +123,7 @@
               "fastestLap": false,
               "pointsOverride": null,
               "team": null,
-              "manufacturer": "Linto / Aermacchi / Matchless",
+              "manufacturer": "Linto",
               "bikeNumber": null,
               "nationality": "AUS",
               "source": "https://en.wikipedia.org/wiki/1969_Grand_Prix_motorcycle_racing_season"
@@ -159,7 +159,7 @@
               "fastestLap": false,
               "pointsOverride": null,
               "team": null,
-              "manufacturer": "Husqvarna / Seeley",
+              "manufacturer": "Husqvarna",
               "bikeNumber": null,
               "nationality": "SWE",
               "source": "https://en.wikipedia.org/wiki/1969_Grand_Prix_motorcycle_racing_season"
@@ -203,7 +203,7 @@
               "fastestLap": false,
               "pointsOverride": null,
               "team": null,
-              "manufacturer": "Metisse-URS / Seeley-URS",
+              "manufacturer": "Métisse",
               "bikeNumber": null,
               "nationality": "DEU",
               "source": "https://en.wikipedia.org/wiki/1969_Grand_Prix_motorcycle_racing_season"
@@ -215,7 +215,7 @@
               "fastestLap": false,
               "pointsOverride": null,
               "team": null,
-              "manufacturer": "Linto / Aermacchi / Matchless",
+              "manufacturer": "Linto",
               "bikeNumber": null,
               "nationality": "AUS",
               "source": "https://en.wikipedia.org/wiki/1969_Grand_Prix_motorcycle_racing_season"
@@ -227,7 +227,7 @@
               "fastestLap": false,
               "pointsOverride": null,
               "team": null,
-              "manufacturer": "Linto / Seeley-URS",
+              "manufacturer": "Linto",
               "bikeNumber": null,
               "nationality": "AUS",
               "source": "https://en.wikipedia.org/wiki/1969_Grand_Prix_motorcycle_racing_season"
@@ -251,7 +251,7 @@
               "fastestLap": false,
               "pointsOverride": null,
               "team": null,
-              "manufacturer": "Librenti / Linto",
+              "manufacturer": "Librenti",
               "bikeNumber": null,
               "nationality": "CHE",
               "source": "https://en.wikipedia.org/wiki/1969_Grand_Prix_motorcycle_racing_season"
@@ -299,7 +299,7 @@
               "fastestLap": false,
               "pointsOverride": null,
               "team": null,
-              "manufacturer": "Seeley-Matchless",
+              "manufacturer": "Seeley",
               "bikeNumber": null,
               "nationality": "GBR",
               "source": "https://en.wikipedia.org/wiki/1969_Grand_Prix_motorcycle_racing_season"
@@ -323,7 +323,7 @@
               "fastestLap": false,
               "pointsOverride": null,
               "team": null,
-              "manufacturer": "Seeley / Matchless",
+              "manufacturer": "Seeley",
               "bikeNumber": null,
               "nationality": "GBR",
               "source": "https://en.wikipedia.org/wiki/1969_Grand_Prix_motorcycle_racing_season"
@@ -347,7 +347,7 @@
               "fastestLap": false,
               "pointsOverride": null,
               "team": null,
-              "manufacturer": "Norton / Linto",
+              "manufacturer": "Norton",
               "bikeNumber": null,
               "nationality": "DEU",
               "source": "https://en.wikipedia.org/wiki/1969_Grand_Prix_motorcycle_racing_season"
@@ -443,7 +443,7 @@
               "fastestLap": false,
               "pointsOverride": null,
               "team": null,
-              "manufacturer": "Linto / Matchless",
+              "manufacturer": "Linto",
               "bikeNumber": null,
               "nationality": "GBR",
               "source": "https://en.wikipedia.org/wiki/1969_Grand_Prix_motorcycle_racing_season"
@@ -467,7 +467,7 @@
               "fastestLap": false,
               "pointsOverride": null,
               "team": null,
-              "manufacturer": "Husqvarna / Seeley",
+              "manufacturer": "Husqvarna",
               "bikeNumber": null,
               "nationality": "SWE",
               "source": "https://en.wikipedia.org/wiki/1969_Grand_Prix_motorcycle_racing_season"
@@ -529,7 +529,7 @@
               "source": "https://en.wikipedia.org/wiki/1969_Grand_Prix_motorcycle_racing_season"
             },
             {
-              "rider": "teo-louwes",
+              "rider": "theo-louwes",
               "position": 4,
               "outcome": "FIN",
               "fastestLap": false,
@@ -559,7 +559,7 @@
               "fastestLap": false,
               "pointsOverride": null,
               "team": null,
-              "manufacturer": "Librenti / Linto",
+              "manufacturer": "Librenti",
               "bikeNumber": null,
               "nationality": "CHE",
               "source": "https://en.wikipedia.org/wiki/1969_Grand_Prix_motorcycle_racing_season"
@@ -595,7 +595,7 @@
               "fastestLap": false,
               "pointsOverride": null,
               "team": null,
-              "manufacturer": "Seeley / Matchless",
+              "manufacturer": "Seeley",
               "bikeNumber": null,
               "nationality": "GBR",
               "source": "https://en.wikipedia.org/wiki/1969_Grand_Prix_motorcycle_racing_season"
@@ -679,7 +679,7 @@
               "fastestLap": false,
               "pointsOverride": null,
               "team": null,
-              "manufacturer": "Linto / Aermacchi / Matchless",
+              "manufacturer": "Linto",
               "bikeNumber": null,
               "nationality": "AUS",
               "source": "https://en.wikipedia.org/wiki/1969_Grand_Prix_motorcycle_racing_season"
@@ -751,7 +751,7 @@
               "fastestLap": false,
               "pointsOverride": null,
               "team": null,
-              "manufacturer": "Husqvarna / Seeley",
+              "manufacturer": "Husqvarna",
               "bikeNumber": null,
               "nationality": "SWE",
               "source": "https://en.wikipedia.org/wiki/1969_Grand_Prix_motorcycle_racing_season"
@@ -795,7 +795,7 @@
               "fastestLap": false,
               "pointsOverride": null,
               "team": null,
-              "manufacturer": "Kirby-Metisse",
+              "manufacturer": "Métisse",
               "bikeNumber": null,
               "nationality": "GBR",
               "source": "https://en.wikipedia.org/wiki/1969_Grand_Prix_motorcycle_racing_season"
@@ -807,7 +807,7 @@
               "fastestLap": false,
               "pointsOverride": null,
               "team": null,
-              "manufacturer": "Seeley-Matchless",
+              "manufacturer": "Seeley",
               "bikeNumber": null,
               "nationality": "GBR",
               "source": "https://en.wikipedia.org/wiki/1969_Grand_Prix_motorcycle_racing_season"
@@ -819,7 +819,7 @@
               "fastestLap": false,
               "pointsOverride": null,
               "team": null,
-              "manufacturer": "Seeley-Matchless",
+              "manufacturer": "Seeley",
               "bikeNumber": null,
               "nationality": "GBR",
               "source": "https://en.wikipedia.org/wiki/1969_Grand_Prix_motorcycle_racing_season"
@@ -843,7 +843,7 @@
               "fastestLap": false,
               "pointsOverride": null,
               "team": null,
-              "manufacturer": "Seeley-Matchless",
+              "manufacturer": "Seeley",
               "bikeNumber": null,
               "nationality": "GBR",
               "source": "https://en.wikipedia.org/wiki/1969_Grand_Prix_motorcycle_racing_season"
@@ -855,7 +855,7 @@
               "fastestLap": false,
               "pointsOverride": null,
               "team": null,
-              "manufacturer": "Seeley-Matchless",
+              "manufacturer": "Seeley",
               "bikeNumber": null,
               "nationality": "GBR",
               "source": "https://en.wikipedia.org/wiki/1969_Grand_Prix_motorcycle_racing_season"
@@ -891,7 +891,7 @@
               "fastestLap": false,
               "pointsOverride": null,
               "team": null,
-              "manufacturer": "Metisse / Norton",
+              "manufacturer": "Métisse",
               "bikeNumber": null,
               "nationality": "GBR",
               "source": "https://en.wikipedia.org/wiki/1969_Grand_Prix_motorcycle_racing_season"
@@ -921,7 +921,7 @@
               "source": "https://en.wikipedia.org/wiki/1969_Grand_Prix_motorcycle_racing_season"
             },
             {
-              "rider": "malcom-moffatt",
+              "rider": "malcolm-moffat",
               "position": 13,
               "outcome": "FIN",
               "fastestLap": false,
@@ -1047,7 +1047,7 @@
               "fastestLap": false,
               "pointsOverride": null,
               "team": null,
-              "manufacturer": "Kettle-Norton",
+              "manufacturer": "Norton",
               "bikeNumber": null,
               "nationality": "GBR",
               "source": "https://en.wikipedia.org/wiki/1969_Grand_Prix_motorcycle_racing_season"
@@ -1083,7 +1083,7 @@
               "fastestLap": false,
               "pointsOverride": null,
               "team": null,
-              "manufacturer": "Harrow-Suzuki",
+              "manufacturer": "Suzuki",
               "bikeNumber": null,
               "nationality": "GBR",
               "source": "https://en.wikipedia.org/wiki/1969_Grand_Prix_motorcycle_racing_season"
@@ -1131,7 +1131,7 @@
               "fastestLap": false,
               "pointsOverride": null,
               "team": null,
-              "manufacturer": "Hughes-Triumph",
+              "manufacturer": "Triumph",
               "bikeNumber": null,
               "nationality": "GBR",
               "source": "https://en.wikipedia.org/wiki/1969_Grand_Prix_motorcycle_racing_season"
@@ -1155,7 +1155,7 @@
               "fastestLap": false,
               "pointsOverride": null,
               "team": null,
-              "manufacturer": "Seeley-Matchless",
+              "manufacturer": "Seeley",
               "bikeNumber": null,
               "nationality": "NIR",
               "source": "https://en.wikipedia.org/wiki/1969_Grand_Prix_motorcycle_racing_season"
@@ -1167,7 +1167,7 @@
               "fastestLap": false,
               "pointsOverride": null,
               "team": null,
-              "manufacturer": "Linto / Aermacchi / Matchless",
+              "manufacturer": "Linto",
               "bikeNumber": null,
               "nationality": "AUS",
               "source": "https://en.wikipedia.org/wiki/1969_Grand_Prix_motorcycle_racing_season"
@@ -1227,7 +1227,7 @@
               "fastestLap": false,
               "pointsOverride": null,
               "team": null,
-              "manufacturer": "Matchless-Metisse / Metisse",
+              "manufacturer": "Métisse",
               "bikeNumber": null,
               "nationality": "GBR",
               "source": "https://en.wikipedia.org/wiki/1969_Grand_Prix_motorcycle_racing_season"
@@ -1251,7 +1251,7 @@
               "fastestLap": false,
               "pointsOverride": null,
               "team": null,
-              "manufacturer": "Crescent / Monark",
+              "manufacturer": "Crescent",
               "bikeNumber": null,
               "nationality": "SWE",
               "source": "https://en.wikipedia.org/wiki/1969_Grand_Prix_motorcycle_racing_season"
@@ -1263,7 +1263,7 @@
               "fastestLap": false,
               "pointsOverride": null,
               "team": null,
-              "manufacturer": "Norton / Aermacchi",
+              "manufacturer": "Norton",
               "bikeNumber": null,
               "nationality": "GBR",
               "source": "https://en.wikipedia.org/wiki/1969_Grand_Prix_motorcycle_racing_season"
@@ -1331,7 +1331,7 @@
               "fastestLap": false,
               "pointsOverride": null,
               "team": null,
-              "manufacturer": "Kirby-Metisse",
+              "manufacturer": "Métisse",
               "bikeNumber": null,
               "nationality": "GBR",
               "source": "https://en.wikipedia.org/wiki/1969_Grand_Prix_motorcycle_racing_season"
@@ -1355,7 +1355,7 @@
               "fastestLap": false,
               "pointsOverride": null,
               "team": null,
-              "manufacturer": "Linto / Aermacchi / Matchless",
+              "manufacturer": "Linto",
               "bikeNumber": null,
               "nationality": "AUS",
               "source": "https://en.wikipedia.org/wiki/1969_Grand_Prix_motorcycle_racing_season"
@@ -1367,7 +1367,7 @@
               "fastestLap": false,
               "pointsOverride": null,
               "team": null,
-              "manufacturer": "Librenti / Linto",
+              "manufacturer": "Librenti",
               "bikeNumber": null,
               "nationality": "CHE",
               "source": "https://en.wikipedia.org/wiki/1969_Grand_Prix_motorcycle_racing_season"
@@ -1391,7 +1391,7 @@
               "fastestLap": false,
               "pointsOverride": null,
               "team": null,
-              "manufacturer": "Seeley-Matchless",
+              "manufacturer": "Seeley",
               "bikeNumber": null,
               "nationality": "GBR",
               "source": "https://en.wikipedia.org/wiki/1969_Grand_Prix_motorcycle_racing_season"
@@ -1451,7 +1451,7 @@
               "fastestLap": false,
               "pointsOverride": null,
               "team": null,
-              "manufacturer": "Seeley / Matchless",
+              "manufacturer": "Seeley",
               "bikeNumber": null,
               "nationality": "GBR",
               "source": "https://en.wikipedia.org/wiki/1969_Grand_Prix_motorcycle_racing_season"
@@ -1463,7 +1463,7 @@
               "fastestLap": false,
               "pointsOverride": null,
               "team": null,
-              "manufacturer": "Seeley-Matchless",
+              "manufacturer": "Seeley",
               "bikeNumber": null,
               "nationality": "GBR",
               "source": "https://en.wikipedia.org/wiki/1969_Grand_Prix_motorcycle_racing_season"
@@ -1535,7 +1535,7 @@
               "fastestLap": false,
               "pointsOverride": null,
               "team": null,
-              "manufacturer": "Linto / Seeley-URS",
+              "manufacturer": "Linto",
               "bikeNumber": null,
               "nationality": "AUS",
               "source": "https://en.wikipedia.org/wiki/1969_Grand_Prix_motorcycle_racing_season"
@@ -1583,13 +1583,13 @@
               "fastestLap": false,
               "pointsOverride": null,
               "team": null,
-              "manufacturer": "Metisse-URS / Seeley-URS",
+              "manufacturer": "Métisse",
               "bikeNumber": null,
               "nationality": "DEU",
               "source": "https://en.wikipedia.org/wiki/1969_Grand_Prix_motorcycle_racing_season"
             },
             {
-              "rider": "teo-louwes",
+              "rider": "theo-louwes",
               "position": null,
               "outcome": "DNF",
               "fastestLap": false,
@@ -1607,7 +1607,7 @@
               "fastestLap": false,
               "pointsOverride": null,
               "team": null,
-              "manufacturer": "Paton / Aermacchi",
+              "manufacturer": "Paton",
               "bikeNumber": null,
               "nationality": "ITA",
               "source": "https://en.wikipedia.org/wiki/1969_Grand_Prix_motorcycle_racing_season"
@@ -1675,7 +1675,7 @@
               "fastestLap": false,
               "pointsOverride": null,
               "team": null,
-              "manufacturer": "Kirby-Metisse",
+              "manufacturer": "Métisse",
               "bikeNumber": null,
               "nationality": "GBR",
               "source": "https://en.wikipedia.org/wiki/1969_Grand_Prix_motorcycle_racing_season"
@@ -1687,7 +1687,7 @@
               "fastestLap": false,
               "pointsOverride": null,
               "team": null,
-              "manufacturer": "Librenti / Linto",
+              "manufacturer": "Librenti",
               "bikeNumber": null,
               "nationality": "CHE",
               "source": "https://en.wikipedia.org/wiki/1969_Grand_Prix_motorcycle_racing_season"
@@ -1699,7 +1699,7 @@
               "fastestLap": false,
               "pointsOverride": null,
               "team": null,
-              "manufacturer": "Seeley-Matchless",
+              "manufacturer": "Seeley",
               "bikeNumber": null,
               "nationality": "GBR",
               "source": "https://en.wikipedia.org/wiki/1969_Grand_Prix_motorcycle_racing_season"
@@ -1735,7 +1735,7 @@
               "fastestLap": false,
               "pointsOverride": null,
               "team": null,
-              "manufacturer": "Seeley / Matchless",
+              "manufacturer": "Seeley",
               "bikeNumber": null,
               "nationality": "GBR",
               "source": "https://en.wikipedia.org/wiki/1969_Grand_Prix_motorcycle_racing_season"
@@ -1759,7 +1759,7 @@
               "fastestLap": false,
               "pointsOverride": null,
               "team": null,
-              "manufacturer": "Seeley-Matchless",
+              "manufacturer": "Seeley",
               "bikeNumber": null,
               "nationality": "GBR",
               "source": "https://en.wikipedia.org/wiki/1969_Grand_Prix_motorcycle_racing_season"
@@ -1789,7 +1789,7 @@
               "source": "https://en.wikipedia.org/wiki/1969_Grand_Prix_motorcycle_racing_season"
             },
             {
-              "rider": "teo-louwes",
+              "rider": "theo-louwes",
               "position": 13,
               "outcome": "FIN",
               "fastestLap": false,
@@ -1807,7 +1807,7 @@
               "fastestLap": false,
               "pointsOverride": null,
               "team": null,
-              "manufacturer": "Crescent / Monark",
+              "manufacturer": "Crescent",
               "bikeNumber": null,
               "nationality": "SWE",
               "source": "https://en.wikipedia.org/wiki/1969_Grand_Prix_motorcycle_racing_season"
@@ -1879,7 +1879,7 @@
               "fastestLap": false,
               "pointsOverride": null,
               "team": null,
-              "manufacturer": "Linto / Seeley-URS",
+              "manufacturer": "Linto",
               "bikeNumber": null,
               "nationality": "AUS",
               "source": "https://en.wikipedia.org/wiki/1969_Grand_Prix_motorcycle_racing_season"
@@ -1891,7 +1891,7 @@
               "fastestLap": false,
               "pointsOverride": null,
               "team": null,
-              "manufacturer": "Linto / Aermacchi / Matchless",
+              "manufacturer": "Linto",
               "bikeNumber": null,
               "nationality": "AUS",
               "source": "https://en.wikipedia.org/wiki/1969_Grand_Prix_motorcycle_racing_season"
@@ -1927,7 +1927,7 @@
               "fastestLap": false,
               "pointsOverride": null,
               "team": null,
-              "manufacturer": "Linto / Matchless",
+              "manufacturer": "Linto",
               "bikeNumber": null,
               "nationality": "GBR",
               "source": "https://en.wikipedia.org/wiki/1969_Grand_Prix_motorcycle_racing_season"
@@ -1951,7 +1951,7 @@
               "fastestLap": false,
               "pointsOverride": null,
               "team": null,
-              "manufacturer": "Husqvarna / Seeley",
+              "manufacturer": "Husqvarna",
               "bikeNumber": null,
               "nationality": "SWE",
               "source": "https://en.wikipedia.org/wiki/1969_Grand_Prix_motorcycle_racing_season"
@@ -1962,17 +1962,17 @@
     },
     {
       "number": 7,
-      "name": "Czechoslovak Grand Prix",
-      "circuit": "Masaryk Circuit",
-      "country": "TCH",
-      "date": "1969-07-20",
+      "name": "East German Grand Prix",
+      "circuit": "Sachsenring",
+      "country": "DDR",
+      "date": "1969-07-13",
       "nonChampionship": false,
       "notes": null,
       "sessions": [
         {
           "type": "grand-prix-race",
           "order": 1,
-          "date": "1969-07-20",
+          "date": "1969-07-13",
           "pointsMultiplier": 1,
           "notes": null,
           "results": [
@@ -2055,7 +2055,7 @@
               "fastestLap": false,
               "pointsOverride": null,
               "team": null,
-              "manufacturer": "Linto / Matchless",
+              "manufacturer": "Linto",
               "bikeNumber": null,
               "nationality": "GBR",
               "source": "https://en.wikipedia.org/wiki/1969_Grand_Prix_motorcycle_racing_season"
@@ -2079,7 +2079,7 @@
               "fastestLap": false,
               "pointsOverride": null,
               "team": null,
-              "manufacturer": "Seeley-Matchless",
+              "manufacturer": "Seeley",
               "bikeNumber": null,
               "nationality": "SWE",
               "source": "https://en.wikipedia.org/wiki/1969_Grand_Prix_motorcycle_racing_season"
@@ -2115,7 +2115,7 @@
               "fastestLap": false,
               "pointsOverride": null,
               "team": null,
-              "manufacturer": "Husqvarna / Seeley",
+              "manufacturer": "Husqvarna",
               "bikeNumber": null,
               "nationality": "SWE",
               "source": "https://en.wikipedia.org/wiki/1969_Grand_Prix_motorcycle_racing_season"
@@ -2127,7 +2127,7 @@
               "fastestLap": false,
               "pointsOverride": null,
               "team": null,
-              "manufacturer": "Linto / Aermacchi / Matchless",
+              "manufacturer": "Linto",
               "bikeNumber": null,
               "nationality": "AUS",
               "source": "https://en.wikipedia.org/wiki/1969_Grand_Prix_motorcycle_racing_season"
@@ -2163,7 +2163,7 @@
               "fastestLap": false,
               "pointsOverride": null,
               "team": null,
-              "manufacturer": "Metisse-URS / Seeley-URS",
+              "manufacturer": "Métisse",
               "bikeNumber": null,
               "nationality": "DEU",
               "source": "https://en.wikipedia.org/wiki/1969_Grand_Prix_motorcycle_racing_season"
@@ -2175,7 +2175,7 @@
               "fastestLap": false,
               "pointsOverride": null,
               "team": null,
-              "manufacturer": "Paton / Norton",
+              "manufacturer": "Paton",
               "bikeNumber": null,
               "nationality": "ITA",
               "source": "https://en.wikipedia.org/wiki/1969_Grand_Prix_motorcycle_racing_season"
@@ -2205,7 +2205,7 @@
               "source": "https://en.wikipedia.org/wiki/1969_Grand_Prix_motorcycle_racing_season"
             },
             {
-              "rider": "emanuelle-maugliani",
+              "rider": "emanuele-maugliani",
               "position": null,
               "outcome": "DNF",
               "fastestLap": false,
@@ -2223,7 +2223,7 @@
               "fastestLap": false,
               "pointsOverride": null,
               "team": null,
-              "manufacturer": "Metisse / Norton",
+              "manufacturer": "Métisse",
               "bikeNumber": null,
               "nationality": "GBR",
               "source": "https://en.wikipedia.org/wiki/1969_Grand_Prix_motorcycle_racing_season"
@@ -2234,17 +2234,17 @@
     },
     {
       "number": 8,
-      "name": "Finnish Grand Prix",
-      "circuit": "Imatra Circuit",
-      "country": "FIN",
-      "date": "1969-08-03",
+      "name": "Czechoslovak Grand Prix",
+      "circuit": "Masaryk Circuit",
+      "country": "TCH",
+      "date": "1969-07-20",
       "nonChampionship": false,
       "notes": null,
       "sessions": [
         {
           "type": "grand-prix-race",
           "order": 1,
-          "date": "1969-08-03",
+          "date": "1969-07-20",
           "pointsMultiplier": 1,
           "notes": null,
           "results": [
@@ -2267,7 +2267,7 @@
               "fastestLap": false,
               "pointsOverride": null,
               "team": null,
-              "manufacturer": "Librenti / Linto",
+              "manufacturer": "Librenti",
               "bikeNumber": null,
               "nationality": "CHE",
               "source": "https://en.wikipedia.org/wiki/1969_Grand_Prix_motorcycle_racing_season"
@@ -2291,7 +2291,7 @@
               "fastestLap": false,
               "pointsOverride": null,
               "team": null,
-              "manufacturer": "Paton / Aermacchi",
+              "manufacturer": "Paton",
               "bikeNumber": null,
               "nationality": "ITA",
               "source": "https://en.wikipedia.org/wiki/1969_Grand_Prix_motorcycle_racing_season"
@@ -2303,7 +2303,7 @@
               "fastestLap": false,
               "pointsOverride": null,
               "team": null,
-              "manufacturer": "Seeley / Matchless",
+              "manufacturer": "Seeley",
               "bikeNumber": null,
               "nationality": "GBR",
               "source": "https://en.wikipedia.org/wiki/1969_Grand_Prix_motorcycle_racing_season"
@@ -2387,13 +2387,13 @@
               "fastestLap": false,
               "pointsOverride": null,
               "team": null,
-              "manufacturer": "Husqvarna / Seeley",
+              "manufacturer": "Husqvarna",
               "bikeNumber": null,
               "nationality": "SWE",
               "source": "https://en.wikipedia.org/wiki/1969_Grand_Prix_motorcycle_racing_season"
             },
             {
-              "rider": "rene-guilli",
+              "rider": "rene-guili",
               "position": 12,
               "outcome": "FIN",
               "fastestLap": false,
@@ -2423,7 +2423,7 @@
               "fastestLap": false,
               "pointsOverride": null,
               "team": null,
-              "manufacturer": "Linto / Seeley-URS",
+              "manufacturer": "Linto",
               "bikeNumber": null,
               "nationality": "AUS",
               "source": "https://en.wikipedia.org/wiki/1969_Grand_Prix_motorcycle_racing_season"
@@ -2435,7 +2435,7 @@
               "fastestLap": false,
               "pointsOverride": null,
               "team": null,
-              "manufacturer": "Linto / Aermacchi / Matchless",
+              "manufacturer": "Linto",
               "bikeNumber": null,
               "nationality": "AUS",
               "source": "https://en.wikipedia.org/wiki/1969_Grand_Prix_motorcycle_racing_season"
@@ -2471,7 +2471,7 @@
               "fastestLap": false,
               "pointsOverride": null,
               "team": null,
-              "manufacturer": "Seeley-Matchless",
+              "manufacturer": "Seeley",
               "bikeNumber": null,
               "nationality": "GBR",
               "source": "https://en.wikipedia.org/wiki/1969_Grand_Prix_motorcycle_racing_season"
@@ -2506,17 +2506,17 @@
     },
     {
       "number": 9,
-      "name": "Ulster Grand Prix",
-      "circuit": "Dundrod Circuit",
-      "country": "NIR",
-      "date": "1969-08-16",
+      "name": "Finnish Grand Prix",
+      "circuit": "Imatra Circuit",
+      "country": "FIN",
+      "date": "1969-08-03",
       "nonChampionship": false,
       "notes": null,
       "sessions": [
         {
           "type": "grand-prix-race",
           "order": 1,
-          "date": "1969-08-16",
+          "date": "1969-08-03",
           "pointsMultiplier": 1,
           "notes": null,
           "results": [
@@ -2659,7 +2659,7 @@
               "fastestLap": false,
               "pointsOverride": null,
               "team": null,
-              "manufacturer": "Librenti / Linto",
+              "manufacturer": "Librenti",
               "bikeNumber": null,
               "nationality": "CHE",
               "source": "https://en.wikipedia.org/wiki/1969_Grand_Prix_motorcycle_racing_season"
@@ -2671,7 +2671,7 @@
               "fastestLap": false,
               "pointsOverride": null,
               "team": null,
-              "manufacturer": "Linto / Seeley-URS",
+              "manufacturer": "Linto",
               "bikeNumber": null,
               "nationality": "AUS",
               "source": "https://en.wikipedia.org/wiki/1969_Grand_Prix_motorcycle_racing_season"
@@ -2683,7 +2683,7 @@
               "fastestLap": false,
               "pointsOverride": null,
               "team": null,
-              "manufacturer": "Linto / Aermacchi / Matchless",
+              "manufacturer": "Linto",
               "bikeNumber": null,
               "nationality": "AUS",
               "source": "https://en.wikipedia.org/wiki/1969_Grand_Prix_motorcycle_racing_season"
@@ -2695,7 +2695,7 @@
               "fastestLap": false,
               "pointsOverride": null,
               "team": null,
-              "manufacturer": "Metisse-URS / Seeley-URS",
+              "manufacturer": "Métisse",
               "bikeNumber": null,
               "nationality": "DEU",
               "source": "https://en.wikipedia.org/wiki/1969_Grand_Prix_motorcycle_racing_season"
@@ -2707,7 +2707,7 @@
               "fastestLap": false,
               "pointsOverride": null,
               "team": null,
-              "manufacturer": "Seeley / Matchless",
+              "manufacturer": "Seeley",
               "bikeNumber": null,
               "nationality": "GBR",
               "source": "https://en.wikipedia.org/wiki/1969_Grand_Prix_motorcycle_racing_season"
@@ -2743,7 +2743,7 @@
               "fastestLap": false,
               "pointsOverride": null,
               "team": null,
-              "manufacturer": "Linto / Matchless",
+              "manufacturer": "Linto",
               "bikeNumber": null,
               "nationality": "GBR",
               "source": "https://en.wikipedia.org/wiki/1969_Grand_Prix_motorcycle_racing_season"
@@ -2755,7 +2755,7 @@
               "fastestLap": false,
               "pointsOverride": null,
               "team": null,
-              "manufacturer": "Seeley-Matchless",
+              "manufacturer": "Seeley",
               "bikeNumber": null,
               "nationality": "SWE",
               "source": "https://en.wikipedia.org/wiki/1969_Grand_Prix_motorcycle_racing_season"
@@ -2767,7 +2767,7 @@
               "fastestLap": false,
               "pointsOverride": null,
               "team": null,
-              "manufacturer": "Husqvarna / Seeley",
+              "manufacturer": "Husqvarna",
               "bikeNumber": null,
               "nationality": "SWE",
               "source": "https://en.wikipedia.org/wiki/1969_Grand_Prix_motorcycle_racing_season"
@@ -2779,7 +2779,7 @@
               "fastestLap": false,
               "pointsOverride": null,
               "team": null,
-              "manufacturer": "Crescent / Monark",
+              "manufacturer": "Crescent",
               "bikeNumber": null,
               "nationality": "SWE",
               "source": "https://en.wikipedia.org/wiki/1969_Grand_Prix_motorcycle_racing_season"
@@ -2790,17 +2790,17 @@
     },
     {
       "number": 10,
-      "name": "Nations Grand Prix",
-      "circuit": "Imola",
-      "country": "ITA",
-      "date": "1969-09-07",
+      "name": "Ulster Grand Prix",
+      "circuit": "Dundrod Circuit",
+      "country": "NIR",
+      "date": "1969-08-16",
       "nonChampionship": false,
       "notes": null,
       "sessions": [
         {
           "type": "grand-prix-race",
           "order": 1,
-          "date": "1969-09-07",
+          "date": "1969-08-16",
           "pointsMultiplier": 1,
           "notes": null,
           "results": [
@@ -2823,7 +2823,7 @@
               "fastestLap": false,
               "pointsOverride": null,
               "team": null,
-              "manufacturer": "Seeley-Matchless",
+              "manufacturer": "Seeley",
               "bikeNumber": null,
               "nationality": "NIR",
               "source": "https://en.wikipedia.org/wiki/1969_Grand_Prix_motorcycle_racing_season"
@@ -2871,7 +2871,7 @@
               "fastestLap": false,
               "pointsOverride": null,
               "team": null,
-              "manufacturer": "Seeley-Matchless",
+              "manufacturer": "Seeley",
               "bikeNumber": null,
               "nationality": "GBR",
               "source": "https://en.wikipedia.org/wiki/1969_Grand_Prix_motorcycle_racing_season"
@@ -2895,7 +2895,7 @@
               "fastestLap": false,
               "pointsOverride": null,
               "team": null,
-              "manufacturer": "Matchless-Metisse / Metisse",
+              "manufacturer": "Métisse",
               "bikeNumber": null,
               "nationality": "GBR",
               "source": "https://en.wikipedia.org/wiki/1969_Grand_Prix_motorcycle_racing_season"
@@ -2931,7 +2931,7 @@
               "fastestLap": false,
               "pointsOverride": null,
               "team": null,
-              "manufacturer": "Seeley-Matchless",
+              "manufacturer": "Seeley",
               "bikeNumber": null,
               "nationality": "GBR",
               "source": "https://en.wikipedia.org/wiki/1969_Grand_Prix_motorcycle_racing_season"
@@ -2979,7 +2979,7 @@
               "fastestLap": false,
               "pointsOverride": null,
               "team": null,
-              "manufacturer": "Norton / Aermacchi",
+              "manufacturer": "Norton",
               "bikeNumber": null,
               "nationality": "GBR",
               "source": "https://en.wikipedia.org/wiki/1969_Grand_Prix_motorcycle_racing_season"
@@ -3015,7 +3015,7 @@
               "fastestLap": false,
               "pointsOverride": null,
               "team": null,
-              "manufacturer": "Kirby-Metisse",
+              "manufacturer": "Métisse",
               "bikeNumber": null,
               "nationality": "GBR",
               "source": "https://en.wikipedia.org/wiki/1969_Grand_Prix_motorcycle_racing_season"
@@ -3038,17 +3038,17 @@
     },
     {
       "number": 11,
-      "name": "Yugoslavian Grand Prix",
-      "circuit": "Opatija Circuit",
-      "country": "Yugoslavia",
-      "date": "1969-09-14",
+      "name": "Nations Grand Prix",
+      "circuit": "Imola",
+      "country": "ITA",
+      "date": "1969-09-07",
       "nonChampionship": false,
       "notes": null,
       "sessions": [
         {
           "type": "grand-prix-race",
           "order": 1,
-          "date": "1969-09-14",
+          "date": "1969-09-07",
           "pointsMultiplier": 1,
           "notes": null,
           "results": [
@@ -3083,7 +3083,7 @@
               "fastestLap": true,
               "pointsOverride": null,
               "team": null,
-              "manufacturer": "Linto / Seeley-URS",
+              "manufacturer": "Linto",
               "bikeNumber": null,
               "nationality": "AUS",
               "source": "https://en.wikipedia.org/wiki/1969_Grand_Prix_motorcycle_racing_season"
@@ -3107,7 +3107,7 @@
               "fastestLap": false,
               "pointsOverride": null,
               "team": null,
-              "manufacturer": "Seeley-Matchless",
+              "manufacturer": "Seeley",
               "bikeNumber": null,
               "nationality": "NIR",
               "source": "https://en.wikipedia.org/wiki/1969_Grand_Prix_motorcycle_racing_season"
@@ -3119,7 +3119,7 @@
               "fastestLap": false,
               "pointsOverride": null,
               "team": null,
-              "manufacturer": "Seeley-Matchless",
+              "manufacturer": "Seeley",
               "bikeNumber": null,
               "nationality": "GBR",
               "source": "https://en.wikipedia.org/wiki/1969_Grand_Prix_motorcycle_racing_season"
@@ -3131,7 +3131,7 @@
               "fastestLap": false,
               "pointsOverride": null,
               "team": null,
-              "manufacturer": "Librenti / Linto",
+              "manufacturer": "Librenti",
               "bikeNumber": null,
               "nationality": "CHE",
               "source": "https://en.wikipedia.org/wiki/1969_Grand_Prix_motorcycle_racing_season"
@@ -3143,13 +3143,13 @@
               "fastestLap": false,
               "pointsOverride": null,
               "team": null,
-              "manufacturer": "Seeley-Matchless",
+              "manufacturer": "Seeley",
               "bikeNumber": null,
               "nationality": "ITA",
               "source": "https://en.wikipedia.org/wiki/1969_Grand_Prix_motorcycle_racing_season"
             },
             {
-              "rider": "teo-louwes",
+              "rider": "theo-louwes",
               "position": 9,
               "outcome": "FIN",
               "fastestLap": false,
@@ -3251,7 +3251,7 @@
               "fastestLap": false,
               "pointsOverride": null,
               "team": null,
-              "manufacturer": "Linto / Aermacchi / Matchless",
+              "manufacturer": "Linto",
               "bikeNumber": null,
               "nationality": "AUS",
               "source": "https://en.wikipedia.org/wiki/1969_Grand_Prix_motorcycle_racing_season"
@@ -3287,7 +3287,7 @@
               "fastestLap": false,
               "pointsOverride": null,
               "team": null,
-              "manufacturer": "Paton / Norton",
+              "manufacturer": "Paton",
               "bikeNumber": null,
               "nationality": "ITA",
               "source": "https://en.wikipedia.org/wiki/1969_Grand_Prix_motorcycle_racing_season"
@@ -3299,7 +3299,7 @@
               "fastestLap": false,
               "pointsOverride": null,
               "team": null,
-              "manufacturer": "Seeley / Matchless",
+              "manufacturer": "Seeley",
               "bikeNumber": null,
               "nationality": "GBR",
               "source": "https://en.wikipedia.org/wiki/1969_Grand_Prix_motorcycle_racing_season"
@@ -3335,13 +3335,13 @@
               "fastestLap": false,
               "pointsOverride": null,
               "team": null,
-              "manufacturer": "Linto / Matchless",
+              "manufacturer": "Linto",
               "bikeNumber": null,
               "nationality": "GBR",
               "source": "https://en.wikipedia.org/wiki/1969_Grand_Prix_motorcycle_racing_season"
             },
             {
-              "rider": "emanuelle-maugliani",
+              "rider": "emanuele-maugliani",
               "position": null,
               "outcome": "DNF",
               "fastestLap": false,
@@ -3391,7 +3391,7 @@
               "fastestLap": false,
               "pointsOverride": null,
               "team": null,
-              "manufacturer": "Paton / Norton",
+              "manufacturer": "Paton",
               "bikeNumber": null,
               "nationality": "ITA",
               "source": "https://en.wikipedia.org/wiki/1969_Grand_Prix_motorcycle_racing_season"
@@ -3457,7 +3457,7 @@
               "source": "https://en.wikipedia.org/wiki/1969_Grand_Prix_motorcycle_racing_season"
             },
             {
-              "rider": "emanuelle-maugliani",
+              "rider": "emanuele-maugliani",
               "position": 8,
               "outcome": "FIN",
               "fastestLap": false,
@@ -3487,7 +3487,7 @@
               "fastestLap": false,
               "pointsOverride": null,
               "team": null,
-              "manufacturer": "Linto / Matchless",
+              "manufacturer": "Linto",
               "bikeNumber": null,
               "nationality": "GBR",
               "source": "https://en.wikipedia.org/wiki/1969_Grand_Prix_motorcycle_racing_season"
@@ -3499,7 +3499,7 @@
               "fastestLap": false,
               "pointsOverride": null,
               "team": null,
-              "manufacturer": "Norton / Linto",
+              "manufacturer": "Norton",
               "bikeNumber": null,
               "nationality": "DEU",
               "source": "https://en.wikipedia.org/wiki/1969_Grand_Prix_motorcycle_racing_season"
@@ -3523,7 +3523,7 @@
               "fastestLap": false,
               "pointsOverride": null,
               "team": null,
-              "manufacturer": "Librenti / Linto",
+              "manufacturer": "Librenti",
               "bikeNumber": null,
               "nationality": "CHE",
               "source": "https://en.wikipedia.org/wiki/1969_Grand_Prix_motorcycle_racing_season"
@@ -3547,7 +3547,7 @@
               "fastestLap": false,
               "pointsOverride": null,
               "team": null,
-              "manufacturer": "Linto / Seeley-URS",
+              "manufacturer": "Linto",
               "bikeNumber": null,
               "nationality": "AUS",
               "source": "https://en.wikipedia.org/wiki/1969_Grand_Prix_motorcycle_racing_season"
@@ -3571,7 +3571,7 @@
               "fastestLap": false,
               "pointsOverride": null,
               "team": null,
-              "manufacturer": "Linto / Aermacchi / Matchless",
+              "manufacturer": "Linto",
               "bikeNumber": null,
               "nationality": "AUS",
               "source": "https://en.wikipedia.org/wiki/1969_Grand_Prix_motorcycle_racing_season"
@@ -3619,7 +3619,7 @@
               "fastestLap": false,
               "pointsOverride": null,
               "team": null,
-              "manufacturer": "Paton / Aermacchi",
+              "manufacturer": "Paton",
               "bikeNumber": null,
               "nationality": "ITA",
               "source": "https://en.wikipedia.org/wiki/1969_Grand_Prix_motorcycle_racing_season"
