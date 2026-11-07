@@ -11,7 +11,7 @@
       "country": "Isle of Man",
       "date": "1953-06-12",
       "nonChampionship": false,
-      "notes": null,
+      "notes": "The standings matrix lists this Rider twice, as Les Dear (21st here) and as Leslie Dear (11th at the Ulster Grand Prix). They are one Rider in the data, and the Result here is a hand edit: the loader keeps only the first row of a Rider.",
       "sessions": [
         {
           "type": "grand-prix-race",
@@ -1961,7 +1961,7 @@
               "team": null,
               "manufacturer": "BMW",
               "bikeNumber": null,
-              "nationality": "FRG",
+              "nationality": "DEU",
               "source": "https://en.wikipedia.org/wiki/1953_Grand_Prix_motorcycle_racing_season"
             }
           ]

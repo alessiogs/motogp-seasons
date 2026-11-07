@@ -327,7 +327,7 @@
     {
       "number": 2,
       "name": "Isle of Man TT",
-      "circuit": "Snaefell Mountain††",
+      "circuit": "Snaefell Mountain",
       "country": "Isle of Man",
       "date": "1954-06-18",
       "nonChampionship": false,
@@ -1329,7 +1329,7 @@
               "team": null,
               "manufacturer": "Norton",
               "bikeNumber": null,
-              "nationality": "Southern Rhodesia",
+              "nationality": "Rhodesia and Nyasaland",
               "source": "https://en.wikipedia.org/wiki/1954_Grand_Prix_motorcycle_racing_season"
             }
           ]
@@ -3237,7 +3237,7 @@
               "team": null,
               "manufacturer": "Norton",
               "bikeNumber": null,
-              "nationality": "Isle",
+              "nationality": "Isle of Wight",
               "source": "https://en.wikipedia.org/wiki/1954_Grand_Prix_motorcycle_racing_season"
             },
             {
