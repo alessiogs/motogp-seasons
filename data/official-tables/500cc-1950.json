@@ -1,0 +1,650 @@
+{
+  "source": "https://en.wikipedia.org/wiki/1950_Grand_Prix_motorcycle_racing_season",
+  "standings": [
+    {
+      "position": 1,
+      "rider": "umberto-masetti",
+      "points": 28
+    },
+    {
+      "position": 2,
+      "rider": "geoff-duke",
+      "points": 27
+    },
+    {
+      "position": 3,
+      "rider": "leslie-graham",
+      "points": 17
+    },
+    {
+      "position": 4,
+      "rider": "nello-pagani",
+      "points": 12
+    },
+    {
+      "position": 5,
+      "rider": "carlo-bandirola",
+      "points": 12
+    },
+    {
+      "position": 6,
+      "rider": "johnny-lockett",
+      "points": 9
+    },
+    {
+      "position": 7,
+      "rider": "artie-bell",
+      "points": 6
+    },
+    {
+      "position": 8,
+      "rider": "arciso-artesiani",
+      "points": 6
+    },
+    {
+      "position": 9,
+      "rider": "harry-hinton",
+      "points": 5
+    },
+    {
+      "position": 10,
+      "rider": "ted-frend",
+      "points": 4
+    },
+    {
+      "position": 11,
+      "rider": "dickie-dale",
+      "points": 4
+    },
+    {
+      "position": 12,
+      "rider": "harold-daniell",
+      "points": 4
+    },
+    {
+      "position": 13,
+      "rider": "alfredo-milani",
+      "points": 3
+    },
+    {
+      "position": 14,
+      "rider": "eric-mcpherson",
+      "points": 2
+    },
+    {
+      "position": 15,
+      "rider": "jock-west",
+      "points": 2
+    },
+    {
+      "position": 16,
+      "rider": "syd-jensen",
+      "points": 1
+    },
+    {
+      "position": 17,
+      "rider": "reg-armstrong",
+      "points": 1
+    },
+    {
+      "position": 18,
+      "rider": "phil-heath",
+      "points": 0
+    },
+    {
+      "position": 19,
+      "rider": "bob-foster",
+      "points": 0
+    },
+    {
+      "position": 20,
+      "rider": "georges-cordey",
+      "points": 0
+    },
+    {
+      "position": 21,
+      "rider": "ken-armstrong",
+      "points": 0
+    },
+    {
+      "position": 22,
+      "rider": "albert-moule",
+      "points": 0
+    },
+    {
+      "position": 23,
+      "rider": "cromie-mccandless",
+      "points": 0
+    },
+    {
+      "position": 24,
+      "rider": "jack-brett",
+      "points": 0
+    },
+    {
+      "position": 25,
+      "rider": "georges-houel",
+      "points": 0
+    },
+    {
+      "position": 25,
+      "rider": "harry-turner",
+      "points": 0
+    },
+    {
+      "position": 26,
+      "rider": "giuseppe-colnago",
+      "points": 0
+    },
+    {
+      "position": 27,
+      "rider": "jim-swarbrick",
+      "points": 0
+    },
+    {
+      "position": 28,
+      "rider": "felice-benasedo",
+      "points": 0
+    },
+    {
+      "position": 29,
+      "rider": "ernie-barrett",
+      "points": 0
+    },
+    {
+      "position": 30,
+      "rider": "george-morrison",
+      "points": 0
+    },
+    {
+      "position": 31,
+      "rider": "jim-kentish",
+      "points": 0
+    },
+    {
+      "position": 31,
+      "rider": "louis-van-rijswijk",
+      "points": 0
+    },
+    {
+      "position": 33,
+      "rider": "arthur-wheeler",
+      "points": 0
+    },
+    {
+      "position": 34,
+      "rider": "freddie-fairbairn",
+      "points": 0
+    },
+    {
+      "position": 35,
+      "rider": "ken-bills",
+      "points": 0
+    },
+    {
+      "position": 35,
+      "rider": "guido-leoni",
+      "points": 0
+    },
+    {
+      "position": 37,
+      "rider": "ernie-braine",
+      "points": 0
+    },
+    {
+      "position": 38,
+      "rider": "albert-vertriest",
+      "points": 0
+    },
+    {
+      "position": 39,
+      "rider": "benoit-musy",
+      "points": 0
+    },
+    {
+      "position": 40,
+      "rider": "tommy-mcewans",
+      "points": 0
+    },
+    {
+      "position": 40,
+      "rider": "armando-miele",
+      "points": 0
+    },
+    {
+      "position": 42,
+      "rider": "dante-bianchi",
+      "points": 0
+    },
+    {
+      "position": 42,
+      "rider": "hans-haldemann",
+      "points": 0
+    },
+    {
+      "position": 44,
+      "rider": "auguste-goffin",
+      "points": 0
+    },
+    {
+      "position": 45,
+      "rider": "sidney-mason",
+      "points": 0
+    },
+    {
+      "position": 46,
+      "rider": "evert-carlsson",
+      "points": 0
+    },
+    {
+      "position": 47,
+      "rider": "roy-evans",
+      "points": 0
+    },
+    {
+      "position": 47,
+      "rider": "georges-monneret",
+      "points": 0
+    },
+    {
+      "position": 49,
+      "rider": "ernie-thomas",
+      "points": 0
+    },
+    {
+      "position": 50,
+      "rider": "jaak-delsing",
+      "points": 0
+    },
+    {
+      "position": 51,
+      "rider": "vaino-hollming",
+      "points": 0
+    },
+    {
+      "position": 52,
+      "rider": "adelmo-mandolini",
+      "points": 0
+    },
+    {
+      "position": 52,
+      "rider": "david-whitworth",
+      "points": 0
+    },
+    {
+      "position": 54,
+      "rider": "sid-lawton",
+      "points": 0
+    },
+    {
+      "position": 55,
+      "rider": "lodovico-facchinelli",
+      "points": 0
+    },
+    {
+      "position": 56,
+      "rider": "dario-basso",
+      "points": 0
+    },
+    {
+      "position": 56,
+      "rider": "ashley-len-parry",
+      "points": 0
+    },
+    {
+      "position": 58,
+      "rider": "libero-liberati",
+      "points": 0
+    },
+    {
+      "position": 58,
+      "rider": "stan-miller",
+      "points": 0
+    },
+    {
+      "position": 60,
+      "rider": "bill-beevers",
+      "points": 0
+    },
+    {
+      "position": 61,
+      "rider": "john-simister",
+      "points": 0
+    },
+    {
+      "position": 62,
+      "rider": "vic-willoughby",
+      "points": 0
+    },
+    {
+      "position": 63,
+      "rider": "les-archer",
+      "points": 0
+    },
+    {
+      "position": 64,
+      "rider": "charlie-brett",
+      "points": 0
+    },
+    {
+      "position": 65,
+      "rider": "guy-newman",
+      "points": 0
+    },
+    {
+      "position": 66,
+      "rider": "charlie-gray",
+      "points": 0
+    },
+    {
+      "position": 67,
+      "rider": "george-paterson",
+      "points": 0
+    },
+    {
+      "position": 68,
+      "rider": "roy-walker",
+      "points": 0
+    },
+    {
+      "position": 69,
+      "rider": "jack-varlow",
+      "points": 0
+    },
+    {
+      "position": 70,
+      "rider": "jack-harding",
+      "points": 0
+    },
+    {
+      "position": 71,
+      "rider": "syd-barnett",
+      "points": 0
+    },
+    {
+      "position": 72,
+      "rider": "eric-hardy",
+      "points": 0
+    },
+    {
+      "position": 73,
+      "rider": "humphrey-ranson",
+      "points": 0
+    },
+    {
+      "position": 74,
+      "rider": "john-fisher",
+      "points": 0
+    },
+    {
+      "position": 75,
+      "rider": "ernest-walker",
+      "points": 0
+    },
+    {
+      "position": 76,
+      "rider": "reg-lee",
+      "points": 0
+    },
+    {
+      "position": 77,
+      "rider": "jack-bailey",
+      "points": 0
+    },
+    {
+      "position": 78,
+      "rider": "charlie-salt",
+      "points": 0
+    },
+    {
+      "position": 79,
+      "rider": "leslie-harris",
+      "points": 0
+    },
+    {
+      "position": 80,
+      "rider": "joe-glazebrook",
+      "points": 0
+    },
+    {
+      "position": 81,
+      "rider": "syl-anderton",
+      "points": 0
+    },
+    {
+      "position": 82,
+      "rider": "llewelyn-ranson",
+      "points": 0
+    },
+    {
+      "position": 83,
+      "rider": "john-dale",
+      "points": 0
+    },
+    {
+      "position": 84,
+      "rider": "reg-mcdonald",
+      "points": 0
+    },
+    {
+      "position": 85,
+      "rider": "bob-mcdonald",
+      "points": 0
+    },
+    {
+      "position": 85,
+      "rider": "eric-briggs",
+      "points": 0
+    },
+    {
+      "position": 85,
+      "rider": "oliver-scott",
+      "points": 0
+    },
+    {
+      "position": 85,
+      "rider": "bill-hall",
+      "points": 0
+    },
+    {
+      "position": 85,
+      "rider": "bill-lomas",
+      "points": 0
+    },
+    {
+      "position": 85,
+      "rider": "bob-matthews",
+      "points": 0
+    },
+    {
+      "position": 85,
+      "rider": "bert-meyers",
+      "points": 0
+    },
+    {
+      "position": 85,
+      "rider": "fergus-anderson",
+      "points": 0
+    },
+    {
+      "position": 85,
+      "rider": "manliff-barrington",
+      "points": 0
+    },
+    {
+      "position": 85,
+      "rider": "bruno-bertacchini",
+      "points": 0
+    },
+    {
+      "position": 85,
+      "rider": "aldo-brini",
+      "points": 0
+    },
+    {
+      "position": 85,
+      "rider": "thomas-byrne",
+      "points": 0
+    },
+    {
+      "position": 85,
+      "rider": "maurice-cann",
+      "points": 0
+    },
+    {
+      "position": 85,
+      "rider": "gerard-carter",
+      "points": 0
+    },
+    {
+      "position": 85,
+      "rider": "luigi-ciai",
+      "points": 0
+    },
+    {
+      "position": 85,
+      "rider": "eugene-cordang",
+      "points": 0
+    },
+    {
+      "position": 85,
+      "rider": "les-dear",
+      "points": 0
+    },
+    {
+      "position": 85,
+      "rider": "wilmot-evans",
+      "points": 0
+    },
+    {
+      "position": 85,
+      "rider": "mike-featherstone",
+      "points": 0
+    },
+    {
+      "position": 85,
+      "rider": "lennart-fenning",
+      "points": 0
+    },
+    {
+      "position": 85,
+      "rider": "jack-fletcher",
+      "points": 0
+    },
+    {
+      "position": 85,
+      "rider": "cees-fokke-bosch",
+      "points": 0
+    },
+    {
+      "position": 85,
+      "rider": "sante-geminiani",
+      "points": 0
+    },
+    {
+      "position": 85,
+      "rider": "rob-harrison",
+      "points": 0
+    },
+    {
+      "position": 85,
+      "rider": "johnny-hodgkin",
+      "points": 0
+    },
+    {
+      "position": 85,
+      "rider": "chris-horn",
+      "points": 0
+    },
+    {
+      "position": 85,
+      "rider": "eddie-iffland",
+      "points": 0
+    },
+    {
+      "position": 85,
+      "rider": "denis-jenkinson",
+      "points": 0
+    },
+    {
+      "position": 85,
+      "rider": "piet-knijnenburg",
+      "points": 0
+    },
+    {
+      "position": 85,
+      "rider": "max-klein",
+      "points": 0
+    },
+    {
+      "position": 85,
+      "rider": "willy-lips",
+      "points": 0
+    },
+    {
+      "position": 85,
+      "rider": "bill-maddrick",
+      "points": 0
+    },
+    {
+      "position": 85,
+      "rider": "leon-martin",
+      "points": 0
+    },
+    {
+      "position": 85,
+      "rider": "robert-muller",
+      "points": 0
+    },
+    {
+      "position": 85,
+      "rider": "bill-petch",
+      "points": 0
+    },
+    {
+      "position": 85,
+      "rider": "hub-pellikaan",
+      "points": 0
+    },
+    {
+      "position": 85,
+      "rider": "cecil-sandford",
+      "points": 0
+    },
+    {
+      "position": 85,
+      "rider": "jacques-schot",
+      "points": 0
+    },
+    {
+      "position": 85,
+      "rider": "elio-scopingo",
+      "points": 0
+    },
+    {
+      "position": 85,
+      "rider": "cyril-stevens",
+      "points": 0
+    },
+    {
+      "position": 85,
+      "rider": "drikus-veer",
+      "points": 0
+    },
+    {
+      "position": 85,
+      "rider": "jan-veer",
+      "points": 0
+    },
+    {
+      "position": 85,
+      "rider": "robert-weston",
+      "points": 0
+    },
+    {
+      "position": 85,
+      "rider": "henri-widonne",
+      "points": 0
+    }
+  ]
+}
