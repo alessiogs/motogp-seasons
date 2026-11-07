@@ -4,7 +4,10 @@
       "name": "Alice Team"
     },
     {
-      "name": "Ducati Marlboro Team"
+      "name": "Ducati Marlboro Team",
+      "variants": [
+        "Ducati Team"
+      ]
     },
     {
       "name": "Fiat Yamaha Team"

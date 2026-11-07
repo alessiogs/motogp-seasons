@@ -1,7 +1,10 @@
 {
   "teams": [
     {
-      "name": "Ducati Marlboro Team"
+      "name": "Ducati Marlboro Team",
+      "variants": [
+        "Ducati Team"
+      ]
     },
     {
       "name": "Dunlop Yamaha Tech 3"

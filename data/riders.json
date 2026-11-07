@@ -3997,5 +3997,54 @@
     "sourceIds": {
       "wikipedia": "Troy Bayliss"
     }
+  },
+  {
+    "id": "max-biaggi",
+    "name": "Max Biaggi",
+    "sourceIds": {
+      "wikipedia": "Max Biaggi"
+    }
+  },
+  {
+    "id": "ruben-xaus",
+    "name": "Rubén Xaus",
+    "sourceIds": {
+      "wikipedia": "Rubén Xaus"
+    }
+  },
+  {
+    "id": "shane-byrne",
+    "name": "Shane Byrne",
+    "sourceIds": {
+      "wikipedia": "Shane Byrne (motorcyclist)"
+    }
+  },
+  {
+    "id": "jurgen-vd-goorbergh",
+    "name": "Jurgen vd Goorbergh",
+    "sourceIds": {
+      "wikipedia": "Jurgen van den Goorbergh"
+    }
+  },
+  {
+    "id": "tohru-ukawa",
+    "name": "Tohru Ukawa",
+    "sourceIds": {
+      "wikipedia": "Tohru Ukawa"
+    }
+  },
+  {
+    "id": "david-checa",
+    "name": "David Checa",
+    "sourceIds": {
+      "wikipedia": "David Checa"
+    }
+  },
+  {
+    "id": "ryuichi-kiyonari",
+    "name": "Ryuichi Kiyonari",
+    "sourceIds": {
+      "wikipedia": "Ryuichi Kiyonari"
+    }
   }
 ]

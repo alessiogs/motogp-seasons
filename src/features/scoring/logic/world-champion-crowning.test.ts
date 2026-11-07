@@ -176,6 +176,13 @@ const crowned: Record<string, { rider: string; round: number; session: string; s
     session: 'grand-prix-race',
     source: 'https://en.wikipedia.org/wiki/2006_Valencian_Community_motorcycle_Grand_Prix',
   },
+  // Crash.net's race report headline, "Capirossi wins, Rossi crowned 2005 champion" (Rossi was second; no Wikipedia article states the clinch): the Malaysian Grand Prix, Round 13 of 17.
+  'motogp-2005': {
+    rider: 'valentino-rossi',
+    round: 13,
+    session: 'grand-prix-race',
+    source: 'https://www.crash.net/motogp/race-report/76531/1/capirossi-wins-rossi-crowned-2005-champion',
+  },
 };
 
 const dataDir = path.join(process.cwd(), 'data');
