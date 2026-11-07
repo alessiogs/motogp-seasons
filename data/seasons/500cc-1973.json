@@ -1,8 +1,8 @@
 {
   "class": "500cc",
   "year": 1973,
-  "scoringRule": "TODO-set-by-hand",
-  "notes": "Loaded from Wikipedia (1973 Grand Prix motorcycle racing season); needs a hand check against motogp.com. Set the Scoring rule, Half points and aggregate classifications by hand.",
+  "scoringRule": "1973",
+  "notes": "Loaded from Wikipedia (1973 Grand Prix motorcycle racing season); 11 championship Rounds plus the Nations Grand Prix, whose 500cc race was cancelled and which stays in the numbering as a Non-championship round (Round 4), so the Rounds are numbered 1 to 12. Counting window: best 6 of Rounds 1-12. Charlie Sanby (3rd at the Isle of Man) is excluded from the championship and has a Points override of 0. Needs a hand check against motogp.com.",
   "rounds": [
     {
       "number": 1,
@@ -887,24 +887,24 @@
       "country": "Italy",
       "date": "1973-05-20",
       "nonChampionship": true,
-      "notes": "The 500cc race was not run (no Results in the standings matrix); the Round keeps its number. Needs a hand note.",
+      "notes": "The 500cc race of the Nations Grand Prix at Monza was cancelled after the deaths of Jarno Saarinen and Renzo Pasolini in the 250cc race (the 1973 season article): no points were awarded. The Round keeps number 4, so the later Rounds are numbered 5 to 12.",
       "sessions": []
     },
     {
       "number": 5,
       "name": "Isle of Man TT",
       "circuit": "Snaefell Mountain",
-      "country": "UK",
+      "country": "Isle of Man",
       "date": "1973-06-08",
       "nonChampionship": false,
-      "notes": null,
+      "notes": "Most of the top contenders boycotted the Isle of Man TT over safety concerns (the 1973 season article); the Round still counts. Charlie Sanby finished 3rd but is excluded from the championship final standings because he held only a domestic licence: his Points override is 0, and the Riders behind him are not promoted (the official table gives 4th place Alex George 8 points).",
       "sessions": [
         {
           "type": "grand-prix-race",
           "order": 1,
           "date": "1973-06-08",
           "pointsMultiplier": 1,
-          "notes": null,
+          "notes": "Charlie Sanby finished 3rd but is excluded from the FIM championship final standings (domestic licence only): Points override 0, nobody behind him promoted.",
           "results": [
             {
               "rider": "jack-findlay",
@@ -935,7 +935,7 @@
               "position": 3,
               "outcome": "FIN",
               "fastestLap": false,
-              "pointsOverride": null,
+              "pointsOverride": 0,
               "team": null,
               "manufacturer": "Suzuki",
               "bikeNumber": null,
@@ -955,7 +955,7 @@
               "source": "https://en.wikipedia.org/wiki/1973_Grand_Prix_motorcycle_racing_season"
             },
             {
-              "rider": "roger-nichols",
+              "rider": "roger-nicholls",
               "position": 5,
               "outcome": "FIN",
               "fastestLap": false,
@@ -1049,7 +1049,7 @@
       "country": "Yugoslavia",
       "date": "1973-06-17",
       "nonChampionship": false,
-      "notes": null,
+      "notes": "The MV Agusta, Suzuki and Harley-Davidson teams sat out the Yugoslavian Grand Prix over safety conditions at Opatija (the 1973 season article), so it was won against a reduced field. It still counts.",
       "sessions": [
         {
           "type": "grand-prix-race",
@@ -1675,7 +1675,7 @@
               "source": "https://en.wikipedia.org/wiki/1973_Grand_Prix_motorcycle_racing_season"
             },
             {
-              "rider": "peter-van-der-wal",
+              "rider": "piet-van-der-wal",
               "position": 8,
               "outcome": "FIN",
               "fastestLap": false,
@@ -2019,7 +2019,7 @@
               "source": "https://en.wikipedia.org/wiki/1973_Grand_Prix_motorcycle_racing_season"
             },
             {
-              "rider": "peter-van-der-wal",
+              "rider": "piet-van-der-wal",
               "position": 10,
               "outcome": "FIN",
               "fastestLap": false,
@@ -2991,7 +2991,7 @@
               "source": "https://en.wikipedia.org/wiki/1973_Grand_Prix_motorcycle_racing_season"
             },
             {
-              "rider": "peter-van-der-wal",
+              "rider": "piet-van-der-wal",
               "position": null,
               "outcome": "DNF",
               "fastestLap": false,

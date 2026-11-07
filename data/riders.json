@@ -661,7 +661,8 @@
     "name": "Roger Nicholls",
     "sourceIds": {
       "wikipedia": "Roger Nicholls (motorcyclist)",
-      "wikipedia2": "Roger Nichols (motorcyclist)"
+      "wikipedia2": "Roger Nichols (motorcyclist)",
+      "wikipedia3": "Roger Nichols"
     }
   },
   {
@@ -1148,7 +1149,8 @@
     "name": "Piet van der Wal",
     "sourceIds": {
       "wikipedia": "Piet van der Wal",
-      "wikipedia2": "Peter Van Der Wal"
+      "wikipedia2": "Peter Van Der Wal",
+      "wikipedia3": "Peter van der Wal"
     }
   },
   {
@@ -9241,20 +9243,6 @@
     "name": "Ray Knight",
     "sourceIds": {
       "wikipedia": "Ray Knight (motorcyclist)"
-    }
-  },
-  {
-    "id": "roger-nichols",
-    "name": "Roger Nichols",
-    "sourceIds": {
-      "wikipedia": "Roger Nichols"
-    }
-  },
-  {
-    "id": "peter-van-der-wal",
-    "name": "Peter van der Wal",
-    "sourceIds": {
-      "wikipedia": "Peter van der Wal"
     }
   }
 ]

@@ -21,7 +21,8 @@ function brandOf(text: string): string {
   if (/^GP500/i.test(text)) return 'Cagiva';
   if (/^MV\d|^MV Agusta/i.test(text)) return 'MV Agusta';
   if (/^H1R/i.test(text)) return 'Kawasaki';
-  if (/^RR\d/i.test(text)) return 'Harley-Davidson';
+  if (/Harley|^RR\d/i.test(text)) return 'Harley-Davidson';
+  if (/Husqvarna/i.test(text)) return 'Husqvarna'; // Husqvarna-Proto: a Husqvarna engine in a one-off frame
   if (/^Yamsel/i.test(text)) return 'Seeley'; // Yamaha engine in a Seeley frame
   if (/^G50|Matchless/i.test(text)) return 'Matchless';
   if (/Manx|^Norton/i.test(text)) return 'Norton';

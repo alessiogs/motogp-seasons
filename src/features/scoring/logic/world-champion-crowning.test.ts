@@ -35,6 +35,72 @@ const crowned: Record<string, { rider: string; round: number; session: string; s
     session: 'grand-prix-race',
     source: 'https://en.wikipedia.org/wiki/1976_Grand_Prix_motorcycle_racing_season',
   },
+  // "The battle for supremacy of the 500cc class between the defending champion Phil Read and Giacomo Agostini was not
+  // decided until the tenth and final round of the series" (the 1975 season article): the Czechoslovak Grand Prix, Round 10 of 10.
+  '500cc-1975': {
+    rider: 'giacomo-agostini',
+    round: 10,
+    session: 'grand-prix-race',
+    source: 'https://en.wikipedia.org/wiki/1975_Grand_Prix_motorcycle_racing_season',
+  },
+  // Wikipedia does not say where Read clinched (the 1974 season article: "Phil Read won four of ten rounds to successfully defend
+  // his 500cc World Championship"). After the Finnish Grand Prix, Round 9 of 10, he had 77 points; Bonera, second with 65, could
+  // reach at most 72 by winning the last Round (best six of his results count), so the title was decided there.
+  '500cc-1974': {
+    rider: 'phil-read',
+    round: 9,
+    session: 'grand-prix-race',
+    source: 'https://en.wikipedia.org/wiki/1974_Grand_Prix_motorcycle_racing_season',
+  },
+  // Wikipedia does not say where Read clinched (the 1973 season article: Agostini "was unable to overcome his early-season points
+  // deficit which allowed Read to claim his first 500 Class World Championship"). After the Swedish Grand Prix, Round 10 of 12
+  // (the cancelled Nations Grand Prix is Round 4), he had 81 points to Newcombe's 61 with two Rounds left; Newcombe could reach
+  // at most 77 by winning both (best six count). A Round earlier the lead was 66 to 51 with three Rounds left, still open.
+  '500cc-1973': {
+    rider: 'phil-read',
+    round: 10,
+    session: 'grand-prix-race',
+    source: 'https://en.wikipedia.org/wiki/1973_Grand_Prix_motorcycle_racing_season',
+  },
+  // Wikipedia does not say where Agostini clinched (the 1972 season article: Chas Mortimer "won the race after Agostini sat out
+  // the event after already winning the championship" at the Spanish finale). After the Belgian Grand Prix, Round 8 of 13, he had
+  // 105 points, seven wins, the most that seven counted scores can make; with five Rounds left a rival could take 75 and add
+  // at most two earlier scores, 15 (Pagani won the Yugoslavian Round Agostini missed) and 12, 102 in all.
+  '500cc-1972': {
+    rider: 'giacomo-agostini',
+    round: 8,
+    session: 'grand-prix-race',
+    source: 'https://en.wikipedia.org/wiki/1972_Grand_Prix_motorcycle_racing_season',
+  },
+  // Wikipedia does not say where Agostini clinched (the 1971 season article: Dave Simmonds "won the race after Agostini sat out
+  // the event after already winning the championship" at the Spanish finale). After the East German Grand Prix, Round 6 of 11,
+  // he had 90 points, six wins, the most that six counted scores can make; with five Rounds left a rival could take 75 and add
+  // his best earlier score (12 at most, since Agostini won every Round), 87 in all.
+  '500cc-1971': {
+    rider: 'giacomo-agostini',
+    round: 6,
+    session: 'grand-prix-race',
+    source: 'https://en.wikipedia.org/wiki/1971_Grand_Prix_motorcycle_racing_season',
+  },
+  // Wikipedia does not say where Agostini clinched (the 1970 season article: "Giacomo Agostini won his fifth consecutive 500cc
+  // world championship against minimal opposition"). After the Belgian Grand Prix, Round 6 of 11, he had 90 points, six wins,
+  // the most that six counted scores can make; with five Rounds left a rival could take 75 and add his best earlier score
+  // (12 at most, since Agostini won every Round), 87 in all.
+  '500cc-1970': {
+    rider: 'giacomo-agostini',
+    round: 6,
+    session: 'grand-prix-race',
+    source: 'https://en.wikipedia.org/wiki/1970_Grand_Prix_motorcycle_racing_season',
+  },
+  // Wikipedia does not say where Agostini clinched (the 1969 season article gives the final table only). After the East German
+  // Grand Prix, Round 7 of 12, he had 105 points, seven wins, the most that seven counted scores can make; with five Rounds
+  // left a rival could take 75 and add at most two earlier scores of 12 (Agostini had won every Round), 99 in all.
+  '500cc-1969': {
+    rider: 'giacomo-agostini',
+    round: 7,
+    session: 'grand-prix-race',
+    source: 'https://en.wikipedia.org/wiki/1969_Grand_Prix_motorcycle_racing_season',
+  },
   // "Francesco Bagnaia successfully defended his Riders' Championship by winning the Grand Prix and with
   // closest title contender Jorge Martín crashing out": the Valencian finale, Round 20 of 20.
   'motogp-2023': {

@@ -20,6 +20,8 @@
 // reads 500cc Seasons whose report articles label their columns instead of using the 1976 layout:
 // the "500cc classification" table by header names (1989), or, when the report article lists fewer
 // riders, the season article's final-standings matrix, which flags fastest laps in italics (1949).
+// A matrix column nobody has a Result in (1973 Nations, cancelled) becomes a Non-championship round with no Sessions; a column that
+// links an earlier column's article (East German, 1969-1971) takes the matrix's Results alone.
 // Half points, aggregate classifications and the Scoring rule are not detected: set them by hand.
 import { existsSync, mkdirSync, readFileSync, writeFileSync } from 'node:fs';
 import path from 'node:path';

@@ -143,7 +143,7 @@
     },
     {
       "position": 27,
-      "rider": "roger-nichols",
+      "rider": "roger-nicholls",
       "points": 6
     },
     {
@@ -188,7 +188,7 @@
     },
     {
       "position": 33,
-      "rider": "peter-van-der-wal",
+      "rider": "piet-van-der-wal",
       "points": 4
     },
     {
@@ -260,6 +260,38 @@
       "position": 49,
       "rider": "jerome-van-halter",
       "points": 1
+    }
+  ],
+  "knownMismatch": [
+    {
+      "rider": "peter-williams",
+      "replayedPoints": 12,
+      "printedPoints": 15,
+      "reason": "Peter Williams's row on the 1973 season article has a single result, 2nd at the Isle of Man (12 points), and the table prints 15. Only the season article's standings matrix is available for this Season (no report article exists for its Rounds); no second source found; likely a source error."
+    },
+    {
+      "rider": "guido-mandracci",
+      "replayedPoints": 13,
+      "printedPoints": 15,
+      "reason": "Guido Mandracci's row on the 1973 season article has 4th (8) and 6th (5): 13 points, and the table prints 15. Only the season article's standings matrix is available; no second source found; likely a source error."
+    },
+    {
+      "rider": "steve-ellis",
+      "replayedPoints": 12,
+      "printedPoints": 14,
+      "reason": "Steve Ellis's row on the 1973 season article has a 2nd place (12 points) and no other points, and the table prints 14. Only the season article's standings matrix is available; no second source found; likely a source error."
+    },
+    {
+      "rider": "bo-granath",
+      "replayedPoints": 12,
+      "printedPoints": 13,
+      "reason": "Bo Granath's row on the 1973 season article has 6th (5), 7th (4) and 8th (3): 12 points, and the table prints 13. Only the season article's standings matrix is available; no second source found; likely a source error."
+    },
+    {
+      "rider": "paul-eickelberg",
+      "replayedPoints": 11,
+      "printedPoints": 10,
+      "reason": "Paul Eickelberg's row on the 1973 season article has 5th (6) and 6th (5): 11 points, and the table prints 10. Only the season article's standings matrix is available; no second source found; likely a source error."
     }
   ]
 }

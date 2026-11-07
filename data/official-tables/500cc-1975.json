@@ -271,5 +271,11 @@
       "rider": "edmund-czihak",
       "points": 0
     }
-  ]
+  ],
+  "knownMismatch": {
+    "rider": "john-williams",
+    "replayedPoints": 32,
+    "printedPoints": 36,
+    "reason": "John Williams's row on the 1975 season article has 2nd (12) at the Isle of Man, 7th (4) in the Netherlands, 5th (6) in Belgium and 3rd (10) in Sweden: 32 points. The table prints 36. The matrix cells and the Grand Prix report articles agree with each other and with the replay; no second source found; likely a source error."
+  }
 }
