@@ -22,11 +22,11 @@ function sessionStep(sessionType: string, sessionsInRound: number): SessionStep 
 
 describe('stepLabel', () => {
   it('names the Participants step', () => {
-    expect(stepLabel({ kind: 'participants', standings: [], defendingChampion: null })).toEqual('Participants');
+    expect(stepLabel({ kind: 'participants', standings: [], defendingChampion: null }, 20)).toEqual('Participants');
   });
 
-  it('names a Session step by its Round, and by its Session when the Round has more than one', () => {
-    expect(stepLabel(sessionStep('grand-prix-race', 1))).toEqual('Round 3 · Qatar');
-    expect(stepLabel(sessionStep('sprint', 2))).toEqual('Round 3 · Qatar · Sprint');
+  it("names a Session step by its Round out of the Season's Rounds, and by its Session when the Round has more than one", () => {
+    expect(stepLabel(sessionStep('grand-prix-race', 1), 20)).toEqual('Round 3 of 20 · Qatar');
+    expect(stepLabel(sessionStep('sprint', 2), 20)).toEqual('Round 3 of 20 · Qatar · Sprint');
   });
 });
