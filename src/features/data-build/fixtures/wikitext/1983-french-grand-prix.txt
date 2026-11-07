@@ -1,0 +1,32 @@
+==Classification==
+===500 cc===
+{| class="wikitable" style="font-size: 95%;"
+! Pos.
+! Rider
+! Team
+! Manufacturer
+! Time/Retired
+! Points
+|-
+! 1
+| {{flagicon|USA}} '''[[Freddie Spencer]]'''
+| '''[[Honda Racing Corporation|HRC]]-[[Honda]]'''
+| '''[[Honda NS500|NS500]]'''
+| 47'47.900
+| '''15'''
+|-
+! 2
+| {{flagicon|ITA}} '''[[Marco Lucchinelli]]'''
+| '''HRC-Honda'''
+| '''NS500'''
+| +14.990
+| '''12'''
+|-
+! 3
+| {{flagicon|GBR}} '''[[Ron Haslam]]'''
+| '''HRC-Honda'''
+| '''NS500'''
+| +36.280
+| '''10'''
+|-
+|}

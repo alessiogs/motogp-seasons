@@ -290,6 +290,90 @@ const crowned: Record<string, { rider: string; round: number; session: string; s
     session: 'grand-prix-race',
     source: 'https://en.wikipedia.org/wiki/2000_Rio_de_Janeiro_motorcycle_Grand_Prix',
   },
+  // "At the following round in Sweden, Sheene clinched the World Championship with his sixth victory of the season" (the 1977 season article). That is Round 8, but with every Round counting he led Baker by 34 with three Rounds (45 points) left, so the title is arithmetically his only after the Finnish Grand Prix, Round 9 of 11 (lead 39 over 30 left).
+  '500cc-1977': {
+    rider: 'barry-sheene',
+    round: 9,
+    session: 'grand-prix-race',
+    source: 'https://en.wikipedia.org/wiki/1977_Grand_Prix_motorcycle_racing_season',
+  },
+  // "The title fight between Roberts and Sheene went down to the final race of the season, the German Grand Prix": Round 11 of 11.
+  '500cc-1978': {
+    rider: 'kenny-roberts',
+    round: 11,
+    session: 'grand-prix-race',
+    source: 'https://en.wikipedia.org/wiki/1978_Grand_Prix_motorcycle_racing_season',
+  },
+  // Wikipedia does not say where Roberts clinched (the season article: "Kenny Roberts capture his second crown"). Going into the French finale, Round 12 of 12, he led Ferrari by 14 with 15 left, so it was decided there.
+  '500cc-1979': {
+    rider: 'kenny-roberts',
+    round: 12,
+    session: 'grand-prix-race',
+    source: 'https://en.wikipedia.org/wiki/1979_Grand_Prix_motorcycle_racing_season',
+  },
+  // Wikipedia does not say where Roberts clinched (the season article: "Kenny Roberts claimed his third successive 500cc world championship"). Going into the German finale, Round 8 of 8, he led Mamola by 13 with 15 left, so it was decided there.
+  '500cc-1980': {
+    rider: 'kenny-roberts',
+    round: 8,
+    session: 'grand-prix-race',
+    source: 'https://en.wikipedia.org/wiki/1980_Grand_Prix_motorcycle_racing_season',
+  },
+  // Wikipedia does not say where Lucchinelli clinched (the season article: "Lucchinelli took command with four victories in the next five races to claim the world championship"). Going into the Swedish finale, Round 11 of 11, he led Mamola by 9 with 15 left, so it was decided there.
+  '500cc-1981': {
+    rider: 'marco-lucchinelli',
+    round: 11,
+    session: 'grand-prix-race',
+    source: 'https://en.wikipedia.org/wiki/1981_Grand_Prix_motorcycle_racing_season',
+  },
+  // Wikipedia does not say where Uncini clinched (the season article: "Franco Uncini on the Roberto Gallina backed Suzuki took a well-earned championship"). After the Swedish Grand Prix, Round 10 of 12, he led Roberts by 35 with 30 left, the first Round after which the lead exceeds the points left.
+  '500cc-1982': {
+    rider: 'franco-uncini',
+    round: 10,
+    session: 'grand-prix-race',
+    source: 'https://en.wikipedia.org/wiki/1982_Grand_Prix_motorcycle_racing_season',
+  },
+  // "The title chase wouldn't be decided until the final race of the season" (the 1983 season article): the San Marino Grand Prix, Round 12 of 12, Spencer 144 to Roberts 142.
+  '500cc-1983': {
+    rider: 'freddie-spencer',
+    round: 12,
+    session: 'grand-prix-race',
+    source: 'https://en.wikipedia.org/wiki/1983_Grand_Prix_motorcycle_racing_season',
+  },
+  // Wikipedia does not say where Lawson clinched (the season article: "Eddie Lawson ... four wins and four second places to secure his first 500cc world championship"). After the Swedish Grand Prix, Round 11 of 12, he led Mamola by 38 with 15 left; a Round earlier the lead (23) was less than the 30 left.
+  '500cc-1984': {
+    rider: 'eddie-lawson',
+    round: 11,
+    session: 'grand-prix-race',
+    source: 'https://en.wikipedia.org/wiki/1984_Grand_Prix_motorcycle_racing_season',
+  },
+  // Wikipedia does not say where Spencer clinched (the season article: "Honda's Freddie Spencer gave a dominating performance becoming the first man to win the 250 and 500 championships in the same year"). After the Swedish Grand Prix, Round 11 of 12, he led Lawson by 23 with 15 left; a Round earlier the lead (20) was less than the 30 left.
+  '500cc-1985': {
+    rider: 'freddie-spencer',
+    round: 11,
+    session: 'grand-prix-race',
+    source: 'https://en.wikipedia.org/wiki/1985_Grand_Prix_motorcycle_racing_season',
+  },
+  // Wikipedia does not say where Lawson clinched (the season article: "A second world championship for Eddie Lawson"). After the Swedish Grand Prix, Round 10 of 11, he led Gardner by 19 with 15 left; a Round earlier the lead (16) was less than the 30 left.
+  '500cc-1986': {
+    rider: 'eddie-lawson',
+    round: 10,
+    session: 'grand-prix-race',
+    source: 'https://en.wikipedia.org/wiki/1986_Grand_Prix_motorcycle_racing_season',
+  },
+  // Wikipedia does not say where Gardner clinched (the season article: "Wayne Gardner became Australia's first-ever 500cc World Champion"). After the Brazilian Grand Prix, Round 14 of 15, he led Mamola by 22 with 15 left; a Round earlier the lead (17) was less than the 30 left.
+  '500cc-1987': {
+    rider: 'wayne-gardner',
+    round: 14,
+    session: 'grand-prix-race',
+    source: 'https://en.wikipedia.org/wiki/1987_Grand_Prix_motorcycle_racing_season',
+  },
+  // "Lawson needs to finish behind Gardner to win the championship" (the report of the race): Gardner won, Lawson was 2nd, the Czechoslovak Grand Prix, Round 14 of 15 (lead 20 over 20 left, Lawson with more wins).
+  '500cc-1988': {
+    rider: 'eddie-lawson',
+    round: 14,
+    session: 'grand-prix-race',
+    source: 'https://en.wikipedia.org/wiki/1988_Czechoslovak_motorcycle_Grand_Prix',
+  },
 };
 
 const dataDir = path.join(process.cwd(), 'data');

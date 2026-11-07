@@ -45,4 +45,14 @@ describe('applyKnownMismatch', () => {
     expect(() => applyKnownMismatch(printed, { ...mismatch, printedPoints: 88 })).toThrow(/printed/);
     expect(() => applyKnownMismatch(printed, { ...mismatch, rider: 'z' })).toThrow(/z/);
   });
+
+  it('accepts several declarations, one per Rider', () => {
+    const second = { rider: 'c', replayedPoints: 48, printedPoints: 50, reason: 'Cells sum to 48' };
+    expect(applyKnownMismatch(printed, [mismatch, second])).toEqual([
+      { rider: 'a', points: 100 },
+      { rider: 'b', points: 90 },
+      { rider: 'c', points: 48 },
+    ]);
+    expect(() => applyKnownMismatch(printed, [mismatch, { ...second, printedPoints: 51 }])).toThrow(/printed/);
+  });
 });

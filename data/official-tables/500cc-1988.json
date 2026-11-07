@@ -1,0 +1,441 @@
+{
+  "source": "https://en.wikipedia.org/wiki/1988_Grand_Prix_motorcycle_racing_season",
+  "standings": [
+    {
+      "position": 1,
+      "rider": "eddie-lawson",
+      "points": 252
+    },
+    {
+      "position": 2,
+      "rider": "wayne-gardner",
+      "points": 229
+    },
+    {
+      "position": 3,
+      "rider": "wayne-rainey",
+      "points": 189
+    },
+    {
+      "position": 4,
+      "rider": "christian-sarron",
+      "points": 149
+    },
+    {
+      "position": 5,
+      "rider": "kevin-magee",
+      "points": 138
+    },
+    {
+      "position": 6,
+      "rider": "niall-mackenzie",
+      "points": 125
+    },
+    {
+      "position": 7,
+      "rider": "didier-de-radigues",
+      "points": 120
+    },
+    {
+      "position": 8,
+      "rider": "kevin-schwantz",
+      "points": 119
+    },
+    {
+      "position": 9,
+      "rider": "pierfrancesco-chili",
+      "points": 110
+    },
+    {
+      "position": 10,
+      "rider": "rob-mcelnea",
+      "points": 83
+    },
+    {
+      "position": 11,
+      "rider": "ron-haslam",
+      "points": 68
+    },
+    {
+      "position": 12,
+      "rider": "randy-mamola",
+      "points": 58
+    },
+    {
+      "position": 13,
+      "rider": "shunji-yatsushiro",
+      "points": 57
+    },
+    {
+      "position": 14,
+      "rider": "patrick-igoa",
+      "points": 44
+    },
+    {
+      "position": 15,
+      "rider": "tadahiko-taira",
+      "points": 36
+    },
+    {
+      "position": 16,
+      "rider": "alessandro-valesi",
+      "points": 19
+    },
+    {
+      "position": 17,
+      "rider": "marco-papa",
+      "points": 17
+    },
+    {
+      "position": 18,
+      "rider": "roger-burnett",
+      "points": 15
+    },
+    {
+      "position": 19,
+      "rider": "mike-baldwin",
+      "points": 14
+    },
+    {
+      "position": 20,
+      "rider": "raymond-roche",
+      "points": 13
+    },
+    {
+      "position": 21,
+      "rider": "fabio-barchitta",
+      "points": 12
+    },
+    {
+      "position": 22,
+      "rider": "bruno-kneubuhler",
+      "points": 9
+    },
+    {
+      "position": 23,
+      "rider": "donnie-mcleod",
+      "points": 9
+    },
+    {
+      "position": 24,
+      "rider": "marco-gentile",
+      "points": 8
+    },
+    {
+      "position": 25,
+      "rider": "daniel-amatriain",
+      "points": 7
+    },
+    {
+      "position": 26,
+      "rider": "hikaru-miyagi",
+      "points": 5
+    },
+    {
+      "position": 27,
+      "rider": "gustav-reiner",
+      "points": 5
+    },
+    {
+      "position": 28,
+      "rider": "steve-manley",
+      "points": 4
+    },
+    {
+      "position": 29,
+      "rider": "malcolm-campbell",
+      "points": 4
+    },
+    {
+      "position": 30,
+      "rider": "norihiko-fujiwara",
+      "points": 4
+    },
+    {
+      "position": 31,
+      "rider": "francisco-gonzales",
+      "points": 4
+    },
+    {
+      "position": 32,
+      "rider": "fabio-biliotti",
+      "points": 4
+    },
+    {
+      "position": 33,
+      "rider": "rachel-nicotte",
+      "points": 3
+    },
+    {
+      "position": 34,
+      "rider": "peter-schleef",
+      "points": 3
+    },
+    {
+      "position": 35,
+      "rider": "massimo-broccoli",
+      "points": 2
+    },
+    {
+      "position": 36,
+      "rider": "peter-linden",
+      "points": 2
+    },
+    {
+      "position": 37,
+      "rider": "osamu-hiwatashi",
+      "points": 1
+    },
+    {
+      "position": 38,
+      "rider": "maarten-duyzers",
+      "points": 1
+    },
+    {
+      "position": 39,
+      "rider": "michael-rudroff",
+      "points": 1
+    },
+    {
+      "position": 40,
+      "rider": "manfred-fischer",
+      "points": 1
+    },
+    {
+      "position": 41,
+      "rider": "cees-doorakkers",
+      "points": 1
+    },
+    {
+      "position": 42,
+      "rider": "shinji-katayama",
+      "points": 0
+    },
+    {
+      "position": 43,
+      "rider": "nicholas-schmassman",
+      "points": 0
+    },
+    {
+      "position": 44,
+      "rider": "andreas-leuthe",
+      "points": 0
+    },
+    {
+      "position": 45,
+      "rider": "masaru-mizutani",
+      "points": 0
+    },
+    {
+      "position": 46,
+      "rider": "josef-doppler",
+      "points": 0
+    },
+    {
+      "position": 47,
+      "rider": "alberto-rota",
+      "points": 0
+    },
+    {
+      "position": 48,
+      "rider": "franz-holzmeier",
+      "points": 0
+    },
+    {
+      "position": 49,
+      "rider": "eddie-laycock",
+      "points": 0
+    },
+    {
+      "position": 50,
+      "rider": "wolfgang-van-muralt",
+      "points": 0
+    },
+    {
+      "position": 51,
+      "rider": "keiji-kinoshita",
+      "points": 0
+    },
+    {
+      "position": 52,
+      "rider": "ian-pratt",
+      "points": 0
+    },
+    {
+      "position": 53,
+      "rider": "kees-van-der-endt",
+      "points": 0
+    },
+    {
+      "position": 54,
+      "rider": "karl-truchsess",
+      "points": 0
+    },
+    {
+      "position": 55,
+      "rider": "silvo-habat",
+      "points": 0
+    },
+    {
+      "position": 56,
+      "rider": "jean-luc-demierre",
+      "points": 0
+    },
+    {
+      "position": 57,
+      "rider": "romolo-balbi",
+      "points": 0
+    },
+    {
+      "position": 58,
+      "rider": "georg-jung",
+      "points": 0
+    },
+    {
+      "position": 59,
+      "rider": "ari-ramo",
+      "points": 0
+    },
+    {
+      "position": 60,
+      "rider": "helmut-schutz",
+      "points": 0
+    },
+    {
+      "position": 61,
+      "rider": "dave-leach",
+      "points": 0
+    },
+    {
+      "position": 62,
+      "rider": "peter-skold",
+      "points": 0
+    },
+    {
+      "position": 63,
+      "rider": "chris-buerki",
+      "points": 0
+    },
+    {
+      "position": 64,
+      "rider": "claude-arciero",
+      "points": 0
+    },
+    {
+      "position": 65,
+      "rider": "johan-ten-napel",
+      "points": 0
+    },
+    {
+      "position": 66,
+      "rider": "simon-buckmaster",
+      "points": 0
+    },
+    {
+      "position": 67,
+      "rider": "claus-wulff",
+      "points": 0
+    },
+    {
+      "position": 68,
+      "rider": "pavol-dekanek",
+      "points": 0
+    },
+    {
+      "position": 69,
+      "rider": "ake-dahli",
+      "points": 0
+    },
+    {
+      "position": 70,
+      "rider": "lars-johansson",
+      "points": 0
+    },
+    {
+      "position": 71,
+      "rider": "hisashi-yamana",
+      "points": 0
+    },
+    {
+      "position": 72,
+      "rider": "katunori-shinozaki",
+      "points": 0
+    },
+    {
+      "position": 73,
+      "rider": "john-long",
+      "points": 0
+    },
+    {
+      "position": 74,
+      "rider": "claude-albert",
+      "points": 0
+    },
+    {
+      "position": 75,
+      "rider": "vincenzo-cascino",
+      "points": 0
+    },
+    {
+      "position": 76,
+      "rider": "larry-moreno-vacondio",
+      "points": 0
+    },
+    {
+      "position": 77,
+      "rider": "tony-carey",
+      "points": 0
+    },
+    {
+      "position": 78,
+      "rider": "hans-klingbiel",
+      "points": 0
+    },
+    {
+      "position": 79,
+      "rider": "hansjoerg-butz",
+      "points": 0
+    },
+    {
+      "position": 80,
+      "rider": "koos-van-leyen",
+      "points": 0
+    },
+    {
+      "position": 81,
+      "rider": "vittorio-scatola",
+      "points": 0
+    },
+    {
+      "position": 82,
+      "rider": "eric-sabatier",
+      "points": 0
+    },
+    {
+      "position": 83,
+      "rider": "thierry-rapicault",
+      "points": 0
+    },
+    {
+      "position": 84,
+      "rider": "darren-dixon",
+      "points": 0
+    },
+    {
+      "position": 85,
+      "rider": "steve-spray",
+      "points": 0
+    },
+    {
+      "position": 86,
+      "rider": "thomas-aronsson",
+      "points": 0
+    }
+  ],
+  "knownMismatch": {
+    "rider": "alessandro-valesi",
+    "replayedPoints": 26,
+    "printedPoints": 19,
+    "reason": "Alessandro Valesi's row on the 1988 season article and the report articles agree: 11th (5), 13th (3), 10th (6), 13th (3), 12th (4), 14th (2) and 13th (3) give 26 points under the 20-17-15-13-11-10-9-8-7-6-5-4-3-2-1 table. The printed total is 19. No second source found; likely a source error."
+  }
+}

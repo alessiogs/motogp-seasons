@@ -7,11 +7,11 @@ export interface OfficialTable {
   source: string;
   standings: { rider: string; points: number }[];
   /**
-   * Optional, for at most one Rider. Declares that the Season's Results provably don't add up to the
-   * printed total for this Rider (e.g. 500cc 1983 Mamola, 90 against 89). The final-Standings test then
-   * expects the replayed points here instead of the printed ones; any other difference still fails.
+   * Optional. Declares that the Season's Results provably don't add up to the printed total of a Rider
+   * (e.g. 500cc 1988 Valesi, 26 against 19). One entry per Rider, normally one in a table. The final-Standings
+   * test then expects the replayed points here instead of the printed ones; any other difference still fails.
    */
-  knownMismatch?: KnownMismatch;
+  knownMismatch?: KnownMismatch | KnownMismatch[];
 }
 
 export interface KnownMismatch {
