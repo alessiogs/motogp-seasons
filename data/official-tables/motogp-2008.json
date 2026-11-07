@@ -1,0 +1,110 @@
+{
+  "source": "https://en.wikipedia.org/wiki/2008_Grand_Prix_motorcycle_racing_season",
+  "standings": [
+    {
+      "position": 1,
+      "rider": "valentino-rossi",
+      "points": 373
+    },
+    {
+      "position": 2,
+      "rider": "casey-stoner",
+      "points": 280
+    },
+    {
+      "position": 3,
+      "rider": "dani-pedrosa",
+      "points": 249
+    },
+    {
+      "position": 4,
+      "rider": "jorge-lorenzo",
+      "points": 190
+    },
+    {
+      "position": 5,
+      "rider": "andrea-dovizioso",
+      "points": 174
+    },
+    {
+      "position": 6,
+      "rider": "nicky-hayden",
+      "points": 155
+    },
+    {
+      "position": 7,
+      "rider": "colin-edwards",
+      "points": 144
+    },
+    {
+      "position": 8,
+      "rider": "chris-vermeulen",
+      "points": 128
+    },
+    {
+      "position": 9,
+      "rider": "shinya-nakano",
+      "points": 126
+    },
+    {
+      "position": 10,
+      "rider": "loris-capirossi",
+      "points": 118
+    },
+    {
+      "position": 11,
+      "rider": "james-toseland",
+      "points": 105
+    },
+    {
+      "position": 12,
+      "rider": "toni-elias",
+      "points": 92
+    },
+    {
+      "position": 13,
+      "rider": "sylvain-guintoli",
+      "points": 67
+    },
+    {
+      "position": 14,
+      "rider": "alex-de-angelis",
+      "points": 63
+    },
+    {
+      "position": 15,
+      "rider": "randy-de-puniet",
+      "points": 61
+    },
+    {
+      "position": 16,
+      "rider": "john-hopkins",
+      "points": 57
+    },
+    {
+      "position": 17,
+      "rider": "marco-melandri",
+      "points": 51
+    },
+    {
+      "position": 18,
+      "rider": "anthony-west",
+      "points": 50
+    },
+    {
+      "position": 19,
+      "rider": "ben-spies",
+      "points": 20
+    },
+    {
+      "position": 20,
+      "rider": "jamie-hacking",
+      "points": 5
+    },
+    {
+      "position": 21,
+      "rider": "tadayuki-okada",
+      "points": 2
+    }
+  ]
+}

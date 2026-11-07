@@ -155,6 +155,13 @@ const crowned: Record<string, { rider: string; round: number; session: string; s
     session: 'grand-prix-race',
     source: 'https://en.wikipedia.org/wiki/2009_Malaysian_motorcycle_Grand_Prix',
   },
+  // "Rossi clinched his sixth premier class title with three races to go, by winning the race ahead of Stoner": the Japanese Grand Prix, Round 15 of 18.
+  'motogp-2008': {
+    rider: 'valentino-rossi',
+    round: 15,
+    session: 'grand-prix-race',
+    source: 'https://en.wikipedia.org/wiki/2008_Grand_Prix_motorcycle_racing_season',
+  },
 };
 
 const dataDir = path.join(process.cwd(), 'data');

@@ -1,0 +1,34 @@
+{
+  "teams": [
+    {
+      "name": "Alice Team"
+    },
+    {
+      "name": "Ducati Marlboro Team"
+    },
+    {
+      "name": "Fiat Yamaha Team"
+    },
+    {
+      "name": "JiR Team Scot MotoGP"
+    },
+    {
+      "name": "Kawasaki Racing Team"
+    },
+    {
+      "name": "LCR Honda MotoGP"
+    },
+    {
+      "name": "Repsol Honda Team"
+    },
+    {
+      "name": "Rizla Suzuki MotoGP"
+    },
+    {
+      "name": "San Carlo Honda Gresini"
+    },
+    {
+      "name": "Tech 3 Yamaha"
+    }
+  ]
+}

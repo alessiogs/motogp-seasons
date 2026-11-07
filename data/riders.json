@@ -3857,5 +3857,33 @@
     "sourceIds": {
       "wikipedia": "Gábor Talmácsi"
     }
+  },
+  {
+    "id": "shinya-nakano",
+    "name": "Shinya Nakano",
+    "sourceIds": {
+      "wikipedia": "Shinya Nakano"
+    }
+  },
+  {
+    "id": "tadayuki-okada",
+    "name": "Tadayuki Okada",
+    "sourceIds": {
+      "wikipedia": "Tadayuki Okada"
+    }
+  },
+  {
+    "id": "jamie-hacking",
+    "name": "Jamie Hacking",
+    "sourceIds": {
+      "wikipedia": "Jamie Hacking"
+    }
+  },
+  {
+    "id": "nobuatsu-aoki",
+    "name": "Nobuatsu Aoki",
+    "sourceIds": {
+      "wikipedia": "Nobuatsu Aoki"
+    }
   }
 ]
