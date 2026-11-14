@@ -5,7 +5,7 @@ import path from 'node:path';
 import { buildDatabase } from '@/features/data-build/scripts/build-database';
 import { listSeasons } from './list-seasons';
 
-// The real data: the home page lists a Season for every year of the Premier class, 1949 (500cc) to 2025 (MotoGP from 2002).
+// The real data: the home page lists a Season for every year of the Premier class, 1949 (500cc) to 2026 (MotoGP from 2002).
 beforeAll(() => {
   const dbPath = path.join(mkdtempSync(path.join(tmpdir(), 'motogp-premier-')), 'premier.db');
   buildDatabase(path.join(process.cwd(), 'data'), dbPath);
@@ -13,11 +13,11 @@ beforeAll(() => {
 });
 
 describe('listSeasons on the real data', () => {
-  it('lists every Premier-class Season from 1949 to 2025, one per year', () => {
+  it('lists every Premier-class Season from 1949 to 2026, one per year', () => {
     const seasons = listSeasons();
     const years = (classCode: string) => seasons.filter((s) => s.classCode === classCode).map((s) => s.year);
     expect(years('500cc')).toEqual(Array.from({ length: 2001 - 1949 + 1 }, (_, i) => 1949 + i));
-    expect(years('motogp')).toEqual(Array.from({ length: 2025 - 2002 + 1 }, (_, i) => 2002 + i));
-    expect(seasons).toHaveLength(77);
+    expect(years('motogp')).toEqual(Array.from({ length: 2026 - 2002 + 1 }, (_, i) => 2002 + i));
+    expect(seasons).toHaveLength(78);
   });
 });

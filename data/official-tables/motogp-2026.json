@@ -1,0 +1,170 @@
+{
+  "source": "https://en.wikipedia.org/wiki/2026_MotoGP_World_Championship",
+  "standings": [
+    {
+      "position": 1,
+      "rider": "marc-marquez",
+      "points": 431
+    },
+    {
+      "position": 2,
+      "rider": "jorge-martin",
+      "points": 371
+    },
+    {
+      "position": 3,
+      "rider": "marco-bezzecchi",
+      "points": 357
+    },
+    {
+      "position": 4,
+      "rider": "pedro-acosta",
+      "points": 309
+    },
+    {
+      "position": 5,
+      "rider": "ai-ogura",
+      "points": 294
+    },
+    {
+      "position": 6,
+      "rider": "fabio-di-giannantonio",
+      "points": 282
+    },
+    {
+      "position": 7,
+      "rider": "raul-fernandez",
+      "points": 258
+    },
+    {
+      "position": 8,
+      "rider": "alex-marquez",
+      "points": 197
+    },
+    {
+      "position": 9,
+      "rider": "francesco-bagnaia",
+      "points": 173
+    },
+    {
+      "position": 10,
+      "rider": "enea-bastianini",
+      "points": 147
+    },
+    {
+      "position": 11,
+      "rider": "fermin-aldeguer",
+      "points": 129
+    },
+    {
+      "position": 12,
+      "rider": "brad-binder",
+      "points": 118
+    },
+    {
+      "position": 13,
+      "rider": "luca-marini",
+      "points": 117
+    },
+    {
+      "position": 14,
+      "rider": "fabio-quartararo",
+      "points": 79
+    },
+    {
+      "position": 15,
+      "rider": "diogo-moreira",
+      "points": 78
+    },
+    {
+      "position": 16,
+      "rider": "franco-morbidelli",
+      "points": 70
+    },
+    {
+      "position": 17,
+      "rider": "johann-zarco",
+      "points": 63
+    },
+    {
+      "position": 18,
+      "rider": "joan-mir",
+      "points": 33
+    },
+    {
+      "position": 19,
+      "rider": "jack-miller",
+      "points": 31
+    },
+    {
+      "position": 20,
+      "rider": "alex-rins",
+      "points": 29
+    },
+    {
+      "position": 21,
+      "rider": "iker-lecuona",
+      "points": 18
+    },
+    {
+      "position": 22,
+      "rider": "toprak-razgatl-oglu",
+      "points": 18
+    },
+    {
+      "position": 23,
+      "rider": "maverick-vinales",
+      "points": 17
+    },
+    {
+      "position": 24,
+      "rider": "augusto-fernandez",
+      "points": 6
+    },
+    {
+      "position": 25,
+      "rider": "pol-espargaro",
+      "points": 5
+    },
+    {
+      "position": 26,
+      "rider": "somkiat-chantra",
+      "points": 3
+    },
+    {
+      "position": 27,
+      "rider": "takaaki-nakagami",
+      "points": 3
+    },
+    {
+      "position": 28,
+      "rider": "jake-dixon",
+      "points": 2
+    },
+    {
+      "position": 29,
+      "rider": "cal-crutchlow",
+      "points": 0
+    },
+    {
+      "position": 30,
+      "rider": "jonas-folger",
+      "points": 0
+    },
+    {
+      "position": 31,
+      "rider": "lorenzo-savadori",
+      "points": 0
+    },
+    {
+      "position": 32,
+      "rider": "michele-pirro",
+      "points": 0
+    },
+    {
+      "position": 33,
+      "rider": "aleix-espargaro",
+      "points": 0
+    }
+  ]
+}

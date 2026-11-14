@@ -1,0 +1,18 @@
+{
+  "teams": [
+    { "name": "Ducati Lenovo Team" },
+    { "name": "BK8 Gresini Racing MotoGP", "variants": ["Gresini Racing MotoGP"] },
+    { "name": "SuperFile Trackhouse MotoGP Team", "variants": ["Superfile Trackhouse MotoGP Team", "Trackhouse MotoGP Team"] },
+    { "name": "Pertamina Enduro VR46 Racing Team" },
+    { "name": "Red Bull KTM Factory Racing", "variants": ["Red Bull KTM Factory"] },
+    { "name": "Monster Energy Yamaha MotoGP Team" },
+    { "name": "Honda HRC Castrol" },
+    { "name": "Castrol Honda LCR" },
+    { "name": "Pro Honda LCR" },
+    { "name": "Aprilia Racing" },
+    { "name": "Red Bull KTM Tech3" },
+    { "name": "Prima Pramac Yamaha MotoGP" },
+    { "name": "Honda HRC Test Team", "variants": ["Honda HRC"] },
+    { "name": "Yamaha Factory Racing Team", "variants": ["Yamaha Factory Racing"] }
+  ]
+}

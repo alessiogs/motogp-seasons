@@ -166,6 +166,19 @@ describe('2025 MotoGP', () => {
   });
 });
 
+describe('2026 MotoGP (in progress)', () => {
+  it('has 20 Rounds so far, Australia with its Sprint only, and M. Márquez 431, Martín 371 and Bezzecchi 357 after Qatar', () => {
+    const season = getSeason('motogp', 2026)!;
+    const steps = computeReplay(season);
+    expect(season.rounds).toHaveLength(20);
+    expect(steps).toHaveLength(39);
+    expect(steps.filter((s) => s.roundNumber === 18).map((s) => s.sessionType)).toEqual(['sprint']);
+    expect(steps.at(-1)!.standings.slice(0, 3).map((r) => [r.riderId, r.points])).toEqual([
+      ['marc-marquez', 431], ['jorge-martin', 371], ['marco-bezzecchi', 357],
+    ]);
+  });
+});
+
 describe('1976 500cc', () => {
   const season = () => getSeason('500cc', 1976)!;
 
