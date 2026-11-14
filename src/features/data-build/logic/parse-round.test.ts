@@ -62,6 +62,17 @@ Qualifying was conducted on 25 August 2018.
   });
 });
 
+describe('parseRound for a Grand Prix not raced yet', () => {
+  it('has no Round to load for a redirect to the season article', () => {
+    expect(parseRound(21, '2026 Portuguese motorcycle Grand Prix', 2026, "{{Motorsport season\n|year = 2026\n}}\nThe '''2026 FIM MotoGP World Championship''' is...", riderId, 'motogp')).toBeNull();
+  });
+
+  it('has no Round to load for a stub whose infobox has no winner yet', () => {
+    const stub = '{{Infobox Grand Prix motorcycle race report\n| Grand Prix = Valencian\n| Date = 22 November\n|First_Rider_MotoGP         = \n}}\nThe race is scheduled.';
+    expect(parseRound(22, '2026 Valencian Community motorcycle Grand Prix', 2026, stub, riderId, 'motogp')).toBeNull();
+  });
+});
+
 describe('parseRound for a MotoGP Round filed under "MotoGP classification"', () => {
   // Trimmed from the 2012 Dutch TT report article, a layout shared by 2010-2012 (and earlier):
   // the classification is a top-level "MotoGP classification" heading with no "Race" parent.

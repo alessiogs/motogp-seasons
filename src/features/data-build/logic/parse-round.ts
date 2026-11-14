@@ -36,7 +36,10 @@ export function parseRound(
     ?? tables.find((t) => /^MotoGP(&nbsp;|\s)+classification$/i.test(t.path[0]));
   // A cancelled Grand Prix has no classification: the Round is left for a hand-written Non-championship round.
   if (!raceTable && /\b(?:race|Grand Prix)\b[^.]*\b(?:was|and subsequently) cancelled\b/.test(stripMarkup(text.split(/^==/m)[0]))) return null;
-  if (!raceTable) throw new Error(`${title}: no MotoGP race classification found`);
+  // A Grand Prix not raced yet (the season is in progress): its article is a redirect to the season article or a stub with no results.
+  if (!raceTable && !sprintTable && (!/Infobox Grand Prix motorcycle race report/i.test(text) || /^\|[ \t]*First_Rider_MotoGP[ \t]*=[ \t]*$/m.test(text))) return null;
+  // A Sprint held but the Sunday Grand Prix race cancelled (2026 Australia): the Round keeps its Sprint alone, noted by hand.
+  if (!raceTable && !sprintTable) throw new Error(`${title}: no MotoGP race classification found`);
 
   const sessions = [];
   if (sprintTable) {
@@ -46,10 +49,12 @@ export function parseRound(
       results: parseClassification(sprintTable.text, source, riderId),
     });
   }
-  sessions.push({
-    type: 'grand-prix-race', order: sessions.length + 1, date, pointsMultiplier: 1, notes: null,
-    results: parseClassification(raceTable.text, source, riderId),
-  });
+  if (raceTable) {
+    sessions.push({
+      type: 'grand-prix-race', order: sessions.length + 1, date, pointsMultiplier: 1, notes: null,
+      results: parseClassification(raceTable.text, source, riderId),
+    });
+  }
 
   return buildRound(number, title, infobox, date, sessions);
 }
